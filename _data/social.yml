@@ -1,0 +1,18 @@
+- name: Email
+  link: mailto:alexhg15@gmail.com
+  icon:
+    source: fa
+    name: fa-envelope
+    type: far
+- name: Research Gate
+  link: https://www.researchgate.net/profile/Alex_Hernandez-Garcia
+  icon:
+    source: ai
+    name: ai-researchgate-square
+    type: ai
+- name: Google Scholar
+  link: https://scholar.google.es/citations?user=f8vQCOAAAAAJ&hl=en
+  icon:
+    source: ai
+    name: ai-google-scholar-square
+    type: ai

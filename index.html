@@ -1,2 +1,14 @@
-Alex Hernandez-Garcia
-Coming soon...
+---
+layout: default
+title: Home
+---
+<div class="columns is-7 is-variable">
+  <div class="column is-two-thirds content">
+    <h1>{{ site.title }}</h1>
+    {% capture description %}{% include description.md %}{% endcapture %}
+    {{ description | markdownify }}
+    <h2>Email</h2>
+    <p>alexhg15@gmail.com</p>
+  </div>
+</div>
+

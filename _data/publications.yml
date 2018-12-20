@@ -1,0 +1,18 @@
+- title: Data augmentation instead of explicit regularization
+  authors:
+    - Alex Hernández-García
+    - Peter König
+  year: 2018
+  journal:  arXiv:1806.03852
+  link: https://arxiv.org/abs/1806.03852
+- title: Deep neural networks trained with heavier data augmentation learn features closer to representations in hIT
+  authors: 
+    - Alex Hernández-García
+    - Johannes Mehrer
+    - Nikolaus Kriegeskorte
+    - Peter König
+    - Tim C. Kietzmann
+  year: 2018
+  journal: Cognitive Computational Neuroscience (CCN)
+  link: https://ccneuro.org/Papers/ViewPapers.asp?PaperNum=1046
+
