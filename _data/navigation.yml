@@ -1,10 +1,10 @@
-- name: Projects
-  link: /projects.html
 - name: Publications
   link: /publications.html
+- name: Projects
+  link: /projects.html
 - name: CV
   link: /cv.html
 - name: Blog
   link: /blog.md
 - name: About me
-  link: /about.md
+  link: /about.html
