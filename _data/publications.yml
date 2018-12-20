@@ -1,13 +1,13 @@
 - title: Data augmentation instead of explicit regularization
   authors:
-    - Alex Hernández-García
+    - Alex Hernandez-Garcia
     - Peter König
   year: 2018
   journal:  arXiv:1806.03852
   link: https://arxiv.org/abs/1806.03852
 - title: Deep neural networks trained with heavier data augmentation learn features closer to representations in hIT
   authors: 
-    - Alex Hernández-García
+    - Alex Hernandez-Garcia
     - Johannes Mehrer
     - Nikolaus Kriegeskorte
     - Peter König
@@ -15,4 +15,63 @@
   year: 2018
   journal: Cognitive Computational Neuroscience (CCN)
   link: https://ccneuro.org/Papers/ViewPapers.asp?PaperNum=1046
+- title: Do deep nets really need weight decay and dropout?
+  authors: 
+    - Alex Hernandez-Garcia
+    - Peter König
+  year: 2018
+  journal: arXiv:1802.07042
+  link: https://arxiv.org/abs/1802.07042
+- title: Further advantages of data augmentation on convolutional neural networks
+  authors: 
+    - Alex Hernandez-Garcia
+    - Peter König
+  year: 2018
+  journal: International Conference on Artificial Neural Networks (ICANN)
+  link: https://link.springer.com/chapter/10.1007/978-3-030-01418-6_10
+  misc: Best Paper Award
+- title: "Emotion and attention: predicting electrodermal activity through video visual descriptors"
+  authors: 
+    - Alex Hernandez-Garcia
+    - Fernando Fernández-Martínez
+    - Fernando Díaz de María
+  year: 2017
+  journal: Int. Workshop on Affective Computing and Emotion Recognition (ACER)
+  link: https://www.researchgate.net/profile/Alex_Hernandez-Garcia/publication/318653700_Emotion_and_attention_predicting_electrodermal_activity_through_video_visual_descriptors/links/5a02dc7eaca2720df3cfad89/Emotion-and-attention-predicting-electrodermal-activity-through-video-visual-descriptors.pdf
+- title: Exploiting visual saliency for assessing the impact of car commercials upon viewers
+  authors: 
+    - Fernando Fernández-Martínez
+    - Alex Hernandez-Garcia
+    - Miguel Ángel Fernández-Torres
+    - Iván González-Díaz
+    - Álvaro García-Faura
+    - Fernando Díaz de María
+  year: 2017
+  journal: Multimedia Tools and Applications
+  link: https://link.springer.com/article/10.1007/s11042-017-5339-9
+- title: Comparing visual descriptors and automatic rating strategies for video aesthetics prediction
+  authors: 
+    - Alex Hernandez-Garcia
+    - Fernando Fernández-Martínez
+    - Fernando Díaz de María
+  year: 2016
+  journal: "Journal of Signal Processing: Image Communication"
+  link: http://www.sciencedirect.com/science/article/pii/S0923596516301035
+- title: Succeeding metadata based annotation scheme and visual tips for the automatic assessment of video aesthetic quality in car commercials
+  authors: 
+    - Fernando Fernández-Martínez
+    - Alex Hernandez-Garcia
+    - Fernando Díaz de María
+  year: 2015
+  journal: Internation Journal Expert Systems with Applications
+  link: http://www.sciencedirect.com/science/article/pii/S0957417414004400
+- title: Combining audio-visual features for viewers’ perception classification of Youtube car commercials
+  authors: 
+    - Fernando Fernández-Martínez
+    - Alex Hernandez-Garcia
+    - Ascensión Gallardo-Antolín
+    - Fernando Díaz de María
+  year: 2014
+  journal: Speech, Language and Audio in Multimedia (SLAM)
+  link: http://e-archivo.uc3m.es/handle/10016/21479#preview
 
