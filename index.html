@@ -10,8 +10,16 @@ title: Home
     <h2>Email</h2>
     <p>alexhg15@gmail.com</p>
   </div>
-  <div class="columns content">
-    <h2>News</h2>
+  <div class="column">
+    <div class="has-text-centered content">
+      <h2>News</h2>
+    </div>
+    <div class="has-text-left content">
+      {% for entry in site.news %}
+        <h4><a href"{{ entry.url }}">{{ entry.date | date_to_string }} - {{ entry.title }}</a></h4>
+        <p>{{ entry.excerpt | markdownify }}</p>
+      {% endfor %}
+    </div>
   </div>
 </div>
 
