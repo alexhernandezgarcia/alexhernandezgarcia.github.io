@@ -14,10 +14,13 @@ title: Home
     <div class="has-text-centered content">
       <h2>News</h2>
     </div>
-    <div class="has-text-left content">
       {% for entry in site.news %}
-        <h4><a href"{{ entry.url }}">{{ entry.date | date_to_string }} - {{ entry.title }}</a></h4>
-        <p>{{ entry.excerpt | markdownify }}</p>
+        <div class="has-text-centered content">
+          <h4><a href"{{ entry.url }}">{{ entry.date | date_to_string }} - {{ entry.title }}</a></h4>
+        </div>
+        <div class="has-text-left content">
+          <p>{{ entry.excerpt | markdownify }}</p>
+        </div>
       {% endfor %}
     </div>
   </div>
