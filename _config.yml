@@ -7,24 +7,24 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
+#
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
+#
 title: Alex Hernandez-Garcia
 email: alexhg15@gmail.com
 twitter_username: alexhrnndzgrc
 github_username:  alexhernandezgarcia
 description: I am a PhD student at the University of Osnabrück with Prof. Peter König, as a fellow of the Marie Sklodowska-Curie ITN NexGenVis. Before, I obtained my B.Sc and M.Sc. at the University Carlos III of Madrid and I have been a visiting PhD student at the University of Cambridge with Dr. Tim Kietzmann and at the Spinoza Center for Neuroimaging (Amsterdam) with Dr Serge Dumoulin. My main research focus is on brain-inspired deep learning and computational neuroscience. I believe that machine learning and neuroscience can highly benefit each other and my aim is exploring and exploiting these interactions.
-
+#
 # Collections
 collections:
   news:
     output: true
-
+#
 # Build settings
 markdown: kramdown
 plugins:
