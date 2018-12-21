@@ -27,5 +27,3 @@ collections:
 #
 # Build settings
 markdown: kramdown
-plugins:
-  - jekyll-feed
