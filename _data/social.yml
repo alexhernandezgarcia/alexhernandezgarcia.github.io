@@ -16,3 +16,9 @@
     source: ai
     name: ai-google-scholar-square
     type: ai
+- name: GitHub
+  link: https://github.com/alexhernandezgarcia
+  icon:
+    source: fa
+    name: fa-githb
+    type: far
