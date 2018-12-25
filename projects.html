@@ -2,7 +2,21 @@
 layout: page
 title: Projects
 ---
-<div class="content">
-    <p>Coming soon...</p>
-</div>
+{% comment %}
+{% assign projects = site.projects | reverse %}
+{% endcomment %}
+{% assign projects = site.projects | sort: 'order' | reverse %}
+{% for project in projects %}
+  <article class="media">
+    <div class="media-content">
+      <div class="content">
+      <p>
+      <b>{{ project.title }}</b>
+      {{ project.excerpt }}
+      <a href="{{ project.url }}"><em>Read more</em></a>
+      </p>
+      </div>
+    </div>
+  </article>
+{% endfor %}
   
