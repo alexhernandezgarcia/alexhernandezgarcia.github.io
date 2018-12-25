@@ -2,9 +2,6 @@
 layout: page
 title: Projects
 ---
-{% comment %}
-{% assign projects = site.projects | reverse %}
-{% endcomment %}
 {% assign projects = site.projects | sort: 'order' | reverse %}
 {% for project in projects %}
   <article class="media">
