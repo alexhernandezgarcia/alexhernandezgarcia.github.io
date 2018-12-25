@@ -24,6 +24,21 @@ description: I am a PhD student at the University of Osnabrück with Prof. Peter
 collections:
   news:
     output: true
+  projects:
+    output: true
+#
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "news"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
 #
 # Build settings
 markdown: kramdown
