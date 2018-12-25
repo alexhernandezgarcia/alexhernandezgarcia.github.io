@@ -16,7 +16,7 @@ title: Home
     </div>
       {% for entry in site.news %}
         <div class="has-text-centered content">
-          <h4><a href"{{ entry.url }}">{{ entry.date | date_to_string }} - {{ entry.title }}</a></h4>
+          <h4><a href="{{ entry.url }}">{{ entry.date | date_to_string }} - {{ entry.title }}</a></h4>
         </div>
         <div class="has-text-left content">
           <p>{{ entry.excerpt | markdownify }}</p>
