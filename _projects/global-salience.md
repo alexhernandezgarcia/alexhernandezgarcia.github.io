@@ -1,6 +1,7 @@
 ---
 title: Global salience of competing stimuli
 order: 20
+image: competing-stimuli.png
 ---
 This is a side project of my PhD, where we explore some aspects of human visual perception of competing stimuli. In particular, we investigate, through eye-tracking experiments and a computational model, what makes a visual stimulus more effective in attracting visual attention when presented next to a competing stimulus. We denote this the _global salience_ of a stimulus, in contrast to the local saliency of specific regions.
 

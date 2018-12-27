@@ -1,6 +1,7 @@
 ---
 title: Data augmentation instead of explicit regularization
 order: 40
+image: data-aug.png
 ---
 This is the main project of my PhD. I came up with the idea after linking several observations: 1) Data augmentation seemed to provide much larger generalization gains than weight decay or dropout. 2) Weight decay and dropout are very sensitive to tuning their hyperparameters. 3) The deep learning literature lacked a systematic analysis of how these techniques interact with each other. The main conclusion is that [weight decay and dropout seem unnecessary](https://arxiv.org/abs/1802.07042) and they can be safely replaced by [data augmentation](https://arxiv.org/abs/1806.03852).
 
