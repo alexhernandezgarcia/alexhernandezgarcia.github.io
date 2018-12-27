@@ -4,16 +4,11 @@ title: Projects
 ---
 {% assign projects = site.projects | sort: 'order' | reverse %}
 {% for project in projects %}
-  <article class="media">
-    <div class="media-content">
-      <div class="content">
-      <p>
-      <b>{{ project.title }}</b>
-      {{ project.excerpt }}
-      <a href="{{ project.url }}"><em>Read more</em></a>
-      </p>
-      </div>
-    </div>
-  </article>
+{% assign side = forloop.index | modulo: 2 %}
+  {% if side == 0 %}
+    {% include project-img-right.html %}
+  {% else %}
+    {% include project-img-left.html %}
+  {% endif %}
 {% endfor %}
   
