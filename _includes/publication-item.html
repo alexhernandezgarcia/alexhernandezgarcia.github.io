@@ -1,0 +1,24 @@
+<article class="media">
+	<div class="media-content">
+		<div class="content">
+		<p>
+		<em>{{ item.title }}</em>
+		. 
+		{% for author in item.authors %}
+		{% if author == site.title %}
+		<b>{{ author }}</b>, 	
+		{% else %}
+		{{ author }}, 
+		{% endif %}
+		{% endfor %}
+		{{ item.year }}
+		.
+		{{ item.journal }}
+		{% if item.misc %}
+		<b>{{ item.misc }}</b>
+		{% endif %}
+		<a class="tag" href="{{ item.link }}">paper</a>
+		</p>
+		</div>
+	</div>
+</article>
