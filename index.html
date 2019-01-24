@@ -14,7 +14,8 @@ title: Home
     <div class="has-text-centered content">
       <h2>News</h2>
     </div>
-      {% for entry in site.news %}
+      {% assign news = site.news | sort: 'date' | reverse %}
+      {% for entry in news %}
         <div class="has-text-centered content">
           <h4><a href="{{ entry.url }}">{{ entry.date | date_to_string }} - {{ entry.title }}</a></h4>
         </div>
