@@ -1,0 +1,9 @@
+---
+layout: page
+title: News
+---
+{% assign news = site.news | sort: 'date' | reverse %}
+{% for item in news %}
+  {% include news-item.html %}
+{% endfor %}
+  
