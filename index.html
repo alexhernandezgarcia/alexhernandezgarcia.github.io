@@ -4,11 +4,20 @@ title: Home
 ---
 <div class="columns is-7 is-variable">
   <div class="column is-two-thirds content">
-    <h1>{{ site.title }}</h1>
-    {% capture description %}{% include description.md %}{% endcapture %}
-    {{ description | markdownify }}
-    <h2>Email</h2>
-    <p>{{ site.email }}</p>
+    <div class="columns is-7 is-variable is-vcentered">
+      <div class="column is-one-third content">
+        <figure class="image">
+          <img src="/assets/images/alex-photo-filters.png">
+        </figure>
+      </div>
+      <div class="column">
+        <h1>{{ site.title }}</h1>
+        {% capture description %}{% include description.md %}{% endcapture %}
+        {{ description | markdownify }}
+        <h2>Email</h2>
+        <p>{{ site.email }}</p>
+      </div>
+    </div>
   </div>
   <div class="column">
     <div class="has-text-centered content">
