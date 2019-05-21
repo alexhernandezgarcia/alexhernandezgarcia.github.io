@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 #
 title: Alex Hernandez-Garcia
-email: alexhg15@gmail.com
-twitter_username: alexhrnndzgrc
+email: alexhdezgarcia@gmail.com
+twitter_username: alexhdezgcia
 github_username:  alexhernandezgarcia
 description: I am a PhD student at the University of Osnabrück with Prof. Peter König, as a fellow of the Marie Sklodowska-Curie ITN NexGenVis. Before, I obtained my B.Sc and M.Sc. at the University Carlos III of Madrid and I have been a visiting PhD student at the University of Cambridge with Dr. Tim Kietzmann and at the Spinoza Center for Neuroimaging (Amsterdam) with Dr Serge Dumoulin. My main research focus is on brain-inspired deep learning and computational neuroscience. I believe that machine learning and neuroscience can highly benefit each other and my aim is exploring and exploiting these interactions.
 #
