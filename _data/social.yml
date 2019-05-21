@@ -1,9 +1,17 @@
+# https://fontawesome.com/
+# https://jpswalsh.github.io/academicons/
 - name: Email
   link: mailto:alexhg15@gmail.com
   icon:
     source: fa
     name: fa-envelope
     type: far
+- name: Twitter
+  link: https://twitter.com/alexhdezgcia
+  icon:
+    source: fa
+    name: fa-twitter
+    type: fab
 - name: Research Gate
   link: https://www.researchgate.net/profile/Alex_Hernandez-Garcia
   icon:
