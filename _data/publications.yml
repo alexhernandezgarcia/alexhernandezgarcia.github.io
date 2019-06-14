@@ -1,3 +1,11 @@
+- title: Learning robust visual representations using data augmentation invariance
+  authors:
+    - Alex Hernandez-Garcia
+    - Peter König
+    - Tim C. Kietzmann
+  year: 2019
+  journal:  arXiv:1906.04547
+  link: https://arxiv.org/abs/1906.04547
 - title: Data augmentation instead of explicit regularization
   authors:
     - Alex Hernandez-Garcia
