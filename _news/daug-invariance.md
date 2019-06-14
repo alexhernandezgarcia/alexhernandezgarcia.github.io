@@ -1,6 +1,6 @@
 ---
 date: 2019-06-14
-title: New pre-print: Data Augmentation Invariance
+title: Data Augmentation Invariance
 layout: page
 ---
 We have just uploaded to arXiv a new pre-print, ["Learning robust visual representations using data augmentation invariance"](https://arxiv.org/abs/1907.04547). We first demonstrate that typical CNNs are remarkably sensitive to the common transformations of data augmentation. Second, taking inspiration from the invariance of the visual cortex to identity-preserving transformations, we add a loss term to the objective function that successfully learns more robust features.
