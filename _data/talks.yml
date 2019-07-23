@@ -17,3 +17,22 @@
   city: Athens
   country: Greece
   link: https://www.iit.demokritos.gr/group/biohit
+- title: On the advantages of data augmentation for deep learning and computational neuroscience
+  year: 2019
+  month: February
+  where: Neural Dynamics of Visual Cognition Lab, Freie Universität Berlin
+  city: Berlin
+  country: Germany
+- title: "Data augmentation: undervalued advantages for deep learning and computational neuroscience"
+  year: 2019
+  month: June
+  where: Cognitive Neuroscience Center, University Medical Center Groningen
+  city: Groningen
+  country: Netherlands
+- title: "Data augmentation: an alternative to explicit regularization and other undervalued advantages"
+  year: 2019
+  month: July
+  where: Berlin Machine Learning Meetup
+  city: Berlin
+  country: Germany
+  link: https://www.meetup.com/berlin-machine-learning/events/256401029
