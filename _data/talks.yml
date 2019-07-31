@@ -36,3 +36,10 @@
   city: Berlin
   country: Germany
   link: https://www.meetup.com/berlin-machine-learning/events/256401029
+- title: "More than more data: undervalued advantages of data augmentation for deep learning and computational neuroscience"
+  year: 2019
+  month: July
+  where: Neural Information Processing Group, University of Tübingen
+  city: Tübingen
+  country: Germany
+  link: https://uni-tuebingen.de/en/faculties/faculty-of-science/departments/computer-science/lehrstuehle/neural-information-processing/news/newsfullview-aktuell/article/alex-hernandez-will-give-a-talk-at-nip-on-30072019
