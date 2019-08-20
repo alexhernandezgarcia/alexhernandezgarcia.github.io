@@ -1,11 +1,11 @@
 # https://fontawesome.com/
 # https://jpswalsh.github.io/academicons/
-- name: Email
-  link: mailto:alexhg15@gmail.com
+- name: Google Scholar
+  link: https://scholar.google.es/citations?user=f8vQCOAAAAAJ&hl=en
   icon:
-    source: fa
-    name: fa-envelope
-    type: far
+    source: ai
+    name: ai-google-scholar-square
+    type: ai
 - name: Twitter
   link: https://twitter.com/alexhdezgcia
   icon:
@@ -18,15 +18,21 @@
     source: ai
     name: ai-researchgate-square
     type: ai
-- name: Google Scholar
-  link: https://scholar.google.es/citations?user=f8vQCOAAAAAJ&hl=en
-  icon:
-    source: ai
-    name: ai-google-scholar-square
-    type: ai
 - name: GitHub
   link: https://github.com/alexhernandezgarcia
   icon:
     source: fa
     name: fa-github
     type: fab
+- name: Stack Overflow
+  link: https://stackoverflow.com/users/6194082/alexhg
+  icon:
+    source: fa
+    name: fa-stack-overflow
+    type: fab
+- name: Email
+  link: mailto:alexhg15@gmail.com
+  icon:
+    source: fa
+    name: fa-envelope
+    type: far
