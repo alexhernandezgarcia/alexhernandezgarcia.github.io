@@ -50,3 +50,16 @@
   city: Osnabrück
   country: Germany
   link: https://www.youtube.com/watch?v=FEWmpLO2mmg
+- title: "Data augmentation for improved regularization and invariance learning"
+  year: 2019
+  month: November
+  where: Department of Brain and Cognitive Engineering, Korea University
+  city: Seoul
+  country: Republic of Korea
+- title: "Learning representational invariance instead of categorization"
+  year: 2019
+  month: November
+  where: International Conference on Computer Vision (ICCV), Workshop on pre-registration in Computer Vision
+  city: Seoul
+  country: Republic of Korea
+  link: https://preregister.vision

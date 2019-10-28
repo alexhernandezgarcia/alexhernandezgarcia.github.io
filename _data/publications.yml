@@ -1,3 +1,10 @@
+- title: Learning representational invariance instead of categorization
+  authors:
+    - Alex Hernandez-Garcia
+    - Peter König
+  year: 2019
+  journal: International Conference on Computer Vision (ICCV), Workshop on pre-registration in Computer Vision
+  link:http://openaccess.thecvf.com/content_ICCVW_2019/papers/PreReg/Hernandez-Garcia_Learning_Representational_Invariance_Instead_of_Categorization_ICCVW_2019_paper.pdf
 - title: Global visual salience of competing stimuli
   authors:
     - Alex Hernandez-Garcia
