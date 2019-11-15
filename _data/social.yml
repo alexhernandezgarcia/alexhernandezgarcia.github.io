@@ -1,7 +1,7 @@
 # https://fontawesome.com/
 # https://jpswalsh.github.io/academicons/
 - name: Google Scholar
-  link: https://scholar.google.es/citations?user=f8vQCOAAAAAJ&hl=en
+  link: https://scholar.google.com/citations?user=f8vQCOAAAAAJ&hl=en
   icon:
     source: ai
     name: ai-google-scholar-square
