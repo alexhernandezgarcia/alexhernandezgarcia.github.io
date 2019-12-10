@@ -49,7 +49,8 @@
   where: Computational Cognition
   city: Osnabrück
   country: Germany
-  link: https://www.youtube.com/watch?v=FEWmpLO2mmg
+  link: http://www.comco2019.com/#agenda
+  video: https://www.youtube.com/watch?v=FEWmpLO2mmg
 - title: "Data augmentation for improved regularization and invariance learning"
   year: 2019
   month: November
@@ -63,3 +64,4 @@
   city: Seoul
   country: Republic of Korea
   link: https://preregister.vision
+  video: https://www.youtube.com/watch?v=FxECzWLaDgo&list=PLB2hvs7du3_es4SDqS0dqLTkkjxqXSqQn&index=7&t=218s
