@@ -2,4 +2,6 @@ I am a last-year PhD student at the University of Osnabrück and [EyeQuant](http
 
 My main research focus is on brain-inspired deep learning and computational neuroscience. I believe that machine learning and neuroscience can highly benefit each other and my aim is exploring and exploiting these interactions.
 
-I am currently looking for a postdoc position at a lab where I can keep working on computational neuroscience and machine learning.
+Besides my research, I am a strong proponent of Open Science and I try to contribute to it with my actions and by getting involved in discussions about how to make science more open, reproducible, transparent and have less impact on the environment.
+
+I am currently looking for a postdoc position at a lab where I can keep working on machine learning and computational neuroscience.
