@@ -65,3 +65,18 @@
   country: Republic of Korea
   link: https://preregister.vision
   video: https://www.youtube.com/watch?v=FxECzWLaDgo&list=PLB2hvs7du3_es4SDqS0dqLTkkjxqXSqQn&index=7&t=218s
+- title: "Data augmentation invariance for learning robust visual representations"
+  year: 2020
+  month: March
+  where: neuromatch 2020 1.0
+  city: Online
+  country: The Internet
+  link: https://neuromatch.io/
+- title: "Learning robust visual representations using data augmentation invariance"
+  year: 2020
+  month: April
+  where: International Conference on Learning Representations (ICLR), Workshop on Bridging AI and Cognitve Science (BAICS)
+  city: Online
+  country: The Internet
+  link: https://baicsworkshop.github.io/
+  video: https://baicsworkshop.github.io/program/baics_3.html
