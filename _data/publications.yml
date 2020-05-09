@@ -1,3 +1,14 @@
+- title: A machine learning pipeline to predict vegetation health
+  authors:
+    - Thomas Lees
+    - Gabriel Tseng
+    - Alex Hernandez-Garcia
+    - Clement Atzberger
+    - Simon Dadson
+    - Steven Reece
+  year: 2020
+  journal: International Conference on Learning Representations (ICLR), Workshop on Tackling climate change with machine learning
+  link: https://www.climatechange.ai/papers/iclr2020/4/paper.pdf
 - title: Learning representational invariance instead of categorization
   authors:
     - Alex Hernandez-Garcia
