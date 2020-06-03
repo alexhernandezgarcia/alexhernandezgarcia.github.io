@@ -76,7 +76,22 @@
   year: 2020
   month: April
   where: International Conference on Learning Representations (ICLR), Workshop on Bridging AI and Cognitve Science (BAICS)
-  city: Online
-  country: The Internet
+  city: <del>Addis Ababa</del>Online
+  country: <del>Ethiopia</del>The Internet
   link: https://baicsworkshop.github.io/
   video: https://baicsworkshop.github.io/program/baics_3.html
+- title: "Learning robust visual representations using data augmentation invariance"
+  year: 2020
+  month: May
+  where: UNIQUE Student Symposium
+  city: <del>Montreal</del>Online
+  country: <del>Quebec, Canada</del>The Internet
+  link: https://www.bonjourstartupmtl.ca/en/evenement/unique-student-symposium-2020/
+  video: https://www.crowdcast.io/e/uss2020/4
+- title: "Learning robust visual representations using data augmentation invariance"
+  year: 2020
+  month: June
+  where: Berlin Machine Learning Seminar
+  city: <del>Berlin</del>Online
+  country: <del>Germany</del>The Internet
+  link: http://berlin-machine-learning-seminar.org/
