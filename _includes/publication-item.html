@@ -2,8 +2,7 @@
 	<div class="media-content">
 		<div class="content">
 		<p>
-		<em>{{ item.title }}</em>
-		. 
+		<em>{{ item.title }}</em>. 
 		{% for author in item.authors %}
 		{% if author == site.title %}
 		<b>{{ author }}</b>, 	
@@ -11,8 +10,7 @@
 		{{ author }}, 
 		{% endif %}
 		{% endfor %}
-		{{ item.year }}
-		.
+		{{ item.year }}.
 		{{ item.journal }}
 		{% if item.misc %}
 		<b>{{ item.misc }}</b>
