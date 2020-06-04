@@ -2,9 +2,7 @@
 	<div class="media-content">
 		<div class="content">
 		<p>
-		<em>{{ item.title }}</em>. 
-    {{ item.where }}, {{ item.city }} ({{ item.country }}). {{ item.month }} {{ item.year }}
-    {% if item.link %}
+    {{ item.month }} {{ item.year }}. <b>{{ item.where }}</b>, {{ item.city }} ({{ item.country }}). <em>{{ item.title }}</em>. {% if item.link %}
       <a class="tag" href="{{ item.link }}">link</a>
 		{% endif %}
     {% if item.video %}
