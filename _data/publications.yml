@@ -1,3 +1,9 @@
+- title: "Rethinking supervised learning: insights from biological learning and from calling it by its name"
+  authors:
+    - Alex Hernandez-Garcia
+  year: 2020
+  journal: Neural Information Processing Systems (NeurIPS), Workshop on Shared visual representations between humans and machines (SVRHM)
+  link: https://openreview.net/forum?id=TtlTPau3Cgo
 - title: A machine learning pipeline to predict vegetation health
   authors:
     - Thomas Lees
@@ -98,7 +104,7 @@
     - Alex Hernandez-Garcia
     - Fernando Díaz de María
   year: 2015
-  journal: Internation Journal Expert Systems with Applications
+  journal: International Journal Expert Systems with Applications
   link: http://www.sciencedirect.com/science/article/pii/S0957417414004400
 - title: Combining audio-visual features for viewers’ perception classification of Youtube car commercials
   authors: 
