@@ -8,5 +8,7 @@
   link: /blog.html
 - name: News
   link: /news.html
+- name: Resources
+  link: /resources/publication-venues-ml.html
 - name: About me
   link: /about.html

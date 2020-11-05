@@ -1,0 +1,400 @@
+# ---
+# TODO: 
+# - Registration fees of conferences
+# - Twitter
+# - Wikipedia
+# ELLIS list: https://ellis.eu/members
+# MILA list: https://docs.google.com/document/d/1u4zRobsaIsixfaX_dEiKAIbhlL_urRGg2IIEi9fRa3I/edit
+# ---
+- name: NeurIPS
+  fullname: Conference on Neural Information Processing Systems
+  type: conference
+  website: https://neurips.cc/
+  twitter: https://twitter.com/neuripsconf
+  wikipedia: https://en.wikipedia.org/wiki/Conference_on_Neural_Information_Processing_Systems
+  not-for-profit: True
+  open-access: True
+  topics:
+    - machine learning
+    - computational neuroscience
+  fees: 
+    - type: registration
+      fee: 100
+      currency: USD
+      source: https://neurips.cc/Conferences/2020/Pricing2
+      date-seen: 2020.11.05
+  sort: 10
+
+- name: ICML
+  fullname: International Conference on Machine Learning
+  type: conference
+  website: https://icml.cc/
+  twitter: https://twitter.com/icmlconf
+  wikipedia: https://en.wikipedia.org/wiki/International_Conference_on_Machine_Learning
+  not-for-profit: True
+  open-access: True
+  topics:
+    - machine learning
+  fees: 
+    - type: registration
+      fee: 100
+      currency: USD
+      source: https://icml.cc/Conferences/2020/Pricing2
+      date-seen: 2020.11.05
+  sort: 20
+
+- name: ICLR
+  fullname: International Conference on Learning Representations
+  type: conference
+  website: https://iclr.cc/
+  twitter: https://twitter.com/iclr_conf
+  wikipedia: https://en.wikipedia.org/wiki/International_Conference_on_Learning_Representations
+  not-for-profit: True
+  open-access: True
+  topics:
+    - deep learning
+  sort: 30
+
+- name: AISTATS
+  fullname: International Conference on Artificial Intelligence and Statistics
+  type: conference
+  website: http://aistats.org/aistats2021/
+  open-access: True
+  topics:
+    - artificial intelligence
+    - machine learning
+    - statistics
+  sort: 35
+
+- name: COLT
+  fullname: Conference on Learning Theory
+  type: conference
+  website: http://aistats.org/aistats2021/
+  open-access: True
+  topics:
+    - learning theory
+    - machine learning
+  sort: 37
+
+- name: CVPR
+  fullname: Conference on Computer Vision and Pattern Recognition
+  type: conference
+  website: http://cvpr2021.thecvf.com/
+  twitter: https://twitter.com/cvpr?lang=en
+  wikipedia: https://en.wikipedia.org/wiki/Conference_on_Computer_Vision_and_Pattern_Recognition
+  not-for-profit: True
+  publisher: IEEE
+  open-access: True
+  topics:
+    - computer vision
+  sort: 110
+
+- name: ICCV
+  fullname: International Conference on Computer Vision
+  type: conference
+  website: http://iccv2021.thecvf.com/
+  wikipedia: https://en.wikipedia.org/wiki/International_Conference_on_Computer_Vision
+  not-for-profit: True
+  publisher: IEEE
+  open-access: True
+  topics:
+    - computer vision
+  sort: 120
+
+- name: WACV
+  fullname: Workshop on Applications of Computer Vision
+  type: conference
+  website: http://wacv2021.thecvf.com/
+  not-for-profit: True
+  publisher: IEEE
+  open-access: True
+  topics:
+    - computer vision
+  sort: 130
+
+- name: ECCV
+  fullname: European Conference on Computer Vision
+  type: conference
+  website: https://eccv2020.eu/
+  twitter: https://twitter.com/eccvconf?lang=en
+  wikipedia: https://en.wikipedia.org/wiki/European_Conference_on_Computer_Vision
+  not-for-profit: False
+  publisher: Springer
+  open-access:
+    - author-version
+  topics:
+    - computer vision
+  fees: 
+    - type: registration
+      fee: 175
+      currency: USD
+      source: https://eccv2020.eu/registration/
+      date-seen: 2020.11.05
+  sort: 210
+
+- name: MICCAI
+  fullname: International Conference on Medical Image Computing and Computer Assisted Intervention
+  type: conference
+  website: https://miccai2021.org
+  not-for-profit: True
+  publisher: The MICCAI Society
+  open-access: unknown
+  topics:
+    - medical imaging
+  sort: 220
+
+- name: TPAMI
+  fullname: IEEE Transactions on Pattern Analysis and Machine Intelligence
+  type: journal
+  website: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34
+  not-for-profit: True
+  publisher: IEEE
+  open-access:
+    - hybrid
+    - author-pays
+  fees: 
+    - type: open-access
+      fee: 2995
+      currency: USD
+      source: https://open.ieee.org/index.php/about-ieee-open-access/faqs/
+      date-seen: 2020.11.05
+    - type: page
+      fee: 220
+      currency: USD
+      source: https://www.computer.org/overlength-submission-policy
+      date-seen: 2020.11.05
+  topics:
+    - computer vision
+    - machine learning
+  sort: 300
+
+- name: IEEE T-MI
+  fullname: IEEE Transactions on Medical Imaging
+  type: journal
+  website: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42
+  not-for-profit: True
+  publisher: IEEE
+  open-access:
+    - hybrid
+    - author-pays
+  fees: 
+    - type: open-access
+      fee: 1750
+      currency: USD
+      source: https://open.ieee.org/index.php/about-ieee-open-access/faqs/#waivers
+      date-seen: 2020.11.05
+    - type: page
+      fee: 110
+      currency: USD
+      source: https://s3-us-west-2.amazonaws.com/clarivate-scholarone-prod-us-west-2-s1m-public/wwwRoot/prod1/societyimages/tmi-ieee/tmi-cover3-2226650-x.pdf
+      date-seen: 2020.11.05
+  topics:
+    - medical imaging
+  sort: 510
+
+- name: IJCV
+  fullname: International Journal of Computer Vision
+  type: journal
+  website: https://www.springer.com/journal/11263
+  wikipedia: https://en.wikipedia.org/wiki/International_Journal_of_Computer_Vision
+  not-for-profit: False
+  publisher: Springer
+  open-access:
+    - hybrid
+    - author-pays
+  topics:
+    - computer vision
+  sort: 310
+
+- name: CVIU
+  fullname: Computer Vision and Image Understanding
+  type: journal
+  website: https://www.journals.elsevier.com/computer-vision-and-image-understanding
+  not-for-profit: False
+  publisher: Elsevier
+  open-access: 
+    - hybrid
+    - author-pays
+  fees: 
+    - type: open-access
+      fee: 2300
+      currency: USD
+      source: https://www.elsevier.com/journals/computer-vision-and-image-understanding/1077-3142/open-access-options
+      date-seen: 2020.11.05
+  topics:
+    - computer vision
+  sort: 320
+
+- name: ACM FAccT
+  fullname: ACM Conference on Fairness, Accountability, and Transparency
+  type: journal
+  website: https://facctconference.org/
+  not-for-profit: True
+  publisher: ACM
+  open-access: unknown
+  topics:
+    - computer science
+  sort: 230
+
+- name: JMLR
+  fullname: Journal of Machine Learning Research
+  type: journal
+  website: https://www.jmlr.org/
+  wikipedia: https://en.wikipedia.org/wiki/Journal_of_Machine_Learning_Research
+  not-for-profit: True
+  publisher: JMLR Inc.
+  open-access: True
+  topics:
+    - machine learning
+  sort: 40
+
+- name: MLSys
+  fullname: Conference on Machine Learning and Systems
+  type: conference
+  website: https://mlsys.org/
+  not-for-profit: unknown
+  open-access: True
+  topics:
+    - machine learning
+  sort: 50
+
+- name: AAAI
+  fullname: AAAI Conference on Artificial Intelligence
+  type: conference
+  website: https://aaai.org/Conferences/AAAI-20/
+  not-for-profit: unknown
+  organizer: Association for the Advancement of Artificial Intelligence
+  open-access: 
+  fees: 
+    - type: registration
+      fee: 1140
+      currency: USD
+      source: https://aaai.org/Conferences/AAAI-20/registration/
+      date-seen: 2020.11.05
+  topics:
+    - artificial intelligence
+  sort: 60
+
+- name: UAI
+  fullname: Conference on Uncertainty in Artificial Intelligence
+  type: conference
+  website: http://auai.org/uai2020/index.php
+  not-for-profit: True
+  organizer: Association for Uncertainty in Artificial Intelligence 
+  open-access: True
+  fees: 
+    - type: registration
+      fee: 600
+      currency: USD
+      source: http://www.auai.org/uai2019/registration.php
+      date-seen: 2020.11.05
+  topics:
+    - machine learning
+  sort: 70
+
+- name: IJCAI
+  fullname: International Joint Conferences on Artificial Intelligence
+  type: conference
+  website: https://ijcai-21.org/
+  not-for-profit: True
+  open-access: True
+  topics:
+    - artificial intelligence
+  sort: 65
+
+- name: Information and Inference
+  fullname: "Information and Inference: a Journal of the IMA"
+  type: journal
+  website: https://academic.oup.com/imaiai
+  not-for-profit: False
+  publisher: Oxford University Press
+  open-access: 
+    - hybrid
+    - author-pays
+  fees: 
+    - type: open-access
+      fee: 3634
+      currency: USD
+      source: https://academic.oup.com/journals/pages/open_access/charges
+      date-seen: 2020.11.05
+  topics:
+    - mathematically-oriented data science 
+  sort: 330
+
+- name: Distill
+  fullname: Distill
+  type: journal
+  website: https://distill.pub/
+  twitter: https://twitter.com/distillpub
+  not-for-profit: True
+  open-access: True
+  topics:
+    - machine learning
+  sort: 45
+
+- name: SIMODS
+  fullname: SIAM Journal on Mathematics of Data Science
+  type: journal
+  website: https://www.siam.org/publications/journals/siam-journal-on-mathematics-of-data-science-simods
+  not-for-profit: True
+  publisher: Society for Industrial and Applied Mathematics
+  open-access: 
+    - hybrid
+    - author-pays
+  fees: 
+    - type: open-access
+      fee: 2750
+      currency: USD
+      source: https://www.siam.org/publications/journals/related/journal-policies/detail/open-access
+      date-seen: 2020.11.05
+  topics:
+    - mathematically-oriented data science 
+  sort: 250
+
+- name: SIIMS
+  fullname: SIAM Journal on Imaging Sciences
+  type: journal
+  website: https://www.siam.org/publications/journals/siam-journal-on-imaging-sciences-siims
+  not-for-profit: True
+  publisher: Society for Industrial and Applied Mathematics
+  open-access: 
+    - hybrid
+    - author-pays
+  fees: 
+    - type: open-access
+      fee: 2750
+      currency: USD
+      source: https://www.siam.org/publications/journals/related/journal-policies/detail/open-access
+      date-seen: 2020.11.05
+  topics:
+    - imaging science
+  sort: 350
+
+#- name: 
+#  fullname: 
+#  type: conference
+#  website: 
+#  twitter: 
+#  wikipedia:
+#  not-for-profit: 
+#  open-access: 
+#  topics:
+#    - 
+#
+#- name: 
+#  fullname: 
+#  type: journal
+#  website: 
+#  twitter: 
+#  wikipedia:
+#  not-for-profit: 
+#  publisher: 
+#  open-access: 
+#  fees: 
+#    - type: open-access
+#      fee: 
+#      currency: 
+#      source: 
+#      date-seen: 
+#  topics:
+#    - 
