@@ -252,7 +252,7 @@
   fullname: Conference on Machine Learning and Systems
   type: conference
   website: https://mlsys.org/
-  not-for-profit: unknown
+  not-for-profit: True
   open-access: True
   topics:
     - machine learning
