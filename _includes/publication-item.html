@@ -5,7 +5,7 @@
 		<em>{{ item.title }}</em>. 
 		{% for author in item.authors %}
 		{% if author == site.title %}
-		<b>{{ author }}</b>, 	
+      <b>{{ author }}</b>, 	
 		{% else %}
 		{{ author }}, 
 		{% endif %}
@@ -13,9 +13,17 @@
 		{{ item.year }}.
 		{{ item.journal }}
 		{% if item.misc %}
-		<b>{{ item.misc }}</b>
+      <b>{{ item.misc }}</b>
 		{% endif %}
-		<a class="tag" href="{{ item.link }}">paper</a>
+    {% if item.tags %}
+      {% for tag in item.tags %}
+        {% if tag.link %}
+          <a class="tag" href="{{ tag.link }}">{{ tag.tag }}</a>
+        {% else %}
+          <span class="tag">{{ tag.tag }}</span>
+        {% endif %}
+      {% endfor %}
+		{% endif %}
 		</p>
 		</div>
 	</div>
