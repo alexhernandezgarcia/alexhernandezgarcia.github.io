@@ -5,6 +5,7 @@
 # - Wikipedia
 # ELLIS list: https://ellis.eu/members
 # MILA list: https://docs.google.com/document/d/1u4zRobsaIsixfaX_dEiKAIbhlL_urRGg2IIEi9fRa3I/edit
+# CVPR list: CVPR, ICCV, ECCV, AAAI, IJCAI, NeurIPS, ACL, SIGIR, WWW, RSS, NAACL, KDD, IROS, ICRA, ICML, EMNLP, EC, AAMAS, HCOMP, HRI, ICAPS, ICDM, ICLR, ICWSM, IUI, KR, SAT, WSDM, UAI, AISTATS, COLT, CORL, CP, CPAIOR, ECAI, OR ECML
 # ---
 - name: NeurIPS
   fullname: Conference on Neural Information Processing Systems
@@ -369,6 +370,23 @@
   topics:
     - imaging science
   sort: 350
+
+- name: "Machine Learning: Science and Technology"
+  fullname: "Machine Learning: Science and Technology"
+  type: journal
+  website: https://iopscience.iop.org/journal/2632-2153
+  not-for-profit: True
+  publisher: IOP Publisher
+  open-access: True
+  fees: 
+    - type: open-access
+      fee: 0 
+      currency: USD
+      source: https://iopscience.iop.org/journal/2632-2153/page/publication-charges
+      date-seen: 2020.11.12
+  topics:
+    - machine learning
+  sort: 32
 
 #- name: 
 #  fullname: 
