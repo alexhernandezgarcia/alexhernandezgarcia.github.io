@@ -19,6 +19,8 @@
   tags:
     - tag: PDF
       link: https://www.climatechange.ai/papers/iclr2020/4/paper.pdf
+    - tag: code
+      link: https://github.com/ml-clim/drought-prediction
 - title: Learning representational invariance instead of categorization
   authors:
     - Alex Hernandez-Garcia
@@ -28,6 +30,8 @@
   tags:
     - tag: PDF
       link: http://openaccess.thecvf.com/content_ICCVW_2019/papers/PreReg/Hernandez-Garcia_Learning_Representational_Invariance_Instead_of_Categorization_ICCVW_2019_paper.pdf
+    - tag: code
+      link: https://github.com/alexhernandezgarcia/data-aug-invariance/
 - title: Global visual salience of competing stimuli
   authors:
     - Alex Hernandez-Garcia
@@ -41,6 +45,8 @@
       link: https://psyarxiv.com/z7qp5/
     - tag: Journal of Vision
       link: https://jov.arvojournals.org/article.aspx?articleid=2770513
+    - tag: code
+      link: https://github.com/alexhernandezgarcia/global-salience
     - tag: Twitter
       link: https://twitter.com/alexhdezgcia/status/1307971963206410240
 - title: Learning robust visual representations using data augmentation invariance
@@ -53,6 +59,8 @@
   tags:
     - tag: arXiv
       link: https://arxiv.org/abs/1906.04547
+    - tag: code
+      link: https://github.com/alexhernandezgarcia/data-aug-invariance/
     - tag: BAICS @ ICLR 2020
       link: https://baicsworkshop.github.io/program/baics_3.html
     - tag: Video
@@ -66,6 +74,8 @@
   tags:
     - tag: arXiv
       link: https://arxiv.org/abs/1806.03852
+    - tag: code
+      link: https://github.com/alexhernandezgarcia/data-aug-invariance/
 - title: Deep neural networks trained with heavier data augmentation learn features closer to representations in hIT
   authors: 
     - Alex Hernandez-Garcia
@@ -87,6 +97,8 @@
   tags:
     - tag: arXiv
       link: https://arxiv.org/abs/1802.07042
+    - tag: code
+      link: https://github.com/alexhernandezgarcia/data-aug-invariance/
 - title: Further advantages of data augmentation on convolutional neural networks
   authors: 
     - Alex Hernandez-Garcia
@@ -96,6 +108,8 @@
   tags:
     - tag: arXiv
       link: https://arxiv.org/abs/1906.11052
+    - tag: code
+      link: https://github.com/alexhernandezgarcia/data-aug-invariance/
   misc: Best Paper Award
 - title: "Emotion and attention: predicting electrodermal activity through video visual descriptors"
   authors: 
