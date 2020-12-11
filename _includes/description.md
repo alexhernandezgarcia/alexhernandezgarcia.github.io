@@ -3,3 +3,5 @@ In November 2020 I defended [PhD thesis]({{ site.url }}/thesis.pdf) at the Unive
 My main research focus is on brain-inspired deep learning and computational neuroscience. I believe that machine learning and neuroscience can highly benefit each other and my aim is exploring and exploiting their synergies.
 
 Besides my research, I am a strong proponent of open science in the broadest sense, and I try to contribute to it with my actions and by getting involved in discussions about how to make science more inclusive, open, reproducible, transparent and have less impact on the environment.
+
+I use the [pronouns _he/him/his_](http://pronoun.is/he).
