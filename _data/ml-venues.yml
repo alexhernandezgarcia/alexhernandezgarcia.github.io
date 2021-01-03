@@ -121,6 +121,23 @@
   wikipedia: https://en.wikipedia.org/wiki/European_Conference_on_Computer_Vision
   not-for-profit: False
   publisher: Springer
+  open-access: False
+  topics:
+    - developmental learning
+  fees: 
+    - type: registration
+      fee: 600
+      currency: USD
+      source: https://icdl-2021.org/registration/
+      date-seen: 2021.01.03
+  sort: 210
+
+- name: ICDL
+  fullname: IEEE International Conference on Development and Learning
+  type: conference
+  website: https://icdl-2021.org/
+  not-for-profit: True
+  publisher: IEEE
   open-access:
     - author-version
   topics:
@@ -131,7 +148,7 @@
       currency: USD
       source: https://eccv2020.eu/registration/
       date-seen: 2020.11.05
-  sort: 210
+  sort: 215
 
 - name: MICCAI
   fullname: International Conference on Medical Image Computing and Computer Assisted Intervention
