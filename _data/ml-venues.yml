@@ -186,6 +186,19 @@
     - machine learning
   sort: 300
 
+- name: FtN in Machine Learning
+  fullname: Foundations and Trends in Machine Learning
+  type: journal
+  website: https://www.nowpublishers.com/MAL
+  not-for-profit: False
+  publisher: now publishers
+  open-access:
+    - hybrid
+    - author-pays
+  topics:
+    - machine learning
+  sort: 400
+
 - name: IEEE T-MI
   fullname: IEEE Transactions on Medical Imaging
   type: journal
