@@ -95,3 +95,33 @@
   city: <del>Berlin</del>Online
   country: <del>Germany</del>The Internet
   link: http://berlin-machine-learning-seminar.org/
+- title: "Global visual salience of competing stimuli"
+  year: 2020
+  month: October
+  where: neuromatch 2020 3.0
+  city: Online
+  country: The Internet
+  link: https://neuromatch.io/abstract?submission_id=recKU5GuQPzPATy8w
+  video: https://www.youtube.com/watch?v=-FgfaKbesGc
+- title: "Data augmentation and image understanding"
+  year: 2020
+  month: November
+  where: Machine Learning Research Group, University of Guelph
+  city: <del>Guelph</del>Online
+  country: <del>Ontario, Canada</del>The Internet
+- title: "More than more: Insights from data augmentation for deep learning and computational neuroscience"
+  year: 2020
+  month: November
+  where: Brain & Cognitive Society, IIT Kanpur
+  city: <del>Kanpur</del>Online
+  country: <del>India</del>The Internet
+  link: https://bcs-iitk.github.io/journal-club/2020/11/15/More-Than-More-Data.html
+  video: https://www.youtube.com/watch?v=i-uOkSR5ku8
+- title: "Global visual salience of competing stimuli"
+  year: 2020
+  month: December
+  where: AFC Lab Talk Series, hosted by Meike Ramon
+  city: Online
+  country: The Internet
+  link: http://www.meikeramon.com/afc-lab-talk-series/
+  video: https://youtu.be/-4_uVMTQyFY
