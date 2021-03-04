@@ -21,6 +21,7 @@
       link: https://www.climatechange.ai/papers/iclr2020/4/paper.pdf
     - tag: code
       link: https://github.com/ml-clim/drought-prediction
+  misc: Spotlight
 - title: Learning representational invariance instead of categorization
   authors:
     - Alex Hernandez-Garcia
