@@ -58,6 +58,8 @@
   year: 2019
   journal: arXiv:1906.04547
   tags:
+    - tag: OpenReview
+      link: https://openreview.net/forum?id=B1elqkrKPH
     - tag: arXiv
       link: https://arxiv.org/abs/1906.04547
     - tag: code
