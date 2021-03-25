@@ -1,7 +1,1 @@
-I am a postdoctoral researcher at [Mila - Quebec Artificial Intelligence Institute](https://mila.quebec/), in Montreal, with [Prof. Yoshua Bengio](https://yoshuabengio.org/), since December 2020. I defended my [PhD thesis]({{ site.url }}/thesis.pdf) in 2020 at the University of Osnabrück, which I started in 2016 with [Prof. Peter König](https://portal.ikw.uni-osnabrueck.de/~NBP/PeterKoenig.html), as a fellow of the Marie Sklodowska-Curie ITN [NexGenVis](https://www.nextgenvis.eu). I obtained my B.Sc and M.Sc. at the [University Carlos III of Madrid](https://www.uc3m.es/Home) and I have been a visiting PhD student at the University of Cambridge with [Dr. Tim Kietzmann](http://www.timkietzmann.de/) and at the Spinoza Center for Neuroimaging with [Dr. Serge Dumoulin](http://www.spinozacentre.nl/dumoulin/).
-
-At Mila, I am working on projects to fight climate change using machine learning, such as an educational tool to [visualise the effects of climate change](https://mila.quebec/en/ai-society/visualizing-climate-change/) on real photos. More broadly, I am also interested on brain-inspired deep learning and computational neuroscience. I believe that machine learning and neuroscience can highly benefit each other and my aim is exploring and exploiting their synergies.
-
-Besides my research, I am a strong proponent of open science in the broadest sense, and I try to contribute to it with my actions and by getting involved in discussions about how to make science more inclusive, open, reproducible, transparent and have less impact on the environment.
-
-I use the [pronouns _he/him/his_](http://pronoun.is/he).
+Unique Student Symposium 2021 is going to be great!
