@@ -13,44 +13,43 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Alex Hernandez-Garcia
-tagline: Machine learning and computational neuroscience
-email: alexhdezgarcia@gmail.com
-twitter_username: alexhdezgcia
-github_username:  alexhernandezgarcia
+title: Unique Student Symposium 2021
+tagline: Unique Student Symposium 2021
+email: alejandro.hernandez.garcia@umontreal.ca
+twitter_username: ai_unique
+github_username: uss2021
 twitter:
-  - username: alexhdezgcia
-description: In November 2020 I defended PhD thesis at the University of Osnabrück. I started my PhD in 2016 with Prof. Peter König, as a fellow of the Marie Sklodowska-Curie ITN NexGenVis. I obtained my B.Sc and M.Sc. at the University Carlos III of Madrid and I have been a visiting PhD student at the University of Cambridge with Dr. Tim Kietzmann and at the Spinoza Center for Neuroimaging with Dr. Serge Dumoulin. My main research focus is on brain-inspired deep learning and computational neuroscience. I believe that machine learning and neuroscience can highly benefit each other and my aim is exploring and exploiting their synergies.
-author: Alex Hernandez-Garcia
-url: https://alexhernandezgarcia.github.io
+  - username: ai_unique
+description: Unique Student Symposium 2021 - description
+author: Unique Student Symposium 2021 - author
+url: https://uss2021.github.io
 logo: /assets/images/logo1.png
 
 # Reading Files
 include:
   - _pages
-  - _posters
 
 # Collections
-collections:
-  news:
-    output: true
-    permalink: /:collection/:path/
-  projects:
-    output: true
-    permalink: /:collection/:path/
+# collections:
+#   collection1:
+#     output: true
+#     permalink: /:collection/:path/
+#   collection2:
+#     output: true
+#     permalink: /:collection/:path/
 
 # Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "news"
-    values:
-      layout: "page"
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "page"
+# defaults:
+#   - scope:
+#       path: ""
+#       type: "collection1"
+#     values:
+#       layout: "page"
+#   - scope:
+#       path: ""
+#       type: "collection1"
+#     values:
+#       layout: "page"
 
 # Build settings
 markdown: kramdown

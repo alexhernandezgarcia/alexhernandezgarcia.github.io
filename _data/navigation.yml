@@ -1,14 +1,8 @@
-- name: Publications
-  link: /publications.html
-- name: Projects
-  link: /projects.html
-- name: CV
-  link: /cv.html
-- name: Blog
-  link: /blog.html
-- name: News
-  link: /news.html
-- name: Resources
-  link: /resources/publication-venues-ml.html
-- name: About me
+- name: Speakers
+  link: /speakers.html
+- name: Schedule
+  link: /schedule.html
+- name: Organizers
+  link: /organizers.html
+- name: About
   link: /about.html
