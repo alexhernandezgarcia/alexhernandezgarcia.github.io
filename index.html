@@ -2,24 +2,9 @@
 layout: main
 title: Home
 ---
-<div class="columns is-7 is-variable">
-  <div class="column is-two-thirds content">
-    <div class="columns is-7 is-variable is-vcentered">
-      <div class="column is-one-third content">
-      </div>
-      <div class="column">
-        <h1>{{ site.title }}</h1>
-        {% capture description %}{% include description.md %}{% endcapture %}
-        {{ description | markdownify }}
-        <h2>Email</h2>
-        <p>{{ site.email }}</p>
-      </div>
-    </div>
-  </div>
-  <div class="column">
-    <div class="has-text-centered content">
-      <h2>Header</h2>
-    </div>
-  </div>
+<div class="container">
+  <h1 class="title">{{ site.title }}</h1>
+  {% capture description %}{% include description.md %}{% endcapture %}
+  {{ description | markdownify }}
 </div>
 
