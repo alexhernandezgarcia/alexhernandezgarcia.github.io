@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Unique Student Symposium 2021 - title
-tagline: Unique Student Symposium 2021 - tagline
+title: Unique Student Symposium 2021
+tagline: Unique Student Symposium 2021
 email: alejandro.hernandez.garcia@umontreal.ca
 twitter_username: ai_unique
 github_username: uss2021
