@@ -1,1 +1,1 @@
-Unique Student Symposium 2021 is going to be great!
+7th and 8th of June 2021
