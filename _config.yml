@@ -22,7 +22,8 @@ twitter:
   - username: ai_unique
 description: Unique Student Symposium 2021 - description
 author: Unique Student Symposium 2021 - author
-url: https://uss2021.github.io
+baseurl: ""
+url: ""
 logo: /assets/images/logo1.png
 
 # Reading Files
