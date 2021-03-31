@@ -1,5 +1,6 @@
 ---
 layout: page
+title: USS 2021
 hero_image: ./assets/img/network-372248.png
 ---
 <div class="container">
