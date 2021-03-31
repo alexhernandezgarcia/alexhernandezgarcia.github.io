@@ -58,3 +58,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag 
+
+# Theme: Bulma Clean Theme
+theme: bulma-clean-theme

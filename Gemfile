@@ -21,3 +21,6 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-seo-tag'
 end
+
+# Theme: Bulma Clean Theme
+gem "bulma-clean-theme"
