@@ -1,8 +1,10 @@
 ---
-layout: page
 title: Schedule
+subtitle: 7-8 June, 2021
+layout: page
+show_sidebar: false
+# hero_height: is-small
 permalink: /schedule
 ---
-<div class="content">
-    <p>Coming soon...</p>
-</div>
+{% capture content %}{% include schedule.md %}{% endcapture %}
+{{ content | markdownify }}

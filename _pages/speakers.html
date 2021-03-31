@@ -1,8 +1,11 @@
 ---
-layout: page
 title: Speakers
+subtitle:
+layout: page
+toc: true
+show_sidebar: false
+# hero_height: is-small
 permalink: /speakers
 ---
-<div class="content">
-    <p>Coming soon...</p>
-</div>
+{% capture content %}{% include speakers.md %}{% endcapture %}
+{{ content | markdownify }}
