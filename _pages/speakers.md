@@ -1,5 +1,5 @@
 ---
-title: 2021 Speakers
+title: Speakers
 subtitle:
 layout: page
 toc: true

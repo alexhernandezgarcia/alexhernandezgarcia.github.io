@@ -1,5 +1,5 @@
 ---
-title: Unique Student Symposium 2021 Schedule
+title: Schedule
 subtitle: 7-8 June, 2021
 layout: page
 show_sidebar: false
