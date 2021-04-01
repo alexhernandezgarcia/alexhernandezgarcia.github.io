@@ -47,7 +47,7 @@ defaults:
       type: "pages"
     values:
       layout: page
-      hero_image: ./assets/img/network-372248.png
+      hero_image: ./assets/img/network-372248-grad.png
 
 # defaults:
 #   - scope:
