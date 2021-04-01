@@ -1,7 +1,7 @@
 ---
 layout: page
 title: USS 2021
-hero_image: ./assets/img/network-372248.png
+subtitle: Unifying Neuroscience and Artificial Intelligence in Quebec (UNIQUE) - Student Symposium
 ---
 <div class="container">
   <h1 class="title">{{ site.title }}</h1>
