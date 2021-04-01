@@ -40,6 +40,15 @@ include:
 #     permalink: /:collection/:path/
 
 # Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
+      hero_image: ./assets/img/network-372248.png
+
 # defaults:
 #   - scope:
 #       path: ""
@@ -62,3 +71,4 @@ plugins:
 # Theme: Bulma Clean Theme
 # theme: bulma-clean-theme
 remote_theme: chrisrhymes/bulma-clean-theme
+
