@@ -60,4 +60,5 @@ plugins:
   - jekyll-seo-tag 
 
 # Theme: Bulma Clean Theme
-theme: bulma-clean-theme
+# theme: bulma-clean-theme
+remote_theme: chrisrhymes/bulma-clean-theme
