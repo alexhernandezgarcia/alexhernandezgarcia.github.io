@@ -1,0 +1,15 @@
+---
+layout: page
+title: Team
+permalink: /team
+---
+{% assign people = site.data.bios | sample: site.data.bios.size %}
+{% for person in people %}
+  {% assign side = forloop.index0 | modulo: 2 %}
+    {% if side == 0 %}
+      {% include bios-left.html %}
+    {% else %}
+      {% include bios-right.html %}
+    {% endif %}
+{% endfor %}
+  
