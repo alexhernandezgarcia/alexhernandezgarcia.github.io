@@ -1,13 +1,13 @@
 ---
 title: Playground
-subtitle: Ayuno
+subtitle: Ayuno Nakahashi
 layout: page
 ---
-# The playground of {{ page.subtitle }}
+# The super-playground of {{ page.subtitle }}!!
 
 This is a dummy page on the website of [USS 2021](https://uss2021.github.io/) for you to play around. Feel free to modify the content and use it for `git` and GitHub tests.
 
-## Intro to Markdown
+### Intro to Markdown
 
 This page is written with [Markdown](https://en.wikipedia.org/wiki/Markdown). Markdwon is a _markup language_, which means that it is a system for writing text alongside other information which is readable by a computer. Other markup languages are [HTML](https://en.wikipedia.org/wiki/HTML) and [XML](https://en.wikipedia.org/wiki/Extensible_Markup_Language). However, Markdown is _lightweight_ which means that the annotations are fairly simple and the overall result is easily readable. 
 
