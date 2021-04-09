@@ -31,10 +31,10 @@ include:
   - _pages
 
 # Collections
-# collections:
-#   collection1:
-#     output: true
-#     permalink: /:collection/:path/
+collections:
+  playground:
+    output: true
+    permalink: /:collection/:path/
 #   collection2:
 #     output: true
 #     permalink: /:collection/:path/
