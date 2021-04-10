@@ -3,7 +3,7 @@ title: Playground
 subtitle: Marie-Eve
 layout: page
 ---
-# The playground of {{ page.subtitle }}
+# The playground of {{ page.subtitle }}Picard
 
 This is a dummy page on the website of [USS 2021](https://uss2021.github.io/) for you to play around. Feel free to modify the content and use it for `git` and GitHub tests.
 
