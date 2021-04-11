@@ -1,0 +1,19 @@
+<div class="card">
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left">
+        <figure class="image is-128x128">
+					<img src="{{ person.photo }}">
+        </figure>
+      </div>
+      <div class="media-content">
+        <p class="title is-4">{{ person.fullname }}</p>
+        <p class="subtitle is-6">{{ person.pronouns }}</p>
+        <p class="subtitle is-5">{{ person.affiliation }}</p>
+      </div>
+    </div>
+    <div class="content">
+      {{ person.bio }}
+    </div>
+  </div>
+</div>

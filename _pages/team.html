@@ -7,9 +7,9 @@ permalink: /team
 {% for person in people %}
   {% assign side = forloop.index0 | modulo: 2 %}
     {% if side == 0 %}
-      {% include bios-left.html %}
+      {% include bios-card.html %}
     {% else %}
-      {% include bios-right.html %}
+      {% include bios-card.html %}
     {% endif %}
 {% endfor %}
   
