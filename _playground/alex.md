@@ -1,6 +1,6 @@
 ---
 title: Playground
-subtitle: Alex
+subtitle: Alex Hernandez-Garcia
 layout: page
 ---
 # The playground of {{ page.subtitle }}
