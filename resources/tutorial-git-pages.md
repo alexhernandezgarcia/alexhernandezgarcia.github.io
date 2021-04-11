@@ -5,19 +5,19 @@ redirect_from:
   - /tutorial-git.html
   - /tutorial-git
 ---
-# Intro to `git`
+# Intro to Git
 
-This is meant to be a quick introduction to `git`, GitHub, and particularly its use for creating and contributing to GitHub Pages. The Internet is full of amazing resources to learn this stuff, and I do not expect to do a better job here. This is just for me to be used when I teach it to others. Examples of resources online are the [official _try_ page on Github](https://try.github.io/) and the page [Git for collaborative documentation](https://cassgvp.github.io/github-for-collaborative-documentation/) by [Cassandra Gould van Praag](https://www.win.ox.ac.uk/people/cassandra-gould-van-praag), with whom I once did one tutorial. I will take a lot of inspiration from her here.
+This is meant to be a quick introduction to Git, GitHub, and particularly its use for creating and contributing to GitHub Pages. The Internet is full of amazing resources to learn this stuff, and I do not expect to do a better job here. This is just for me to be used when I teach it to others. Examples of resources online are the [official _try_ page on Github](https://try.github.io/) and the page [Git for collaborative documentation](https://cassgvp.github.io/github-for-collaborative-documentation/) by [Cassandra Gould van Praag](https://www.win.ox.ac.uk/people/cassandra-gould-van-praag), with whom I once did one tutorial. I will take a lot of inspiration from her here.
 
-## What is `git`?
+## What is Git?
 
-`git` is a [version control system](https://en.wikipedia.org/wiki/Version_control) (VSC)---another example of VSC is Subversion or SVN, which allows to efficiently manage the changes to software, websites, documents, etc. For example, by using a version control, it is possible to go back to older versions of the code or document, work on new features without touching the _official_ version and, crucially, collaborate with distributed teams.
+Git is a [version control system](https://en.wikipedia.org/wiki/Version_control) (VSC)---another example of VSC is Subversion or SVN, which allows to efficiently manage the changes to software, websites, documents, etc. For example, by using a version control, it is possible to go back to older versions of the code or document, work on new features without touching the _official_ version and, crucially, collaborate with distributed teams.
 
-GitHub (Github, Inc.) is the company---now a subsidiary of Microsoft, sadly---that manages and provides the internet service around `git`. GitHub Pages is a [_static web hosting service_](https://en.wikipedia.org/wiki/Static_web_page) offered and hosted by GitHub.
+GitHub (Github, Inc.) is the company---now a subsidiary of Microsoft, sadly---that manages and provides the internet service around Git. GitHub Pages is a [_static web hosting service_](https://en.wikipedia.org/wiki/Static_web_page) offered and hosted by GitHub.
 
-## Why learning and using `git`?
+## Why learning and using Git?
 
-This would make a long list, so let's name just a few reason:
+This would make a long list, so let's name just a few reasons:
 
 * To enable version control in our projects
 * To collaborate with fellows
@@ -26,7 +26,7 @@ This would make a long list, so let's name just a few reason:
 
 ## Basic commands and flow
 
-`git`---I will use _Git_ from now on---is a really powerful tool, which means that learning and understanding everything it offers is complicated. However, the basic functionality is relatively simple. My recommendation to someone learning Git for the first time would be to first learn the basics superficially and later on making the effort to understand the details in more depth.
+Git is a really powerful and flexible tool, which means that learning and understanding everything it offers can be complicated. However, the basic functionality is relatively simple. My recommendation to someone learning Git for the first time would be to first learn the basics superficially, practice with dummy repositories---as this tutorial will show---and later on making the effort to understand the details in more depth. Challenges will certainly arise as we use it in real applications, and these will be learning opportunities.
 
 ### Installation
 
@@ -42,7 +42,7 @@ Let's go hands on! Assuming you have a GitHub account, log in into your account,
 
 For now, copy the (HTTPS) link below _Quick setup_. For me, it is `https://github.com/alexhernandezgarcia/my-repo.git`
 
-### 2. `clone` the repository
+### 2. `git clone` the repository
 
 Now let's open a terminal, change directory to the location where you want to download the repository, clone it, and change into the new directory containing the repository:
 
@@ -97,9 +97,23 @@ You may be asked for your username and credentials at this point.
 
 Now the repository should be online! Go to your GitHub account and look for the URL of your repository. In my case, it is `https://github.com/alexhernandezgarcia/my-repo`
 
+### 8. `git pull`
+
+You have pushed your changes to the repository, and so may be doing your collaborators in a real application. If you want to _download_ the current state of the online repository, alongside its history, you have to _pull_ it:
+
+```
+git pull
+```
+
+It's good practice to pull the repository often enough, especially before commiting our changes. As a matter of fact, we will not be able to push our changes if our working directory is not up to date and Git will raise a warning.
+
 ## Branching
 
-Branches are a really important concept in Git. Branches allow us to keep the development of a project well organised, especially if more than one person is working on it. Every branch can be seen as path in which the project is developing. For example, one person may be working on the content of a website and would create a branch `content` for that; and another person may be working on changing the background colour and work on branch `background`. It is possible that some branches end up dead, not being useful for the project, and that's fine as long as they live indeed in separate branches. Usually, there is a branch to rule them all and it is typically called `master`. In GitHub pages, for instance, what we see online in the URL is the version of the branch `master`. At any point, the code in one development branch can be _merged_ into `master`. Let's see how all this works by playing with the website of [USS 2021](https://uss2021.github.io/).
+Branches are a really important concept in Git. Branches allow us to keep the development of a project well organised, especially if more than one person is working on it. Every branch can be seen as path in which the project is developing. For example, one person may be working on the content of a website and would create a branch `content` for that; and another person may be working on changing the background colour and work on branch `background`. It is possible that some branches end up dead, not being useful for the project, and that's fine as long as they live indeed in separate branches. Usually, there is a branch to rule them all and it is typically called `master`. In GitHub pages, for instance, what we see online in the URL is the version of the branch `master`. At any point, the code in one development branch can be _merged_ into `master`.
+
+[Learning git branching](https://learngitbranching.js.org/) is an interactive online tool for learning about branching and practising the concepts.
+
+Let's see how all this works by playing with the website of [USS 2021](https://uss2021.github.io/).
 
 ### 1. Clone the repository
 
@@ -134,3 +148,42 @@ git add your-name.md
 git commit -m "I played in the playground"
 git push
 ```
+
+It is possible that `git` may _complain_ because "the current branch has no upstream branch". That means that we have not yet set the _upstream_ branch---the location in the online, shared repository. If this is the case, it is safe to follow `git`'s suggestion:
+
+```
+git push --set-upstream origin my-branch
+```
+
+### 4. Pull request
+
+The changes we have just pushed belong to a separate branch `my-branch` that we created at the beginning in order to avoid working directly on the `master` branch. Whenever we are ready to incorporate our changes to the `master` branch, we can do it through a _pull request_. A pull request opens the process to merge one branch into another. Typically, after a pull request is open, someone in the team will review the changes to be merged, discuss potential issues and eventually merge the branches.
+
+To open a pull request, we can go to the URL of the repository on [GitHub](https://github.com/uss2021/uss2021.github.io), click on "branches", and on the right hand side of the branch we were working on under "Active branches" we can find "New pull request". In the next page, we have to make sure to correctlyset the desired "base repository" and branch---the target repository and branch to which we want to merge our branch---and "head repository"---the repository where we made our changes. We can further give a name and description to the pull request, and set the suitable revieweres so that they get notified.
+
+If the reviewers approve the pull request an merge it, our changes will become part of `master` and, if the project is a GitHub page, we will see our changes online!
+
+## To know more
+
+### `git diff`
+
+A very useful `git` command is `git diff`. It is very versatile, but one of the simplest use cases is the following:
+
+```
+git diff myfile
+```
+
+This will highlight in the terminal the parts of `myfile` that are different with respect to the last version.
+
+### Forking
+
+In the example above about branching, the workflow was `clone` &rarr; `branch` &rarr; `edit` &rarr; `push` &rarr; `pull request`. This will only work in the case we are _collaborators_ of the target repository. In general, we cannot `push` our changes to repositories we do not own, even though we create a new branch. This is the general case, typical of open source projects, for example. In this case, the workflow is slightly different: Instead of directly cloning the original repository, we have to first _fork_ it to our GitHub account. A fork is a copy of a repository at a particular moment of its development history. This is the beauty of open source projects: anyone can fork an open repository and continue the development of the project. After a fork, the new version may follow a completely separate path, and become a new project---for example, the website of USS 2021 was initially forked from [alexhernandezgarcia.github.io](https://alexhernandezgarcia.github.io/)---but it is also possible to create pull requests between forks, therefore merging features from one project into each other.
+
+In this case, the workflow is the following:
+
+1. Fork the repository you are interested in into your account.
+2. Clone the forked repository into your computer.
+3. Push changes into your copy (fork) of the repository. You can do this because you own your copy.
+4. Open a pull request to merge your branch into the original repository.
+5. Wait for the reviewers to review your changes, discuss possible issues, and merge into the target repository.
+
