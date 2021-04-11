@@ -4,8 +4,8 @@
     learning to fight climate change.
   email: alex.hernandez-garcia@mila.quebec
   fullname: Alex Hernandez-Garcia
-  photo: https://dl.airtable.com/.attachments/ec8bdf56c87a60264c374bb027f073da/75adbe43/alex_photo_800px.jpg
-  pronouns: "(he/him/\xE9l)"
+  photo: alex_hernandez-garcia.jpg
+  pronouns: "he/him/\xE9l"
   twitter: https://twitter.com/alexhdezgcia
   website: alexhernandezgarcia.github.io
 - affiliation: "Universit\xE9 de Montr\xE9al, CRIUGM, Projet Courtois NeuroMod"
@@ -17,39 +17,39 @@
     \ NeuroMod (CRIUGM)."
   email: eddy.fortier@umontreal.ca
   fullname: Eddy Fortier
-  photo: https://dl.airtable.com/.attachments/0a9b7701e0df6873b98ee4f43b7f4362/b3260999/Photo_1.JPG
+  photo: eddy_fortier.jpg
   pronouns: he/him
-  twitter: .nan
-  website: .nan
+  twitter: none
+  website: none
 - affiliation: "Universit\xE9 de Montr\xE9al"
   bio: "I am a Ph.D. student at Universit\xE9 de Montr\xE9al. I am studying how the\
     \ brain makes action decisions. I am interested in how the brain changes our behaviour\
     \ based on who is around, and why."
   email: a.nakahashi@umontreal.ca
   fullname: Ayuno Nakahashi
-  photo: https://dl.airtable.com/.attachments/a44bdfda9580e4b012be21d124297c9b/5fd9def6/20210405_AN_1.jpeg
+  photo: ayuno_nakahashi.jpg
   pronouns: she/her
   twitter: https://twitter.com/ayuno_n
-  website: .nan
+  website: none
 - affiliation: "Universit\xE9 de Montr\xE9al, CRIUGM"
   bio: "I am a master's student at Universit\xE9 de Montr\xE9al. I am interested in\
     \ the neural correlates of pain, and more broadly, in neuroimaging data analysis\
     \ techniques. "
   email: marie-eve.picard.2@umontreal.ca
   fullname: Marie-Eve Picard
-  photo: .nan
+  photo: none
   pronouns: she/her
-  twitter: .nan
-  website: .nan
+  twitter: none
+  website: none
 - affiliation: Mila, McGill
   bio: 'PhD student at Mila/McGill; interested in probabilistic generative models
     and their application in real world problems. '
   email: nazsepah@cim.mcgill.ca
   fullname: Nazanin Sepahvand
-  photo: https://dl.airtable.com/.attachments/1379ce71598d352b139717918e180e08/8a016150/profile.jpg
+  photo: nazanin_sepahvand.jpg
   pronouns: she/her/elle
   twitter: https://twitter.com/NazSepahvand
-  website: .nan
+  website: none
 - affiliation: "LIONlab, CHU Sainte-Justine Research Center, Universit\xE9 de Montr\xE9\
     al"
   bio: 'I am a Master''s student at the University of Montreal, currently doing my
@@ -60,10 +60,10 @@
     well and most of all, the intersection between the two. '
   email: laurence.petitpas@umontreal.ca
   fullname: Laurence Petitpas
-  photo: .nan
+  photo: none
   pronouns: she/her
-  twitter: .nan
-  website: .nan
+  twitter: none
+  website: none
 - affiliation: 'Concordia University '
   bio: I'm a PhD student in Emily Coffey's lab. I'm working on understanding how brain
     state affects sensory representation, exploring the function of sleep spindles,
@@ -71,20 +71,20 @@
     consolidation across the lifespan.
   email: hjourde.clasp@gmail.com
   fullname: Hugo Jourde
-  photo: https://dl.airtable.com/.attachments/981e74862bfdf2c87fe0c4aad8e05472/f4f8c9bd/HugoMug-300x300.png
-  pronouns: (he/him)
+  photo: hugo_jourde.jpg
+  pronouns: he/him
   twitter: https://twitter.com/HugoJourde
-  website: .nan
+  website: none
 - affiliation: McGill University, Mila
   bio: I am a Ph.D. student at McGill and Mila. I am fascinated by the fundamental
     principle of both biological and artificial intelligence. I build computational
     models of the brain, mainly with neural networks nowadays.
   email: xiaoxuan.lei@mail.mcgill.ca
   fullname: Xiaoxuan Lei
-  photo: https://dl.airtable.com/.attachments/88a12818958c09047822b6d36541d879/90f861eb/Xiaoxuan_photo_Nijmegen.jpeg
+  photo: xiaoxuan_lei.jpg
   pronouns: she/her
-  twitter: .nan
-  website: .nan
+  twitter: none
+  website: none
 - affiliation: McGill University
   bio: "I am a Master\u2019s student in the Integrated Program in Neuroscience at\
     \ McGill University. My research is on the application of machine learning for\
@@ -92,17 +92,17 @@
     \ am fascinated about the philosophy and neuroscience of (human) consciousness."
   email: Charlotte.Maschke@mail.mcgill.ca
   fullname: Charlotte Maschke
-  photo: https://dl.airtable.com/.attachments/4c65e259d0bccdb788e47c4b5098247d/81e3efea/Photo_Maschke.jpg
-  pronouns: (she/her)
+  photo: charlotte_maschke.jpg
+  pronouns: she/her
   twitter: https://twitter.com/CharlotteMaschk
-  website: .nan
+  website: none
 - affiliation: "Universit\xE9 de Montr\xE9al"
   bio: I am a master's student at the SIMEXP and Jacquemont labs, working on the impact
     of rare genetic mutations on functional connectivity and how it can help us understand
     psychiatric conditions.
   email: annabelle.harvey@umontreal.ca
   fullname: Annabelle Harvey
-  photo: https://dl.airtable.com/.attachments/22940268ec81adf140f29006fbaf3d64/7b149952/cropped-img.jpg
+  photo: annabelle_harvey.jpg
   pronouns: she/her/elle
-  twitter: .nan
-  website: .nan
+  twitter: none
+  website: none
