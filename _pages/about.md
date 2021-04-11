@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+subtitle: UNIQUE and USS
 permalink: /about
 ---
 ### About UNIQUE
