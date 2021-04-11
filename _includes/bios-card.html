@@ -9,11 +9,21 @@
       <div class="media-content">
         <p class="title is-4">{{ person.fullname }}</p>
         <p class="subtitle is-6">{{ person.pronouns }}</p>
-        <p class="subtitle is-5">{{ person.affiliation }}</p>
+        <p class="subtitle is-5">{{ person.committee }}</p>
+        <p class="subtitle is-6">{{ person.affiliation }}</p>
       </div>
     </div>
     <div class="content">
-      {{ person.bio }}
+      <p>{{ person.bio }}</p>
+      {% if person.email != "none" %}
+        <a class="tag">{{ person.email }}</a>
+      {% endif %}
+      {% if person.website != "none" %}
+        <a class="tag" href="{{ person.website }}">Website</a>
+      {% endif %}
+      {% if person.twitter != "none" %}
+        <a class="tag" href="{{ person.twitter }}">Twitter</a>
+      {% endif %}
     </div>
   </div>
 </div>

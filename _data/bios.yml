@@ -2,6 +2,7 @@
   bio: I am a postdoc at Mila. I am interested in the fundamental aspects of learning,
     both in brains and machines. I currently work also on applications of machine
     learning to fight climate change.
+  committee: Communication Committee
   email: alex.hernandez-garcia@mila.quebec
   fullname: Alex Hernandez-Garcia
   photo: alex_hernandez-garcia.jpg
@@ -15,6 +16,7 @@
     \ pollution's effects on perception and health (physical and mental). I'm currently\
     \ part of the auditory perception and protection branch of the Projet Courtois\
     \ NeuroMod (CRIUGM)."
+  committee: Logistics Committee
   email: eddy.fortier@umontreal.ca
   fullname: Eddy Fortier
   photo: eddy_fortier.jpg
@@ -25,6 +27,7 @@
   bio: "I am a Ph.D. student at Universit\xE9 de Montr\xE9al. I am studying how the\
     \ brain makes action decisions. I am interested in how the brain changes our behaviour\
     \ based on who is around, and why."
+  committee: Logistics Committee
   email: a.nakahashi@umontreal.ca
   fullname: Ayuno Nakahashi
   photo: ayuno_nakahashi.jpg
@@ -35,6 +38,7 @@
   bio: "I am a master's student at Universit\xE9 de Montr\xE9al. I am interested in\
     \ the neural correlates of pain, and more broadly, in neuroimaging data analysis\
     \ techniques. "
+  committee: Educational Committee
   email: marie-eve.picard.2@umontreal.ca
   fullname: Marie-Eve Picard
   photo: none
@@ -44,6 +48,7 @@
 - affiliation: Mila, McGill
   bio: 'PhD student at Mila/McGill; interested in probabilistic generative models
     and their application in real world problems. '
+  committee: Coordinator
   email: nazsepah@cim.mcgill.ca
   fullname: Nazanin Sepahvand
   photo: nazanin_sepahvand.jpg
@@ -58,6 +63,7 @@
     as well as in clinical populations such as premature babies and babies born asphyxiated.
     My research focuses primarily on neuroscience but I am very interested in AI as
     well and most of all, the intersection between the two. '
+  committee: Chair
   email: laurence.petitpas@umontreal.ca
   fullname: Laurence Petitpas
   photo: none
@@ -69,6 +75,7 @@
     state affects sensory representation, exploring the function of sleep spindles,
     and trying to characterize the role of spindle-slow-oscillation coupling in memory
     consolidation across the lifespan.
+  committee: Program Committee
   email: hjourde.clasp@gmail.com
   fullname: Hugo Jourde
   photo: hugo_jourde.jpg
@@ -79,6 +86,7 @@
   bio: I am a Ph.D. student at McGill and Mila. I am fascinated by the fundamental
     principle of both biological and artificial intelligence. I build computational
     models of the brain, mainly with neural networks nowadays.
+  committee: Communication Committee
   email: xiaoxuan.lei@mail.mcgill.ca
   fullname: Xiaoxuan Lei
   photo: xiaoxuan_lei.jpg
@@ -90,6 +98,7 @@
     \ McGill University. My research is on the application of machine learning for\
     \ the prediction of recovery of consciousness after traumatic brain injury. I\
     \ am fascinated about the philosophy and neuroscience of (human) consciousness."
+  committee: Educational Committee
   email: Charlotte.Maschke@mail.mcgill.ca
   fullname: Charlotte Maschke
   photo: charlotte_maschke.jpg
@@ -100,6 +109,7 @@
   bio: I am a master's student at the SIMEXP and Jacquemont labs, working on the impact
     of rare genetic mutations on functional connectivity and how it can help us understand
     psychiatric conditions.
+  committee: Program Committee
   email: annabelle.harvey@umontreal.ca
   fullname: Annabelle Harvey
   photo: annabelle_harvey.jpg
