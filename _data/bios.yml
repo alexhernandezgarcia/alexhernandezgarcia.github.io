@@ -7,6 +7,7 @@
   fullname: Alex Hernandez-Garcia
   photo: alex_hernandez-garcia.jpg
   pronouns: "he/him/\xE9l"
+  alttext: Alex has white skin, green eyes, a thick dark beard and dark long hair though with noticeable receding hairline.
   twitter: https://twitter.com/alexhdezgcia
   website: alexhernandezgarcia.github.io
 - affiliation: "Universit\xE9 de Montr\xE9al, CRIUGM, Projet Courtois NeuroMod"
@@ -20,6 +21,7 @@
   email: eddy.fortier@umontreal.ca
   fullname: Eddy Fortier
   photo: eddy_fortier.jpg
+  alttext: none
   pronouns: he/him
   twitter: none
   website: none
@@ -31,6 +33,7 @@
   email: a.nakahashi@umontreal.ca
   fullname: Ayuno Nakahashi
   photo: ayuno_nakahashi.jpg
+  alttext: Ayuno is an Asian woman with long dark hair and glasses.
   pronouns: she/her
   twitter: https://twitter.com/ayuno_n
   website: none
@@ -42,6 +45,7 @@
   email: marie-eve.picard.2@umontreal.ca
   fullname: Marie-Eve Picard
   photo: none
+  alttext: none
   pronouns: she/her
   twitter: none
   website: none
@@ -52,6 +56,7 @@
   email: nazsepah@cim.mcgill.ca
   fullname: Nazanin Sepahvand
   photo: nazanin_sepahvand.jpg
+  alttext: none
   pronouns: she/her/elle
   twitter: https://twitter.com/NazSepahvand
   website: none
@@ -67,6 +72,7 @@
   email: laurence.petitpas@umontreal.ca
   fullname: Laurence Petitpas
   photo: none
+  alttext: none
   pronouns: she/her
   twitter: none
   website: none
@@ -80,6 +86,8 @@
   fullname: Hugo Jourde
   photo: hugo_jourde.jpg
   pronouns: he/him
+  alttext: Hugo is a Caucasian male with longish brown hair assembled in something supposed to look like a man bun.
+  pronouns: he/him
   twitter: https://twitter.com/HugoJourde
   website: none
 - affiliation: McGill University, Mila
@@ -90,6 +98,7 @@
   email: xiaoxuan.lei@mail.mcgill.ca
   fullname: Xiaoxuan Lei
   photo: xiaoxuan_lei.jpg
+  alttext: none
   pronouns: she/her
   twitter: none
   website: none
@@ -103,6 +112,7 @@
   fullname: Charlotte Maschke
   photo: charlotte_maschke.jpg
   pronouns: she/her
+  alttext: none
   twitter: https://twitter.com/CharlotteMaschk
   website: none
 - affiliation: "Universit\xE9 de Montr\xE9al"
@@ -113,6 +123,7 @@
   email: annabelle.harvey@umontreal.ca
   fullname: Annabelle Harvey
   photo: annabelle_harvey.jpg
+  alttext: none
   pronouns: she/her/elle
   twitter: none
   website: none
