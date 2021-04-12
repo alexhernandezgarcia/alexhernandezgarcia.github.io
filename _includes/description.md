@@ -7,7 +7,7 @@ This year, USS will be held online, from June 7th to 8th, 2021 EDT.
 ---
 ## Monday, 7 June 2021
 - Keynote lectures
-- Lightning talks
+- Student Lightning talks
 - Panel discussion
 
 ## Tuesday, 8 June 2021
