@@ -7,3 +7,4 @@ vendor
 .bundle
 .cemetery
 Gemfile.lock
+assets/img/team/*_orig*
