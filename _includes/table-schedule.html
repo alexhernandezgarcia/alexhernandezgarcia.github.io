@@ -1,0 +1,18 @@
+<table>
+  <thead>
+    <tr>
+      <th>Time (EDT)</th>
+      <th>Event</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign schedule = site.data.schedule | where: "date", {{ include.date }} %}
+    {% assign schedule = schedule | sort: 'time_start' %}
+    {% for event in schedule %}
+        <tr>
+        <td><a href="https://www.timeanddate.com/worldclock/converter.html?iso={{ event.date }}T{{ event.time_start | split: ":" | first }}{{ event.time_start | split: ":" | last }}00">{{ event.time_start }}</a> - <a href="https://www.timeanddate.com/worldclock/converter.html?iso={{ event.date }}T{{ event.time_end | split: ":" | first }}{{ event.time_end | split: ":" | last }}00">{{ event.time_end }}</a></td>
+        <td>{{ event.name }}</td>
+        </tr>
+    {% endfor %}
+  </tbody>
+</table>

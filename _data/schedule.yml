@@ -1,47 +1,45 @@
-- day1:
-  - date: 20210607
-    time_start: 13:00
-    time_end: 13:15
-    name: Opening remarks
-  - date: 20210607
-    time_start: 13:15
-    time_end: 13:45
-    name: Keynote talk
-  - date: 20210607
-    time_start: 14:00
-    time_end: 14:15
-    name: Break
-  - date: 20210607
-    time_start: 14:15
-    time_end: 14:45
-    name: Lightning talks
-  - date: 20210607
-    time_start: 14:45
-    time_end: 15:00
-    name: Break
-  - date: 20210607
-    time_start: 15:00
-    time_end: 15:45
-    name: Keynote talk
-  - date: 20210607
-    time_start: 15:45
-    time_end: 16:00
-    name: Break
-  - date: 20210607
-    time_start: 16:00
-    time_end: 16:45
-    name: Panel discussion
-  - date: 20210607
-    time_start: 16:45
-    time_end: 17:00
-    name: Closing remarks
+- date: 20210607
+  time_start: "13:00"
+  time_end: "13:15"
+  name: Opening remarks
+- date: 20210607
+  time_start: "13:15"
+  time_end: "13:45"
+  name: Keynote talk
+- date: 20210607
+  time_start: "14:00"
+  time_end: "14:15"
+  name: Break
+- date: 20210607
+  time_start: "14:15"
+  time_end: "14:45"
+  name: Lightning talks
+- date: 20210607
+  time_start: "14:45"
+  time_end: "15:00"
+  name: Break
+- date: 20210607
+  time_start: "15:00"
+  time_end: "15:45"
+  name: Keynote talk
+- date: 20210607
+  time_start: "15:45"
+  time_end: "16:00"
+  name: Break
+- date: 20210607
+  time_start: "16:00"
+  time_end: "16:45"
+  name: Panel discussion
+- date: 20210607
+  time_start: "16:45"
+  time_end: "17:00"
+  name: Closing remarks
 
-- day2:
-  - date: 20210608
-    time_start: 13:00
-    time_end: 13:15
-    name: Opening remarks
-  - date: 20210608
-    time_start: 16:45
-    time_end: 17:00
-    name: Closing remarks
+- date: 20210608
+  time_start: "13:00"
+  time_end: "13:15"
+  name: Opening remarks
+- date: 20210608
+  time_start: "16:45"
+  time_end: "17:00"
+  name: Closing remarks
