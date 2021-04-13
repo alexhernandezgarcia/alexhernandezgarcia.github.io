@@ -6,7 +6,7 @@
     </tr>
   </thead>
   <tbody>
-    {% assign schedule = site.data.schedule | where: "date", {{ include.date }} %}
+    {% assign schedule = site.data.schedule | where: "date", include.date %}
     {% assign schedule = schedule | sort: 'time_start' %}
     {% for event in schedule %}
         <tr>

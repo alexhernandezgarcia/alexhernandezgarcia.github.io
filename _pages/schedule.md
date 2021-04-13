@@ -6,7 +6,7 @@ show_sidebar: false
 # hero_height: is-small
 permalink: /schedule
 ---
-The times shown in the schedule are in the local time in Quebec, that is Eastern Daylight Time. Click on the times to check your local time
+The times are Eastern Daylight Time (Quebec local time). Click on the times to check your local time.
 
 ## Monday, 7 June
 
