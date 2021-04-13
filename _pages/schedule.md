@@ -10,9 +10,13 @@ The times are Eastern Daylight Time (Quebec local time). Click on the times to c
 
 ## Monday, 7 June
 
+*(tentative schedule)*
+
 {% include table-schedule.html date="20210607" %}
 
 ## Tuesday, 8 June
+
+*(tentative schedule)*
 
 {% include table-schedule.html date="20210608" %}
 
