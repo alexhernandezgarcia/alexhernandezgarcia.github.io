@@ -43,10 +43,12 @@
   date: 20210608
   time_start: "13:15"
   time_end: "14:00"
+  session: breakout session
 - name: Intro to Machine Learning
   date: 20210608
   time_start: "13:15"
   time_end: "14:00"
+  session: workshop
 - name: Break
   date: 20210608
   time_start: "14:00"
@@ -55,10 +57,12 @@
   date: 20210608
   time_start: "14:15"
   time_end: "15:00"
+  session: workshop
 - name: Memory & Learning
   date: 20210608
   time_start: "14:15"
   time_end: "15:00"
+  session: breakout session
 - name: Break
   date: 20210608
   time_start: "15:00"
@@ -67,10 +71,12 @@
   date: 20210608
   time_start: "15:15"
   time_end: "16:00"
+  session: workshop
 - name: Decision Making
   date: 20210608
   time_start: "15:15"
   time_end: "16:00"
+  session: breakout session
 - name: Closing remarks
   date: 20210608
   time_start: "16:00"

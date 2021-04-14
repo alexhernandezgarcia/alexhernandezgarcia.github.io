@@ -1,4 +1,4 @@
-<table>
+<table class="table is-hoverable">
   <thead>
     <tr>
       <th>Time (EDT)</th>
@@ -11,7 +11,11 @@
     {% for event in schedule %}
         <tr>
         <td><a href="https://www.timeanddate.com/worldclock/converter.html?iso={{ event.date }}T{{ event.time_start | split: ":" | first }}{{ event.time_start | split: ":" | last }}00">{{ event.time_start }}</a> - <a href="https://www.timeanddate.com/worldclock/converter.html?iso={{ event.date }}T{{ event.time_end | split: ":" | first }}{{ event.time_end | split: ":" | last }}00">{{ event.time_end }}</a></td>
-        <td>{{ event.name }}</td>
+        {% if event.session %}
+          <td colspan="1">{{ event.name }} <span class="tag is-info is-light is-rounded">{{ event.session }}</span></td>
+        {% else %}
+          <td>{{ event.name }}</td>
+        {% endif %}
         </tr>
     {% endfor %}
   </tbody>
