@@ -5,35 +5,35 @@
 - name: Keynote talk
   date: 20210607
   time_start: "13:15"
-  time_end: "14:00"
-- name: Break
-  date: 20210607
-  time_start: "14:00"
   time_end: "14:15"
-- name: Lightning talks
+- name: Break
   date: 20210607
   time_start: "14:15"
-  time_end: "14:45"
-- name: Break
+  time_end: "14:30"
+- name: Lightning talks
   date: 20210607
-  time_start: "14:45"
+  time_start: "14:30"
   time_end: "15:00"
-- name: Keynote talk
+- name: Break
   date: 20210607
   time_start: "15:00"
-  time_end: "15:45"
+  time_end: "15:15"
+- name: Keynote talk
+  date: 20210607
+  time_start: "15:15"
+  time_end: "16:15"
 - name: Break
   date: 20210607
-  time_start: "15:45"
-  time_end: "16:00"
+  time_start: "16:15"
+  time_end: "16:30"
 - name: Panel discussion
   date: 20210607
-  time_start: "16:00"
-  time_end: "16:45"
+  time_start: "16:30"
+  time_end: "17:15"
 - name: Closing remarks
   date: 20210607
-  time_start: "16:45"
-  time_end: "17:00"
+  time_start: "17:15"
+  time_end: "17:30"
 
 - name: Opening remarks
   date: 20210608
