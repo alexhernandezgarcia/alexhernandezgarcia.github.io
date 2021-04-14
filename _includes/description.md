@@ -17,3 +17,7 @@ This year, USS will be held online, from June 7th to 8th, 2021 EDT.
 ## Tuesday, 8 June 2021
 - Educational Workshops
 - Neuro-AI Breakout Sessions
+---
+### Deadlines
+Registration: Friday, 8 May 2021  
+Lightning Talk Registraion: Friday, 14 May 2021
