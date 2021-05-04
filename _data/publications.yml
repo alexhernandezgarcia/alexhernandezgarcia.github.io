@@ -1,3 +1,33 @@
+- title: Computational methods for continuous eye-tracking perimetry based on spatio-temporal integration and a deep recurrent neural network
+  authors:
+    - Alessandro Grillini
+    - Alex Hernandez-Garcia
+    - Remco J. Renken
+    - Giorgia Demaria
+    - Frans W. Cornelissen
+  year: 2021
+  journal: Frontiers in Neuroscience
+  tags:
+    - tag: Frontiers in Neuroscience
+      link: https://www.frontiersin.org/articles/10.3389/fnins.2021.650540/full
+- title: Benchmark of data processing methods and machine learning models for gut microbiome-based diagnosis of inflammatory bowel disease
+  authors:
+    - Ryszard Kubinski
+    - Jean-Yves Djamen-Kepaou
+    - Timur Zhanabaev
+    - Alex Hernandez-Garcia
+    - Stefan Bauer
+    - Falk Hildebrand
+    - Tamas Korcsmaros
+    - Sani Karam
+    - Prevost Jantchou
+    - Kamran Kafi
+    - Ryan D. Martin
+  year: 2021
+  journal: bioRxiv
+  tags:
+    - tag: bioRxiv
+      link: https://www.biorxiv.org/content/10.1101/2021.05.03.442488v1
 - title: "Rethinking supervised learning: insights from biological learning and from calling it by its name"
   authors:
     - Alex Hernandez-Garcia
@@ -6,6 +36,8 @@
   tags:
     - tag: OpenReview
       link: https://openreview.net/forum?id=TtlTPau3Cgo
+    - tag: arXiv
+      link: https://arxiv.org/abs/2012.02526
 - title: A machine learning pipeline to predict vegetation health
   authors:
     - Thomas Lees
