@@ -4,4 +4,4 @@ At Mila, I am working on projects to fight climate change using machine learning
 
 Besides my research, I am a strong proponent of open science in the broadest sense, and I try to contribute to it with my actions and by getting involved in discussions about how to make science more inclusive, open, reproducible, transparent and have less impact on the environment.
 
-I use the [pronouns _he/him/his_](http://pronoun.is/he).
+I use the [pronouns _he/él_](http://pronoun.is/he).
