@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- 
+  See:
+  * https://github.com/neurodata/talks
+  * https://neurodata.io/talks/talkname.html
+  * https://remarkjs.com
+  * https://github.com/gnab/remark/wiki
+-->
+<html>
+
+<head>
+  <title>{{ page.title | strip_html }}</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../assets/fonts/gentona/gentona.css">
+  <link rel="stylesheet" href="../assets/css/slides_minimal.css">
+  <script type="text/javascript" src="../assets/plotly/plotly-latest.min.js"></script>
+  <style>
+
+    @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+		@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+		@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+    body {
+      font-family: 'Yanone Kaffeesatz'; /* Varela Round */
+      font-size: 1.0em;
+      color: #FFFFFF;
+    }
+
+    h1 {
+      font-family: 'Yanone Kaffeesatz';
+      font-weight: 400;
+      margin-bottom: 0;
+      color: #FFFFFF; 
+      text-align: center;
+    }
+
+    h2, h3, h4, h5, h6 {
+      font-family: 'Yanone Kaffeesatz';
+      font-weight: 400;
+      margin-bottom: 0;
+      color: #FFFFFF; /* headers font color */
+      text-align: left;
+    }
+
+		.footnote {
+			position: absolute;
+			bottom: 1em;
+			left: 2em;
+		}
+
+    .remark-slide-content {
+      font-size: 1.5em;
+      background: #37474F; /* slides background color */
+      color: #FFFFFF; /* main font color */
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+  </style>
+</head>
+
+<body>
+  <textarea id="source">
+
+{{ page.content }}
+
+	</textarea>
+  <!-- <script src="remark-latest.min.js"></script> -->
+  <!-- <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js"></script> -->
+  <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.3/katex.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.3/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.3/katex.min.css">
+  <script type="text/javascript">
+
+    // Aspect ratio
+    // var options = {ratio: "4:3"};
+    var options = {ratio: "16:9"};
+
+    // LaTeX
+    var renderMath = function () {
+      renderMathInElement(document.body);
+      // or if you want to use $...$ for math,
+      renderMathInElement(document.body, {
+        delimiters: [ // mind the order of delimiters(!?)
+          { left: "$$", right: "$$", display: true },
+          { left: "$", right: "$", display: false },
+          { left: "\\[", right: "\\]", display: true },
+          { left: "\\(", right: "\\)", display: false },
+        ]
+      });
+    }
+
+    remark.macros.scale = function (percentage) {
+      var url = this;
+      return '<img src="' + url + '" style="width: ' + percentage + '" />';
+    };
+
+    var slideshow = remark.create(options, renderMath);
+
+  </script>
+</body>
+
+<
