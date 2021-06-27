@@ -82,4 +82,46 @@ count: false
 
 .footnote[[LumeDeBiqueira.es](https://www.lumedebiqueira.es/en/)]
 
+---
 
+name: title
+class: title, middle
+
+## Rethinking (un-, semi-, self-, ...)supervised learning:
+### Insights from biological learning and from calling it by its name
+
+--
+
+.center[[![:scale 60%](../assets/images/slides/rethinksl/arxiv.png)](https://arxiv.org/abs/2012.02526)]
+
+.footnote[[arXiv:2012.02526](https://arxiv.org/abs/2012.02526)]
+
+---
+
+## What is this about?
+
+1. Time to temper the deep learning hype?
+2. Supervision in biological learning
+3. Supervision in machine learning
+
+---
+
+## TextBox
+### Directly HTML
+
+<span style="top:1em width:500px; height:100px; border:3px solid #FFFFFF;">This is the content box</span>
+
+---
+
+## TextBox
+#### With CSS
+
+.context[This is the content box and is pretty cool<br>because I can break the line too (?)]
+.conclusion[This is the content box and is pretty cool<br>because I can break the line too (?)]
+
+---
+
+## Columns
+
+.left-column[¿Por qué no existen las cosas y no la oscuridad del no ser?]
+.right-column[No te duermas sin sueño<br>no te pienses sin sangre<br>no te quedes sin labios<br>no te juzgues sin tiempo]

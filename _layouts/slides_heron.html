@@ -19,6 +19,14 @@
 		@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
 		@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 
+    .remark-slide-content {
+      font-size: 1.5em;
+      background: #37474F; /* slides background color */
+      color: #FFFFFF; /* main font color */
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
     body {
       font-family: 'Oswald';
       font-size: 1.0em;
@@ -36,6 +44,19 @@
       text-align: center;
     }
 
+    h3 {
+      margin-top: 0em;
+			font-size: 80%;
+			font-style: italic;
+    }
+
+    h4 {
+      margin-top: 0em;
+			font-size: 120%;
+			font-style: italic;
+    }
+
+		/* Footnote */
 		.footnote {
 			position: absolute;
 			bottom: 1em;
@@ -47,13 +68,24 @@
       text-align: center
 		}
 
-    .remark-slide-content {
-      font-size: 1.5em;
-      background: #37474F; /* slides background color */
-      color: #FFFFFF; /* main font color */
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
+		/* Context box */
+		.context {
+			position: absolute;
+			top: 1em; 
+			right: 2em;
+			padding: 0.5em;
+			border:0.1em solid #FFFFFF;
+			}
+
+		/* Conclusion box */
+		.conclusion {
+      text-align: center;
+      color: lightblue;
+			display: table;
+			margin: 0 auto;
+			padding: 0.5em;
+			border:0.1em solid lightblue;
+			}
 
     .title {
       text-align: center
@@ -77,6 +109,38 @@
     a:hover {
       color: #A4C2F4;
     }
+
+		/* Two-column layouts */
+		.left-column { 
+			width: 49%; 
+			float: left;
+		}
+		.right-column { 
+			width: 49%; 
+			float: right; 
+		}
+		.left-column-33 { 
+			width: 33%; 
+			float: left; 
+		}
+		.right-column-66 { 
+			width: 66%; 
+			float: right; 
+		}
+		.left-column-66 { 
+			width: 66%; 
+			float: left; 
+		}
+		.right-column-33 { 
+			width: 33%; 
+			float: right; 
+		}
+		.right-column ~ p { 
+			clear: both; 
+		}
+		.right-column ~ ul { 
+			clear: both; 
+		}
 
   </style>
 </head>
