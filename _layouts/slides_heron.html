@@ -27,6 +27,28 @@
       background-size: cover;
     }
 
+    /* Colors */
+    .gray224 { color: rgb(224, 224, 224); }
+    .gray192 { color: rgb(192, 192, 192); }
+    .gray160 { color: rgb(160, 160, 160); }
+    .gray128 { color: rgb(128, 128, 128); }
+    .gray96 { color: rgb(96, 96, 96); }
+    .gray64 { color: rgb(64, 64, 64); }
+    .gray32 { color: rgb(32, 32, 32); }
+    .lightblue { color: #6FA8DC; }
+    .lightgreen { color: #93C47D; }
+    .cyan { color: #6D9EEB; }
+    .orange { color: #F09D70; }
+
+    /* Hyperlinks */
+    a, a > code {
+      color: #6D9EEB;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #A4C2F4;
+    }
+
     body {
       font-family: 'Oswald';
       font-size: 1.0em;
@@ -56,6 +78,14 @@
 			font-style: italic;
     }
 
+    .bigger {
+      font-size: 120%;
+    }
+
+    .smaller {
+      font-size: 80%;
+    }
+
 		/* Footnote */
 		.footnote {
 			position: absolute;
@@ -73,8 +103,10 @@
 			position: absolute;
 			top: 1em; 
 			right: 2em;
+      max-width: 45%;
 			padding: 0.5em;
 			border:0.1em solid #FFFFFF;
+      text-align: justify;
 			}
 
 		/* Conclusion box */
@@ -87,27 +119,27 @@
 			border:0.1em solid lightblue;
 			}
 
+    /* Citations */
+    .cite {
+      color: rgb(192, 192, 192);
+      font-size: 80%;
+    }
+
+    /* List of references in slide */
+		.references {
+			position: absolute;
+			bottom: 1em;
+			left: 2em;
+      color: rgb(192, 192, 192);
+      font-size: 80%;
+		}
+    .references a {
+      color: rgb(192, 192, 192);
+			text-decoration: underline;
+    }
+
     .title {
       text-align: center
-    }
-
-    /* Colors */
-    .gray224 { color: rgb(224, 224, 224); }
-    .gray192 { color: rgb(192, 192, 192); }
-    .gray160 { color: rgb(160, 160, 160); }
-    .gray128 { color: rgb(128, 128, 128); }
-    .gray96 { color: rgb(96, 96, 96); }
-    .gray64 { color: rgb(64, 64, 64); }
-    .gray32 { color: rgb(32, 32, 32); }
-    .lightblue { color: #6FA8DC; }
-
-    /* Hyperlinks */
-    a, a > code {
-      color: #6D9EEB;
-      text-decoration: none;
-    }
-    a:hover {
-      color: #A4C2F4;
     }
 
 		/* Two-column layouts */
