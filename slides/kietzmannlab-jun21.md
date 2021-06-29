@@ -354,6 +354,18 @@ name: supervisionbio
 
 .conclusion[Are humans really so good at o.o.d generalisation, learning from few examples, without supervision?]
 
+???
+
+Since its inception, artificial intelligence has been intrinsically linked to biological learning, and specifically the field of artificial neural networks from the times of Rosenblatt and Fukushima. One long-term goal of artificial intelligence is to mirror the capabilities of human intelligence. However, are we sure we are estimating our own capabilities fairly? I have the impression that they are often overestimated. I have here just a few examples
+
+[NEXT SLIDE] [READ] [AGAIN]
+
+These are just a few examples, from papers co-authored by well-established scientists, but I am sure you have read similar stuff too. One question I pose is: Are humans really so good at o.o.d generalisation, learning from few examples, without supervision?
+
+Our quick answer is sure, of course, and I actually wonder what you all think. Please feel free to comment in the chat or interrupt me. 
+
+My answer is that if we analyse this carefully, we realise that we often overlook some important ingredients, and this is what I want to review in the next few slides.
+
 ---
 
 ## Outline
@@ -483,6 +495,12 @@ Face perception is severely impaired if faces are presented upside down. More ge
 ]
 
 .conclusion[When exposed to unfamiliar objects, humans need substantial training (data) to recognise the new objects.]
+
+???
+
+LANGUAGE:
+- German, but not fluent
+- Generalisation to Dutch because it is similar...
 
 ---
 
