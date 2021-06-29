@@ -361,7 +361,7 @@ name: supervisionbio
 * [.darkgray[~~Motivation: The DL Hype~~]](#motivation)
 * [.lightgreen[Supervision in biological learning]](#supervisionbio)
 	* [.lightgreen[Generalisation requires exposure to relevant training data]](#generalisation-requires-data)
-	* [.lightgreen[Supervised signals for the brain]](#supervision-brain)
+	* [.lightgreen[Supervisory signals for the brain]](#supervision-brain)
 	* [.lightgreen[The role of evolution and brain development]](#evolution)
 * [.darkgray[Supervision in machine learning]](#supervisionml)
 * [.darkgray[Conclusions for future research directions]](#conclusions)
@@ -379,12 +379,14 @@ count: false
 * [.darkgray[~~Motivation: The DL Hype~~]](#motivation)
 * [Supervision in biological learning](#supervisionbio)
 	* [.lightgreen[Generalisation requires exposure to relevant training data]](#generalisation-requires-data)
-	* [Supervised signals for the brain](#supervision-brain)
+	* [Supervisory signals for the brain](#supervision-brain)
 	* [The role of evolution and brain development](#evolution)
 * [.darkgray[Supervision in machine learning]](#supervisionml)
 * [.darkgray[Conclusions for future research directions]](#conclusions)
 
 ---
+
+name: generalisation-requires-data
 
 ## Supervision in biological learning
 #### Generalisation requires exposure to relevant training data
@@ -489,15 +491,589 @@ Face perception is severely impaired if faces are presented upside down. More ge
 * [.darkgray[~~Motivation: The DL Hype~~]](#motivation)
 * [Supervision in biological learning](#supervisionbio)
 	* [~~Generalisation requires exposure to relevant training data~~](#generalisation-requires-data)
-	* [.lightgreen[Supervised signals for the brain]](#supervision-brain)
+	* [.lightgreen[Supervisory signals for the brain]](#supervision-brain)
 	* [The role of evolution and brain development](#evolution)
 * [.darkgray[Supervision in machine learning]](#supervisionml)
 * [.darkgray[Conclusions for future research directions]](#conclusions)
 
 ---
 
+name: supervision-brain
+
 ## Supervision in biological learning
-#### Supervised signals for the brain
+#### Supervisory signals for the brain
 
 .context35["A child can generalize the concept of ‘giraffe’ from a single picture in a book"]
+
+--
+
+_Supervision_, as used currently by the machine learning community, is this:
+.center[
+<img src="../assets/images/slides/rethinksl/ai_labels.jpg" alt="Supervision for AI" style="width:75%"/>
+]
+
+---
+
+## Supervision in biological learning
+#### Supervisory signals for the brain
+
+We indeed do not see a class label over each object we look at, but we use multiple sources of supervision:
+
+* Parents point at objects and name them, and play a crucial role in language development .cite[(Kuhl et al., 2007)].
+* Zebra-finches also rely on feedback (supervision) from the female adult, and not just on imitation, to learn to sing .cite[(Carouso-Peck & Goldstein, 2019)].
+* Children follow hierarchical learning, instead of learning all breeds of dogs.
+* Social cues to recognise individual faces, and produce grammatical sentences .cite[(Hasson et al., 2020)].
+* Embodiment: learning to balance the body and grasp objects.
+* "We learn more from other people than we do from any other source" .cite[(Gopnik, 2021)].
+
+.conclusion[In virtually any learning process, we can identify a supervisory signal that influences the brain.]
+
+---
+
+## Supervision in biological learning
+#### Supervisory signals for the brain
+
+Do we learn to recognise plants and animals just by looking at them, or do we use "labels"?
+.center[
+<img src="../assets/images/slides/rethinksl/inaturalist_photo.png" alt="iNaturalist, taking photos of animals and plants" style="width:45%"/>
+<img src="../assets/images/slides/rethinksl/inaturalist_taxonomy.jpg" alt="We learn with the help of taxonomies" style="width:45%"/>
+]
+
+Do we learn a new language just by listening to it, or do we use dictionaries, teachers, etc.?
+
+.conclusion[Not only does supervision facilitate learning, but humans actively seek for it. ]
+
+???
+
+Besides this kind of explicit supervision, the brain certainly makes use of more subtle, implicit supervised signals, such as temporal stability (Becker, 1999; Wyss et al., 2003): The light that enters the retina, and the sound waves that reach the cochlea, are not random signals from a sequence of rapidly changing arbitrary photos or noise, but highly coherent and regular flows of slowly changing stimuli, especially at the higher, semantical level (Kording et al., 2004). At the very least, this is how we perceive it and if such a smooth perception turns out to be a consequence rather than a cause, then it should be a by-product of a long process of evolution that would be worth taking into account.
+
+---
+
+## Outline
+
+* [.darkgray[~~Motivation: The DL Hype~~]](#motivation)
+* [Supervision in biological learning](#supervisionbio)
+	* [~~Generalisation requires exposure to relevant training data~~](#generalisation-requires-data)
+	* [~~Supervisory signals for the brain~~](#supervision-brain)
+	* [.lightgreen[The role of evolution and brain development]](#evolution)
+* [.darkgray[Supervision in machine learning]](#supervisionml)
+* [.darkgray[Conclusions for future research directions]](#conclusions)
+
+---
+
+name: evolution
+
+## Supervision in biological learning
+#### The role of evolution .darkgray[and brain development]
+
+.context35[Neural networks are trained from _tabula rasa_, but our brains are the outcome of millions of years of evolution.]
+
+.center[
+<img src="../assets/images/slides/rethinksl/evogeneao.png" alt="The role of evolution" style="width:80%"/>
+]
+
+.references[
+* Hasson, U. et al. [Direct fit to nature: An evolutionary perspective on biological and artificial neural networks](https://www.biorxiv.org/content/10.1101/764258). Neuron, 2020
+* Zador, A. M. [A critique of pure learning and what artificial neural networks can learn from animal brains](https://www.biorxiv.org/content/10.1101/582643). Nature Communications, 2019
+]
+
+???
+
+Importantly, evolution not only provides innate behaviour, but also determines what cannot be learnt, or relevant constraints—scientists who have trained animals in the laboratory for psychological or neuroscientific studies are well aware that tasks have to be carefully adapted to the ecological behaviour and limitations of the animal, determined by evolution.
+
+Taking into account the role of evolution, we can ask relevant questions that relate to the claims discussed in the previous sections. If our brains are the product of millions of years of exposure to relevant stimuli and adaptation, is it really fair to say that humans are capable of robust out-of- distribution generalisation and that we learn from from a few examples? If evolution has largely determined what our brain can and cannot learn, providing as with a pre-trained model, is it really fair to say that humans learn in a unsupervised fashion? These questions are relevant for machine learning research: if we take biological learning as motivation for artificial intelligence, should we not temper our expectations of what learning algorithms should aspire to? And, therefore, would it not be worth reconsidering some research programmes?  
+
+As a shortcut to simulating evolution, neuroscience is a rich source of inspiration of constraints and inductive biases that determine learning in the biological brain and can potentially inform machine learning.
+
+---
+
+## Supervision in biological learning
+#### The role of .darkgray[evolution and] brain development
+
+.context35[Most often, machine learning models are compared with learning in the adult brain.]
+
+.left-column-33[
+<img src="../assets/images/slides/rethinksl/developmental_psychology.jpg" alt="The role of brain development" style="width:100%"/>
+]
+.right-column-66[
+* Comparisons with human learning in ML papers often underestimate the amount of input stimuli and supervision that infants receive.
+* Childhood can be regarded as a period dedicated almost exclusively to learning .cite[(Pelz & Kidd, 2020)].
+* In the case of humans and other animals with cultural learning (e.g. corvid birds), the extended childhood and parenting have been proposed to be pivotal in the evolution of cognition .cite[(Uomini et al. 2020)]
+]
+
+.full-width[
+.conclusion[Machine learning research can draw more inspiration from both evolutionary biology and the literature on developmental psychology, brain development and life history and learning.]
+]
+
+---
+
+## Outline
+
+* [.darkgray[~~Motivation: The DL Hype~~]](#motivation)
+* [Supervision in biological learning](#supervisionbio)
+	* [~~Generalisation requires exposure to relevant training data~~](#generalisation-requires-data)
+	* [~~Supervisory signals for the brain~~](#supervision-brain)
+	* [~~The role of evolution and brain development~~](#evolution)
+* [.lightblue[Supervision in machine learning]](#supervisionml)
+* [.darkgray[Conclusions for future research directions]](#conclusions)
+
+---
+
+count: false
+
+## Outline
+
+* [.darkgray[~~Motivation: The DL Hype~~]](#motivation)
+* [.darkgray[~~Supervision in biological learning~~]](#supervisionbio)
+* [.lightblue[Supervision in machine learning]](#supervisionml)
+* [.darkgray[Conclusions for future research directions]](#conclusions)
+
+---
+
+## Supervision in machine learning
+
+.context35[Machine learning textbooks draw a hard distinction between _supervised learning_ and _unsupervised learning_.]
+
+.center[
+<img src="../assets/images/slides/rethinksl/book_abumostafa.jpg" alt="Abu-Mostafa" style="width:20%"/>
+<img src="../assets/images/slides/rethinksl/book_goodfellow.jpg" alt="Goodfellow" style="width:20%"/>
+<img src="../assets/images/slides/rethinksl/book_murphy.jpg" alt="Murphy" style="width:20%"/>
+]
+
+Are the boundaries clear enough? 
+
+What happens with the variants _in-between_—semi-supervised learning, self-supervised learning, etc.?
+
+---
+
+## Outline
+
+* [.darkgray[~~Motivation: The DL Hype~~]](#motivation)
+* [.darkgray[~~Supervision in biological learning~~]](#supervisionbio)
+* [Supervision in machine learning](#supervisionml)
+  * [.lightblue[Catastrophic forgetting of old concepts]](#catastrophic-forgetting)
+  * [The brands of _alt-supervised_ learning](#alt-supervised)
+  * [Supervision comes in different flavours](#flavours-supervision)
+* [.darkgray[Conclusions for future research directions]](#conclusions)
+
+---
+
+name: catastrophic-forgetting
+
+## Supervision in machine learning
+#### Catastrophic forgetting of old concepts
+
+.left-column-66[
+* _No free lunch_ theorem: No learning algorithm is better than any other, when averaged over all possible data distributions .cite[(Wolpert, 1996)]. 
+    * Therefore, we need prior knowledge, or _supervision_.
+* A recent version for unsupervised learning of disentangled representations: without inductive biases for both the models and the data sets, unsupervised disentanglement learning is fundamentally impossible .cite[(Locatello et al., 2018)]. 
+]
+
+.right-column-33[
+<img src="../assets/images/slides/rethinksl/free_lunch.jpg" alt="No free lunch" style="width:100%"/>
+]
+
+.references[
+* Wolpert, D. H. [The lack of a priori distinctions between learning algorithms](https://direct.mit.edu/neco/article/8/7/1341/6016/The-Lack-of-A-Priori-Distinctions-Between-Learning). Neural Computation, 1996.
+* Locatello, F. et al. [Challenging common assumptions in the unsupervised learning of disentangled representations](https://arxiv.org/abs/1811.12359). ICML, 2019
+]
+
+???
+
+While this is not news, the terminology used in the recent and current machine learning literature seems to reject supervision and neglect these nuances, evidencing that the field suffers catastrophic forgetting of well-established notions.
+
+--
+
+.full-width[
+.conclusion[Without inductive bias, learning is not possible: purely unsupervised learning is an illusion.]
+]
+
+---
+
+## Outline
+
+* [.darkgray[~~Motivation: The DL Hype~~]](#motivation)
+* [.darkgray[~~Supervision in biological learning~~]](#supervisionbio)
+* [Supervision in machine learning](#supervisionml)
+  * [~~Catastrophic forgetting of old concepts~~](#catastrophic-forgetting)
+  * [.lightblue[The brands of _alt-supervised_ learning]](#alt-supervised)
+  * [Supervision comes in different flavours](#flavours-supervision)
+* [.darkgray[Conclusions for future research directions]](#conclusions)
+
+---
+
+name: alt-supervised
+
+## Supervision in machine learning
+#### The brands of _alt-supervised_ learning
+
+.context35[In deep learning, the term _supervised learning_ has adopted the meaning of _classification_ of examples annotated by humans.]
+
+--
+
+1. _Supervised learning_ is a broader category than _classification_: regression, ranking, etc.
+--
+
+2. Even for classification, labels are not restricted to _human annotations_.
+--
+
+> "_In many cases the outputs $y$ may be difficult to collect automatically and must be provided by a human 'supervisor', but .lightblue[the term still applies even when the training set targets were collected automatically]_" .smaller[(highlighting mine)]
+.right[.cite[Goodfellow et al. Deep Learning. 2016]]
+
+--
+
+Would you dare to provide definitions of _unsupervised learning_, _predictive learning_, _semi-supervised learning_, _self-supervised learning_, etc.?
+
+(This is a recurrent question by students starting to delve into the world of deep learning.)
+
+---
+
+## Supervision in machine learning
+#### The brands of _alt-supervised_ learning
+
+.context[Let's play the game of finding the differences!]
+
+.left-column[
+Prof. LeCun, NeurIPS 2016
+<img src="../assets/images/slides/rethinksl/lecun-neurips2016-predictive.png" alt="LeCun NeurIPS 2016" style="width:90%"/>
+]
+.right-column[
+Prof. LeCun, ISSCC 2019
+<img src="../assets/images/slides/rethinksl/lecun-isscc2019-selfsupervised.png" alt="LeCun ISSCC 2019" style="width:100%"/>
+]
+
+---
+
+count: false
+
+## Supervision in machine learning
+#### The brands of _alt-supervised_ learning
+
+.context[Let's play the game of finding the differences!]
+
+.left-column[
+<img src="../assets/images/slides/rethinksl/lecun-neurips2016-predictive.png" alt="LeCun NeurIPS 2016" style="width:70%"/>
+]
+.right-column[
+<img src="../assets/images/slides/rethinksl/lecun-isscc2019-selfsupervised.png" alt="LeCun ISSCC 2019" style="width:90%"/>
+]
+
+In December 2016, Prof. Yann LeCun titled his NeurIPS keynote presentation "Predictive Learning", to refer to "what many people mean by unsupervised learning".
+
+In 2019: "I now call it 'self-supervised learning', because 'unsupervised' is both a loaded and confusing term".
+
+---
+
+count: false
+
+## Supervision in machine learning
+#### The brands of _alt-supervised_ learning
+
+.context[Let's play the game of finding the differences!]
+
+.left-column[
+<img src="../assets/images/slides/rethinksl/lecun-neurips2016-predictive.png" alt="LeCun NeurIPS 2016" style="width:70%"/>
+]
+.right-column[
+<img src="../assets/images/slides/rethinksl/lecun-isscc2019-selfsupervised.png" alt="LeCun ISSCC 2019" style="width:90%"/>
+]
+
+.conclusion[No wonder that students (and not-so-students) are confused...]
+
+---
+
+## Supervision in machine learning
+#### The brands of _alt-supervised_ learning
+
+In practice, the use of the terms is _currently_ and _approximately_:
+--
+
+* .lightblue[Unsupervised learning]: anything that does not use the human annotations.
+--
+
+* .lightblue[Predictive learning]: see unsupervised learning.
+--
+
+* .lightblue[Self-supervised learning]: anything trained on tasks other than typical classification, e.g. _unsupervised learning_.
+--
+
+* .lightblue[Semi-supervised learning]: like all of the above, but using some of the labels too.
+
+--
+
+\* Note: all methods are eventually evaluated on the task defined by the classification labels.
+
+.conclusion[Different terms have been used to refer to pretty much the same things, depending of what was selling better at the moment. We are using _brand names_ rather than a theoretically grounded taxonomy, leading many astray.]
+
+---
+
+## Outline
+
+* [.darkgray[~~Motivation: The DL Hype~~]](#motivation)
+* [.darkgray[~~Supervision in biological learning~~]](#supervisionbio)
+* [Supervision in machine learning](#supervisionml)
+  * [~~Catastrophic forgetting of old concepts~~](#catastrophic-forgetting)
+  * [~~The brands of _alt-supervised_ learning~~](#alt-supervised)
+  * [.lightblue[Supervision comes in different flavours]](#flavours-supervision)
+* [.darkgray[Conclusions for future research directions]](#conclusions)
+
+---
+
+name: flavours-supervision
+
+## Supervision in machine learning
+#### Supervision comes in different flavours
+
+.context35[Automatic differentiation has opened the possibility of training nearly with any objective (task), without having to do the maths.]
+
+.center[
+<img src="../assets/images/slides/rethinksl/candies.jpg" alt="Image colourisation" style="width:50%"/>
+]
+
+---
+
+count: false
+
+## Supervision in machine learning
+#### Supervision comes in different flavours
+
+.context35[Automatic differentiation has opened the possibility of training nearly with any objective (task), without having to do the maths.]
+
+.center[
+<img src="../assets/images/slides/rethinksl/colourisation.png" alt="Image colourisation" style="width:80%"/>
+]
+
+.footnote[Ref: [The Illustrated Self-Supervised Learning](https://amitness.com/2020/02/illustrated-self-supervised-learning/), by [Amit Chaudhary](https://amitness.com/)]
+
+---
+
+count: false
+
+## Supervision in machine learning
+#### Supervision comes in different flavours
+
+.context35[Automatic differentiation has opened the possibility of training nearly with any objective (task), without having to do the maths.]
+
+.center[
+<img src="../assets/images/slides/rethinksl/colourisation.png" alt="Image colourisation" style="width:80%"/>
+]
+
+.footnote[Ref: [The Illustrated Self-Supervised Learning](https://amitness.com/2020/02/illustrated-self-supervised-learning/), by [Amit Chaudhary](https://amitness.com/)]
+
+---
+
+count: false
+
+## Supervision in machine learning
+#### Supervision comes in different flavours
+
+.context35[Automatic differentiation has opened the possibility of training nearly with any objective (task), without having to do the maths.]
+
+.center[
+<img src="../assets/images/slides/rethinksl/rotation.png" alt="Rotation" style="width:80%"/>
+]
+
+.footnote[Ref: [The Illustrated Self-Supervised Learning](https://amitness.com/2020/02/illustrated-self-supervised-learning/), by [Amit Chaudhary](https://amitness.com/)]
+
+---
+
+count: false
+
+## Supervision in machine learning
+#### Supervision comes in different flavours
+
+.context35[Automatic differentiation has opened the possibility of training nearly with any objective (task), without having to do the maths.]
+
+.center[
+<img src="../assets/images/slides/rethinksl/jigsaw.png" alt="Jigsaw puzzles" style="width:80%"/>
+]
+
+.footnote[Ref: [The Illustrated Self-Supervised Learning](https://amitness.com/2020/02/illustrated-self-supervised-learning/), by [Amit Chaudhary](https://amitness.com/)]
+
+---
+
+count: false
+
+## Supervision in machine learning
+#### Supervision comes in different flavours
+
+.context35[Automatic differentiation has opened the possibility of training nearly with any objective (task), without having to do the maths.]
+
+.center[
+<img src="../assets/images/slides/rethinksl/context-prediction.png" alt="Context prediction" style="width:40%"/>
+]
+
+.footnote[Ref: [The Illustrated Self-Supervised Learning](https://amitness.com/2020/02/illustrated-self-supervised-learning/), by [Amit Chaudhary](https://amitness.com/)]
+
+---
+
+count: false
+
+## Supervision in machine learning
+#### Supervision comes in different flavours
+
+.context35[Automatic differentiation has opened the possibility of training nearly with any objective (task), without having to do the maths.]
+
+.center[
+<img src="../assets/images/slides/rethinksl/srgan.png" alt="SRGAN" style="width:60%"/>
+]
+
+.footnote[Ref: [The Illustrated Self-Supervised Learning](https://amitness.com/2020/02/illustrated-self-supervised-learning/), by [Amit Chaudhary](https://amitness.com/)]
+
+---
+
+count: false
+
+## Supervision in machine learning
+#### Supervision comes in different flavours
+
+.context35[Automatic differentiation has opened the possibility of training nearly with any objective (task), without having to do the maths.]
+
+.center[
+<img src="../assets/images/slides/rethinksl/inpainting.png" alt="Image in-painting" style="width:60%"/>
+]
+
+.footnote[Ref: [The Illustrated Self-Supervised Learning](https://amitness.com/2020/02/illustrated-self-supervised-learning/), by [Amit Chaudhary](https://amitness.com/)]
+
+---
+
+## Supervision in machine learning
+#### Supervision comes in different flavours
+
+.context35[A (now) popular technique to incorporate supervision into computer vision models is _data augmentation_.]
+
+.center[
+<img src="../assets/images/slides/rethinksl/255011_light_imagenet.gif" style="width:20%"/>
+<img src="../assets/images/slides/rethinksl/255011_heavier_imagenet.gif" style="width:20%"/>
+<img src="../assets/images/slides/rethinksl/66016_light_imagenet.gif" style="width:20%"/>
+<img src="../assets/images/slides/rethinksl/66016_heavier_imagenet.gif" style="width:20%"/>
+]
+
+--
+
+* .orange[Alert]: shameless plug #2: In 2018-2019, we proposed using data augmentation to learn layer-wise invariant representations, inspired by the increasing invariance along the ventral stream .cite[(Hernandez-Garcia et al., 2019)]
+
+.references[
+* Hernández-García, König, and Kietzmann. [Learning robust visual representations using data augmentation invariance](https://arxiv.org/abs/1906.04547). arXiv:1906.04547, 2019.
+]
+
+---
+
+count: false
+
+## Supervision in machine learning
+#### Supervision comes in different flavours
+
+.context35[A (now) popular technique to incorporate supervision into computer vision models is _data augmentation_.]
+
+.center[
+<img src="../assets/images/slides/rethinksl/255011_light_imagenet.gif" style="width:20%"/>
+<img src="../assets/images/slides/rethinksl/255011_heavier_imagenet.gif" style="width:20%"/>
+<img src="../assets/images/slides/rethinksl/66016_light_imagenet.gif" style="width:20%"/>
+<img src="../assets/images/slides/rethinksl/66016_heavier_imagenet.gif" style="width:20%"/>
+]
+
+* Alert: shameless plug #2: In 2018-2019, we proposed using data augmentation to learn layer-wise invariant representations, inspired by the increasing invariance along the ventral stream .cite[(Hernandez-Garcia et al., 2019)]
+
+.conclusion[Most of these techniques make use of a wide range of surrogate tasks with supervisory signals defined by humans. In fact, they could have been called _hyper-supervised_ learning.]
+
+---
+
+## Outline
+
+* [.darkgray[~~Motivation: The DL Hype~~]](#motivation)
+* [.darkgray[~~Supervision in biological learning~~]](#supervisionbio)
+* [Supervision in machine learning](#supervisionml)
+  * [~~Catastrophic forgetting of old concepts~~](#catastrophic-forgetting)
+  * [~~The brands of _alt-supervised_ learning~~](#alt-supervised)
+  * [~~Supervision comes in different flavours~~](#flavours-supervision)
+* [.darkgray[Conclusions for future research directions]](#conclusions)
+
+---
+
+count: false
+
+## Outline
+
+* [.darkgray[~~Motivation: The DL Hype~~]](#motivation)
+* [.darkgray[~~Supervision in biological learning~~]](#supervisionbio)
+* [.darkgray[~~Supervision in machine learning~~]](#supervisionml)
+* [Conclusions for future research directions](#conclusions)
+
+---
+
+## Summary
+
+* .lightgreen[Generalisation in biological learning (also) needs exposure to relevant training data]
+--
+
+* .lightgreen[Learning in nature is also mediated by multiple supervisory signals]
+--
+
+* .lightgreen[Evolution plays a crucial role in what can and cannot be learnt, and brain development is often overlooked]
+--
+
+<br><br>
+* .lightblue[Good old statistical learning theory tells us that supervision or inductive biases _are_ necessary]
+--
+
+* .lightblue[The deep learning community has (ab)used an overselling and confusing terminology around supervised learning]
+--
+
+* .lightblue[The methods proposed to escape supervised learning are in fact _hyper_-supervised learning, only that supervision comes in different flavours]
+--
+
+---
+
+name: conclusions
+
+## Conclusions for future research directions
+
+* Machine learning needs more interdisciplinary influences:
+  * Neuroscience
+  * Biology
+  * Developmental psychology
+  * Evolutionary theory
+--
+
+* Machine learning would benefit from moving beyond measuring the accuracy on ImageNet (or the like). We should better measure the quality of the learnt representations:
+  * Suitability for transfer learning
+  * (Adversarial) robustness
+  * Comparison with brain data
+  * Comparison with behavioural tasks
+--
+
+* The time might have come to devise a theoretically grounded taxonomy of learning methods that better survive the test of time
+--
+
+* Developing learning theory beyond simple objectives such as binary classification
+
+---
+
+name: title
+class: title, middle
+
+## Rethinking (un-, semi-, self-, ...)supervised learning:
+### Insights from biological learning and from calling it by its name
+
+Alex Hernández-García (he/él)
+
+.gray224[Kietzmann Lab, Donders Institute for Brain Cognition and Behaviour · The Internet · June 29th 2021]
+
+[![:scale 25%](../assets/images/slides/logos/mila-purple.png)](https://mila.quebec/)
+
+.footer[[alexhernandezgarcia.github.io](https://alexhernandezgarcia.github.io/) | [alex.hernandez-garcia@mila.quebec](mailto:alex.hernandez-garcia@mila.quebec) | [@alexhdezgcia](https://twitter.com/alexhdezgcia)] [![:scale 1em](../assets/images/slides/misc/twitter.png)](https://twitter.com/alexhdezgcia)
+
+.footnote[[arXiv:2012.02526](https://arxiv.org/abs/2012.02526)]
+
+---
+
+## Summary
+
+* .lightgreen[Generalisation in biological learning (also) needs exposure to relevant training data]
+* .lightgreen[Learning in nature is also mediated by multiple supervisory signals]
+* .lightgreen[Evolution plays a crucial role in what can and cannot be learnt, and brain development is often overlooked]
+* .lightblue[Good old statistical learning theory tells us that supervision or inductive biases _are_ necessary]
+* .lightblue[The deep learning community has (ab)used an overselling and confusing terminology around supervised learning]
+* .lightblue[The methods proposed to escape supervised learning are in fact _hyper_-supervised learning, only that supervision comes in different flavours]
 
