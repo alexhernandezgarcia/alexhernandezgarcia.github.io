@@ -137,7 +137,7 @@ count: false
 ### .left[Outline]
 
 .left[
-* .lightblue[Supervision in machine learning]
+* [.lightblue[Supervision in machine learning]](#supervisionml)
 ]
 
 .footnote[[arXiv:2012.02526](https://arxiv.org/abs/2012.02526)]
@@ -159,8 +159,8 @@ count: false
 ### .left[Outline]
 
 .left[
-* .lightgreen[Supervision in biological learning]
-* .lightblue[Supervision in machine learning]
+* [.lightgreen[Supervision in biological learning]](#supervisionbio)
+* [.lightblue[Supervision in machine learning]](#supervisionml)
 ]
 
 .footnote[[arXiv:2012.02526](https://arxiv.org/abs/2012.02526)]
@@ -182,10 +182,10 @@ count: false
 ### .left[Outline]
 
 .left[
-* Motivation: The DL Hype
-* .lightgreen[Supervision in biological learning]
-* .lightblue[Supervision in machine learning]
-* Conclusions for future research directions
+* [Motivation: The DL Hype](#motivation)
+* [.lightgreen[Supervision in biological learning]](#supervisionbio)
+* [.lightblue[Supervision in machine learning]](#supervisionml)
+* [Conclusions for future research directions](#conclusions)
 ]
 
 .footnote[[arXiv:2012.02526](https://arxiv.org/abs/2012.02526)]
@@ -195,6 +195,8 @@ count: false
 Just to anchor you on what you will hear today, I will start with some motivation for these issues and conclude with some ideas for future directions in machine learning research.
 
 ---
+
+name:motivation
 
 ## Motivation: The DL Hype
 
@@ -263,13 +265,22 @@ However, the success of deep learning required:
 
 Now we know that a big big reason for the success of deep learning has been the availability of huge data sets. And this is actually, in my view, a major advantage of deep learning over other methods, by the way.
 
-However, a lot of people were disappointed and frustrated by this. 
+However, a lot of people were disappointed and frustrated by this. And accordingly there were a bunch of different reactions to this need for a lot of data:
+
+[NEXT SLIDE]
+
+* Some people like Gary Marcus were generally sceptic about deep learning and questioned the usefulness of the method itself.
+* Other people started to report suspicious properties of artificial neural networks, such as their ability to perfectly fit random noise and therefore memorise whichever input data. That was the well-known work by Zhang et al. at ICLR 2017.
+* In my case, ... OK this is some shameless self-promotion, but I think it's relevant. Back in 2017, steered by what I had seen at ICLR actually, I thought, well, if deep nets need a lot of data, let's create more with data augmentation! And I started studying the properties of data augmentation, but that wasn't popular back then and it got rejected several times. Now you know, data augmentation is the shit for self-supervised learning.
+* And finally, there's the reaction I am most interested regarding this talk: new research avenues aiming at learning with less and less supervision and data. And this is the seed for research programs such as few-shot learning, one-shot learning, zero-shot learning, and a new wave of semi-supervised and unsupervised learning. 
+
+[NEXT SLIDE]
 
 --
 
 * Some questioned the usefulness of deep learning itself .cite[(Marcus, 2018)]
 * Some questioned whether neural networks generalise beyond or simply memorise the training examples .cite[(Zhang et al., 2017, Arpit et al., 2017)]
-* (.orange[Alert]: shameless self-promotion) I studied the benefits of data augmentation .cite[(Hernandez-Garcia et al., rejected ICLR 17)]
+* (.orange[Alert]: shameless self-promotion) I studied the benefits of data augmentation .cite[(Hernandez-Garcia et al., rejected ICLR 18)]
 * Some proposed new research horizons .cite[(Vinyals et al., 2016)]: "\[L\]earning a class from a single labelled example", based on the statement that "**humans learn new concepts with very little supervision**, [but] the standard **supervised deep learning** paradigm **does not offer a satisfactory solution** for learning new concepts rapidly from little data". .smaller[(highlighting mine)]
 
 .references[
@@ -295,4 +306,198 @@ count: false
 * Some proposed new research horizons .cite[(Vinyals et al., 2016)]: "\[L\]earning a class from a single labelled example", based on the statement that "**.lightgreen[humans learn new concepts with very little supervision]**, [but] the standard **.cyan[supervised deep learning]** paradigm **.cyan[does not offer a satisfactory solution]** for learning new concepts rapidly from little data". .smaller[(highlighting mine)]
 
 .conclusion[A call to .cyan[banish _supervision_]: _few-shot_, _one-shot_, _zero-shot_, _predictive_, _unsupervised_, _semi-supervised_, _self-supervised_ learning, etc. Based on alleged .lightgreen[generalisation capabilities of humans].]
+
+???
+
+I would like to stop a little bit on this quote in this article by Oriol Vinyals, because it's a good example on the points I want to make in the rest of the talk. First, there is the idea that supervision is evil and we need to find alternatives (what you see in blue). And this is motivated by what I consider I wrong claim that humans learn with little supervision (what you see in green), with little data and are capable of robust out-of-distribution generalisation. 
+
+---
+
+## Outline
+
+* [.darkgray[~~Motivation: The DL Hype~~]](#motivation)
+* [.lightgreen[Supervision in biological learning]](#supervisionbio)
+* [.darkgray[Supervision in machine learning]](#supervisionml)
+* [.darkgray[Conclusions for future research directions]](#conclusions)
+
+???
+
+This takes me to the first one of the two main parts of the paper and the talk, which is the role of supervision in biological learning.
+
+---
+
+name: supervisionbio
+
+## Supervision in biological learning
+
+.context35[Biological learning has always been intrinsic source of inspiration for AI. Often ML programs aim at mirroring human capabilities.]
+
+--
+
+<br>
+> "_Humans learn new concepts with very little supervision – e.g. a child can generalize the concept of 'giraffe' from a single picture in a book._"
+.right[.cite[Vinyals et al., 2016]]
+--
+
+> "_Human beings can learn abstract relationships in a few trials._"
+.right[.cite[Marcus, 2018]]
+--
+
+> "_Humans can effortlessly learn new visual concepts from only one or a few visual examples._"
+.right[.cite[Sorscher, 2021]]
+--
+
+> "_An interesting challenge of current machine learning research is thus out-of-distribution adaptation and generalization. Humans seem to be able to learn a new task quickly._"
+.right[.cite[Madan, 2021]]
+
+--
+
+.conclusion[Are humans really so good at o.o.d generalisation, learning from few examples, without supervision?]
+
+---
+
+## Outline
+
+* [.darkgray[~~Motivation: The DL Hype~~]](#motivation)
+* [.lightgreen[Supervision in biological learning]](#supervisionbio)
+	* [.lightgreen[Generalisation requires exposure to relevant training data]](#generalisation-requires-data)
+	* [.lightgreen[Supervised signals for the brain]](#supervision-brain)
+	* [.lightgreen[The role of evolution and brain development]](#evolution)
+* [.darkgray[Supervision in machine learning]](#supervisionml)
+* [.darkgray[Conclusions for future research directions]](#conclusions)
+
+???
+
+In the next few slides I will discuss three aspects of biological learning that are often overlooked and kind of run against these assumptions we read in machine learning papers.
+
+---
+
+count: false
+
+## Outline
+
+* [.darkgray[~~Motivation: The DL Hype~~]](#motivation)
+* [Supervision in biological learning](#supervisionbio)
+	* [.lightgreen[Generalisation requires exposure to relevant training data]](#generalisation-requires-data)
+	* [Supervised signals for the brain](#supervision-brain)
+	* [The role of evolution and brain development](#evolution)
+* [.darkgray[Supervision in machine learning]](#supervisionml)
+* [.darkgray[Conclusions for future research directions]](#conclusions)
+
+---
+
+## Supervision in biological learning
+#### Generalisation requires exposure to relevant training data
+
+<img src="../assets/images/slides/rethinksl/senses.png" alt="Humans receive rich, coherent multimodal information at every instant" style="width:100%"/>
+
+.conclusion[The brain receives, processes, and integrates a continuous flow of multimodal coherent inputs.]
+
+???
+
+First, the amount of data that animals and humans in particular are exposed to is often underestimated. A biological brain continuously receives, processes and integrates multimodal inputs from various sensors—images (light), sound, smell, etc. Humans do not learn to recognise objects by looking at photos from ImageNet, but are rather exposed to a continuous flow of visual stimuli with slow changes of the viewing angle and lighting conditions. Furthermore, the stimuli are coherent across modalities, we are allowed to interact with the objects and we even receive multiple supervision signals.
+
+---
+
+count: false
+
+## Supervision in biological learning
+#### Generalisation requires exposure to relevant training data
+
+.center[
+<figure>
+	<img src="../assets/images/slides/rethinksl/imagenet_raw.jpg" alt="ImageNet" style="width: 100%">
+  <figcaption>ImageNet</figcaption>
+</figure>
+]
+
+---
+
+## Supervision in biological learning
+#### Generalisation requires exposure to relevant training data
+
+.context35[The human visual system is remarkably robust, but it has insightful limitations.]
+
+---
+
+count: false
+
+## Supervision in biological learning
+#### Generalisation requires exposure to relevant training data
+
+.context35[The human visual system is remarkably robust, but it has insightful limitations.]
+
+.center[<img src="../assets/images/slides/rethinksl/thatcher_upsidedown-fine.jpg" alt="Thatcher, upside down, non-distorted" style="width:20%"/> <img src="../assets/images/slides/rethinksl/thatcher_upsidedown-distorted.jpg" alt="Thatcher, upside down, distorted" style="width:20%; opacity: 0;"/> <img src="../assets/images/slides/rethinksl/thatcher_upright-distorted.jpg" alt="Thatcher, upright, distorted" style="width:20%; opacity: 0;"/> <img src="../assets/images/slides/rethinksl/thatcher_upright-fine.jpg" alt="Thatcher, upside down, non-distorted" style="width:20%; opacity: 0;"/>]
+
+---
+
+count: false
+
+## Supervision in biological learning
+#### Generalisation requires exposure to relevant training data
+
+.context35[The human visual system is remarkably robust, but it has insightful limitations.]
+
+.center[<img src="../assets/images/slides/rethinksl/thatcher_upsidedown-fine.jpg" alt="Thatcher, upside down, non-distorted" style="width:20%"/> <img src="../assets/images/slides/rethinksl/thatcher_upsidedown-distorted.jpg" alt="Thatcher, upside down, distorted" style="width:20%; opacity: 0;"/> <img src="../assets/images/slides/rethinksl/thatcher_upright-distorted.jpg" alt="Thatcher, upright, distorted" style="width:20%; opacity: 0;"/> <img src="../assets/images/slides/rethinksl/thatcher_upright-fine.jpg" alt="Thatcher, upside down, non-distorted" style="width:20%;"/>]
+
+---
+
+count: false
+
+## Supervision in biological learning
+#### Generalisation requires exposure to relevant training data
+
+.context35[The human visual system is remarkably robust, but it has insightful limitations.]
+
+.center[<img src="../assets/images/slides/rethinksl/thatcher_upsidedown-fine.jpg" alt="Thatcher, upside down, non-distorted" style="width:20%"/> <img src="../assets/images/slides/rethinksl/thatcher_upsidedown-distorted.jpg" alt="Thatcher, upside down, distorted" style="width:20%;"/> <img src="../assets/images/slides/rethinksl/thatcher_upright-distorted.jpg" alt="Thatcher, upright, distorted" style="width:20%; opacity: 0;"/> <img src="../assets/images/slides/rethinksl/thatcher_upright-fine.jpg" alt="Thatcher, upside down, non-distorted" style="width:20%;"/>]
+
+---
+
+count: false
+
+## Supervision in biological learning
+#### Generalisation requires exposure to relevant training data
+
+.context35[The human visual system is remarkably robust, but it has insightful limitations.]
+
+.center[<img src="../assets/images/slides/rethinksl/thatcher_upsidedown-fine.jpg" alt="Thatcher, upside down, non-distorted" style="width:20%"/> <img src="../assets/images/slides/rethinksl/thatcher_upsidedown-distorted.jpg" alt="Thatcher, upside down, distorted" style="width:20%;"/> <img src="../assets/images/slides/rethinksl/thatcher_upright-distorted.jpg" alt="Thatcher, upright, distorted" style="width:20%;"/> <img src="../assets/images/slides/rethinksl/thatcher_upright-fine.jpg" alt="Thatcher, upside down, non-distorted" style="width:20%;"/>]
+
+Face perception is severely impaired if faces are presented upside down. More generally, object recognition is impaired when we see objects from unfamiliar viewpoints.
+
+.conclusion[Our perceptual abilities are optimised for our needs, and determined by the _training data distribution_.]
+
+---
+
+## Supervision in biological learning
+#### Generalisation requires exposure to relevant training data
+
+.context35[A commonly seen claim is that humans learn to categorise novel classes from a few examples.]
+
+.center[
+<figure>
+	<img src="../assets/images/slides/rethinksl/greebles.png" alt="Greebles" style="width: 75%">
+  <figcaption>Greebles</figcaption>
+</figure>
+]
+
+.conclusion[When exposed to unfamiliar objects, humans need substantial training (data) to recognise the new objects.]
+
+---
+
+## Outline
+
+* [.darkgray[~~Motivation: The DL Hype~~]](#motivation)
+* [Supervision in biological learning](#supervisionbio)
+	* [~~Generalisation requires exposure to relevant training data~~](#generalisation-requires-data)
+	* [.lightgreen[Supervised signals for the brain]](#supervision-brain)
+	* [The role of evolution and brain development](#evolution)
+* [.darkgray[Supervision in machine learning]](#supervisionml)
+* [.darkgray[Conclusions for future research directions]](#conclusions)
+
+---
+
+## Supervision in biological learning
+#### Supervised signals for the brain
+
+.context35["A child can generalize the concept of ‘giraffe’ from a single picture in a book"]
 

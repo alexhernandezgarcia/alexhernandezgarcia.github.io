@@ -35,6 +35,7 @@
     .gray96 { color: rgb(96, 96, 96); }
     .gray64 { color: rgb(64, 64, 64); }
     .gray32 { color: rgb(32, 32, 32); }
+    .darkgray { color: #55707D; }
     .lightblue { color: #6FA8DC; }
     .lightgreen { color: #93C47D; }
     .cyan { color: #6D9EEB; }
@@ -42,8 +43,8 @@
 
     /* Hyperlinks */
     a, a > code {
-      color: #6D9EEB;
-      text-decoration: none;
+      color: inherit;
+      text-decoration: underline;
     }
     a:hover {
       color: #A4C2F4;
@@ -86,6 +87,10 @@
       font-size: 80%;
     }
 
+    .alpha50 {
+      alpha-value: 50%;
+    }
+
 		/* Footnote */
 		.footnote {
 			position: absolute;
@@ -95,7 +100,8 @@
 
 		.footer {
       vertical-align: bottom;
-      text-align: center
+      text-align: center;
+      color: lightblue;
 		}
 
 		/* Context box */
@@ -104,6 +110,15 @@
 			top: 1em; 
 			right: 2em;
       max-width: 45%;
+			padding: 0.5em;
+			border:0.1em solid #FFFFFF;
+      text-align: justify;
+			}
+		.context35 {
+			position: absolute;
+			top: 1em; 
+			right: 2em;
+      max-width: 35%;
 			padding: 0.5em;
 			border:0.1em solid #FFFFFF;
       text-align: justify;
@@ -133,10 +148,6 @@
       color: rgb(192, 192, 192);
       font-size: 80%;
 		}
-    .references a {
-      color: rgb(192, 192, 192);
-			text-decoration: underline;
-    }
 
     .title {
       text-align: center
