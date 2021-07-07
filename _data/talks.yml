@@ -125,3 +125,10 @@
   country: The Internet
   link: http://www.meikeramon.com/afc-lab-talk-series/
   video: https://youtu.be/-4_uVMTQyFY
+- title: "Rethinking (un-, semi-, self-, ...)supervised learning: Insights from biological learning and from calling it by its name"
+  year: 2021
+  month: June
+  where: Kietzmann Lab, Donders Institute for Brain Cognition and Behaviour
+  city: <del>Nijmegen</del>Online
+  country: <del>Netherlands</del>The Internet
+  slides: slides/kietzmannlab-jun21
