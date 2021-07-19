@@ -24,7 +24,7 @@ Generate _diverse_ and _high-reward_ samples $x$ from a large search space, give
 
 --
 
-Instead of sampling iteratively, as in Markov chain Monte-Carlo (MCMC methods), *Flow Networks* sample _sequentially_, like in episodic Reinforcement Learning (RL), by modelling $p(x) \propto R(x)$, that is a distribution proportional to the reward. Unlike RL methods, which generate a single highest-reward sequence, GFlowNet aims to sample multiple, diverse sample.
+Instead of sampling iteratively, as in Markov chain Monte-Carlo (MCMC methods), *Flow Networks* sample _sequentially_, like in episodic Reinforcement Learning (RL), by modelling $\pi(x) \propto R(x)$, that is a distribution proportional to the reward. Unlike RL methods, which generate a single highest-reward sequence, GFlowNet aims to sample multiple, diverse sample.
 
 ---
 
@@ -74,11 +74,47 @@ For every node $s'$:
 * In-flow: $V(s') = \sum_{s,a:T(s,a)=s'} Q(s,a)$
 * Out-flow: $V(s') = \sum_{a' \in \mathcal{A}(s')} Q(s',a')$
 
-The in-flow equals the out-flow, and the out-flow of the sink nodes is their associated reward $R(x)$. Thus: $\sum_{s,a:T(s,a)=s'} Q(s,a) = R(s') + \sum_{a' \in \mathcal{A}(s')} Q(s',a')$
+--
 
-The in-flow equals the out-flow, and the out-flow of the sink nodes is their associated reward $R(x)$. Thus:
+The in-flow equals the out-flow, and the out-flow of the sink nodes is their associated reward $R(x) > 0$. Thus:
 
 $$
-\sum_{s,a:T(s,a)=s'} Q(s,a) = R(s') + \sum_a Q(s', a')
+\sum^{s,a:T(s,a)=s'} Q(s,a) = R(s')+ \sum^{a' \in \mathcal{A}(s')} Q(s', a')
 $$
 
+--
+
+A flow that satisfies the flow equations produces $\pi(x) = \frac{R(x)}{Z}$
+
+---
+
+## Objective function for RL
+
+$$
+\sum^{s,a:T(s,a)=s'} Q(s,a) = R(s')+ \sum^{a' \in \mathcal{A}(s')} Q(s', a')
+$$
+
+The above equation can be seen as a recursive value function. We can approximate the flows such that the conditions are satisfied at convergence (as the Bellman conditions for temporal difference learning):
+
+$$
+\tilde{\mathcal{L}}_{\theta}(\tau) = \sum^{s' \in \tau \neq s_0} \left( \sum^{s,a:T(s,a)=s'} Q(s,a;\theta) - R(s') - \sum^{a' \in \mathcal{A}(s')} Q(s',a';\theta)\right)^2
+$$
+
+--
+
+For better numerical stability:
+
+$$
+\footnotesize \tilde{\mathcal{L}}_{\theta,\epsilon}(\tau) = \sum^{s' \in \tau \neq s_0} \left( \log \left[ \epsilon + \sum^{s,a:T(s,a)=s'} \exp Q^{log}(s,a;\theta) \right] - \log \left[ \epsilon + R(s') - \sum^{a' \in \mathcal{A}(s')} \exp Q^{log}(s',a';\theta) \right] \right)^2
+$$
+
+---
+
+## Generating molecules
+### Example from the article
+
+Goal: generate a diverse set of small molecules that have high reward. 
+
+* Reward: a proxy model that predicts the binding energy of a molecule to a protein target
+* States: every possible molecule, made of blocks (SMILES): up to $10^{16}$ states
+* Actions: _what_ block to attach to the molecule of a state, and _where_, plus a _stop action_: 100-2000 states
