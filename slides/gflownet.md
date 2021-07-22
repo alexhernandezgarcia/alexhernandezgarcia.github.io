@@ -117,4 +117,4 @@ Goal: generate a diverse set of small molecules that have high reward.
 
 * Reward: a proxy model that predicts the binding energy of a molecule to a protein target
 * States: every possible molecule, made of blocks (SMILES): up to $10^{16}$ states
-* Actions: _what_ block to attach to the molecule of a state, and _where_, plus a _stop action_: 100-2000 states
+* Actions: _what_ block to attach to the molecule of a state, and _where_, plus a _stop action_: 100-2000 actions
