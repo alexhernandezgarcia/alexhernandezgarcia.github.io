@@ -45,6 +45,7 @@
 
     /* Colors */
     .highlight1 { color: var(--turquoise); }
+    .highlight2 { color: var(--darkturquoise); }
     .gray224 { color: var(--gray224); }
     .gray192 { color: var(--gray192); }
     .gray160 { color: var(--gray160); }
@@ -100,6 +101,10 @@
       text-align: center;
     }
 
+    h2 {
+      margin-top: 0em;
+    }
+
     h3 {
       margin-top: 0em;
 			font-size: 80%;
@@ -112,17 +117,14 @@
 			font-style: italic;
     }
 
-    .bigger {
-      font-size: 120%;
-    }
+    /* Size */
+    .bigger { font-size: 120%; }
+    .smaller { font-size: 80%; } 
 
-    .smaller {
-      font-size: 80%;
-    }
-
-    .alpha50 {
-      alpha-value: 50%;
-    }
+    /* Transparency */
+    .alpha0 { opacity: 0%; }
+    .alpha10 { opacity: 10%; }
+    .alpha50 { opacity: 50%; }
 
 		/* Footnote */
 		.footnote {
@@ -144,7 +146,7 @@
 			right: 2em;
       max-width: 45%;
 			padding: 0.5em;
-			border:0.1em solid #FFFFFF;
+			border:0.1em solid var(--beige);
       text-align: justify;
 			}
 		.context35 {
@@ -153,18 +155,18 @@
 			right: 2em;
       max-width: 35%;
 			padding: 0.5em;
-			border:0.1em solid #FFFFFF;
+			border:0.1em solid var(--beige);
       text-align: justify;
 			}
 
 		/* Conclusion box */
 		.conclusion {
       text-align: center;
-      color: lightblue;
+      color: var(--turquoise);
 			display: table;
 			margin: 0 auto;
 			padding: 0.5em;
-			border:0.1em solid --var(turquoise);
+			border:0.1em solid var(--turquoise);
 			}
 
     /* Citations */
@@ -220,6 +222,20 @@
 		.full-width { 
 			width: 100%; 
 			display: flow-root; 
+		}
+
+		/* Three-column layouts */
+		.columns-3-left { 
+			width: 32%; 
+			float: left;
+		}
+		.columns-3-center { 
+			width: 32%; 
+			display: inline-block;
+		}
+		.columns-3-right { 
+			width: 32%; 
+			float: right; 
 		}
 
   </style>
