@@ -648,6 +648,8 @@ count: false
 
 ---
 
+name: supervisionml
+
 ## Supervision in machine learning
 
 .context35[Machine learning textbooks draw a hard distinction between _supervised learning_ and _unsupervised learning_.]
