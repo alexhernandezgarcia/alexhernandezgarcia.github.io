@@ -100,7 +100,7 @@ Can we do better?
 * An RL agent could exploit the structure of the search space
 ]
 
-Promising results: [GFlowNet](https://alexhernandezgarcia.github.io/slides/salloc%20--gres=gpu:1%20-c%202%20--mem=24G%20-t%208:00:00%20--partition=unkillable) (Bengio et al., 2021)
+Promising results: [GFlowNet](https://arxiv.org/abs/2106.04399) (Bengio et al., 2021)
 
 ---
 
