@@ -279,6 +279,18 @@
     - machine learning
   sort: 40
 
+- name: JAIR
+  fullname: Journal of Artificial Intelligence Research
+  type: journal
+  website: https://www.jair.org/
+  wikipedia: https://en.wikipedia.org/wiki/Journal_of_Artificial_Intelligence_Research
+  not-for-profit: True
+  publisher: AAAI Press
+  open-access: True
+  topics:
+    - artificial intelligence
+  sort: 43
+
 - name: MLSys
   fullname: Conference on Machine Learning and Systems
   type: conference
