@@ -120,6 +120,7 @@ Using colours is a great idea for highlighting text during paper writing, for ex
 * There is of course a lot more to learn about LaTeX:
     * The [Overleaf documentation](https://www.overleaf.com/learn) is great.
     * I took inspiration from [this tweet by Dustin Tran](https://twitter.com/dustinvtran/status/1398133621328781313)
+    * [Writing beautifully in LaTeX](https://www.gleave.me/post/latex-design-patterns/)
 
 ---
 
