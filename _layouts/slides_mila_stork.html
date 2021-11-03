@@ -22,6 +22,8 @@
 
     /* Color variables */
     :root {
+      --white: #FFFFFF;
+      --gray224: rgb(224, 224, 224);
       --gray224: rgb(224, 224, 224);
       --gray192: rgb(192, 192, 192);
       --gray160: rgb(160, 160, 160);
@@ -30,7 +32,9 @@
       --gray64: rgb(64, 64, 64);
       --gray32: rgb(32, 32, 32);
       --darkgray: #55707D;
+      --grayblue: #37474F;
       --lightblue: #6FA8DC;
+      --paleblue: #A4C2F4;
       --lightgreen: #93C47D;
       --cyan: #6D9EEB;
       --orange: #F09D70;
@@ -46,6 +50,7 @@
     /* Colors */
     .highlight1 { color: var(--turquoise); }
     .highlight2 { color: var(--darkturquoise); }
+    .white { color: var(--white); }
     .gray224 { color: var(--gray224); }
     .gray192 { color: var(--gray192); }
     .gray160 { color: var(--gray160); }
@@ -54,7 +59,9 @@
     .gray64 { color: var(--gray64); }
     .gray32 { color: var(--gray32); }
     .darkgray { color: var(--darkgray); }
+    .grayblue { color: var(--grayblue); }
     .lightblue { color: var(--lightblue); }
+    .paleblue { color: var(--paleblue); }
     .lightgreen { color: var(--lightgreen); }
     .cyan { color: var(--cyan); }
     .orange { color: var(--orange); }
@@ -174,6 +181,12 @@
       color: var(--gray192);
       font-size: 80%;
     }
+    .cite a {
+      color: inherit;
+    }
+    .cite a:hover {
+      color: var(--darkturquoise);
+    }
 
     /* List of references in slide */
 		.references {
@@ -183,6 +196,12 @@
       color: var(--gray192);
       font-size: 80%;
 		}
+    .references a {
+      color: inherit;
+    }
+    .references a:hover {
+      color: var(--darkturquoise);
+    }
 
     .title {
       text-align: center
