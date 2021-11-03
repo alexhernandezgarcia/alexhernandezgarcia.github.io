@@ -16,9 +16,6 @@ Alex Hernández-García (he/il/él)
 <a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 4em"></a>
 &nbsp&nbsp&nbsp&nbsp
 <a href="http://wimlds.org/"><img src="../assets/images/slides/logos/udem-white.png" alt="UdeM" style="height: 4em"></a>
-&nbsp&nbsp&nbsp&nbsp
-<a href="http://wimlds.org/"><img src="../assets/images/slides/logos/mcgill.png" alt="McGill" style="height: 4em"></a>
-&nbsp&nbsp&nbsp&nbsp
 ]
 
 .footer[[alexhernandezgarcia.github.io](https://alexhernandezgarcia.github.io/) | [alex.hernandez-garcia@mila.quebec](mailto:alex.hernandez-garcia@mila.quebec) | [@alexhdezgcia](https://twitter.com/alexhdezgcia)] [![:scale 1em](../assets/images/slides/misc/twitter.png)](https://twitter.com/alexhdezgcia)
@@ -389,7 +386,7 @@ If you are looking for a postdoc position and are interest in developing active 
 name: title
 class: title, middle
 
-### Thanks!
+### Thanks! 감사합니다
 
 .smaller[Michael Kilgour, Alex Hernández-García, Danny Salem, Tao Liu, Miroslava Cuperlovic-Culf, Yoshua Bengio, Lena Simine]
 
@@ -399,9 +396,6 @@ class: title, middle
 <a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 4em"></a>
 &nbsp&nbsp&nbsp&nbsp
 <a href="http://wimlds.org/"><img src="../assets/images/slides/logos/udem-white.png" alt="UdeM" style="height: 4em"></a>
-&nbsp&nbsp&nbsp&nbsp
-<a href="http://wimlds.org/"><img src="../assets/images/slides/logos/mcgill.png" alt="McGill" style="height: 4em"></a>
-&nbsp&nbsp&nbsp&nbsp
 ]
 
 .footer[[alexhernandezgarcia.github.io](https://alexhernandezgarcia.github.io/) | [alex.hernandez-garcia@mila.quebec](mailto:alex.hernandez-garcia@mila.quebec) | [@alexhdezgcia](https://twitter.com/alexhdezgcia)] [![:scale 1em](../assets/images/slides/misc/twitter.png)](https://twitter.com/alexhdezgcia)
