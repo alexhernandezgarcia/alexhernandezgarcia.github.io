@@ -60,6 +60,10 @@ Further reading:
     * Force case with double curly braces: `{{Climate change and AI}}` to  force uppercase AI.
     * Names of conferences
 
+--
+
+.conclusion[Do as you wish, but mostly be **consistent**]
+
 ---
 
 ## Cross-references
