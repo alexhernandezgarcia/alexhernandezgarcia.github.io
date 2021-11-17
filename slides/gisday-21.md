@@ -236,7 +236,7 @@ https://thisclimatedoesnotexist.com/en/share/56d8058c-23d5-4083-b1b4-4afe6a5b2fe
 
 ---
 
-### Why floods, wildfire, smog?
+## Why floods, wildfire, smog?
 
 .context[Our algorithm and the website simulates floods, wildfires and smog on input images.]
 
