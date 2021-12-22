@@ -2,37 +2,18 @@
 layout: main
 title: Home
 ---
-<div class="columns is-7 is-variable">
-  <div class="column is-two-thirds content">
-    <div class="columns is-7 is-variable is-vcentered">
-      <div class="column is-one-third content">
+<div class="columns is-vcentered">
+      <div class="column is-one-quarter content">
         <figure class="image">
           <img src="/assets/images/alex-photo-filters-bnw.png">
         </figure>
       </div>
-      <div class="column">
+      <div class="column is-three-quarters content">
         <h1>{{ site.title }}</h1>
         {% capture description %}{% include description.md %}{% endcapture %}
         {{ description | markdownify }}
-        <h2>Email</h2>
+        <h4>Email</h4>
         <p>{{ site.email }}</p>
       </div>
-    </div>
-  </div>
-  <div class="column">
-    <div class="has-text-centered content">
-      <h2>News</h2>
-    </div>
-      {% assign news = site.news | sort: 'date' | reverse %}
-      {% for entry in news limit:3 %}
-        <div class="has-text-centered content">
-          <h4><a href="{{ entry.url }}">{{ entry.date | date_to_string }} - {{ entry.title }}</a></h4>
-        </div>
-        <div class="has-text-left content">
-          <p>{{ entry.excerpt | markdownify }}</p>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
 </div>
 
