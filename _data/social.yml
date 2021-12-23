@@ -31,7 +31,7 @@
     name: fa-stack-overflow
     type: fab
 - name: Email
-  link: mailto:alexhg15@gmail.com
+  link: mailto:alex.hernandez-garcia@mila.quebec
   icon:
     source: fa
     name: fa-envelope
