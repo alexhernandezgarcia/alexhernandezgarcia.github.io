@@ -1,0 +1,30 @@
+- name: Projects avancés en apprentissage automatique
+  university: Université de Montréal
+  role: Main instructor
+  year: 2022
+  url: https://academy.neuromatch.io/home
+- name: Fundamentals of machine learning
+  university: Université de Montréal
+  role: Teaching assistant
+  year: 2021
+  url: https://mitliagkas.github.io/ift6390-ml-class/
+- name: Neuromatch Academy Deep Learning
+  role: Lead teaching assistant
+  year: 2021
+  url: https://academy.neuromatch.io/home
+- name: 6th IVADO/Mila Deep Learning School
+  role: Teaching assistant
+  year: 2021
+  url: https://ivado.ca/en/events/6th-ivado-mila-deep-learning-school/
+- name: Multimedia Information Processing
+  university: Universidad Carlos III de Madrid
+  role: Laboratory teacher
+  year: 2014
+- name: Digital Television
+  university: Universidad Carlos III de Madrid
+  role: Laboratory teacher
+  year: 2015
+- name: Digital Image Processing
+  university: Universidad Carlos III de Madrid
+  role: Laboratory teacher
+  year: 2015

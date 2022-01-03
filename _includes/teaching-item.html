@@ -1,0 +1,18 @@
+<article class="media">
+	<div class="media-content">
+		<div class="content">
+		<p>
+    {% if item.url %}
+      <a href="{{ url }}"><strong>{{ item.name }}</strong></a>,
+    {% else %}
+      <strong>{{ item.name }}</strong>,
+    {% endif %}
+    {% if item.university %}
+      {{ item.university }},
+    {% endif %}
+		{{ item.year }}. 
+		{{ item.role }}.
+		</p>
+		</div>
+	</div>
+</article>
