@@ -34,6 +34,20 @@ The evaluation criteria will be slightly relaxed for undergraduate students.
 
 All students will be required to pass a _basic skills test and interview_ before starting the project work, in order to ensure that they are ready to work on an advanced machine learning project in a team.
 
+# Practical information
+
+* [Link to StudiUM page](https://studium.umontreal.ca/course/view.php?id=219252)
+* [Link to public page of the course](https://admission.umontreal.ca/cours-et-horaires/cours/ift-6759/)
+
+## Winter term 2022
+
+Classes take place on:
+
+* Wednesdays, 16:30--18:30 (ET)
+* Fridays, 09:30--11:30 (ET)
+
+Due the pandemic situation, la [Faculté des arts et des sciences](https://fas.umontreal.ca/accueil/) of the Université de Montréal has delayed the start of the term until January 10th. Therefore, **the first session** of this course will be on **Wednesday January 12th**. For the same reasons, classes will be **online _at least_ until January 17th**.
+
 # Resources
 
 * Abu-Mostafa, Y. S., Magdon-Ismail, M., & Lin, H. T. (2012). [Learning from data](https://work.caltech.edu/textbook.html). AMLBook.
