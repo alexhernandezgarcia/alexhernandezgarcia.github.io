@@ -32,7 +32,7 @@ Students will be evaluated entirely according to their work on projects. Dependi
 
 The evaluation criteria will be slightly relaxed for undergraduate students.
 
-All students will be required to pass a _basic skills test and interview_ before starting the project work, in order to ensure that they are ready to work on an advanced machine learning project in a team.
+All students will be required to pass a **basic skills test and interview** before starting the project work, in order to ensure that they are ready to work on an advanced machine learning project in a team.
 
 # Practical information
 
