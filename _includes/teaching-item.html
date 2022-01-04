@@ -3,7 +3,7 @@
 		<div class="content">
 		<p>
     {% if item.url %}
-      <a href="{{ url }}"><strong>{{ item.name }}</strong></a>,
+      <a href="{{ item.url }}"><strong>{{ item.name }}</strong></a>,
     {% else %}
       <strong>{{ item.name }}</strong>,
     {% endif %}
