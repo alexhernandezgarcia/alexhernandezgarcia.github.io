@@ -36,6 +36,7 @@ All students will be required to pass a **basic skills test and interview** befo
 
 # Practical information
 
+* [Projects guidelines]({{ site.url }}/teaching/ift6759/projects)
 * [Link to StudiUM page](https://studium.umontreal.ca/course/view.php?id=219252)
 * [Link to public page of the course](https://admission.umontreal.ca/cours-et-horaires/cours/ift-6759/)
 
