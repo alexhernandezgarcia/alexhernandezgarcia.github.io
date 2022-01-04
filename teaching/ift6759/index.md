@@ -8,7 +8,7 @@ redirect_from:
 
 # Course description
 
-The objective of this course is to prepare students for tackling real-world machine learning projects. During the course, students will work on the main stages of machine learning projects, including data acquisition, data pre-processing, model training, analysis of results and presentation of results and conclsions. Skills developed during this course include literature review of a particular problem, practical and theoretical machine learning, Python for data science, PyTorch, version control with `git` and basic Linux commands.
+The objective of this course is to prepare you, the students, for tackling real-world machine learning projects. During the course, you will work on the main stages of machine learning projects, including data acquisition, data pre-processing, model training, analysis of results and presentation of results and conclsions. Skills developed during this course include literature review of a particular problem, practical and theoretical machine learning, Python for data science, PyTorch, version control with `git` and basic Linux commands.
 
 # Course outline
 
@@ -22,7 +22,7 @@ The objective of this course is to prepare students for tackling real-world mach
 
 # Evaluation criteria
 
-Students will be evaluated entirely according to their work on projects. Depending on the complexity of the projects, students will be required to take part in one or two projects and work in teams of 2--4 people. Students can choose from a list of projects prepared by the instructors, or propose their own projects, provided they meet certain criteria. The final evaluation will take the following into account:
+Students will be evaluated entirely according to their work on projects. Depending on the complexity of the projects, you will be required to take part in one or two projects and work in teams of 2--4 people. You can choose from a list of projects prepared by the instructors, or propose your own projects, provided they meet certain criteria. The final evaluation will take the following into account:
 
 * Difficulty of the project
 * Performance of the developed algorithms
