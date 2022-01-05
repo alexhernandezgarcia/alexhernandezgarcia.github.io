@@ -1,6 +1,6 @@
 ---
 layout: page
-title: IFT 6759 - Projects
+title: IFT 3710/6759 - Projects
 ---
 
 The chief learning objective of this course is to prepare students for tackling real-world machine learning projects. Therefore, all students will participate in teams in the development of one machine learning project. This page describes the general guidelines about this part of the course.
@@ -36,6 +36,8 @@ Students will be evaluated entirely according to their work on projects and the 
 * **Code**: clarity, documentation, modularity, extendability, etc.
 
 The evaluation will be at the project level, that is we will consider that the results, the report, the presentation, and the code are the output of the whole team. Nonetheless, the individual grades may be adjusted if necessary in the case of participation imbalance ([see below](#teamwork)).
+
+**Important note**: The evaluation criteria will be slightly relaxed for undergraduate students (IFT 3710), specifically regarding the _difficulty of the project_.
 
 ### Teamwork
 
