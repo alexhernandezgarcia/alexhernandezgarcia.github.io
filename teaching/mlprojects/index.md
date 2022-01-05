@@ -37,7 +37,7 @@ Students will be evaluated entirely according to their work on projects. Dependi
 
 All students will be required to pass a **basic skills test and interview** before starting the project work, in order to ensure that they are ready to work on an advanced machine learning project in a team.
 
-# Practical information
+# Useful links
 
 * [Projects guidelines]({{ site.url }}/teaching/mlprojects/projects)
 * [Link to StudiUM page](https://studium.umontreal.ca/course/view.php?id=219252)
