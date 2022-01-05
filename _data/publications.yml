@@ -1,3 +1,23 @@
+- title: "ClimateGAN: Raising climate change awareness by generating images of floods"
+  authors:
+    - Victor Schmidt
+    - Alexandra Sasha Luccioni
+    - Mélisande Teng
+    - Tianyu Zhang
+    - Alexia Reynaud
+    - Sunand Raghupathi
+    - Gautier Cosne
+    - Adrien Juraver
+    - Vahe Vardanyan
+    - Alex Hernandez-Garcia
+    - Yoshua Bengio
+  year: 2021
+  journal: arXiv:2110.02871
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2110.02871
+    - tag: OpenReview
+      link: https://openreview.net/forum?id=EZNOb_uNpJk
 - title: Computational methods for continuous eye-tracking perimetry based on spatio-temporal integration and a deep recurrent neural network
   authors:
     - Alessandro Grillini

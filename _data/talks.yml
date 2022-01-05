@@ -132,3 +132,30 @@
   city: <del>Nijmegen</del>Online
   country: <del>Netherlands</del>The Internet
   slides: slides/kietzmannlab-jun21
+- title: ML and DS to fight the climate emergency
+  year: 2021
+  month: July
+  where: Women in Machine Learning & Data Science, Yaoundé
+  city: <del>Yaoundé</del>Online
+  country: <del>Cameroon</del>The Internet
+  slides: slides/wimlds-yaounde-jul21
+- title: Global visual salience of competing stimuli
+  year: 2021
+  month: August
+  where: European Conference on Visual Perception (ECVP)
+  city: Online
+  country: The Internet
+  slides: slides/ecvp-21
+- title: Deep active learning for DNA aptamer design
+  year: 2021
+  month: November
+  where: Samsung-Mila-NYU Workshop
+  city: Online
+  country: The Internet
+- title: "ThisClimateDoesNotExist.com: Visualising climate change impacts on street photos"
+  year: 2021
+  month: November
+  where: GIS Day, McGill University
+  city: <del>Montréal</del>Online
+  country: <del>Québec, Canada</del>The Internet
+  slides: slides/gisday-21
