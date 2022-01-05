@@ -2,6 +2,7 @@
 layout: page
 title: IFT 3710/6759 - Projets (avancés) en apprentissage automatique
 redirect_from:
+  - /mlprojects
   - /ift6759.html
   - /ift6759
   - /ift3710.html
