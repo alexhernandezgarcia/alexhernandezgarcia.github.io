@@ -1,9 +1,11 @@
 ---
 layout: page
-title: IFT 6759 - Projets avancés en apprentissage automatique
+title: IFT 3710/6759 - Projets (avancés) en apprentissage automatique
 redirect_from:
   - /ift6759.html
   - /ift6759
+  - /ift3710.html
+  - /ift3710
 ---
 
 # Course description
@@ -30,15 +32,16 @@ Students will be evaluated entirely according to their work on projects. Dependi
 * Written report
 * Quality of the code
 
-The evaluation criteria will be slightly relaxed for undergraduate students.
+**Important note**: The evaluation criteria will be slightly relaxed for undergraduate students (IFT 3710).
 
 All students will be required to pass a **basic skills test and interview** before starting the project work, in order to ensure that they are ready to work on an advanced machine learning project in a team.
 
 # Practical information
 
-* [Projects guidelines]({{ site.url }}/teaching/ift6759/projects)
+* [Projects guidelines]({{ site.url }}/teaching/mlprojects/projects)
 * [Link to StudiUM page](https://studium.umontreal.ca/course/view.php?id=219252)
-* [Link to public page of the course](https://admission.umontreal.ca/cours-et-horaires/cours/ift-6759/)
+* [Link to public admission page of IFT 6759](https://admission.umontreal.ca/cours-et-horaires/cours/ift-6759/)
+* [Link to public admission page of IFT 3710](https://admission.umontreal.ca/cours-et-horaires/cours/ift-3710/)
 
 ## Winter term 2022
 
@@ -47,7 +50,7 @@ Classes take place on:
 * Wednesdays, 16:30--18:30 (ET)
 * Fridays, 09:30--11:30 (ET)
 
-Due the pandemic situation, la [Faculté des arts et des sciences](https://fas.umontreal.ca/accueil/) of the Université de Montréal has delayed the start of the term until January 10th. Therefore, **the first session** of this course will be on **Wednesday January 12th**. For the same reasons, classes will be **online _at least_ until January 17th**.
+Due the pandemic situation, la [Faculté des arts et des sciences](https://fas.umontreal.ca/accueil/) of the Université de Montréal has delayed the start of the term until January 10th. Therefore, **the first session** of this course will be on **Wednesday January 12th**. For the same reasons, classes will be **online _at least_ until January 31th**.
 
 # Resources
 
