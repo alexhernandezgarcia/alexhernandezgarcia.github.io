@@ -54,7 +54,7 @@ In order to encourage effective teams, mitigate imbalances and ensure a degree o
 
 ### Communication
 
-During the project development phase, we will facilitate a weekly session (online, or in person) of each team with one of the instructor (main instructor or a teaching assistant). The goal of these meetings is to monitor the progress of the project, the smooth functioning of the team and to give you the opportunity to ask questions and get feedback. For daily communication, you are welcome to participate in a Discord server set up for this class. Please, do send me an email (`alejandro.hernandez.garcia@umontreal.ca`) if you do not have access to the Discord group. You are also welcome to set up a channel for your team within this Discord server, or use a different means of communication of your preference.
+During the project development phase, we will facilitate a weekly session (online, or in person) of each team with one of the instructor (main instructor or a teaching assistant). The goal of these meetings is to monitor the progress of the project, the smooth functioning of the team and to give you the opportunity to ask questions and get feedback. For daily communication, you are welcome to participate in a [Discord](https://discord.com/) server set up for this class. Please, do send me an email (`alejandro.hernandez.garcia@umontreal.ca`) if you do not have access to the Discord group. You are also welcome to set up a channel for your team within this Discord server, or use a different means of communication of your preference.
 
 Finally, do not hesitate to contact the instructors if problems arise. We are here to help!
 
