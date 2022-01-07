@@ -20,6 +20,7 @@ The projects will be developed in teams of 2--4 students. A set of projects will
 In order to foster creativity and allow you to work on projects of your interest, you are welcome to propose your own projects. Nonetheless, the project proposal must be accepted by the instructors and the decision will be based on the following criteria:
 
 * The project must involve the use of advanced machine learning methods.
+* Worked developed prior to this class will not be accepted.
 * It must be feasible in terms of computational resources and time constraints.
 * The data must be publicly available.
 * The project should not raise of major ethical considerations.
