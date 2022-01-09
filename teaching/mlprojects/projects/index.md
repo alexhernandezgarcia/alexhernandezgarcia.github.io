@@ -63,3 +63,14 @@ Finally, do not hesitate to contact the instructors if problems arise. We are he
 
 The goal of this course is _learning_. That is, you will be expected to work on a problem where machine learning can be applied, perform a literature review, analyse your results, write up a report and present it to the class. Doing all this will certainly guarantee that at the end of the process you will be better prepared for tackling other real-world machine learning projects. Doing all this in a sound way will also certainly guarantee a high grade. We definitely do not expect you to produce a research paper ready for publication. Nonetheless, if you are interested in pursuing a research career or in publishing your work for any other reason, note that this kind of project does resemble to a great extent a research project that could lead to a publication if the outcome can be of interest to a research community. Note that this would probably require extra work after the course is over. If publishing your work is something you would like to consider, feel free to discuss this with the instructors for feedback at any stage of the project.
 
+## Proposed projects
+
+As explained [above](#project-assignment), you may propose your own project or work on one of the projects proposed by the instructors. Below is the list of available projects and the details may be found in the page of each project (clicking on the titles):
+
+* [Detection of extreme climate events](./extreme-climate-events)
+* [Crop detection and classification](./cropharvest)
+* [Downscaling climate models](./downscaling)
+* [Electrocatalysts modelling and design](./electrocatalysts)
+* [DNA aptamers modelling and design](./dna)
+* [NLP for Indigenous languages](./indigenous-languages)
+* [Photovoltaic power and solar radiation forecasting](./pv-solar)
