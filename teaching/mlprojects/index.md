@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: mlprojects
 title: IFT 3710/6759 - Projets (avancés) en apprentissage automatique
 redirect_from:
   - /mlprojects
