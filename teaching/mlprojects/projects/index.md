@@ -7,9 +7,18 @@ The chief learning objective of this course is to prepare students for tackling 
 
 ## General information
 
+The projects of the course are aimed to resemble as much as possible what real-world machine learning projects look like in either industry or research. Projects comprise the following stages:
+
+1. Literature review
+2. Planning
+3. Development
+4. Analysis of results
+5. Written report
+6. Oral presentation
+
 ### Timeline
 
-The first four weeks of the course are devoted to introducing the course, reviewing the core aspects of machine learning and deep learning, and important tools for carrying out machine learning projects, such as Linux, `git` and PyTorch. After that, you are expected to work on the assigned project from week 5 to week 15. As part of the project, you will prepare a short (~8--10 pages) technical report and an oral presentation to be given in front of the teachers and the other students.
+The first four weeks of the course are devoted to introducing the course, reviewing the core aspects of machine learning and deep learning, and important tools for carrying out machine learning projects, such as Linux, `git` and PyTorch. After that, you are expected to work on the assigned project from week 5 to week 14. As part of the project, you will prepare a short (~8--10 pages) technical report and an oral presentation to be given in front of the teachers and the other students.
 
 ### Project assignment
 
