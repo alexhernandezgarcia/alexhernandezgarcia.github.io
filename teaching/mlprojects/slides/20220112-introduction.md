@@ -21,10 +21,12 @@ Alex Hernández-García (he/il/él)
 
 ???
 
-- Introduction
+- Introduction of myself
+- Introductions? Write in the chat
 - Share link to slides
 - Zoom chat, feel free to interrupt
 - Cameras on are preferred
+- Session will be recorded
 
 ---
 
@@ -229,6 +231,12 @@ You may work on one of the proposed projects, or propose your own (see next slid
 * [DNA aptamers modelling and design](./dna)
 * [NLP for Indigenous languages](./indigenous-languages)
 * [Photovoltaic power and solar radiation forecasting](./pv-solar)
+
+???
+
+- GANs
+- Domain adaptation
+- Image segmentation
 
 --
 
