@@ -13,7 +13,7 @@ The first four weeks of the course are devoted to introducing the course, review
 
 ### Project assignment
 
-The projects will be developed in teams of 2--4 students. A set of projects will be proposed by the instructors, and you are also welcome to propose your own projects ([see below](#project-proposal). At some point during the introductory weeks, you will be asked to form teams and to provide your preferences about the suggested projects or proposed your own, in order to distribute the available projects among all teams the best possible way. Some projects may be easier than others, which will be taken into account in the evaluation. If a team (or a student) concludes one project before the end of the course, they will be able to work on a new project for extra points. 
+The projects will be developed in teams of 3--5 students. A set of projects will be proposed by the instructors, and you are also welcome to propose your own projects ([see below](#project-proposal). At some point during the introductory weeks, you will be asked to form teams and to provide your preferences about the suggested projects or proposed your own, in order to distribute the available projects among all teams the best possible way. Some projects may be easier than others, which will be taken into account in the evaluation. If a team (or a student) concludes one project before the end of the course, they will be able to work on a new project for extra points. 
 
 ### Project proposal
 
@@ -42,7 +42,7 @@ The evaluation will be at the project level, that is we will consider that the r
 
 ### Teamwork
 
-Teamwork is an essential feature of machine learning projects, and engineering projects in general, both in research and industry. Therefore, it is a requirement of this class to work on the projects in groups of at least two students. We recommend to form teams of up to four people, but slightly larger teams may be allowed depending on the difficulty and characteristics of the project.
+Teamwork is an essential feature of machine learning projects, and engineering projects in general, both in research and industry. Therefore, it is a requirement of this class to work on the projects in **groups of at least three students**. We recommend to form teams of up to five people, but slightly larger teams may be allowed depending on the difficulty and characteristics of the project.
 
 Working in teams does not necessarily mean that every teammate contributes equally to every part of the project. It is up to each team to design their most suitable distribution of the workload. However, we do expect every student to engage in all stages of the project (literature review, design, coding, analysis, writing, presentation, etc.).
 
