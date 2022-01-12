@@ -22,7 +22,7 @@ The first four weeks of the course are devoted to introducing the course, review
 
 ### Project assignment
 
-The projects will be developed in teams of 2--4 students. A set of projects will be proposed by the instructors, and you are also welcome to propose your own projects ([see below](#project-proposal). At some point during the introductory weeks, you will be asked to form teams and to provide your preferences about the suggested projects or proposed your own, in order to distribute the available projects among all teams the best possible way. Some projects may be easier than others, which will be taken into account in the evaluation. If a team (or a student) concludes one project before the end of the course, they will be able to work on a new project for extra points. 
+The projects will be developed in teams of 3--5 students. A set of projects will be proposed by the instructors, and you are also welcome to propose your own projects ([see below](#project-proposal). At some point during the introductory weeks, you will be asked to form teams and to provide your preferences about the suggested projects or proposed your own, in order to distribute the available projects among all teams the best possible way. Some projects may be easier than others, which will be taken into account in the evaluation. If a team (or a student) concludes one project before the end of the course, they will be able to work on a new project for extra points. 
 
 ### Project proposal
 
@@ -32,7 +32,7 @@ In order to foster creativity and allow you to work on projects of your interest
 * Worked developed prior to this class will not be accepted.
 * It must be feasible in terms of computational resources and time constraints.
 * The data must be publicly available.
-* The project should not raise of major ethical considerations.
+* The project should not raise major ethical considerations.
 * Projects that tackle real-world problems with a potentially positive impact will be favoured.
 
 ### Evaluation
