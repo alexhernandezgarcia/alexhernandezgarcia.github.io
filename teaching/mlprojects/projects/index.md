@@ -65,7 +65,7 @@ The goal of this course is _learning_. That is, you will be expected to work on 
 
 ## Proposed projects
 
-As explained [above](#project-assignment), you may propose your own project or work on one of the projects proposed by the instructors. Below is the list of available projects and the details may be found in the page of each project (clicking on the titles):
+As explained [above](#project-assignment), you may propose your own project or work on one of the projects proposed by the instructors. Below is the list of available projects and the details may be found (soon) in the page of each project (clicking on the titles):
 
 * [Detection of extreme climate events](./extreme-climate-events)
 * [Crop detection and classification](./cropharvest)
