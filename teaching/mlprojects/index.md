@@ -16,12 +16,14 @@ The objective of this course is to prepare you, the students, for tackling real-
 # Course outline
 
 1. Introduction to the course
-2. GNU/Linux and HPC computing
-3. Version control with `git` and GitHub
-4. Review of machine learning
-5. Review of deep learning
-6. Advanced PyTorch
-7. Projects work
+2. Version control with `git` and GitHub
+3. Python basics and Linux commands
+4. HPC computing
+5. Review of machine learning
+6. Review of deep learning
+7. Advanced PyTorch tutorial
+8. Deep learning tricks and Q&A
+9. Projects work
 
 # Evaluation criteria
 
