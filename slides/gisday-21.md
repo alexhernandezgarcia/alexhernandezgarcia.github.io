@@ -6,7 +6,7 @@ title: "ThisClimateDoesNotExist.com: Visualising climate change impacts on stree
 name: title
 class: title, middle
 
-## [ThisClimateDoesNotExist.com](/network/scratch/a/alex.hernandez-garcia/logs):
+## [ThisClimateDoesNotExist.com](https://thisclimatedoesnotexist.com/):
 ### Visualising climate change impacts on street photos
 
 .bigger[Alex Hernández-García (he/il/él)]
