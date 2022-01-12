@@ -122,13 +122,13 @@ count: false
 
 .left-column[
 <figure>
-	<img src="../assets/images/slides/vicc/rachel_flood.jpg" alt="Montreal, original image" style="width: 80%">
+	<img src="../assets/images/slides/vicc/rachel_flood.gif" alt="Montreal, original image" style="width: 80%">
   <figcaption>Montréal, Québec, Canada</figcaption>
 </figure>
 ]
 .right-column[
 <figure>
-	<img src="../assets/images/slides/vicc/oppelner_flood.jpg" alt="Berlin, original image" style="width: 80%">
+	<img src="../assets/images/slides/vicc/oppelner_flood.gif" alt="Berlin, original image" style="width: 80%">
   <figcaption>Berlin, Germany</figcaption>
 </figure>
 ]
@@ -254,15 +254,15 @@ https://thisclimatedoesnotexist.com/en/share/56d8058c-23d5-4083-b1b4-4afe6a5b2fe
 .columns-3-center[
 * As much as **40% of the Amazon** forest is at risk of becoming a savanna.
 * In 2015, forest fires claimed roughly **980 000 $km^2$** of the world’s forest.
-* Forest fires were responsible for **1.8 gigatonnes of carbon emissions** in 2019.
+* Forest fires emmitted **~1.8 Gt of CO2** in 2019.
 ]
 
 --
 
 .columns-3-right[
-* Outdoor air pollution is believed to be responsible for **4.2 million** premature deaths per year.
+* Air pollution is believed to be responsible for **4.2 million** premature deaths per year.
 * Air pollution is responsible for **6% of deaths** worldwide.
-* According to the WHO, **91% of the world's population** lives in places where air pollution levels exceed the safety limits.  
+* **91% of the population** lives in places where air pollution levels safety limits.  
 ]
 
 --
@@ -291,7 +291,7 @@ Key challenges:
 * We had to overcome the lack of training data: there is no data set of photos of _before and after_ the flood.
 ]
 .right-column[
-![:scale 80%](../assets/images/slides/vicc/gic_flood.gif)
+![:scale 80%](../assets/images/slides/vicc/stockholmuni_flood.gif)
 ]
 
 ---
