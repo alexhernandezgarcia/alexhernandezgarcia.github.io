@@ -220,22 +220,6 @@ count: false
 
 ---
 
-count: false
-
-## Let's try it out!
-
-.center[
-.bigger[.bigger[[ThisClimateDoesNotExist.com](https://thisclimatedoesnotexist.com)]]
-
-.bigger[.bigger[[CeClimatNExistePas.com](https://ceclimatnexistepas.com)]]
-]
-
-???
-
-https://thisclimatedoesnotexist.com/en/share/56d8058c-23d5-4083-b1b4-4afe6a5b2fe9
-
----
-
 ## Why floods, wildfire, smog?
 
 .context[Our algorithm and the website simulates floods, wildfires and smog on input images.]
@@ -271,6 +255,89 @@ https://thisclimatedoesnotexist.com/en/share/56d8058c-23d5-4083-b1b4-4afe6a5b2fe
 .conclusion[Floods, wildires and smog are some of the worst environmental hazards for humanity, and we can communicate their impacts visually.]
 ]
 
+
+---
+
+count: false
+
+## Let's try it out!
+
+.center[
+.bigger[.bigger[[ThisClimateDoesNotExist.com](https://thisclimatedoesnotexist.com)]]
+
+.bigger[.bigger[[CeClimatNExistePas.com](https://ceclimatnexistepas.com)]]
+]
+
+???
+
+https://thisclimatedoesnotexist.com/en/share/56d8058c-23d5-4083-b1b4-4afe6a5b2fe9
+---
+
+## Future directions and limitations
+
+* [_ThisClimateDoesNotExist.com_](https://thisclimatedoesnotexist.com) is not an exerise of climate prediction. There is no correlation between the consequence chosen and the address entered. Our algorithm applies a systematic transformation regardless of the address.
+    * While this is in part a limitation, this allows us to simulate the impacts of climate change, at any location, regardless of the specific risk.
+    * Still, it would be interesting to integrate climate prediction and modelling into our simulations, for other applications.
+--
+* Our algorithm systematically simulates the same level of water (about 1 metre). It would be interesting to allow for more flexible simulations.
+    * An interesting application would be to make the simulations reflect the impacts of various climate actions.
+--
+* We are currently working with Prof. Erick Lachapelle and Thomas Bergeron on a study of the effect of personalised imagery in climate communication.
+
+---
+
+## To know more
+
+* Visit the website: [ThisClimateDoesNotExist.com](https://thisclimatedoesnotexist.com)
+
+.center[![:scale 50%](../assets/images/slides/vicc/website_snapshot_home.png)]
+    
+* Check out our preprint: [ClimateGAN: Raising Climate Change Awareness by Generating Images of Floods](https://arxiv.org/abs/2110.02871v1)
+
+.center[![:scale 70%](../assets/images/slides/vicc/climategan_arxiv.png)]
+    
+---
+
+name: title
+class: title, middle
+
+## Thank you!
+
+.bigger[Alex Hernández-García (he/il/él)]
+
+Victor Schmidt, Sasha Luccioni, Yoshua Bengio et al.
+
+.turquoise[Intelligent Machines, Emotions, and our Planet · Stockholm + virtual · Jan. 13-14th 2022]
+
+.center[
+<a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 6em"></a>
+]
+
+.footer[[alexhernandezgarcia.github.io](https://alexhernandezgarcia.github.io/) | [alex.hernandez-garcia@mila.quebec](mailto:alex.hernandez-garcia@mila.quebec) | [@alexhdezgcia](https://twitter.com/alexhdezgcia)] [![:scale 1em](../assets/images/slides/misc/twitter.png)](https://twitter.com/alexhdezgcia)
+
+---
+
+name: title
+class: title, middle
+count: false
+
+.center[![:scale 30%](../assets/images/slides/vicc/stockholmuni_flood.gif)]
+
+.center[
+<a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 6em"></a>
+]
+
+.footer[[alexhernandezgarcia.github.io](https://alexhernandezgarcia.github.io/) | [alex.hernandez-garcia@mila.quebec](mailto:alex.hernandez-garcia@mila.quebec) | [@alexhdezgcia](https://twitter.com/alexhdezgcia)] [![:scale 1em](../assets/images/slides/misc/twitter.png)](https://twitter.com/alexhdezgcia)
+
+---
+
+name: title
+class: title, middle
+
+## Back-up slides
+
+.turquoise[Intelligent Machines, Emotions, and our Planet · Stockholm + virtual · Jan. 13-14th 2022]
+
 ---
 
 ## Methods
@@ -280,7 +347,7 @@ https://thisclimatedoesnotexist.com/en/share/56d8058c-23d5-4083-b1b4-4afe6a5b2fe
 
 --
 
-.left-column[
+.left-column-66[
 Key challenges:
 
 * Visual perception is sensitive to unrealistic scenes:
@@ -290,8 +357,10 @@ Key challenges:
 * The algorithm was meant to be deployed _in the wild_ and should work with highly variant range of photos.
 * We had to overcome the lack of training data: there is no data set of photos of _before and after_ the flood.
 ]
-.right-column[
-![:scale 80%](../assets/images/slides/vicc/stockholmuni_flood.gif)
+.right-column-33[
+.center[
+![:scale 90%](../assets/images/slides/vicc/stockholmuni_flood.gif)
+]
 ]
 
 ---
@@ -323,7 +392,7 @@ Key features:
 
 .context[We collected 1,200 photos of real floods and 5,500+ _non-flooded_ scenes to train our model. However, _real_ photos lack geometry and segmentation labels.]
 
-We simulated a $1.5~km^2$ virtual world with Unity3D and generated 20,000 images that mimic Google Street View.
+We simulated a $1.5~km^2$ virtual world and generated 20,000 images that mimic Google Street View.
 
 .center[![:scale 70%](../assets/images/slides/vicc/simworld_bird_eye.png)]
 
@@ -336,7 +405,7 @@ count: false
 
 .context[We collected 1,200 photos of real floods and 5,500+ _non-flooded_ scenes to train our model. However, _real_ photos lack geometry and segmentation labels.]
 
-We simulated a $1.5~km^2$ virtual world with Unity3D and generated 20,000 images that mimic Google Street View.
+We simulated a $1.5~km^2$ virtual world and generated 20,000 images that mimic Google Street View.
 
 .center[![:scale 70%](../assets/images/slides/vicc/simdata.png)]
 
@@ -467,62 +536,3 @@ count: false
 .center[![:scale 80%](../assets/images/slides/vicc/bootstrap_summary.png)]
 
 .conclusion[6 of the 5 proposed components for the architecture proved to positively contribute to the performance.]
-
----
-
-## Future directions and limitations
-
-* [_ThisClimateDoesNotExist.com_](https://thisclimatedoesnotexist.com) is not an exerise of climate prediction. There is no correlation between the consequence chosen and the address entered. Our algorithm applies a systematic transformation regardless of the address.
-    * While this is in part a limitation, this allows us to simulate the impacts of climate change, at any location, regardless of the specific risk.
-    * Still, it would be interesting to integrate climate prediction and modelling into our simulations, for other applications.
---
-* Our algorithm systematically simulates the same level of water (about 1 metre). It would be interesting to allow for more flexible simulations.
-    * An interesting application would be to make the simulations reflect the impacts of various climate actions.
---
-* We are currently working with Prof. Erick Lachapelle and Thomas Bergeron on a study of the effect of personalised imagery in climate communication.
-
----
-
-## To know more
-
-* Visit the website: [ThisClimateDoesNotExist.com](https://thisclimatedoesnotexist.com)
-
-.center[![:scale 50%](../assets/images/slides/vicc/website_snapshot_home.png)]
-    
-* Check out our preprint: [ClimateGAN: Raising Climate Change Awareness by Generating Images of Floods](https://arxiv.org/abs/2110.02871v1)
-
-.center[![:scale 70%](../assets/images/slides/vicc/climategan_arxiv.png)]
-    
----
-
-name: title
-class: title, middle
-
-## Thank you!
-
-.bigger[Alex Hernández-García (he/il/él)]
-
-Victor Schmidt, Sasha Luccioni, Yoshua Bengio et al.
-
-.turquoise[Intelligent Machines, Emotions, and our Planet · Stockholm + virtual · Jan. 13-14th 2022]
-
-.center[
-<a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 6em"></a>
-]
-
-.footer[[alexhernandezgarcia.github.io](https://alexhernandezgarcia.github.io/) | [alex.hernandez-garcia@mila.quebec](mailto:alex.hernandez-garcia@mila.quebec) | [@alexhdezgcia](https://twitter.com/alexhdezgcia)] [![:scale 1em](../assets/images/slides/misc/twitter.png)](https://twitter.com/alexhdezgcia)
-
----
-
-name: title
-class: title, middle
-count: false
-
-.center[![:scale 50%](../assets/images/slides/vicc/quebec_parliament.png)]
-
-.center[
-<a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 6em"></a>
-]
-
-.footer[[alexhernandezgarcia.github.io](https://alexhernandezgarcia.github.io/) | [alex.hernandez-garcia@mila.quebec](mailto:alex.hernandez-garcia@mila.quebec) | [@alexhdezgcia](https://twitter.com/alexhdezgcia)] [![:scale 1em](../assets/images/slides/misc/twitter.png)](https://twitter.com/alexhdezgcia)
-
