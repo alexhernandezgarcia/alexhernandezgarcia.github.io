@@ -159,3 +159,10 @@
   city: <del>Montréal</del>Online
   country: <del>Québec, Canada</del>The Internet
   slides: slides/gisday-21
+- title: "ThisClimateDoesNotExist.com: AI to visualise climate change impacts on street photos"
+  year: 2022
+  month: January
+  where: Intelligent Machines, Emotions, and our Planet
+  city: <del>Stockholm</del>Online
+  country: <del>Sweden</del>The Internet
+  slides: slides/emotion_ai_planet-22
