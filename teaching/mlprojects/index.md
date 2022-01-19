@@ -27,7 +27,7 @@ The objective of this course is to prepare you, the students, for tackling real-
 
 # Evaluation criteria
 
-Students will be evaluated entirely according to their work on projects. Depending on the complexity of the projects, you will be required to take part in one or two projects and work in teams of 2--4 people. You can choose from a list of projects prepared by the instructors, or propose your own projects, provided they meet certain criteria. The final evaluation will take the following into account:
+Students will be evaluated entirely according to their work on projects. Depending on the complexity of the projects, you will be required to take part in one or two projects and work in teams of 3--5 people. You can choose from a list of projects prepared by the instructors, or propose your own projects, provided they meet certain criteria. The final evaluation will take the following into account:
 
 * Difficulty of the project
 * Performance of the developed algorithms
@@ -35,7 +35,10 @@ Students will be evaluated entirely according to their work on projects. Dependi
 * Written report
 * Quality of the code
 
-**Important note**: The evaluation criteria will be slightly relaxed for undergraduate students (IFT 3710).
+**Important notes**: 
+* The evaluation criteria will be slightly relaxed for undergraduate students (IFT 3710).
+* The grade will be binary (pass or fail), not in a letter scale.
+* The teams should not mix graduate (IFT 6759) and undergraduate students (IFT 3710).
 
 All students will be required to pass a **basic skills test and interview** before starting the project work, in order to ensure that they are ready to work on an advanced machine learning project in a team.
 

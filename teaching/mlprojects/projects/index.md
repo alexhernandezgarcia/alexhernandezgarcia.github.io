@@ -45,9 +45,12 @@ Students will be evaluated entirely according to their work on projects and the 
 * **Oral presentation**: effectiveness, clarity of the presentation, etc.
 * **Code**: clarity, documentation, modularity, extendability, etc.
 
-The evaluation will be at the project level, that is we will consider that the results, the report, the presentation, and the code are the output of the whole team. Nonetheless, the individual grades may be adjusted if necessary in the case of participation imbalance ([see below](#teamwork)).
+The evaluation will be at the project level, that is we will consider that the results, the report, the presentation, and the code are the output of the whole team. Nonetheless, the grades may be adjusted individually if necessary in the case of participation imbalance ([see below](#teamwork)).
 
-**Important note**: The evaluation criteria will be slightly relaxed for undergraduate students (IFT 3710), specifically regarding the _difficulty of the project_.
+**Important notes**: 
+* The evaluation criteria will be slightly relaxed for undergraduate students (IFT 3710).
+* The grade will be binary (pass or fail), not in a letter scale.
+* The teams should not mix graduate (IFT 6759) and undergraduate students (IFT 3710).
 
 ### Teamwork
 
