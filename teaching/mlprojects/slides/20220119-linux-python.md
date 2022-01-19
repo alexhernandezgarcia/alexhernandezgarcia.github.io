@@ -91,7 +91,7 @@ count: false
 The shell runs programs or commands. Here are some of the most frequently used commands:
 
 .left-column[
-* `man`: manual
+* `man`: manual (also: `info`)
 * `pwd`: print working dir
 * `ls`: list files
 * `cd`: change directory
