@@ -354,14 +354,41 @@ Mention that since Pythonb 3.7, it is possible to simply do `breakpoint()`
 
 ---
 
-## TODO
+## Python linting
 
-* bashrc
-* aliases: https://missing.csail.mit.edu/2020/command-line/#aliases
-* rsync
-* argparse
-* Linting
-* Sign up cluster
+Linters are tools that analyse or process our scripts to flag errors or compliance to standards. Some reasons to use linters are:
+
+* They can save us a lot of precious time.
+* They make our code nicer and readable for others. 
+
+--
+
+Some linters:
+
+* [`flake8`](https://flake8.pycqa.org/en/latest/index.html) checks compliance with PEP8, unused imports, etc.
+* [`isort`](https://pypi.org/project/isort/) sorts our imports.
+* [`black`](https://pypi.org/project/black/) formats our code.
+
+--
+
+To get them all:
+
+``` bash
+$ python -m pip install flake8 isort black
+```
+
+
+---
+
+## Miscellanea
+
+* Customisation of the terminal:
+    * [My configuration](https://github.com/alexhernandezgarcia/linux-config-utils/tree/master/bash)
+    * [Terminal emulators, The missing semester](https://missing.csail.mit.edu/2020/command-line/#terminal-emulators)
+* [Aliases, The missing semester](https://missing.csail.mit.edu/2020/command-line/#aliases)
+* [Python `fire`](https://google.github.io/python-fire/guide/): to turn any Python component into a command line interface.
+* [Pytest](https://docs.pytest.org/en/6.2.x/contents.html): code testing
+* [`mypy`](http://mypy-lang.org/): an optional static Python type checker
 
 ---
 
