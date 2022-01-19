@@ -386,6 +386,7 @@ $ python -m pip install flake8 isort black
     * [My configuration](https://github.com/alexhernandezgarcia/linux-config-utils/tree/master/bash)
     * [Terminal emulators, The missing semester](https://missing.csail.mit.edu/2020/command-line/#terminal-emulators)
 * [Aliases, The missing semester](https://missing.csail.mit.edu/2020/command-line/#aliases)
+* Pipes and redirections in Linux, [Ceos3c](https://www.ceos3c.com/open-source/pipes-and-redirection-in-linux-explained/)
 * [Python `fire`](https://google.github.io/python-fire/guide/): to turn any Python component into a command line interface.
 * [Pytest](https://docs.pytest.org/en/6.2.x/contents.html): code testing
 * [`mypy`](http://mypy-lang.org/): an optional static Python type checker
