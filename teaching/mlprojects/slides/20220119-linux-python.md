@@ -33,18 +33,25 @@ The .highlight1[goal] is that at the end of the class:
 
 * You are able to use the command line for basic operations.
 * You know some useful Linux commands and tools and how to learn more.
-* You remember the core aspects of Python.
+* You remember the core aspects of Python, and know useful tools to ease the development process.
 * You know how to write a Python script to train a machine learning model.
+
+--
+
+Some guidelines for the whole class:
+
+* If I do something that you do not understand and want to understand, please let me know!
+* If you do things differently, feel free to share your way!
+* If you know extra tricks and tips, let us know!
 
 ???
 
-If I do something that you do not understand, please let me know and we will talk about it.
 
 ---
 
 ## What is Linux?
 
-[Linux](https://en.wikipedia.org/wiki/Linux) is a family of **open-source** operating systems based on the _Linux kernel_, an operating system kernel first released in 1991, evolved from the propietary Unix.
+[Linux](https://en.wikipedia.org/wiki/Linux) is a family of **open-source** operating systems based on the _Linux kernel_, an operating system kernel first released in 1991, evolved from the proprietary Unix.
 
 There exist multiple Linux _distributions_, such as Ubuntu, Debian and Fedora, each with specific characteristics but all based on the same kernel and provided by the [GNU Project](https://en.wikipedia.org/wiki/GNU_Project). 
 
@@ -52,10 +59,10 @@ There exist multiple Linux _distributions_, such as Ubuntu, Debian and Fedora, e
 
 ### Why would you care?
 
-* Most computing clusters typically run GNU/Linux distributions.
+* Most computing clusters run GNU/Linux distributions.
 * Linux is open-source.
 * Linux is free.
-* Linux gives you access to powerful low-level toolsa.
+* Linux gives you access to powerful low-level tools.
 * Now even Windows (and macOS) run Linux shell.
 
 ---
@@ -64,7 +71,7 @@ There exist multiple Linux _distributions_, such as Ubuntu, Debian and Fedora, e
 
 The Shell is a textual interface that allows you to run programs at a low level, that is taking full advantage of the tools in a computer.
 
-The Shell is used via a **terminal**, which is installed by default in nearly all operating systems, and is a fundamental tool in Linux systemso
+The Shell is used via a **terminal**, which is installed by default in nearly all operating systems, and is a fundamental tool in Linux systems.
 
 --
 
@@ -92,7 +99,7 @@ The shell runs programs or commands. Here are some of the most frequently used c
 
 .left-column[
 * `man`: manual (also: `info`)
-* `pwd`: print working dir
+* `pwd`: print working _dir_
 * `ls`: list files
 * `cd`: change directory
 * `mkdir`: make directory
@@ -105,7 +112,7 @@ The shell runs programs or commands. Here are some of the most frequently used c
 * `echo`: display text
 * `cat`: concatenate (view files)
 * `less`: view file
-* `head`: view begginning of file
+* `head`: view beginning of file
 * `tail`: view end of file
 * `grep`: regular expressions
 * `rsync`: advanced copying
@@ -183,8 +190,8 @@ However, `vim` takes time to learn.
 
 * Designed to work without the mouse, not even the arrow keys.
 * Vim is highly programmable.
-* Vim works with composable commands
-* Modal editting:
+* Vim works with _composable_ commands
+* Modal editing:
     * Normal: for moving around a file and making edits
     * Insert: for inserting text
     * Replace: for replacing text
@@ -288,7 +295,7 @@ $ deactivate
 
 .references[
 * You may also use [`conda`](https://anaconda.org/anaconda/python)
-* There exist virtualenv wrappers: [`virtualenvwrapper`](https://pypi.org/project/virtualenvwrapper/), [`pipenv`](https://pypi.org/project/pipenv/), [`poetry`](https://pypi.org/project/poetry/)...
+* There exist `virtualenv` wrappers: [`virtualenvwrapper`](https://pypi.org/project/virtualenvwrapper/), [`pipenv`](https://pypi.org/project/pipenv/), [`poetry`](https://pypi.org/project/poetry/)...
 * [`virtualenv` docs](https://virtualenv.pypa.io/en/stable/index.html), with description, user guides, etc.
 ]
 
@@ -350,7 +357,7 @@ Basic commands:
 
 ???
 
-Mention that since Pythonb 3.7, it is possible to simply do `breakpoint()`
+Mention that since Python 3.7, it is possible to simply do `breakpoint()`
 
 ---
 
