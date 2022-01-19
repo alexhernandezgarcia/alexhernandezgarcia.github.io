@@ -18,7 +18,7 @@ The objective of this course is to prepare you, the students, for tackling real-
 1. Introduction to the course
 2. Version control with `git` and GitHub
 3. Python basics and Linux commands
-4. HPC computing
+4. HPC clusters
 5. Review of machine learning
 6. Review of deep learning
 7. Advanced PyTorch tutorial

@@ -9,6 +9,7 @@ class: title, middle
 ## IFT 3710/6759
 ## Projets (avancés) en apprentissage automatique
 
+#### .gray224[January 12th, 2022 - Session 1]
 ### .gray224[Introduction]
 
 .center[
@@ -125,7 +126,7 @@ Roles:
 
 **Week 2**
 * Day 3: Python and Linux
-* Day 4: HPC computing
+* Day 4: HPC clusters
 ]
 .right-column[
 **Week 3**
@@ -356,6 +357,7 @@ class: title, middle
 ## IFT 3710/6759
 ## Projets (avancés) en apprentissage automatique
 
+### .gray224[January 12th, 2022 - Session 1]
 ### .gray224[Introduction]
 
 .bigger[.bigger[.highlight1[Questions, doubts, concerns, comments?]]]

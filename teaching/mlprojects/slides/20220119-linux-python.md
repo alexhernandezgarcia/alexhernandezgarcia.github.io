@@ -9,6 +9,7 @@ class: title, middle
 ## IFT 3710/6759
 ## Projets (avancés) en apprentissage automatique
 
+### .gray224[January 19th, 2022 - Session 3]
 ### .gray224[Linux and Python for ML: introduction and demonstration]
 
 .center[
@@ -307,6 +308,7 @@ class: title, middle
 ## IFT 3710/6759
 ## Projets (avancés) en apprentissage automatique
 
+### .gray224[January 19th, 2022 - Session 3]
 ### .gray224[Linux and Python for ML: introduction and demonstration]
 
 .bigger[.bigger[.highlight1[Break: 10 minutes]]]
@@ -408,6 +410,7 @@ class: title, middle
 ## IFT 3710/6759
 ## Projets (avancés) en apprentissage automatique
 
+### .gray224[January 19th, 2022 - Session 3]
 ### .gray224[Linux and Python for ML: introduction and demonstration]
 
 .bigger[.bigger[.highlight1[Questions, doubts, concerns, comments?]]]
