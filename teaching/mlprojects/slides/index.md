@@ -12,3 +12,5 @@ title: IFT 3710/6759 - Slides
 ### [January 21th - HPC clusters tutorial](20220121-cluster)
 
 ### [January 26th - Machine learning review](20220126-ml)
+
+### [January 28th - Deep learning review](20220128-dl)
