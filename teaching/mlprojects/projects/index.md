@@ -18,7 +18,25 @@ The projects of the course are aimed to resemble as much as possible what real-w
 
 ### Timeline
 
-The first four weeks of the course are devoted to introducing the course, reviewing the core aspects of machine learning and deep learning, and important tools for carrying out machine learning projects, such as Linux, `git` and PyTorch. After that, you are expected to work on the assigned project from week 5 to week 14. As part of the project, you will prepare a short (~8--10 pages) technical report and an oral presentation to be given in front of the teachers and the other students.
+The first four weeks of the course are devoted to introducing the course, reviewing the core aspects of machine learning and deep learning, and important tools for carrying out machine learning projects, such as Linux, `git` and PyTorch. After that, you are expected to work on the assigned project from week 5 to week 14. As a final deliverable of the project, you will prepare a short (~8--10 pages) technical report and an oral presentation to be given in front of the teachers and the other students. During the development of the project, there will be intermediate milestones and deliverables to facilitate smooth progress. The specific timeline is the following:
+
+* Week 4, February 1st 2022--February 4th 2022: review of proposed projects, expression of project preferences and proposal of own projects.
+* Week 5, February 7th 2022--February 11th 2022: project assignments, teams formation, first meeting with instructors.
+    * By the end of the week, all teams should be formed and registered, every student should be in a team.
+    * **Deliverable 1** (February 11th 2022): team registration: working title and members.
+* Week 6, February 14th 2022--February 18th 2022: project planning, literature review.
+    * **Deliverable 2** (February 18th 2022): project plan: one-pager containing a brief description of the project, foreseen steps, goals and tentative distribution of work among team members.
+* Week 7, February 21st 2022--February 25th 2022: literature review, first steps.
+    * **Deliverable 3** (February 25th 2022): literature review: one-pager containing a review of relevant, related literature.
+* Week 8, February 28th 2022--March 4th 2022: break (_période d'activités libres_)
+* Weeks 9--10, March 7th 2022--March 18th 2022: project development (phase 1)
+    * **Deliverable 4** (March 18th 2022): methods and preliminary results: one-pager containing a description of the methods developed and planned, relevant changes to the original plan, and preliminary results and/or challenges.
+* Weeks 11--12, March 21st 2022--April 1st 2022: project development (phase 2)
+    * **Deliverable 5** (April 1st 2022): results and conclusions: preliminary report of results and conclusions (two pages).
+* Weeks 13--14, April 4th 2022--April 13th 2022: project development (phase 3), preparation of presentations and final report.
+    * **Deliverable 6** (April 13th 2022, tentative): presentations in class
+* Weeks 15--16, April 19th 2022--April 29th 2022: preparation of final reports.
+    * **Deliverable 7** (April 29th 2022, tentative): final report
 
 ### Project assignment
 
