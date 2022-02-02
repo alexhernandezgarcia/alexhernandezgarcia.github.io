@@ -9,7 +9,7 @@ The goal of this project will be to build machine learning algorithms for the cl
 
 ## Data
 
-This project is inspired by the availability of a family of benchmark data sets, [CropHarvest](https://github.com/nasaharvest/cropharvest), with satellite data set and labels related to agricultural land use. The data set consists of monthly data containing multispectral imagery from satellites (Sentinel-1 and Sentinel-2), meteorological data (temperature and precipiation), topographical data (elevation and slope) and vegetation health indicators.
+This project is inspired by the availability of a family of benchmark data sets, [CropHarvest](https://github.com/nasaharvest/cropharvest), with satellite data set and labels related to agricultural land use. The data set consists of monthly data containing multispectral imagery from satellites (Sentinel-1 and Sentinel-2), meteorological data (temperature and precipitation), topographical data (elevation and slope) and vegetation health indicators.
 
 The data set is organised into several benchmark tasks. For instance, one of the simplest tasks is the classification locations into _crop_ or _non-crop_ land. Another possible task is to classify each location into a type of crop, and intermediate tasks are the binary classification of one type of crop versus the rest.
 
