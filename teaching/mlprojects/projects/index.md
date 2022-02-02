@@ -105,3 +105,4 @@ As explained [above](#project-assignment), you may propose your own project or w
 * [Photovoltaic power and solar radiation forecasting](./pv-solar)
 * [Location-based species presence prediction, GeoLifeCLEF](./geolifeclef)
 * [Distribution shifts in the wild, WILDS](./wilds)
+* [eBird: Biodiversity monitoring](./ebird)
