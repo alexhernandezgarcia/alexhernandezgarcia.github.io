@@ -102,8 +102,6 @@ As explained [above](#project-assignment), you may propose your own project or w
 * [Downscaling climate models](./downscaling)
 * [Electrocatalysts modelling and design](./electrocatalysts)
 * [DNA aptamers modelling](./dna)
-* [NLP for Indigenous languages](./indigenous-languages)
 * [Photovoltaic power and solar radiation forecasting](./pv-solar)
 * [Location-based species presence prediction, GeoLifeCLEF](./geolifeclef)
 * [Distribution shifts in the wild, WILDS](./wilds)
-* [EBIRD](./ebird)
