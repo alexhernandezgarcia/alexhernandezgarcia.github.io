@@ -14,3 +14,5 @@ title: IFT 3710/6759 - Slides
 ### [January 26th - Machine learning review](20220126-ml)
 
 ### [January 28th - Deep learning review](20220128-dl)
+
+### [February 2nd - Reporting results: data visualisation and the bootstrap](20220202-dataviz)
