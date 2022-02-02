@@ -25,3 +25,13 @@ Species observations come from eBird, a citizen science database of bird sightin
 ## Relevant machine learning methods
 
 Depending on the questions you choose to tackle, you may touch upon clustering methods, computer vision techniques if you choose to work with satellite imagery, data augmentation and self-supervised techniques, etc. Because this is not a benchmark dataset, some of the work will consist in defining the question that you want to focus on. There will also be some work related to the preparation of the data for your research question, and for building baselines for your problem. Therefore we do not expect you to develop a fancy machine learning algorithm, but rather exploring such a new research question.
+
+## References
+
+The actual data has been prepared by Mélisande Teng, please contact her if you are interested in working on this project. 
+
+* [eBird data for scientists](https://ebird.org/science)
+* [Species distribution modeling for ML practitioners: a review](https://dl.acm.org/doi/pdf/10.1145/3460112.3471966)
+* [Clustering species: Deep multi-species embeddings](https://arxiv.org/pdf/1609.09353.pdf)
+
+
