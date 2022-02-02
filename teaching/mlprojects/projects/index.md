@@ -103,6 +103,6 @@ As explained [above](#project-assignment), you may propose your own project or w
 * [Electrocatalysts modelling and design](./electrocatalysts)
 * [DNA aptamers modelling](./dna)
 * [Photovoltaic power and solar radiation forecasting](./pv-solar)
-* [Location-based species presence prediction, GeoLifeCLEF](./geolifeclef)
-* [Distribution shifts in the wild, WILDS](./wilds)
+* [GeoLifeCLEF: Location-based species presence prediction](./geolifeclef)
+* [WILDS: Distribution shifts in the wild](./wilds)
 * [eBird: Biodiversity monitoring](./ebird)
