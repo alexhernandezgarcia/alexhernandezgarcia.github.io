@@ -1,6 +1,6 @@
 ---
 layout: mlprojects
-title: IFT 3710/6759 - WILDS: Distribution shifts in the wild
+title: IFT 3710/6759 - "WILDS: Distribution shifts in the wild"
 ---
 
 ## Brief description

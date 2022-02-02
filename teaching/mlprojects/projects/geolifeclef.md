@@ -1,6 +1,6 @@
 ---
 layout: mlprojects
-title: IFT 3710/6759 - GeoLifeCLEF: Location-based species presence prediction
+title: IFT 3710/6759 - "GeoLifeCLEF: Location-based species presence prediction"
 ---
 
 ## Brief description

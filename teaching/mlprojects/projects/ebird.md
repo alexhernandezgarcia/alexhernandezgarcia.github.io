@@ -1,6 +1,6 @@
 ---
 layout: mlprojects
-title: IFT 3710/6759 - eBird: Biodiversity monitoring
+title: IFT 3710/6759 - "eBird: Biodiversity monitoring"
 ---
 
 This is a proposal related to Mélisande Teng's current research, so feel free to discuss further with her if this topic is of interest to you. There are many avenues to explore and you could even define your own research question with the data provided.
@@ -33,5 +33,3 @@ The actual data has been prepared by Mélisande Teng, please contact her if you 
 * [eBird data for scientists](https://ebird.org/science)
 * [Species distribution modeling for ML practitioners: a review](https://dl.acm.org/doi/pdf/10.1145/3460112.3471966)
 * [Clustering species: Deep multi-species embeddings](https://arxiv.org/pdf/1609.09353.pdf)
-
-
