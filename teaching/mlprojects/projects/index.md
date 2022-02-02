@@ -106,3 +106,4 @@ As explained [above](#project-assignment), you may propose your own project or w
 * [GeoLifeCLEF: Location-based species presence prediction](./geolifeclef)
 * [WILDS: Distribution shifts in the wild](./wilds)
 * [eBird: Biodiversity monitoring](./ebird)
+* [Animal classification and detection](./animals)
