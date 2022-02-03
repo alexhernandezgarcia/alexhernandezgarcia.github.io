@@ -107,3 +107,4 @@ As explained [above](#project-assignment), you may propose your own project or w
 * [WILDS: Distribution shifts in the wild](./wilds)
 * [eBird: Biodiversity monitoring](./ebird)
 * [Animal classification and detection](./animals)
+* [NLP for Indigenous languages](./indigenous-languages)
