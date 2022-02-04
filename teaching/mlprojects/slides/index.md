@@ -16,3 +16,5 @@ title: IFT 3710/6759 - Slides
 ### [January 28th - Deep learning review](20220128-dl)
 
 ### [February 2nd - Data visualisation](20220202-dataviz)
+
+### [February 4nd - PyTorch tutorial (Notebook by Victor Schmidt)](https://github.com/vict0rsch/pytorch-tutorial/blob/main/learn_pytorch.ipynb)
