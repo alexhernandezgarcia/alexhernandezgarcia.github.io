@@ -25,3 +25,4 @@ A baseline project should construct and evaluate a machine learning model that c
 
 * [NUPACK Python package](http://www.nupack.org/)
 * [GitHub repository with relevant functionality](https://github.com/alexhernandezgarcia/activelearningpipeline)
+* [Paper: E2EDNA: Simulation protocol for DNA aptamers with ligands](https://chemrxiv.org/engage/chemrxiv/article-details/60cbcb1d461f5627524764ab)
