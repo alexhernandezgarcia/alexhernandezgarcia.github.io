@@ -43,11 +43,13 @@
     - Prevost Jantchou
     - Kamran Kafi
     - Ryan D. Martin
-  year: 2021
-  journal: bioRxiv
+  year: 2022
+  journal: Frontiers in Genetics
   tags:
     - tag: bioRxiv
       link: https://www.biorxiv.org/content/10.1101/2021.05.03.442488v1
+    - tag: Frontiers in Genetics
+      link: https://www.frontiersin.org/articles/10.3389/fgene.2022.784397/full
 - title: "Rethinking supervised learning: insights from biological learning and from calling it by its name"
   authors:
     - Alex Hernandez-Garcia
