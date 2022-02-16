@@ -18,3 +18,5 @@ title: IFT 3710/6759 - Slides
 ### [February 2nd - Data visualisation](20220202-dataviz)
 
 ### [February 4th - PyTorch tutorial (Notebook by Victor Schmidt)](https://github.com/vict0rsch/pytorch-tutorial/blob/main/learn_pytorch.ipynb)
+
+### [February 16th - Project guidelines](20220216-proj-guidelines)
