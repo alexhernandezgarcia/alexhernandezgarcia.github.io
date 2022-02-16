@@ -115,7 +115,7 @@ The evaluation will be at the project level, that is we will consider that the r
 ## Deliverable 2
 ### Project plan
 
-* Due Friday February 18th (AoE) (soft deadline; hard deadline on Sunday)
+* Due Friday February 18th (soft deadline; hard deadline on Sunday)
 * To be submitted on StudiUM (?)
 * One page (soft limit; hard limit two pages)
 * Content:
