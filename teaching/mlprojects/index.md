@@ -17,12 +17,12 @@ The objective of this course is to prepare you, the students, for tackling real-
 
 1. Introduction to the course
 2. Version control with `git` and GitHub
-3. Python basics and Linux commands
+3. Linux and Python for machine learning
 4. HPC clusters
-5. Review of machine learning
-6. Review of deep learning
-7. Advanced PyTorch tutorial
-8. Deep learning tricks and Q&A
+5. Machine learning review
+6. Deep learning review
+7. Data visualisation
+8. Advanced PyTorch tutorial
 9. Projects work
 
 # Evaluation criteria
@@ -53,10 +53,12 @@ All students will be required to pass a **basic skills test and interview** befo
 
 Classes take place on:
 
-* Wednesdays, 16:30--18:30 (ET)
-* Fridays, 09:30--11:30 (ET)
+* Wednesdays, 16:30--18:30 (ET): 1140 Pav. André-Aisenstadt
+* Fridays, 09:30--11:30 (ET): Y-117 Pav. Roger-Gaudry
 
-Due the pandemic situation, la [Faculté des arts et des sciences](https://fas.umontreal.ca/accueil/) of the Université de Montréal has delayed the start of the term until January 10th. Therefore, **the first session** of this course will be on **Wednesday January 12th**. For the same reasons, classes will be **online _at least_ until January 31th**.
+Due the pandemic situation, la [Faculté des arts et des sciences](https://fas.umontreal.ca/accueil/) of the Université de Montréal has delayed the start of the term until January 10th. Therefore, **the first session** of this course will be on **Wednesday January 12th**. For the same reasons, classes will be **online _at least_ until January 31st**.
+
+Starting on January 31st, classes take place in person.
 
 # Resources
 
