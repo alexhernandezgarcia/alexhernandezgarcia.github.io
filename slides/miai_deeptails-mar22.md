@@ -6,8 +6,9 @@ title: "GFlowNet: A theoretical introduction and application on biological seque
 name: title
 class: title, middle
 
-## GFlowNet
-### A theoretical introduction and application on biological sequences design
+## GFlowNets
+### A Friendly Introduction and Designing Biological Sequences
+
 
 .bigger[Moksh Jain and Alex Hernández-García (he/il/él)]
 
@@ -20,14 +21,32 @@ class: title, middle
 ---
 
 ## Collaborators and publications
+* Flow Network based Generative Models for Non-Iterative Diverse Candidate Generation
+* GFlowNet Foundations
+* Biological Sequence Design with GFlowNets
+---
+
+## Motivation
+.context[Max is not all you need!]
+* Scoring functions during search can be unreliable for in silico-search.
+    * Capture only a single attribute.
+    * Large errors due to approximations and assumptions
+* 
+
+.center[![:scale 50%](../assets/images/slides/gfn-seq-design/ddloop.png)]
 
 ---
 
-## Problem
+## Don't we have methods to do that already?
+### MCMC
 
 ---
 
-## Existing approaches
+## Don't we have methods to do that already?
+### RL with Entropy Regularization
+---
+
+## Generative Flow Networks (GFlowNets)
 
 ---
 
