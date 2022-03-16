@@ -20,3 +20,5 @@ title: IFT 3710/6759 - Slides
 ### [February 4th - PyTorch tutorial (Notebook by Victor Schmidt)](https://github.com/vict0rsch/pytorch-tutorial/blob/main/learn_pytorch.ipynb)
 
 ### [February 16th - Project guidelines](20220216-proj-guidelines)
+
+### [March 9th - Project development](20220309-proj-dev)
