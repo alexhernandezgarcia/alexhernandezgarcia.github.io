@@ -21,13 +21,13 @@ class: title, middle
 ---
 
 ## Collaborators and publications
-* **Flow Network based Generative Models for Non-Iterative Diverse Candidate Generation**
+* **[Flow Network based Generative Models for Non-Iterative Diverse Candidate Generation](https://arxiv.org/abs/2106.04399)**
     - _Emmanuel Bengio, Moksh Jain, Maksym Korablyov, Doina Precup, Yoshua Bengio. 2021._
-* **GFlowNet Foundations**
+* **[GFlowNet Foundations](https://arxiv.org/abs/2111.09266)**
     - _Yoshua Bengio, Tristan Deleu, Edward J. Hu, Salem Lahlou, Mo Tiwari, Emmanuel Bengio. 2021._
-* **Trajectory Balance: Improved Credit Assignment in GFlowNets**
+* **[Trajectory Balance: Improved Credit Assignment in GFlowNets](https://arxiv.org/abs/2201.13259)**
     - _Nikolay Malkin, Moksh Jain, Emmanuel Bengio, Chen Sun, Yoshua Bengio. 2022._
-* **Biological Sequence Design with GFlowNets**
+* **[Biological Sequence Design with GFlowNets](https://arxiv.org/abs/2203.04115)**
     - _Moksh Jain, Emmanuel Bengio, Alex Hernandez-Garcia, Jarrid Rector-Brooks, Bonaventure Dossou, Chanakya Ekbote, Jie Fu, Tianyu Zhang, Micheal Kilgour, Dinghuai Zhang, Yelena Simine, Payel Das, and Yoshua Bengio. 2022._
 ---
 
@@ -69,7 +69,7 @@ class: title, middle
 * Discrete objects $x \in \cal X$, can be constructed through a sequence of steps $\tau$ using a given set of actions.
 * At each step of the trajectory $\tau=(s_0\rightarrow s_1 \rightarrow \dots x \rightarrow s_f)$, we get a partially constructed object $s\in \mathcal{S}$, including a starting empty state $s_0$ and a common final state $s_f$. 
 * Induces a directed graph $\mathcal{G}=(\mathcal{S},\mathcal{E})$, denoting all possible constructions in the domain (DAG).
-* GFlowNets learn a policy $\pi$ to construct $x$ such that $\pi(x) \propto R(x)$
+* GFlowNets learn a policy $\pi$ to construct $x$ such that: $$\pi(x) \propto R(x)$$
 * Computation is ammortized during training, sampling is cheap!
 ---
 
@@ -201,9 +201,11 @@ A .highlight1[machine learning **agent**] in the loop can:
 ## Experiments
 ### Anti-microbial peptide design
 
+.context[Active learning with GFlowNet sampling.]
+
 * Peptides are short chains of amino acids (proteins) .cite[(Pirtskhalava et al., 2021)]
 * The goal is to find peptides with anti-microbial properties
-* We consider chains of length 50, with a vocabulary of 20 aminoacids ($>10^{65}$)
+* We consider chains of length 50 or shorter, with a vocabulary of 20 aminoacids ($>10^{65}$)
 * Active learning hyper-parameters:
     * Initial data set $|\mathcal{D_0}| = 7830$ (3219 + 4611)
     * 10 rounds
@@ -218,13 +220,13 @@ Pirtskhalava et al. DBAASP V3: Database of antimicrobial/cytotoxic activity and 
 ## Experiments
 ### Desiderata for candidates
 
-.context[We look for a .highlight[diverse] set of .highlight[good] candidates]
+.context[We look for a .highlight1[diverse] set of .highlight1[good] candidates.]
 
 The set of top $k$ candidates: $\mathcal{D}_{Best} = TopK(\mathcal{D}_K \backslash \mathcal{D}_0)$
 
-* Performance / usefulness score: mean score of $\mathcal{D}_{Best}$
-* Diversity: mean distance within $\mathcal{D}_{Best}$
-* Novelty: mean distance with between $\mathcal{D}_{Best}$ and $\mathcal{D}_0$
+* .highlight1[Performance / usefulness score]: mean score of $\mathcal{D}_{Best}$
+* .highlight1[Diversity]: mean distance within $\mathcal{D}_{Best}$
+* .highlight1[Novelty]: mean distance with between $\mathcal{D}_{Best}$ and $\mathcal{D}_0$
 
 --
 
@@ -255,14 +257,64 @@ Three representative recent machine learning models for sequence design:
 ## Experiments
 ### Results
 
-.right-column[
-.center[![:scale 100%](../assets/images/slides/gfn-seq-design/seqdes_amp.png)]
+.context[Active learning with 10 rounds, $b = 1000$, $K = 100$.]
 
-.center[![:scale 100%](../assets/images/slides/gfn-seq-design/table1.png)]
+* GFlowNet generates sequences with .highlight1[score] on par or higher than the strongest baseline.
+* GFlowNet generates much more .highlight1[diverse] and .highlight1[novel] samples than the baselines.
+
+
+.center[
+<figure>
+	<img src="../assets/images/slides/gfn-seq-design/table1.png" alt="Metrics with $K=100$" style="width: 85%">
+  <figcaption>Metrics with $K=100$</figcaption>
+</figure>
 ]
+
+--
+
+.smaller[
+* AmortizedBO generated nonsensical peptides because it is designed for fixed-length sequences.
+* Methods such as COMs, which perform local search around known candidates, perform poorly when the goal is to generate .highlight1[large], .highlight1[diverse] and .highlight1[novel] batches.
+]
+
+--
+
+.conclusion[GFlowNet succeeds at generating sequences that satisfy all three metrics: high score, diversity and novelty.]
+
 ---
 
-## Looking forward
+## Other experiments and applications
+
+* DNA sequences with high binding activity with human transcription factors. .cite[Jain et al., 2022]
+* Protein sequences with high fluorescence. .cite[Jain et al., 2022]
+* DNA aptasensors with low free energy and high binding activity with target ligand.
+* Electrocatalysts with low activation energy with target molecule.
+* Solid-state ionic conductors
+
+.references[
+Jain et al. [Biological Sequence Design with GFlowNets](https://arxiv.orghttps://arxiv.org/pdf/2203.04115.pdf), arXiv:2203.04115, 2022. 
+]
+
+---
+
+## Current and future work
+
+* Improving candidate generation by incorporating epistemic uncertainty into the reward function. .cite[Jain et al., 2022]
+* Accelerating GFlowNet training with samples from the empirical distribution. .cite[Jain et al., 2022]
+* Integrating GFlowNet sampling into continual learning algorithms.
+* Expanding active learning with multi-fidelity oracles.
+
+.references[
+Jain et al. [Biological Sequence Design with GFlowNets](https://arxiv.orghttps://arxiv.org/pdf/2203.04115.pdf), arXiv:2203.04115, 2022. 
+]
+
+---
+
+## Conclusions
+
+* Generative flow networks (GFlowNet) is an effective method to sample objects from multiple modes of a target distribution.: .highlight1[high reward] and .highlight1[diverse] samples.
+* This property makes GFlowNets an effective method for improving active learning pipelines.
+* We have shown that active learning with GFlowNet as sampling method can be used to generate high-score, diverse and novel sequences, using biologically relevant data and target functions.
 
 ---
 
@@ -270,6 +322,8 @@ name: title
 class: title, middle
 
 ## Thank you!
+
+.center[![:scale 30%](../assets/images/slides/gfn-seq-design/flownet.gif)]
 
 .bigger[Moksh Jain and Alex Hernández-García (he/il/él)]
 
