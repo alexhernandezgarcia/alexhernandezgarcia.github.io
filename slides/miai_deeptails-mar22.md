@@ -325,6 +325,8 @@ class: title, middle
 
 .center[![:scale 30%](../assets/images/slides/gfn-seq-design/flownet.gif)]
 
+.center[![:scale 30%](../assets/images/slides/gfn-seq-design/flownet.gif)]
+
 .bigger[Moksh Jain and Alex Hernández-García (he/il/él)]
 
 .turquoise[[Deeptails Seminar](https://miai.univ-grenoble-alpes.fr/events-highlights/miai-seminars/) · MIAI Grenoble (virtual) · March 17th 2022]
