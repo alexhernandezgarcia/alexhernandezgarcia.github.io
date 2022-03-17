@@ -152,7 +152,40 @@ A .highlight1[machine learning **agent**] in the loop can:
 
 ---
 
-## Active learning improvements
+## Experiments
+### Anti-microbial peptide design
+
+* Peptides are short chains of amino acids (proteins) .cite[(Pirtskhalava et al., 2021)]
+* The goal is to find peptides with anti-microbial properties
+* We consider chains of length 50, with a vocabulary of 20 aminoacids ($>10^{65}$)
+* Active learning hyper-parameters:
+    * Initial data set $|\mathcal{D_0}| = 7830$ (3219 + 4611)
+    * 10 rounds
+    * Batch size $b = 10$
+
+.references[
+Pirtskhalava et al. DBAASP V3: Database of antimicrobial/cytotoxic activity and structure of peptides as a resource for development of new therapeutics. Nucleic Acids Research, 2021.
+]
+
+---
+
+## Experiments
+### Desiderata for candidates
+
+.context[We look for a .highlight[diverse] set of .highlight[good] candidates]
+
+The set of top $k$ candidates: $\mathcal{D}_{Best} = TopK(\mathcal{D}_K \backslash \mathcal{D}_0)$
+
+* Performance / usefulness score: mean score of $\mathcal{D}_{Best}$
+* Diversity: mean distance within $\mathcal{D}_{Best}$
+* Novelty: mean distance with between $\mathcal{D}_{Best}$ and $\mathcal{D}_0$
+
+--
+
+&nbsp
+&nbsp
+
+.conclusion[A set of candidates should be evaluated holistically, considering all three metrics.]
 
 ---
 
