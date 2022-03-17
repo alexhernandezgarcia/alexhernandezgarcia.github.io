@@ -189,8 +189,31 @@ The set of top $k$ candidates: $\mathcal{D}_{Best} = TopK(\mathcal{D}_K \backsla
 
 ---
 
-## Results
+## Experiments
+### Baselines
 
+Three representative recent machine learning models for sequence design:
+
+* DynaPPO: Active Learning with RL as Generator .cite[Angermueller et al., 2019]
+* AmortizedBO: Bayesian Optimization with RL-based Genetic Algorithm .cite[Swersky et al., 2020]
+* COMs: Deep Model Based Optimization .cite[Trabucco et al., 2021]
+
+.references[
+* Angermueller et al. Model-based reinforcement learning for biological sequence design. ICLR, 2019.
+* Swersky et al. Amortized bayesian optimization over discrete spaces. PMLR, 2020.
+* Trabucco et al. Conservative objective models for effective offline model-based optimization. ICML, 2021.
+]
+
+---
+
+## Experiments
+### Results
+
+.right-column[
+.center[![:scale 100%](../assets/images/slides/gfn-seq-design/seqdes_amp.png)]
+
+.center[![:scale 100%](../assets/images/slides/gfn-seq-design/table1.png)]
+]
 ---
 
 ## Looking forward
