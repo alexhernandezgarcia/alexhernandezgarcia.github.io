@@ -321,7 +321,7 @@ Jain et al. [Biological Sequence Design with GFlowNets](https://arxiv.orghttps:/
 name: title
 class: title, middle
 
-## Thank you!
+## Thank you! Looking forward to your questions!
 
 .center[![:scale 30%](../assets/images/slides/gfn-seq-design/flownet.gif)]
 
