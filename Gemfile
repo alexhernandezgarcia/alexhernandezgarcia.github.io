@@ -12,8 +12,8 @@ source "https://rubygems.org"
 # To use GitHub Pages, comment the "gem "jekyll"" below and
 # uncomment the "gem "github-pages"" line.
 # To upgrade, run `bundle update github-pages`.
-gem "jekyll", "~> 3.8.5"
-# gem "github-pages", group: :jekyll_plugins
+# gem "jekyll", "~> 3.8.5"
+gem "github-pages", group: :jekyll_plugins
 
 # Plugins
 group :jekyll_plugins do
