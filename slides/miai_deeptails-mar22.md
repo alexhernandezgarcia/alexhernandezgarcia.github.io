@@ -29,6 +29,12 @@ class: title, middle
     - _Nikolay Malkin, Moksh Jain, Emmanuel Bengio, Chen Sun, Yoshua Bengio. 2022._
 * **[Biological Sequence Design with GFlowNets](https://arxiv.org/abs/2203.04115)**
     - _Moksh Jain, Emmanuel Bengio, Alex Hernandez-Garcia, Jarrid Rector-Brooks, Bonaventure Dossou, Chanakya Ekbote, Jie Fu, Tianyu Zhang, Micheal Kilgour, Dinghuai Zhang, Yelena Simine, Payel Das, and Yoshua Bengio. 2022._
+
+???
+
+Talk about our papers
+
+
 ---
 
 ## Motivation
@@ -209,7 +215,7 @@ A .highlight1[machine learning **agent**] in the loop can:
 * Active learning hyper-parameters:
     * Initial data set $|\mathcal{D_0}| = 7830$ (3219 + 4611)
     * 10 rounds
-    * Batch size $b = 10$
+    * Batch size $b = 1000$
 
 .references[
 Pirtskhalava et al. DBAASP V3: Database of antimicrobial/cytotoxic activity and structure of peptides as a resource for development of new therapeutics. Nucleic Acids Research, 2021.
@@ -287,6 +293,7 @@ Three representative recent machine learning models for sequence design:
 
 * DNA sequences with high binding activity with human transcription factors. .cite[Jain et al., 2022]
 * Protein sequences with high fluorescence. .cite[Jain et al., 2022]
+* Small molecules with high binding affinity with a target ligand.
 * DNA aptasensors with low free energy and high binding activity with target ligand.
 * Electrocatalysts with low activation energy with target molecule.
 * Solid-state ionic conductors
@@ -315,6 +322,10 @@ Jain et al. [Biological Sequence Design with GFlowNets](https://arxiv.orghttps:/
 * Generative flow networks (GFlowNet) is an effective method to sample objects from multiple modes of a target distribution.: .highlight1[high reward] and .highlight1[diverse] samples.
 * This property makes GFlowNets an effective method for improving active learning pipelines.
 * We have shown that active learning with GFlowNet as sampling method can be used to generate high-score, diverse and novel sequences, using biologically relevant data and target functions.
+
+<br><br>
+
+.conclusion[GFlowNets can be regarded as a Swiss army knife for probabilistic modelling]
 
 ---
 
