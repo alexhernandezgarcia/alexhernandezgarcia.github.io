@@ -87,7 +87,7 @@ Talk about our papers
 * State Flow $F(s)$ is the flow of all trajectories passing through the state $s$.
 * Edge Flow $F(s\rightarrow s')$ is the flow through a particular edge $s\rightarrow s'$.
 * Forward Policy $P_F$ acts based on the flow at each state $P\_F(s'|s) = \frac{F(s\rightarrow s')}{F(s)}$
-* Backward Policy $P_F$ acts based on the flow at each state $P\_B(s|s') = \frac{F(s\rightarrow s')}{F(s')}$
+* Backward Policy $P_B$ acts based on the flow at each state $P\_B(s|s') = \frac{F(s\rightarrow s')}{F(s')}$
 ---
 
 ## Flow Consistency
