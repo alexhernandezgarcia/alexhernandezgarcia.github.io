@@ -166,3 +166,13 @@
   city: <del>Stockholm</del>Online
   country: <del>Sweden</del>The Internet
   slides: slides/emotion_ai_planet-22
+- title: "GFlowNets: a friendly introduction and designing biological sequences (with Moksh Jain)"
+  year: 2022
+  month: March
+  where: Deeptails Seminar, MIAI
+  city: <del>Grenoble</del>Online
+  country: <del>France</del>The Internet
+  slides: slides/miai_deeptails-mar22
+  link: https://miai.univ-grenoble-alpes.fr/events-highlights/miai-seminars/3rd-miai-deeptails-seminar-on-march-17th-from-5pm-cet-875233.kjsp
+  video: https://www.youtube.com/watch?v=7W69-ffTs48
+
