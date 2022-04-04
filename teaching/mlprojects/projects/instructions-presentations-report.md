@@ -18,7 +18,7 @@ Final reports and the source code are due on **April 29th 2022** at 23:59 (EST).
 
 Each team is expected to give a presentation in class on the aforementioned dates. The presentations should last about 10 minutes, excluding questions. Since there are 15 teams and 2 sessions of 120 minutes, there will be a maximum of (`120 * 2 - 15 * 10 =`) 90 minutes for questions and discussion for all teams. The presentation sessions will be organised in blocks of presentations with time for questions and discussion after each block. Teams will be assigned a slot by the instructors and all students are highly encouraged to attend the two presentation sessions. Participation and engagement in the presentation sessions will count towards the part of the grade corresponding to the presentations.
 
-The main goal of the presentations is to explain the work you have done in your project and convey the most important results and conclusions. A good presentation will be one in which the rest of the class will learn something new. Therefore, make sure to provide enough context and and prepare an effective presentation. Below are some relevant resources for preparing and giving effective presentations:
+The main goal of the presentations is to explain the work you have done in your project and convey the most important results and conclusions. A good presentation will be one in which the rest of the class will learn something new. Therefore, make sure to provide enough context and prepare an effective presentation. Below are some relevant resources for preparing and giving effective presentations:
 
 * [Ten simple rules for making good oral presentation](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.0030077&type=printable), by Philip E. Bourne, PLOS Computational Biology (2007)
 * [Ten simple rules for short and swift presentations](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1005373&type=printable), by Christopher J. Lortie, PLOS Computational Biology (2017)
@@ -32,13 +32,16 @@ The final report of your project is the main deliverable of this class, since it
 * Team members
 * Abstract
 * Introduction: context, motivation and summary of the work.
+* Literature review
 * Methods
 * Results
 * Conclusions
 * Contributions of each team member
 * References
 
-Whilst this structure is recommended, feel free to modify it if you have a good reason for it. Although the report may resemble a scientific publication, an important difference should be observed: **you are welcome and encouraged to include methods and results that _did not work_ as you had expected**, if they were a significant part of your work and/or you think we can learn from them.
+Whilst this structure is recommended, feel free to modify it if you have a good reason for it. Although the report may resemble a scientific publication, an important difference should be observed: **you are welcome and encouraged to include methods and results that _did not work_ as you had expected**, if they were a significant part of your work and/or you think we can learn from them. 
+
+As you may see, the different parts closely match the deliverables that you have worked on during the course. Insofar as you produced near-final versions of the parts for the intermediate deliverables, you are welcome to reuse them for the final report.
 
 ### Format and template
 
@@ -62,7 +65,7 @@ The above instructions are inherited from the guidelines for [NeurIPS 2022](http
 Not only the work done during the project development as reflected by the report, but also the quality of the report itself will be considered for the final grade. Therefore, make sure to follow common guidelines for writing good scientific papers or technical reports. Good papers usually follow a comprehensive story-telling structure:
 
 1. Context: needed to understand the need (2)
-2. Need: what is the ultimate motivation? why is this important?
+2. Need: what is the ultimate motivation? Why is this important?
 3. Task: overall objective
 4. Object: particular objective of the present document
 5. Findings
