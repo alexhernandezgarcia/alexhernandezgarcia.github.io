@@ -45,6 +45,7 @@ All students will be required to pass a **basic skills test and interview** befo
 # Useful links
 
 * [Projects guidelines]({{ site.url }}/teaching/mlprojects/projects)
+* [Instructions for the presentation, final report and code]({{ site.url }}/teaching/mlprojects/projects/instructions-presentations-report)
 * [Link to StudiUM page](https://studium.umontreal.ca/course/view.php?id=219252)
 * [Link to public admission page of IFT 6759](https://admission.umontreal.ca/cours-et-horaires/cours/ift-6759/)
 * [Link to public admission page of IFT 3710](https://admission.umontreal.ca/cours-et-horaires/cours/ift-3710/)

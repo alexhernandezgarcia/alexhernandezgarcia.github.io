@@ -33,10 +33,10 @@ The first four weeks of the course are devoted to introducing the course, review
     * **Deliverable 4** (March 18th 2022): methods and preliminary results: one-pager containing a description of the methods developed and planned, relevant changes to the original plan, and preliminary results and/or challenges.
 * Weeks 11--12, March 21st 2022--April 1st 2022: project development (phase 2)
     * **Deliverable 5** (April 1st 2022): results and conclusions: preliminary report of results and conclusions (two pages).
-* Weeks 13--14, April 4th 2022--April 13th 2022: project development (phase 3), preparation of presentations and final report.
-    * **Deliverable 6** (April 13th 2022, tentative): presentations in class
-* Weeks 15--16, April 19th 2022--April 29th 2022: preparation of final reports.
-    * **Deliverable 7** (April 29th 2022, tentative): final report
+* Weeks 13--15, April 4th 2022--April 20th 2022: project development (phase 3), preparation of presentations and final report.
+    * **Deliverable 6** (April 20th and April 22nd 2022): presentations in class
+* Week 16, April 25th 2022--April 29th 2022: preparation of final reports.
+    * **Deliverable 7** (April 29th 2022): final report
 
 ### Project assignment
 
@@ -63,7 +63,7 @@ Students will be evaluated entirely according to their work on projects and the 
 * **Oral presentation**: effectiveness, clarity of the presentation, etc.
 * **Code**: clarity, documentation, modularity, extendability, etc.
 
-The evaluation will be at the project level, that is we will consider that the results, the report, the presentation, and the code are the output of the whole team. Nonetheless, the grades may be adjusted individually if necessary in the case of participation imbalance ([see below](#teamwork)).
+The evaluation will be at the project level, that is we will consider that the results, the report, the presentation, and the code are the output of the whole team. Detailed instructions regarding the presentations, reports and code are available [here](./instructions-presentations-report). Nonetheless, the grades may be adjusted individually if necessary in the case of participation imbalance ([see below](#teamwork)).
 
 **Important notes**: 
 * The evaluation criteria will be slightly relaxed for undergraduate students (IFT 3710).
