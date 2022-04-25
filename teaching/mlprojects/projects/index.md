@@ -108,3 +108,11 @@ As explained [above](#project-assignment), you may propose your own project or w
 * [eBird: Biodiversity monitoring](./ebird)
 * [Animal classification and detection](./animals)
 * [NLP for Indigenous languages](./indigenous-languages)
+
+## Final projects
+
+{% assign projects = site.data.mlprojects | sample: site.data.mlprojects.size %}
+{% for item in projects %}
+  {% include mlproject-item.html %}
+{% endfor %}
+

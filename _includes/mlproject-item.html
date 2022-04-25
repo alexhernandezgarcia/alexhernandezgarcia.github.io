@@ -1,0 +1,20 @@
+<article class="media">
+	<div class="media-content">
+		<div class="content">
+		<p>
+    <b><em>{{ item.title }}</em></b>. 
+		{% for author in item.authors %}
+      {% if forloop.last == true %}
+				{{ author }}
+      {% else %}
+				{{ author }}, 
+      {% endif %}
+		{% endfor %}
+    <a class="tag" href="{{ site.url }}/assets/pdf/mlprojects22/{{ item.pdf }}">PDF</a>
+    {% if item.link %}
+      <a class="tag" href="{{ item.link }}">Link</a>
+    {% endif %}
+		</p>
+		</div>
+	</div>
+</article>

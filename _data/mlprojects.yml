@@ -1,0 +1,109 @@
+- title: "Statistical downscaling of global climate models"
+  authors:
+    - Jake White
+    - Olivier Ethier
+    - Hemanth Kumar Sheetha
+  link: https://docs.google.com/presentation/d/1HQ5pZOiQi09xRDPwmgoRrI9fEpyGZySlPb2smoMiBSk
+  pdf: downscaling.pdf
+- title: "DNA aptamers free energy"
+  authors:
+    - Samuel Aguilar-lussier
+    - Alireza Razaghi
+    - Samuel Zhao
+    - Weigang (Shogan) Li
+    - Sami Bahig
+  pdf: dna.pdf
+- title: "Analyzing the performance of transfer learning with different EEG datasets"
+  authors:
+    - Ronnie Liu
+    - Anas Bourhim
+    - Hichem Sahraoui 
+    - Van Nam Vu
+  pdf: eeg.pdf
+- title: "Photovoltaic power and solar radiation forecasting"
+  authors:
+    - Kodjovi Adabra
+    - Marcos A. A. Souto Jr.
+    - Niranjan Niranjan
+    - Rui Ze Ma
+  pdf: pv2.pdf
+- title: "PV output prediction using sky images"
+  authors:
+    Gabriel Fortin-Leblanc
+    Raphaël Caloz
+    Gabriel Ménard
+  pdf: pv1.pdf
+- title: "Inductive biases in vision classifiers"
+  authors:
+    - Abhay Puri
+    - Axel Bogos
+    - Pulkit Madan
+    - Jizhou Wang
+  pdf: biasinvisionmodels.pdf
+- title: "Conversational question answering system"
+  authors:
+    - Charmi Chokshi
+    - Hena Ghonia
+    - Sandeep Kumar
+    - Vamsikrishna Chemudupati
+  pdf: qnabot.pdf
+- title: "Portfolio management using deep reinforcement learning"
+  authors:
+    - Vitaly Kondulukov
+    - Rafael Hernandez Garcia
+    - Evelin Fonseca Cruz
+    - Kaushik Moudgalya
+  link: https://docs.google.com/presentation/d/1RHXxDbPGn7S3JMw5mGEXDsVamJN_9iGH
+  pdf: rlfinance.pdf
+- title: "Breast cancer segmentation using context injection"
+  authors:
+    - Benjamin Bourassa
+    - Saurabh Bodhe
+    - Sai Kalyan Siddanatham
+    - James Tsui
+  link: https://docs.google.com/presentation/d/1AhxZZ18Sxs5rREVnJcJCOSobBdfO2ZUJwGAVkb9GPzk
+  pdf: breastcancer.pdf
+- title: "ANimal Deep learning Identification -ANDI"
+  authors:
+    - Jean-François Baril
+    - Jonathan Beaulieu Emond
+    - Yassine Kassis
+    - Selim Gilon
+  link: https://docs.google.com/presentation/d/1ZG3ZtZQUP2otFeHlmMsows3Dzo87OI_C
+  pdf: andi.pdf
+- title: "Animal detection with Faster R-CNN: transfer learning and domain adaptation"
+  authors:
+    - Abdiel Fernandez
+    - Rose Guay Hottin
+    - Kevin Lessard
+    - Santino Nanini
+  pdf: animaldetection2.pdf
+- title: "FMoW-wilds: Land use classification across different regions and years"
+  authors:
+    - William Callaghan
+    - Jérémy Parent
+    - Sorin Muchi
+    - Nathan Alix-Vignola
+    - Mathieu Lamarche
+  pdf: wildsfmow.pdf
+- title: "WILDS - Distribution shifts - iwildcam"
+  authors:
+    - Vijaya Lakshmi Kuruba
+    - Saif Kurdi-Teylouni
+    - Chaitanya Kothapalli
+  pdf: wildsiwildcam.pdf
+- title: "eBird: biodiversity monitoring"
+  authors:
+    - Xinyi He
+    - Qilin Wang
+    - Edouard Belval
+  link: https://docs.google.com/presentation/d/1k6J4pd5pbttGYApcTx1wyAA0gVUXiAWjl5wEeq8omoM
+- title: "Analysis of image augmentation methods on different types of learning problems"
+  authors:
+    - Alekhya Dronavalli
+    - Krishna Maneesha Dendukuri
+    - Prishruit Punia
+    - Rakshit Shetty
+    - Timothy Lee
+    - Yassir Mamouni
+  pdf: imageaugmentation.pdf
