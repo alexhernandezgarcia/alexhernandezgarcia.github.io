@@ -82,4 +82,11 @@ A good and easy-read article about scientific writing is the following:
 
 ## Source Code
 
-The source code of your project is also part of the evaluation. Please provide a link to a GitHub (or GitLab, or similar) repository with your source code alongside your final report. Good code should be easy to read and easy to run. Therefore, make sure to clean up the final version of your code: remove old or unnecessary pieces of code, add documentation, write a README with instructions on how to run the code and examples to reproduce your experiments, etc.
+The source code of your project is also part of the evaluation. Please provide a link to a GitHub (or GitLab, or similar) repository with your source code alongside your final report. Good code should be easy to read and easy to run. Therefore, make sure to clean up the final version of your code: remove old or unnecessary pieces of code, add documentation, write a README with instructions on how to run the code and examples to reproduce your experiments, etc. In particular, consider explicitly indicating the following:
+
+* Python version you used to run your experiments.
+* Necessary libraries and their versions. If you used virtual environments, as was recommended, a simple way of indicating the library requirements is via a `requirements.txt` file. You can generate one by running in a shell with you environment activated the following command: `python -m pip freeze > requirements.txt`. With a `requirements.txt` available, it should be straightforward to reproduce the environment by running `python -m pip install -r requirements.txt`.
+
+A good practice to ensure that you included all the necessary information to run your code is to follow your own instructions in a fresh new environment and checking that the code runs seamlessly.
+
+Since your experiments may be computationally expensive, please consider preparing a lightweight configuration to _dry-run_ your code, for example with a subset of the data, a simpler architecture, a few epochs, etc.
