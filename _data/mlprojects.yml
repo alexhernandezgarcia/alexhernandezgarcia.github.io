@@ -81,6 +81,7 @@
     - Kevin Lessard
     - Santino Nanini
   pdf: animaldetection2.pdf
+  public: True
 - title: "FMoW-wilds: Land use classification across different regions and years"
   authors:
     - William Callaghan
