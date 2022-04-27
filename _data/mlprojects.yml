@@ -96,6 +96,7 @@
     - Saif Kurdi-Teylouni
     - Chaitanya Kothapalli
   pdf: wildsiwildcam.pdf
+  public: True
 - title: "eBird: biodiversity monitoring"
   authors:
     - Xinyi He
