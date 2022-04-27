@@ -20,6 +20,7 @@
     - Hichem Sahraoui 
     - Van Nam Vu
   pdf: eeg.pdf
+  public: True
 - title: "Photovoltaic power and solar radiation forecasting"
   authors:
     - Kodjovi Adabra
@@ -27,6 +28,7 @@
     - Niranjan Niranjan
     - Rui Ze Ma
   pdf: pv2.pdf
+  public: True
 - title: "PV output prediction using sky images"
   authors:
     Gabriel Fortin-Leblanc
@@ -47,6 +49,7 @@
     - Sandeep Kumar
     - Vamsikrishna Chemudupati
   pdf: qnabot.pdf
+  public: True
 - title: "Portfolio management using deep reinforcement learning"
   authors:
     - Vitaly Kondulukov
