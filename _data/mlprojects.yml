@@ -90,6 +90,7 @@
     - Nathan Alix-Vignola
     - Mathieu Lamarche
   pdf: wildsfmow.pdf
+  public: True
 - title: "WILDS - Distribution shifts - iwildcam"
   authors:
     - Vijaya Lakshmi Kuruba
