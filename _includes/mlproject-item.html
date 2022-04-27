@@ -10,9 +10,11 @@
 				{{ author }}, 
       {% endif %}
 		{% endfor %}
-    <a class="tag" href="{{ site.url }}/assets/pdf/mlprojects22/{{ item.pdf }}">PDF</a>
+    {% if item.pdf %}
+      <a class="tag" href="{{ site.url }}/assets/pdf/mlprojects22/{{ item.pdf }}">PDF</a>
+    {% endif %}
     {% if item.link %}
-      <a class="tag" href="{{ item.link }}">Link</a>
+      <a class="tag" href="{{ item.link }}">Slides online</a>
     {% endif %}
 		</p>
 		</div>
