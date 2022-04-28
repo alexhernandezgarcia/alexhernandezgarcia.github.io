@@ -42,6 +42,7 @@
     - Pulkit Madan
     - Jizhou Wang
   pdf: biasinvisionmodels.pdf
+  public: True
 - title: "Conversational question answering system"
   authors:
     - Charmi Chokshi
@@ -74,6 +75,7 @@
     - Selim Gilon
   link: https://docs.google.com/presentation/d/1ZG3ZtZQUP2otFeHlmMsows3Dzo87OI_C
   pdf: andi.pdf
+  public: True
 - title: "Animal detection with Faster R-CNN: transfer learning and domain adaptation"
   authors:
     - Abdiel Fernandez
@@ -113,3 +115,4 @@
     - Timothy Lee
     - Yassir Mamouni
   pdf: imageaugmentation.pdf
+  public: True
