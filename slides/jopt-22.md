@@ -561,4 +561,4 @@ count: false
 
 .center[![:scale 80%](../assets/images/slides/vicc/bootstrap_summary.png)]
 
-.conclusion[6 of the 5 proposed components for the architecture proved to positively contribute to the performance.]
+.conclusion[5 of the 6 proposed components for the architecture proved to positively contribute to the performance.]
