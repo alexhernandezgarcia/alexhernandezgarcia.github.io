@@ -296,76 +296,6 @@ count: false
 https://thisclimatedoesnotexist.com/en/share/56d8058c-23d5-4083-b1b4-4afe6a5b2fe9
 ---
 
-## Future directions and limitations
-
-* [_ThisClimateDoesNotExist.com_](https://thisclimatedoesnotexist.com) is not an exerise of climate prediction. There is no correlation between the consequence chosen and the address entered. Our algorithm applies a systematic transformation regardless of the address.
-    * While this is in part a limitation, this allows us to simulate the impacts of climate change, at any location, regardless of the specific risk.
-    * Still, it would be interesting to integrate climate prediction and modelling into our simulations, for other applications.
---
-* Our algorithm systematically simulates the same level of water (about 1 metre). It would be interesting to allow for more flexible simulations.
-    * An interesting application would be to make the simulations reflect the impacts of various climate actions.
---
-* We are currently writing a manuscript with Prof. Erick Lachapelle (UdeM) and Thomas Bergeron (UoT) on a study of the effect of such personalised imagery in climate communication and willingness to action.
-
----
-
-## To know more
-
-Visit the website: [ThisClimateDoesNotExist.com](https://thisclimatedoesnotexist.com)
-
-.center[![:scale 50%](../assets/images/slides/vicc/website_snapshot_home.png)]
-    
-Check the paper (ICLR 2022): [ClimateGAN: Raising Climate Change Awareness by Generating Images of Floods](https://arxiv.org/abs/2110.02871v1)
-
-.center[![:scale 70%](../assets/images/slides/vicc/climategan_arxiv.png)]
-    
----
-
-name: title
-class: title, middle
-
-## Thank you!
-
-.bigger[Alex Hernández-García (he/il/él)]
-
-Victor Schmidt, Sasha Luccioni, Yoshua Bengio et al.
-
-.turquoise[Journées de l'Optimisation · HEC Montréal · May. 16-18th 2022]
-
-.center[
-<a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 5em"></a>
-&nbsp&nbsp&nbsp&nbsp
-<a href="https://www.umontreal.ca/"><img src="../assets/images/slides/logos/udem-white.png" alt="UdeM" style="height: 5em"></a>
-]
-
-.footer[[alexhernandezgarcia.github.io](https://alexhernandezgarcia.github.io/) | [alex.hernandez-garcia@mila.quebec](mailto:alex.hernandez-garcia@mila.quebec)]<br>
-.footer[[@alexhg@scholar.social](https://scholar.social/@alexhg) [![:scale 1em](../assets/images/slides/misc/mastodon.png)](https://scholar.social/@alexhg) | [@alexhdezgcia](https://twitter.com/alexhdezgcia) [![:scale 1em](../assets/images/slides/misc/twitter.png)](https://twitter.com/alexhdezgcia)]
-
----
-
-name: title
-class: title, middle
-count: false
-
-.center[![:scale 30%](../assets/images/slides/vicc/placedesarts_flood.gif)]
-
-.center[
-<a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 6em"></a>
-]
-
-.footer[[alexhernandezgarcia.github.io](https://alexhernandezgarcia.github.io/) | [alex.hernandez-garcia@mila.quebec](mailto:alex.hernandez-garcia@mila.quebec) | [@alexhdezgcia](https://twitter.com/alexhdezgcia)] [![:scale 1em](../assets/images/slides/misc/twitter.png)](https://twitter.com/alexhdezgcia)
-
----
-
-name: title
-class: title, middle
-
-## Back-up slides
-
-.turquoise[Journées de l'Optimisation · HEC Montréal · May. 16-18th 2022]
-
----
-
 ## Methods
 ### Floods simulation with _ClimateGAN_
 
@@ -434,6 +364,83 @@ count: false
 We simulated a $1.5~km^2$ virtual world and generated 20,000 images that mimic Google Street View.
 
 .center[![:scale 70%](../assets/images/slides/vicc/simdata.png)]
+
+---
+
+## ClimateGAN
+### Masker + Painter
+
+.center[![:scale 80%](../assets/images/slides/vicc/masker_painter_examples.png)]
+
+---
+
+## Future directions and limitations
+
+* [_ThisClimateDoesNotExist.com_](https://thisclimatedoesnotexist.com) is not an exerise of climate prediction. There is no correlation between the consequence chosen and the address entered. Our algorithm applies a systematic transformation regardless of the address.
+    * While this is in part a limitation, this allows us to simulate the impacts of climate change, at any location, regardless of the specific risk.
+    * Still, it would be interesting to integrate climate prediction and modelling into our simulations, for other applications.
+--
+* Our algorithm systematically simulates the same level of water (about 1 metre). It would be interesting to allow for more flexible simulations.
+    * An interesting application would be to make the simulations reflect the impacts of various climate actions.
+--
+* We are currently writing a manuscript with Prof. Erick Lachapelle (UdeM) and Thomas Bergeron (UoT) on a study of the effect of such personalised imagery in climate communication and willingness to action.
+
+---
+
+## To know more
+
+Visit the website: [ThisClimateDoesNotExist.com](https://thisclimatedoesnotexist.com)
+
+.center[![:scale 50%](../assets/images/slides/vicc/website_snapshot_home.png)]
+    
+Check the paper (ICLR 2022): [ClimateGAN: Raising Climate Change Awareness by Generating Images of Floods](https://arxiv.org/abs/2110.02871v1)
+
+.center[![:scale 70%](../assets/images/slides/vicc/climategan_arxiv.png)]
+    
+---
+
+name: title
+class: title, middle
+
+## Thank you!
+
+.bigger[Alex Hernández-García (he/il/él)]
+
+Victor Schmidt, Sasha Luccioni, Yoshua Bengio et al.
+
+.turquoise[Journées de l'Optimisation · HEC Montréal · May. 16-18th 2022]
+
+.center[
+<a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 5em"></a>
+&nbsp&nbsp&nbsp&nbsp
+<a href="https://www.umontreal.ca/"><img src="../assets/images/slides/logos/udem-white.png" alt="UdeM" style="height: 5em"></a>
+]
+
+.footer[[alexhernandezgarcia.github.io](https://alexhernandezgarcia.github.io/) | [alex.hernandez-garcia@mila.quebec](mailto:alex.hernandez-garcia@mila.quebec)]<br>
+.footer[[@alexhg@scholar.social](https://scholar.social/@alexhg) [![:scale 1em](../assets/images/slides/misc/mastodon.png)](https://scholar.social/@alexhg) | [@alexhdezgcia](https://twitter.com/alexhdezgcia) [![:scale 1em](../assets/images/slides/misc/twitter.png)](https://twitter.com/alexhdezgcia)]
+
+---
+
+name: title
+class: title, middle
+count: false
+
+.center[![:scale 30%](../assets/images/slides/vicc/placedesarts_flood.gif)]
+
+.center[
+<a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 6em"></a>
+]
+
+.footer[[alexhernandezgarcia.github.io](https://alexhernandezgarcia.github.io/) | [alex.hernandez-garcia@mila.quebec](mailto:alex.hernandez-garcia@mila.quebec) | [@alexhdezgcia](https://twitter.com/alexhdezgcia)] [![:scale 1em](../assets/images/slides/misc/twitter.png)](https://twitter.com/alexhdezgcia)
+
+---
+
+name: title
+class: title, middle
+
+## Back-up slides
+
+.turquoise[Journées de l'Optimisation · HEC Montréal · May. 16-18th 2022]
 
 ---
 
