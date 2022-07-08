@@ -1,3 +1,23 @@
+- title: "Biological sequence design with GFlowNets"
+  authors:
+    - Moksh Jain
+    - Emmanuel Bengio
+    - Alex Hernandez-Garcia
+    - Jarrid Rector-Brooks
+    - Bonaventure F. P. Dossou
+    - Chanakya Ekbote
+    - Jie Fu
+    - Tianyu Zhang
+    - Micheal Kilgour
+    - Dinghuai Zhang
+    - Lena Simine
+    - Payel Das
+    - Yoshua Bengio
+  year: 2022
+  journal: International Conference on Machine Learning (ICML)
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2203.04115
 - title: "ClimateGAN: Raising climate change awareness by generating images of floods"
   authors:
     - Victor Schmidt
@@ -11,13 +31,15 @@
     - Vahe Vardanyan
     - Alex Hernandez-Garcia
     - Yoshua Bengio
-  year: 2021
-  journal: arXiv:2110.02871
+  year: 2022
+  journal: International Conference on Learning Representations (ICLR)
   tags:
     - tag: arXiv
       link: https://arxiv.org/abs/2110.02871
     - tag: OpenReview
       link: https://openreview.net/forum?id=EZNOb_uNpJk
+    - tag: ICLR
+      link: https://iclr.cc/virtual/2022/poster/6224
 - title: Computational methods for continuous eye-tracking perimetry based on spatio-temporal integration and a deep recurrent neural network
   authors:
     - Alessandro Grillini

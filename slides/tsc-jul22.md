@@ -100,22 +100,22 @@ count: false
 ## Collaborators
 
 .left-column[
-* Yoshua Bengio
-* David Rolnick
+* Yoshua Bengio (Mila, UdeM)
+* David Rolnick (Mila, McGill)
 * Lena Simine (McGill)
 * Michael Kilgour (NYU)
 * Yasmine Benabed (UdeM)
-* Moksh Jain
-* Emmanuel Bengio
-* Alexandre Duval
-* Marta Skreta
-* Michaël Morin
+* Moksh Jain (Mila)
+* Emmanuel Bengio (Mila)
+* Alexandre Duval (Mila)
+* Marta Skreta (UoT)
+* Michaël Morin (Mila)
 ]
 .right-column[
-* Victor Schmidt
-* Sasha Luccioni
-* Tianyu Zhang
-* Mélisande Teng
+* Victor Schmidt (Mila)
+* Sasha Luccioni (Mila)
+* Tianyu Zhang (Mila)
+* Mélisande Teng (Mila)
 * ...
 ]
 
