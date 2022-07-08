@@ -43,17 +43,17 @@ Slides: [alexhernandezgarcia.github.io/slides/tsc-jul22](https://alexhernandezga
 * .lightblue[PhD]: Institute of Cognitive Science, Universität Osnabrück, con Prof. Peter König (2016–2020)
 
   * En Berlín
+  * Temas de la tesis: la intersección entre deep learning, neurociencia computacional y percepción visual
   * Marie Skłodowska Curie ITN “NextGenVis” (_Next generation of European visual neuroscientists_)
   * Estancias en la University of Cambridge (UK) y Spinoza Centre for Neuroimaging in Amsterdam (NL)
-  * Temas de la tesis: la intersección entre deep learning, neurociencia computacional y percepción visual
 
 --
 
 * .lightblue[Postdoc]: Mila (Québec AI Institute in Montréal) con Prof. Yoshua Bengio y Prof. David Rolnick (2021–_hoy_)
 
     * En Montreal
-    * [IVADO Postdoctoral Research Fellow](https://ivado.ca/en/spotlight-on-our-academic-community/?programmes=postdoctoral-research-funding&annees=2021-en)
     * Temas: machine learning para descubrimientos científicos y lucha contra la crisis climática
+    * [IVADO Postdoctoral Research Fellow](https://ivado.ca/en/spotlight-on-our-academic-community/?programmes=postdoctoral-research-funding&annees=2021-en)
 
 ---
 
