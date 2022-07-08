@@ -22,6 +22,10 @@ Alex Hernández-García (he/il/él)
 .footer[[alexhernandezgarcia.github.io](https://alexhernandezgarcia.github.io/) | [alex.hernandez-garcia@mila.quebec](mailto:alex.hernandez-garcia@mila.quebec)]<br>
 .footer[[@alexhg@scholar.social](https://scholar.social/@alexhg) [![:scale 1em](../assets/images/slides/misc/mastodon.png)](https://scholar.social/@alexhg) | [@alexhdezgcia](https://twitter.com/alexhdezgcia) [![:scale 1em](../assets/images/slides/misc/twitter.png)](https://twitter.com/alexhdezgcia)]
 
+.smaller[.footer[
+Slides: [alexhernandezgarcia.github.io/slides/tsc-jul22](https://alexhernandezgarcia.github.io/slides/tsc-jul22)
+]]
+
 ---
 
 ## Las paradas en el camino
