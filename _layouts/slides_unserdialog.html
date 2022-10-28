@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<!-- 
+  See:
+  * https://github.com/neurodata/talks
+  * https://neurodata.io/talks/talkname.html
+  * https://remarkjs.com
+  * https://github.com/gnab/remark/wiki
+  * https://github.com/gnab/remark/wiki/Configuration#general
+  * https://katex.org/docs/supported.html
+-->
+<html>
+
+<head>
+  <title>{{ page.title | strip_html }}</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <script type="text/javascript" src="../assets/plotly/plotly-latest.min.js"></script>
+  <style>
+
+    @import url(https://fonts.googleapis.com/css?family=Quicksand);
+		@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+		@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+    /* Logo */
+		.logo {
+			background-image: url(../assets/images/slides/unserdialog/logo.png);
+			background-size: contain;
+			background-repeat: no-repeat;
+			position: absolute;
+			top: 1em;
+			right: 1em;
+			width: 110px;
+			height: 128px;
+			z-index: 0;
+		}
+
+    /* Color variables */
+    :root {
+      --white: #FFFFFF;
+      --gray224: rgb(224, 224, 224);
+      --gray224: rgb(224, 224, 224);
+      --gray192: rgb(192, 192, 192);
+      --gray160: rgb(160, 160, 160);
+      --gray128: rgb(128, 128, 128);
+      --gray96: rgb(96, 96, 96);
+      --gray64: rgb(64, 64, 64);
+      --gray32: rgb(32, 32, 32);
+      --darkgray: #55707D;
+      --grayblue: #37474F;
+      --lightblue: #6FA8DC;
+      --paleblue: #A4C2F4;
+      --lightgreen: #93C47D;
+      --cyan: #6D9EEB;
+      --orange: #F09D70;
+      --lightturquoise: #cbffff;
+      --brightblue: #00ffff;
+      --darkturquoise: #05ae9b;
+      --beige: #f6f2eb;
+      --purple: #6d006e;
+      --darkblue: #073763ff;
+      --darkestpurple: #260f2c;
+    }
+
+    /* Colors */
+    .highlight1 { color: var(--brightblue); }
+    .highlight2 { color: var(--darkturquoise); }
+    .white { color: var(--white); }
+    .gray224 { color: var(--gray224); }
+    .gray192 { color: var(--gray192); }
+    .gray160 { color: var(--gray160); }
+    .gray128 { color: var(--gray128); }
+    .gray96 { color: var(--gray96); }
+    .gray64 { color: var(--gray64); }
+    .gray32 { color: var(--gray32); }
+    .darkgray { color: var(--darkgray); }
+    .grayblue { color: var(--grayblue); }
+    .lightblue { color: var(--lightblue); }
+    .paleblue { color: var(--paleblue); }
+    .lightgreen { color: var(--lightgreen); }
+    .cyan { color: var(--cyan); }
+    .orange { color: var(--orange); }
+    .lightturquoise { color: var(--lightturquoise); }
+    .brightblue { color: var(--brightblue); }
+    .darkturquoise { color: var(--darkturquoise); }
+    .beige { color: var(--beige); }
+    .purple { color: var(--purple); }
+    .darkblue { color: var(--darkblue); }
+    .darkestpurple { color: var(--darkestpurple); }
+
+    /* General appearance */
+    .remark-slide-content {
+      font-size: 1.5em;
+      background: var(--darkblue); /* slides background color: mila dark purple */
+      color: var(--beige); /* main font color: mila beige */
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    /* Hyperlinks */
+    a, a > code {
+      color: var(--lightturquoise);
+      text-decoration: underline;
+    }
+    a:hover {
+      color: var(--darkturquoise);
+    }
+
+    body {
+      font-family: 'Quicksand';
+      font-size: 1.0em;
+      font-weight: 100;
+      letter-spacing: 0.03rem;
+      color: #f6f2eb;
+    }
+
+    body strong {
+      font-weight: 900;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Quicksand';
+      font-weight: 600;
+      margin-bottom: 0;
+      color: var(--beige);
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    h2 {
+      margin-top: 0em;
+      margin-right: 1em;
+    }
+
+    h3 {
+      margin-top: 0em;
+			font-size: 80%;
+			font-style: italic;
+    }
+
+    h4 {
+      margin-top: 0em;
+			font-size: 120%;
+			font-style: italic;
+    }
+
+    li:not(li li) {
+      margin-bottom: 0.25em;
+    }
+
+    /* Size */
+    .bigger { font-size: 120%; }
+    .smaller { font-size: 80%; } 
+
+    /* Transparency */
+    .alpha0 { opacity: 0%; }
+    .alpha10 { opacity: 10%; }
+    .alpha50 { opacity: 50%; }
+
+		/* Footnote */
+		.footnote {
+			position: absolute;
+			bottom: 1em;
+			left: 2em;
+		}
+
+		.footer {
+      vertical-align: bottom;
+      text-align: center;
+      color: lightblue;
+		}
+
+		/* Context box */
+		.context {
+			position: absolute;
+			top: 1em; 
+			right: 6em;
+      max-width: 45%;
+			padding: 0.5em;
+			border:0.1em solid var(--beige);
+      text-align: justify;
+			}
+		.context35 {
+			position: absolute;
+			top: 1em; 
+			right: 6em;
+      max-width: 35%;
+			padding: 0.5em;
+			border:0.1em solid var(--beige);
+      text-align: justify;
+			}
+
+		/* Conclusion box */
+		.conclusion {
+      text-align: center;
+      color: var(--brightblue);
+			display: table;
+			margin: 0 auto;
+			padding: 0.5em;
+			border:0.1em solid var(--brightblue);
+			}
+
+    /* Citations */
+    .cite {
+      color: var(--gray192);
+      font-size: 80%;
+    }
+    .cite a {
+      color: inherit;
+    }
+    .cite a:hover {
+      color: var(--darkturquoise);
+    }
+
+    /* List of references in slide */
+		.references {
+			position: absolute;
+			bottom: 1em;
+			left: 2em;
+      color: var(--gray192);
+      font-size: 80%;
+		}
+    .references a {
+      color: inherit;
+    }
+    .references a:hover {
+      color: var(--darkturquoise);
+    }
+
+    .title {
+      text-align: center
+    }
+
+		/* Two-column layouts */
+		.left-column { 
+			width: 49%; 
+			float: left;
+		}
+		.right-column { 
+			width: 49%; 
+			float: right; 
+		}
+		.left-column-33 { 
+			width: 33%; 
+			float: left; 
+		}
+		.right-column-66 { 
+			width: 66%; 
+			float: right; 
+		}
+		.left-column-66 { 
+			width: 66%; 
+			float: left; 
+		}
+		.right-column-33 { 
+			width: 33%; 
+			float: right; 
+		}
+		.right-column ~ p { 
+			clear: both; 
+		}
+		.right-column ~ ul { 
+			clear: both; 
+		}
+		.full-width { 
+			width: 100%; 
+			display: flow-root; 
+		}
+
+		/* Three-column layouts */
+		.columns-3-left { 
+			width: 32%; 
+			float: left;
+		}
+		.columns-3-center { 
+			width: 32%; 
+			display: inline-block;
+		}
+		.columns-3-right { 
+			width: 32%; 
+			float: right; 
+		}
+
+  </style>
+</head>
+
+<body>
+  <textarea id="source">
+
+{{ page.content }}
+
+	</textarea>
+  <!-- <script src="remark-latest.min.js"></script> -->
+  <!-- <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js"></script> -->
+  <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.3/katex.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.3/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.3/katex.min.css">
+  <script type="text/javascript">
+
+    // Aspect ratio
+    // var options = {ratio: "4:3"};
+    var options = {
+      ratio: "16:9",
+      countIncrementalSlides: false,
+    };
+
+    // LaTeX
+    var renderMath = function () {
+      renderMathInElement(document.body);
+      // or if you want to use $...$ for math,
+      renderMathInElement(document.body, {
+        delimiters: [ // mind the order of delimiters(!?)
+          { left: "$$", right: "$$", display: true },
+          { left: "$", right: "$", display: false },
+          { left: "\\[", right: "\\]", display: true },
+          { left: "\\(", right: "\\)", display: false },
+        ]
+      });
+    }
+
+    remark.macros.scale = function (percentage) {
+      var url = this;
+      return '<img src="' + url + '" style="width: ' + percentage + '" />';
+    };
+
+    var slideshow = remark.create(options, renderMath);
+
+  </script>
+  <style>
+	</style>
+
+	<script>
+	document
+		.querySelectorAll(
+			'.remark-slide-content' +
+			':not(.title-slide)' +
+			// add additional classes to exclude here, e.g.
+			// ':not(.inverse)' +
+			':not(.hide-logo)'
+		)
+		.forEach(el => {
+			el.innerHTML += '<div class="logo"></div>';
+		});
+	</script>
+
+</body>
+
+<
