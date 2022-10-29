@@ -13,7 +13,7 @@ class: title, middle
 
 Victor Schmidt, Sasha Luccioni, Yoshua Bengio et al.
 
-.turquoise[Unser Dialog · 29. Oktober 2022]
+.brightblue[Unser Dialog · 29. Oktober 2022]
 
 .center[
 <a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 5em"></a>
@@ -345,26 +345,28 @@ Hauptmerkmale:
 ---
 
 ## ClimateGAN
-### Simulated data
+### Simulierte Daten
 
-.context[We collected 1,200 photos of real floods and 5,500+ _non-flooded_ scenes to train our model. However, _real_ photos lack geometry and segmentation labels.]
+.context[Wir haben 1.200 Fotos von echten Fluten und über 5.500 nicht geflutete Szenen gesammelt. Allerdings fehlen bei echten Fotos Geometrie- und Segmentierungs_labels_.]
 
-We simulated a $1.5~km^2$ virtual world and generated 20,000 images that mimic Google Street View.
+<br>
+Wir haben eine $1.5~km^2$ virtuelle Welt simuliert und 20.000 Bilder generiert, die Google Street View imitieren.
 
-.center[![:scale 70%](../assets/images/slides/vicc/simworld_bird_eye.png)]
+.center[![:scale 60%](../assets/images/slides/vicc/simworld_bird_eye.png)]
 
 ---
 
 count: false
 
 ## ClimateGAN
-### Simulated data
+### Simulierte Daten
 
-.context[We collected 1,200 photos of real floods and 5,500+ _non-flooded_ scenes to train our model. However, _real_ photos lack geometry and segmentation labels.]
+.context[Wir haben 1.200 Fotos von echten Fluten und über 5.500 nicht geflutete Szenen gesammelt. Allerdings fehlen bei echten Fotos Geometrie- und Segmentierungs_labels_.]
 
-We simulated a $1.5~km^2$ virtual world and generated 20,000 images that mimic Google Street View.
+<br>
+Wir haben eine $1.5~km^2$ virtuelle Welt simuliert und 20.000 Bilder generiert, die Google Street View imitieren.
 
-.center[![:scale 70%](../assets/images/slides/vicc/simdata.png)]
+.center[![:scale 60%](../assets/images/slides/vicc/simdata.png)]
 
 ---
 
@@ -377,24 +379,24 @@ We simulated a $1.5~km^2$ virtual world and generated 20,000 images that mimic G
 
 ## Future directions and limitations
 
-* [_ThisClimateDoesNotExist.com_](https://thisclimatedoesnotexist.com) is not an exerise of climate prediction. There is no correlation between the consequence chosen and the address entered. Our algorithm applies a systematic transformation regardless of the address.
-    * While this is in part a limitation, this allows us to simulate the impacts of climate change, at any location, regardless of the specific risk.
-    * Still, it would be interesting to integrate climate prediction and modelling into our simulations, for other applications.
+* [_ThisClimateDoesNotExist.com_](https://thisclimatedoesnotexist.com) macht keine Klimavorhersage. Es gibt keine Korrelation zwischen der gewählten Auswirkung und der eingegebenen Adresse. Unser Algorithmus wendet unabhängig von der Adresse eine systematische Transformation an.
+    * Dies ist zwar zum Teil eine Einschränkung, ermöglicht es uns aber, die Auswirkungen des Klimawandels an jedem beliebigen Ort zu simulieren, unabhängig vom spezifischen Risiko.
+    * Dennoch wäre es für andere Anwendungen interessant, Klimaprognosen und -modelle in unsere Simulationen zu integrieren.
 --
-* Our algorithm systematically simulates the same level of water (about 1 metre). It would be interesting to allow for more flexible simulations.
-    * An interesting application would be to make the simulations reflect the impacts of various climate actions.
+* Unser Algorithmus simuliert systematisch denselben Wasserstand (etwa 1 Meter). Es wäre interessant, flexiblere Simulationen zu ermöglichen.
+    * Eine interessante Anwendung wäre es, in den Simulationen die Auswirkungen verschiedener Klimamaßnahmen zu berücksichtigen.
 --
-* We are currently writing a manuscript with Prof. Erick Lachapelle (UdeM) and Thomas Bergeron (UoT) on a study of the effect of such personalised imagery in climate communication and willingness to action.
+* Derzeit schreiben wir zusammen mit Prof. Erick Lachapelle (UdeM) und Thomas Bergeron (UoT) ein Artikel über eine Forchung zur Wirkung solcher personalisierten Bilder auf die Klimakommunikation und das Engagement.
 
 ---
 
 ## To know more
 
-Visit the website: [ThisClimateDoesNotExist.com](https://thisclimatedoesnotexist.com)
+Die Website: [ThisClimateDoesNotExist.com](https://thisclimatedoesnotexist.com)
 
 .center[![:scale 50%](../assets/images/slides/vicc/website_snapshot_home.png)]
     
-Check the paper (ICLR 2022): [ClimateGAN: Raising Climate Change Awareness by Generating Images of Floods](https://arxiv.org/abs/2110.02871v1)
+Das Artikel: [ClimateGAN: Raising Climate Change Awareness by Generating Images of Floods](https://arxiv.org/abs/2110.02871v1) (ICLR 2022)
 
 .center[![:scale 70%](../assets/images/slides/vicc/climategan_arxiv.png)]
     
@@ -403,13 +405,13 @@ Check the paper (ICLR 2022): [ClimateGAN: Raising Climate Change Awareness by Ge
 name: title
 class: title, middle
 
-## Thank you!
+## Dankeschön!
 
 .bigger[Alex Hernández-García (he/il/él)]
 
 Victor Schmidt, Sasha Luccioni, Yoshua Bengio et al.
 
-.turquoise[Journées de l'Optimisation · HEC Montréal · May. 16-18th 2022]
+.brightblue[Unser Dialog · 29. Oktober 2022]
 
 .center[
 <a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 5em"></a>
@@ -441,7 +443,7 @@ class: title, middle
 
 ## Back-up slides
 
-.turquoise[Journées de l'Optimisation · HEC Montréal · May. 16-18th 2022]
+.center[.brightblue[Unser Dialog · 29. Oktober 2022]]
 
 ---
 
