@@ -443,7 +443,314 @@ class: title, middle
 
 ## Back-up slides
 
-.center[.brightblue[Unser Dialog · 29. Oktober 2022]]
+.brightblue[Unser Dialog · 29. Oktober 2022]
+
+---
+
+name: title
+class: title, middle
+
+## Künstliche Intelligenz für die Wissenschaftliche Entdeckung
+
+.brightblue[Unser Dialog · 29. Oktober 2022]
+
+---
+
+## Motivation
+
+.context["The time for action is now"]
+
+> "Limiting global warming will require major transitions in the energy sector. This will involve a substantial reduction in fossil fuel use, widespread electrification, .highlight1[improved energy efficiency, and use of alternative fuels (such as hydrogen)]." .cite[IPCC Sixth Assessment Report, 2022]
+
+> "Net-zero CO2 emissions from the industrial sector are challenging but possible. Reducing industry emissions will entail coordinated action throughout value chains to promote all mitigation options, including demand management, .highlight1[energy and materials efficiency, circular material flows], as well as abatement technologies and transformational changes in production processes." .cite[IPCC Sixth Assessment Report, 2022]
+
+--
+
+<br>
+
+.conclusion[Mitigation of the climate crisis requires transformational changes in the energy and materials efficiency.]
+
+---
+
+## Motivation
+### The potential of better materials
+
+.smaller[.context55[The climate crisis demands more efficient materials.]]
+
+According to the IPCC Sixth Assessment Report (2022), improving material efficiency can reduce 0.93 ($\pm 0.23$) GtCO₂-eq per year and fuel switching 2.1 ($\pm 0.52$) GtCO₂-eq per year, only in the industry sector. Carbon capture and storage can reduce 0.54 ($\pm 0.27$) GtCO₂-eq per year in the energy sector. †
+
+.footnote[† Global anthropogenic emissions in 2019 were estimated in 59 ($\pm 6.6$) GtCO₂-eq.]
+
+---
+
+count: false
+
+## Motivation
+### The potential of better materials
+
+.smaller[.context55[The climate crisis demands more efficient materials.]]
+
+According to the IPCC Sixth Assessment Report (2022), improving material efficiency can reduce 0.93 ($\pm 0.23$) GtCO₂-eq per year and fuel switching 2.1 ($\pm 0.52$) GtCO₂-eq per year, only in the industry sector. Carbon capture and storage can reduce 0.54 ($\pm 0.27$) GtCO₂-eq per year in the energy sector. †
+
+What are better, new materials needed for?
+
+* Electrocatalysts for fuel cells, hydrogen storage, industrial chemical reactions, etc.
+* Electrocatalysts for carbon capture.
+* Solid electrolytes for batteries.
+* Thin film materials for photovoltaics.
+* Nanomaterials and electronics for healthcare.
+* ...
+
+.footnote[† Global anthropogenic emissions in 2019 were estimated in 59 ($\pm 6.6$) GtCO₂-eq.]
+
+---
+
+## Motivation
+### Scientific discoveries in history
+
+.smaller[.context55[Material discovery is a key ingredient for climate change mitigation.]]
+
+--
+
+Many notable scientific discoveries have occurred due to .highlight1[serendipity] or .highlight1[by accident]:
+
+--
+
+* **Dynamite** (Alfred Nobel, 1867)
+* **X-rays** (Wilhelm C. Röntgen, 1895)
+* **Radioactivity** (Henri Becquerel and Marie Skłodowska–Curie, 1896)
+* **Penicillin** (Alexander Fleming, 1929)
+* **Cyanoacrylate (superglue)** (Harry Coover, 1942)
+* **Lysergic acid diethylamide (LSD)** (Albert Hofmann, 1943)
+
+--
+
+<br>
+.conclusion[Clearly, we should not rely on serendipity to fight climate change.]
+
+???
+
+Joke experience with some of them, like penicillin and superglue.
+
+---
+
+count: false
+
+## Motivation
+### Scientific discoveries in history
+
+.smaller[.context55[Material discovery is a key ingredient for climate change mitigation.]]
+
+.center[
+<figure>
+	<img src="../assets/images/slides/materials/paradigms_scientific_discovery_0.png" alt="Four paradigms of concrete science: empirical, theoretical, computational, and data-driven." style="width: 65%">
+  <figcaption>Four paradigms in scientific discovery. Source: <a href="https://www.nature.com/articles/s41524-022-00810-x">Li et al., 2022</a>. (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
+</figure>
+]
+
+.references[
+* Li et al. [Machine learning in concrete science: applications, challenges, and best practices](https://www.nature.com/articles/s41524-022-00810-x). Nature  npj Computational Materials, 2022
+]
+
+???
+
+Example of concrete: most prevalent human-made material on Earth, and the most consumed commodity after water. The annual consumption of concrete in the world has reached 35 billion tons, which is twice as much as that of all other building materials combined.
+
+---
+
+count: false
+
+## Motivation
+### Scientific discoveries in history
+
+.smaller[.context55[Material discovery is a key ingredient for climate change mitigation.]]
+
+.center[
+<figure>
+	<img src="../assets/images/slides/materials/paradigms_scientific_discovery_1.png" alt="Four paradigms of concrete science: empirical, theoretical, computational, and data-driven." style="width: 65%">
+  <figcaption>Four paradigms in scientific discovery. Source: <a href="https://www.nature.com/articles/s41524-022-00810-x">Li et al., 2022</a>. (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
+</figure>
+]
+
+.references[
+* Li et al. [Machine learning in concrete science: applications, challenges, and best practices](https://www.nature.com/articles/s41524-022-00810-x). Nature  npj Computational Materials, 2022
+]
+
+???
+
+Concrete: The properties and performance of concrete can be tailored to meet design requirements by varying the type and quantity of the mixture constituents (e.g., cement, water, aggregate, and admixtures). Traditional approaches for designing concrete mixtures often rely on trial-and-error, iterative proportioning, processing, and characterization until the target properties are achieved.
+
+---
+
+count: false
+
+## Motivation
+### Scientific discoveries in history
+
+.smaller[.context55[Material discovery is a key ingredient for climate change mitigation.]]
+
+.center[
+<figure>
+	<img src="../assets/images/slides/materials/paradigms_scientific_discovery_2.png" alt="Four paradigms of concrete science: empirical, theoretical, computational, and data-driven." style="width: 65%">
+  <figcaption>Four paradigms in scientific discovery. Source: <a href="https://www.nature.com/articles/s41524-022-00810-x">Li et al., 2022</a>. (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
+</figure>
+]
+
+.references[
+* Li et al. [Machine learning in concrete science: applications, challenges, and best practices](https://www.nature.com/articles/s41524-022-00810-x). Nature  npj Computational Materials, 2022
+]
+
+???
+
+Concrete: it is possible to optimize the compressive strength of concrete mixtures by adjusting the water/cement ratio, total aggregate/cement ratio, and coarse aggregate/total aggregate ratio6. Yet the practical application of this iterative refinement approach is limited by the exponential increase in the number of specimens and experiments when complex concrete mixtures are studied and several compositional parameters are simultaneously considered as combinatorial variables. As a result, materials development in concrete science involves time-consuming validation/development cycles from laboratory trials to field applications. Efforts to accelerate knowledge acquisition and materials design in concrete science are thus of paramount importance.
+
+Beginning in the 1980s, the development of microstructural models of cement hydration has enabled a fundamental understanding of microstructure–property relationships in concrete7, which has marked the second paradigm. By applying basic laws of kinetics, thermodynamics, and mechanics, and providing analytical solutions to cement hydration. Successful demonstrations include the three-dimensional cement hydration and microstructure development model (CEMHYD3D)8,9; the hydration, morphology, and structural development model (HYMOSTRUC)10; the integrated particle kinetics model11; and the microstructural modeling platform (μic)
+
+---
+
+count: false
+
+## Motivation
+### Scientific discoveries in history
+
+.smaller[.context55[Material discovery is a key ingredient for climate change mitigation.]]
+
+.center[
+<figure>
+	<img src="../assets/images/slides/materials/paradigms_scientific_discovery_3.png" alt="Four paradigms of concrete science: empirical, theoretical, computational, and data-driven." style="width: 65%">
+  <figcaption>Four paradigms in scientific discovery. Source: <a href="https://www.nature.com/articles/s41524-022-00810-x">Li et al., 2022</a>. (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
+</figure>
+]
+
+.references[
+* Li et al. [Machine learning in concrete science: applications, challenges, and best practices](https://www.nature.com/articles/s41524-022-00810-x). Nature  npj Computational Materials, 2022
+]
+
+???
+
+Concrete: However, the complex nature of cement hydration makes it challenging to develop accurate and generalizable models, and these modeling approaches, to varying degrees, rely on thermochemical, physical, and structural data that must be obtained either from accurate experimental observations or from calculations at the atomistic and molecular scales.
+
+In this context, the use of density-functional theory (DFT) and classical molecular dynamics (MD) simulations has been explored in concrete science since the 2000s owing to the ever-growing computing power16. This has given rise to the third paradigm (computational science; Fig. 1), where the first-principle models have been integrated and employed to further describe cementitious materials properties and improve understanding of cement hydration. Related simulation efforts have focused primarily on cementitious phases such as the calcium silicate hydrate (C-S-H) gel, the essential reaction product of cement hydration.
+
+---
+
+count: false
+
+## Motivation
+### Scientific discoveries in history
+
+.smaller[.context55[Material discovery is a key ingredient for climate change mitigation.]]
+
+.center[
+<figure>
+	<img src="../assets/images/slides/materials/paradigms_scientific_discovery_4.png" alt="Four paradigms of concrete science: empirical, theoretical, computational, and data-driven." style="width: 65%">
+  <figcaption>Four paradigms in scientific discovery. Source: <a href="https://www.nature.com/articles/s41524-022-00810-x">Li et al., 2022</a>. (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
+</figure>
+]
+
+.references[
+* Li et al. [Machine learning in concrete science: applications, challenges, and best practices](https://www.nature.com/articles/s41524-022-00810-x). Nature  npj Computational Materials, 2022
+]
+
+???
+
+Concrete: However, these computational techniques require considerable computational resources and thus come with significant challenges, such as their limited time scales and the relatively small number of atoms in a simulated system. In addition, it may be difficult to validate these simulations with experiments, given the small time and length scales and high-fidelity measurements required.
+
+By leveraging existing datasets with data-driven models, ML can automatically learn implicit patterns and extract valuable information while accounting for the inherent complexity of concrete mixtures and their properties.
+
+---
+
+## AI for scientific discovery
+
+.context[The traditional pipeline (no ML)]
+
+.right-column-66[<br>.center[![:scale 90%](../assets/images/slides/materials/activelearning_noml.png)]]
+
+.left-column-33[
+The .highlight1[traditional pipeline] for scientific discovery (paradigms 1--3):
+* relies on .highlight1[highly specialised human expertise],
+* it is .highlight1[time-consuming] and
+* .highlight1[financially and computationally expensive].
+]
+
+---
+
+count: false
+
+## AI for scientific discovery
+
+.context[Machine learning in the loop]
+
+.right-column-66[<br>.center[![:scale 90%](../assets/images/slides/materials/activelearning_ml.png)]]
+
+.left-column-33[
+A .highlight1[machine learning model] can be:
+* trained with data from _real-world_ experiments and
+* used to quickly and cheaply evaluate queries
+]
+
+---
+
+count: false
+
+## AI for scientific discovery
+
+.context[Machine learning in the loop]
+
+.right-column-66[<br>.center[![:scale 90%](../assets/images/slides/materials/activelearning_ml.png)]]
+
+.left-column-33[
+A .highlight1[machine learning model] can be:
+* trained with data from _real-world_ experiments and
+* used to quickly and cheaply evaluate queries
+
+.conclusion[A machine learning model replacing real-world experiments can _only_ provide _linear_ gains.]
+]
+
+---
+
+count: false
+
+## AI for scientific discovery
+
+.context[Can we do better than _linear_?<br>An agent in the loop]
+
+.right-column-66[<br>.center[![:scale 90%](../assets/images/slides/materials/activelearning_agent.png)]]
+
+.left-column-33[
+A .highlight1[machine learning **agent**] in the loop can:
+* .highlight1[learn structure] from the available data,
+* .highlight1[generalise] to unexplored regions of the search space and
+* .highlight1[build better queries]
+]
+
+---
+
+count: false
+
+## AI for scientific discovery
+
+.context[Can we do better than _linear_?<br>An agent in the loop]
+
+.right-column-66[<br>.center[![:scale 90%](../assets/images/slides/materials/activelearning_agent.png)]]
+
+.left-column-33[
+A .highlight1[machine learning **agent**] in the loop can:
+* .highlight1[learn structure] from the available data,
+* .highlight1[generalise] to unexplored regions of the search space and
+* .highlight1[build better queries]
+
+.conclusion[A successful AL pipeline with an ML agent in the loop can provide _exponential_ gains.]
+]
+
+---
+
+name: title
+class: title, middle
+
+## ClimateGAN details
+
+.brightblue[Unser Dialog · 29. Oktober 2022]
 
 ---
 
