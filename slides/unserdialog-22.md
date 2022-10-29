@@ -24,6 +24,10 @@ Victor Schmidt, Sasha Luccioni, Yoshua Bengio et al.
 .footer[[alexhernandezgarcia.github.io](https://alexhernandezgarcia.github.io/) | [alex.hernandez-garcia@mila.quebec](mailto:alex.hernandez-garcia@mila.quebec)]<br>
 .footer[[@alexhg@scholar.social](https://scholar.social/@alexhg) [![:scale 1em](../assets/images/slides/misc/mastodon.png)](https://scholar.social/@alexhg) | [@alexhdezgcia](https://twitter.com/alexhdezgcia) [![:scale 1em](../assets/images/slides/misc/twitter.png)](https://twitter.com/alexhdezgcia)]
 
+???
+
+Wo wird AI im Klimabereich eingesetzt?". Was kann man damit machen, was nicht, schadet KI dem Klima?
+
 ---
 
 ## Mitwirkende
@@ -269,7 +273,7 @@ count: false
 --
 
 .full-width[
-.conclusion[Floods, wildires and smog are some of the worst environmental hazards for humanity, and we can communicate their impacts visually.]
+.conclusion[Fluten, Waldbrände und Smog sind einige der schlimmsten Umweltgefahren für die Menschheit. Wir können ihre Auswirkungen verbildlichen.]
 ]
 
 ???
