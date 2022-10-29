@@ -28,6 +28,10 @@ Victor Schmidt, Sasha Luccioni, Yoshua Bengio et al.
 
 Wo wird AI im Klimabereich eingesetzt?". Was kann man damit machen, was nicht, schadet KI dem Klima?
 
+Ist die KI gut oder schlecht für das Klima? Es gibt keine einfache Antwort an diese Frage. Das hängt davon an.
+
+Eine interessanter Frage ist: Kann die KI gut für das Klima sein? Und wenn ja, wie? Ich bin der Meinung, dass die KI ein großes Potenzial zur Bekämpfung des Klimawandels hat.
+
 ---
 
 ## Mitwirkende
@@ -49,6 +53,10 @@ Victor Schmidt, Alexandra Sasha Luccioni, Mélisande Teng, Tianyu Zhang, Alexia 
 ![:scale 90%](../assets/images/slides/vicc/fire_wide.jpg)
 ![:scale 90%](../assets/images/slides/vicc/smog_wide.jpg)
 ]
+
+???
+
+Wir sind es gewohnt, solche Fotos von Klimaauswirkungen zu sehen. Aber es ist möglich, dass wir so es gewohnt sind, dass die keine Wirkung haben. Wie reagieren nicht.
 
 ---
 
@@ -81,6 +89,10 @@ Es besteht ein Missverhältnis zwischen der Dringlichkeit und dem Ausmaß der Kl
 .references[
 * Stoknes, P. E. [Why the human brain ignores climate change—and what to do about it](https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A1ef80b88-177c-4e5d-b879-d6d3a059c694). Environmental Reality: Rethinking the Options, 2016.
 ]
+
+???
+
+Die Menschen sind gegen den Klimawandel engagiert, weil es entfernt aussieht, zeitlich entfernt, oder geographisch, oder gesseltschaftlich.
 
 ---
 
@@ -315,7 +327,7 @@ Wichtigste Herausforderungen:
     * Wassertextur (Reflexionen, Leuchtkraft usw.)
     * Geometrie der Szene (Kanten, Objekte, usw.)
     * Physik (Neigung, Blickwinkel, usw.)
-* Der Algoritmus musste _in the wild_ gut funktionieren, deshalb mit mit einer Vielzahl unterschiedlicher Fotos.
+* Der Algoritmus musste _in the wild_ gut funktionieren, deshalb mit einer Vielzahl unterschiedlicher Fotos.
 * Wir mussten den Mangel an Trainingsdaten überwinden: Es gibt keinen Datensatz mit Fotos von _vor und nach der Flut_.
 ]
 .right-column-33[
