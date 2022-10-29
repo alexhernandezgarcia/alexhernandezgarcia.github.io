@@ -7,7 +7,7 @@ name: title
 class: title, middle
 
 ## [ThisClimateDoesNotExist.com](https://thisclimatedoesnotexist.com/):
-### Wie KI mit künstliche Überflutungsbildern Klimabewusstein schafft
+### Erhöhung des Klimabewussteins durch KI-Flutprojektionen
 
 .bigger[Alex Hernández-García (he/er/il/él)]
 
@@ -40,55 +40,56 @@ Victor Schmidt, Alexandra Sasha Luccioni, Mélisande Teng, Tianyu Zhang, Alexia 
 
 ## Bildliche Auswirkungen des Klimawandels auf Straßenfotos
 
-![:scale 100%](../assets/images/slides/vicc/flood_wide.jpg)
-![:scale 100%](../assets/images/slides/vicc/fire_wide.jpg)
-![:scale 100%](../assets/images/slides/vicc/smog_wide.jpg)
+.center[
+![:scale 90%](../assets/images/slides/vicc/flood_wide.jpg)
+![:scale 90%](../assets/images/slides/vicc/fire_wide.jpg)
+![:scale 90%](../assets/images/slides/vicc/smog_wide.jpg)
+]
 
 ---
 
-## Visualising climate change impacts on street photos
-### Motivation
+## Bildliche Auswirkungen des Klimawandels auf Straßenfotos
+### Warum?
 
 --
 
-There is a mismatch between the magnitude of the climate crisis and the public's concern about it.
+Es besteht ein Missverhältnis zwischen der Dringlichkeit und dem Ausmaß der Klimakrise und der Besorgnis der Menschen darüber.
 
 .center[
 <figure>
-	<img src="../assets/images/slides/climatechange/concern_co2.png" alt="High CO2 emitters are less intensely concerned about climate change" style="width: 50%">
+	<img src="../assets/images/slides/climatechange/concern_co2.png" alt="High CO2 emitters are less intensely concerned about climate change" style="width: 40%">
   .smaller[<figcaption>Stokes et al., <a href="https://www.pewresearch.org/global/2015/11/05/1-concern-about-climate-change-and-its-consequences/">Global concern about climate change, broad support for limiting emissions</a>. Pew Research, 2015</figcaption>]
 </figure>
 ]
 
 ---
 
-## Visualising climate change impacts on street photos
-### Motivation
+## Bildliche Auswirkungen des Klimawandels auf Straßenfotos
+### Warum?
 
-There is a mismatch between the magnitude of the climate crisis and the public's concern about it. .highlight1[_Why?_]
+Es besteht ein Missverhältnis zwischen der Dringlichkeit und dem Ausmaß der Klimakrise und der Besorgnis der Menschen darüber. .highlight1[_Warum?_]
 
 --
 
-* .highlight1[Psychological distance]: 
+* .highlight1[Psychologische Distanz]: 
 > "_People struggle to engage with climate change because they perceive it as distant: temporally, geographically and/or socially. _" .cite[Stoknes, 2016]
 
 .references[
 * Stoknes, P. E. [Why the human brain ignores climate change—and what to do about it](https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A1ef80b88-177c-4e5d-b879-d6d3a059c694). Environmental Reality: Rethinking the Options, 2016.
 ]
 
-
 ---
 
 count: false
 
-## Visualising climate change impacts on street photos
-### Motivation
+## Bildliche Auswirkungen des Klimawandels auf Straßenfotos
+### Warum?
 
-There is a mismatch between the magnitude of the climate crisis and the public's concern about it. .highlight1[_Why?_]
+Es besteht ein Missverhältnis zwischen der Dringlichkeit und dem Ausmaß der Klimakrise und der Besorgnis der Menschen darüber. .highlight1[_Warum?_]
 
-* .highlight1[Psychological distance]: 
+* .highlight1[Psychologische Distanz]: 
 > "_People struggle to engage with climate change because they perceive it as distant: temporally, geographically and/or socially. _" .cite[Stoknes, 2016]
-* .highlight1[Doom-framings and fatigue of clichéd messages]:
+* .highlight1[Schwarzmalerei und Müdigkeit bei klischeehaften Botschaften]:
 > "_[C]lichéd images of climate change [...]—such as ‘smokestacks’, deforestation, and polar bears on melting ice—were positively received [but] also produced a muted emotional response and often prompted cynicism._" .cite[Chapman et al., 2016]
 
 .references[
@@ -98,14 +99,14 @@ There is a mismatch between the magnitude of the climate crisis and the public's
 
 ---
 
-## Our goal
+## Unser Ziel
 ### .alpha0[Placeholder]
 
-.context[People perceive the threat of climate change as temporally, geographically and socially distant.]
+.context[Die Menschen empfinden die Gefahren des Klimawandels als zeitlich, geografisch und gesellschaftlich weit entfernt.]
 
 --
 
-.center[.bigger[.highlight1[Could we help people visualise the effects of climate change in _their own backyard_?]]]
+.center[.bigger[.highlight1[Könnten wir den Menschen helfen, die Auswirkungen des Klimawandels in ihrem eigenen Hinterhof zu visualisieren?]]]
 
 --
 
@@ -118,24 +119,20 @@ There is a mismatch between the magnitude of the climate crisis and the public's
 .right-column[
 <figure>
 	<img src="../assets/images/slides/vicc/oppelner_orig.jpg" alt="Berlin, original image" style="width: 80%">
-  <figcaption>Berlin, Germany</figcaption>
+  <figcaption>Berlin, Deutschland</figcaption>
 </figure>
-]
-.left[
-]
-.right[
 ]
 
 ---
 
 count: false
 
-## Our goal
-### Floods
+## Unser Ziel
+### Flut
 
-.context[People perceive the threat of climate change as temporally, geographically and socially distant.]
+.context[Die Menschen empfinden die Gefahren des Klimawandels als zeitlich, geografisch und gesellschaftlich weit entfernt.]
 
-.center[.bigger[.highlight1[Could we help people visualise the effects of climate change in _their own backyard_?]]]
+.center[.bigger[.highlight1[Könnten wir den Menschen helfen, die Auswirkungen des Klimawandels in ihrem eigenen Hinterhof zu visualisieren?]]]
 
 .left-column[
 <figure>
@@ -146,7 +143,7 @@ count: false
 .right-column[
 <figure>
 	<img src="../assets/images/slides/vicc/oppelner_flood.gif" alt="Berlin, original image" style="width: 80%">
-  <figcaption>Berlin, Germany</figcaption>
+  <figcaption>Berlin, Deutschland</figcaption>
 </figure>
 ]
 .left[
@@ -158,12 +155,12 @@ count: false
 
 count: false
 
-## Our goal
-### Wildfires
+## Unser Ziel
+### Großbrände
 
-.context[People perceive the threat of climate change as temporally, geographically and socially distant.]
+.context[Die Menschen empfinden die Gefahren des Klimawandels als zeitlich, geografisch und gesellschaftlich weit entfernt.]
 
-.center[.bigger[.highlight1[Could we help people visualise the effects of climate change in _their own backyard_?]]]
+.center[.bigger[.highlight1[Könnten wir den Menschen helfen, die Auswirkungen des Klimawandels in ihrem eigenen Hinterhof zu visualisieren?]]]
 
 .left-column[
 <figure>
@@ -174,7 +171,7 @@ count: false
 .right-column[
 <figure>
 	<img src="../assets/images/slides/vicc/oppelner_fire.jpg" alt="Berlin, original image" style="width: 80%">
-  <figcaption>Berlin, Germany</figcaption>
+  <figcaption>Berlin, Deutschland</figcaption>
 </figure>
 ]
 .left[
@@ -186,12 +183,12 @@ count: false
 
 count: false
 
-## Our goal
+## Unser Ziel
 ### Smog
 
-.context[People perceive the threat of climate change as temporally, geographically and socially distant.]
+.context[Die Menschen empfinden die Gefahren des Klimawandels als zeitlich, geografisch und gesellschaftlich weit entfernt.]
 
-.center[.bigger[.highlight1[Could we help people visualise the effects of climate change in _their own backyard_?]]]
+.center[.bigger[.highlight1[Könnten wir den Menschen helfen, die Auswirkungen des Klimawandels in ihrem eigenen Hinterhof zu visualisieren?]]]
 
 .left-column[
 <figure>
@@ -202,7 +199,7 @@ count: false
 .right-column[
 <figure>
 	<img src="../assets/images/slides/vicc/oppelner_smog.jpg" alt="Berlin, original image" style="width: 80%">
-  <figcaption>Berlin, Germany</figcaption>
+  <figcaption>Berlin, Deutschland</figcaption>
 </figure>
 ]
 .left[
@@ -212,64 +209,61 @@ count: false
 
 ---
 
-## Our goal
-### A website to encourage climate change awareness and action
+## Unser Ziel
+### Eine Website zur Förderung des Engagements und Bewusstseins für den Klimawandel
 
-.context[Users can look for an address of their choice.]
+.smaller[.context55[Die Teilnehmer:innen können nach einer Adresse ihrer Wahl suchen.]]
 
-![:scale 100%](../assets/images/slides/vicc/website_snapshot_address_mila.png)
-
----
-
-count: false
-
-## Our goal
-### A website to encourage climate change awareness and action
-
-.context[Obtain an AI-generated visualisation on a street photo.]
-
-.center[![:scale 70%](../assets/images/slides/vicc/website_snapshot_viz_mila.png)]
+.center[![:scale 90%](../assets/images/slides/vicc/website_snapshot_address_mila.png)]
 
 ---
 
 count: false
 
-## Our goal
-### A website to encourage climate change awareness and action
+## Unser Ziel
+### Eine Website zur Förderung des Engagements und Bewusstseins für den Klimawandel
 
-.context[Read more about climate change and the ways to act now.]
+.smaller[.context55[Sie erhalten eine KI-generierte Visualisierung auf einem Straßenfoto.]]
+
+.center[![:scale 60%](../assets/images/slides/vicc/website_snapshot_viz_mila.png)]
+
+---
+
+count: false
+
+## Unser Ziel
+### Eine Website zur Förderung des Engagements und Bewusstseins für den Klimawandel
+
+.smaller[.context55[Info über den Klimawandel und die Engagementmöglichkeiten.]]
 
 .center[![:scale 70%](../assets/images/slides/vicc/website_snapshot_whatnow.png)]
 
 ---
 
-## Why floods, wildfire, smog?
-
-.context[Our algorithm and the website simulates floods, wildfires and smog on input images.]
+## Warum Fluten, Größbrände, Smog?
 
 --
 
-<br>
 .columns-3-left[
-* Flash floods kill **5,000** people per year.
-* Sea levels are expected to rise by **2 metres** by the end of the century
-* Rising sea levels could disrupt the lives of **1 billion people** by the end of 2050.
+* Bei Sturzfluten sterben jährlich **5.000** Menschen
+* Der Meeresspiegel wird bis zum Ende des Jahrhunderts voraussichtlich um **2 Meter** ansteigen
+* Der Anstieg des Meeresspiegels könnte bis Ende 2050 das Leben von **1 Milliarde Menschen** beeinträchtigen
 ]
 
 --
 
 .columns-3-center[
-* As much as **40% of the Amazon** forest is at risk of becoming a savanna.
-* In 2015, forest fires claimed roughly **980 000 $km^2$** of the world’s forest.
-* Forest fires emmitted **~1.8 Gt of CO2** in 2019.
+* Bis zu **40 % des Amazonaswaldes** sind bedroht
+* Im Jahr 2015 haben Waldbrände ca. **980000 km2** der weltweiten Waldfläche gebrannt
+* Waldbrände emittierten im Jahr 2019 ca. **1,8 Gt CO₂**
 ]
 
 --
 
 .columns-3-right[
-* Air pollution is believed to be responsible for **4.2 million** premature deaths per year.
-* Air pollution is responsible for **6% of deaths** worldwide.
-* **91% of the population** lives in places where air pollution levels safety limits.  
+* Die Luftverschmutzung ist für ca. **4,2 Millionen** vorzeitige Todesfälle pro Jahr verantwortlich
+* Die Luftverschmutzung ist für ca. **6 % des Todes** weltweit verantwortlich
+* **91% der Bevölkerung** lebt an Orten, an denen die Luftverschmutzung Sicherheitsgrenzen erreicht
 ]
 
 --
@@ -278,12 +272,16 @@ count: false
 .conclusion[Floods, wildires and smog are some of the worst environmental hazards for humanity, and we can communicate their impacts visually.]
 ]
 
+???
+
+Global anthropogenic emissions in 2019 were estimated in 59 (±6.6±6.6) GtCO₂-eq.
+
 
 ---
 
 count: false
 
-## Let's try it out!
+## Probieren wir es aus!
 
 .center[
 .bigger[.bigger[[ThisClimateDoesNotExist.com](https://thisclimatedoesnotexist.com)]]
@@ -291,27 +289,30 @@ count: false
 .bigger[.bigger[[CeClimatNExistePas.com](https://ceclimatnexistepas.com)]]
 ]
 
+.center[Leider gibt's kein _DiesesKlimaGibtEsNicht.com_]
+.smaller[.center[404 Page not found :(]]
+
 ???
 
 https://thisclimatedoesnotexist.com/en/share/56d8058c-23d5-4083-b1b4-4afe6a5b2fe9
 ---
 
-## Methods
-### Floods simulation with _ClimateGAN_
+## Methoden
+### _ClimateGAN_
 
-.context[The algorithm had to be able to generate realistic floods on any photo from Google Street View.]
+.context55[Der Algorithmus musste realistische Überflutungen auf jedem Foto von Google Street View erzeugen zu können.]
 
 --
 
 .left-column-66[
-Key challenges:
+Wichtigste Herausforderungen:
 
-* Visual perception is sensitive to unrealistic scenes:
-    * Water texture (reflections, luminosity, etc.)
-    * Geometry of the scene (edges, obstacles, etc.)
-    * Physics (slope, view point, etc.)
-* The algorithm was meant to be deployed _in the wild_ and should work with highly variant range of photos.
-* We had to overcome the lack of training data: there is no data set of photos of _before and after_ the flood.
+* Die visuelle Wahrnehmung reagiert empfindlich auf unrealistische Szenen:
+    * Wassertextur (Reflexionen, Leuchtkraft usw.)
+    * Geometrie der Szene (Kanten, Objekte, usw.)
+    * Physik (Neigung, Blickwinkel, usw.)
+* Der Algoritmus musste _in the wild_ gut funktionieren, deshalb mit mit einer Vielzahl unterschiedlicher Fotos.
+* Wir mussten den Mangel an Trainingsdaten überwinden: Es gibt keinen Datensatz mit Fotos von _vor und nach der Flut_.
 ]
 .right-column-33[
 .center[
@@ -321,25 +322,25 @@ Key challenges:
 
 ---
 
-## Methods
-### Floods simulation with _ClimateGAN_
+## Methoden
+### _ClimateGAN_
 
-.context[Simulating photo-realistic floods is challenging because visual perception is very sensitive to unrealistic scenes and the lack of data.]
+.context55[Die Generation von fotorealistischen Überflutungen ist eine Herausforderung, da unsere Wahrnehmung sehr empfindlich auf Fehler reagiert und es fehlen Daten.]
 
 --
 
-.left-column[
-Key features:
-
-* Data from a simulated virtual word to overcome the lack of training data
-* Domain adaptation to bridge the gap between simulated and real photos
-* Two-stage flood generation: _Masker_ + _Painter_
-* Combination of _depth_ and _semantic segmentation_  to improve water mask predictions
-* Conditional image generation to _paint_ realistic water on the predicted mask
-]
 .right-column[
 ![:scale 100%](../assets/images/slides/vicc/climategan-overview.png)
 ]
+.left-column[
+Hauptmerkmale:
+
+* Eine simulierte virtuelle Welt, um Trainingsdaten zu erzeugen
+* _Domain adaptation_, um den Unterschied zwischen simulierten und realen Fotos zu bewältigen
+* Two-stage flood generation: _Masker_ + _Painter_
+]
+* Kombination von Tiefen- und semantischer Segmentierung zur Verbesserung der Vorhersage von Wassermasken
+* _Conditional image generation_, um realistisches Wasser auf die vorhergesagte Maske zu malen
 
 ---
 
