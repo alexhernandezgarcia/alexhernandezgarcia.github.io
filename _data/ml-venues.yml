@@ -77,6 +77,30 @@
     - machine learning
   sort: 37
 
+- name: RLDM
+  fullname: Multi-disciplinary Conference on Reinforcement Learning and Decision Making
+  type: conference
+  website: https://rldm.org/
+  open-access: False
+  topics:
+    - reinforcement learning
+  fees: 
+    - type: registration
+      fee: 375
+      currency: USD
+      source: https://rldm.org/registration-2/
+      date-seen: 2022.06.08
+  sort: 38
+
+- name: ACL
+  fullname: Annual Meeting of the Association for Computational Linguistics
+  type: conference
+  website: https://www.2022.aclweb.org/
+  open-access: True
+  topics:
+    - computational linguistics
+  sort: 39
+
 - name: CVPR
   fullname: Conference on Computer Vision and Pattern Recognition
   type: conference
@@ -279,6 +303,17 @@
     - machine learning
   sort: 40
 
+- name: TMLR
+  fullname: Transactions on Machine Learning Research
+  type: journal
+  website: https://jmlr.org
+  not-for-profit: True
+  publisher: TMLR
+  open-access: True
+  topics:
+    - machine learning
+  sort: 41
+
 - name: JAIR
   fullname: Journal of Artificial Intelligence Research
   type: journal
@@ -290,6 +325,16 @@
   topics:
     - artificial intelligence
   sort: 43
+
+- name: LoG
+  fullname: Learning on Graphs Conference
+  type: conference
+  website: https://logconference.org/
+  not-for-profit: True
+  open-access: True
+  topics:
+    - machine learning, graph neural networks
+  sort: 44
 
 - name: MLSys
   fullname: Conference on Machine Learning and Systems
