@@ -37,7 +37,6 @@ Victor Schmidt, Alexandra Sasha Luccioni, Mélisande Teng, Tianyu Zhang, Alexia 
 
 ---
 
-
 ## Visualising climate change impacts on street photos
 
 ![:scale 100%](../assets/images/slides/vicc/flood_wide.jpg)
