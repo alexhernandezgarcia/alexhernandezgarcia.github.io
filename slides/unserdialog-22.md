@@ -92,6 +92,8 @@ Es besteht ein Missverhältnis zwischen der Dringlichkeit und dem Ausmaß der Kl
 
 ???
 
+Ich habe Zitate aus Artikeln, die dies belegen.
+
 Die Menschen sind gegen den Klimawandel engagiert, weil es entfernt aussieht, zeitlich entfernt, oder geographisch, oder gesseltschaftlich.
 
 ---
