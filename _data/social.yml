@@ -6,6 +6,12 @@
     source: ai
     name: ai-google-scholar
     type: ai
+- name: Semantic Scholar
+  link: https://www.semanticscholar.org/author/Alex-Hern%C3%A1ndez-Garc%C3%ADa/83015253
+  icon:
+    source: ai
+    name: ai-semantic-scholar
+    type: ai
 - name: Twitter
   link: https://twitter.com/alexhdezgcia
   icon:
