@@ -1,3 +1,61 @@
+- title: "PhAST: physics-aware, scalable, and task-specific GNNs for accelerated catalyst design"
+  authors:
+    - Alexandre Duval
+    - Victor Schmidt
+    - Santiago Miret
+    - Yoshua Bengio
+    - Alex Hernandez-Garcia
+    - David Rolnick
+  year: 2022
+  journal: Neural Information Processing Systems (NeurIPS), Workshop on Accelerated Materials Design (AI4Mat)
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2211.12020
+    - tag: OpenReview
+      link: https://openreview.net/forum?id=hHercGKiXvP
+- title: "Multi-Objective GFlowNets"
+  authors:
+    - Moksh Jain
+    - Sharath Chandra Raparthy
+    - Alex Hernandez-Garcia
+    - Jarrid Rector-Brooks
+    - Yoshua Bengio
+    - Santiago Miret
+    - Emmanuel Bengio
+  year: 2022
+  journal: arXiv:2210.12765
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2210.12765
+- title: "Diversifying design of nucleic acid aptamers using unsupervised machine learning"
+  authors:
+    - Siba Moussa
+    - Michael Kilgour
+    - Clara Jans
+    - Alex Hernandez-Garcia
+    - Miroslava Cuperlovic-Culf
+    - Yoshua Bengio
+    - Lena Simine
+  year: 2022
+  journal: arXiv:2208.05341
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2208.05341
+- title: "Generating physically-consistent high-resolution climate data with hard-constrained neural networks"
+  authors:
+    - Paula Harder
+    - Alex Hernandez-Garcia
+    - Qidong Yang
+    - Venkatesh Ramesh
+    - Prasanna Sattigeri
+    - Campbell Watson
+    - Daniela Szwarcman
+    - David Rolnick
+  year: 2022
+  journal: arXiv:2208.05424
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2208.05424
 - title: "Biological sequence design with GFlowNets"
   authors:
     - Moksh Jain
@@ -18,6 +76,8 @@
   tags:
     - tag: arXiv
       link: https://arxiv.org/abs/2203.04115
+    - tag: PMLR
+      link: https://proceedings.mlr.press/v162/jain22a.html
 - title: "ClimateGAN: Raising climate change awareness by generating images of floods"
   authors:
     - Victor Schmidt
