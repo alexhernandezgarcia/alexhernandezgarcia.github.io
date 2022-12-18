@@ -4,14 +4,10 @@
 		<p>
 		<em>{{ item.title }}</em>. 
 		{% for author in item.authors %}
-		{% if author == site.title %}
-      <b>{{ author }}</b>, 	
-		{% else %}
-		{{ author }}, 
-		{% endif %}
+      {% if author == site.title %}<b>{{ author }}</b>{% else %}{{ author }}{% endif %}{% if forloop.last == false %}, {% else %}.{% endif %}
 		{% endfor %}
-		{{ item.year }}.
 		{{ item.journal }}.
+		{{ item.year }}.
 		{% if item.misc %}
       <b>{{ item.misc }}</b>
 		{% endif %}
