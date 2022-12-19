@@ -175,4 +175,12 @@
   slides: slides/miai_deeptails-mar22
   link: https://miai.univ-grenoble-alpes.fr/events-highlights/miai-seminars/3rd-miai-deeptails-seminar-on-march-17th-from-5pm-cet-875233.kjsp
   video: https://www.youtube.com/watch?v=7W69-ffTs48
+- title: "Machine learning contra el cambio climático: Simulación de eventos climáticos y descubrimiento de materiales con GFlowNets"
+  year: 2022
+  month: July
+  where: Department of Signal Theory and Communications, University Carlos III of Madrid
+  city: Madrid
+  country: Spain
+  slides: slides/tsc-jul22
+
 
