@@ -182,5 +182,12 @@
   city: Madrid
   country: Spain
   slides: slides/tsc-jul22
-
-
+- title: "ThisClimateDoesNotExist.com: Erhöhung des Klimabewussteins durch KI-Flutprojektionen"
+  year: 2022
+  month: October
+  where: Unser Dialog
+  city: Online
+  country: The Internet
+  slides: slides/unserdialog-22
+  link: https://unserdialog.org/
+  video: https://www.youtube.com/watch?v=Ca18loOPjgU
