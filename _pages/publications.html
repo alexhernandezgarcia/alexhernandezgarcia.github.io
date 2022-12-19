@@ -12,4 +12,9 @@ permalink: /publications
 {% for item in talks %}
   {% include talk-item.html %}
 {% endfor %}
+<h2>In the media</h2>
+{% assign media = site.data.media | sort: 'date' | reverse %}
+{% for item in media %}
+  {% include media-item.html %}
+{% endfor %}
   

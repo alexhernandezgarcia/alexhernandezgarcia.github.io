@@ -1,0 +1,11 @@
+<article class="media">
+	<div class="media-content">
+		<div class="content">
+		<p>
+    {{ item.date | date: "%B, %Y" }}. <b>{{ item.name }}</b>, {{ item.medium }}. {% if item.link %}
+      <a class="tag" href="{{ item.link }}">link</a>
+		{% endif %}
+		</p>
+		</div>
+	</div>
+</article>
