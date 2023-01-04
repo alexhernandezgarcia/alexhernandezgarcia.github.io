@@ -1,12 +1,12 @@
 ---
 layout: mlprojects
-title: IFT 3710/6759 - Projets (avancés) en apprentissage automatique
+title: IFT 3710/6759 H22 - Projets (avancés) en apprentissage automatique
 redirect_from:
-  - /mlprojects
-  - /ift6759.html
-  - /ift6759
-  - /ift3710.html
-  - /ift3710
+  - /mlprojects22
+  - /ift6759h22.html
+  - /ift6759h22
+  - /ift3710h22.html
+  - /ift3710h22
 ---
 
 # Course description
