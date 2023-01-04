@@ -1,5 +1,5 @@
 ---
-layout: mlprojects
+layout: mlprojects22
 title: "IFT 3710/6759 - GeoLifeCLEF: Location-based species presence prediction"
 ---
 
