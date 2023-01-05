@@ -1,70 +1,77 @@
 ---
-layout: mlprojects
-title: IFT 3710/6759 H23 - Projets (avancés) en apprentissage automatique
-redirect_from:
+layout : mlprojects23
+title : IFT 3710/6759 H23 - Projets (avancés) en apprentissage automatique
+redirect_from :
   - /mlprojects
   - /mlprojects23
-  - /ift6759h23.html
-  - /ift6759h23
   - /ift3710h23.html
   - /ift3710h23
 ---
 
-# Course description
+# Description du cours
 
-The objective of this course is to prepare you, the students, for tackling real-world machine learning projects. During the course, you will work on the main stages of machine learning projects, including data acquisition, data pre-processing, model training, analysis of results and presentation of results and conclsions. Skills developed during this course include literature review of a particular problem, practical and theoretical machine learning, Python for data science, PyTorch, version control with `git` and basic Linux commands.
+L'objectif de ce cours est de vous préparer à vous attaquer à des projets pratiques d'apprentissage automatique. Pendant le cours, vous travaillerez sur les principales étapes des projets d'apprentissage automatique, y compris l'acquisition des données, le prétraitement des données, l'entraînement des modèles, l'analyse des résultats et la présentation des résultats et des conclusions. Les compétences développées pendant ce cours comprennent l'analyse documentaire d'un problème particulier, l'apprentissage automatique pratique et théorique, Python pour la science des données, PyTorch, le contrôle de version avec `git` et les commandes Linux de base.
 
-# Course outline
+# Plan du cours
 
-1. Introduction to the course
-2. Version control with `git` and GitHub
-3. Linux and Python for machine learning
-4. HPC clusters
-5. Machine learning review
-6. Deep learning review
-7. Data visualisation
-8. Advanced PyTorch tutorial
-9. Projects work
+1. Introduction au cours
+2. Contrôle de version avec `git` et GitHub
+3. Linux et Python pour l'apprentissage automatique
+4. Clusters HPC
+5. Revue de l'apprentissage automatique
+6. Revue de l'apprentissage profond
+7. Visualisation des données
+8. Tutoriel PyTorch avancé
+9. Travail sur les projets
 
-# Evaluation criteria
+# Critères d'évaluation
 
-Students will be evaluated entirely according to their work on projects. Depending on the complexity of the projects, you will be required to take part in one or two projects and work in teams of 3--5 people. You can choose from a list of projects prepared by the instructors, or propose your own projects, provided they meet certain criteria. The final evaluation will take the following into account:
+Les étudiant·e·s seront évalués _entièrement_ en fonction de leur travail sur les projets. Vous devrez participer à un projet et travailler en équipe de 3--5 personnes. Vous pouvez choisir parmi une liste de projets préparés par les instructeurs, ou proposer vos propres projets, à condition qu'ils répondent à certains critères. L'évaluation finale tiendra compte des éléments suivants :
 
-* Difficulty of the project
-* Performance of the developed algorithms
-* Oral presentation
-* Written report
-* Quality of the code
+* La difficulté du projet
+* Performance des algorithmes développés
+* Présentation orale
+* Rapport écrit
+* Qualité du code
 
-**Important notes**: 
-* The evaluation criteria will be slightly relaxed for undergraduate students (IFT 3710).
-* The grade will be binary (pass or fail), not in a letter scale.
-* The teams should not mix graduate (IFT 6759) and undergraduate students (IFT 3710).
+**Note importante** : La note sera binaire (réussite ou échec), et non dans une échelle de lettres.
 
-All students will be required to pass a **basic skills test and interview** before starting the project work, in order to ensure that they are ready to work on an advanced machine learning project in a team.
+# Pré-requis
 
-# Useful links
+## Pourquoi des pré-requis ?
 
-* [Projects guidelines]({{ site.url }}/teaching/mlprojects/projects)
-* [Instructions for the presentation, final report and code]({{ site.url }}/teaching/mlprojects/projects/instructions-presentations-report)
-* [Link to StudiUM page](https://studium.umontreal.ca/course/view.php?id=219252)
-* [Link to public admission page of IFT 6759](https://admission.umontreal.ca/cours-et-horaires/cours/ift-6759/)
-* [Link to public admission page of IFT 3710](https://admission.umontreal.ca/cours-et-horaires/cours/ift-3710/)
+* IFT 3710 H23 ne s'agit pas d'un cours d'introduction à l'apprentissage automatique, mais d'un cours pour apprendre à travailler sur des projets d'apprentissage automatique. 
+* Toutes et tous les étudiant·e·s doivent être en mesure de contribuer à l'équipe.
 
-## Winter term 2022
+## Quels sont les pré-requis ?
 
-Classes take place on:
+* Concepts de base de l'apprentissage automatique : il y aura une session de révision.
+* Concepts de base de l'apprentissage profond : il y aura une session de révision.
+* Familiarité avec Python.
+* Familiarité avec PyTorch : il y aura une session de tutorat.
+* Commandes Linux de base : il y aura une session de tutorat.
+* Familiarité avec git et GitHub : il y aura une session de tutorat.
 
-* Wednesdays, 16:30--18:30 (ET): 1140 Pav. André-Aisenstadt
-* Fridays, 09:30--11:30 (ET): Y-117 Pav. Roger-Gaudry
+**Note importante** : Si vous n'êtes pas certain·e d'avoir suffisamment de connaissances sur les sujets ci-dessus pour pouvoir contribuer à une équipe et donc réussir le cours, contactez l'instructeur dès que possible pour évaluer vos connaissances et prendre une décision ensemble.
 
-Due the pandemic situation, la [Faculté des arts et des sciences](https://fas.umontreal.ca/accueil/) of the Université de Montréal has delayed the start of the term until January 10th. Therefore, **the first session** of this course will be on **Wednesday January 12th**. For the same reasons, classes will be **online _at least_ until January 31st**.
+# Liens utiles
 
-Starting on January 31st, classes take place in person.
+* [Directives pour les projets]({{ site.url }}/teaching/mlprojects23/projects)
+* [Instructions pour la présentation, le rapport final et le code]({{ site.url }}/teaching/mlprojects23/projects/instructions-presentations-report)
+* [Lien vers la page de StudiUM](https://studium.umontreal.ca/course/view.php?id=219252)
+* [Lien vers la page d'admission publique de l'IFT 3710](https://admission.umontreal.ca/cours-et-horaires/cours/ift-3710/)
+* [Lien vers la page du cours l'hiver 2022 (en anglais)](https://alexhernandezgarcia.github.io/mlprojects22)
 
-# Resources
+## Session d'hiver 2023
 
-* Abu-Mostafa, Y. S., Magdon-Ismail, M., & Lin, H. T. (2012). [Learning from data](https://work.caltech.edu/textbook.html). AMLBook.
-* Goodfellow, I., Bengio, Y., & Courville, A. (2016). [Deep learning](https://www.deeplearningbook.org/). MIT press.
-* Anish, Jose, Jon (last seen on Dec. 2021). [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/). CSAIL MIT.
+Les cours ont lieu le :
+
+* Les mercredis, 16h30--18h30 (ET) : 1175 Pav. André-Aisenstadt
+* Les vendredis, de 9h30 à 11h30 (ET) : 1175 Pav. André-Aisenstadt
+
+# Ressources
+
+* Abu-Mostafa, Y. S., Magdon-Ismail, M., & Lin, H. T. (2012). [Learning from data] (https://work.caltech.edu/textbook.html). AMLBook.
+* Goodfellow, I., Bengio, Y., & Courville, A. (2016). [Apprentissage profond](https://www.deeplearningbook.org/). MIT press.
+* Anish, Jose, Jon (dernière visite le 20 décembre 2021). [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/). CSAIL MIT.
 
