@@ -1,5 +1,5 @@
 ---
-layout: mlprojects
+layout: mlprojects22
 title: IFT 3710/6759 - Projects
 ---
 
@@ -111,7 +111,7 @@ As explained [above](#project-assignment), you may propose your own project or w
 
 ## Final projects
 
-{% assign projects = site.data.mlprojects | sample: site.data.mlprojects.size %}
+{% assign projects = site.data.mlprojects22 | sample: site.data.mlprojects22.size %}
 {% for item in projects %}
   {% include mlproject-item.html %}
 {% endfor %}

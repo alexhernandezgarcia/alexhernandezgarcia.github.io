@@ -1,5 +1,5 @@
 ---
-layout: mlprojects
+layout: mlprojects23
 title: "IFT 3710/6759 - eBird: Biodiversity monitoring"
 ---
 

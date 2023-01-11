@@ -1,5 +1,5 @@
 ---
-layout: mlprojects
+layout: mlprojects23
 title: IFT 3710/6759 - Photovoltaic power and solar radiation forecasting
 ---
 

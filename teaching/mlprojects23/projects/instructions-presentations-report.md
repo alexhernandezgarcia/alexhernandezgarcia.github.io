@@ -1,5 +1,5 @@
 ---
-layout: mlprojects
+layout: mlprojects23
 title: IFT 3710/6759 - Instructions for the presentations and final report
 ---
 
@@ -7,12 +7,9 @@ The oral presentations, final reports and code of the projects are the main deli
 
 ## Dates
 
-Presentations will take place **in class** on the following days:
+Presentations will take place **in class** (tentatively) on April 7, at the usual time of the session and room: **Wednesday 7th of April**, 16:30--18:30 (EST), 1175 Pav. André-Aisenstadt
 
-* **Wednesday 20th of April**, 16:30--18:30 (EST), 1140 Pav. André-Aisenstadt
-* **Friday 22nd of April**, 09:30--11:30 (EST), Y-117 Pav. Roger-Gaudry
-
-Final reports and the source code are due on **April 29th 2022** at 23:59 (EST).
+Final reports and the source code are due (tentatively) on **April 28th 2023** at 23:59 (EST).
 
 ## Presentations
 
