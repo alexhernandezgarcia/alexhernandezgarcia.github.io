@@ -12,10 +12,12 @@ class: title, middle
 #### .gray224[11 janvier 2023 - Session 1]
 ### .gray224[Introduction]
 
+.smaller[Slides disponibles sur [alexhernandezgarcia.github.io/teaching/mlprojects23/slides/20230111-introduction](https://alexhernandezgarcia.github.io/teaching/mlprojects23/slides/20230111-introduction)]
+
 .center[
 <a href="http://www.umontreal.ca/"><img src="../../../assets/images/slides/logos/udem-white.png" alt="Mila" style="height: 6em"></a>
 ]
-<br><br>
+
 Alex Hernández-García (he/il/él)
 
 .footer[[alexhernandezgarcia.github.io](https://alexhernandezgarcia.github.io/) | [alex.hernandez-garcia@mila.quebec](mailto:alex.hernandez-garcia@mila.quebec)]<br>
@@ -23,25 +25,29 @@ Alex Hernández-García (he/il/él)
 
 ???
 
-- Présentation de moi-même
-- Partager le lien
+- Présentation de moi-même:
+    - Chercheur postdoctoral à l'UdeM et Mila dans le group de Prof. Bengio
+    - Doctorat à Berlin, sur l'intelligence artificielle et la neuroscience.
+    - Maintenant, je recherche des applications de l'IA avec un impact positif contre le changement climatique ou pour la societé en géneral
+- Presentation des étudiants: prénom
 
 ---
 
 ## À propos de la langue
 
-Ce cours est offert aux étudiant·e·s de premier cycle (IFT 3710) et étudiant·e·s de cycle supérieur (IFT 6759). Les étudiant·e·s de cycle supérieur peuvent choisir peuvent choisir entre une version française (Section A, ici) et une version anglaise (Section B, avec Prof. Bang Liu).
+Ce cours est offert aux étudiant·e·s de premier cycle (IFT 3710) et étudiant·e·s de cycle supérieur (IFT 6759). Les étudiant·e·s de cycle supérieur peuvent choisir entre une version française (Section A, ici) et une version anglaise (Section B, avec Prof. Bang Liu).
 
 Dans cette section:
 
 * Les sessions seront enseignées en français.
-* Le contenu des diapositives sera en français et en anglais.
+* Le contenu des diapositives sera principalement en anglais. 
 * Les présentations des étudiant·e·s se feront en français.
 * Les devoirs peuvent être réalisés en français ou en anglais.
+* La communication avec les instructeur·rice·s peut être en français ou anglais.
 
 ???
 
-- Espagnol, Allemand
+- Ou espagnol, allemand...
 
 ---
 
@@ -51,11 +57,15 @@ count: False
 
 Ce cours est offert aux étudiant·e·s de premier cycle (IFT 3710) et étudiant·e·s de cycle supérieur (IFT 6759). Les étudiant·e·s de cycle supérieur peuvent choisir peuvent choisir entre une version française (Section A, ici) et une version anglaise (Section B, avec Prof. Bang Liu).
 
-Cependant : Le français n'est pas ma langue maternelle et mon niveau est un peu limité. Des idées pour atténuer les limites potentielles de mon français :
+Par ailleurs : Le français n'est pas ma langue maternelle et mon niveau est un peu limité. Des idées pour atténuer les limites potentielles de mon français :
 
 * Ayez un peu de patience ^^
 * N'hésitez pas à me corriger si je dis quelque chose de faux.
-* Beaucoup de mots techniques que je ne connais qu'en anglais. Indiquez-moi si des versions françaises existent et sont courantes.
+* Il y a beaucoup de mots techniques que je ne connais qu'en anglais. Indiquez-moi si des versions françaises existent et sont courantes.
+
+--
+
+.center[Il est permis de se moquer de mes erreurs... si vous me les expliquez! ;)]
 
 ???
 
@@ -67,10 +77,10 @@ Cependant : Le français n'est pas ma langue maternelle et mon niveau est un peu
 
 Les étudiant·e·s de cette classe peuvent venir de différents programmes d'études :
 
-* Maîtrise en informatique
-* D.E.S.S. en apprentissage automatique
-* Baccalauréat en informatique
-* Baccalauréat en mathématiques et informatique
+* Maîtrise en informatique (IFT 6759)
+* D.E.S.S. en apprentissage automatique (IFT 6759)
+* Baccalauréat en informatique (IFT 3710)
+* Baccalauréat en mathématiques et informatique (IFT 3710)
 * Autre ?
 
 --
@@ -83,6 +93,7 @@ Allez sur [www.menti.com](https://www.menti.com) et utilisez le code **7639 3368
 
 ???
 
+- Vérifiez si les étudiants du baccalauréat peuvent choisir en anglais.
 - Menti: https://www.mentimeter.com/s/5961baed47926bc582b7d7aedbca8111/821c861c09e0
 
 ---
@@ -94,9 +105,9 @@ Allez sur [www.menti.com](https://www.menti.com) et utilisez le code **7639 3368
 .highlight1[Structure] :
 
 * 4 semaines (8 séances) de cours d'introduction et de révision : `git`, Linux, Python, machine learning, deep learning...
-* 10 semaines de travail en équipe sur des projets, avec des séances de mentorat.
+* 10 semaines de travail en équipe sur des projets, avec des séances de mentorat et de petits rapports périodiques.
 
-.highlight1[A la fin du cours], nous attendons de vous que vous soyez capable de :
+.highlight1[A la fin du cours], on attende de vous que vous soyez capable de :
 
 * Programmer et entraîner des modèles d'apprentissage automatique et d'apprentissage profond.
 * Analyser les résultats expérimentaux et tirer des conclusions.
@@ -123,6 +134,11 @@ Rôles :
 
 * Préparation des propositions de projets
 * Mentorat d'équipes (office hours)
+
+???
+
+- Étudiants de doctorat avec Prof. Bengio.
+- Intéressé par les applications de l'IA contre le changement climatique.
 
 ---
 
@@ -163,17 +179,16 @@ count: false
 * Les mercredis, 16:30-18:30 - 1175 Pav. André-Aisenstadt
 * Les vendredis, 09:30-11:30 - 1175 Pav. André-Aisenstadt
 
-.left-column[
 **Semaines 5 - 14**
-* Travail sur des projets en équipe
-* Pas de cours magistraux
-* Séances de mentorat pendant les heures de cours, ou sur demande
-* Des tutoriels supplémentaires peuvent être prévus
-]
+* Travail sur des projets en équipe.
+* Pas de cours magistraux.
+* Séances de mentorat ouvertes pendant les heures de cours, et privées sur demande.
+* Des tutoriels supplémentaires peuvent être prévus.
+* Vous devrez faire des mini-rapports périodiques.
 
 ???
 
-Show plan in website, talk about deliverables and discuss dates (oral presentations, final report, etc.)
+- Explain open office hours
 
 ---
 
@@ -208,6 +223,10 @@ Les projets comprennent les étapes suivantes :
 4. Analyse des résultats
 5. Présentation orale
 6. Rapport écrit
+
+???
+
+- Show plan in website, talk about deliverables and discuss dates (oral presentations, final report, etc.)
 
 ---
 
