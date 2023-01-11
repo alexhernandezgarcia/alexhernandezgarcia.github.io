@@ -58,7 +58,7 @@ Les étudiant·e·s seront évalués _entièrement_ en fonction de leur travail 
 
 # Liens utiles
 
-* [Directives pour les projets]({{ site.url }}/teaching/mlprojects23/projects)
+* [À propos des projects]({{ site.url }}/teaching/mlprojects23/projects)
 * [Instructions pour la présentation, le rapport final et le code]({{ site.url }}/teaching/mlprojects23/projects/instructions-presentations-report)
 * [Lien vers la page de StudiUM](https://studium.umontreal.ca/course/view.php?id=243115)
 * [Lien vers la page d'admission publique de l'IFT 3710](https://admission.umontreal.ca/cours-et-horaires/cours/ift-3710/)
@@ -74,7 +74,7 @@ Les cours ont lieu le :
 
 # Ressources
 
-* Abu-Mostafa, Y. S., Magdon-Ismail, M., & Lin, H. T. (2012). [Learning from data] (https://work.caltech.edu/textbook.html). AMLBook.
+* Abu-Mostafa, Y. S., Magdon-Ismail, M., & Lin, H. T. (2012). [Learning from data](https://work.caltech.edu/textbook.html). AMLBook.
 * Goodfellow, I., Bengio, Y., & Courville, A. (2016). [Apprentissage profond](https://www.deeplearningbook.org/). MIT press.
 * Anish, Jose, Jon (dernière visite le 20 décembre 2021). [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/). CSAIL MIT.
 
