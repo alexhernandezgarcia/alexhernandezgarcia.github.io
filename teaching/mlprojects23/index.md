@@ -6,6 +6,8 @@ redirect_from :
   - /mlprojects23
   - /ift3710h23.html
   - /ift3710h23
+  - /ift6759h23.html
+  - /ift6759h23
 ---
 
 # Description du cours
@@ -40,7 +42,7 @@ Les étudiant·e·s seront évalués _entièrement_ en fonction de leur travail 
 
 ## Pourquoi des pré-requis ?
 
-* IFT 3710 H23 ne s'agit pas d'un cours d'introduction à l'apprentissage automatique, mais d'un cours pour apprendre à travailler sur des projets d'apprentissage automatique. 
+* IFT 3710/6759 H23 ne s'agit pas d'un cours d'introduction à l'apprentissage automatique, mais d'un cours pour apprendre à travailler sur des projets d'apprentissage automatique. 
 * Toutes et tous les étudiant·e·s doivent être en mesure de contribuer à l'équipe.
 
 ## Quels sont les pré-requis ?
@@ -60,6 +62,7 @@ Les étudiant·e·s seront évalués _entièrement_ en fonction de leur travail 
 * [Instructions pour la présentation, le rapport final et le code]({{ site.url }}/teaching/mlprojects23/projects/instructions-presentations-report)
 * [Lien vers la page de StudiUM](https://studium.umontreal.ca/course/view.php?id=243115)
 * [Lien vers la page d'admission publique de l'IFT 3710](https://admission.umontreal.ca/cours-et-horaires/cours/ift-3710/)
+* [Lien vers la page d'admission publique de l'IFT 6759](https://admission.umontreal.ca/cours-et-horaires/cours/ift-6759/)
 * [Lien vers la page du cours l'hiver 2022 (en anglais)](https://alexhernandezgarcia.github.io/mlprojects22)
 
 ## Session d'hiver 2023
