@@ -58,7 +58,7 @@ Les étudiant·e·s seront évalués _entièrement_ en fonction de leur travail 
 
 * [Directives pour les projets]({{ site.url }}/teaching/mlprojects23/projects)
 * [Instructions pour la présentation, le rapport final et le code]({{ site.url }}/teaching/mlprojects23/projects/instructions-presentations-report)
-* [Lien vers la page de StudiUM](https://studium.umontreal.ca/course/view.php?id=219252)
+* [Lien vers la page de StudiUM](https://studium.umontreal.ca/course/view.php?id=243115)
 * [Lien vers la page d'admission publique de l'IFT 3710](https://admission.umontreal.ca/cours-et-horaires/cours/ift-3710/)
 * [Lien vers la page du cours l'hiver 2022 (en anglais)](https://alexhernandezgarcia.github.io/mlprojects22)
 
