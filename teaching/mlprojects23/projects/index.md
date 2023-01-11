@@ -107,5 +107,5 @@ Comme expliqué [ci-dessus](#attribution-des-projets), vous pouvez proposer votr
 * [WILDS : Changements de distribution dans la nature](./wilds)
 * [eBird : Surveillance de la biodiversité](./ebird)
 * [Classification et détection des animaux](./animals)
-* [NLP pour les langues indigènes](./indigenous-languages)
+* [NLP pour les langues autochtones](./indigenous-languages)
 
