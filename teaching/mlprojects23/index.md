@@ -17,8 +17,8 @@ L'objectif de ce cours est de vous préparer à vous attaquer à des projets pra
 # Plan du cours
 
 1. Introduction au cours
-2. Contrôle de version avec `git` et GitHub
-3. Linux et Python pour l'apprentissage automatique
+2. Linux et Python pour l'apprentissage automatique
+3. Contrôle de version avec `git` et GitHub
 4. Clusters HPC
 5. Revue de l'apprentissage automatique
 6. Revue de l'apprentissage profond
