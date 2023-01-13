@@ -9,7 +9,7 @@ class: title, middle
 ## IFT 3710/6759
 ## Projets (avancés) en apprentissage automatique
 
-#### .gray224[13 janvier 2023 - Session 1]
+#### .gray224[13 janvier 2023 - Session 2]
 ### .gray224[Linux et Python pour l'apprentissage automatique ML]
 
 .smaller[Slides disponibles sur [alexhernandezgarcia.github.io/teaching/mlprojects23/slides/20230113-linux-python](https://alexhernandezgarcia.github.io/teaching/mlprojects23/slides/20230113-linux-python)]
@@ -343,7 +343,7 @@ class: title, middle
 ## IFT 3710/6759
 ## Projets (avancés) en apprentissage automatique
 
-#### .gray224[13 janvier 2023 - Session 1]
+#### .gray224[13 janvier 2023 - Session 2]
 ### .gray224[Linux et Python pour l'apprentissage automatique ML]
 
 .bigger[.bigger[.highlight1[Pause: 10 minutes]]]
@@ -446,7 +446,7 @@ class: title, middle
 ## IFT 3710/6759
 ## Projets (avancés) en apprentissage automatique
 
-#### .gray224[13 janvier 2023 - Session 1]
+#### .gray224[13 janvier 2023 - Session 2]
 ### .gray224[Linux et Python pour l'apprentissage automatique ML]
 
 .bigger[.bigger[.highlight1[Questions, doubts, concerns, comments?]]]
