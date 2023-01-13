@@ -76,5 +76,9 @@ Les cours ont lieu le :
 
 * Abu-Mostafa, Y. S., Magdon-Ismail, M., & Lin, H. T. (2012). [Learning from data](https://work.caltech.edu/textbook.html). AMLBook.
 * Goodfellow, I., Bengio, Y., & Courville, A. (2016). [Apprentissage profond](https://www.deeplearningbook.org/). MIT press.
-* Anish, Jose, Jon (dernière visite le 20 décembre 2021). [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/). CSAIL MIT.
+* Anish, Jose, Jon (dernière visite le 10 janvier 2023). [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/). CSAIL MIT.
+* [Linux introduction for Windows and Mac users](https://docs.computecanada.ca/wiki/Linux_introduction). Compute Canada wiki.
+* [Python tutorial: An informal introduction to Python](https://docs.python.org/3/tutorial/introduction.html). [www.python.org](https://www.python.org/).
+* [PyTorch tutorials](https://pytorch.org/tutorials/). [pytorch.org](https://pytorch.org).
+* [Deep Learning Tutorials](https://deeplearning.neuromatch.io/tutorials/intro.html). Neuromatch Deep Learning course.
 
