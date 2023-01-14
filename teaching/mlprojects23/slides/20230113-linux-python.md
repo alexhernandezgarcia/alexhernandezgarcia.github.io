@@ -94,7 +94,7 @@ There exist multiple Linux _distributions_, such as Ubuntu, Debian and Fedora, e
 * Linux gives you access to powerful low-level tools.
 * Now even Windows (and macOS) run Linux shell.
 
-??? 
+???
 
 - Système d'exploitation
 - powerful low-level tools: outils de bas niveu très puissants.
@@ -237,12 +237,12 @@ However, `vim` takes time to learn.
 * [The missing semester - Editors](https://missing.csail.mit.edu/2020/editors/)
 ]
 
----
-
 ???
 
 - Il vaut la peine d'apprendre à utiliser au moins un éditeur de ligne de commande.
 - Arrow keys: touches flechées.
+
+---
 
 class: tighter
 
