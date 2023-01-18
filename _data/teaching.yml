@@ -1,8 +1,13 @@
-- name: Projects avancés en apprentissage automatique
+- name: Projects avancés en apprentissage automatique (in French)
+  university: Université de Montréal
+  role: Main instructor
+  year: 2023
+  url: /mlprojects23
+- name: Advanced machine learning projects (in English)
   university: Université de Montréal
   role: Main instructor
   year: 2022
-  url: /mlprojects
+  url: /mlprojects22
 - name: Fundamentals of machine learning
   university: Université de Montréal
   role: Teaching assistant
