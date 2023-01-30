@@ -185,6 +185,7 @@ However:
 * [My configuration file](https://github.com/alexhernandezgarcia/linux-config-utils/tree/master/tmux)
 * [The missing semester - Terminal Multiplexers](https://missing.csail.mit.edu/2020/command-line/#terminal-multiplexers)
 * [A Quick and Easy Guide to tmux, Ham Vocke](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)
+* [A gentle introduction to tmux](https://hackernoon.com/a-gentle-introduction-to-tmux-8d784c404340)
 ]
 
 ???
@@ -437,6 +438,7 @@ $ python -m pip install flake8 isort black
 * [Python `fire`](https://google.github.io/python-fire/guide/): to turn any Python component into a command line interface.
 * [Pytest](https://docs.pytest.org/en/6.2.x/contents.html): code testing
 * [`mypy`](http://mypy-lang.org/): an optional static Python type checker
+* [Python recommendations by Victor Schmidt](https://vsch.notion.site/Python-recommendations-957ee124321a41fdbaf258cc7dbbfdcb)
 
 ---
 
