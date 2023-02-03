@@ -102,7 +102,6 @@ Comme expliqué [ci-dessus](#attribution-des-projets), vous pouvez proposer votr
 * [Réduction d'échelle des modèles climatiques](./downscaling)
 * [Modélisation et conception des électrocatalyseurs](./electrocatalysts)
 * [Modélisation des aptamères d'ADN](./dna)
-* [Prévision de l'énergie photovoltaïque et du rayonnement solaire](./pv-solar)
 * [GeoLifeCLEF : Prévision de la présence d'espèces basée sur la localisation](./geolifeclef)
 * [WILDS : Changements de distribution dans la nature](./wilds)
 * [eBird : Surveillance de la biodiversité](./ebird)
