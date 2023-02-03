@@ -22,4 +22,5 @@ While the students will be expected to use exisiting implementations of GFlowNet
 * [Paper: Generative flow networks for discrete probabilistic modeling](https://arxiv.org/abs/2202.01361)
 * [Blog post by Emmanuel Bengio](https://folinoid.com/w/gflownet/)
 * [GFlowNet Tutorial](https://milayb.notion.site/The-GFlowNet-Tutorial-95434ef0e2d94c24aab90e69b30be9b3)
+* [Paper: GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/abs/2302.00615)
 * [GFlowNet implementation on GitHub](https://github.com/alexhernandezgarcia/gflownet)
