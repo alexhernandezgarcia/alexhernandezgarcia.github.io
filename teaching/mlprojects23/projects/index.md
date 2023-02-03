@@ -108,4 +108,7 @@ Comme expliqué [ci-dessus](#attribution-des-projets), vous pouvez proposer votr
 * [eBird : Surveillance de la biodiversité](./ebird)
 * [Classification et détection des animaux](./animals)
 * [NLP pour les langues autochtones](./indigenous-languages)
+* [Étude expérimentale des GFlowNets](./gflownet)
+* [Étude expérimentale de l'active learning et la Bayesian optimisation](./activelearning)
+* [Segmentation d'images médicales](./medical-image-segmentation)
 
