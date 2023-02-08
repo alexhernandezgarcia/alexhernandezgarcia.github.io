@@ -110,4 +110,9 @@ Comme expliqué [ci-dessus](#attribution-des-projets), vous pouvez proposer votr
 * [Étude expérimentale des GFlowNets](./gflownet)
 * [Étude expérimentale de l'active learning et la Bayesian optimisation](./activelearning)
 * [Segmentation d'images médicales](./medical-image-segmentation)
+* Autres idées et ressources:
+    * [NeurIPS 2021 Datasets and Benchmarks Track](https://neurips.cc/Conferences/2021/DatasetsBenchmarks/AcceptedPapers)
+    * [The Auto Arborist Dataset](https://google.github.io/auto-arborist/)
+    * [NASA Harvest Field Boundary Detection Challenge](https://zindi.africa/competitions/nasa-harvest-field-boundary-detection-challenge/)
+    * [EEG Motor Movement/Imagery Dataset](https://physionet.org/content/eegmmidb/1.0.0/)
 
