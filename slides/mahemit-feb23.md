@@ -1010,7 +1010,7 @@ Jain et al.. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/ab
     * **Diverse** batches covering modes of the scoring function are more likely to result in useful candidates.
     * **Diversity** in candidate generation is also critical to accomodate the diversity in the target mechanisms.
 
-.center[![:scale 80%](../assets/images/slides/gfn-seq-design/ddloop.png)]
+.center[![:scale 50%](../assets/images/slides/gfn-seq-design/ddloop.png)]
 
 .references[
 Jain et al. [Biological Sequence Design with GFlowNets](https://arxiv.org/abs/2203.04115), ICML, 2022. 
