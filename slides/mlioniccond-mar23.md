@@ -104,7 +104,7 @@ Alex Hernández-García, Yasmine Benabed, Divya Sharma, Michał Koziarski, Alexa
 
 ### Question
 
-* Does this representationa uniquely define a crystal material?
+* Does this representation uniquely define a crystal material?
 
 ---
 
