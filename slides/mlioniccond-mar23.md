@@ -135,7 +135,7 @@ class: title, middle
 
 Alex Hernández-García, Yasmine Benabed, Divya Sharma, Michał Koziarski, Alexandra Volokhova
 
-.turquoise[Projet PRF3 (Volet 5 - Conducteurs) · 1er février 2023]
+.turquoise[Projet PRF3 (Volet 5 - Conducteurs) · 2 mars 2023]
 
 .center[
 <a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 4em"></a>
