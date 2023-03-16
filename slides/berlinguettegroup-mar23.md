@@ -10,7 +10,7 @@ class: title, middle
 ## Machine learning to accelerate scientific discovery
 ### An overview of Prof. Yoshua Bengio's group at Mila
 
-Alex Hernández-García (he/il/él), Victor Schmidt, Oussame Boussif, Daria Yasafova
+Alex Hernández-García (he/il/él), Victor Schmidt, Oussama Boussif, Daria Yasafova
 
 .turquoise[[Berlinguette's Group, University of British Columbia](http://www.berlinguettegroup.com/) · March 16th 2023]
 
