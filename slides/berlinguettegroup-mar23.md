@@ -870,6 +870,8 @@ class: title, middle
 
 .center[![:scale 30%](../assets/images/slides/materials/relaxation_crop.gif)]
 
+[Slides](https://docs.google.com/presentation/d/1FhEgQHXwNW5SkQ9Ww6sP7mCyM5fwG8LVl8fIn3Z00-4/edit#slide=id.p)
+
 
 ---
 
