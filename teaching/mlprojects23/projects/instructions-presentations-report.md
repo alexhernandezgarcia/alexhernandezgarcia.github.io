@@ -1,61 +1,92 @@
 ---
-layout: mlprojects23
-title: IFT 3710/6759 - Instructions for the presentations and final report
+layout : mlprojects23
+title : IFT 3710/6759 - Instructions pour les présentations et le rapport final
 ---
 
-The oral presentations, final reports and code of the projects are the main deliverables of this class. The final grade is entirely based on the work on the project and the presentation, report and source code constitute your main way to explain and show your work.
+Les présentations orales, les rapports finaux et le code des projets sont les principaux livrables de ce cours. La note finale est entièrement basée sur le travail sur le projet et la présentation, le rapport et le code source constituent votre principal moyen d'expliquer et de montrer votre travail.
 
 ## Dates
 
-Presentations will take place **in class** (tentatively) on April 7, at the usual time of the session and room: **Wednesday 7th of April**, 16:30--18:30 (EST), 1175 Pav. André-Aisenstadt
+Les présentations auront lieu **en classe** le 5 avril, à l'heure habituelle de la session et de la salle : **mercredi 5 avril**, 16h30--18h30 (EST), 1175 Pav. André-Aisenstadt
 
-Final reports and the source code are due (tentatively) on **April 28th 2023** at 23:59 (EST).
+Les rapports finaux et le code source doivent être remis le **28 avril 2023** à 23:59 (EST).
 
-## Presentations
+## Présentations
 
-Each team is expected to give a presentation in class on the aforementioned dates. The presentations should last about 10 minutes, excluding questions. Since there are 15 teams and 2 sessions of 120 minutes, there will be a maximum of (`120 * 2 - 15 * 10 =`) 90 minutes for questions and discussion for all teams. The presentation sessions will be organised in blocks of presentations with time for questions and discussion after each block. Teams will be assigned a slot by the instructors and all students are highly encouraged to attend the two presentation sessions. Participation and engagement in the presentation sessions will count towards the part of the grade corresponding to the presentations.
+Chaque équipe doit faire une présentation en classe aux dates mentionnées ci-dessus. Les présentations doivent durer environ 10 minutes, sans compter les questions. La participation et l'engagement dans les sessions de présentation compteront pour la partie de la note correspondant aux présentations.
 
-The main goal of the presentations is to explain the work you have done in your project and convey the most important results and conclusions. A good presentation will be one in which the rest of the class will learn something new. Therefore, make sure to provide enough context and prepare an effective presentation. Below are some relevant resources for preparing and giving effective presentations:
+L'objectif principal des présentations est d'expliquer le travail que vous avez réalisé dans le cadre de votre projet et de transmettre les résultats et les conclusions les plus importants. Une bonne présentation sera celle qui permettra au reste de la classe d'apprendre quelque chose de nouveau. Par conséquent, c'est une bonne idée de fournir un contexte suffisant et de préparer une présentation efficace. Vous trouverez ci-dessous quelques ressources utiles pour préparer et donner des présentations efficaces :
 
 * [Ten simple rules for making good oral presentation](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.0030077&type=printable), by Philip E. Bourne, PLOS Computational Biology (2007)
-* [Ten simple rules for short and swift presentations](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1005373&type=printable), by Christopher J. Lortie, PLOS Computational Biology (2017)
+* [Ten simple rules for short and swift presentations] (https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1005373&type=printable), by Christopher J. Lortie, PLOS Computational Biology (2017).
 * [How the science of visual attention can help you make better presentations](https://www.youtube.com/watch?v=gOnSTEFJmoU), by  Aha, That Makes Sense, YouTube
 
-## Final reports
+## Rapports finaux
 
-The final report of your project is the main deliverable of this class, since it is the document where you can best demonstrate the work that you have done throughout the term. Final reports should include the following content:
+Le rapport final de votre projet est le principal résultat de ce cours, car c'est le document où vous pouvez le mieux démontrer le travail que vous avez effectué tout au long du trimestre. Les rapports finaux doivent inclure le contenu suivant :
 
-* Title
-* Team members
-* Abstract
-* Introduction: context, motivation and summary of the work.
-* Literature review
-* Methods
-* Results
+* Titre
+* Membres de l'équipe
+* Résumé
+* Introduction : contexte, motivation et résumé du travail.
+* Revue de la littérature
+* Méthodes
+* Résultats
 * Conclusions
-* Contributions of each team member
-* References
+* Contributions de chaque membre de l'équipe
+* Références
 
-Whilst this structure is recommended, feel free to modify it if you have a good reason for it. Although the report may resemble a scientific publication, an important difference should be observed: **you are welcome and encouraged to include methods and results that _did not work_ as you had expected**, if they were a significant part of your work and/or you think we can learn from them. 
+Bien que cette structure soit recommandée, n'hésitez pas à la modifier si vous avez une bonne raison de le faire. Bien que le rapport puisse ressembler à une publication scientifique, une différence importante doit être observée : **Vous êtes encouragé à inclure les méthodes et les résultats qui n'ont pas fonctionné comme vous l'aviez prévu**, s'ils ont constitué une partie importante de votre travail et/ou si vous pensez qu'on peut en tirer des enseignements. 
 
-As you may see, the different parts closely match the deliverables that you have worked on during the course. Insofar as you produced near-final versions of the parts for the intermediate deliverables, you are welcome to reuse them for the final report.
+Les différentes parties correspondent étroitement aux devoirs sur lesquels vous avez travaillé pendant le cours. Si vous avez produit des versions quasi finales des parties pour les devoirs intermédiaires, vous pouvez les réutiliser pour le rapport final.
 
-### Format and template
+### Format et modèle
 
-The recommended length for the final reports is about 8 pages, with a minimum of 6 and a maximum of 10 pages, excluding the list of references. You may include supplementary material if you consider it important, but keep in mind that the evaluation will be chiefly based on the main body of the report. Please follow these formatting instructions for the report:
+La longueur recommandée pour les rapports finaux est d'environ 8 pages, avec un minimum de 6 et un maximum de 10 pages, sans compter la liste des références. Vous pouvez inclure du matériel supplémentaire si vous le jugez important, mais prenez en compte que l'évaluation sera principalement basée sur le corps principal du rapport. Les instructions de formatage pour le rapport sont les suivantes :
 
-* Font size:
-    * Main paragraphs: 10 points
-    * First-level headings: 12 points, bold type
-    * Lower-level headings: 10 points, bold type
-* Vertical spacing: 11 point
-* Paragraph separation: 5.5 points, no indentation
-* Margins:
-    * Left margin: 9 picas
-    * Text width: 33 picas
-    * Text height: 54 picas
+* Taille du texte :
+    * Paragraphes principaux : 10 points
+    * Titres de premier niveau : 12 points, caractères gras
+    * Titres de niveau inférieur : 10 points, caractères gras
+* Espacement vertical : 11 points
+* Séparation des paragraphes : 5,5 points, pas d'indentation
+* Marges :
+    * Marge gauche : 9 picas
+    * Largeur du texte : 33 picas
+    * Hauteur du texte : 54 picas
 
-The above instructions are inherited from the guidelines for [NeurIPS 2022](https://neurips.cc/Conferences/2022/PaperInformation/StyleFiles) submissions. If you have experience with LaTeX or are willing to learn, you are highly encouraged to use the NeurIPS 2022 LaTeX template, since it will allow you to focus on the content rather the format while producing a nicely formatted document. If you do not have much experience with LaTeX, you may find [Overleaf](https://www.overleaf.com/) handy.
+Les instructions ci-dessus sont héritées des directives pour les soumissions de [NeurIPS 2022](https://neurips.cc/Conferences/2022/PaperInformation/StyleFiles). Si vous avez de l'expérience avec LaTeX ou si vous êtes prêt à apprendre, vous êtes fortement encouragé à utiliser le modèle LaTeX de NeurIPS 2022, car il vous permettra de vous concentrer sur le contenu plutôt que sur le format tout en produisant un document bien formaté. Si vous n'avez pas beaucoup d'expérience avec LaTeX, vous trouverez peut-être [Overleaf](https://www.overleaf.com/) utile.
+
+### Conseils pour la rédaction scientifique
+
+La note finale tiendra compte non seulement du travail effectué au cours du développement du projet tel qu'il est reflété par le rapport, mais aussi de la qualité du rapport lui-même. Par conséquent, assurez-vous de suivre les directives courantes pour rédiger de bons articles scientifiques ou rapports techniques. Les bons articles suivent généralement une structure narrative complète :
+
+1. Contexte : nécessaire pour comprendre le besoin (2)
+2. Besoin : quelle est la motivation ultime ? Pourquoi est-ce important ?
+3. Tâche : objectif global
+4. Objet : objectif particulier du présent document
+5. Constatations
+6. Conclusions
+7. Perspective : travail futur
+
+Cette structure suit une entonnoir inversé, c'est-à-dire qu'il commence par le contexte général, progresse vers les détails et se termine à nouveau par une perspective générale. En y regardant de plus près, les points 1 à 4 concernent le "pourquoi" et les points 5 à 7 le "quoi". Plus le public cible est spécialisé, plus l'accent est mis sur le _quoi_ et moins sur le _pourquoi_ ; plus il est général, c'est l'inverse. Cette structure est utile non seulement pour organiser un article, mais aussi le résumé.
+
+Une autre règle plus compacte et plus efficace pour organiser des éléments d'information (histoires) est le schéma contexte-contenu-conclusion (CCC). Le raisonnement pour cette structure est que chaque élément de contenu est transmis plus efficacement s'il est introduit par un contexte et conclu par une conclusion. Cela s'applique à un rapport dans son ensemble, mais aussi à une section et à un paragraphe. C'est également un bon schéma à suivre pour préparer des diapositives.
+
+Un bon article facile à lire sur la rédaction scientifique est le suivant :
+
+* [Ten simple rules for structuring papers](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1005619&type=printable), par Brett Mensh et Konrad Kording, PLOS Computational Biology (2017).
+
+## Code source
+
+Le code source de votre projet fait également partie de l'évaluation. Veuillez fournir un lien vers un dépôt GitHub (ou GitLab, ou similaire) avec votre code source à côté de votre rapport final. Un bon code doit être facile à lire et à exécuter. Par conséquent, veillez à nettoyer la version finale de votre code : supprimez les morceaux de code anciens ou inutiles, ajoutez de la documentation, rédigez un README avec des instructions sur la façon d'exécuter le code et des exemples pour reproduire vos expériences, etc. En particulier, pensez à indiquer explicitement les éléments suivants :
+
+* La version de Python que vous avez utilisée pour exécuter vos expériences.
+* Les bibliothèques nécessaires et leurs versions. Si vous avez utilisé des environnements virtuels, comme cela a été recommandé, un moyen simple d'indiquer les bibliothèques nécessaires est d'utiliser un fichier `requirements.txt`. Vous pouvez en générer un en exécutant dans un shell avec votre environnement activé la commande suivante : `python -m pip freeze > requirements.txt`. Avec un fichier `requirements.txt` disponible, il devrait être facile de reproduire l'environnement en exécutant `python -m pip install -r requirements.txt`.
+
+Une bonne pratique pour s'assurer que vous avez inclus toutes les informations nécessaires pour exécuter votre code est de suivre vos propres instructions dans un nouvel environnement frais et de vérifier que le code s'exécute sans problème.
+
+Étant donné que vos expériences peuvent être coûteuses en termes de calcul, veuillez envisager de préparer une configuration légère afin d'exécuter votre code à sec, par exemple avec un sous-ensemble de données, une architecture plus simple, quelques époques, etc.
 
 ### Tips on scientific writing
 
