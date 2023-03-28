@@ -45,6 +45,15 @@ Slides: [alexhernandezgarcia.github.io/slides/mmiccs-mar23](https://alexhernande
 
 ---
 
+## Outline
+
+* Part 1: Motivation: Why scientific discovery?
+    * Challenges, limitations and opportunities for machine learning
+* Part 2: A gentle introduction to GFlowNets
+* Part 3: Applications to scientific discovery
+
+---
+
 name: title
 class: title, middle
 
@@ -422,7 +431,7 @@ A .highlight1[machine learning **agent**] in the loop can:
 ]
 
 .references[
-Jain et al.. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/abs/2302.00615). arXiv 2302.00615, 2023.
+Jain et al.. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/abs/2302.00615). Digital Discovery, Royal Society of Chemistry, 2023.
 ]
 
 ---
@@ -710,11 +719,12 @@ $$\sum\_{s' \in \text{Parent}(s)} F\_\theta(s' \rightarrow s) = \sum\_{s'' \in \
 
 ---
 
-## Tetris GFlowNet results
+## Results
+### Tetris GFlowNets
 
 .context[If the model is sufficiently trained, the sampling policy $\pi(x)$ should be proportional to the reward $R(x)$: $\pi(x) \propto R(x)$]
 
-<br><br>
+<br>
 
 .center[
 <div style="display: flex">
@@ -757,6 +767,45 @@ After training, GFlowNet samples a mode with probability 43.24 %.
 
 ---
 
+## Results
+### Hyper-grid and molecule fragments
+
+.context[GFlowNet has been successfully trained in other toy and practically relevant tasks. .cite[(Bengio et al., 2019)]]
+
+.columns-3-left[
+.highlight1[Hyper-grid]: The action space is in which dimension to move and the reward function has high reward in the corners.
+
+.center[
+![:scale 90%](../assets/images/slides/gflownet/hypergrid_states_visited.png)
+]
+]
+
+--
+
+.columns-3-center[
+.highlight1[Small molecules]: The action space is molecular fragments and the reward function is the binding energy to a particular protein.
+
+.center[
+![:scale 80%](../assets/images/slides/gflownet/molecules_states_visited.png)
+]
+]
+
+--
+
+.columns-3-right[
+.highlight1[Active learning with molecules]: Multi-round active learning with a limited oracle budget.
+
+.center[
+![:scale 90%](../assets/images/slides/gflownet/molecules_al_topkreward.png)
+]
+]
+
+--
+
+.conclusion[GFlowNet is able to efficiently explore the search space and generalise to unseen modes of the reward.]
+
+---
+
 ##  GFlowNet extensions
 ### Multi-objective GFlowNets
 
@@ -791,13 +840,13 @@ name: title
 class: title, middle
 
 ## Application: Biological Sequence Design
-### Part 3
+### Part 3a
 
 .center[![:scale 50%](../assets/images/slides/gfn-seq-design/ddloop.png)]
 
 ---
 
-### Biological sequence design: anti-microbial peptides
+## Biological sequence design: anti-microbial peptides
 
 * Peptides are short chains of amino acids (proteins) .cite[(Pirtskhalava et al., 2021)]
 * The goal is to find peptides with anti-microbial properties
@@ -836,7 +885,7 @@ count: false
 .left-column-33[
 **Oracle**: MLPs trained on a separate partition of the data.
 
-In other tasks, such as DNA aptamers, we have access to computational libraries..
+In other tasks, such as DNA aptamers, we have access to computational libraries.
 ]
 
 ---
@@ -1029,7 +1078,7 @@ name: title
 class: title, middle
 
 ## Application: Generation of Crystal Structures
-### Part 4
+### Part 3b
 
 .center[![:scale 30%](../assets/images/slides/materials/lithium_oxide_crystal.png)]
 
@@ -1051,6 +1100,33 @@ We are working on using GFlowNets to explore the space of crystals and sample ne
 * Electrocatalyst design
 * Solid-state ionic super conductors
 * ...
+
+---
+
+name: title
+class: title, middle
+
+## Summary and conclusions
+
+.center[![:scale 30%](../assets/images/slides/misc/conclusion.png)]
+
+---
+
+## Summary and conclusions
+
+* Tackling the most pressing problems for humanity, such as the climate crisis and the threat of global pandemics, requires .highlight1[accelerating the pace of scientific discovery].
+* While in the .highlight1[data-drive science paradigm], our current AI tools are not enough to truly utilize all the information and resources at our disposal.
+* AI-driven scientific discovery demands learning methods that can .highlight1[efficiently discover diverse candidates in very large, multi-modal search spaces].
+* .highlight1[GFlowNet] is a learning method for amortised inference that can sample proportionally to a reward function.
+* GFlowNet has been proven successful or is promising in practically relevant and challenging tasks, such as .highlight1[biological sequence design], .highlight1[molecular conformation], .highlight1[crystal structure generation], etc.
+
+.references[
+Jain et al.. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/abs/2302.00615). Digital Discovery, Royal Society of Chemistry, 2023.
+]
+
+--
+
+.highlight2[Open source code]: [github.com/alexhernandezgarcia/gflownet](https://github.com/alexhernandezgarcia/gflownet)
 
 ---
 
