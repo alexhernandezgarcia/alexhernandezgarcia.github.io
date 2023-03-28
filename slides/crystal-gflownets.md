@@ -135,7 +135,7 @@ class: title, middle
 
 ## Thanks! Questions? 
 
-![:scale 30%](../assets/images/slides/materials/crystals.png)
+![:scale 50%](../assets/images/slides/materials/crystals.png)
 
 Alex Hernández-García (he/il/él)
 
