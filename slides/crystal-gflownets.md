@@ -64,7 +64,7 @@ Accelerating .highlight1[material discovery is key in the climate crisis] .cite[
 --
 
 However, .highlight1[material modelling is very challenging]:
-* Limited data: only about 200k known inorganic materials, but potentially $10^{180} possible stable materials (for reference: more than a billion molecules are known)
+* Limited data: only about 200 K known inorganic materials, but potentially $10^{180}$ possible stable materials (for reference: more than a billion molecules are known)
 * Sparsity: .highlight2[stable materials] only exist in a low-dimensional subspace of all possible 3D arrangements.
 
 ---
