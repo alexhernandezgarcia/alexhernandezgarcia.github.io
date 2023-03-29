@@ -18,7 +18,7 @@ Chaque équipe doit faire une présentation en classe aux dates mentionnées ci-
 L'objectif principal des présentations est d'expliquer le travail que vous avez réalisé dans le cadre de votre projet et de transmettre les résultats et les conclusions les plus importants. Une bonne présentation sera celle qui permettra au reste de la classe d'apprendre quelque chose de nouveau. Par conséquent, c'est une bonne idée de fournir un contexte suffisant et de préparer une présentation efficace. Vous trouverez ci-dessous quelques ressources utiles pour préparer et donner des présentations efficaces :
 
 * [Ten simple rules for making good oral presentation](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.0030077&type=printable), by Philip E. Bourne, PLOS Computational Biology (2007)
-* [Ten simple rules for short and swift presentations] (https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1005373&type=printable), by Christopher J. Lortie, PLOS Computational Biology (2017).
+* [Ten simple rules for short and swift presentations](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1005373&type=printable), by Christopher J. Lortie, PLOS Computational Biology (2017).
 * [How the science of visual attention can help you make better presentations](https://www.youtube.com/watch?v=gOnSTEFJmoU), by  Aha, That Makes Sense, YouTube
 
 ## Rapports finaux
@@ -55,7 +55,7 @@ La longueur recommandée pour les rapports finaux est d'environ 8 pages, avec un
     * Largeur du texte : 33 picas
     * Hauteur du texte : 54 picas
 
-Les instructions ci-dessus sont héritées des directives pour les soumissions de [NeurIPS 2022](https://neurips.cc/Conferences/2022/PaperInformation/StyleFiles). Si vous avez de l'expérience avec LaTeX ou si vous êtes prêt à apprendre, vous êtes fortement encouragé à utiliser le modèle LaTeX de NeurIPS 2022, car il vous permettra de vous concentrer sur le contenu plutôt que sur le format tout en produisant un document bien formaté. Si vous n'avez pas beaucoup d'expérience avec LaTeX, vous trouverez peut-être [Overleaf](https://www.overleaf.com/) utile.
+Les instructions ci-dessus sont héritées des directives pour les soumissions de [NeurIPS 2022](https://neurips.cc/Conferences/2022/PaperInformation/StyleFiles). Si vous avez de l'expérience avec LaTeX ou si vous êtes prêt à apprendre, vous êtes fortement encouragé à utiliser le modèle LaTeX de NeurIPS 2022 ou du [Montreal AI Symposium](https://github.com/alexhernandezgarcia/mais-latex) (plus simple et crée par l'instructeur), car ils vous permettront de vous concentrer sur le contenu plutôt que sur le format tout en produisant un document bien formaté. Si vous n'avez pas beaucoup d'expérience avec LaTeX, vous trouverez peut-être [Overleaf](https://www.overleaf.com/) utile.
 
 ### Conseils pour la rédaction scientifique
 
@@ -88,33 +88,3 @@ Une bonne pratique pour s'assurer que vous avez inclus toutes les informations n
 
 Étant donné que vos expériences peuvent être coûteuses en termes de calcul, veuillez envisager de préparer une configuration légère afin d'exécuter votre code à sec, par exemple avec un sous-ensemble de données, une architecture plus simple, quelques époques, etc.
 
-### Tips on scientific writing
-
-Not only the work done during the project development as reflected by the report, but also the quality of the report itself will be considered for the final grade. Therefore, make sure to follow common guidelines for writing good scientific papers or technical reports. Good papers usually follow a comprehensive story-telling structure:
-
-1. Context: needed to understand the need (2)
-2. Need: what is the ultimate motivation? Why is this important?
-3. Task: overall objective
-4. Object: particular objective of the present document
-5. Findings
-6. Conclusions
-7. Perspective: future work
-
-This follows a funnel-inverted funnel structure, that is it starts with the general context, progresses towards the details and ends with a general perspective again. With a closer look, points 1--4 are about _why?_ and 5--7 about _what?_. The more specialized the target audience, the more emphasis on the _what_ and less the _why_; the more general, the other way around. This structure is not only useful for organising a paper, but also the abstract.
-
-Another more compact and effective rule of thumb for organising pieces of information (stories) is the context-content-conclusion (CCC) scheme. The rationale behind this structure is that every piece of content is more effectively conveyed if introduced by some context and wrapped up with a conclusion. This applies to a report as a whole, but also to a section and a paragraph. It is also a good scheme to follow when preparing slides.
-
-A good and easy-read article about scientific writing is the following:
-
-* [Ten simple rules for structuring papers](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1005619&type=printable), by Brett Mensh and Konrad Kording, PLOS Computational Biology (2017)
-
-## Source Code
-
-The source code of your project is also part of the evaluation. Please provide a link to a GitHub (or GitLab, or similar) repository with your source code alongside your final report. Good code should be easy to read and easy to run. Therefore, make sure to clean up the final version of your code: remove old or unnecessary pieces of code, add documentation, write a README with instructions on how to run the code and examples to reproduce your experiments, etc. In particular, consider explicitly indicating the following:
-
-* Python version you used to run your experiments.
-* Necessary libraries and their versions. If you used virtual environments, as was recommended, a simple way of indicating the library requirements is via a `requirements.txt` file. You can generate one by running in a shell with you environment activated the following command: `python -m pip freeze > requirements.txt`. With a `requirements.txt` available, it should be straightforward to reproduce the environment by running `python -m pip install -r requirements.txt`.
-
-A good practice to ensure that you included all the necessary information to run your code is to follow your own instructions in a fresh new environment and checking that the code runs seamlessly.
-
-Since your experiments may be computationally expensive, please consider preparing a lightweight configuration to _dry-run_ your code, for example with a subset of the data, a simpler architecture, a few epochs, etc.
