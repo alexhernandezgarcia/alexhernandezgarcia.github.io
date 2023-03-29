@@ -16,6 +16,8 @@ Les projets du cours ont pour but de ressembler autant que possible aux projets 
 5. Rapport écrit
 6. Présentation orale
 
+[Lien vers la page avec des instructions pour les présentations et le rapport final](./instructions-presentations-report).
+
 ### Chronologie
 
 Les quatre premières semaines du cours sont consacrées à l'introduction du cours, à la révision des aspects fondamentaux de l'apprentissage automatique et de l'apprentissage profond, ainsi qu'aux outils importants pour la réalisation de projets d'apprentissage automatique, tels que Linux, `git` et PyTorch. Ensuite, vous devrez travailler sur le projet assigné de la semaine 5 à la semaine 14. Comme résultat final du projet, vous préparerez un rapport technique court (~8--10 pages) et une présentation orale à donner devant les instructeur·rice·s et les autres étudiant·e·s. Au cours de l'élaboration du projet, il y aura des étapes intermédiaires et des livrables pour faciliter la progression. Le calendrier spécifique est le suivant :
