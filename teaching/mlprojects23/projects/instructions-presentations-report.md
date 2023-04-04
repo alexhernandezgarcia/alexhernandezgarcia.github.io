@@ -13,7 +13,7 @@ Les rapports finaux et le code source doivent être remis le **28 avril 2023** �
 
 ## Présentations
 
-Chaque équipe doit faire une présentation en classe aux dates mentionnées ci-dessus. Les présentations doivent durer environ 10 minutes, sans compter les questions. La participation et l'engagement dans les sessions de présentation compteront pour la partie de la note correspondant aux présentations.
+Chaque équipe doit faire une présentation en classe à la date mentionnée ci-dessus. Les présentations doivent être en français et durer environ 10 minutes, sans compter les questions. La participation et l'engagement dans les sessions de présentation compteront pour la partie de la note correspondant aux présentations.
 
 L'objectif principal des présentations est d'expliquer le travail que vous avez réalisé dans le cadre de votre projet et de transmettre les résultats et les conclusions les plus importants. Une bonne présentation sera celle qui permettra au reste de la classe d'apprendre quelque chose de nouveau. Par conséquent, c'est une bonne idée de fournir un contexte suffisant et de préparer une présentation efficace. Vous trouverez ci-dessous quelques ressources utiles pour préparer et donner des présentations efficaces :
 
@@ -87,4 +87,5 @@ Le code source de votre projet fait également partie de l'évaluation. Veuillez
 Une bonne pratique pour s'assurer que vous avez inclus toutes les informations nécessaires pour exécuter votre code est de suivre vos propres instructions dans un nouvel environnement frais et de vérifier que le code s'exécute sans problème.
 
 Étant donné que vos expériences peuvent être coûteuses en termes de calcul, veuillez envisager de préparer une configuration légère afin d'exécuter votre code à sec, par exemple avec un sous-ensemble de données, une architecture plus simple, quelques époques, etc.
+
 
