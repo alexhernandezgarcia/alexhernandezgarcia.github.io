@@ -109,7 +109,7 @@ It's good practice to pull the repository often enough, especially before commit
 
 ## Branching
 
-Branches are a really important concept in Git. Branches allow us to keep the development of a project well organised, especially if more than one person is working on it. Every branch can be seen as path in which the project is developing. For example, one person may be working on the content of a website and would create a branch `content` for that; and another person may be working on changing the background colour and work on branch `background`. It is possible that some branches end up dead, not being useful for the project, and that's fine as long as they live indeed in separate branches. Usually, there is a branch to rule them all and it is typically called `master`. In GitHub pages, for instance, what we see online in the URL is the version of the branch `master`. At any point, the code in one development branch can be _merged_ into `master`.
+Branches are a really important concept in Git. Branches allow us to keep the development of a project well organised, especially if more than one person is working on it. Every branch can be seen as path in which the project is developing. For example, one person may be working on the content of a website and would create a branch `content` for that; and another person may be working on changing the background colour and work on branch `background`. It is possible that some branches end up dead, not being useful for the project, and that's fine as long as they live indeed in separate branches. Usually, there is a branch to rule them all and it is typically called `main`. In GitHub pages, for instance, what we see online in the URL is the version of the branch `main`. At any point, the code in one development branch can be _merged_ into `main`.
 
 [Learning git branching](https://learngitbranching.js.org/) is an interactive online tool for learning about branching and practising the concepts.
 
@@ -157,11 +157,11 @@ git push --set-upstream origin my-branch
 
 ### 4. Pull request
 
-The changes we have just pushed belong to a separate branch `my-branch` that we created at the beginning in order to avoid working directly on the `master` branch. Whenever we are ready to incorporate our changes to the `master` branch, we can do it through a _pull request_. A pull request opens the process to merge one branch into another. Typically, after a pull request is open, someone in the team will review the changes to be merged, discuss potential issues and eventually merge the branches.
+The changes we have just pushed belong to a separate branch `my-branch` that we created at the beginning in order to avoid working directly on the `main` branch. Whenever we are ready to incorporate our changes to the `main` branch, we can do it through a _pull request_. A pull request opens the process to merge one branch into another. Typically, after a pull request is open, someone in the team will review the changes to be merged, discuss potential issues and eventually merge the branches.
 
 To open a pull request, we can go to the URL of the repository on [GitHub](https://github.com/uss2021/uss2021.github.io), click on "branches", and on the right hand side of the branch we were working on under "Active branches" we can find "New pull request". In the next page, we have to make sure to correctlyset the desired "base repository" and branch---the target repository and branch to which we want to merge our branch---and "head repository"---the repository where we made our changes. We can further give a name and description to the pull request, and set the suitable revieweres so that they get notified.
 
-If the reviewers approve the pull request an merge it, our changes will become part of `master` and, if the project is a GitHub page, we will see our changes online!
+If the reviewers approve the pull request an merge it, our changes will become part of `main` and, if the project is a GitHub page, we will see our changes online!
 
 ## To know more
 
