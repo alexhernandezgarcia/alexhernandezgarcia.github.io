@@ -666,5 +666,6 @@ Three representative recent machine learning models for sequence design:
 - Jain et al.. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/abs/2302.00615). Digital Discovery, Royal Society of Chemistry, 2023.
 - Jain et al. [Biological Sequence Design with GFlowNets](https://arxiv.org/abs/2203.04115), ICML, 2022. 
 - Jain et al. [Multi-Objective GFlowNets](https://arxiv.org/abs/2210.12765), ICML, 2023. 
+- Lahlou et al. [A theory of continuous generative flow networks](https://arxiv.org/abs/2301.12594), ICML, 2023.
 - ...
 - .highlight2[Open source code]: [github.com/alexhernandezgarcia/gflownet](https://github.com/alexhernandezgarcia/gflownet)
