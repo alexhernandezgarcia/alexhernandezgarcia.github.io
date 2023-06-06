@@ -27,10 +27,17 @@ Slides: [alexhernandezgarcia.github.io/slides/msml23](https://alexhernandezgarci
 ## Collaborators
 
 .left-column[
-* Nikita Saxena (Mila)
-* Moksh Jain (Mila)
-* Chenghao Liu (Mila)
-* Yoshua Bengio (Mila)
+* Nikita Saxena
+* Moksh Jain
+* Chenghao Liu
+* Yoshua Bengio
+]
+
+.right-column[
+* Kolya Malkin
+* Salem Lahlou
+* Alexandra Volokhova
+* Emmanuel Bengio
 ]
 
 ---
@@ -280,6 +287,7 @@ class: title, middle
 <br>
 Given a reward or objective function $R(x)$, GFlowNet can be seen a generative model trained to sample objects $x \in \cal X$ according to .highlight1[a sampling policy $\pi(x)$ proportional to the reward $R(x)$]: $\pi(x) \propto R(x)$
 
+--
 
 &rarr; Sampling proportionally to the reward function induces .highlight1[multi-modal search and diversity].
 
@@ -290,8 +298,6 @@ The policy $\pi_{\theta}(x)$ is modelled by a deep neural network, parameterised
 
 &rarr; Amortised inference can be thought of as _exploration with memory_, which induces .highlight1[systematic generalisation].
 ]
-
---
 
 .right-column[
 .center[![:scale 65%](../assets/images/slides/gflownet/mode_generalization.png)]
