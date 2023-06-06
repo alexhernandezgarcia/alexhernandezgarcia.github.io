@@ -233,7 +233,7 @@ A .highlight1[machine learning **agent**] in the loop could (ideally):
 ]
 
 .references[
-Jain et al.. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/abs/2302.00615). Digital Discovery, Royal Society of Chemistry, 2023.
+Jain et al. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/abs/2302.00615). Digital Discovery, Royal Society of Chemistry, 2023.
 ]
 
 ---
@@ -731,8 +731,8 @@ class: title, middle
 * .highlight1[Multi-fidelity active learning with GFlowNets] enables .highlight1[cost-effective exploration] of large, high-dimensional and structured spaces, and discovers multiple, diverse modes of black-box score functions.
 
 .references[
-* Hernandez-Garcia, Saxena et al.. Multi-fidelity active learning with GFlowNets. Under review (soon on arXiv!)
-* Jain et al.. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/abs/2302.00615). Digital Discovery, Royal Society of Chemistry, 2023.
+* Hernandez-Garcia, Saxena et al. Multi-fidelity active learning with GFlowNets. Soon on arXiv!
+* Jain et al. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/abs/2302.00615). Digital Discovery, Royal Society of Chemistry, 2023.
 * Jain et al. [Biological Sequence Design with GFlowNets](https://arxiv.org/abs/2203.04115), ICML, 2022. 
 ]
 
