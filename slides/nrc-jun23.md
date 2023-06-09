@@ -671,7 +671,7 @@ We have recently generalised the theory and implementation of GFlowNets to encom
 ![:scale 30%](../assets/images/slides/gflownet/kde_gfn_molecule.png)]
 
 .references[
-Lahlou et al. [A Theory of Continuous Generative Flow Networks](https://arxiv.org/abs/2301.12594), arXiv 2301.12594, 2023. 
+Lahlou et al. [A Theory of Continuous Generative Flow Networks](https://arxiv.org/abs/2301.12594), ICML, 2023. 
 ]
 
 ---
