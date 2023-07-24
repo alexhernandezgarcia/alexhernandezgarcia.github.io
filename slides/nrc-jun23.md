@@ -425,8 +425,6 @@ Task: find arrangements of Tetris pieces on the board that minimise the empty sp
 </div>
 ]]
 
---
-
 ---
 
 ## An intuitive toy example
@@ -656,7 +654,7 @@ We have extended GFlowNets to handle multi-objective optimisation and not only c
 ![:scale 30%](../assets/images/slides/gflownet/mogfn_al.png)]
 
 .references[
-Jain et al. [Multi-Objective GFlowNets](https://arxiv.org/abs/2210.12765), arXiv 2210.12765, 2022. 
+Jain et al. [Multi-Objective GFlowNets](https://arxiv.org/abs/2210.12765), ICML, 2023. 
 ]
 
 ---
@@ -847,7 +845,7 @@ class: title, middle
 * .highlight1[Multi-fidelity active learning with GFlowNets] enables .highlight1[cost-effective exploration] of large, high-dimensional and structured spaces, and discovers multiple, diverse modes of black-box score functions.
 
 .references[
-* Hernandez-Garcia, Saxena et al. Multi-fidelity active learning with GFlowNets. Soon on arXiv!
+* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). arXiv 2306.11715, 2023.
 * Jain et al. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/abs/2302.00615). Digital Discovery, Royal Society of Chemistry, 2023.
 * Jain et al. [Biological Sequence Design with GFlowNets](https://arxiv.org/abs/2203.04115), ICML, 2022. 
 ]
