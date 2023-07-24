@@ -426,20 +426,7 @@ Task: find arrangements of Tetris pieces on the board that minimise the empty sp
 name: title
 class: title, middle
 
-## Continuous GFlowNets
-
-.center[![:scale 30%](../assets/images/slides/gfn-seq-design/flownet.gif)]
-
----
-
-##  GFlowNet extensions
-### Continuous GFlowNets
-
-We have recently generalised the theory and implementation of GFlowNets to encompass both discrete and continuous or hybrid state spaces. 
-
-.center[
-![:scale 30%](../assets/images/slides/gflownet/kde_reward_molecule.png)
-![:scale 30%](../assets/images/slides/gflownet/kde_gfn_molecule.png)]
+## A theory of continuous generative flow networks
 
 .references[
 Lahlou et al. [A Theory of Continuous Generative Flow Networks](https://arxiv.org/abs/2301.12594), ICML, 2023. 
@@ -447,308 +434,30 @@ Lahlou et al. [A Theory of Continuous Generative Flow Networks](https://arxiv.or
 
 ---
 
-## GFlowNet in a nutshell
+## Continuous GFlowNets
 
-* Objects $x \in \cal X$ are constructed through a sequence of steps $\tau$ from an action space $\cal A$.
-* At each step of the trajectory $\tau=(s_0\rightarrow s_1 \rightarrow \dots \rightarrow s_f)$, we get a partially constructed object $s$ in state space $\cal S$.
-* This induces a directed acyclic graph (DAG) $\mathcal{G}=(\mathcal{S},\mathcal{A})$, with all possible constructions in the domain.
-
-.center[![:scale 50%](../assets/images/slides/gflownet/flownet.png)]
-
---
-
-.conclusion[This terminology is reminiscent of reinforcement learning.]
-
----
-
-## An intuitive toy example
-
-Task: find arrangements of Tetris pieces on the board that minimise the empty space.
-
-.left-column[
-.center[![:scale 20%](../assets/images/slides/tetris/board_empty.png)]
-]
-
-.right-column[
-![:scale 15%](../assets/images/slides/tetris/piece_J.png) ![:scale 15%](../assets/images/slides/tetris/piece_L.png) ![:scale 15%](../assets/images/slides/tetris/piece_O.png)
-]
-
---
-
-.conclusion[This task resembles designing DNA sequences or molecules or materials via fragments, with the objective of optimising certain properties.]
-
----
-
-## An intuitive toy example
-
-Task: find arrangements of Tetris pieces on the board that minimise the empty space.
-
-.columns-3-left[.center[
-  <figure>
-    <img src="../assets/images/slides/tetris/state_space.png" alt="State space" style="width: 100%">
-    <figcaption>State space $\cal S$</figcaption>
-  </figure>
-]]
-
-.columns-3-center[.center[
-  <figure>
-    <img src="../assets/images/slides/tetris/action_space.png" alt="Action space" style="width: 90%">
-    <figcaption>Action space $\cal A$</figcaption>
-  </figure>
-]]
-
-.columns-3-right[.center[
-<div style="display: flex">
-  <div style="flex: 30%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/s0.png" alt="s0" style="width: 100%">
-    <figcaption>$s_0$</figcaption>
-  </figure>
-  </div>
-  <div style="flex: 0.5%; padding: 40pt 0">
-  $\rightarrow$
-  </div>
-  <div style="flex: 30%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/s1.png" alt="s1" style="width: 100%">
-    <figcaption>$s_1$</figcaption>
-  </figure>
-  </div>
-  <div style="flex: 0.5%; padding: 40pt 0">
-  $\rightarrow$
-  </div>
-  <div style="flex: 30%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/s2.png" alt="s2" style="width: 100%">
-    <figcaption>$s_2$</figcaption>
-  </figure>
-  </div>
-</div>
-]]
-
---
-
----
-
-## An intuitive toy example
-
-Task: find arrangements of Tetris pieces on the board that minimise the empty space.
+We have generalised the theory and implementation of GFlowNets to encompass both discrete and continuous or hybrid state spaces.
 
 .center[
-<div style="display: flex">
-  <div style="flex: 25%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/board_empty.png" alt="Score 0/12" style="width: 30%">
-    <figcaption>Score: 0/12</figcaption>
-  </figure>
-  </div>
-  <div style="flex: 25%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/board_score_4.png" alt="Score 4/12" style="width: 30%">
-    <figcaption>Score: 4/12</figcaption>
-  </figure>
-  </div>
-  <div style="flex: 25%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/board_score_8.png" alt="Score 8/12" style="width: 30%">
-    <figcaption>Score: 8/12</figcaption>
-  </figure>
-  </div>
-  <div style="flex: 25%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/board_score_12.png" alt="Score 12/12" style="width: 30%">
-    <figcaption>Score: 12/12</figcaption>
-  </figure>
-  </div>
-</div>
-]
+![:scale 30%](../assets/images/slides/gflownet/kde_reward_molecule.png)
+![:scale 30%](../assets/images/slides/gflownet/kde_gfn_molecule.png)]
+
+.conclusion[Continuous GFlowNets are allowing us to progress in our efforts to generate molecular conformations and crystal structure to accelerate scientific discoveries.]
 
 ---
 
-## An intuitive toy example
+name: title
+class: title, middle
 
-Task: find arrangements of Tetris pieces on the board that minimise the empty space.
-
-.center[
-<div style="display: flex">
-  <div style="flex: 20%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/mode1.png" alt="Score 0/12" style="width: 30%">
-    <figcaption>Score: 12/12</figcaption>
-  </figure>
-  </div>
-  <div style="flex: 20%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/mode2.png" alt="Score 4/12" style="width: 30%">
-    <figcaption>Score: 12/12</figcaption>
-  </figure>
-  </div>
-  <div style="flex: 20%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/mode3.png" alt="Score 8/12" style="width: 30%">
-    <figcaption>Score: 12/12</figcaption>
-  </figure>
-  </div>
-  <div style="flex: 20%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/mode4.png" alt="Score 12/12" style="width: 30%">
-    <figcaption>Score: 12/12</figcaption>
-  </figure>
-  </div>
-  <div style="flex: 20%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/mode5.png" alt="Score 12/12" style="width: 30%">
-    <figcaption>Score: 12/12</figcaption>
-  </figure>
-  </div>
-</div>
-]
-
-.conclusion[The _reward function_ of this task has multiple modes. With a larger board and more pieces, the number of combinations and modes grow exponentially and the task of efficiently finding them is non-trivial for machine learning models.]
-
----
-
-## GFlowNet flows
-
-.context[The edges or transitions in the DAG can be quantified by their _flow_.]
-
-* Analogous to water-flow in pipes.
-* Trajectory Flow $F(\tau)$ denotes probability mass assigned to trajectory $\tau$.
-* State Flow $F(s)$ is the flow of all trajectories passing through the state $s$.
-* Edge Flow $F(s\rightarrow s')$ is the flow through a particular edge $s\rightarrow s'$.
-* Forward Policy $P_F$: $P\_F(s'|s) = \frac{F(s\rightarrow s')}{F(s)}$
-* Backward Policy $P_B$: $P\_B(s|s') = \frac{F(s\rightarrow s')}{F(s')}$
-
-.center[![:scale 30%](../assets/images/slides/gfn-seq-design/flownet.gif)]
+## Multi-Objective GFlowNets
 
 .references[
-Bengio et al. [Flow network based generative models for non-iterative diverse candidate generation](https://arxiv.org/abs/2106.04399), NeurIPS, 2021. 
-]
-
-???
-
-Not to be confused with normalizing flows!
-
----
-
-## Principle of conservation as a training objective
-
-.right-column-33[.center[![:scale 100%](../assets/images/slides/gfn-seq-design/flownet.gif)]]
-
-.left-column-66[
-**Consistent Flow**:  Flow $F$ satisfies the _flow consistency equation_
-$$\sum\_{s' \in \text{Parents}(s)} F\_\theta(s' \rightarrow s) = \sum\_{s' \in \text{Children}(s)} F\_\theta(s \rightarrow s')$$
-
-**Theorem**: For a consistent flow $F$ with terminal flow set as the reward $F(x\rightarrow s_f)=R(x)$, the forward policy samples $x$ proportionally to $R(x)$.
-$$\pi(x)\propto R(x)$$
-
-**Corollary**: The flow at $s_0$, $F(s_0)$ is the partition function $Z$! 
-]
-
-.references[
-Bengio et al. [Flow network based generative models for non-iterative diverse candidate generation](https://arxiv.org/abs/2106.04399), NeurIPS, 2021. 
+Jain et al. [Multi-Objective GFlowNets](https://arxiv.org/abs/2210.12765), ICML, 2023. 
 ]
 
 ---
 
-## Principle of conservation as a training objective
-
-<p>
-$$\sum\_{s' \in \text{Parent}(s)} F\_\theta(s' \rightarrow s) = \sum\_{s'' \in \text{Child}(s)} F\_\theta(s \rightarrow s')$$
-</p>
-* **Flow Matching Objective**: $$\mathcal{L}\_{FM}(s; \theta) = \left(\log \frac{\sum\_{s'\in \text{Parent}(s)} F\_\theta(s'{\rightarrow} s)}{\sum\_{s'' \in \text{Child}(s)}F\_\theta(s{\rightarrow} s'')}\right)^2$$
-
----
-
-## Results
-### Tetris GFlowNets
-
-.context[If the model is sufficiently trained, the sampling policy $\pi(x)$ should be proportional to the reward $R(x)$: $\pi(x) \propto R(x)$]
-
-<br>
-
-.center[
-<div style="display: flex">
-  <div style="flex: 20%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/mode1.png" alt="Score 0/12" style="width: 30%">
-    <figcaption>$\pi(x) = 8.12~\%$</figcaption>
-  </figure>
-  </div>
-  <div style="flex: 20%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/mode2.png" alt="Score 4/12" style="width: 30%">
-    <figcaption>$\pi(x) = 8.96~\%$</figcaption>
-  </figure>
-  </div>
-  <div style="flex: 20%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/mode3.png" alt="Score 8/12" style="width: 30%">
-    <figcaption>$\pi(x) = 8.61~\%$</figcaption>
-  </figure>
-  </div>
-  <div style="flex: 20%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/mode4.png" alt="Score 12/12" style="width: 30%">
-    <figcaption>$\pi(x) = 9.16~\%$</figcaption>
-  </figure>
-  </div>
-  <div style="flex: 20%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/mode5.png" alt="Score 12/12" style="width: 30%">
-    <figcaption>$\pi(x) = 8.39~\%$</figcaption>
-  </figure>
-  </div>
-</div>
-]
-
-After training, GFlowNet samples multiple (diverse) modes with high probability.
-
-.footnote[The energy function $\varepsilon(x)$ is the fraction of the board occupied by pieces and the reward function is $R(X) = \varepsilon(x)^4$ to disproportionally favour the discovery of modes.]
-
----
-
-## Results
-### Hyper-grid and molecule fragments
-
-.context[GFlowNet has been successfully trained in other toy and practically relevant tasks. .cite[(Bengio et al., 2019)]]
-
-.columns-3-left[
-.highlight1[Hyper-grid]: The action space is in which dimension to move and the reward function has high reward in the corners.
-
-.center[
-![:scale 90%](../assets/images/slides/gflownet/hypergrid_states_visited.png)
-]
-]
-
---
-
-.columns-3-center[
-.highlight1[Small molecules]: The action space is molecular fragments and the reward function is the binding energy to a particular protein.
-
-.center[
-![:scale 80%](../assets/images/slides/gflownet/molecules_states_visited.png)
-]
-]
-
---
-
-.columns-3-right[
-.highlight1[Active learning with molecules]: Multi-round active learning with a limited oracle budget.
-
-.center[
-![:scale 90%](../assets/images/slides/gflownet/molecules_al_topkreward.png)
-]
-]
-
---
-
-.conclusion[GFlowNet is able to efficiently explore the search space and generalise to unseen modes of the reward.]
-
----
-
-##  GFlowNet extensions
-### Multi-objective GFlowNets
+## Multi-objective GFlowNets (MOGFN)
 
 We have extended GFlowNets to handle multi-objective optimisation and not only cover the Pareto front but also sample diverse objects at each pointin the Pareto front.
 
@@ -756,177 +465,42 @@ We have extended GFlowNets to handle multi-objective optimisation and not only c
 ![:scale 30%](../assets/images/slides/gflownet/mogfn_pareto_front.png)
 ![:scale 30%](../assets/images/slides/gflownet/mogfn_al.png)]
 
-.references[
-Jain et al. [Multi-Objective GFlowNets](https://arxiv.org/abs/2210.12765), arXiv 2210.12765, 2022. 
-]
-
----
-
-##  GFlowNet extensions
-### Continuous GFlowNets
-
-We have recently generalised the theory and implementation of GFlowNets to encompass both discrete and continuous or hybrid state spaces. 
-
-.center[
-![:scale 30%](../assets/images/slides/gflownet/kde_reward_molecule.png)
-![:scale 30%](../assets/images/slides/gflownet/kde_gfn_molecule.png)]
-
-.references[
-Lahlou et al. [A Theory of Continuous Generative Flow Networks](https://arxiv.org/abs/2301.12594), ICML, 2023. 
-]
+.conclusion[Multi-objective GFlowNets allow us to generate diverse candidates with high scores of multiple properties, reducing the impact of the critical problem of underspecification in scientific discovery.]
 
 ---
 
 name: title
 class: title, middle
 
-## Multi-fidelity active learning with GFlowNets
-### Part 3
-
-.center[![:scale 30%](../assets/images/slides/mfal/multiple_oracles.png)]
-
----
-
-## Why multi-fidelity?
-
-In many areas of scientific applications we have access to multiple approximations of the objective function.
-
-For example, for material discovery:
-
-* Synthesis of a material and characterisation of a property in the lab
-* Density Functional Theory (DFT)
-* An ensemble of large graph neural networks trained on DFT data
-* An efficient, smaller neural network
-
---
-
-However, current multi-fidelity methods struggle with structured, large, high-dimensional search spaces and lack **diversity**.
-
----
-
-## Multi-fidelity active learning with GFlowNets
-
-.center[![:scale 100%](../assets/images/slides/mfal/mfal_bgwhite.png)]
-
----
-
-## Multi-fidelity surrogate models
-
-* Small (synthetic) tasks: exact Gaussian Processes
-* Larger-scale, benchmark tasks: Deep Kernel Learning with stochastic variational Gaussian processes
-
-Multi-fidelity kernel learning:
-
-$$K(x, \tilde{x}, m, \tilde{m}) = K_1(x, \tilde{x}) \times K_2(m, \tilde{m})$$
-
-* $K_1$: RBF kernel
-* $K_2$: Downsampling kernel
+## FAENet: Frame Averaging Equivariant GNN for Materials Modeling
 
 .references[
-* Wilson, Hu et al. [Deep Kernel Learning](https://arxiv.org/abs/1511.02222), AISTATS, 2016.
-* Wu et al. [Practical multi-fidelity Bayesian optimization for hyperparameter tuning](https://arxiv.org/abs/1903.04703) , UAI, 2019.
+Duval, Schmidt et al. [FAENet: Frame Averaging Equivariant GNN for Materials Modeling](https://arxiv.org/abs/2305.05577), ICML, 2023. 
 ]
 
 ---
 
-## Multi-fidelity acquisition function
-### Maximum Entropy Search (MES)
+## FAENet
 
-MES it aims to maximise the mutual information between .hihglight1[the value] of the objective function $f$ when choosing point *x* and the maximum of the objective function, $f^{\star}$ (instead of considering the `arg max`).
+We have presented a flexible framework for data-driven equivariance of GNNs and an architecture (FAENet) that is simple, fast at inference and expressive. 
 
-The multi-fidelity variant is designed to select the candidate $x$ and the fidelity $m$ that maximise the mutual information between $f_M^\star$ and the oracle at fidelity $m$, $f_m$ , weighted by the cost of the oracle $\lambda_m$.
-
-$$\alpha(x, m) = \frac{1}{\lambda_{m}} I(f_M^\star; f_m | \mathcal{D})$$
-
-.references[
-* Moss et al. [GIBBON: General-purpose Information-Based Bayesian OptimisatioN](https://arxiv.org/abs/2102.03324), JMLR, 2021.
+.center[
+![:scale 60%](../assets/images/slides/ocp/frame_averaging.png)
 ]
 
----
-
-## Multi-fidelity GFlowNets (MF-GFN)
-
-Given a baseline GFlowNet with state space $\mathcal{S}$ and action space $\mathcal{A}$, we augment the state space with a new dimension for the fidelity $\mathcal{M'} = \{0, 1, 2, \ldots, M\}$ (including $m = 0$, which corresponds to unset fidelity). 
-
-The set of allowed transitions $\mathcal{A}_M$ is augmented such that a fidelity $m > 0$ of a trajectory must be selected once, and only once, from any intermediate state. This is meant to provide flexibility and improve generalisation.
-
-Finished trajectories are the concatenation of an object $x$ and the fidelity $m$.
-
-GFlowNet is trained with the acquisition function $\alpha(x, m)$ as reward function.
+.conclusion[FAENet will allow us to efficiently and effectively train GFlowNets in a multi-fidelity active learning pipeline.]
 
 ---
 
-## Experiments
-### Baselines
+## FAENet
 
-* .highlight1[SF-GFN]: GFlowNet with highest fidelity oracle to establish a benchmark for performance without considering the cost-accuracy trade-offs.
-* .highlight1[Random fid. GFN]: GFlowNet with random fidelities, that is a variant of SF-GFN where the candidates are generated with the GFlowNet but the fidelities are picked randomly and a multi-fidelity acquisition function is used, to investigate the benefit of deciding the fidelity with GFlowNets.
-* .highlight1[Random]: Quasi-random approach where the candidates and fidelities are picked randomly and the top $(x, m)$ pairs scored by the acquisition function are queried.
-* .highlight1[MF-PPO]: Instantiation of multi-fidelity Bayesian optimisation where the acquisition function is optimised using proximal policy optimisation (reinforcement learning).
+We have presented a flexible framework for data-driven equivariance of GNNs and an architecture (FAENet) that is simple, fast at inference and expressive. 
 
----
+.center[
+![:scale 50%](../assets/images/slides/ocp/faenet_is2re_pareto.png)
+]
 
-## Synthetic tasks: Branin and Hartmann
-
-.highlight1[Branin]: $100 \times 100$ grid, 3 oracles (from the BO literature).
-
-.highlight1[Hartmann]: 6D grid of length 10, 3 oracles (from the BO literature).
-
-.left-column[.center[
-  <figure>
-    <img src="../assets/images/slides/mfal/branin.png" alt="Branin" style="width: 100%">
-    <figcaption>Branin task</figcaption>
-  </figure>
-]]
-
-.right-column[.center[
-  <figure>
-    <img src="../assets/images/slides/mfal/hartmann.png" alt="Hartmann" style="width: 100%">
-    <figcaption>Hartmann task</figcaption>
-  </figure>
-]]
-
----
-
-## DNA aptamers and antimicrobial peptides (AMP)
-
-.highlight1[DNA]: GFlowNet adds one nucleobase (`A`, `T`, `C`, `G`) at a time up to length 30. This yields a design space of size $|\mathcal{X}| = 4^{30}$. The objective function is the free energy estimated by NUPACK. The (simulated) lower fidelity oracle is a transformer trained with 1 million sequences.
-
-.highlight1[AMP]: Protein sequences with variable length (max. 50). The oracles are 3 ML models trained with different subsets of data.
-
-.left-column[.center[
-  <figure>
-    <img src="../assets/images/slides/mfal/dna.png" alt="DNA" style="width: 90%">
-    <figcaption>DNA task</figcaption>
-  </figure>
-]]
-
-.right-column[.center[
-  <figure>
-    <img src="../assets/images/slides/mfal/amp.png" alt="AMP" style="width: 90%">
-    <figcaption>AMP task</figcaption>
-  </figure>
-]]
-
----
-
-## Small molecules
-
-More realistic experiments, with oracles that correlate with experimental results as approximations of the scoring function. The costs reflect the computational demands of each oracle (1, 3, 7).
-
-.left-column[.center[
-  <figure>
-    <img src="../assets/images/slides/mfal/molecules_ip.png" alt="Ionisation potential" style="width: 100%">
-    <figcaption>Ionisation potential task</figcaption>
-  </figure>
-]]
-
-.right-column[.center[
-  <figure>
-    <img src="../assets/images/slides/mfal/molecules_ea.png" alt="Electron affinity" style="width: 100%">
-    <figcaption>Electron affinity task</figcaption>
-  </figure>
-]]
+.conclusion[FAENet will allow us to efficiently and effectively train GFlowNets in a multi-fidelity active learning pipeline.]
 
 ---
 
@@ -942,15 +516,16 @@ class: title, middle
 ## Summary and conclusions
 
 * Tackling the most pressing problems for humanity, such as the climate crisis and the threat of global pandemics, requires .highlight1[accelerating the pace of scientific discovery].
-* Current AI tools are not enough to truly utilize all the information and resources at our disposal.
-* AI-driven scientific discovery demands learning methods that can .highlight1[efficiently discover diverse candidates in very large, multi-modal search spaces].
-* .highlight1[GFlowNet] is a learning method for amortised inference that can sample proportionally to a reward function.
-* .highlight1[Multi-fidelity active learning with GFlowNets] enables .highlight1[cost-effective exploration] of large, high-dimensional and structured spaces, and discovers multiple, diverse modes of black-box score functions.
+* AI-driven scientific discovery demands learning methods that can .highlight1[efficiently model and discover diverse candidates in very large, multi-modal search spaces].
+* .highlight1[GFlowNet] is a suitable method for diverse sampling.
+* .highlight1[Continuous GFlowNets] enable search in continuous spaces.
+* .highlight1[Multi-objective GFlowNets] enable multi-objective optimisation.
+* .highlight1[FAENet] provides efficient and effective modelling of materials to train GFlowNets.
 
 .references[
-* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). arXiv 2306.11715, 2023.
-* Jain et al. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/abs/2302.00615). Digital Discovery, Royal Society of Chemistry, 2023.
-* Jain et al. [Biological Sequence Design with GFlowNets](https://arxiv.org/abs/2203.04115), ICML, 2022. 
+* Lahlou et al. [A Theory of Continuous Generative Flow Networks](https://arxiv.org/abs/2301.12594), ICML, 2023. 
+* Jain et al. [Multi-Objective GFlowNets](https://arxiv.org/abs/2210.12765), ICML, 2023. 
+* Duval, Schmidt et al. [FAENet: Frame Averaging Equivariant GNN for Materials Modeling](https://arxiv.org/abs/2305.05577), ICML, 2023. 
 ]
 
 --
@@ -962,15 +537,25 @@ class: title, middle
 ## Acknowledgements
 
 .left-column[
-* Nikita Saxena (Mila) - equivalent contribution
-* Moksh Jain (Mila)
-* Chenghao Liu (Mila)
-* Yoshua Bengio (Mila)
+* Salem
+* Tristan
+* Sasha
+* Kolya
+* Pablo
+* Moksh
+* Sharath
+* Emmanuel
+* Alexandre
+* Victor
 ]
 
 .right-column[
+* Yoshua
+* David
+* Santiago
 * IVADO
 * CIFAR
+* ...
 ]
 
 
@@ -981,7 +566,7 @@ class: title, middle
 
 ## Thanks! Questions? 
 
-![:scale 40%](../assets/images/slides/mfal/mfal_bgwhite.png)
+![:scale 30%](../assets/images/slides/gfn-seq-design/flownet.gif)
 
 Alex Hernández-García (he/il/él)
 
