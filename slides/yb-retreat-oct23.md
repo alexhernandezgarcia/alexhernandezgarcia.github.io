@@ -108,11 +108,15 @@ Helen Longino, _Science as Social Knowledge_. 1990.
 
 --
 
-> "Hypotheses become knowledge when they are subjected to scrutiny from diverse perspectives, especially by those with diverse beliefs and values."
+> "The knowledge and culture of a class society reflect the interests of its ruling class."
 
 --
 
 > "Societies in which one race or sex (or one race-sex combination) is dominant generally distribute their resources disproportionally."
+
+--
+
+> "Hypotheses become knowledge when they are subjected to scrutiny from diverse perspectives, especially by those with diverse beliefs and values."
 
 ---
 
