@@ -1349,8 +1349,8 @@ Jain et al. [Multi-Objective GFlowNets](https://arxiv.org/abs/2210.12765), arXiv
 
 ---
 
-##  GFlowNet extensions
-### Continuous GFlowNets
+##  GFlowNet extensions and applications
+### Molecular conformation
 
 We have recently generalised the theory and implementation of GFlowNets to encompass both discrete and continuous or hybrid state spaces. 
 
@@ -1364,270 +1364,18 @@ Lahlou et al. [A Theory of Continuous Generative Flow Networks](https://arxiv.or
 
 ---
 
-name: title
-class: title, middle
+##  GFlowNet extensions and applications
+### Crystal-GFlowNet for crystal structure generation
 
-## Application: Biological Sequence Design
-### Part 3a
-
-.center[![:scale 50%](../assets/images/slides/gfn-seq-design/ddloop.png)]
-
----
-
-## Biological sequence design: anti-microbial peptides
-
-* Peptides are short chains of amino acids (proteins) .cite[(Pirtskhalava et al., 2021)]
-* The goal is to find peptides with anti-microbial properties
-* We consider chains of length 50 or shorter, with a vocabulary of 20 aminoacids ($>10^{65}$)
-* Data set: 6438 positive (anti-microbial samples) and 9522 negative samples.
-
-.references[
-* Pirtskhalava et al. DBAASP V3: Database of antimicrobial/cytotoxic activity and structure of peptides as a resource for development of new therapeutics. Nucleic Acids Research, 2021.
-* Jain et al. [Biological Sequence Design with GFlowNets](https://arxiv.org/abs/2203.04115), ICML, 2022. 
-]
-
-???
-
-3219 AMP, 4611 non-AMP (anti-microbial properties)
-
----
-
-## Application
-### Biological sequence design: anti-microbial peptides
-
-.context[An **active learning** pipeline for biological sequence design]
-
-.right-column-66[.center[![:scale 90%](../assets/images/slides/materials/activelearning_gfn.png)]]
-
----
-
-count: false
-
-## Application
-### Biological sequence design: anti-microbial peptides
-
-.context[An **active learning** pipeline for biological sequence design]
-
-.right-column-66[.center[![:scale 90%](../assets/images/slides/materials/activelearning_gfn_hl-oracle.png)]]
-
-.left-column-33[
-**Oracle**: MLPs trained on a separate partition of the data.
-
-In other tasks, such as DNA aptamers, we have access to computational libraries.
-]
-
----
-
-## Application
-### Biological sequence design: anti-microbial peptides
-
-.context[An **active learning** pipeline for biological sequence design]
-
-.right-column-66[.center[![:scale 90%](../assets/images/slides/materials/activelearning_gfn_hl-model.png)]]
-
-.left-column-33[
-**Model**: MLPs and transformers.
-]
-
----
-
-count: false
-
-## Application
-### Biological sequence design: anti-microbial peptides
-
-.context[An **active learning** pipeline for biological sequence design]
-
-.right-column-66[.center[![:scale 90%](../assets/images/slides/materials/activelearning_gfn_hl-gfn.png)]]
-
-.left-column-33[
-**Agent**: GFlowNet
-
-.center[![:scale 100%](../assets/images/slides/gflownet/flownet.png)]
-]
-
----
-
-## Methodology
-### Algorithm
-
-.context[An **active learning** pipeline for biological sequence design]
-
-.right-column-66[.center[![:scale 90%](../assets/images/slides/materials/activelearning1.png)]]
-
-.left-column-33[
-**1**: Generate a _small_ initial _labelled_ data set from the oracle:
-$$\mathcal{D} = \mathcal{D_0}$$
-
-In our main experiments:
-* $|\mathcal{D_0}| = 7830$
-* Length: up to 50
-* Alphabet: 20 aminoacids
-]
-
----
-
-count: false
-
-## Methodology
-### Algorithm
-
-.context[An **active learning** pipeline for biological sequence design]
-
-.right-column-66[.center[![:scale 90%](../assets/images/slides/materials/activelearning2.png)]]
-
-.left-column-33[
-**2**: Train model by minimising the error on $\mathcal{D}$:
-$$\min L(f_{\theta}(\mathcal{D}))$$
-
-In our main experiments we train with MC dropout or an ensemble of MLPs that provides with both _energy_ and _uncertainty_.
-]
-
----
-
-count: false
-
-## Methodology
-### Algorithm
-
-.context[An **active learning** pipeline for biological sequence design]
-
-.right-column-66[.center[![:scale 90%](../assets/images/slides/materials/activelearning3.png)]]
-
-.left-column-33[
-**3**: Train GFlowNet until convergence using the ML model as a proxy oracle:
-
-.center[![:scale 100%](../assets/images/slides/gflownet/flownet.png)]
-]
-
----
-
-count: false
-
-## Methodology
-### Algorithm
-
-.context[An **active learning** pipeline for biological sequence design]
-
-.right-column-66[.center[![:scale 90%](../assets/images/slides/materials/activelearning4.png)]]
-
-.left-column-33[
-**4**: Generate samples with GFlowNet and select a query of best candidates 
-
-We select 1000 samples per iteration.
-]
-
----
-
-count: false
-
-## Methodology
-### Algorithm
-
-.context[An **active learning** pipeline for biological sequence design]
-
-.right-column-66[.center[![:scale 90%](../assets/images/slides/materials/activelearning5.png)]]
-
-.left-column-33[
-**5**: Score the selected query with the oracle ($\mathcal{D_1}$) and add to the data set:
-$$\mathcal{D} = \mathcal{D} \cup \mathcal{D_1}$$
-
-Then repeat all steps for $k=10$ iterations.
-]
-
----
-
-## Evaluation
-### Desiderata for candidates
-
-.context[We look for a .highlight1[diverse] set of .highlight1[good] candidates.]
-
-The set of top $k$ candidates: $\mathcal{D}_{Best} = TopK(\mathcal{D}_K \backslash \mathcal{D}_0)$
-
-* .highlight1[Performance / usefulness score]: mean score of $\mathcal{D}_{Best}$
-* .highlight1[Diversity]: mean distance within $\mathcal{D}_{Best}$
-* .highlight1[Novelty]: mean distance with between $\mathcal{D}_{Best}$ and $\mathcal{D}_0$
-
---
-
-&nbsp
-&nbsp
-
-.conclusion[A set of candidates should be evaluated holistically, considering all three metrics.]
-
----
-
-## Evaluation
-### Baselines
-
-Three representative recent machine learning models for sequence design:
-
-* DynaPPO: Active Learning with RL as Generator .cite[Angermueller et al., 2019]
-* AmortizedBO: Bayesian Optimization with RL-based Genetic Algorithm .cite[Swersky et al., 2020]
-* COMs: Deep Model Based Optimization .cite[Trabucco et al., 2021]
-
-.references[
-* Angermueller et al. Model-based reinforcement learning for biological sequence design. ICLR, 2019.
-* Swersky et al. Amortized bayesian optimization over discrete spaces. PMLR, 2020.
-* Trabucco et al. Conservative objective models for effective offline model-based optimization. ICML, 2021.
-]
-
----
-
-## Results
-
-.context[Active learning with 10 rounds, $b = 1000$, $K = 100$.]
-
-* GFlowNet generates sequences with .highlight1[score] on par or higher than the strongest baseline.
-* GFlowNet generates much more .highlight1[diverse] and .highlight1[novel] samples than the baselines.
-
+Inspiration from theoretical crystallography to sample crystals with desirable properties and constraints.
 
 .center[
-<figure>
-	<img src="../assets/images/slides/gfn-seq-design/table1.png" alt="Metrics with $K=100$" style="width: 85%">
-  <figcaption>Metrics with $K=100$</figcaption>
-</figure>
+![:scale 55%](../assets/images/slides/crystals/distributions_fe.png)
 ]
 
---
-
-.smaller[
-* AmortizedBO generated nonsensical peptides because it is designed for fixed-length sequences.
-* Methods such as COMs, which perform local search around known candidates, perform poorly when the goal is to generate .highlight1[large], .highlight1[diverse] and .highlight1[novel] batches.
+.references[
+Mila AI4Science, Hernandez-Garcia et al. [Crystal-GFN: sampling crystals with desirable properties and constraints](https://arxiv.org/abs/2310.04925), arXiv 2310.04925, 2023. 
 ]
-
---
-
-.conclusion[GFlowNet succeeds at generating sequences that satisfy all three metrics: high score, diversity and novelty.]
-
----
-
-name: title
-class: title, middle
-
-## Application: Generation of Crystal Structures
-### Part 3b
-
-.center[![:scale 30%](../assets/images/slides/materials/lithium_oxide_crystal.png)]
-
----
-
-## Generation of Crystal Structures
-### _Work in progress..._
-
-We are working on using GFlowNets to explore the space of crystals and sample new, diverse, stable materials that optimise certain properties.
-
-* State space: stoichiometry, crystal system, point symmetry, space group, Wyckoff positions, etc.
-* Action space: the constrained selection of crystal structure parameters and properties. 
-* Advantage of GFlowNets: flexibility to incorporate domain knowledge in the generation structure.
-
---
-
-### Applications
-
-* Electrocatalyst design
-* Solid-state ionic super conductors
-* ...
 
 ---
 
@@ -1643,14 +1391,16 @@ class: title, middle
 ## Summary and conclusions
 
 * There is a mismatch between the magnitude of the climate crisis and the public's concern about it.
-* We have used AI to generate .highlight1[personalised visualisations of extreme climate events], to help mitigate the psychological distance with climate change.
+* We have used AI to generate .highlight1[personalised visualisations of extreme climate events].
 * The climate crisis requires .highlight1[accelerating the pace of scientific discovery].
-* AI-driven scientific discovery demands learning methods that can .highlight1[efficiently discover diverse candidates in very large, multi-modal search spaces].
-* .highlight1[GFlowNet] is a new learning method that can address some of the limitations of AI-drive scientific discovery.
-* GFlowNet has been proven successful or is promising in practically relevant and challenging tasks, such as .highlight1[biological sequence design], .highlight1[molecular conformation], .highlight1[crystal structure generation], etc.
+* AI-driven scientific demands .highlight1[efficiently exploring huge, highly-structured, high-dimensional spaces].
+* .highlight1[GFlowNet] is a new generative method designed to tackle these challenges.
+* GFlowNet has been proven successful in practically relevant and challenging tasks, such as .highlight1[biological sequence design], .highlight1[molecular conformation], .highlight1[crystal structure generation], etc.
+* Multi-fidelity active learning for scientific discovery tackles "real-world" problems close the industry's!
 
 .references[
 * Schmidt et al. [ClimateGAN: Raising Climate Change Awareness by Generating Images of Floods](https://arxiv.org/abs/2110.02871v1), ICLR 2022.
+* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). arXiv 2306.11715, 2023.
 * Jain et al.. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/abs/2302.00615). Digital Discovery, Royal Society of Chemistry, 2023.
 ]
 
@@ -1663,9 +1413,7 @@ class: title, middle
 name: klaviyo-nov23
 class: title, middle
 
-## Thanks! Questions? 
-
-![:scale 30%](../assets/images/slides/materials/activelearning_agent.png)
+![:scale 35%](../assets/images/slides/materials/activelearning_agent.png)
 
 Alex Hernández-García (he/il/él)
 
