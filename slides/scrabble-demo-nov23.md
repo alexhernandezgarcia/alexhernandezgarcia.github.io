@@ -27,7 +27,9 @@ Slides: [alexhernandezgarcia.github.io/slides/scrabble-demo-nov23](https://alexh
 
 ## A Scrabble-inspired GFlowNet environment
 
-Task: to sample English words (existing in a vocabulary) with high "Scrabble" score.
+Task: to sample English words (up to 7 letters) with high "Scrabble" score.
+
+This is hard! Number of combinations: $\sim26^7 \approx 10^{10}$. Number of English words with up to 7 letters: $\sim10^5$
 
 .left-column[
 .center[![:scale 100%](../assets/images/slides/scrabble/tiles.jpg)]
@@ -40,7 +42,7 @@ Task: to sample English words (existing in a vocabulary) with high "Scrabble" sc
 
 ---
 
-## Scrabble DAG
+## Scrabble GFlowNet ~~DAG~~ Tree
 
 Task: to sample English words (existing in a vocabulary) with high "Scrabble" score (reward).
 
