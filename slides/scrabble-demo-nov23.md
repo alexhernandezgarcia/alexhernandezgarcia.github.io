@@ -148,10 +148,16 @@ Since most common functionality is implemented by the base [`GFlowNetEnv`](https
 
 ---
 
-name: title
-class: title, middle
-
 # Let's code!
+
+--
+
+Objectives for the session:
+
+- Demonstrate that it is possible to quickly get started with GFlowNets for a new problem.
+- No need for you to code along, but you're welcome!
+- Main focus is _what?_ and _why?_
+- Less focus on _how?_
 
 ---
 
