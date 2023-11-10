@@ -13,7 +13,7 @@ Alex Hernández-García (he/il/él)
 
 .smaller[Divya Sharma, Michał Koziarski, Alexandra Volokhova, Victor Schmidt, Alexandre Duval, Pierre Luc Carrier, Yasmine Benabed]
 
-.turquoise[Mila GFlowNet Workshop · Montreal · November th 2023]
+.turquoise[Mila GFlowNet Workshop · Montreal · November 10th 2023]
 
 .center[
 <a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 4em"></a>
