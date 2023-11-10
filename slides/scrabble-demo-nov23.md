@@ -92,10 +92,10 @@ mila = [5, 3, 4, 1, 0, 0, 0]
 We can represent actions by a single-tuple element with the index of the letter:
 
 ```python
-action_a: = (1, )
-action_m: = (5, )
-action_o: = (6, )
-action_eos: = (-1, ) # EOS: end-of-sequence (stop)
+action_a: = (1,)
+action_m: = (5,)
+action_o: = (6,)
+action_eos: = (-1,) # EOS: end-of-sequence (stop)
 ```
 ---
 
