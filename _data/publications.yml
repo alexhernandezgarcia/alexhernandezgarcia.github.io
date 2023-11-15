@@ -1,3 +1,140 @@
+- title: "Multi-Fidelity Active Learning with GFlowNets"
+  authors:
+    - Alex Hernandez-Garcia
+    - Nikita Saxena
+    - Moksh Jain
+    - Cheng-Hao Liu
+    - Yoshua Bengio
+  year: 2023
+  journal: arXiv:2306.11715
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2306.11715
+    - tag: code
+      link: https://github.com/nikita-0209/mf-al-gfn
+- title: "Crystal-GFN: sampling crystals with desirable properties and constraints"
+  authors:
+    - Mila AI4Science
+    - Alex Hernandez-Garcia
+    - Alexandre Duval
+    - Alexandra Volokhova
+    - Yoshua Bengio
+    - Divya Sharma
+    - Pierre Luc Carrier
+    - Michał Koziarski
+    - Victor Schmidt
+  year: 2023
+  journal: Neural Information Processing Systems (NeurIPS), Workshop on Accelerated Materials Design (AI4Mat)
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2310.04925
+    - tag: code
+      link: https://github.com/alexhernandezgarcia/gflownet
+- title: "Towards equilibrium molecular conformation generation with GFlowNets"
+  authors:
+    - Alexandra Volokhova
+    - Michał Koziarski
+    - Alex Hernandez-Garcia
+    - Cheng-Hao Liu
+    - Santiago Miret
+    - Pablo Lemos
+    - Luca Thiede
+    - Zichao Yan
+    - Alán Aspuru-Guzik
+    - Yoshua Bengio
+  year: 2023
+  journal: Neural Information Processing Systems (NeurIPS), Workshop on Accelerated Materials Design (AI4Mat)
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2310.14782
+    - tag: code
+      link: https://github.com/alexhernandezgarcia/gflownet
+- title: "On the importance of catalyst-adsorbate 3D interactions for relaxed energy predictions"
+  authors:
+    - Alvaro Carbonero
+    - Alexandre Duval
+    - Victor Schmidt
+    - Santiago Miret
+    - Alex Hernandez-Garcia
+    - Yoshua Bengio
+    - David Rolnick
+  year: 2023
+  journal: Neural Information Processing Systems (NeurIPS), Workshop on Accelerated Materials Design (AI4Mat)
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2310.06682
+- title: "Multi-variable hard physical constraints for climate model downscaling"
+  authors:
+    - Jose González-Abad
+    - Alex Hernandez-Garcia
+    - Paula Harder
+    - David Rolnick
+    - José Manuel Gutiérrez
+  year: 2023
+  journal: arXiv:2308.01868
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2308.01868
+- title: "FAENet: Frame Averaging Equivariant GNN for materials modeling"
+  authors:
+    - Alexandre Duval
+    - Victor Schmidt
+    - Alex Hernandez Garcia
+    - Santiago Miret
+    - Fragkiskos D. Malliaros
+    - Yoshua Bengio
+    - David Rolnick
+  year: 2023
+  journal: International Conference on Machine Learning (ICML)
+  tags:
+    - tag: ICML
+      link: https://proceedings.mlr.press/v202/duval23a/duval23a.pdf
+    - tag: arXiv
+      link: https://arxiv.org/abs/2305.05577
+- title: "A theory of continuous generative flow networks"
+  authors:
+    - Salem Lahlou
+    - Tristan Deleu
+    - Pablo Lemos
+    - Dinghuai Zhang
+    - Alexandra Volokhova
+    - Alex Hernandez-Garcia
+    - Léna Néhale Ezzine
+    - Yoshua Bengio
+    - Nikolay Malkin
+  year: 2023
+  journal: International Conference on Machine Learning (ICML)
+  tags:
+    - tag: ICML
+      link: https://proceedings.mlr.press/v202/lahlou23a/lahlou23a.pdf
+    - tag: arXiv
+      link: https://arxiv.org/abs/2301.12594
+    - tag: code
+      link: https://github.com/alexhernandezgarcia/gflownet
+- title: "Fourier Neural Operators for arbitrary resolution climate data downscaling"
+  authors:
+    - Qidong Yang
+    - Alex Hernandez-Garcia
+    - Paula Harder
+    - Venkatesh Ramesh
+    - Prasanna Sattegeri
+    - Daniela Szwarcman
+    - Campbell D. Watson
+    - David Rolnick
+  year: 2023
+  journal: arXiv:2305.14452
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2305.14452
+- title: "Counting carbon: A survey of factors influencing the emissions of machine learning"
+  authors:
+    - Sasha Luccioni
+    - Alex Hernandez-Garcia
+  year: 2023
+  journal: arXiv:2302.08476
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2302.08476
 - title: "PhAST: physics-aware, scalable, and task-specific GNNs for accelerated catalyst design"
   authors:
     - Alexandre Duval
@@ -7,8 +144,10 @@
     - Alex Hernandez-Garcia
     - David Rolnick
   year: 2022
-  journal: Neural Information Processing Systems (NeurIPS), Workshop on Accelerated Materials Design (AI4Mat)
+  journal: International Conference on Machine Learning (ICML)
   tags:
+    - tag: ICML
+      link: https://proceedings.mlr.press/v202/jain23a/jain23a.pdf
     - tag: arXiv
       link: https://arxiv.org/abs/2211.12020
     - tag: OpenReview
@@ -74,10 +213,10 @@
   year: 2022
   journal: International Conference on Machine Learning (ICML)
   tags:
+    - tag: ICML
+      link: https://proceedings.mlr.press/v162/jain22a.html
     - tag: arXiv
       link: https://arxiv.org/abs/2203.04115
-    - tag: PMLR
-      link: https://proceedings.mlr.press/v162/jain22a.html
 - title: "ClimateGAN: Raising climate change awareness by generating images of floods"
   authors:
     - Victor Schmidt
