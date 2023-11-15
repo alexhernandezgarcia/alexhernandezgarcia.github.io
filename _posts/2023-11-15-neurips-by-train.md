@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 author: Alex Hernandez-Garcia
 title: NeurIPS by train
 subtitle: Why I went to NeurIPS by train and why I will do it again
