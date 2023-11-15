@@ -67,6 +67,10 @@ Consequences:
 * ...
 ]
 
+--
+
+.conclusion[But [global warming will stop](https://www.carbonbrief.org/explainer-will-global-warming-stop-as-soon-as-net-zero-emissions-are-reached/) if we stop GHG emissions!]
+
 ???
 
 * Flash floods kill **5,000** people per year.
