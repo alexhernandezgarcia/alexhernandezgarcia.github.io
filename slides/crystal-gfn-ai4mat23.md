@@ -143,7 +143,7 @@ Instead of optimising the atom positions by learning from a small data set, we d
 * Provided we have access to a predictive model of a material property, we can .highlight1[flexibly generate materials with desirable properties].
 
 --
-* We can .highlight1[flexibly sample materials with specific characteristics, such as composition or space group. 
+* We can .highlight1[flexibly sample materials with specific characteristics, such as composition or space group]. 
 
 .references[
 Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). arXiv 2306.11715, 2023 (RealML workshop at NeurIPS).
