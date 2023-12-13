@@ -46,7 +46,7 @@ Here, we are concerned mainly with _inorganic crystals_, where the constituents 
 
 --
 
-A crystal structure is characterized by its .highlight1[unit cell], a small imaginary box containing atoms in a specific spatial arrangement with certain symmetry. The unit cell repeats iself periodically in all directions.
+A crystal structure is characterized by its .highlight1[unit cell], a small imaginary box containing atoms in a specific spatial arrangement with certain symmetry. The unit cell repeats itself periodically in all directions.
 
 ---
 
@@ -56,17 +56,17 @@ Many solid state materials are crystal structures and they are a core component 
 
 --
 
-Accelerating .highlight1[material discovery is key in the climate crisis] .cite[IPCC Sixth Assessment Report, 2022]:  
+Accelerating .highlight1[material discovery is key in the climate crisis]. From the IPCC Sixth Assessment Report, 2022:  
 * Improving material efficiency can reduce 0.93 ($\pm$ 0.23) GtCO₂-eq per year.
 * Fuel switching can reduce 2.1 ($\pm$ 0.52) GtCO₂-eq per year, only in the industry sector. 
 * Carbon capture and storage can reduce 0.54 ($\pm$ 0.27) GtCO₂-eq per year in the energy sector.
 
-.smaller[.footnote[† Global anthropogenic emissions in 2019 were estimated in 59 ($\pm$ 6.6) GtCO₂-eq. The budget from 2020 to limit warming to 1.5°C is estimated in 510 ($\pm$ 180) GtCO₂-eq.]]
+.smaller[.footnote[Global anthropogenic emissions in 2019 were estimated in 59 ($\pm$6.6) GtCO₂-eq. The budget from 2020 to limit warming to 1.5°C is estimated in 510 ($\pm$180) GtCO₂-eq.]]
 
 --
 
 However, .highlight1[material modelling is very challenging]:
-* Limited data: only about 200 K known inorganic materials, but potentially $10^{180}$ possible stable materials (for reference: more than a billion molecules are known)
+* Limited data: only about 200k known inorganic materials, but potentially $10^{180}$ possible stable materials (for reference: more than a billion molecules are known)
 * Sparsity: .highlight2[stable materials] only exist in a low-dimensional subspace of all possible 3D arrangements.
 
 ---
@@ -119,7 +119,7 @@ Example: .highlight2[MatterGen]: An evolution of CDVAE that performs diffusion n
 Instead of optimising the atom positions by learning from a small data set, we draw .highlight1[inspiration from theoretical crystallography to sample crystals in a lower-dimensional space of crystal structure parameters].
 
 .left-column[
-.center[![:scale 60%](../assets/images/slides/crystals/crystal_systems_table.png)]
+.center[![:scale 65%](../assets/images/slides/crystals/crystal_systems_table.png)]
 ]
 .right-column[
 .center[![:scale 30%](../assets/images/slides/crystals/unit_cell.png)]
@@ -273,7 +273,7 @@ count: false
 
 ## Results
 
-.context[10,000 crystals randomly sampled.]
+.context[10,000 crystals sampled from a randomly initialised, untrained Crystal-GFN.]
 
 .center[![:scale 80%](../assets/images/slides/crystals/distributions_fe_val_rand.png)]
 
@@ -296,8 +296,9 @@ count: false
     - 5 out of 8 crystal-lattice systems in the top-100.
     - All 5 point symmetries in the top-100.
 - All 12 elements found in the 10,000 samples.
-    - 10 out of 12 elements in the top-100
+    - 10 out of 12 elements in the top-100.
 - 80 out of 113 space groups (70 %) found in the 10,000 samples
+    - 19 out of 113 spacce groups in the top-100.
 
 ---
 
@@ -315,7 +316,7 @@ class: title, middle
 * Discovering new crystal structures with desirable properties can help mitigate the climate crisis.
 * There are infinitely many conceivable crystals. Only a few are stable. Only a few stable crystals have interesting properties. This is a hard problem.
 * Crystal-GFN introduces .highlight1[physicochemical and structural constraints], reducing the search space.
-    * Crystal-GFN was .highlight1[trained in 12 hours in a CPU-only machine].
+    * Crystal-GFN was trained in 12 hours in a CPU-only machine.
 * Our results show that we can generate .highlight1[diverse, high scoring samples with the desired constraints].
 * The .highlight1[framework can be flexibly extended] with more constraints, crystal structure descriptors (atomic positions) and other properties. 
 
