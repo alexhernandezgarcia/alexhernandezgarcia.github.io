@@ -298,7 +298,7 @@ count: false
 - All 12 elements found in the 10,000 samples.
     - 10 out of 12 elements in the top-100.
 - 80 out of 113 space groups (70 %) found in the 10,000 samples
-    - 19 out of 113 spacce groups in the top-100.
+    - 19 out of 113 space groups in the top-100.
 
 ---
 
