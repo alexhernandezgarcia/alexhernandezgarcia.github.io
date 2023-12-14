@@ -262,7 +262,7 @@ count: false
 - Compositions:
     - Up to 5 unique elements from the these 12 elements: H, Li, C, N, O, F, Mg, Si, P, S, Cl and Fe (12 most common elements in the training set). 
     - Up to 16 atoms per element.
-    - Up 50 atoms in total and up to 16 atoms per element.
+    - Up to 50 atoms in total.
 - Lattice parameters:
     - Lengths: 0.9-100 angstroms.
     - Angles: 50-150°.
