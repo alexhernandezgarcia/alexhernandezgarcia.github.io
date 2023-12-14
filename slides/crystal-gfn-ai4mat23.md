@@ -250,7 +250,7 @@ count: false
     - Composition embedding as in PhAST (Duval et al. (2022))
     - Standardised lattice parameters
 - Trained on MatBench (Materials Project)
-    - Mean absolute error: 0.10 eV (0.005)
+    - Mean absolute error: 0.10 eV/atom (0.005)
 - Reward: $R(x) = \exp(-\frac{MLP(x)}{T})$
 
 ---
@@ -309,6 +309,9 @@ count: false
 
 .context[.highlight2[Diversity] is key in materials discovery.]
 
+Analysis of 10,000 sampled crystals and the top-100 with lowest formation energy.
+
+- All 10,000 samples are unique.
 - All crystal systems, lattice systems and point symmetries found in the 10,000 samples.
     - 5 out of 8 crystal-lattice systems in the top-100.
     - All 5 point symmetries in the top-100.
