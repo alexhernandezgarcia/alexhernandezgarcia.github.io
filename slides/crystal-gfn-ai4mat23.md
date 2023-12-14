@@ -61,7 +61,7 @@ Accelerating .highlight1[material discovery is key in the climate crisis]. From 
 * Fuel switching can reduce 2.1 ($\pm$ 0.52) GtCO₂-eq per year, only in the industry sector. 
 * Carbon capture and storage can reduce 0.54 ($\pm$ 0.27) GtCO₂-eq per year in the energy sector.
 
-.smaller[.footnote[Global anthropogenic emissions in 2019 were estimated in 59 ($\pm$6.6) GtCO₂-eq. The budget from 2020 to limit warming to 1.5°C is estimated in 510 ($\pm$180) GtCO₂-eq.]]
+.smaller[.footnote[Global anthropogenic emissions in 2019 were estimated in 59 ($\pm$6.6) GtCO₂-eq.]]
 
 --
 
@@ -255,6 +255,21 @@ count: false
 
 ---
 
+## Crystal-GFlowNet
+### Experiments
+
+- Space groups: all 113 space groups present in the MatBench data set.
+- Compositions:
+    - Up to 5 unique elements from the these 12 elements: H, Li, C, N, O, F, Mg, Si, P, S, Cl and Fe (12 most common elements in the training set). 
+    - Up to 16 atoms per element.
+    - Up 50 atoms in total and up to 16 atoms per element.
+- Lattice parameters:
+    - Lengths: 0.9-100 angstroms.
+    - Angles: 50-150°.
+    - These ranges contain the bulk of the data set (excluding outliers).
+
+---
+
 ## Results
 
 .center[![:scale 80%](../assets/images/slides/crystals/distributions_fe_empty.png)]
@@ -273,7 +288,7 @@ count: false
 
 ## Results
 
-.context[10,000 crystals sampled from a randomly initialised, untrained Crystal-GFN.]
+.context[10,000 crystals sampled from an untrained Crystal-GFN.]
 
 .center[![:scale 80%](../assets/images/slides/crystals/distributions_fe_val_rand.png)]
 
@@ -291,6 +306,8 @@ count: false
 
 ## Results
 ### Diversity
+
+.context[.highlight2[Diversity] is key in materials discovery.]
 
 - All crystal systems, lattice systems and point symmetries found in the 10,000 samples.
     - 5 out of 8 crystal-lattice systems in the top-100.
