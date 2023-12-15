@@ -112,6 +112,18 @@ Example: .highlight2[MatterGen]: An evolution of CDVAE that performs diffusion n
 
 ---
 
+count: false
+
+## Related work
+
+Example: .highlight2[UniMat]: A denoising diffusion model learns to move atoms from random locations back to their original locations. Atoms not present in the crystal are moved to the null location during the denoising process, allowing crystals with an arbitrary number of atoms to be generated.
+
+.center[![:scale 90%](../assets/images/slides/crystals/unimat.png)]
+
+.references[Yang et al. [Scalable Diffusion for Materials Generation](https://arxiv.org/abs/2311.09235). arXiv 2023] 
+
+---
+
 ## Our approach
 ### Crystal structure parameters
 
