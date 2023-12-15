@@ -111,7 +111,7 @@ Example: .highlight2[MatterGen]: An evolution of CDVAE that performs diffusion n
 
 ---
 
-## Our proposal
+## Our approach
 ### Crystal structure parameters
 
 .context[CDVAE and other works tackle crystal structure generation in the space of atom coordinates.]
@@ -343,8 +343,6 @@ class: title, middle
 .references[
 * Mila AI4Science et al. [Crystal-GFN: sampling crystals with desirable properties and constraints](https://arxiv.org/abs/2310.04925). AI4Mat, NeurIPS 2023 (spotlight).
 ]
-
---
 
 .highlight2[Open source code]: [github.com/alexhernandezgarcia/gflownet](https://github.com/alexhernandezgarcia/gflownet)
 
