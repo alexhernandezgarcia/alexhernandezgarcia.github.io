@@ -372,6 +372,11 @@ class: title, middle
 
 Alex Hernández-García (he/il/él)
 
+.smaller[Divya Sharma, Michał Koziarski, Alexandra Volokhova, Victor Schmidt,]<br>
+.smaller[Alexandre Duval, Yasmine Benabed, Pierre Luc Carrier, Yoshua Bengio]
+
+[github.com/alexhernandezgarcia/gflownet](https://github.com/alexhernandezgarcia/gflownet)
+
 .center[
 <a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 3em"></a>
 &nbsp&nbsp&nbsp&nbsp
