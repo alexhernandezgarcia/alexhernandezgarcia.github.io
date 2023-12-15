@@ -9,9 +9,10 @@ class: title, middle
 ## Crystal-GFN
 ### Sampling crystals with desirable properties and constraints
 
-Alex Hernández-García (he/il/él)
+Presenting: Alex Hernández-García (he/il/él)
 
-.smaller[Divya Sharma, Michał Koziarski, Alexandra Volokhova, Victor Schmidt, Alexandre Duval, Pierre Luc Carrier, Yasmine Benabed]
+.smaller[Divya Sharma, Michał Koziarski, Alexandra Volokhova, Victor Schmidt,]<br>
+.smaller[Alexandre Duval, Yasmine Benabed, Pierre Luc Carrier, Yoshua Bengio]
 
 .turquoise[[AI4Mat](https://sites.google.com/view/ai4mat/home), NeurIPS 2023 · New Orleans · December 15th 2023]
 
