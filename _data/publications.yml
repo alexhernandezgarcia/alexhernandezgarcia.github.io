@@ -180,19 +180,21 @@
   tags:
     - tag: arXiv
       link: https://arxiv.org/abs/2208.05341
-- title: "Generating physically-consistent high-resolution climate data with hard-constrained neural networks"
+- title: "Hard-constrained deep learning for climate downscaling "
   authors:
     - Paula Harder
     - Alex Hernandez-Garcia
-    - Qidong Yang
     - Venkatesh Ramesh
+    - Qidong Yang
     - Prasanna Sattigeri
-    - Campbell Watson
     - Daniela Szwarcman
+    - Campbell Watson
     - David Rolnick
-  year: 2022
-  journal: arXiv:2208.05424
+  year: 2023
+  journal: Journal of Machine Learning Research
   tags:
+    - tag: JMLR
+      link: https://jmlr.org/papers/v24/23-0158.html
     - tag: arXiv
       link: https://arxiv.org/abs/2208.05424
 - title: "Biological sequence design with GFlowNets"
