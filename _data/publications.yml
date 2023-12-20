@@ -88,7 +88,7 @@
   journal: International Conference on Machine Learning (ICML)
   tags:
     - tag: ICML
-      link: https://proceedings.mlr.press/v202/duval23a/duval23a.pdf
+      link: https://proceedings.mlr.press/v202/duval23a.html
     - tag: arXiv
       link: https://arxiv.org/abs/2305.05577
 - title: "A theory of continuous generative flow networks"
@@ -106,7 +106,7 @@
   journal: International Conference on Machine Learning (ICML)
   tags:
     - tag: ICML
-      link: https://proceedings.mlr.press/v202/lahlou23a/lahlou23a.pdf
+      link: https://proceedings.mlr.press/v202/lahlou23a.html
     - tag: arXiv
       link: https://arxiv.org/abs/2301.12594
     - tag: code
@@ -143,11 +143,9 @@
     - Yoshua Bengio
     - Alex Hernandez-Garcia
     - David Rolnick
-  year: 2022
-  journal: International Conference on Machine Learning (ICML)
+  year: 2023
+  journal: arXiv:2211.12020
   tags:
-    - tag: ICML
-      link: https://proceedings.mlr.press/v202/jain23a/jain23a.pdf
     - tag: arXiv
       link: https://arxiv.org/abs/2211.12020
     - tag: OpenReview
@@ -161,9 +159,11 @@
     - Yoshua Bengio
     - Santiago Miret
     - Emmanuel Bengio
-  year: 2022
-  journal: arXiv:2210.12765
+  year: 2023
+  journal: International Conference on Machine Learning (ICML)
   tags:
+    - tag: ICML
+      link: https://proceedings.mlr.press/v202/jain23a.html
     - tag: arXiv
       link: https://arxiv.org/abs/2210.12765
 - title: "Diversifying design of nucleic acid aptamers using unsupervised machine learning"
@@ -176,8 +176,10 @@
     - Yoshua Bengio
     - Lena Simine
   year: 2022
-  journal: arXiv:2208.05341
+  journal: Journal of Physical Chemistry B
   tags:
+    - tag: ACS
+      link: https://pubs.acs.org/doi/10.1021/acs.jpcb.2c05660
     - tag: arXiv
       link: https://arxiv.org/abs/2208.05341
 - title: "Hard-constrained deep learning for climate downscaling "
@@ -212,7 +214,7 @@
     - Lena Simine
     - Payel Das
     - Yoshua Bengio
-  year: 2022
+  year: 2023
   journal: International Conference on Machine Learning (ICML)
   tags:
     - tag: ICML
