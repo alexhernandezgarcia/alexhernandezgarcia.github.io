@@ -21,6 +21,7 @@
     - Yoshua Bengio
     - Divya Sharma
     - Pierre Luc Carrier
+    - Yasmine Benabed
     - Michał Koziarski
     - Victor Schmidt
   year: 2023
@@ -63,6 +64,21 @@
   tags:
     - tag: arXiv
       link: https://arxiv.org/abs/2310.06682
+- title: "GFlowNets for AI-driven scientific discovery"
+  authors:
+    - Moksh Jain
+    - Tristan Deleu
+    - Jason Hartford
+    - Cheng-Hao Liu
+    - Alex Hernandez-Garcia
+    - Yoshua Bengio
+  year: 2023
+  journal: Digital Discovery, Royal Society of Chemistry
+  tags:
+    - tag: RSC
+      link: https://pubs.rsc.org/en/content/articlehtml/2023/dd/d3dd00002h
+    - tag: arXiv
+      link: https://arxiv.org/abs/2302.00615
 - title: "Multi-variable hard physical constraints for climate model downscaling"
   authors:
     - Jose González-Abad
