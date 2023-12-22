@@ -826,6 +826,14 @@ More realistic experiments, with oracles that correlate with experimental result
 
 ---
 
+## How does multi-fidelity help?
+
+.context[Visualisation of results on the 2D Branin function.]
+
+.center[![:scale 50%](../assets/images/slides/mfal/branin_samples_per_fid.png)]
+
+---
+
 name: title
 class: title, middle
 
