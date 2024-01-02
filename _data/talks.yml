@@ -199,3 +199,67 @@
   country: India
   online: true
   slides: slides/mahemit-feb23
+- title: "GFlowNets: Introduction and Applications to AI-Driven Scientific Discovery"
+  year: 2023
+  month: March
+  where: MMICCs Webinar Series, SEA-CROGS, Pacific Northwest National Laboratory
+  city: Online
+  country: The Internet
+  online: true
+  slides: slides/mmiccs-mar23
+- title: "AI against climate change: Accelerating scientific discovery and raising awareness with visualisations"
+  year: 2023
+  month: April
+  where: Cognition in a Changing World, Case Western Reserve University
+  city: Cleveland, OH
+  country: USA
+  online: true
+  slides: slides/cwru-apr23
+- title: "Multi-fidelity active learning with GFlowNets to accelerate scientific discoveries"
+  year: 2023
+  month: June
+  where: Artificial Intelligence for Design Challenge program, NRC Canada
+  city: Online
+  country: The Internet
+  online: true
+  slides: slides/nrc-jun23
+- title: "GFlowNets to accelerate scientific discovery with machine learning"
+  year: 2023
+  month: June
+  where: Mathematical and Scientific Machine Learning 2023 (invited talk)
+  city: Providence, RI
+  country: USA
+  online: false
+  slides: slides/msml23
+- title: "AI against climate change: Accelerating scientific discovery and raising awareness with visualisations"
+  year: 2023
+  month: July
+  where: NU Circle, Egypt
+  city: Online
+  country: The Internet
+  online: true
+  slides: slides/nucircle-jul23
+- title: "Multi-fidelity active learning with GFlowNets for drug and materials discovery"
+  year: 2023
+  month: September
+  where: MIF++ seminar, University of Liverpool
+  city: Online
+  country: The Internet
+  online: true
+  slides: slides/mifpp-sep23
+- title: "AI against climate change: Accelerating scientific discovery and raising awareness with visualisations"
+  year: 2023
+  month: November
+  where: klaviyo
+  city: Boston, MA
+  country: USA
+  online: false
+  slides: slides/klaviyo-nov23
+- title: "Crystal-GFN: Sampling crystals with desirable properties and constraints"
+  year: 2023
+  month: December
+  where: AI4Mat at NeurIPS (spotlight)
+  city: New Orleans, LA
+  country: USA
+  online: false
+  slides: slides/crystal-gfn-ai4mat23
