@@ -231,6 +231,7 @@
   country: USA
   online: false
   slides: slides/msml23
+  link: https://icerm.brown.edu/topical_workshops/tw-23-msml/
 - title: "AI against climate change: Accelerating scientific discovery and raising awareness with visualisations"
   year: 2023
   month: July
@@ -247,6 +248,7 @@
   country: The Internet
   online: true
   slides: slides/mifpp-sep23
+  link: http://kurlin.org/MIFplusplus.php#seminars
 - title: "AI against climate change: Accelerating scientific discovery and raising awareness with visualisations"
   year: 2023
   month: November
@@ -263,3 +265,4 @@
   country: USA
   online: false
   slides: slides/crystal-gfn-ai4mat23
+  link: https://sites.google.com/view/ai4mat
