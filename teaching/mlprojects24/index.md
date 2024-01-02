@@ -42,7 +42,7 @@ Les étudiant·e·s seront évalués _entièrement_ en fonction de leur travail 
 
 # Pré-requis
 
-Comme exigences d'inscription à ce cours, les étudiant.e.s doivent avoir réussi le cours _Introduction à la science des données_ (IFT 3700) ou _Fondements de l'apprentissage machine_ (IFT 3395).
+Comme exigences d'inscription à ce cours, les étudiant.e.s doivent avoir réussi le cours [_Introduction à la science des données_](https://admission.umontreal.ca/cours-et-horaires/cours/ift-3700/) (IFT 3700) ou [_Fondements de l'apprentissage machine_](https://admission.umontreal.ca/cours-et-horaires/cours/ift-3395/) (IFT 3395).
 
 ## Pourquoi des pré-requis ?
 
