@@ -40,16 +40,16 @@ Les étudiant·e·s seront évalués _entièrement_ en fonction de leur travail 
 
 **Note importante** : La note sera binaire (réussite ou échec), et non dans une échelle de lettres.
 
-# Pré-requis
+# Préalables
 
 Comme exigences d'inscription à ce cours, les étudiant.e.s doivent avoir réussi le cours [_Introduction à la science des données_](https://admission.umontreal.ca/cours-et-horaires/cours/ift-3700/) (IFT 3700) ou [_Fondements de l'apprentissage machine_](https://admission.umontreal.ca/cours-et-horaires/cours/ift-3395/) (IFT 3395).
 
-## Pourquoi des pré-requis ?
+## Pourquoi des préalables ?
 
 * IFT 3710/6759 H24 ne s'agit pas d'un cours d'introduction à l'apprentissage automatique, mais d'un cours pour apprendre à travailler sur des projets d'apprentissage automatique. 
-* Toutes et tous les étudiant·e·s doivent être en mesure de contribuer à l'équipe.
+* Toutes et tous les étudian-requiet·e·s doivent être en mesure de contribuer à l'équipe.
 
-## Quels sont les pré-requis ?
+## Quels sont les préalables ?
 
 * Concepts de base de l'apprentissage automatique : il y aura une session de révision.
 * Concepts de base de l'apprentissage profond : il y aura une session de révision.
