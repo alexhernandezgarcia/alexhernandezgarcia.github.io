@@ -64,8 +64,7 @@ Comme exigences d'inscription à ce cours, les étudiant.e.s doivent avoir réus
 
 * [À propos des projects]({{ site.url }}/teaching/mlprojects24/projects)
 * [Instructions pour la présentation, le rapport final et le code]({{ site.url }}/teaching/mlprojects24/projects/instructions-presentations-report)
-* [Lien vers la page de StudiUM (IFT3710)](https://studium.umontreal.ca/course/view.php?id=258595)
-* [Lien vers la page de StudiUM (IFT6759)](https://studium.umontreal.ca/course/view.php?id=258628)
+* [Lien vers la page de StudiUM](https://studium.umontreal.ca/course/view.php?id=292494)
 * [Lien vers la page d'admission publique de l'IFT 3710](https://admission.umontreal.ca/cours-et-horaires/cours/ift-3710/)
 * [Lien vers la page d'admission publique de l'IFT 6759](https://admission.umontreal.ca/cours-et-horaires/cours/ift-6759/)
 * [Lien vers la page du cours l'hiver 2023](https://alexhernandezgarcia.github.io/mlprojects23)
