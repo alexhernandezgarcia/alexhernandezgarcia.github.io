@@ -192,7 +192,6 @@ count: false
 * Travail sur des projets en équipe.
 * Pas de cours magistraux.
 * Séances de mentorat ouvertes pendant les heures de cours, et privées sur demande.
-* Des tutoriels supplémentaires peuvent être prévus.
 * Vous devrez faire des mini-rapports périodiques.
 ]
 
