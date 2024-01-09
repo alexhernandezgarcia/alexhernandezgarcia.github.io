@@ -204,7 +204,7 @@ count: false
 
 ## Informations pratiques
 
-* .highlight1[Annonces importantes] : [StudiUM](https://studium.umontreal.ca/course/view.php?id=243115)
+* .highlight1[Annonces importantes] : [StudiUM](https://studium.umontreal.ca/course/view.php?id=292494)
 * .highlight1[Matériel de cours mis à jour] : [alexhernandezgarcia.github.io/mlprojects](https://alexhernandezgarcia.github.io/teaching/mlprojects/)
 * .highlight1[Communication avec l'instructeur] : courriel ([alejandro.hernandez.garcia@umontreal.ca](mailto:alejandro.hernandez.garcia@umontreal.ca))
 
