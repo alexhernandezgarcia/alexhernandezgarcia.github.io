@@ -74,8 +74,8 @@ Comme exigences d'inscription à ce cours, les étudiant.e.s doivent avoir réus
 
 Les cours ont lieu :
 
-* Les mardis, 10h30--12h30 (ET) : Salle à préciser
-* Les jeudis, 10h30--12h30 (ET) : Salle à préciser
+* Les mardis, 10h30--12h30 (ET) dans la salle Y-117 du pavillon Roger-Gaudry
+* Les jeudis, 10h30--12h30 (ET) dans la salle Y-117 du pavillon Roger-Gaudry
 
 # Ressources
 

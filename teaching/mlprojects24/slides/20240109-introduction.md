@@ -148,8 +148,8 @@ Rôles :
 
 .highlight1[Horaire des cours] :
 
-* Les mardis, 10:30-12:30 - Y-117
-* Les jeudis, 10:30-12:30 - Y-117
+* Les mardis, 10:30-12:30 - Y-117 Pav. Roger-Gaudry
+* Les jeudis, 10:30-12:30 - Y-117 Pav. Roger-Gaudry
 
 .left-column[
 **Semaine 1**
