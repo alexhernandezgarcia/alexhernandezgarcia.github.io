@@ -278,7 +278,7 @@ Vous pouvez travailler sur l'un des projets proposés, ou proposer le vôtre (vo
 * WILDS : Changements de distribution dans la nature
 * eBird : Surveillance de la biodiversité
 * Classification et détection des animaux
-* NLP pour les langues autochtones
+* Études expérimentale des GFlowNets, active learning, Bayesian optimisation...
 
 ???
 
