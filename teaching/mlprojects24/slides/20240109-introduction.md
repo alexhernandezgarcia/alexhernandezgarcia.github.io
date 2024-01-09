@@ -148,8 +148,8 @@ Rôles :
 
 .highlight1[Horaire des cours] :
 
-* Les mardis, 10:30-12:30 - Salle à préciser
-* Les jeudis, 10:30-12:30 - Salle à préciser
+* Les mardis, 10:30-12:30 - Y-117
+* Les jeudis, 10:30-12:30 - Y-117
 
 .left-column[
 **Semaine 1**
