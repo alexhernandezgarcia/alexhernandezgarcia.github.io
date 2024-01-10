@@ -114,13 +114,7 @@ The Shell is used via a **terminal**, which is installed by default in nearly al
 When we launch the .highlight1[terminal] we see a shell .highlight1[prompt] that looks something like:
 
 ``` bash
-alex:~$
-```
-
-or 
-
-``` bash
-alex ~: 
+username@machine:~$
 ```
 
 `~` is short form the _home_ directory; `$` indicates no root (admin) access.
