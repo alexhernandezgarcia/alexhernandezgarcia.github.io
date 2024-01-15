@@ -8,3 +8,5 @@ title: IFT 3710/6759 - Slides
 
 ### [11 janvier - Linux et Python pour l'apprentissage automatique](20240111-linux-python)
 
+### [16 janvier - Tutoriel git](20240116-git)
+
