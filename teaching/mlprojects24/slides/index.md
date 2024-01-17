@@ -10,3 +10,5 @@ title: IFT 3710/6759 - Slides
 
 ### [16 janvier - Tutoriel git](20240116-git)
 
+### [18 janvier - Tutoriel clusters HPC](20240118-cluster)
+
