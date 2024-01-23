@@ -12,3 +12,5 @@ title: IFT 3710/6759 - Slides
 
 ### [18 janvier - Tutoriel clusters HPC](20240118-cluster)
 
+### [23 janvier - Revue de l'apprentissage automatique](20240123-ml)
+
