@@ -112,6 +112,7 @@ Comme expliqué [ci-dessus](#attribution-des-projets), vous pouvez proposer votr
 * [Étude expérimentale des GFlowNets](./gflownet)
 * [Étude expérimentale de l'active learning et la Bayesian optimisation](./activelearning)
 * [Segmentation d'images médicales](./medical-image-segmentation)
+* [Prévision anticipée des séismes](./earthquakes)
 * Autres idées et ressources:
     * [NeurIPS 2021 Datasets and Benchmarks Track](https://neurips.cc/Conferences/2021/DatasetsBenchmarks/AcceptedPapers)
     * [The Auto Arborist Dataset](https://google.github.io/auto-arborist/)
