@@ -14,3 +14,7 @@ title: IFT 3710/6759 - Slides
 
 ### [23 janvier - Revue de l'apprentissage automatique](20240123-ml)
 
+### [25 janvier - Revue de l'apprentissage profond](20240125-dl)
+
+### [30 janvier - Tutoriel PyTorch (collab notebook)](https://colab.research.google.com/github/vict0rsch/pytorch-tutorial/blob/main/learn_pytorch.ipynb)
+
