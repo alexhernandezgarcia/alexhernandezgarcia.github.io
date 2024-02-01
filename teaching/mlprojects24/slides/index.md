@@ -18,3 +18,5 @@ title: IFT 3710/6759 - Slides
 
 ### [30 janvier - Tutoriel PyTorch (collab notebook)](https://colab.research.google.com/github/vict0rsch/pytorch-tutorial/blob/main/learn_pytorch.ipynb)
 
+### [1 février - Modèles génératifs pour la découverte scientifique](20240201-gflownets)
+
