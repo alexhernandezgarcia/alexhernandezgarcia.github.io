@@ -41,8 +41,7 @@ The .highlight1[goal] is that by the end of the class:
 
 ---
 
-## Why generative machine learning for science?
-### The potential of scientific discoveries
+## Why scientific discoveries?
 
 > "Limiting global warming will require major transitions in the energy sector. This will involve a substantial reduction in fossil fuel use, widespread electrification, .highlight1[improved energy efficiency, and use of alternative fuels (such as hydrogen)]." .cite[IPCC Sixth Assessment Report, 2022]
 
@@ -56,8 +55,7 @@ The .highlight1[goal] is that by the end of the class:
 
 ---
 
-## Why generative machine learning for science?
-### The potential of discovering new materials
+## Why scientific discoveries?
 
 * Improving material efficiency can reduce 0.93 ($\pm$ 0.23) GtCO₂-eq per year.
 * Fuel switching can reduce 2.1 ($\pm$ 0.52) GtCO₂-eq per year, only in the industry sector. 
@@ -71,8 +69,7 @@ The .highlight1[goal] is that by the end of the class:
 
 count: false
 
-## Why generative machine learning for science?
-### The potential of discovering new materials
+## Why scientific discoveries?
 
 * Improving material efficiency can reduce 0.93 ($\pm$ 0.23) GtCO₂-eq per year.
 * Fuel switching can reduce 2.1 ($\pm$ 0.52) GtCO₂-eq per year, only in the industry sector. 
@@ -122,14 +119,14 @@ Joke experience with some of them, like penicillin and superglue.
 
 count: false
 
-## Why generative machine learning for science?
+## Why generative AI for science?
 ### Scientific discoveries in history
 
 .context35[Material discovery is a key ingredient for climate change mitigation.]
 
 .center[
 <figure>
-	<img src="../assets/images/slides/materials/paradigms_scientific_discovery_0.png" alt="Four paradigms of concrete science: empirical, theoretical, computational, and data-driven." style="width: 65%">
+	<img src="../../../assets/images/slides/materials/paradigms_scientific_discovery_0.png" alt="Four paradigms of concrete science: empirical, theoretical, computational, and data-driven." style="width: 65%">
   <figcaption>Four paradigms in scientific discovery. Source: <a href="https://www.nature.com/articles/s41524-022-00810-x">Li et al., 2022</a>. (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
 </figure>
 ]
@@ -146,14 +143,14 @@ Example of concrete: most prevalent human-made material on Earth, and the most c
 
 count: false
 
-## Why generative machine learning for science?
+## Why generative AI for science?
 ### Scientific discoveries in history
 
 .context35[Material discovery is a key ingredient for climate change mitigation.]
 
 .center[
 <figure>
-	<img src="../assets/images/slides/materials/paradigms_scientific_discovery_1.png" alt="Four paradigms of concrete science: empirical, theoretical, computational, and data-driven." style="width: 65%">
+	<img src="../../../assets/images/slides/materials/paradigms_scientific_discovery_1.png" alt="Four paradigms of concrete science: empirical, theoretical, computational, and data-driven." style="width: 65%">
   <figcaption>Four paradigms in scientific discovery. Source: <a href="https://www.nature.com/articles/s41524-022-00810-x">Li et al., 2022</a>. (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
 </figure>
 ]
@@ -170,14 +167,14 @@ Concrete: The properties and performance of concrete can be tailored to meet des
 
 count: false
 
-## Why generative machine learning for science?
+## Why generative AI for science?
 ### Scientific discoveries in history
 
 .context35[Material discovery is a key ingredient for climate change mitigation.]
 
 .center[
 <figure>
-	<img src="../assets/images/slides/materials/paradigms_scientific_discovery_2.png" alt="Four paradigms of concrete science: empirical, theoretical, computational, and data-driven." style="width: 65%">
+	<img src="../../../assets/images/slides/materials/paradigms_scientific_discovery_2.png" alt="Four paradigms of concrete science: empirical, theoretical, computational, and data-driven." style="width: 65%">
   <figcaption>Four paradigms in scientific discovery. Source: <a href="https://www.nature.com/articles/s41524-022-00810-x">Li et al., 2022</a>. (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
 </figure>
 ]
@@ -196,14 +193,14 @@ Beginning in the 1980s, the development of microstructural models of cement hydr
 
 count: false
 
-## Why generative machine learning for science?
+## Why generative AI for science?
 ### Scientific discoveries in history
 
 .context35[Material discovery is a key ingredient for climate change mitigation.]
 
 .center[
 <figure>
-	<img src="../assets/images/slides/materials/paradigms_scientific_discovery_3.png" alt="Four paradigms of concrete science: empirical, theoretical, computational, and data-driven." style="width: 65%">
+	<img src="../../../assets/images/slides/materials/paradigms_scientific_discovery_3.png" alt="Four paradigms of concrete science: empirical, theoretical, computational, and data-driven." style="width: 65%">
   <figcaption>Four paradigms in scientific discovery. Source: <a href="https://www.nature.com/articles/s41524-022-00810-x">Li et al., 2022</a>. (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
 </figure>
 ]
@@ -222,14 +219,14 @@ In this context, the use of density-functional theory (DFT) and classical molecu
 
 count: false
 
-## Why generative machine learning for science?
+## Why generative AI for science?
 ### Scientific discoveries in history
 
 .context35[Material discovery is a key ingredient for climate change mitigation.]
 
 .center[
 <figure>
-	<img src="../assets/images/slides/materials/paradigms_scientific_discovery_4.png" alt="Four paradigms of concrete science: empirical, theoretical, computational, and data-driven." style="width: 65%">
+	<img src="../../../assets/images/slides/materials/paradigms_scientific_discovery_4.png" alt="Four paradigms of concrete science: empirical, theoretical, computational, and data-driven." style="width: 65%">
   <figcaption>Four paradigms in scientific discovery. Source: <a href="https://www.nature.com/articles/s41524-022-00810-x">Li et al., 2022</a>. (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
 </figure>
 ]
@@ -248,7 +245,7 @@ By leveraging existing datasets with data-driven models, ML can automatically le
 
 ## Traditional scientific discovery loop
 
-.right-column-66[<br>.center[![:scale 90%](../assets/images/slides/materials/activelearning_noml.png)]]
+.right-column-66[<br>.center[![:scale 90%](../../../assets/images/slides/materials/activelearning_noml.png)]]
 
 .left-column-33[
 The .highlight1[traditional pipeline] for scientific discovery (paradigms 1-3):
@@ -263,7 +260,7 @@ count: false
 
 ## Machine learning in the loop
 
-.right-column-66[<br>.center[![:scale 90%](../assets/images/slides/materials/activelearning_ml.png)]]
+.right-column-66[<br>.center[![:scale 90%](../../../assets/images/slides/materials/activelearning_ml.png)]]
 
 .left-column-33[
 A .highlight1[machine learning model] can be:
@@ -277,7 +274,7 @@ count: false
 
 ## Machine learning in the loop
 
-.right-column-66[<br>.center[![:scale 90%](../assets/images/slides/materials/activelearning_ml.png)]]
+.right-column-66[<br>.center[![:scale 90%](../../../assets/images/slides/materials/activelearning_ml.png)]]
 
 .left-column-33[
 A .highlight1[machine learning model] can be:
@@ -297,7 +294,7 @@ count: false
 
 .context[Can we do better than _linear_?<br>An agent in the loop]
 
-.right-column-66[<br>.center[![:scale 90%](../assets/images/slides/materials/activelearning_agent.png)]]
+.right-column-66[<br>.center[![:scale 90%](../../../assets/images/slides/materials/activelearning_agent.png)]]
 
 .left-column-33[
 A .highlight1[machine learning **agent**] in the loop can:
@@ -314,7 +311,7 @@ count: false
 
 .context[Can we do better than _linear_?<br>An agent in the loop]
 
-.right-column-66[<br>.center[![:scale 90%](../assets/images/slides/materials/activelearning_agent.png)]]
+.right-column-66[<br>.center[![:scale 90%](../../../assets/images/slides/materials/activelearning_agent.png)]]
 
 .left-column-33[
 A .highlight1[machine learning **agent**] in the loop can:
@@ -331,13 +328,47 @@ Jain et al.. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/ab
 
 ---
 
+## Generative models
+### A brief overview
+
+.context[So far, we have mostly discussed _discriminative models_.]
+
+.highlight1[Definition]: A generative model is a joint probability distribution $p(x), x \in \mathcal{X}$. 
+
+.references[Murphy, K. Probabilistic Machine Learning: Advanced Topics. MIT Press, 2023]
+
+--
+
+A practical variant of the general definition are .highlight1[conditional generative models], where the model generates $x$ conditioned on an input $c \in \mathcal{C}$, that is $p(x|c)$.
+
+--
+
+Generative models can be used to:
+
+- Generate new data
+- Estimate the probability density of a data set
+- Fill in missing data (imputation)
+- Causal discovery
+
+---
+
+## Generative models
+### A brief overview
+
+<figure style="text-align: center">
+	<img src="../../../assets/images/teaching/mlprojects/gen/generative_models_summary.png" alt="Overview of generative models."  style="width: 50%">
+  <figcaption style="text-align: center; font-size: small">Overview of generative models. Source: .cite[Murphy, K. Probabilistic Machine Learning: Advanced Topics.]</figcaption>
+</figure>
+
+---
+
 ## AI in the scientific discovery loop
 ### A new generative method: **GFlowNets**
 
 .context35[AI can boost multiple components of the scientific dicovery pipeline.]
 
 <br>
-.center[![:scale 50%](../assets/images/slides/materials/activelearning_agent.png)]
+.center[![:scale 50%](../../../assets/images/slides/materials/activelearning_agent.png)]
 
 .references[
 Jain et al.. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/abs/2302.00615). Digital Discovery, Royal Society of Chemistry, 2023.
@@ -353,7 +384,7 @@ count: false
 .context35[AI can boost multiple components of the scientific dicovery pipeline.]
 
 <br>
-.center[![:scale 50%](../assets/images/slides/materials/activelearning_hl-gfn.png)]
+.center[![:scale 50%](../../../assets/images/slides/materials/activelearning_hl-gfn.png)]
 
 .references[
 Jain et al.. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/abs/2302.00615). Digital Discovery, Royal Society of Chemistry, 2023.
@@ -396,11 +427,11 @@ Jain et al.. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/ab
 Task: find arrangements of Tetris pieces on the board that minimise the empty space.
 
 .left-column[
-.center[![:scale 20%](../assets/images/slides/tetris/board_empty.png)]
+.center[![:scale 20%](../../../assets/images/slides/tetris/board_empty.png)]
 ]
 
 .right-column[
-![:scale 15%](../assets/images/slides/tetris/piece_J.png) ![:scale 15%](../assets/images/slides/tetris/piece_L.png) ![:scale 15%](../assets/images/slides/tetris/piece_O.png)
+![:scale 15%](../../../assets/images/slides/tetris/piece_J.png) ![:scale 15%](../../../assets/images/slides/tetris/piece_L.png) ![:scale 15%](../../../assets/images/slides/tetris/piece_O.png)
 ]
 
 --
@@ -420,25 +451,25 @@ Task: find arrangements of Tetris pieces on the board that minimise the empty sp
 <div style="display: flex">
   <div style="flex: 25%;">
   <figure>
-      <img src="../assets/images/slides/tetris/board_empty.png" alt="Score 0/12" style="width: 30%">
+      <img src="../../../assets/images/slides/tetris/board_empty.png" alt="Score 0/12" style="width: 30%">
     <figcaption>Score: 0/12</figcaption>
   </figure>
   </div>
   <div style="flex: 25%;">
   <figure>
-      <img src="../assets/images/slides/tetris/board_score_4.png" alt="Score 4/12" style="width: 30%">
+      <img src="../../../assets/images/slides/tetris/board_score_4.png" alt="Score 4/12" style="width: 30%">
     <figcaption>Score: 4/12</figcaption>
   </figure>
   </div>
   <div style="flex: 25%;">
   <figure>
-      <img src="../assets/images/slides/tetris/board_score_8.png" alt="Score 8/12" style="width: 30%">
+      <img src="../../../assets/images/slides/tetris/board_score_8.png" alt="Score 8/12" style="width: 30%">
     <figcaption>Score: 8/12</figcaption>
   </figure>
   </div>
   <div style="flex: 25%;">
   <figure>
-      <img src="../assets/images/slides/tetris/board_score_12.png" alt="Score 12/12" style="width: 30%">
+      <img src="../../../assets/images/slides/tetris/board_score_12.png" alt="Score 12/12" style="width: 30%">
     <figcaption>Score: 12/12</figcaption>
   </figure>
   </div>
@@ -458,31 +489,31 @@ Task: find arrangements of Tetris pieces on the board that minimise the empty sp
 <div style="display: flex">
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode1.png" alt="Score 0/12" style="width: 30%">
+      <img src="../../../assets/images/slides/tetris/mode1.png" alt="Score 0/12" style="width: 30%">
     <figcaption>Score: 12/12</figcaption>
   </figure>
   </div>
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode2.png" alt="Score 4/12" style="width: 30%">
+      <img src="../../../assets/images/slides/tetris/mode2.png" alt="Score 4/12" style="width: 30%">
     <figcaption>Score: 12/12</figcaption>
   </figure>
   </div>
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode3.png" alt="Score 8/12" style="width: 30%">
+      <img src="../../../assets/images/slides/tetris/mode3.png" alt="Score 8/12" style="width: 30%">
     <figcaption>Score: 12/12</figcaption>
   </figure>
   </div>
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode4.png" alt="Score 12/12" style="width: 30%">
+      <img src="../../../assets/images/slides/tetris/mode4.png" alt="Score 12/12" style="width: 30%">
     <figcaption>Score: 12/12</figcaption>
   </figure>
   </div>
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode5.png" alt="Score 12/12" style="width: 30%">
+      <img src="../../../assets/images/slides/tetris/mode5.png" alt="Score 12/12" style="width: 30%">
     <figcaption>Score: 12/12</figcaption>
   </figure>
   </div>
@@ -514,7 +545,7 @@ The policy $\pi_{\theta}(x)$ is modelled by a deep neural network, parameterised
 --
 
 .right-column[
-.center[![:scale 65%](../assets/images/slides/gflownet/mode_generalization.png)]
+.center[![:scale 65%](../../../assets/images/slides/gflownet/mode_generalization.png)]
 ]
 
 ---
@@ -525,13 +556,13 @@ The policy $\pi_{\theta}(x)$ is modelled by a deep neural network, parameterised
 * At each step of the trajectory $\tau=(s_0\rightarrow s_1 \rightarrow \dots \rightarrow s_f)$, we get a partially constructed object $s$ in state space $\cal S$.
 * This induces a directed acyclic graph (DAG) $\mathcal{G}=(\mathcal{S},\mathcal{A})$, with all possible constructions in the domain.
 
-.left-column[.center[![:scale 80%](../assets/images/slides/gflownet/flownet.png)]]
+.left-column[.center[![:scale 80%](../../../assets/images/slides/gflownet/flownet.png)]]
 
 .right-column[.center[
 <div style="display: flex">
   <div style="flex: 30%;">
   <figure>
-      <img src="../assets/images/slides/tetris/s0.png" alt="s0" style="width: 100%">
+      <img src="../../../assets/images/slides/tetris/s0.png" alt="s0" style="width: 100%">
     <figcaption>$s_0$</figcaption>
   </figure>
   </div>
@@ -540,7 +571,7 @@ The policy $\pi_{\theta}(x)$ is modelled by a deep neural network, parameterised
   </div>
   <div style="flex: 30%;">
   <figure>
-      <img src="../assets/images/slides/tetris/s1.png" alt="s1" style="width: 100%">
+      <img src="../../../assets/images/slides/tetris/s1.png" alt="s1" style="width: 100%">
     <figcaption>$s_1$</figcaption>
   </figure>
   </div>
@@ -549,7 +580,7 @@ The policy $\pi_{\theta}(x)$ is modelled by a deep neural network, parameterised
   </div>
   <div style="flex: 30%;">
   <figure>
-      <img src="../assets/images/slides/tetris/s2.png" alt="s2" style="width: 100%">
+      <img src="../../../assets/images/slides/tetris/s2.png" alt="s2" style="width: 100%">
     <figcaption>$s_2$</figcaption>
   </figure>
   </div>
@@ -565,14 +596,14 @@ The policy $\pi_{\theta}(x)$ is modelled by a deep neural network, parameterised
 
 .left-column[.center[
   <figure>
-    <img src="../assets/images/slides/tetris/state_space.png" alt="State space" style="width: 80%">
+    <img src="../../../assets/images/slides/tetris/state_space.png" alt="State space" style="width: 80%">
     <figcaption>State space $\cal S$</figcaption>
   </figure>
 ]]
 
 .right-column[.center[
   <figure>
-    <img src="../assets/images/slides/tetris/action_space.png" alt="Action space" style="width: 60%">
+    <img src="../../../assets/images/slides/tetris/action_space.png" alt="Action space" style="width: 60%">
     <figcaption>Action space $\cal A$</figcaption>
   </figure>
 ]]
@@ -583,7 +614,7 @@ The policy $\pi_{\theta}(x)$ is modelled by a deep neural network, parameterised
 
 ## Principle of conservation as a training objective
 
-.right-column-33[.center[![:scale 100%](../assets/images/slides/gfn-seq-design/flownet.gif)]]
+.right-column-33[.center[![:scale 100%](../../../assets/images/slides/gfn-seq-design/flownet.gif)]]
 
 .left-column-66[
 **Consistent Flow**:  Flow $F$ satisfies the _flow consistency equation_
@@ -622,31 +653,31 @@ $$\sum\_{s' \in \text{Parent}(s)} F\_\theta(s' \rightarrow s) = \sum\_{s'' \in \
 <div style="display: flex">
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode1.png" alt="Score 0/12" style="width: 30%">
+      <img src="../../../assets/images/slides/tetris/mode1.png" alt="Score 0/12" style="width: 30%">
     <figcaption>$\pi(x) = 8.12~\%$</figcaption>
   </figure>
   </div>
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode2.png" alt="Score 4/12" style="width: 30%">
+      <img src="../../../assets/images/slides/tetris/mode2.png" alt="Score 4/12" style="width: 30%">
     <figcaption>$\pi(x) = 8.96~\%$</figcaption>
   </figure>
   </div>
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode3.png" alt="Score 8/12" style="width: 30%">
+      <img src="../../../assets/images/slides/tetris/mode3.png" alt="Score 8/12" style="width: 30%">
     <figcaption>$\pi(x) = 8.61~\%$</figcaption>
   </figure>
   </div>
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode4.png" alt="Score 12/12" style="width: 30%">
+      <img src="../../../assets/images/slides/tetris/mode4.png" alt="Score 12/12" style="width: 30%">
     <figcaption>$\pi(x) = 9.16~\%$</figcaption>
   </figure>
   </div>
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode5.png" alt="Score 12/12" style="width: 30%">
+      <img src="../../../assets/images/slides/tetris/mode5.png" alt="Score 12/12" style="width: 30%">
     <figcaption>$\pi(x) = 8.39~\%$</figcaption>
   </figure>
   </div>
@@ -661,7 +692,7 @@ After training, GFlowNet samples a mode with probability 43.24 %.
 
 ## Multi-fidelity active learning with GFlowNets
 
-.center[![:scale 100%](../assets/images/slides/mfal/mfal_bgwhite.png)]
+.center[![:scale 100%](../../../assets/images/slides/mfal/mfal_bgwhite.png)]
 
 ---
 
@@ -673,14 +704,14 @@ After training, GFlowNet samples a mode with probability 43.24 %.
 
 .left-column[.center[
   <figure>
-    <img src="../assets/images/slides/mfal/dna.png" alt="DNA" style="width: 90%">
+    <img src="../../../assets/images/slides/mfal/dna.png" alt="DNA" style="width: 90%">
     <figcaption>DNA task</figcaption>
   </figure>
 ]]
 
 .right-column[.center[
   <figure>
-    <img src="../assets/images/slides/mfal/amp.png" alt="AMP" style="width: 90%">
+    <img src="../../../assets/images/slides/mfal/amp.png" alt="AMP" style="width: 90%">
     <figcaption>AMP task</figcaption>
   </figure>
 ]]
@@ -693,14 +724,14 @@ More realistic experiments, with oracles that correlate with experimental result
 
 .left-column[.center[
   <figure>
-    <img src="../assets/images/slides/mfal/molecules_ip.png" alt="Ionisation potential" style="width: 100%">
+    <img src="../../../assets/images/slides/mfal/molecules_ip.png" alt="Ionisation potential" style="width: 100%">
     <figcaption>Ionisation potential task</figcaption>
   </figure>
 ]]
 
 .right-column[.center[
   <figure>
-    <img src="../assets/images/slides/mfal/molecules_ea.png" alt="Electron affinity" style="width: 100%">
+    <img src="../../../assets/images/slides/mfal/molecules_ea.png" alt="Electron affinity" style="width: 100%">
     <figcaption>Electron affinity task</figcaption>
   </figure>
 ]]
@@ -713,8 +744,8 @@ More realistic experiments, with oracles that correlate with experimental result
 We have extended GFlowNets to handle multi-objective optimisation and not only cover the Pareto front but also sample diverse objects at each pointin the Pareto front.
 
 .center[
-![:scale 30%](../assets/images/slides/gflownet/mogfn_pareto_front.png)
-![:scale 30%](../assets/images/slides/gflownet/mogfn_al.png)]
+![:scale 30%](../../../assets/images/slides/gflownet/mogfn_pareto_front.png)
+![:scale 30%](../../../assets/images/slides/gflownet/mogfn_al.png)]
 
 .references[
 Jain et al. [Multi-Objective GFlowNets](https://arxiv.org/abs/2210.12765), arXiv 2210.12765, 2022. 
@@ -728,12 +759,99 @@ Jain et al. [Multi-Objective GFlowNets](https://arxiv.org/abs/2210.12765), arXiv
 We have recently generalised the theory and implementation of GFlowNets to encompass both discrete and continuous or hybrid state spaces. 
 
 .center[
-![:scale 30%](../assets/images/slides/gflownet/kde_reward_molecule.png)
-![:scale 30%](../assets/images/slides/gflownet/kde_gfn_molecule.png)]
+![:scale 80%](../../../assets/images/teaching/mlprojects/gen/gflownet_conformation.png)
+]
 
 .references[
-Lahlou et al. [A Theory of Continuous Generative Flow Networks](https://arxiv.org/abs/2301.12594), arXiv 2301.12594, 2023. 
+- Lahlou et al. [A Theory of Continuous Generative Flow Networks](https://arxiv.org/abs/2301.12594), arXiv 2301.12594, 2023. 
+- Volokhova et al. [Towards equilibrium molecular conformation generation with GFlowNets](https://arxiv.org/abs/2310.14782), Digital Discovery, 2024. 
 ]
+
+---
+
+##  GFlowNet extensions and applications
+### Molecular conformation
+
+We have recently generalised the theory and implementation of GFlowNets to encompass both discrete and continuous or hybrid state spaces. 
+
+.center[
+![:scale 30%](../../../assets/images/slides/gflownet/kde_reward_molecule.png)
+![:scale 30%](../../../assets/images/slides/gflownet/kde_gfn_molecule.png)]
+
+.references[
+- Lahlou et al. [A Theory of Continuous Generative Flow Networks](https://arxiv.org/abs/2301.12594), arXiv 2301.12594, 2023. 
+- Volokhova et al. [Towards equilibrium molecular conformation generation with GFlowNets](https://arxiv.org/abs/2310.14782), Digital Discovery, 2024. 
+]
+
+---
+
+##  GFlowNet extensions and applications
+### Crystal-GFlowNet for crystal structure generation
+
+.center[![:scale 100%](../../../assets/images/slides/crystals/crystalgfn_init.png)]
+
+---
+
+count: false
+
+##  GFlowNet extensions and applications
+### Crystal-GFlowNet for crystal structure generation
+
+.center[![:scale 100%](../../../assets/images/slides/crystals/crystalgfn_sg.png)]
+
+---
+
+count: false
+
+##  GFlowNet extensions and applications
+### Crystal-GFlowNet for crystal structure generation
+
+.center[![:scale 100%](../../../assets/images/slides/crystals/crystalgfn_sg_output.png)]
+
+---
+
+count: false
+
+##  GFlowNet extensions and applications
+### Crystal-GFlowNet for crystal structure generation
+
+.center[![:scale 100%](../../../assets/images/slides/crystals/crystalgfn_comp.png)]
+
+---
+
+count: false
+
+##  GFlowNet extensions and applications
+### Crystal-GFlowNet for crystal structure generation
+
+.center[![:scale 100%](../../../assets/images/slides/crystals/crystalgfn_comp_output.png)]
+
+---
+
+count: false
+
+##  GFlowNet extensions and applications
+### Crystal-GFlowNet for crystal structure generation
+
+.center[![:scale 100%](../../../assets/images/slides/crystals/crystalgfn_lp.png)]
+
+---
+
+count: false
+
+##  GFlowNet extensions and applications
+### Crystal-GFlowNet for crystal structure generation
+
+.center[![:scale 100%](../../../assets/images/slides/crystals/crystalgfn_lp_output.png)]
+
+---
+
+count: false
+
+##  GFlowNet extensions and applications
+### Crystal-GFlowNet for crystal structure generation
+
+.center[![:scale 100%](../../../assets/images/slides/crystals/crystalgfn_all.png)]
 
 ---
 
@@ -743,296 +861,12 @@ Lahlou et al. [A Theory of Continuous Generative Flow Networks](https://arxiv.or
 Inspiration from theoretical crystallography to sample crystals with desirable properties and constraints.
 
 .center[
-![:scale 55%](../assets/images/slides/crystals/distributions_fe.png)
+![:scale 55%](../../../assets/images/slides/crystals/distributions_fe.png)
 ]
 
 .references[
 Mila AI4Science, Hernandez-Garcia et al. [Crystal-GFN: sampling crystals with desirable properties and constraints](https://arxiv.org/abs/2310.04925), arXiv 2310.04925, 2023. 
 ]
-
----
-
-name: title
-class: title, middle
-
-## Summary and conclusions
-
-.center[![:scale 30%](../assets/images/slides/misc/conclusion.png)]
-
----
-
-## Summary and conclusions
-
-* There is a mismatch between the magnitude of the climate crisis and the public's concern about it.
-* We have used AI to generate .highlight1[personalised visualisations of extreme climate events].
-* The climate crisis requires .highlight1[accelerating the pace of scientific discovery].
-* AI-driven scientific demands .highlight1[efficiently exploring huge, highly-structured, high-dimensional spaces].
-* .highlight1[GFlowNet] is a new generative method designed to tackle these challenges.
-* GFlowNet has been proven successful in practically relevant and challenging tasks, such as .highlight1[biological sequence design], .highlight1[molecular conformation], .highlight1[crystal structure generation], etc.
-* Multi-fidelity active learning for scientific discovery tackles "real-world" problems close the industry's!
-
-.references[
-* Schmidt et al. [ClimateGAN: Raising Climate Change Awareness by Generating Images of Floods](https://arxiv.org/abs/2110.02871v1), ICLR 2022.
-* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). arXiv 2306.11715, 2023.
-* Jain et al.. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/abs/2302.00615). Digital Discovery, Royal Society of Chemistry, 2023.
-]
-
---
-
-.highlight2[Open source code]: [github.com/alexhernandezgarcia/gflownet](https://github.com/alexhernandezgarcia/gflownet)
-
----
-
-## Deep learning
-### Definitions and terminology
-
-We can consider .highlight1[deep learning] a class or family of machine learning methods that compute hierarchical .highlight1[representations] of the inputs. That is, the input data is transformed into new representations, which are the inputs to new representations, and so on. .highlight1[Deep learning is about learning representations].
-
-<figure style="text-align: center">
-	<img src="../../../assets/images/teaching/mlprojects/dl/deep_neural_network.png" alt="A conceptualisation of a neural network" style="width: 55%">
-  <figcaption style="text-align: center; font-size: small">Adapted from https://cs231n.github.io</figcaption>
-</figure>
-
-???
-
-* Mention the name of ICLR
-
----
-
-count: false
-
-## Deep learning
-### Definitions and terminology
-
-The simplest possible deep learning algorithm is a .highlight1[multi-layer] perceptron (MLP) .cite[(Rosenblatt, 1958)], a network of perceptrons.
-
-The notion of a _network_ and the inspiration by biological _neurons_ yields the term .highlight1[artificial neural networks]. Today, this term is used to refer to both simple MLPs or generally more complex deep learning algorithms.
-
-<figure style="text-align: center">
-	<img src="../../../assets/images/teaching/mlprojects/dl/deep_neural_network.png" alt="A conceptualisation of a neural network" style="width: 55%">
-  <figcaption style="text-align: center; font-size: small">Adapted from https://cs231n.github.io</figcaption>
-</figure>
-
-.references[Rosenblatt, F (1958). The Perceptron: a probabilistic model for information storage and organization in the brain. Psychological Review.]
-
----
-
-## Deep learning
-### Why deep?
-
-The universal approximation theorem tells us that a single-layer MLP can approximate anything to arbitrary precision. Why do we need _depth_?
-
---
-
-Though seemingly simple, the answer to this question is multifaceted. Some insights:
-
-* Deeper MLPs can achieve the same precision with exponentially fewer neurons. 
-* Depth allows for compositionality, a key aspect of human cognition.
-
----
-
-## Deep learning
-### Re-adjusting the promises
-
-> "_\[.highlight1[Hand designing] good feature extractors, .highlight1[engineering skill] and .highlight1[domain expertise]\] **can all be avoided** if good features can be learned automatically using a general-purpose learning procedure. .highlight1[This is the key advantage of deep learning]._"
-.right[.cite[LeCun, Bengio and Hinton. (2015)]]
-
-.references[
-LeCun, Bengio and Hinton (2015). Deep learning. Nature
-]
-
---
-
-Deep learning is an incredibly powerful tool, but:
-
-* It does not provide a "general-purpose learning procedure", or so do other ML algorithms.
-* Hand-design, engineering skill and domain expertise are typically required for successful deep learning applications.
-
----
-
-## Deep learning
-### The actual advantages
-
-Shallow machine learning models have several limitations:
-
-* They struggle with large quantities of data.
-* They require good inputs.
-
---
-
-Deep learning methods excel in some important aspects:
-
-* Training neural networks .highlight[scales nicely with the amount of data].
-* The fundamental ideas of deep learning are .highlight1[extremely flexible]:
-* Good new representations can be learnt from a variety of raw inputs.
-* Network architectures can be extended and adapted to incorporate a variety of .highlight1[inductive biases].
-
---
-
-.smaller[.conclusion[The flexibility of deep learning has given rise to a large family of different methods and architectures, which incorporate different inductive biases about the data or tasks.]]
-
-??? 
-
-Mastering each method requires quite specific engineering skills and domain expertise.
-
----
-
-## Convolutional neural networks (CNN)
-### Image data
-
-.right-column[
-.center[<img src="../../../assets/images/teaching/mlprojects/dl/cnn.jpg" alt="CNN" style="width:100%"/>]
-<figure style="text-align: center">
-<img src="../../../assets/images/teaching/mlprojects/dl/depthcol.jpg" alt="Receptive field" style="width:60%"/>
-  <figcaption style="text-align: center; font-size: small">Source: https://cs231n.github.io</figcaption>
-</figure>
-]
-
-.left-column[
-* Inductive bias: group equivariance over space.
-* The same convolutional operation is valid on all parts of an image.
-* This reduces the number of parameters and speeds up training.
-* Internal representations can be thought as _feature maps_ (images).
-
-.center[<img src="../../../assets/images/teaching/mlprojects/dl/featuremaps.jpg" alt="Feature maps" style="width:100%"/>]
-]
-
-???
-
-* Mention the design parameters: kernel size, input channels, output channels, stride, padding, number of layers, etc.
-
----
-
-## Convolutional neural networks (CNN)
-### Popular architectures
-
-* [AlexNet](https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf): relevant for historical reasons.
-* [All-CNN](https://arxiv.org/abs/1412.6806): only convolutional layers, high parameter efficiency, great for prototyping.
-* [VGG](https://arxiv.org/abs/1409.1556): very popular, but very large.
-* [Inception](https://arxiv.org/abs/1512.00567): a convoluted convolutional neural network.
-* [ResNet](https://arxiv.org/abs/1512.03385): residual blocks for training very deep networks, still very popular.
-* [Wide ResNet](http://www.bmva.org/bmvc/2016/papers/paper087/index.html): rather wide than deep ResNet.
-* [DenseNet](https://arxiv.org/abs/1608.06993): dense connection across layers.
-
----
-
-## Convolutional neural networks
-### Beyond image classification
-
-.context[The ideas of deep learning are extremely flexible]
-
-The same principle of convolutional layers can be applied to any tasks involving images, such as semantic segmentation, depth estimation, or even image-like data, such as sound spectrograms.
-
-However, for good results, each task will require very specific techniques, tricks and engineering.
-
-.center[<img src="../../../assets/images/teaching/mlprojects/dl/segdepthorig.png" alt="Orig" style="width:25%"/><img src="../../../assets/images/teaching/mlprojects/dl/seg.png" alt="Segmentation" style="width:25%"/><img src="../../../assets/images/teaching/mlprojects/dl/depth.png" alt="Depth" style="width:25%"/>]
-
-.center[<img src="../../../assets/images/teaching/mlprojects/dl/spectrogram.png" alt="Spectrogram" style="width:35%"/>]
-
----
-
-## Recurrent neural networks (RNN)
-### Sequential data
-
-* Inductive bias: equivariance across _time_.
-* Neurons of a recurrent neural network implement recurrent connections.
-* Inductive bias: memory matters.
-* The values of previous (and later) parts of a sequence influence the current value.
-
-<figure style="text-align: center">
-<img src="../../../assets/images/teaching/mlprojects/dl/rnn1.png" alt="RNN" style="width:55%"/>
-  <figcaption style="text-align: center; font-size: small">Adapted from: https://www.ibm.com/cloud/learn/recurrent-neural-networks</figcaption>
-</figure>
-
----
-
-## Recurrent neural networks (RNN)
-### Variants
-
-Vanilla RNNs are not stable, especially for longer sequences. In practice, more sophisticated versions are used:
-
-.left-column[
-.highlight1[Long short-term memory (LSTM)]
-
-.center[<img src="../../../assets/images/teaching/mlprojects/dl/lstm.png" alt="LSTM" style="width:100%"/>]
-]
-
-.right-column[
-.highlight1[Gated recurrent unit (GRU)]
-
-.center[<img src="../../../assets/images/teaching/mlprojects/dl/gru.png" alt="GRU" style="width:100%"/>]
-]
-
-Both LSTMs and GRUs implement additional gates to regulate the flow of information and let long-term gradients flow unchanged.
-
-???
-
-Mention Transformers
-
----
-
-## Transformers
-### Sequential data
-
-.left-column[
-* Inductive bias: nearly _any_ past and future data influence the current input.
-* Unlike RNNs, transformers process the whole input at once.
-* A mechanism of **attention** determines the importance of each part of the input.
-]
-.right-column[
-.center[<img src="../../../assets/images/teaching/mlprojects/dl/transformer.jpg" alt="Transformer" style="width:60%"/>]
-]
-
-.references[
-* [Self-attention](https://arxiv.org/abs/1409.0473)
-* [Transformers](https://arxiv.org/abs/1706.03762)
-]
-
----
-
-## Graph neural networks (GNN)
-### Graph data
-
-* GNNs are designed to process graph structures: complex topological structure and arbitrary size.
-* Inductive bias: equivariance across entities and relations.
-* Every node in the graph receives information about its neighbours.
-* Every node in the implements a neural network to represent the structure of its neighbourhood. 
-* Graph neural networks may be seen as a generalisation of convolutional networks.
-
-<figure style="text-align: center">
-<img src="../../../assets/images/teaching/mlprojects/dl/gnn.png" alt="GNN" style="width:55%"/>
-  <figcaption style="text-align: center; font-size: small">Source: snap-stanford.github.io/cs224w-notes</figcaption>
-</figure>
-
----
-
-## Generative adversarial networks (GAN)
-
-Generative adversarial networks are a good example of how the capabilities of deep neural networks can be combined to create new algorithms.
-
-* GANs are generative models: meant to learn probability distribution of the data, rather than a conditional probability.
-* GANs consist of two neural networks that context each other in a zero-sum game.
-	* A discriminator is train to tell apart real or _fake_ data.
-	* A generator aims to fool the discriminator with _fake_ data.
-
-.center[<img src="../../../assets/images/teaching/mlprojects/dl/gan.png" alt="GAN" style="width:55%"/>]
-
----
-
-## Generative Flow Networks (GFlowNets)
-### A generative method to sample proportional rewards
-
-.right-column-33[
-.center[
-![:scale 60%](../../../assets/images/slides/gfn-seq-design/lego_blocks.png)
-![:scale 50%](../../../assets/images/slides/gflownet/mode_generalization.png)
-]]
-
-* A probabilistic modelling method.
-* Objects $x \in \cal X$, can be constructed through a sequence of steps $\tau$ using a given set of actions.
-* At each step of the trajectory $\tau=(s_0\rightarrow s_1 \rightarrow \dots \rightarrow s_f)$, we get a partially constructed object $s\in \mathcal{S}$, including a starting empty state $s_0$ and a common final state $s_f$. 
-* GFlowNets learn a policy $\pi$ to construct $x$ such that: $$\pi(x) \propto R(x)$$
-* Computation is ammortized during training, hence sampling becomes "cheap".
 
 ---
 
@@ -1056,114 +890,126 @@ Alex Hernández-García (he/il/él)
 
 ---
 
-## Stochastic Gradient Descent (SGD)
+## A Scrabble-inspired GFlowNet environment
 
-Together with [backpropagation](https://en.wikipedia.org/wiki/Backpropagation), stochastic gradient descent (SGD) is the workhorse of deep learning: it is the optimisation algorithm that will enable learning.
+Task: to sample English words (up to 7 letters) with high "Scrabble" score.
 
-In practice, in deep learning, we typically use a variant of .highlight1[mini-batch stochastic gradient descent], which is a generalisation of _stochastic gradient descent_, which is a particular case of _batch gradient descent_:
+This is hard! Number of combinations: $\sim26^7 \approx 10^{10}$. Number of English words with up to 7 letters: $\sim10^5$
 
-$$\theta^{t+1} = \theta^t - \lambda \cdot \nabla J(\theta; x^{i:i+B}, y^{i:i+B})$$
-
+.left-column[
+.center[![:scale 100%](../../../assets/images/slides/scrabble/tiles.jpg)]
+]
 --
-
-Two crucial parameters:
-
-* $\lambda$: learning rate
-* $B$: batch size
-
---
-
-Variants and extensions of SGD: momentum, Nesterov, Adagrad, Adadelta, Adam, RMSProp...
-
-.references[
-Ruder, S. (2016). [An overview of gradient descent optimization algorithms](https://arxiv.org/abs/1609.04747). arXiv
+.right-column[
+.center[![:scale 50%](../../../assets/images/slides/scrabble/scrabble_free.jpg)]
+.center[![:scale 50%](../../../assets/images/slides/scrabble/scrabble_hope.jpg)]
 ]
 
 ---
 
-## Deep learning in practice
-### Regularisation
+## Scrabble GFlowNet ~~DAG~~ Tree
 
-Definition from the previous class: any modification applied to a learning algorithm that helps the model generalise better.
-
-With this definition, many techniques can be considered regularisation. It is worth considering a useful distinction:	
-
-* .highlight1[Explicit regularization techniques] are those techniques which reduce the .highlight1[representational capacity] of the model class they are applied on.
-* .highlight1[Implicit regularization] is the reduction of the generalization error or overfitting provided by means other than explicit regularization techniques.
-
-.references[
-Hernandez-Garcia and König (2018). [Data augmentation instead of explicit regularization](https://arxiv.org/abs/1806.03852). arXiv
-]
-
-???
-
-* That is, given a model class H0, for instance a neural network architecture, the introduction of explicit regularization will span a new hypothesis set H1, which is a proper subset of the original set, that is H1 ( H0.
-* Elements that provide implicit regularization do not reduce the representational capacity, but may affect the effective capacity of the model: the achievable set of hypotheses given the model, the optimization algorithm, hyperparameters, etc.  
-
----
-
-## Explicit regularisation
-### Dropout and weight decay
-
-.highlight1[Weight decay]:
-
-Weight decay is a classical parameter norm penalty, as used in traditional machine learning algorithms:
-
-$$\hat{J}(\theta; X, y) = J(\theta; X, y) + \lambda\Omega(\theta)$$
-
-.highlight1[Dropout]:
-
-Dropout _turns off_ a random subset of neurons during training in order to prevent overfitting and improve robustness to noise.
+Task: to sample English words (existing in a vocabulary) with high "Scrabble" score (reward).
 
 --
 
-Both weight decay and dropout are included in a majority of published models (but see next slide!)
-
----
-
-## Data augmentation
-
-Data augmentation refers to the techniques that synthetically and dynamically expand a data set by applying transformations on the existing examples, thus augmenting the amount and variability of the available data. 
-
+.columns-3-left[
+.center[![:scale 90%](../../../assets/images/slides/gfn-seq-design/flownet.gif)]
+]
+--
+.columns-3-center[
 .center[
-<img src="../../../assets/images/slides/rethinksl/255011_light_imagenet.gif" style="width:19%"/>
-<img src="../../../assets/images/slides/rethinksl/255011_heavier_imagenet.gif" style="width:19%"/>
-<img src="../../../assets/images/slides/rethinksl/66016_light_imagenet.gif" style="width:19%"/>
-<img src="../../../assets/images/slides/rethinksl/66016_heavier_imagenet.gif" style="width:19%"/>
+State space, $\mathcal{S}$: all possible combinations of 0-7 letters
+
+![:scale 50%](../../../assets/images/slides/scrabble/scrabble_free.jpg)
+![:scale 50%](../../../assets/images/slides/scrabble/scrabble_hope.jpg)
 ]
+]
+--
+.columns-3-center[
+.center[
+Action space, $\mathbb{A}$: adding each letter, plus the "stop" action.
+
+![:scale 80%](../../../assets/images/slides/scrabble/action_space.png)
+]
+]
+
+---
+
+## States and action representation
+
+We can represent each letter by an index. Simplified example:
+
+```python
+tokens_dict = {"A": 1, "E": 2, "I": 3, "L": 4, "M": 5, "O": 6, "_": 0}
+```
 
 --
 
-Data augmentation is a good example of how the flexibility allows to efficiently incorporate inductive biases and domain knowledge via the data.
+And a state by a list of indices. For example, the word ~~MILA~~ Mila:
 
-Data augmentation provides much larger generalisation gains than explicit regularisation, and often provides better results when used without weight decay and dropout.
+```python
+mila = [5, 3, 4, 1, 0, 0, 0]
+```
 
+--
+
+We can represent actions by a single-tuple element with the index of the letter:
+
+```python
+action_a: = (1,)
+action_m: = (5,)
+action_o: = (6,)
+action_eos: = (-1,) # EOS: end-of-sequence (stop)
+```
+---
+
+## GFlowNet implementation
+
+.highlight2[Open source GFlowNet implementation]: [github.com/alexhernandezgarcia/gflownet](https://github.com/alexhernandezgarcia/gflownet)
+
+--
+
+* A key design principle is the simplicity to create new environments.
+* Current environments: hyper-grid, hyper-cube, hyper-torus, Tetris, crystals, molecules, DNA...
+* Discrete and continuous support
+* Hydra-based configuration
+* WandB
+
+--
+
+Research articles supported by this GFlowNet package:
 .references[
-Hernandez-Garcia and König (2018). [Data augmentation instead of explicit regularization](https://arxiv.org/abs/1806.03852). arXiv
+* Lahlou et al. [A Theory of Continuous Generative Flow Networks](https://arxiv.org/abs/2301.12594), ICML, 2023. 
+* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). RealML, NeurIPS 2023.
+* Mila AI4Science et al. [Crystal-GFN: sampling crystals with desirable properties and constraints](https://arxiv.org/abs/2310.04925). AI4Mat, NeurIPS 2023 (spotlight).
+* Volokhova, Koziarski et al. [Towards equilibrium molecular conformation generation with GFlowNets](https://arxiv.org/abs/2310.14782). AI4Mat, NeurIPS 2023.
 ]
 
 ---
 
-## Monitoring during training
+## The core of a GFlowNet "environment"
 
-Always, **always** log at least the training and validation loss, and ideally other metrics. Monitoring the learning curves can save a lot of time and provide valuable insights.
+Since most common functionality is implemented by the base [`GFlowNetEnv`](https://github.com/alexhernandezgarcia/gflownet/blob/main/gflownet/envs/base.py), the only methods that a new discrete environment must implement are:
 
-.center[<img src="../../../assets/images/teaching/mlprojects/dl/loss-curves.png" alt="Loss curves" style="width:55%"/>]
+--
 
----
+* `__init__()`: defines attributes, EOS action, source state, etc.
 
-## Interesting topics not covered
+--
+* `get_action_space()`: constructs the list of possible actions (tuples).
 
-* Attention and Transformers
-* Multi-task learning
-* _Self-supervised_ learning
-* Variational inference
-* Reinforcement learning
-* Deep active learning
-* Transfer learning
-* Continual learning
-* Deep learning theory
-* ...
+--
+* `step(action)`: given an action, update the environment's state.
+
+--
+* `get_parents(state)`: obtains the list of parents of a given state, and their corresponding actions.
+
+--
+* `get_mask_invalid_actions_forward(state)`: determines the invalid actions from a given state.
+
+--
+* State conversions: `states2proxy()`, `states2policy()`, `state2readable()`, `readable2state()`.
 
 ---
 
