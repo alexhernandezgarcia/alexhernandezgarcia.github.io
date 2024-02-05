@@ -22,10 +22,10 @@ L'objectif de ce cours est de vous préparer à vous attaquer à des projets pra
 4. Clusters HPC
 5. Revue de l'apprentissage automatique
 6. Revue de l'apprentissage profond
-7. Revue des modèles génératifs
-8. Visualisation des données
-9. Rédaction scientifique et technique
-10. Tutoriel PyTorch avancé
+7. Tutoriel PyTorch avancé
+8. Revue des modèles génératifs
+9. Visualisation des données
+10. Rédaction scientifique et technique
 11. Travail sur les projets
 
 # Critères d'évaluation
