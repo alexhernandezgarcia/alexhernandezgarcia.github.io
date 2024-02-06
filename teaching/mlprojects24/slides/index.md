@@ -20,3 +20,5 @@ title: IFT 3710/6759 - Slides
 
 ### [1 février - Modèles génératifs pour la découverte scientifique](20240201-gflownets)
 
+### [6 février - Visualisation des données](20240206-dataviz)
+
