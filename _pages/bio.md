@@ -6,7 +6,9 @@ permalink: /bio
 
 ## Short version
 
-Alex Hernandez-Garcia is a postdoc at Mila, interested in the fundamental aspects of learning, both in brains and machines and in applications of machine learning to accelerate scientific discoveries to tackle the climate crisis.
+Alex Hernandez-Garcia is a postdoc at Mila and the Université de Montréal. His current focus is on machine learning research for scientific applications to tackle the climate crisis. Previously, his research has explored the intersection between learning in both brains and machines, which continues to be a source of inspiration. 
+
+[(_Lire en français_)](bio-fr)
 
 ## Longer version
 
