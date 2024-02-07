@@ -25,11 +25,11 @@ Les premières semaines du cours sont consacrées à l'introduction du cours, à
 * Semaine 3, 22 janvier 2024--26 janvier 2024 : revue des projets proposés, expression des préférences de projet et proposition de projets propres.
 * Semaine 4, 29 janvier 2024--2 février 2024 : attribution des projets, formation des équipes, première réunion avec les instructeur·rice·s.
     * A la fin de la semaine, toutes les équipes doivent être formées et enregistrées, chaque étudiant·e doit faire partie d'une équipe.
-    * **Devoir 1** (2 février 2024) : enregistrement de l'équipe : titre de travail et membres.
+    * **Devoir 1** (8 février 2024) : enregistrement de l'équipe : titre de travail, mot-code et membres.
 * Semaine 5, 5 février 2024--9 février 2024 : planification du projet, revue de la littérature.
-    * **Devoir 2** (9 février 2024) : plan du projet : une page contenant une brève description du projet, les étapes prévues, les objectifs et la répartition provisoire du travail entre les membres de l'équipe.
+    * **Devoir 2** (12 février 2024) : description du projet : une page (max) contenant une brève description du projet.
 * Semaine 6, 12 février 2024--16 février 2024 : revue de la littérature, premières étapes.
-    * **Devoir 3** (16 février 2024) : revue de la littérature : une page contenant une revue de la littérature pertinente et connexe.
+    * **Devoir 3** (16 février 2024) : revue de la littérature : une page contenant une revue de la littérature pertinente et connexe, en identifiant ce que le projet peut apporter au problème.
 * Semaines 7--8, 19 février 2024--1 mars 2024 : développement du projet (phase 1)
     * **Devoir 4** (1 mars 2024) : méthodes et résultats préliminaires : une page contenant une description des méthodes développées et prévues, les changements pertinents par rapport au plan initial, et les résultats préliminaires et/ou les défis.
 * Semaine 9, 4 mars 2024--8 mars 2024 : pause (_période d'activités libres_)
