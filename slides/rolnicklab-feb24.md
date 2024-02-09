@@ -12,8 +12,6 @@ class: title, middle
 
 .center[
 <a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 4em"></a>
-&nbsp&nbsp&nbsp&nbsp
-<a href="https://www.umontreal.ca/"><img src="../assets/images/slides/logos/udem-white.png" alt="UdeM" style="height: 4em"></a>
 ]
 
 .smaller[.footer[
@@ -433,8 +431,6 @@ Alex Hernández-García (he/il/él)
 
 .center[
 <a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 3em"></a>
-&nbsp&nbsp&nbsp&nbsp
-<a href="https://www.umontreal.ca/"><img src="../assets/images/slides/logos/udem-white.png" alt="UdeM" style="height: 3em"></a>
 ]
 
 .footer[[alexhernandezgarcia.github.io](https://alexhernandezgarcia.github.io/) | [alex.hernandez-garcia@mila.quebec](mailto:alex.hernandez-garcia@mila.quebec)]<br>
