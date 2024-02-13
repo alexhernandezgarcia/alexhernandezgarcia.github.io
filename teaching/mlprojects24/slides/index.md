@@ -22,3 +22,5 @@ title: IFT 3710/6759 - Slides
 
 ### [6 février - Visualisation des données](20240206-dataviz)
 
+### [12 février - Rédaction scientifique et technique](20240213-writing)
+
