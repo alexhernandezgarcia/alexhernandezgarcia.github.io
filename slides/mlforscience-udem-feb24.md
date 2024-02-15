@@ -28,23 +28,166 @@ Slides: [alexhernandezgarcia.github.io/slides/{{ name }}](https://alexhernandezg
 
 ---
 
-## Collaborators
+## Outline
+
+.bigger[
+- About me
+- Overview of machine learning to tackle climate and health challenges
+- Machine learning for scientific discoveries
+    - GFlowNets for materials discovery
+    - Multi-fidelity active learning
+- Challenges and perspectives
+]
+
+---
+
+name: title
+class: title, middle
+
+## About me
+
+.center[![:scale 30%](../assets/images/slides/misc/gaspesie.jpg)]
+
+---
+
+## About me
+### My academic journey
+
+--
+
+* .highlight1[Bachelor's]: Image and Sound Engineering, University Carlos III of Madrid (2013)
+
+--
+
+* .highlight1[Bachelor's] (partial): Audiovisual Communication, University Carlos III of Madrid (2013)
+
+--
+
+* .highlight1[Master's]: Machine Learning and Computer Vision, University Carlos III of Madrid (2015)
+
+--
+
+* .highlight1[PhD]: Institute of Cognitive Science, Universität Osnabrück (2016–2020)
+
+  * Based in Berlin
+  * Marie Skłodowska Curie ITN “NextGenVis” (_Next generation of European visual neuroscientists_)
+  * Thesis topics: deep learning, visual perception and computational neuroscience
+  * Internship at Spinoza Centre for Neuroimaging, Amsterdam, 2018
+  * Internship at University of Cambridge, 2019
+
+---
+
+count: false
+
+## About me
+### My academic journey
+
+.context35[.highlight1[PhD] work on deep learning, visual perception and computational neuroscience.]
+
+I studied the .highlight1[role of data augmentation in the generalisation] of deep neural networks, its connection to regularisation and the differences between .highlight1[implicit and explicit regularisation].
+
+.center[
+<img src="../assets/images/slides/rethinksl/255011_light_imagenet.gif" style="width:20%"/>
+<img src="../assets/images/slides/rethinksl/255011_heavier_imagenet.gif" style="width:20%"/>
+<img src="../assets/images/slides/rethinksl/66016_light_imagenet.gif" style="width:20%"/>
+<img src="../assets/images/slides/rethinksl/66016_heavier_imagenet.gif" style="width:20%"/>
+]
+
+.references[
+- Hernandez-Garcia and König. [Data augmentation instead of explicit regularization](https://arxiv.org/abs/1806.03852). arxiv:1806.03852, 2018.
+- Hernandez-Garcia and König. [Do deep nets really need weight decay and dropout?](https://arxiv.org/abs/1802.07042). arxiv:1802.07042, 2018.
+- Hernandez-Garcia. [Data augmentation and image understanding](https://arxiv.org/abs/2012.14185). arxiv:2012.14185, 2020.
+]
+
+---
+
+count: false
+
+## About me
+### My academic journey
+
+.context35[.highlight1[PhD] work on deep learning, visual perception and computational neuroscience.]
+
+I compared the representations learnt by deep networks trained with various levels of .highlight1[data augmentation and the representations in fMRI] measurements in the human visual cortex.
+
+.left-column-33[
+.center[
+<img src="../assets/images/slides/daug/visual_cortex.png" style="width:100%"/>
+]]
+.right-column-66[
+.center[
+<img src="../assets/images/slides/daug/rdms.png" style="width:90%"/>
+]]
+
+.references[
+- Hernandez-Garcia et al. [Deep neural networks trained with heavier data augmentation learn features closer to representations in hIT](https://ccneuro.org/2018/proceedings/1046.pdf). CCN, 2018.
+- Hernandez-Garcia. [Data augmentation and image understanding](https://arxiv.org/abs/2012.14185). arxiv:2012.14185, 2020.
+]
+
+---
+
+count: false
+
+## About me
+### My academic journey
+
+.context35[.highlight1[PhD] work on deep learning, visual perception and computational neuroscience.]
+
+I proposed a .highlight1[brain-inspired unsupervised, contrastive training objective to encourage representational invariance] to perceptually plausible image transformations - _data augmentation invariance_. Note: prior to Google's SimCLR paper.
 
 .left-column[
-* Nikita Saxena
-* Moksh Jain
-* Chenghao Liu
-* Yoshua Bengio
-* ...
+.center[
+<img src="../assets/images/slides/daug/daug_inv_samples.png" style="width:100%"/>
+]]
+.right-column[
+.center[
+<img src="../assets/images/slides/daug/invariance_densenet.png" style="width:100%"/>
+]]
+
+.references[
+- Hernandez-Garcia, König and Kietzmann. [Learning robust visual representations using data augmentation invariance](https://arxiv.org/abs/1806.03852). arxiv:1806.03852, 2018.
+- Hernandez-Garcia. [Data augmentation and image understanding](https://arxiv.org/abs/2012.14185). arxiv:2012.14185, 2020.
 ]
 
-.right-column[
-* Kolya Malkin
-* Salem Lahlou
-* Alexandra Volokhova
-* Emmanuel Bengio
-* ...
-]
+---
+
+## When I am not training models or reading papers...
+
+~~...I am reviewing papers, trying to empty my email inbox, having meetings...~~
+
+---
+
+count: false
+
+## When I am not training models or reading papers...
+
+~~...I am reviewing papers, trying to empty my email inbox, having meetings...~~
+
+.center[![:scale 60%](../assets/images/slides/misc/bjr1.jpg)]
+
+.footnote[[BrokenJugRamblers.bandcamp.com](https://brokenjugramblers.bandcamp.com/)]
+
+---
+
+count: false
+
+## When I am not training models or reading papers...
+
+~~...I am reviewing papers, trying to empty my email inbox, having meetings...~~
+
+.center[![:scale 60%](../assets/images/slides/misc/ouc3m.jpg)]
+
+---
+
+count: false
+
+## When I am not training models or reading papers...
+
+~~...I am reviewing papers, trying to empty my email inbox, having meetings...~~
+
+.center[![:scale 60%](../assets/images/slides/misc/lume.jpg)]
+
+.footnote[[LumeDeBiqueira.es](https://www.lumedebiqueira.es/en/)]
 
 ---
 
@@ -184,7 +327,7 @@ What are better, new materials needed for?
 
 .context35[The climate crisis demands accelerating scientific discoveries.]
 
-.right-column-66[<br>.center[![:scale 90%](../assets/images/slides/materials/activelearning_noml.png)]]
+.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_1.png)]]
 
 .left-column-33[
 The .highlight1[traditional pipeline] for scientific discovery (paradigms 1-3):
@@ -201,7 +344,22 @@ count: false
 
 .context35[The traditional scientific discovery loop is too slow.]
 
-.right-column-66[<br>.center[![:scale 90%](../assets/images/slides/materials/activelearning_ml.png)]]
+.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_2.png)]]
+
+.left-column-33[
+A .highlight1[machine learning model] can be:
+* trained with data from _real-world_ experiments and
+]
+
+---
+
+count: false
+
+## Machine learning in the loop
+
+.context35[The traditional scientific discovery loop is too slow.]
+
+.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_3.png)]]
 
 .left-column-33[
 A .highlight1[machine learning model] can be:
@@ -217,7 +375,7 @@ count: false
 
 .context35[The traditional scientific discovery loop is too slow.]
 
-.right-column-66[<br>.center[![:scale 90%](../assets/images/slides/materials/activelearning_ml.png)]]
+.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_3.png)]]
 
 .left-column-33[
 A .highlight1[machine learning model] can be:
@@ -237,7 +395,7 @@ count: false
 
 .context[Can we do better than _linear_?<br>An agent in the loop.]
 
-.right-column-66[<br>.center[![:scale 90%](../assets/images/slides/materials/activelearning_agent.png)]]
+.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_4.png)]]
 
 .left-column-33[
 A .highlight1[machine learning **agent**] in the loop could (ideally):
@@ -254,7 +412,7 @@ count: false
 
 .context[Can we do better than _linear_?<br>An agent in the loop.]
 
-.right-column-66[<br>.center[![:scale 90%](../assets/images/slides/materials/activelearning_agent.png)]]
+.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_4.png)]]
 
 .left-column-33[
 A .highlight1[machine learning **agent**] in the loop could (ideally):
@@ -273,7 +431,7 @@ count: false
 
 .context[GFlowNet as the agent.]
 
-.right-column-66[<br>.center[![:scale 90%](../assets/images/slides/materials/activelearning_hl-gfn.png)]]
+.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_5.png)]]
 
 .left-column-33[
 A .highlight1[machine learning **agent**] in the loop could (ideally):
