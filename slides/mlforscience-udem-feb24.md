@@ -133,7 +133,7 @@ count: false
 
 .context35[.highlight1[PhD] work on deep learning, visual perception and computational neuroscience.]
 
-I proposed a .highlight1[brain-inspired unsupervised, contrastive training objective to encourage representational invariance] to perceptually plausible image transformations - _data augmentation invariance_. Note: work prior to Google's SimCLR paper.
+I proposed a .highlight1[brain-inspired unsupervised, contrastive training objective to encourage representational invariance] to perceptually plausible image transformations - .highlight2[_data augmentation invariance_]. Note: work prior to Google's SimCLR paper.
 
 .left-column[
 .center[
@@ -148,6 +148,24 @@ I proposed a .highlight1[brain-inspired unsupervised, contrastive training objec
 - Hernandez-Garcia, König and Kietzmann. [Learning robust visual representations using data augmentation invariance](https://arxiv.org/abs/1806.03852). arxiv:1806.03852, 2018.
 - Hernandez-Garcia. [Data augmentation and image understanding](https://arxiv.org/abs/2012.14185). arxiv:2012.14185, 2020.
 ]
+
+---
+
+## About me
+### My academic journey
+
+* .highlight1[Bachelor's]: Image and Sound Engineering, University Carlos III of Madrid (2013)
+* .highlight1[Bachelor's] (partial): Audiovisual Communication, University Carlos III of Madrid (2013)
+* .highlight1[Master's]: Machine Learning and Computer Vision, University Carlos III of Madrid (2015)
+* .highlight1[PhD]: Institute of Cognitive Science, Universität Osnabrück (2016–2020)
+
+--
+* .highlight1[Postdoc]: Mila and the Université de Montréal (2020–today)
+
+    * Prof. Yoshua Bengio's group
+    * Prof. David Rolnick's group
+    * Teaching assistant in Prof. Ioannis Mitliagkas course _Fundamentals of machine learning_, 2021.
+    * Main instructor as _chargé de cours_ of _Projets avancés en apprentissage automatique_ (English x1 and French x2), 2022-2024.
 
 ---
 
@@ -232,7 +250,7 @@ class: title, middle
 name: title
 class: title, middle
 
-## Motivation and overview
+### Motivation and overview
 
 .center[![:scale 30%](../assets/images/slides/climatechange/demo.jpg)]
 
@@ -324,21 +342,26 @@ Direct consequences:
 
 .orange[Figure with a schematic of the relationship between climate change, health and ML research]
 
+- Tackling climate change _is_ tackling a wide range of health challenges.
+- Machine learning can have a wide range of positive impacts in tackling climate and health challenges. .cite[(Rolnick et al, 2022)]
+- Advancing scientific discoveries with machine learning has great potential for both health and climate.
+
+.references[
+Rolnick et al. [Tackling Climate Change with Machine Learning](https://dl.acm.org/doi/10.1145/3485128), ACM Comput. Surv., 2022.
+]
+
 ---
 
 name: title
 class: title, middle
 
-## Raising climate awareness with AI-generated visualisations
+### Raising climate awareness with AI-generated visualisations
 
 .center[![:scale 30%](../assets/images/slides/vicc/placedesarts_flood.gif)]
 
 ---
 
-## Why AI against climate change?
-### The need to raise awareness
-
---
+## The need to raise awareness
 
 There is a mismatch between the magnitude of the climate crisis and the public's concern about it.
 
@@ -496,11 +519,118 @@ Schmidt et al. [ClimateGAN: Raising Climate Change Awareness by Generating Image
 
 ---
 
+name: title
+class: title, middle
+
+### Increasing climate models resolution with hard-constrained deep learning
+
+.center[![:scale 20%](../assets/images/slides/downscaling/gcm_sample2.png)]
+
+---
+
+## The importance of climate models
+
+.highlight1[Definition]: Climate models simulate the interactions of factors the drive the climate via systems differential equations based on the basic laws of physics, fluid motion, and chemistry.
+
+.left-column[
+.center[![:scale 90%](../assets/images/slides/downscaling/gcm_sample.png)]
+]
+
+.right-column[
+- Accurate modeling of weather and climate is critical for taking effective action to combat climate change.
+- The resolution of climate models is too coarse to guide local and regional policy making.
+- Deep learning can be used to increase climate models resolution (.highlight1[_downscaling_]), akin to image super-resolution.
+]
+
+.conclusion[Climate model downscaling with deep learning can facilitate the use of global climate models at local and regional level.]
+
+---
+
+## Hard-constrained _downscaling_
+### .alpha0[Placeholder]
+
+.context35[Deep learning can be used to increase the resolution of climate models.]
+
+The direct application of .highlight1[image-super resolution] deep learning to climate model downscaling can result in the .highlight1[violation of fundamental physical relationships].
+
+.center[![:scale 90%](../assets/images/slides/downscaling/image-super-resolution.png)]
+
+---
+
+count: false
+
+## Hard-constrained _downscaling_
+### .alpha0[Placeholder]
+
+.context35[Deep learning can be used to increase the resolution of climate models.]
+
+We proposed a procedure to enforce .highlight1[mass conservation] between the low-resolution input and the super-resolution prediction.
+
+.center[![:scale 50%](../assets/images/slides/downscaling/model_hc.png)]
+
+.references[
+Harder et al. [Hard-constrained deep learning for climate downscaling](https://jmlr.org/papers/v24/23-0158.html), JMLR 2023.
+]
+
+---
+
+count: false
+
+## Hard-constrained _downscaling_
+### .alpha0[Placeholder]
+
+.context35[Deep learning can be used to increase the resolution of climate models.]
+
+We proposed a procedure to enforce .highlight1[mass conservation] between the low-resolution input and the super-resolution prediction.
+
+.center[![:scale 70%](../assets/images/slides/downscaling/wrf.png)]
+
+.references[
+Harder et al. [Hard-constrained deep learning for climate downscaling](https://jmlr.org/papers/v24/23-0158.html), JMLR 2023.
+]
+
+.conclusion[Hard constraints provide theoretical guarantees and even improved the performance.]
+
+---
+
+## Arbitrary resolution _downscaling_
+
+.context35[Deep learning can be used to increase the resolution of climate models.]
+
+<br>
+Standard deep learning for climate downscaling is typically limited to the input and output resolutions specified at training time.
+
+--
+
+We proposed the use of [Fourier Neural Operators](https://arxiv.org/abs/2010.08895), which learn mappings in function spaces instead of Euclidean spaces, for arbitrary resolution climate downscaling: we train with mappings for a small upsampling factor, but the model can .highlight1[zero-shot downscale to arbitrary, unseen, higher resolutions].
+
+.center[![:scale 50%](../assets/images/slides/downscaling/model_fno.png)]
+
+.references[
+Yang et al. [Fourier Neural Operators for arbitrary resolution climate data downscaling](https://arxiv.org/abs/2305.14452), arxiv:2305.14452, 2023.
+]
+
+---
+
+name: title
+class: title, middle
+
+### Machine learning for scientific discoveries
+
+.center[![:scale 20%](../assets/images/slides/scientific-discovery/laboratory.png)]
+
+---
+
 ## Why scientific discovery?
+### The potential of scientific discoveries
 
 .context["The time for action is now"]
 
+--
+
 > "Limiting global warming will require major transitions in the energy sector. This will involve a substantial reduction in fossil fuel use, widespread electrification, .highlight1[improved energy efficiency, and use of alternative fuels (such as hydrogen)]." .cite[IPCC Sixth Assessment Report, 2022]
+
+--
 
 > "Net-zero CO2 emissions from the industrial sector are challenging but possible. Reducing industry emissions will entail coordinated action throughout value chains to promote all mitigation options, including demand management, .highlight1[energy and materials efficiency, circular material flows], as well as abatement technologies and transformational changes in production processes." .cite[IPCC Sixth Assessment Report, 2022]
 
@@ -551,6 +681,161 @@ What are better, new materials needed for?
 
 ---
 
+## Scientific discoveries in history
+### .alpha0[Placeholder]
+
+.context35[Material discovery is a key ingredient for climate change mitigation.]
+
+--
+
+Many notable scientific discoveries have occurred due to .highlight1[serendipity] or .highlight1[by accident]:
+
+--
+
+* **Dynamite** (Alfred Nobel, 1867)
+* **X-rays** (Wilhelm C. Röntgen, 1895)
+* **Radioactivity** (Henri Becquerel and Marie Skłodowska–Curie, 1896)
+* **Penicillin** (Alexander Fleming, 1929)
+* **Cyanoacrylate (superglue)** (Harry Coover, 1942)
+* **Lysergic acid diethylamide (LSD)** (Albert Hofmann, 1943)
+
+--
+
+<br>
+.conclusion[Clearly, we should not rely on serendipity to fight climate change.]
+
+???
+
+Joke experience with some of them, like penicillin and superglue.
+
+---
+
+count: false
+
+## Scientific discoveries in history
+### .alpha0[Placeholder]
+
+.context35[Material discovery is a key ingredient for climate change mitigation.]
+
+.center[
+<figure>
+	<img src="../assets/images/slides/materials/paradigms_scientific_discovery_0.png" alt="Four paradigms of concrete science: empirical, theoretical, computational, and data-driven." style="width: 65%">
+  <figcaption>Four paradigms in scientific discovery. Source: <a href="https://www.nature.com/articles/s41524-022-00810-x">Li et al., 2022</a>. (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
+</figure>
+]
+
+.references[
+* Li et al. [Machine learning in concrete science: applications, challenges, and best practices](https://www.nature.com/articles/s41524-022-00810-x). Nature  npj Computational Materials, 2022
+]
+
+???
+
+Example of concrete: most prevalent human-made material on Earth, and the most consumed commodity after water. The annual consumption of concrete in the world has reached 35 billion tons, which is twice as much as that of all other building materials combined.
+
+---
+
+count: false
+
+## Scientific discoveries in history
+### .alpha0[Placeholder]
+
+.context35[Material discovery is a key ingredient for climate change mitigation.]
+
+.center[
+<figure>
+	<img src="../assets/images/slides/materials/paradigms_scientific_discovery_1.png" alt="Four paradigms of concrete science: empirical, theoretical, computational, and data-driven." style="width: 65%">
+  <figcaption>Four paradigms in scientific discovery. Source: <a href="https://www.nature.com/articles/s41524-022-00810-x">Li et al., 2022</a>. (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
+</figure>
+]
+
+.references[
+* Li et al. [Machine learning in concrete science: applications, challenges, and best practices](https://www.nature.com/articles/s41524-022-00810-x). Nature  npj Computational Materials, 2022
+]
+
+???
+
+Concrete: The properties and performance of concrete can be tailored to meet design requirements by varying the type and quantity of the mixture constituents (e.g., cement, water, aggregate, and admixtures). Traditional approaches for designing concrete mixtures often rely on trial-and-error, iterative proportioning, processing, and characterization until the target properties are achieved.
+
+---
+
+count: false
+
+## Scientific discoveries in history
+### .alpha0[Placeholder]
+
+.context35[Material discovery is a key ingredient for climate change mitigation.]
+
+.center[
+<figure>
+	<img src="../assets/images/slides/materials/paradigms_scientific_discovery_2.png" alt="Four paradigms of concrete science: empirical, theoretical, computational, and data-driven." style="width: 65%">
+  <figcaption>Four paradigms in scientific discovery. Source: <a href="https://www.nature.com/articles/s41524-022-00810-x">Li et al., 2022</a>. (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
+</figure>
+]
+
+.references[
+* Li et al. [Machine learning in concrete science: applications, challenges, and best practices](https://www.nature.com/articles/s41524-022-00810-x). Nature  npj Computational Materials, 2022
+]
+
+???
+
+Concrete: it is possible to optimize the compressive strength of concrete mixtures by adjusting the water/cement ratio, total aggregate/cement ratio, and coarse aggregate/total aggregate ratio6. Yet the practical application of this iterative refinement approach is limited by the exponential increase in the number of specimens and experiments when complex concrete mixtures are studied and several compositional parameters are simultaneously considered as combinatorial variables. As a result, materials development in concrete science involves time-consuming validation/development cycles from laboratory trials to field applications. Efforts to accelerate knowledge acquisition and materials design in concrete science are thus of paramount importance.
+
+Beginning in the 1980s, the development of microstructural models of cement hydration has enabled a fundamental understanding of microstructure–property relationships in concrete7, which has marked the second paradigm. By applying basic laws of kinetics, thermodynamics, and mechanics, and providing analytical solutions to cement hydration. Successful demonstrations include the three-dimensional cement hydration and microstructure development model (CEMHYD3D)8,9; the hydration, morphology, and structural development model (HYMOSTRUC)10; the integrated particle kinetics model11; and the microstructural modeling platform (μic)
+
+---
+
+count: false
+
+## Scientific discoveries in history
+### .alpha0[Placeholder]
+
+.context35[Material discovery is a key ingredient for climate change mitigation.]
+
+.center[
+<figure>
+	<img src="../assets/images/slides/materials/paradigms_scientific_discovery_3.png" alt="Four paradigms of concrete science: empirical, theoretical, computational, and data-driven." style="width: 65%">
+  <figcaption>Four paradigms in scientific discovery. Source: <a href="https://www.nature.com/articles/s41524-022-00810-x">Li et al., 2022</a>. (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
+</figure>
+]
+
+.references[
+* Li et al. [Machine learning in concrete science: applications, challenges, and best practices](https://www.nature.com/articles/s41524-022-00810-x). Nature  npj Computational Materials, 2022
+]
+
+???
+
+Concrete: However, the complex nature of cement hydration makes it challenging to develop accurate and generalizable models, and these modeling approaches, to varying degrees, rely on thermochemical, physical, and structural data that must be obtained either from accurate experimental observations or from calculations at the atomistic and molecular scales.
+
+In this context, the use of density-functional theory (DFT) and classical molecular dynamics (MD) simulations has been explored in concrete science since the 2000s owing to the ever-growing computing power16. This has given rise to the third paradigm (computational science; Fig. 1), where the first-principle models have been integrated and employed to further describe cementitious materials properties and improve understanding of cement hydration. Related simulation efforts have focused primarily on cementitious phases such as the calcium silicate hydrate (C-S-H) gel, the essential reaction product of cement hydration.
+
+---
+
+count: false
+
+## Scientific discoveries in history
+### .alpha0[Placeholder]
+
+.context35[Material discovery is a key ingredient for climate change mitigation.]
+
+.center[
+<figure>
+	<img src="../assets/images/slides/materials/paradigms_scientific_discovery_4.png" alt="Four paradigms of concrete science: empirical, theoretical, computational, and data-driven." style="width: 65%">
+  <figcaption>Four paradigms in scientific discovery. Source: <a href="https://www.nature.com/articles/s41524-022-00810-x">Li et al., 2022</a>. (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
+</figure>
+]
+
+.references[
+* Li et al. [Machine learning in concrete science: applications, challenges, and best practices](https://www.nature.com/articles/s41524-022-00810-x). Nature  npj Computational Materials, 2022
+]
+
+???
+
+Concrete: However, these computational techniques require considerable computational resources and thus come with significant challenges, such as their limited time scales and the relatively small number of atoms in a simulated system. In addition, it may be difficult to validate these simulations with experiments, given the small time and length scales and high-fidelity measurements required.
+
+By leveraging existing datasets with data-driven models, ML can automatically learn implicit patterns and extract valuable information while accounting for the inherent complexity of concrete mixtures and their properties.
+
+---
+
 ## Traditional scientific discovery loop
 
 .context35[The climate crisis demands accelerating scientific discoveries.]
@@ -558,6 +843,7 @@ What are better, new materials needed for?
 .right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_1.png)]]
 
 .left-column-33[
+<br><br>
 The .highlight1[traditional pipeline] for scientific discovery (paradigms 1-3):
 * relies on .highlight1[highly specialised human expertise],
 * it is .highlight1[time-consuming] and
@@ -570,11 +856,12 @@ count: false
 
 ## Machine learning in the loop
 
-.context35[The traditional scientific discovery loop is too slow.]
+.context35[The traditional scientific discovery loop is too slow for certain applications.]
 
 .right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_2.png)]]
 
 .left-column-33[
+<br><br>
 A .highlight1[machine learning model] can be:
 * trained with data from _real-world_ experiments and
 ]
@@ -585,11 +872,12 @@ count: false
 
 ## Machine learning in the loop
 
-.context35[The traditional scientific discovery loop is too slow.]
+.context35[The traditional scientific discovery loop is too slow for certain applications.]
 
 .right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_3.png)]]
 
 .left-column-33[
+<br><br>
 A .highlight1[machine learning model] can be:
 * trained with data from _real-world_ experiments and
 * used to quickly and cheaply evaluate queries
@@ -601,18 +889,17 @@ count: false
 
 ## Machine learning in the loop
 
-.context35[The traditional scientific discovery loop is too slow.]
+.context35[The traditional scientific discovery loop is too slow for certain applications.]
 
 .right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_3.png)]]
 
 .left-column-33[
+<br><br>
 A .highlight1[machine learning model] can be:
 * trained with data from _real-world_ experiments and
 * used to quickly and cheaply evaluate queries
 
-.conclusion[A machine learning model replacing real-world experiments can _only_ provide _linear_ gains.]
-
-.conclusion[Not enough if the search space is very large ($10^{180}$ stable materials)]
+.conclusion[Is a linear speed-up enough to explore combinatorially large search spaces? ($10^{180}$ stable materials)]
 ]
 
 ---
@@ -626,7 +913,7 @@ count: false
 .right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_4.png)]]
 
 .left-column-33[
-A .highlight1[machine learning **agent**] in the loop could (ideally):
+A .highlight1[machine learning **agent**] in the loop can potentially:
 * .highlight1[learn structure] from the available data,
 * .highlight1[generalise] to unexplored regions of the search space and
 * .highlight1[build better queries]
@@ -643,12 +930,12 @@ count: false
 .right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_4.png)]]
 
 .left-column-33[
-A .highlight1[machine learning **agent**] in the loop could (ideally):
+A .highlight1[machine learning **agent**] in the loop can potentially:
 * .highlight1[learn structure] from the available data,
 * .highlight1[generalise] to unexplored regions of the search space and
 * .highlight1[build better queries]
 
-.conclusion[A successful AL pipeline with an ML agent in the loop can provide _exponential_ gains.]
+.conclusion[An active learning pipeline with generative machine learning could provide _exponential_ gains.]
 ]
 
 ---
@@ -657,17 +944,17 @@ count: false
 
 ## _Generative_ machine learning in the loop
 
-.context[GFlowNet as the agent.]
+.context[GFlowNet as generative model.]
 
 .right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_5.png)]]
 
 .left-column-33[
-A .highlight1[machine learning **agent**] in the loop could (ideally):
+A .highlight1[machine learning **agent**] in the loop can potentially:
 * .highlight1[learn structure] from the available data,
 * .highlight1[generalise] to unexplored regions of the search space and
 * .highlight1[build better queries]
 
-.conclusion[A successful AL pipeline with an ML agent in the loop can provide _exponential_ gains.]
+.conclusion[An active learning pipeline with generative machine learning could provide _exponential_ gains.]
 ]
 
 .references[
@@ -678,6 +965,8 @@ Jain et al. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/abs
 
 ## Machine learning for scientific discovery
 ### Challenges and limitations of existing methods
+
+--
 
 .highlight1[Challenge]: very large search spaces.
 
@@ -706,14 +995,13 @@ Jain et al. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/abs
 name: title
 class: title, middle
 
-## A brief introduction to GFlowNets
-### Part 2
+### A brief introduction to GFlowNets
 
 .center[![:scale 30%](../assets/images/slides/gfn-seq-design/flownet.gif)]
 
 ---
 
-## GFlowNet in a nutshell
+## GFlowNets in a nutshell
 
 <br>
 Given a reward or objective function $R(x)$, GFlowNet can be seen a generative model trained to sample objects $x \in \cal X$ according to .highlight1[a sampling policy $\pi(x)$ proportional to the reward $R(x)$]: $\pi(x) \propto R(x)$
@@ -736,7 +1024,7 @@ The policy $\pi_{\theta}(x)$ is modelled by a deep neural network, parameterised
 
 ---
 
-## GFlowNet in a nutshell
+## GFlowNets in a nutshell
 
 * Objects $x \in \cal X$ are constructed through a sequence of steps $\tau$ from an action space $\cal A$.
 * At each step of the trajectory $\tau=(s_0\rightarrow s_1 \rightarrow \dots \rightarrow s_f)$, we get a partially constructed object $s$ in state space $\cal S$.
@@ -746,13 +1034,13 @@ The policy $\pi_{\theta}(x)$ is modelled by a deep neural network, parameterised
 
 --
 
-.conclusion[This terminology is reminiscent of reinforcement learning.]
+.conclusion[This terminology is reminiscent of reinforcement learning, which was a major source of inspiration.]
 
 ---
 
 ## An intuitive toy example
 
-Task: find arrangements of Tetris pieces on the board that minimise the empty space.
+Task: sample all or multiple arrangements of Tetris pieces on the board that minimise the empty space.
 
 .left-column[
 .center[![:scale 20%](../assets/images/slides/tetris/board_empty.png)]
@@ -770,7 +1058,10 @@ Task: find arrangements of Tetris pieces on the board that minimise the empty sp
 
 ## An intuitive toy example
 
-Task: find arrangements of Tetris pieces on the board that minimise the empty space.
+.context[Sample all or multiple arrangements of Tetris pieces on the board that minimise the empty space.]
+
+<br>
+GFlowNet generation process: drop one piece at a time.
 
 .columns-3-left[.center[
   <figure>
@@ -786,7 +1077,8 @@ Task: find arrangements of Tetris pieces on the board that minimise the empty sp
   </figure>
 ]]
 
-.columns-3-right[.center[
+.columns-3-right[
+.center[
 <div style="display: flex">
   <div style="flex: 30%;">
   <figure>
@@ -813,13 +1105,21 @@ Task: find arrangements of Tetris pieces on the board that minimise the empty sp
   </figure>
   </div>
 </div>
-]]
+]
+.center[Sample trajectory $\tau$]
+]
+
+- .highlight1[State space]: all possible arrangements of pieces on the board.
+- .highlight1[Action space]: Cartesian product of piece identity, non-invariant rotation (and board column for larger boards), plus stop action.
 
 ---
 
 ## An intuitive toy example
 
-Task: find arrangements of Tetris pieces on the board that minimise the empty space.
+.context[Sample all or multiple arrangements of Tetris pieces on the board that minimise the empty space.]
+
+<br>
+.highlight1[Reward]: we can define a score function as the fraction of cells occupied by pieces.
 
 .center[
 <div style="display: flex">
@@ -854,7 +1154,11 @@ Task: find arrangements of Tetris pieces on the board that minimise the empty sp
 
 ## An intuitive toy example
 
-Task: find arrangements of Tetris pieces on the board that minimise the empty space.
+.context[Sample all or multiple arrangements of Tetris pieces on the board that minimise the empty space.]
+
+<br>
+.highlight1[Reward]: we can define a score function as the fraction of cells occupied by pieces.
+
 
 .center[
 <div style="display: flex">
@@ -924,16 +1228,18 @@ Not to be confused with normalizing flows!
 
 .left-column-66[
 **Consistent Flow**:  Flow $F$ satisfies the _flow consistency equation_
-$$\sum\_{s' \in \text{Parents}(s)} F\_\theta(s' \rightarrow s) = \sum\_{s' \in \text{Children}(s)} F\_\theta(s \rightarrow s')$$
-
-**Theorem**: For a consistent flow $F$ with terminal flow set as the reward $F(x\rightarrow s_f)=R(x)$, the forward policy samples $x$ proportionally to $R(x)$:
-$$\pi(x) = \frac{R(x)}{Z}\propto R(x)$$
-
-**Corollary**: The flow at $s_0$, $F(s_0)$ is the partition function $Z$! 
+$$\sum\_{s' \in \text{Parents}(s)} F\_\theta(s' \rightarrow s) = \sum\_{s'' \in \text{Children}(s)} F\_\theta(s \rightarrow s'')$$
 ]
 
 .references[
 Bengio et al. [Flow network based generative models for non-iterative diverse candidate generation](https://arxiv.org/abs/2106.04399), NeurIPS, 2021. 
+]
+
+--
+.left-column-66[
+**Theorem**: For a consistent flow $F$ with terminal flow set as the reward $F(x\rightarrow s_f)=R(x)$, the forward policy samples $x$ proportionally to $R(x)$:
+
+$$\pi(x) = \frac{R(x)}{Z}\propto R(x)$$
 ]
 
 ---
@@ -944,14 +1250,20 @@ Bengio et al. [Flow network based generative models for non-iterative diverse ca
 $$\sum\_{s' \in \text{Parent}(s)} F\_\theta(s' \rightarrow s) = \sum\_{s'' \in \text{Child}(s)} F\_\theta(s \rightarrow s')$$
 </p>
 * **Flow Matching Objective**: $$\mathcal{L}\_{FM}(s; \theta) = \left(\log \frac{\sum\_{s'\in \text{Parent}(s)} F\_\theta(s'{\rightarrow} s)}{\sum\_{s'' \in \text{Child}(s)}F\_\theta(s{\rightarrow} s'')}\right)^2$$
+
+--
 * **Trajectory Balance** (better credit assignment): $$\mathcal{L}\_{TB} (\tau;\theta) = \left(\log \frac{Z\_\theta \prod\_{s{\rightarrow} s' \in \tau}P\_{F\_\theta}(s'|s)}{R(x)\prod\_{s\rightarrow s' \in \tau} P\_{B\_\theta}(s|s') }\right)^2$$
+
+.references[
+Malkin et al. [Trajectory balance: Improved credit assignment in GFlowNets](https://arxiv.org/abs/2201.13259), NeurIPS, 2022. 
+]
 
 ---
 
 ## Results
 ### Tetris GFlowNets
 
-.context[If the model is sufficiently trained, the sampling policy $\pi(x)$ should be proportional to the reward $R(x)$: $\pi(x) \propto R(x)$]
+.context[If the model is sufficiently well trained, the sampling policy $\pi(x)$ should be proportional to the reward $R(x)$: $\pi(x) \propto R(x)$]
 
 <br>
 
@@ -992,7 +1304,7 @@ $$\sum\_{s' \in \text{Parent}(s)} F\_\theta(s' \rightarrow s) = \sum\_{s'' \in \
 
 After training, GFlowNet samples multiple (diverse) modes with high probability.
 
-.footnote[The energy function $\varepsilon(x)$ is the fraction of the board occupied by pieces and the reward function is $R(X) = \varepsilon(x)^4$ to disproportionally favour the discovery of modes.]
+.footnote[In order to increase the probability of sampling the modes, I use the reward function $R(X) = \varepsilon(x)^4$, where $\varepsilon(x)$ is the score function.]
 
 ---
 
@@ -1053,7 +1365,7 @@ Jain et al. [Multi-Objective GFlowNets](https://arxiv.org/abs/2210.12765), ICML,
 ##  GFlowNet extensions
 ### Continuous GFlowNets
 
-We have recently generalised the theory and implementation of GFlowNets to encompass both discrete and continuous or hybrid state spaces. 
+We have generalised the theory and implementation of GFlowNets to encompass both discrete and continuous or hybrid state spaces. 
 
 .center[
 ![:scale 30%](../assets/images/slides/gflownet/kde_reward_molecule.png)
@@ -1068,8 +1380,361 @@ Lahlou et al. [A Theory of Continuous Generative Flow Networks](https://arxiv.or
 name: title
 class: title, middle
 
-## Multi-fidelity active learning with GFlowNets
-### Part 3
+### Crystal-GFN: GFlowNets for materials discovery
+
+.center[![:scale 20%](../assets/images/slides/materials/lithium_oxide_crystal.png)]
+
+---
+
+## What are crystals?
+
+[Wikipedia](https://en.wikipedia.org/wiki/Crystal): A crystal or crystalline solid is a solid material whose constituents (such as atoms, molecules, or ions) are arranged in a .highlight1[highly ordered microscopic structure], forming .highlight1[a crystal lattice that extends in all directions].
+
+.left-column[
+.center[![:scale 70%](../assets/images/slides/crystals/crystals_polycrystalline_amorphous.png)]
+]
+.right-column[
+.center[![:scale 30%](../assets/images/slides/materials/lithium_oxide_crystal.png)]
+]
+
+--
+
+Here, we are concerned mainly with _inorganic crystals_, where the constituents are atoms or ions.
+
+--
+
+A crystal structure is characterized by its .highlight1[unit cell], a small imaginary box containing atoms in a specific spatial arrangement with certain symmetry. The unit cell repeats iself periodically in all directions.
+
+---
+
+## Crystal structure generation in the literature
+
+Example: .highlight2[Crystal Diffusion Variational Autoencoder (CDVAE)]: a diffusion process that moves .highlight1[atomic coordinates] towards a lower energy state and updates atom types to satisfy bonding preferences between neighbors. The key idea is to learn the diffusion process from the data distribution of stable materials. .cite[(Xie et al., 2022)]
+
+.center[![:scale 100%](../assets/images/slides/crystals/cdvae.png)]
+
+.references[Xie et al. [Crystal diffusion variational autoencoder for periodic material generation](https://arxiv.org/abs/2110.06197). ICLR 2022] 
+
+???
+
+A: atom types
+X: atom coordinates
+L: perdiodic lattice: l1, l2, l3 (3x3)
+
+---
+
+count: false
+
+## Crystal structure generation in the literature
+
+Example: .highlight2[Physics Guided Crystal Generative Model (PGCGM)]: A GAN with the affine matrices of the symmetry operations and element properties as inputs, augmented with a distance loss between real and fake materials, and data augmentation on the atomic positions. .cite[(Zhao et al., 2023)]
+
+.center[![:scale 70%](../assets/images/slides/crystals/pgcgm.png)]
+
+.references[Zhao et al. [Physics guided deep learning for generative design of crystal materials with symmetry constraints](https://www.nature.com/articles/s41524-023-00987-9). npj computational materials 2023] 
+
+---
+
+count: false
+
+## Crystal structure generation in the literature
+
+Example: .highlight2[MatterGen]: An evolution of CDVAE that performs diffusion not only on atomic positions but also on the atom types and the lattice. .cite[(Zeni, Pinsler, Zügner, Fowler et al., 2023)]
+
+.center[![:scale 90%](../assets/images/slides/crystals/mattergen.png)]
+
+.references[Zeni, Pinsler, Zügner, Fowler et al. [MatterGen: a generative model for inorganic materials design](https://arxiv.org/abs/2312.03687). arXiv 2023] 
+
+---
+
+count: false
+
+## Crystal structure generation in the literature
+
+Example: .highlight2[UniMat]: A denoising diffusion model learns to move atoms from random locations back to their original locations. Atoms not present in the crystal are moved to the null location during the denoising process, allowing crystals with an arbitrary number of atoms to be generated.
+
+.center[![:scale 90%](../assets/images/slides/crystals/unimat.png)]
+
+.references[Yang et al. [Scalable Diffusion for Materials Generation](https://arxiv.org/abs/2311.09235). arXiv 2023] 
+
+---
+
+## Our approach
+### Crystal structure parameters
+
+.context[Most previous works tackle crystal structure generation in the space of atomic coordinates.]
+
+Instead of optimising the atom positions by learning from a small data set, we draw .highlight1[inspiration from theoretical crystallography to sample crystals in a lower-dimensional space of crystal structure parameters].
+
+.left-column[
+.center[![:scale 65%](../assets/images/slides/crystals/crystal_systems_table.png)]
+]
+.right-column[
+.center[![:scale 30%](../assets/images/slides/crystals/unit_cell.png)]
+]
+
+.conclusion[We sample materials in the space of space groups (230 groups), compositions (elements and number of atoms) and lattice parameters (6 parameters: $a, b, c, \alpha, \beta, \gamma$).]
+
+---
+
+## GFlowNet approach
+### Advantages
+
+.context[We generate materials in the lower-dimensional space of crystal structure parameters.]
+
+* Constructing materials by their crystal structure parameters allows us to introduce .highlight1[physicochemical and geometric _hard_ constraints].
+
+--
+* .highlight1[Searching in the lower-dimensional space] of crystal structure parameters may be more efficient than in the space of atom coordinates. Particularly suitable in active learning .cite[(Hernandez-Garcia, Saxena et al., 2023)].
+.references[
+Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). arXiv 2306.11715, 2023 (RealML workshop at NeurIPS).
+]
+
+--
+* Provided we have access to a predictive model of a material property, we can .highlight1[flexibly generate materials with desirable properties].
+
+--
+* We can .highlight1[flexibly sample materials with specific characteristics, such as composition or space group]. 
+
+---
+
+## Crystal-GFlowNet
+### Main properties
+
+* .highlight1[State space]: 
+1. **Space group**: 230 groups, subdivided into crystal system, lattice system, point symmetry and space group (discrete)
+2. **Composition**: how many atoms of which elements (discrete)
+3. **Lattice parameters**: 6 parameters, $a, b, c, \alpha, \beta, \gamma$ (continuous)
+
+--
+* .highlight1[Action space]: discrete and continuous movements in the subspace of the state space, with constraints.
+
+--
+* .highlight1[Constraints]:
+    * Charge neutrality of the composition.
+    * Compatibility of composition and space group.
+    * Hierarchical structure of the space group.
+    * Compatibility of lattice parameters and lattice system.
+
+---
+
+## Crystal-GFlowNet
+### Schematic
+
+.center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_init.png)]
+
+---
+
+count: false
+
+## Crystal-GFlowNet
+### Schematic
+
+.center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_sg.png)]
+
+---
+
+count: false
+
+## Crystal-GFlowNet
+### Schematic
+
+.center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_sg_output.png)]
+
+---
+
+count: false
+
+## Crystal-GFlowNet
+### Schematic
+
+.center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_comp.png)]
+
+---
+
+count: false
+
+## Crystal-GFlowNet
+### Schematic
+
+.center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_comp_output.png)]
+
+---
+
+count: false
+
+## Crystal-GFlowNet
+### Schematic
+
+.center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_lp.png)]
+
+---
+
+count: false
+
+## Crystal-GFlowNet
+### Schematic
+
+.center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_lp_output.png)]
+
+---
+
+count: false
+
+## Crystal-GFlowNet
+### Schematic
+
+.center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_all.png)]
+
+---
+
+## Crystal-GFlowNet
+### Properties
+
+We can train a Crystal-GFN with any reward function, provided it is computationally tractable. Therefore, we can use it to .highlight1[generate materials with different properties]. 
+--
+We have tested the following properties:
+
+- Formation energy per atom [eV/atom], via a pre-trained machine learning model.
+- Electronic band gap [eV] (squared distance to a target value, 1.34 eV), via a pre-trained machine learning model.
+- Unit cell density [g/cm<sup>3</sup>], calculated _exactly_ from the GFN outputs.
+
+---
+
+## Crystal-GFlowNet
+### Proxy ML models of the formation energy and the band gap
+
+- MLP architecture
+- Inputs:
+    - Space group embedding
+    - Composition embedding as in PhAST (Duval et al., 2022)
+    - Standardised lattice parameters
+- Trained on MatBench (Materials Project)
+    - Mean absolute error: 
+        - Formation energy: 0.10 eV/atom $\pm$ 0.005
+        - Band gap: 0.321 eV $\pm$ 0.003
+- Reward: $R(x) = \exp(-\frac{MLP(x)}{T})$
+
+---
+
+## Crystal-GFlowNet
+### Experiments
+
+- Space groups: all 113 space groups present in the MatBench data set.
+- Compositions:
+    - Up to 5 unique elements from the these 22 elements: ts: H, Li, B, C, N, O, F, Na, Mg, Al, Si, P, S, Cl, K, V, Mn, Fe, Co, Ni, Cu, Se. Th (22 most common elements in the training set). 
+    - Up to 16 atoms per element (80 atoms in total)
+- Lattice parameters:
+    - Lengths: 0.9-100 angstroms.
+    - Angles: 50-150°.
+    - These ranges contain the bulk of the data set (excluding outliers).
+
+---
+
+## Results
+### Density
+
+What do we expect Crystal-GFN to sample?
+
+- Small length lattice parameters (small volume): 
+--
+4.9 Å compared to 8.3 Å in the validation dataset. &#10004;
+--
+
+- Denser packing space group: 
+--
+We see a shift towards spacegroups from the cubic, tetragonal, and hexagonal lattices (81, 99, 115, 195, 200, 207, 215, 221). &#10004;
+--
+
+- Higher number of atoms (larger mass): 
+--
+58.8 atoms on average compared to 48.1 over the validation set. &#10004;
+--
+
+- Heavier elements (larger mass): 
+--
+Heavier such as Se, Cu, Ni are sampled the most often. &#10004;
+
+---
+
+## Results
+### Density
+
+.center[![:scale 80%](../assets/images/slides/crystals/density_elements.png)]
+
+---
+
+## Results
+### Formation energy
+
+.center[![:scale 70%](../assets/images/slides/crystals/distributions_fe_22.png)]
+
+---
+
+## Results
+### Band gap
+
+.center[![:scale 70%](../assets/images/slides/crystals/distributions_bg_22.png)]
+
+---
+
+## Results
+### Restricted sampling
+
+We restrict the sampling space at sampling time:
+
+- A: The composition is restricted to only elements Fe and O, with a maximum of 10 atoms per element.
+- B: We sample in the ternary space for Li-Mn-O, keeping the element count to maximum 16 atoms.
+- C: We restrict the space groups to only cubic lattices.
+- D: We restrict the range of the lattice parameters to lengths between 10 and 20 angstroms and angles between 75 and 135 degrees.
+
+---
+
+## Results
+### Restricted sampling
+
+.center[![:scale 70%](../assets/images/slides/crystals/distributions_restricted_sampling.png)]
+
+---
+
+## Results
+### Diversity
+
+.context[.highlight2[Diversity] is key in materials discovery.]
+
+Analysis of 10,000 sampled crystals and the top-100 with lowest formation energy.
+
+- All 10,000 samples are unique.
+- All crystal systems, lattice systems and point symmetries found in the 10,000 samples.
+    - 4 out of 8 crystal-lattice systems in the top-100.
+    - 4 out of the 5 point symmetries in the top-100.
+- All 22 elements found in the 10,000 samples.
+    - 15 out of 22 elements in the top-100.
+- 73 out of 113 space groups (65 %) found in the 10,000 samples
+    - 19 out of 113 space groups in the top-100.
+
+---
+
+## Crystal-GFN
+### Summary and conclusions
+
+* Discovering new crystal structures with desirable properties can help mitigate the climate crisis.
+* There are infinitely many conceivable crystals. Only a few are stable. Only a few stable crystals have interesting properties. This is a hard problem.
+* Crystal-GFN introduces .highlight1[physicochemical and structural constraints], reducing the search space.
+    * Crystal-GFN was trained in 30 hours in a CPU-only machine.
+* Our results show that we can generate .highlight1[diverse, high scoring samples with the desired constraints].
+* The .highlight1[framework can be flexibly extended] with more constraints, crystal structure descriptors (atomic positions) and other properties. 
+
+.references[
+* Mila AI4Science et al. [Crystal-GFN: sampling crystals with desirable properties and constraints](https://arxiv.org/abs/2310.04925). AI4Mat, NeurIPS 2023 (spotlight).
+]
+
+---
+
+name: title
+class: title, middle
+
+### Multi-fidelity active learning with GFlowNets
 
 .center[![:scale 30%](../assets/images/slides/mfal/multiple_oracles.png)]
 
@@ -1088,13 +1753,118 @@ For example, for material discovery:
 
 --
 
-However, current multi-fidelity methods struggle with structured, large, high-dimensional search spaces and lack **diversity**.
+However, current multi-fidelity methods struggle with .highlight1[structured, large, high-dimensional search spaces] and lack .highlight1[**diversity**].
 
 ---
 
 ## Multi-fidelity active learning with GFlowNets
 
-.center[![:scale 100%](../assets/images/slides/mfal/mfal_bgwhite.png)]
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_0.png)]
+
+---
+
+count: false
+
+## Multi-fidelity active learning with GFlowNets
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_1.png)]
+
+---
+
+count: false
+
+## Multi-fidelity active learning with GFlowNets
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_2.png)]
+
+---
+
+count: false
+
+## Multi-fidelity active learning with GFlowNets
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_3.png)]
+
+---
+
+count: false
+
+## Multi-fidelity active learning with GFlowNets
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_4.png)]
+
+---
+
+count: false
+
+## Multi-fidelity active learning with GFlowNets
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_5.png)]
+
+---
+
+count: false
+
+## Multi-fidelity active learning with GFlowNets
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_6.png)]
+
+---
+
+count: false
+
+## Multi-fidelity active learning with GFlowNets
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_7.png)]
+
+---
+
+count: false
+
+## Multi-fidelity active learning with GFlowNets
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_8.png)]
+
+---
+
+count: false
+
+## Multi-fidelity active learning with GFlowNets
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_9.png)]
+
+---
+
+count: false
+
+## Multi-fidelity active learning with GFlowNets
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_10.png)]
+
+---
+
+count: false
+
+## Multi-fidelity active learning with GFlowNets
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_11.png)]
+
+---
+
+count: false
+
+## Multi-fidelity active learning with GFlowNets
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_12.png)]
+
+---
+
+count: false
+
+## Multi-fidelity active learning with GFlowNets
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_13.png)]
+
 
 ---
 
@@ -1136,7 +1906,11 @@ $$\alpha(x, m) = \frac{1}{\lambda_{m}} I(f_M^\star; f_m | \mathcal{D})$$
 
 Given a baseline GFlowNet with state space $\mathcal{S}$ and action space $\mathcal{A}$, we augment the state space with a new dimension for the fidelity $\mathcal{M'} = \{0, 1, 2, \ldots, M\}$ (including $m = 0$, which corresponds to unset fidelity). 
 
+--
+
 The set of allowed transitions $\mathcal{A}_M$ is augmented such that a fidelity $m > 0$ of a trajectory must be selected once, and only once, from any intermediate state. This is meant to provide flexibility and improve generalisation.
+
+--
 
 Finished trajectories are the concatenation of an object $x$ and the fidelity $m$.
 
@@ -1151,28 +1925,6 @@ GFlowNet is trained with the acquisition function $\alpha(x, m)$ as reward funct
 * .highlight1[Random fid. GFN]: GFlowNet with random fidelities, that is a variant of SF-GFN where the candidates are generated with the GFlowNet but the fidelities are picked randomly and a multi-fidelity acquisition function is used, to investigate the benefit of deciding the fidelity with GFlowNets.
 * .highlight1[Random]: Quasi-random approach where the candidates and fidelities are picked randomly and the top $(x, m)$ pairs scored by the acquisition function are queried.
 * .highlight1[MF-PPO]: Instantiation of multi-fidelity Bayesian optimisation where the acquisition function is optimised using proximal policy optimisation (reinforcement learning).
-
----
-
-## Synthetic tasks: Branin and Hartmann
-
-.highlight1[Branin]: $100 \times 100$ grid, 3 oracles (from the BO literature).
-
-.highlight1[Hartmann]: 6D grid of length 10, 3 oracles (from the BO literature).
-
-.left-column[.center[
-  <figure>
-    <img src="../assets/images/slides/mfal/branin.png" alt="Branin" style="width: 100%">
-    <figcaption>Branin task</figcaption>
-  </figure>
-]]
-
-.right-column[.center[
-  <figure>
-    <img src="../assets/images/slides/mfal/hartmann.png" alt="Hartmann" style="width: 100%">
-    <figcaption>Hartmann task</figcaption>
-  </figure>
-]]
 
 ---
 
@@ -1220,24 +1972,15 @@ More realistic experiments, with oracles that correlate with experimental result
 
 ## How does multi-fidelity help?
 
-.context[Visualisation of results on the 2D Branin function.]
+.context[Visualisation on the synthetic 2D Branin function task.]
 
 .center[![:scale 50%](../assets/images/slides/mfal/branin_samples_per_fid.png)]
 
 ---
 
-name: title
-class: title, middle
+## Multi-fidelity active learning with GFlowNets
+### Summary and conclusions
 
-## Summary and conclusions
-
-.center[![:scale 30%](../assets/images/slides/misc/conclusion.png)]
-
----
-
-## Summary and conclusions
-
-* Tackling the most pressing problems for humanity, such as the climate crisis and the threat of global pandemics, requires .highlight1[accelerating the pace of scientific discovery].
 * Current AI tools are not enough to truly utilize all the information and resources at our disposal.
 * AI-driven scientific discovery demands learning methods that can .highlight1[efficiently discover diverse candidates in very large, multi-modal search spaces].
 * .highlight1[GFlowNet] is a learning method for amortised inference that can sample proportionally to a reward function.
@@ -1249,49 +1992,57 @@ class: title, middle
 * Jain et al. [Biological Sequence Design with GFlowNets](https://arxiv.org/abs/2203.04115), ICML, 2022. 
 ]
 
---
-
-.highlight2[Open source code]: [github.com/alexhernandezgarcia/gflownet](https://github.com/alexhernandezgarcia/gflownet)
-
----
-
-## Acknowledgements
-
-.left-column[
-* Nikita Saxena (Mila) - equivalent contribution
-* Moksh Jain (Mila)
-* Chenghao Liu (Mila)
-* Yoshua Bengio (Mila)
-]
-
-.right-column[
-* IVADO
-* CIFAR
-]
-
-
 ---
 
 name: title
 class: title, middle
 
-## Thanks! Questions? 
+## Overall summary and conclusions
+
+.center[![:scale 30%](../assets/images/slides/misc/conclusion.png)]
+
+---
+
+## Summary and conclusions
+
+.orange[Here goes a nice summary of all the contributions]
+
+.highlight2[Open source code]: [github.com/alexhernandezgarcia/gflownet](https://github.com/alexhernandezgarcia/gflownet)
+
+---
+
+## Challenges and perspectives
+
+.orange[Here go a few nice slides with a discussion of remaining challenges and my research plans.]
+
+---
+
+## Acknowledgements
+
+.orange[Here goes a kind acknowledgement of my collaborators]
+
+???
+
+- Contrast between PhD (solo research) and postdoc (big team collaborations)
+
+---
+
+name: mlforscience-udem-feb24
+class: title, middle
 
 ![:scale 40%](../assets/images/slides/mfal/mfal_bgwhite.png)
 
 Alex Hernández-García (he/il/él)
 
 .center[
-<a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 3em"></a>
+<a href="https://www.umontreal.ca/"><img src="../assets/images/slides/logos/udem-white.png" alt="UdeM" style="height: 4em"></a>
 &nbsp&nbsp&nbsp&nbsp
-<a href="https://www.umontreal.ca/"><img src="../assets/images/slides/logos/udem-white.png" alt="UdeM" style="height: 3em"></a>
+<a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 4em"></a>
 ]
 
 .footer[[alexhernandezgarcia.github.io](https://alexhernandezgarcia.github.io/) | [alex.hernandez-garcia@mila.quebec](mailto:alex.hernandez-garcia@mila.quebec)]<br>
 .footer[[@alexhg@scholar.social](https://scholar.social/@alexhg) [![:scale 1em](../assets/images/slides/misc/mastodon.png)](https://scholar.social/@alexhg) | [@alexhdezgcia](https://twitter.com/alexhdezgcia) [![:scale 1em](../assets/images/slides/misc/twitter.png)](https://twitter.com/alexhdezgcia)]
 
 .smaller[.footer[
-Slides: [alexhernandezgarcia.github.io/slides/mifpp-sep23](https://alexhernandezgarcia.github.io/slides/mifpp-sep23)
+Slides: [alexhernandezgarcia.github.io/slides/{{ name }}](https://alexhernandezgarcia.github.io/slides/{{ name }})
 ]]
-
-
