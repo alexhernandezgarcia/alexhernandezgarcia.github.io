@@ -133,7 +133,7 @@ count: false
 
 .context35[.highlight1[PhD] work on deep learning, visual perception and computational neuroscience.]
 
-I proposed a .highlight1[brain-inspired unsupervised, contrastive training objective to encourage representational invariance] to perceptually plausible image transformations - _data augmentation invariance_. Note: prior to Google's SimCLR paper.
+I proposed a .highlight1[brain-inspired unsupervised, contrastive training objective to encourage representational invariance] to perceptually plausible image transformations - _data augmentation invariance_. Note: work prior to Google's SimCLR paper.
 
 .left-column[
 .center[
@@ -151,17 +151,38 @@ I proposed a .highlight1[brain-inspired unsupervised, contrastive training objec
 
 ---
 
-## When I am not training models or reading papers...
-
-~~...I am reviewing papers, trying to empty my email inbox, having meetings...~~
+## About me
+### Alongside my academic journey...
 
 ---
 
 count: false
 
-## When I am not training models or reading papers...
+## About me
+### Alongside my academic journey...
 
-~~...I am reviewing papers, trying to empty my email inbox, having meetings...~~
+.center[![:scale 60%](../assets/images/slides/misc/ouc3m.jpg)]
+
+---
+
+count: false
+
+## About me
+### Alongside my academic journey...
+
+.center[![:scale 80%](../assets/images/slides/misc/osi_all.png)]
+
+.center[![:scale 30%](../assets/images/slides/misc/osi_alex.png)]
+
+.footnote[[Orchestre Symphonique de l'Isle](https://osimontreal.com/)]
+
+---
+
+count: false
+
+## About me
+### Alongside my academic journey...
+
 
 .center[![:scale 60%](../assets/images/slides/misc/bjr1.jpg)]
 
@@ -171,19 +192,8 @@ count: false
 
 count: false
 
-## When I am not training models or reading papers...
-
-~~...I am reviewing papers, trying to empty my email inbox, having meetings...~~
-
-.center[![:scale 60%](../assets/images/slides/misc/ouc3m.jpg)]
-
----
-
-count: false
-
-## When I am not training models or reading papers...
-
-~~...I am reviewing papers, trying to empty my email inbox, having meetings...~~
+## About me
+### Alongside my academic journey...
 
 .center[![:scale 60%](../assets/images/slides/misc/lume.jpg)]
 
@@ -191,26 +201,44 @@ count: false
 
 ---
 
-## Outline
+name: mlforscience-udem-feb24
+class: title, middle
 
-* Part 1: Motivation: Why scientific discovery?
-    * Challenges, limitations and opportunities for machine learning
-* Part 2: A brief introduction to GFlowNets
-* Part 3: Multi-fidelity active learning with GFlowNets
+## Machine learning for science
+### Tackling climate and health challenges
+
+<hr>
+
+## Apprentissage automatique pour les sciences
+### S'attaquer à la crise climatique et aux défis en santé
+
+---
+
+count: false
+
+name: mlforscience-udem-feb24
+class: title, middle
+
+## Machine learning for science
+### Tackling climate .highlight2[and] health challenges
+
+<hr>
+
+## Apprentissage automatique pour les sciences
+### S'attaquer à la crise climatique .highlight2[et] aux défis en santé
 
 ---
 
 name: title
 class: title, middle
 
-## Motivation: Why scientific discovery?
-### Part 1
+## Motivation and overview
 
 .center[![:scale 30%](../assets/images/slides/climatechange/demo.jpg)]
 
 ---
 
-## Why scientific discovery?
+## Why climate and health?
 
 .context[Climate change is a major challenge for humanity.]
 
@@ -222,7 +250,7 @@ class: title, middle
 ]]
 
 .right-column-33[
-Consequences:
+Direct consequences:
 * Melting glaciers and polar ice
 * Sea level rise
 * Heatwaves
@@ -241,10 +269,34 @@ Consequences:
 * In 2015, forest fires claimed roughly **980 000 $km^2$** of the world’s forest.
 * Forest fires emmitted **~1.8 Gt of CO2** in 2019.
 
+---
+
+## Why climate and health?
+
+.context[Climate change is a major challenge for humanity.]
+
+.left-column-66[.center[
+<figure>
+	<img src="../assets/images/slides/climatechange/who_climate_health.jpg" alt="Climate change presents a fundamental threat to human health." style="width: 100%">
+  <figcaption>.smaller[Climate-sensitive health risks (source graphic: <a href="https://www.who.int/news-room/fact-sheets/detail/climate-change-and-health">World Health Organization</a>.)]</figcaption>
+</figure>
+]]
+
+.right-column-33[
+* 3.6 _B_ people live in areas highly susceptible to climate change.
+* Household and ambient air pollution causes 7 M premature deaths _per year_.
+* Between 2030 and 2050, climate change is expected to cause 250,000 additional deaths _per year_, from undernutrition, malaria, diarrhoea and heat stress alone.
+]
+
+--
+
+.full-width[
+.conclusion["Climate change presents a fundamental threat to human health." .smaller[[World Health Organization](https://www.who.int/news-room/fact-sheets/detail/climate-change-and-health), 2023]]
+]
 
 ---
 
-## Why scientific discovery?
+## Why climate and health?
 
 .context[Climate change is a major challenge for humanity.]
 
@@ -265,6 +317,182 @@ Consequences:
 * Category C2: same as C1 but exceed warming of 1.5°C during the 21st century with a likelihood of _greater_ than 67%.
 * Category C3: scenarios that limit peak warming to 2°C throughout the 21st century with a likelihood of greater than 67%
 * Category C8: scenarios that exceed warming of 4°C during the 21st century with a likelihood of 50% or greater.
+
+---
+
+## Why climate _and_ health?
+
+.orange[Figure with a schematic of the relationship between climate change, health and ML research]
+
+---
+
+name: title
+class: title, middle
+
+## Raising climate awareness with AI-generated visualisations
+
+.center[![:scale 30%](../assets/images/slides/vicc/placedesarts_flood.gif)]
+
+---
+
+## Why AI against climate change?
+### The need to raise awareness
+
+--
+
+There is a mismatch between the magnitude of the climate crisis and the public's concern about it.
+
+.center[
+<figure>
+	<img src="../assets/images/slides/climatechange/concern_co2.png" alt="High CO2 emitters are less intensely concerned about climate change" style="width: 50%">
+  .smaller[<figcaption>Stokes et al., <a href="https://www.pewresearch.org/global/2015/11/05/1-concern-about-climate-change-and-its-consequences/">Global concern about climate change, broad support for limiting emissions</a>. Pew Research, 2015</figcaption>]
+</figure>
+]
+
+---
+
+## Our goal
+### .alpha0[Placeholder]
+
+.context[People perceive the threat of climate change as temporally, geographically and socially distant.]
+
+--
+
+.center[.bigger[.highlight1[Could we help people visualise the effects of climate change in _their own backyard_?]]]
+
+--
+
+.left-column[
+<figure>
+	<img src="../assets/images/slides/vicc/rachel_orig.jpg" alt="Montreal, original image" style="width: 80%">
+  <figcaption>Montréal, Québec, Canada</figcaption>
+</figure>
+]
+.right-column[
+<figure>
+	<img src="../assets/images/slides/vicc/oppelner_orig.jpg" alt="Berlin, original image" style="width: 80%">
+  <figcaption>Berlin, Germany</figcaption>
+</figure>
+]
+.left[
+]
+.right[
+]
+
+---
+
+count: false
+
+## Our goal
+### .alpha0[Placeholder]
+
+.context[People perceive the threat of climate change as temporally, geographically and socially distant.]
+
+.center[.bigger[.highlight1[Could we help people visualise the effects of climate change in _their own backyard_?]]]
+
+.left-column[
+<figure>
+	<img src="../assets/images/slides/vicc/rachel_flood.gif" alt="Montreal, original image" style="width: 80%">
+  <figcaption>Montréal, Québec, Canada</figcaption>
+</figure>
+]
+.right-column[
+<figure>
+	<img src="../assets/images/slides/vicc/oppelner_flood.gif" alt="Berlin, original image" style="width: 80%">
+  <figcaption>Berlin, Germany</figcaption>
+</figure>
+]
+.left[
+]
+.right[
+]
+
+---
+
+## Our goal
+### A website to encourage climate change awareness and action
+
+.context[Users can look for an address of their choice.]
+
+![:scale 100%](../assets/images/slides/vicc/website_snapshot_address_mila.png)
+
+---
+
+count: false
+
+## Our goal
+### A website to encourage climate change awareness and action
+
+.context[Obtain an AI-generated visualisation on a street photo.]
+
+.center[![:scale 70%](../assets/images/slides/vicc/website_snapshot_viz_mila.png)]
+
+---
+
+count: false
+
+## Our goal
+### A website to encourage climate change awareness and action
+
+.context[Read more about climate change and the ways to act now.]
+
+.center[![:scale 70%](../assets/images/slides/vicc/website_snapshot_whatnow.png)]
+
+---
+
+## Methods
+### Key challenges
+
+.context[The algorithm had to be able to generate realistic floods on any photo from Google Street View.]
+
+--
+
+.left-column-66[
+
+* Visual perception is sensitive to unrealistic scenes:
+    * Water texture (reflections, luminosity, etc.)
+    * Geometry of the scene (edges, obstacles, etc.)
+    * Physics (slope, view point, etc.)
+* The algorithm was meant to be deployed _in the wild_ and should work with highly variant range of photos.
+* We had to overcome the lack of training data: there is no data set of photos of _before and after_ the flood.
+]
+.right-column-33[
+.center[
+![:scale 90%](../assets/images/slides/vicc/placedesarts_flood.gif)
+]
+]
+
+
+.full-width[
+.references[
+Schmidt et al. [ClimateGAN: Raising Climate Change Awareness by Generating Images of Floods](https://arxiv.org/abs/2110.02871v1), ICLR 2022.
+]]
+
+---
+
+## Methods
+### Key features
+
+.context[Simulating photo-realistic floods is challenging because visual perception is very sensitive to unrealistic scenes and the lack of data.]
+
+--
+
+.left-column[
+
+* Data from a .highlight1[simulated virtual word] to overcome the lack of training data
+* .highlight1[Domain adaptation] to bridge the gap between simulated and real photos
+* Two-stage flood generation: .highlight1[Masker] + .highlight1[Painter]
+* Combination of .highlight1[depth and semantic segmentation] to improve water mask predictions
+* .highlight1[Conditional image generation] to _paint_ realistic water on the predicted mask
+]
+.right-column[
+![:scale 100%](../assets/images/slides/vicc/climategan-overview.png)
+]
+
+.full-width[
+.references[
+Schmidt et al. [ClimateGAN: Raising Climate Change Awareness by Generating Images of Floods](https://arxiv.org/abs/2110.02871v1), ICLR 2022.
+]]
 
 ---
 
