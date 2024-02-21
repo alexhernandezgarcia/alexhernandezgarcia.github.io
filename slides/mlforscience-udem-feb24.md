@@ -58,19 +58,15 @@ class: title, middle
 * .highlight1[Bachelor's]: Image and Sound Engineering, University Carlos III of Madrid (2013)
 
 --
-
 * .highlight1[Bachelor's] (partial): Audiovisual Communication, University Carlos III of Madrid (2013)
 
 --
-
 * .highlight1[Master's]: Machine Learning and Computer Vision, University Carlos III of Madrid (2015)
 
 --
-
 * .highlight1[PhD]: Institute of Cognitive Science, Universität Osnabrück (2016–2020)
-
   * Based in Berlin
-  * Marie Skłodowska Curie ITN “NextGenVis” (_Next generation of European visual neuroscientists_)
+  * Marie Skłodowska Curie ITN fellow
   * Thesis topics: deep learning, visual perception and computational neuroscience
   * Internship at Spinoza Centre for Neuroimaging, Amsterdam, 2018
   * Internship at University of Cambridge, 2019
@@ -82,90 +78,15 @@ count: false
 ## About me
 ### My academic journey
 
-.context35[.highlight1[PhD] work on deep learning, visual perception and computational neuroscience.]
-
-I studied the .highlight1[role of data augmentation in the generalisation] of deep neural networks, its connection to regularisation and the differences between .highlight1[implicit and explicit regularisation].
-
-.center[
-<img src="../assets/images/slides/rethinksl/255011_light_imagenet.gif" style="width:20%"/>
-<img src="../assets/images/slides/rethinksl/255011_heavier_imagenet.gif" style="width:20%"/>
-<img src="../assets/images/slides/rethinksl/66016_light_imagenet.gif" style="width:20%"/>
-<img src="../assets/images/slides/rethinksl/66016_heavier_imagenet.gif" style="width:20%"/>
-]
-
-.references[
-- Hernandez-Garcia and König. [Data augmentation instead of explicit regularization](https://arxiv.org/abs/1806.03852). arxiv:1806.03852, 2018.
-- Hernandez-Garcia and König. [Do deep nets really need weight decay and dropout?](https://arxiv.org/abs/1802.07042). arxiv:1802.07042, 2018.
-- Hernandez-Garcia. [Data augmentation and image understanding](https://arxiv.org/abs/2012.14185). arxiv:2012.14185, 2020.
-]
-
----
-
-count: false
-
-## About me
-### My academic journey
-
-.context35[.highlight1[PhD] work on deep learning, visual perception and computational neuroscience.]
-
-I compared the representations learnt by deep networks trained with various levels of .highlight1[data augmentation and the representations in fMRI] measurements in the human visual cortex.
-
-.left-column-33[
-.center[
-<img src="../assets/images/slides/daug/visual_cortex.png" style="width:100%"/>
-]]
-.right-column-66[
-.center[
-<img src="../assets/images/slides/daug/rdms.png" style="width:90%"/>
-]]
-
-.references[
-- Hernandez-Garcia et al. [Deep neural networks trained with heavier data augmentation learn features closer to representations in hIT](https://ccneuro.org/2018/proceedings/1046.pdf). CCN, 2018.
-- Hernandez-Garcia. [Data augmentation and image understanding](https://arxiv.org/abs/2012.14185). arxiv:2012.14185, 2020.
-]
-
----
-
-count: false
-
-## About me
-### My academic journey
-
-.context35[.highlight1[PhD] work on deep learning, visual perception and computational neuroscience.]
-
-I proposed a .highlight1[brain-inspired unsupervised, contrastive training objective to encourage representational invariance] to perceptually plausible image transformations - .highlight2[_data augmentation invariance_]. Note: work prior to Google's SimCLR paper.
-
-.left-column[
-.center[
-<img src="../assets/images/slides/daug/daug_inv_samples.png" style="width:100%"/>
-]]
-.right-column[
-.center[
-<img src="../assets/images/slides/daug/invariance_densenet.png" style="width:100%"/>
-]]
-
-.references[
-- Hernandez-Garcia, König and Kietzmann. [Learning robust visual representations using data augmentation invariance](https://arxiv.org/abs/1806.03852). arxiv:1806.03852, 2018.
-- Hernandez-Garcia. [Data augmentation and image understanding](https://arxiv.org/abs/2012.14185). arxiv:2012.14185, 2020.
-]
-
----
-
-## About me
-### My academic journey
-
 * .highlight1[Bachelor's]: Image and Sound Engineering, University Carlos III of Madrid (2013)
 * .highlight1[Bachelor's] (partial): Audiovisual Communication, University Carlos III of Madrid (2013)
 * .highlight1[Master's]: Machine Learning and Computer Vision, University Carlos III of Madrid (2015)
 * .highlight1[PhD]: Institute of Cognitive Science, Universität Osnabrück (2016–2020)
-
---
-* .highlight1[Postdoc]: Mila and the Université de Montréal (2020–today)
-
-    * Prof. Yoshua Bengio's group
-    * Prof. David Rolnick's group
-    * Teaching assistant in Prof. Ioannis Mitliagkas course _Fundamentals of machine learning_, 2021.
-    * Main instructor as _chargé de cours_ of _Projets avancés en apprentissage automatique_ (English x1 and French x2), 2022-2024.
+* .highlight1[Postdoc]: Mila and the Université de Montréal (2020–present)
+    * Prof. Yoshua Bengio's group and Prof. David Rolnick's group as IVADO fellow.
+    * Teaching assistant in _Fundamentals of machine learning_ (Prof. Ioannis Mitliagkas and Guillaume Rabusseau), 2021.
+    * Main instructor of _Projets avancés en apprentissage automatique_ (English x1 and French x2), 2022-2024.
+    * Mila Lab Representative (2021-2022), EDI Committee (2021-present), Sustainability Committee (2023-present)
 
 ---
 
@@ -223,12 +144,12 @@ name: mlforscience-udem-feb24
 class: title, middle
 
 ## Machine learning for science
-### Tackling climate and health challenges
+### Tackling climate _or_ health challenges
 
 <hr>
 
 ## Apprentissage automatique pour les sciences
-### S'attaquer à la crise climatique et aux défis en santé
+### S'attaquer à la crise climatique _ou_ aux défis en santé
 
 ---
 
@@ -301,33 +222,38 @@ Direct consequences:
 ]]
 
 .right-column-33[
-* 3.6 _B_ people live in areas highly susceptible to climate change.
-* Household and ambient air pollution causes 7 M premature deaths _per year_.
-* Between 2030 and 2050, climate change is expected to cause 250,000 additional deaths _per year_, from undernutrition, malaria, diarrhoea and heat stress alone.
+* Environmental factors take the lives of around 13 million people _per year_.
+* Climate change seriously affect people’s mental and physical health, access to clean air, safe water, food and health care.
 ]
 
 --
 
 .full-width[
-.conclusion["Climate change presents a fundamental threat to human health." .smaller[[World Health Organization](https://www.who.int/news-room/fact-sheets/detail/climate-change-and-health), 2023]]
+.conclusion["Climate change is the single biggest health threat facing humanity." .smaller[[WHO and WMO](https://climahealth.info/), 2024]]
 ]
+
+???
+
+- https://www.who.int/news-room/fact-sheets/detail/climate-change-and-health
+- 
+
 
 ---
 
 ## Why climate and health?
 
-.context[Climate change is a major challenge for humanity.]
+.context[Climate change is a fundamental threat to human health.]
 
 .center[
 <figure>
 	<img src="../assets/images/slides/climatechange/ipcc_scenarios.png" alt="IPCC 2022 - Scenarios" style="width: 60%">
-  <figcaption>Median global warming across modelled scenarios. Adapted from IPCC Sixth Assessment Report, 2022</figcaption>
+  <figcaption>Median <em>future</em> global warming across modelled scenarios. Adapted from IPCC Report, 2022</figcaption>
 </figure>
 ]
 
 --
 
-.conclusion["The evidence is clear: the time for action is now." .smaller[IPCC Sixth Assessment Report, 2022]]
+.conclusion["The evidence is clear: the time for action is now." .smaller[IPCC Report, 2022]]
 
 ???
 
@@ -355,266 +281,6 @@ Rolnick et al. [Tackling Climate Change with Machine Learning](https://dl.acm.or
 name: title
 class: title, middle
 
-### Raising climate awareness with AI-generated visualisations
-
-.center[![:scale 30%](../assets/images/slides/vicc/placedesarts_flood.gif)]
-
----
-
-## The need to raise awareness
-
-There is a mismatch between the magnitude of the climate crisis and the public's concern about it.
-
-.center[
-<figure>
-	<img src="../assets/images/slides/climatechange/concern_co2.png" alt="High CO2 emitters are less intensely concerned about climate change" style="width: 50%">
-  .smaller[<figcaption>Stokes et al., <a href="https://www.pewresearch.org/global/2015/11/05/1-concern-about-climate-change-and-its-consequences/">Global concern about climate change, broad support for limiting emissions</a>. Pew Research, 2015</figcaption>]
-</figure>
-]
-
----
-
-## Our goal
-### .alpha0[Placeholder]
-
-.context[People perceive the threat of climate change as temporally, geographically and socially distant.]
-
---
-
-.center[.bigger[.highlight1[Could we help people visualise the effects of climate change in _their own backyard_?]]]
-
---
-
-.left-column[
-<figure>
-	<img src="../assets/images/slides/vicc/rachel_orig.jpg" alt="Montreal, original image" style="width: 80%">
-  <figcaption>Montréal, Québec, Canada</figcaption>
-</figure>
-]
-.right-column[
-<figure>
-	<img src="../assets/images/slides/vicc/oppelner_orig.jpg" alt="Berlin, original image" style="width: 80%">
-  <figcaption>Berlin, Germany</figcaption>
-</figure>
-]
-.left[
-]
-.right[
-]
-
----
-
-count: false
-
-## Our goal
-### .alpha0[Placeholder]
-
-.context[People perceive the threat of climate change as temporally, geographically and socially distant.]
-
-.center[.bigger[.highlight1[Could we help people visualise the effects of climate change in _their own backyard_?]]]
-
-.left-column[
-<figure>
-	<img src="../assets/images/slides/vicc/rachel_flood.gif" alt="Montreal, original image" style="width: 80%">
-  <figcaption>Montréal, Québec, Canada</figcaption>
-</figure>
-]
-.right-column[
-<figure>
-	<img src="../assets/images/slides/vicc/oppelner_flood.gif" alt="Berlin, original image" style="width: 80%">
-  <figcaption>Berlin, Germany</figcaption>
-</figure>
-]
-.left[
-]
-.right[
-]
-
----
-
-## Our goal
-### A website to encourage climate change awareness and action
-
-.context[Users can look for an address of their choice.]
-
-![:scale 100%](../assets/images/slides/vicc/website_snapshot_address_mila.png)
-
----
-
-count: false
-
-## Our goal
-### A website to encourage climate change awareness and action
-
-.context[Obtain an AI-generated visualisation on a street photo.]
-
-.center[![:scale 70%](../assets/images/slides/vicc/website_snapshot_viz_mila.png)]
-
----
-
-count: false
-
-## Our goal
-### A website to encourage climate change awareness and action
-
-.context[Read more about climate change and the ways to act now.]
-
-.center[![:scale 70%](../assets/images/slides/vicc/website_snapshot_whatnow.png)]
-
----
-
-## Methods
-### Key challenges
-
-.context[The algorithm had to be able to generate realistic floods on any photo from Google Street View.]
-
---
-
-.left-column-66[
-
-* Visual perception is sensitive to unrealistic scenes:
-    * Water texture (reflections, luminosity, etc.)
-    * Geometry of the scene (edges, obstacles, etc.)
-    * Physics (slope, view point, etc.)
-* The algorithm was meant to be deployed _in the wild_ and should work with highly variant range of photos.
-* We had to overcome the lack of training data: there is no data set of photos of _before and after_ the flood.
-]
-.right-column-33[
-.center[
-![:scale 90%](../assets/images/slides/vicc/placedesarts_flood.gif)
-]
-]
-
-
-.full-width[
-.references[
-Schmidt et al. [ClimateGAN: Raising Climate Change Awareness by Generating Images of Floods](https://arxiv.org/abs/2110.02871v1), ICLR 2022.
-]]
-
----
-
-## Methods
-### Key features
-
-.context[Simulating photo-realistic floods is challenging because visual perception is very sensitive to unrealistic scenes and the lack of data.]
-
---
-
-.left-column[
-
-* Data from a .highlight1[simulated virtual word] to overcome the lack of training data
-* .highlight1[Domain adaptation] to bridge the gap between simulated and real photos
-* Two-stage flood generation: .highlight1[Masker] + .highlight1[Painter]
-* Combination of .highlight1[depth and semantic segmentation] to improve water mask predictions
-* .highlight1[Conditional image generation] to _paint_ realistic water on the predicted mask
-]
-.right-column[
-![:scale 100%](../assets/images/slides/vicc/climategan-overview.png)
-]
-
-.full-width[
-.references[
-Schmidt et al. [ClimateGAN: Raising Climate Change Awareness by Generating Images of Floods](https://arxiv.org/abs/2110.02871v1), ICLR 2022.
-]]
-
----
-
-name: title
-class: title, middle
-
-### Increasing climate models resolution with hard-constrained deep learning
-
-.center[![:scale 20%](../assets/images/slides/downscaling/gcm_sample2.png)]
-
----
-
-## The importance of climate models
-
-.highlight1[Definition]: Climate models simulate the interactions of factors the drive the climate via systems differential equations based on the basic laws of physics, fluid motion, and chemistry.
-
-.left-column[
-.center[![:scale 90%](../assets/images/slides/downscaling/gcm_sample.png)]
-]
-
-.right-column[
-- Accurate modeling of weather and climate is critical for taking effective action to combat climate change.
-- The resolution of climate models is too coarse to guide local and regional policy making.
-- Deep learning can be used to increase climate models resolution (.highlight1[_downscaling_]), akin to image super-resolution.
-]
-
-.conclusion[Climate model downscaling with deep learning can facilitate the use of global climate models at local and regional level.]
-
----
-
-## Hard-constrained _downscaling_
-### .alpha0[Placeholder]
-
-.context35[Deep learning can be used to increase the resolution of climate models.]
-
-The direct application of .highlight1[image-super resolution] deep learning to climate model downscaling can result in the .highlight1[violation of fundamental physical relationships].
-
-.center[![:scale 90%](../assets/images/slides/downscaling/image-super-resolution.png)]
-
----
-
-count: false
-
-## Hard-constrained _downscaling_
-### .alpha0[Placeholder]
-
-.context35[Deep learning can be used to increase the resolution of climate models.]
-
-We proposed a procedure to enforce .highlight1[mass conservation] between the low-resolution input and the super-resolution prediction.
-
-.center[![:scale 50%](../assets/images/slides/downscaling/model_hc.png)]
-
-.references[
-Harder et al. [Hard-constrained deep learning for climate downscaling](https://jmlr.org/papers/v24/23-0158.html), JMLR 2023.
-]
-
----
-
-count: false
-
-## Hard-constrained _downscaling_
-### .alpha0[Placeholder]
-
-.context35[Deep learning can be used to increase the resolution of climate models.]
-
-We proposed a procedure to enforce .highlight1[mass conservation] between the low-resolution input and the super-resolution prediction.
-
-.center[![:scale 70%](../assets/images/slides/downscaling/wrf.png)]
-
-.references[
-Harder et al. [Hard-constrained deep learning for climate downscaling](https://jmlr.org/papers/v24/23-0158.html), JMLR 2023.
-]
-
-.conclusion[Hard constraints provide theoretical guarantees and even improved the performance.]
-
----
-
-## Arbitrary resolution _downscaling_
-
-.context35[Deep learning can be used to increase the resolution of climate models.]
-
-<br>
-Standard deep learning for climate downscaling is typically limited to the input and output resolutions specified at training time.
-
---
-
-We proposed the use of [Fourier Neural Operators](https://arxiv.org/abs/2010.08895), which learn mappings in function spaces instead of Euclidean spaces, for arbitrary resolution climate downscaling: we train with mappings for a small upsampling factor, but the model can .highlight1[zero-shot downscale to arbitrary, unseen, higher resolutions].
-
-.center[![:scale 50%](../assets/images/slides/downscaling/model_fno.png)]
-
-.references[
-Yang et al. [Fourier Neural Operators for arbitrary resolution climate data downscaling](https://arxiv.org/abs/2305.14452), arxiv:2305.14452, 2023.
-]
-
----
-
-name: title
-class: title, middle
-
 ### Machine learning for scientific discoveries
 
 .center[![:scale 20%](../assets/images/slides/scientific-discovery/laboratory.png)]
@@ -622,7 +288,7 @@ class: title, middle
 ---
 
 ## Why scientific discovery?
-### The potential of scientific discoveries
+### The potential on sustainability
 
 .context["The time for action is now"]
 
@@ -632,7 +298,7 @@ class: title, middle
 
 --
 
-> "Net-zero CO2 emissions from the industrial sector are challenging but possible. Reducing industry emissions will entail coordinated action throughout value chains to promote all mitigation options, including demand management, .highlight1[energy and materials efficiency, circular material flows], as well as abatement technologies and transformational changes in production processes." .cite[IPCC Sixth Assessment Report, 2022]
+> "Reducing industry emissions will entail coordinated action throughout value chains to promote all mitigation options, including demand management, .highlight1[energy and materials efficiency, circular material flows]." .cite[IPCC Sixth Assessment Report, 2022]
 
 --
 
@@ -640,6 +306,17 @@ class: title, middle
 
 .conclusion[Mitigation of the climate crisis requires transformational changes in the energy and materials efficiency.]
 
+???
+
+Antimicrobial resistance
+
+- https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance
+- https://www.who.int/news-room/feature-stories/detail/donors-making-a-difference--climate-change-and-its-impact-on-health
+- https://www.who.int/news/item/31-10-2022-who-and-wmo-launch-a-new-knowledge-platform-for-climate-and-health
+- https://www.who.int/news/item/08-02-2024-who-medically-important-antimicrobial-list-2024
+- https://cdn.who.int/media/docs/default-source/gcp/who-mia-list-2024-lv.pdf?sfvrsn=3320dd3d_2
+- https://www.who.int/publications/i/item/9789240047655
+
 ---
 
 ## Why scientific discovery?
@@ -647,44 +324,29 @@ class: title, middle
 
 .context[The climate crisis demands more efficient materials.]
 
-* Improving material efficiency can reduce 0.93 ($\pm$ 0.23) GtCO₂-eq per year.
-* Fuel switching can reduce 2.1 ($\pm$ 0.52) GtCO₂-eq per year, only in the industry sector. 
-* Carbon capture and storage can reduce 0.54 ($\pm$ 0.27) GtCO₂-eq per year in the energy sector.
+Anthropogenic emissions in 2019:
+- Canada: 0.73 GtCO₂-eq
+- Global: 59 ($\pm$ 6.6) GtCO₂-eq
+
+--
+
+Potential reduction impact of materials discovery:
+- Improving material efficiency can reduce 0.93 ($\pm$ 0.23) GtCO₂-eq per year.
+- Fuel switching can reduce 2.1 ($\pm$ 0.52) GtCO₂-eq per year, only in the industry sector. 
+- Carbon capture and storage can reduce 0.54 ($\pm$ 0.27) GtCO₂-eq per year in the energy sector.
 
 .right[.cite[IPCC Sixth Assessment Report (2022)]]
 
-.smaller[.footnote[† Global anthropogenic emissions in 2019 were estimated in 59 ($\pm$ 6.6) GtCO₂-eq.]]
+--
 
----
-
-count: false
-
-## Why scientific discovery?
-### The potential of better materials
-
-.context[The climate crisis demands more efficient materials.]
-
-* Improving material efficiency can reduce 0.93 ($\pm$ 0.23) GtCO₂-eq per year.
-* Fuel switching can reduce 2.1 ($\pm$ 0.52) GtCO₂-eq per year, only in the industry sector. 
-* Carbon capture and storage can reduce 0.54 ($\pm$ 0.27) GtCO₂-eq per year in the energy sector.
-
-.right[.cite[IPCC Sixth Assessment Report (2022)]]
-
-What are better, new materials needed for?
-
-* Electrocatalysts for fuel cells, hydrogen storage, industrial chemical reactions, carbon capture, etc.
-* Solid electrolytes for batteries.
-* Thin film materials for photovoltaics.
-* ...
-
-.smaller[.footnote[† Global anthropogenic emissions in 2019 were estimated in 59 ($\pm$ 6.6) GtCO₂-eq.]]
+.conclusion[Materials discovery has the potential to reduce carbon emissions in multiple areas.] 
 
 ---
 
 ## Scientific discoveries in history
 ### .alpha0[Placeholder]
 
-.context35[Material discovery is a key ingredient for climate change mitigation.]
+.context35[Materials discovery has the potential to reduce carbon emissions in multiple areas.]
 
 --
 
@@ -704,10 +366,6 @@ Many notable scientific discoveries have occurred due to .highlight1[serendipity
 <br>
 .conclusion[Clearly, we should not rely on serendipity to fight climate change.]
 
-???
-
-Joke experience with some of them, like penicillin and superglue.
-
 ---
 
 count: false
@@ -715,7 +373,7 @@ count: false
 ## Scientific discoveries in history
 ### .alpha0[Placeholder]
 
-.context35[Material discovery is a key ingredient for climate change mitigation.]
+.context35[Materials discovery has the potential to reduce carbon emissions in multiple areas.]
 
 .center[
 <figure>
@@ -725,7 +383,7 @@ count: false
 ]
 
 .references[
-* Li et al. [Machine learning in concrete science: applications, challenges, and best practices](https://www.nature.com/articles/s41524-022-00810-x). Nature  npj Computational Materials, 2022
+Li et al. [Machine learning in concrete science: applications, challenges, and best practices](https://www.nature.com/articles/s41524-022-00810-x). Nature  npj Computational Materials, 2022
 ]
 
 ???
@@ -739,7 +397,7 @@ count: false
 ## Scientific discoveries in history
 ### .alpha0[Placeholder]
 
-.context35[Material discovery is a key ingredient for climate change mitigation.]
+.context35[Materials discovery has the potential to reduce carbon emissions in multiple areas.]
 
 .center[
 <figure>
@@ -749,7 +407,7 @@ count: false
 ]
 
 .references[
-* Li et al. [Machine learning in concrete science: applications, challenges, and best practices](https://www.nature.com/articles/s41524-022-00810-x). Nature  npj Computational Materials, 2022
+Li et al. [Machine learning in concrete science: applications, challenges, and best practices](https://www.nature.com/articles/s41524-022-00810-x). Nature  npj Computational Materials, 2022
 ]
 
 ???
@@ -763,7 +421,7 @@ count: false
 ## Scientific discoveries in history
 ### .alpha0[Placeholder]
 
-.context35[Material discovery is a key ingredient for climate change mitigation.]
+.context35[Materials discovery has the potential to reduce carbon emissions in multiple areas.]
 
 .center[
 <figure>
@@ -773,7 +431,7 @@ count: false
 ]
 
 .references[
-* Li et al. [Machine learning in concrete science: applications, challenges, and best practices](https://www.nature.com/articles/s41524-022-00810-x). Nature  npj Computational Materials, 2022
+Li et al. [Machine learning in concrete science: applications, challenges, and best practices](https://www.nature.com/articles/s41524-022-00810-x). Nature  npj Computational Materials, 2022
 ]
 
 ???
@@ -789,7 +447,7 @@ count: false
 ## Scientific discoveries in history
 ### .alpha0[Placeholder]
 
-.context35[Material discovery is a key ingredient for climate change mitigation.]
+.context35[Materials discovery has the potential to reduce carbon emissions in multiple areas.]
 
 .center[
 <figure>
@@ -799,7 +457,7 @@ count: false
 ]
 
 .references[
-* Li et al. [Machine learning in concrete science: applications, challenges, and best practices](https://www.nature.com/articles/s41524-022-00810-x). Nature  npj Computational Materials, 2022
+Li et al. [Machine learning in concrete science: applications, challenges, and best practices](https://www.nature.com/articles/s41524-022-00810-x). Nature  npj Computational Materials, 2022
 ]
 
 ???
@@ -815,7 +473,7 @@ count: false
 ## Scientific discoveries in history
 ### .alpha0[Placeholder]
 
-.context35[Material discovery is a key ingredient for climate change mitigation.]
+.context35[Materials discovery has the potential to reduce carbon emissions in multiple areas.]
 
 .center[
 <figure>
@@ -825,7 +483,7 @@ count: false
 ]
 
 .references[
-* Li et al. [Machine learning in concrete science: applications, challenges, and best practices](https://www.nature.com/articles/s41524-022-00810-x). Nature  npj Computational Materials, 2022
+Li et al. [Machine learning in concrete science: applications, challenges, and best practices](https://www.nature.com/articles/s41524-022-00810-x). Nature  npj Computational Materials, 2022
 ]
 
 ???
@@ -836,14 +494,14 @@ By leveraging existing datasets with data-driven models, ML can automatically le
 
 ---
 
-## Traditional scientific discovery loop
+## Traditional discovery cycle
 
 .context35[The climate crisis demands accelerating scientific discoveries.]
 
 .right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_1.png)]]
 
 .left-column-33[
-<br><br>
+<br>
 The .highlight1[traditional pipeline] for scientific discovery (paradigms 1-3):
 * relies on .highlight1[highly specialised human expertise],
 * it is .highlight1[time-consuming] and
@@ -861,7 +519,7 @@ count: false
 .right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_2.png)]]
 
 .left-column-33[
-<br><br>
+<br>
 A .highlight1[machine learning model] can be:
 * trained with data from _real-world_ experiments and
 ]
@@ -877,7 +535,7 @@ count: false
 .right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_3.png)]]
 
 .left-column-33[
-<br><br>
+<br>
 A .highlight1[machine learning model] can be:
 * trained with data from _real-world_ experiments and
 * used to quickly and cheaply evaluate queries
@@ -894,7 +552,7 @@ count: false
 .right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_3.png)]]
 
 .left-column-33[
-<br><br>
+<br>
 A .highlight1[machine learning model] can be:
 * trained with data from _real-world_ experiments and
 * used to quickly and cheaply evaluate queries
@@ -913,7 +571,8 @@ count: false
 .right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_4.png)]]
 
 .left-column-33[
-A .highlight1[machine learning **agent**] in the loop can potentially:
+<br>
+A .highlight1[machine learning **agent**] could:
 * .highlight1[learn structure] from the available data,
 * .highlight1[generalise] to unexplored regions of the search space and
 * .highlight1[build better queries]
@@ -930,7 +589,8 @@ count: false
 .right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_4.png)]]
 
 .left-column-33[
-A .highlight1[machine learning **agent**] in the loop can potentially:
+<br>
+A .highlight1[machine learning **agent**] could:
 * .highlight1[learn structure] from the available data,
 * .highlight1[generalise] to unexplored regions of the search space and
 * .highlight1[build better queries]
@@ -949,7 +609,8 @@ count: false
 .right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_5.png)]]
 
 .left-column-33[
-A .highlight1[machine learning **agent**] in the loop can potentially:
+<br>
+A .highlight1[machine learning **agent**] could:
 * .highlight1[learn structure] from the available data,
 * .highlight1[generalise] to unexplored regions of the search space and
 * .highlight1[build better queries]
@@ -984,7 +645,7 @@ Jain et al. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/abs
 
 --
 
-.highlight1[Limitation]: Reinforcement learning and MCMC methods are good at optimisation but poor at mode mixing.
+.highlight1[Limitation]: Reinforcement learning and MCMC methods excel at optimisation but struggle at mode mixing.
 
 --
 
@@ -998,6 +659,52 @@ class: title, middle
 ### A brief introduction to GFlowNets
 
 .center[![:scale 30%](../assets/images/slides/gfn-seq-design/flownet.gif)]
+
+---
+
+## An intuitive toy problem
+
+.highlight1[Problem]: find all or multiple arrangements of Tetris pieces on the board that minimise the empty space.
+
+.left-column[
+.center[![:scale 20%](../assets/images/slides/tetris/board_empty.png)]
+]
+
+.right-column[
+![:scale 15%](../assets/images/slides/tetris/piece_J.png) ![:scale 15%](../assets/images/slides/tetris/piece_L.png) ![:scale 15%](../assets/images/slides/tetris/piece_O.png)
+]
+
+---
+
+## An intuitive ~~toy~~ hard problem
+
+.highlight1[Problem]: find all or multiple arrangements of Tetris pieces on the board that minimise the empty space.
+
+.left-column[
+.center[![:scale 20%](../assets/images/slides/tetris/board_empty.png)]
+]
+
+.right-column[
+![:scale 15%](../assets/images/slides/tetris/piece_J.png) ![:scale 15%](../assets/images/slides/tetris/piece_L.png) ![:scale 15%](../assets/images/slides/tetris/piece_O.png)
+]
+
+---
+
+## An incredibly ~~intuitive toy~~ hard problem
+
+.highlight1[Problem]: find all or multiple arrangements of Tetris pieces on the board that .highlight2[optimise an unknown function].
+
+.left-column[
+.center[![:scale 20%](../assets/images/slides/tetris/board_empty.png)]
+]
+
+.right-column[
+![:scale 15%](../assets/images/slides/tetris/piece_J.png) ![:scale 15%](../assets/images/slides/tetris/piece_L.png) ![:scale 15%](../assets/images/slides/tetris/piece_O.png)
+]
+
+--
+
+.conclusion[This task resembles designing DNA sequences or molecules or materials via fragments, with the objective of optimising certain properties.]
 
 ---
 
@@ -2046,3 +1753,340 @@ Alex Hernández-García (he/il/él)
 .smaller[.footer[
 Slides: [alexhernandezgarcia.github.io/slides/{{ name }}](https://alexhernandezgarcia.github.io/slides/{{ name }})
 ]]
+
+---
+
+## Supplementary slides
+
+---
+
+## About me
+### My academic journey
+
+.context35[.highlight1[PhD] work on deep learning, visual perception and computational neuroscience.]
+
+I studied the .highlight1[role of data augmentation in the generalisation] of deep neural networks, its connection to regularisation and the differences between .highlight1[implicit and explicit regularisation].
+
+.center[
+<img src="../assets/images/slides/rethinksl/255011_light_imagenet.gif" style="width:20%"/>
+<img src="../assets/images/slides/rethinksl/255011_heavier_imagenet.gif" style="width:20%"/>
+<img src="../assets/images/slides/rethinksl/66016_light_imagenet.gif" style="width:20%"/>
+<img src="../assets/images/slides/rethinksl/66016_heavier_imagenet.gif" style="width:20%"/>
+]
+
+.references[
+- Hernandez-Garcia and König. [Data augmentation instead of explicit regularization](https://arxiv.org/abs/1806.03852). arxiv:1806.03852, 2018.
+- Hernandez-Garcia and König. [Do deep nets really need weight decay and dropout?](https://arxiv.org/abs/1802.07042). arxiv:1802.07042, 2018.
+- Hernandez-Garcia. [Data augmentation and image understanding](https://arxiv.org/abs/2012.14185). arxiv:2012.14185, 2020.
+]
+
+---
+
+count: false
+
+## About me
+### My academic journey
+
+.context35[.highlight1[PhD] work on deep learning, visual perception and computational neuroscience.]
+
+I compared the representations learnt by deep networks trained with various levels of .highlight1[data augmentation and the representations in fMRI] measurements in the human visual cortex.
+
+.left-column-33[
+.center[
+<img src="../assets/images/slides/daug/visual_cortex.png" style="width:100%"/>
+]]
+.right-column-66[
+.center[
+<img src="../assets/images/slides/daug/rdms.png" style="width:90%"/>
+]]
+
+.references[
+- Hernandez-Garcia et al. [Deep neural networks trained with heavier data augmentation learn features closer to representations in hIT](https://ccneuro.org/2018/proceedings/1046.pdf). CCN, 2018.
+- Hernandez-Garcia. [Data augmentation and image understanding](https://arxiv.org/abs/2012.14185). arxiv:2012.14185, 2020.
+]
+
+---
+
+count: false
+
+## About me
+### My academic journey
+
+.context35[.highlight1[PhD] work on deep learning, visual perception and computational neuroscience.]
+
+I proposed a .highlight1[brain-inspired unsupervised, contrastive training objective to encourage representational invariance] to perceptually plausible image transformations - .highlight2[_data augmentation invariance_]. Note: work prior to Google's SimCLR paper.
+
+.left-column[
+.center[
+<img src="../assets/images/slides/daug/daug_inv_samples.png" style="width:100%"/>
+]]
+.right-column[
+.center[
+<img src="../assets/images/slides/daug/invariance_densenet.png" style="width:100%"/>
+]]
+
+.references[
+- Hernandez-Garcia, König and Kietzmann. [Learning robust visual representations using data augmentation invariance](https://arxiv.org/abs/1806.03852). arxiv:1806.03852, 2018.
+- Hernandez-Garcia. [Data augmentation and image understanding](https://arxiv.org/abs/2012.14185). arxiv:2012.14185, 2020.
+]
+
+---
+
+name: title
+class: title, middle
+
+### Raising climate awareness with AI-generated visualisations
+
+.center[![:scale 30%](../assets/images/slides/vicc/placedesarts_flood.gif)]
+
+---
+
+## The need to raise awareness
+
+There is a mismatch between the magnitude of the climate crisis and the public's concern about it.
+
+.center[
+<figure>
+	<img src="../assets/images/slides/climatechange/concern_co2.png" alt="High CO2 emitters are less intensely concerned about climate change" style="width: 50%">
+  .smaller[<figcaption>Stokes et al., <a href="https://www.pewresearch.org/global/2015/11/05/1-concern-about-climate-change-and-its-consequences/">Global concern about climate change, broad support for limiting emissions</a>. Pew Research, 2015</figcaption>]
+</figure>
+]
+
+---
+
+## Our goal
+### .alpha0[Placeholder]
+
+.context[People perceive the threat of climate change as temporally, geographically and socially distant.]
+
+--
+
+.center[.bigger[.highlight1[Could we help people visualise the effects of climate change in _their own backyard_?]]]
+
+--
+
+.left-column[
+<figure>
+	<img src="../assets/images/slides/vicc/rachel_orig.jpg" alt="Montreal, original image" style="width: 80%">
+  <figcaption>Montréal, Québec, Canada</figcaption>
+</figure>
+]
+.right-column[
+<figure>
+	<img src="../assets/images/slides/vicc/oppelner_orig.jpg" alt="Berlin, original image" style="width: 80%">
+  <figcaption>Berlin, Germany</figcaption>
+</figure>
+]
+.left[
+]
+.right[
+]
+
+---
+
+count: false
+
+## Our goal
+### .alpha0[Placeholder]
+
+.context[People perceive the threat of climate change as temporally, geographically and socially distant.]
+
+.center[.bigger[.highlight1[Could we help people visualise the effects of climate change in _their own backyard_?]]]
+
+.left-column[
+<figure>
+	<img src="../assets/images/slides/vicc/rachel_flood.gif" alt="Montreal, original image" style="width: 80%">
+  <figcaption>Montréal, Québec, Canada</figcaption>
+</figure>
+]
+.right-column[
+<figure>
+	<img src="../assets/images/slides/vicc/oppelner_flood.gif" alt="Berlin, original image" style="width: 80%">
+  <figcaption>Berlin, Germany</figcaption>
+</figure>
+]
+.left[
+]
+.right[
+]
+
+---
+
+## Our goal
+### A website to encourage climate change awareness and action
+
+.context[Users can look for an address of their choice.]
+
+![:scale 100%](../assets/images/slides/vicc/website_snapshot_address_mila.png)
+
+---
+
+count: false
+
+## Our goal
+### A website to encourage climate change awareness and action
+
+.context[Obtain an AI-generated visualisation on a street photo.]
+
+.center[![:scale 70%](../assets/images/slides/vicc/website_snapshot_viz_mila.png)]
+
+---
+
+count: false
+
+## Our goal
+### A website to encourage climate change awareness and action
+
+.context[Read more about climate change and the ways to act now.]
+
+.center[![:scale 70%](../assets/images/slides/vicc/website_snapshot_whatnow.png)]
+
+---
+
+## Methods
+### Key challenges
+
+.context[The algorithm had to be able to generate realistic floods on any photo from Google Street View.]
+
+--
+
+.left-column-66[
+
+* Visual perception is sensitive to unrealistic scenes:
+    * Water texture (reflections, luminosity, etc.)
+    * Geometry of the scene (edges, obstacles, etc.)
+    * Physics (slope, view point, etc.)
+* The algorithm was meant to be deployed _in the wild_ and should work with highly variant range of photos.
+* We had to overcome the lack of training data: there is no data set of photos of _before and after_ the flood.
+]
+.right-column-33[
+.center[
+![:scale 90%](../assets/images/slides/vicc/placedesarts_flood.gif)
+]
+]
+
+
+.full-width[
+.references[
+Schmidt et al. [ClimateGAN: Raising Climate Change Awareness by Generating Images of Floods](https://arxiv.org/abs/2110.02871v1), ICLR 2022.
+]]
+
+---
+
+## Methods
+### Key features
+
+.context[Simulating photo-realistic floods is challenging because visual perception is very sensitive to unrealistic scenes and the lack of data.]
+
+--
+
+.left-column[
+
+* Data from a .highlight1[simulated virtual word] to overcome the lack of training data
+* .highlight1[Domain adaptation] to bridge the gap between simulated and real photos
+* Two-stage flood generation: .highlight1[Masker] + .highlight1[Painter]
+* Combination of .highlight1[depth and semantic segmentation] to improve water mask predictions
+* .highlight1[Conditional image generation] to _paint_ realistic water on the predicted mask
+]
+.right-column[
+![:scale 100%](../assets/images/slides/vicc/climategan-overview.png)
+]
+
+.full-width[
+.references[
+Schmidt et al. [ClimateGAN: Raising Climate Change Awareness by Generating Images of Floods](https://arxiv.org/abs/2110.02871v1), ICLR 2022.
+]]
+
+---
+
+name: title
+class: title, middle
+
+### Increasing climate models resolution with hard-constrained deep learning
+
+.center[![:scale 20%](../assets/images/slides/downscaling/gcm_sample2.png)]
+
+---
+
+## The importance of climate models
+
+.highlight1[Definition]: Climate models simulate the interactions of factors the drive the climate via systems differential equations based on the basic laws of physics, fluid motion, and chemistry.
+
+.left-column[
+.center[![:scale 90%](../assets/images/slides/downscaling/gcm_sample.png)]
+]
+
+.right-column[
+- Accurate modeling of weather and climate is critical for taking effective action to combat climate change.
+- The resolution of climate models is too coarse to guide local and regional policy making.
+- Deep learning can be used to increase climate models resolution (.highlight1[_downscaling_]), akin to image super-resolution.
+]
+
+.conclusion[Climate model downscaling with deep learning can facilitate the use of global climate models at local and regional level.]
+
+---
+
+## Hard-constrained _downscaling_
+### .alpha0[Placeholder]
+
+.context35[Deep learning can be used to increase the resolution of climate models.]
+
+The direct application of .highlight1[image-super resolution] deep learning to climate model downscaling can result in the .highlight1[violation of fundamental physical relationships].
+
+.center[![:scale 90%](../assets/images/slides/downscaling/image-super-resolution.png)]
+
+---
+
+count: false
+
+## Hard-constrained _downscaling_
+### .alpha0[Placeholder]
+
+.context35[Deep learning can be used to increase the resolution of climate models.]
+
+We proposed a procedure to enforce .highlight1[mass conservation] between the low-resolution input and the super-resolution prediction.
+
+.center[![:scale 50%](../assets/images/slides/downscaling/model_hc.png)]
+
+.references[
+Harder et al. [Hard-constrained deep learning for climate downscaling](https://jmlr.org/papers/v24/23-0158.html), JMLR 2023.
+]
+
+---
+
+count: false
+
+## Hard-constrained _downscaling_
+### .alpha0[Placeholder]
+
+.context35[Deep learning can be used to increase the resolution of climate models.]
+
+We proposed a procedure to enforce .highlight1[mass conservation] between the low-resolution input and the super-resolution prediction.
+
+.center[![:scale 70%](../assets/images/slides/downscaling/wrf.png)]
+
+.references[
+Harder et al. [Hard-constrained deep learning for climate downscaling](https://jmlr.org/papers/v24/23-0158.html), JMLR 2023.
+]
+
+.conclusion[Hard constraints provide theoretical guarantees and even improved the performance.]
+
+---
+
+## Arbitrary resolution _downscaling_
+
+.context35[Deep learning can be used to increase the resolution of climate models.]
+
+<br>
+Standard deep learning for climate downscaling is typically limited to the input and output resolutions specified at training time.
+
+--
+
+We proposed the use of [Fourier Neural Operators](https://arxiv.org/abs/2010.08895), which learn mappings in function spaces instead of Euclidean spaces, for arbitrary resolution climate downscaling: we train with mappings for a small upsampling factor, but the model can .highlight1[zero-shot downscale to arbitrary, unseen, higher resolutions].
+
+.center[![:scale 50%](../assets/images/slides/downscaling/model_fno.png)]
+
+.references[
+Yang et al. [Fourier Neural Operators for arbitrary resolution climate data downscaling](https://arxiv.org/abs/2305.14452), arxiv:2305.14452, 2023.
+]
+
