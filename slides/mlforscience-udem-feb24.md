@@ -662,47 +662,173 @@ class: title, middle
 
 ---
 
+## An intuitive trivial problem
+
+.highlight1[Problem]: find one arrangement of Tetris pieces on the board that minimise the empty space.
+
+.left-column-33[
+.center[![:scale 30%](../assets/images/slides/tetris/board_empty.png)]
+]
+
+.right-column-66[
+.center[![:scale 40%](../assets/images/slides/tetris/action_space_minimal.png)]
+]
+
+--
+
+.full-width[.center[
+<figure>
+  <img src="../assets/images/slides/tetris/mode1.png" alt="Score 12/12" style="width: 3%">
+<figcaption>Score: 12/12</figcaption>
+</figure>
+]]
+
+---
+
 ## An intuitive toy problem
 
-.highlight1[Problem]: find all or multiple arrangements of Tetris pieces on the board that minimise the empty space.
+.highlight1[Problem]: find .highlight2[all] the arrangements of Tetris pieces on the board that minimise the empty space.
 
-.left-column[
-.center[![:scale 20%](../assets/images/slides/tetris/board_empty.png)]
+.left-column-33[
+.center[![:scale 30%](../assets/images/slides/tetris/board_empty.png)]
 ]
 
-.right-column[
-![:scale 15%](../assets/images/slides/tetris/piece_J.png) ![:scale 15%](../assets/images/slides/tetris/piece_L.png) ![:scale 15%](../assets/images/slides/tetris/piece_O.png)
+.right-column-66[
+.center[![:scale 40%](../assets/images/slides/tetris/action_space_minimal.png)]
 ]
+
+--
+
+.full-width[.center[
+<div style="display: flex">
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/mode1.png" alt="Score 12/12" style="width: 20%">
+    <figcaption>12/12</figcaption>
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/mode2.png" alt="Score 12/12" style="width: 20%">
+    <figcaption>12/12</figcaption>
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/mode3.png" alt="Score 12/12" style="width: 20%">
+    <figcaption>12/12</figcaption>
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/mode4.png" alt="Score 12/12" style="width: 20%">
+    <figcaption>12/12</figcaption>
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/mode5.png" alt="Score 12/12" style="width: 20%">
+    <figcaption>12/12</figcaption>
+  </figure>
+  </div>
+</div>
+]]
 
 ---
 
 ## An intuitive ~~toy~~ hard problem
 
-.highlight1[Problem]: find all or multiple arrangements of Tetris pieces on the board that minimise the empty space.
+.highlight1[Problem]: find .highlight2[all] the arrangements of Tetris pieces on the board that minimise the empty space.
 
-.left-column[
-.center[![:scale 20%](../assets/images/slides/tetris/board_empty.png)]
+.left-column-33[
+.center[![:scale 40%](../assets/images/slides/tetris/10x20/board_empty.png)]
 ]
 
-.right-column[
-![:scale 15%](../assets/images/slides/tetris/piece_J.png) ![:scale 15%](../assets/images/slides/tetris/piece_L.png) ![:scale 15%](../assets/images/slides/tetris/piece_O.png)
+.right-column-66[
+.center[![:scale 80%](../assets/images/slides/tetris/10x20/action_space_all_pieces.png)]
 ]
+
+--
+
+.full-width[.center[
+<div style="display: flex">
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/mode1.png" alt="Random board" style="width: 40%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/mode2.png" alt="Random board" style="width: 40%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/mode3.png" alt="Random board" style="width: 40%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/mode4.png" alt="Random board" style="width: 40%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/mode5.png" alt="Random board" style="width: 40%">
+  </figure>
+  </div>
+</div>
+]]
 
 ---
 
 ## An incredibly ~~intuitive toy~~ hard problem
 
-.highlight1[Problem]: find all or multiple arrangements of Tetris pieces on the board that .highlight2[optimise an unknown function].
+.highlight1[Problem]: find .highlight2[all] the arrangements of Tetris pieces on the board that .highlight2[optimise an unknown function].
 
-.left-column[
-.center[![:scale 20%](../assets/images/slides/tetris/board_empty.png)]
+.left-column-33[
+.center[![:scale 40%](../assets/images/slides/tetris/10x20/board_empty.png)]
 ]
 
-.right-column[
-![:scale 15%](../assets/images/slides/tetris/piece_J.png) ![:scale 15%](../assets/images/slides/tetris/piece_L.png) ![:scale 15%](../assets/images/slides/tetris/piece_O.png)
+.right-column-66[
+.center[![:scale 80%](../assets/images/slides/tetris/10x20/action_space_all_pieces.png)]
 ]
 
 --
+
+.full-width[.center[
+<div style="display: flex">
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_434.png" alt="Random board" style="width: 40%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_800.png" alt="Random board" style="width: 40%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_815.png" alt="Random board" style="width: 40%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_849.png" alt="Random board" style="width: 40%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_905.png" alt="Random board" style="width: 40%">
+  </figure>
+  </div>
+</div>
+]]
+
+---
+
+## Why Tetris for scientific discovery?
 
 .conclusion[This task resembles designing DNA sequences or molecules or materials via fragments, with the objective of optimising certain properties.]
 
@@ -871,19 +997,19 @@ GFlowNet generation process: drop one piece at a time.
 <div style="display: flex">
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode1.png" alt="Score 0/12" style="width: 30%">
+      <img src="../assets/images/slides/tetris/mode1.png" alt="Score 12/12" style="width: 30%">
     <figcaption>Score: 12/12</figcaption>
   </figure>
   </div>
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode2.png" alt="Score 4/12" style="width: 30%">
+      <img src="../assets/images/slides/tetris/mode2.png" alt="Score 12/12" style="width: 30%">
     <figcaption>Score: 12/12</figcaption>
   </figure>
   </div>
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode3.png" alt="Score 8/12" style="width: 30%">
+      <img src="../assets/images/slides/tetris/mode3.png" alt="Score 12/12" style="width: 30%">
     <figcaption>Score: 12/12</figcaption>
   </figure>
   </div>
