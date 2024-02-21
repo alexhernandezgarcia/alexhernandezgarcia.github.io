@@ -251,7 +251,27 @@ Direct consequences:
 </figure>
 ]
 
---
+???
+
+* Category C1: scenarios that limit warming to 1.5°C in 2100 with a likelihood of greater than 50%, and reach or exceed warming of 1.5°C during the 21st century with a likelihood of 67% or less. 
+* Category C2: same as C1 but exceed warming of 1.5°C during the 21st century with a likelihood of _greater_ than 67%.
+* Category C3: scenarios that limit peak warming to 2°C throughout the 21st century with a likelihood of greater than 67%
+* Category C8: scenarios that exceed warming of 4°C during the 21st century with a likelihood of 50% or greater.
+
+---
+
+count: false
+
+## Why climate and health?
+
+.context[Climate change is a fundamental threat to human health.]
+
+.center[
+<figure>
+	<img src="../assets/images/slides/climatechange/ipcc_scenarios_c1_c2.png" alt="IPCC 2022 - Scenarios" style="width: 60%">
+  <figcaption>Median <em>future</em> global warming across modelled scenarios. Adapted from IPCC Report, 2022</figcaption>
+</figure>
+]
 
 .conclusion["The evidence is clear: the time for action is now." .smaller[IPCC Report, 2022]]
 
