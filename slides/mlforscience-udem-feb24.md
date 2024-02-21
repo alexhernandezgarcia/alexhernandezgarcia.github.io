@@ -698,8 +698,8 @@ class: title, middle
 
 .full-width[.center[
 <figure>
-  <img src="../assets/images/slides/tetris/mode1.png" alt="Score 12/12" style="width: 3%">
-<figcaption>Score: 12/12</figcaption>
+  <img src="../assets/images/slides/tetris/mode1.png" alt="Score 12" style="width: 3%">
+<figcaption>Score: 12</figcaption>
 </figure>
 ]]
 
@@ -723,32 +723,32 @@ class: title, middle
 <div style="display: flex">
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode1.png" alt="Score 12/12" style="width: 20%">
-    <figcaption>12/12</figcaption>
+      <img src="../assets/images/slides/tetris/mode1.png" alt="Score 12" style="width: 20%">
+    <figcaption>12</figcaption>
   </figure>
   </div>
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode2.png" alt="Score 12/12" style="width: 20%">
-    <figcaption>12/12</figcaption>
+      <img src="../assets/images/slides/tetris/mode2.png" alt="Score 12" style="width: 20%">
+    <figcaption>12</figcaption>
   </figure>
   </div>
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode3.png" alt="Score 12/12" style="width: 20%">
-    <figcaption>12/12</figcaption>
+      <img src="../assets/images/slides/tetris/mode3.png" alt="Score 12" style="width: 20%">
+    <figcaption>12</figcaption>
   </figure>
   </div>
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode4.png" alt="Score 12/12" style="width: 20%">
-    <figcaption>12/12</figcaption>
+      <img src="../assets/images/slides/tetris/mode4.png" alt="Score 12" style="width: 20%">
+    <figcaption>12</figcaption>
   </figure>
   </div>
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode5.png" alt="Score 12/12" style="width: 20%">
-    <figcaption>12/12</figcaption>
+      <img src="../assets/images/slides/tetris/mode5.png" alt="Score 12" style="width: 20%">
+    <figcaption>12</figcaption>
   </figure>
   </div>
 </div>
@@ -848,9 +848,572 @@ class: title, middle
 
 ---
 
+## How can GFlowNets tackle such problems?
+### The three key GFlowNet ingredients
+
+The "Tetris problem" involves .highlight1[sampling from an unknown distribution] in a .highlight1[discrete, high-dimensional, combinatorially large space.]
+
+--
+
+1. .highlight1[Diversity] as an objective.
+
+--
+    - Given a score or reward function $R(x)$, learn to _sample proportionally to the reward_.
+--
+2. .highlight1[Compositionality] in the samples generation.
+
+--
+    - A meaningful decomposition of samples $x$ into multiple sub-states $s_0\rightarrow s_1 \rightarrow \dots \rightarrow x$ can yield generalisable patterns.
+--
+3. .highlight1[Deep learning] to _amortise_ the generated samples.
+
+--
+    - A machine learning model can learn the transition function $F(s\rightarrow s')$ and generalise the patterns.
+
+---
+
+## 1. Diversity as an objective
+
+.context[Many existing approaches treat scientific discovery as an _optimisation_ problem.]
+
+<br>
+Given a reward or objective function $R(x)$, GFlowNet can be seen a generative model trained to sample objects $x \in \cal X$ according to .highlight1[a sampling policy $\pi(x)$ proportional to the reward $R(x)$]: 
+
+.left-column[
+$$\pi(x) = \frac{R(x)}{Z} \propto R(x)$$
+]
+
+--
+
+.right-column[
+$$Z = \sum_{x' \in \cal X} R(x')$$
+]
+
+--
+
+&rarr; Sampling proportionally to the reward function enables finding .highlight1[multiple modes], hence .highlight1[diversity].
+
+.center[![:scale 22%](../assets/images/slides/gflownet/reward_landscape.png)]
+
+---
+
+## 1. Diversity as an objective
+
+.context[Many existing approaches treat scientific discovery as an _optimisation_ problem.]
+
+<br>
+Given a reward or objective function $R(x)$, GFlowNet can be seen a generative model trained to sample objects $x \in \cal X$ according to .highlight1[a sampling policy $\pi(x)$ proportional to the reward $R(x)$]: 
+
+.left-column[
+$$\pi(x) = \frac{R(x)}{Z} \propto R(x)$$
+]
+.right-column[
+$$Z = \sum_{x' \in \cal X} R(x')$$
+]
+
+.left-column-66[.center[
+![:scale 4.5%](../assets/images/slides/tetris/unique_0.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_1.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_2.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_3.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_4.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_5.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_6.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_7.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_8.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_9.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_10.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_11.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_12.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_13.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_14.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_15.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_16.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_17.png)
+
+![:scale 4.5%](../assets/images/slides/tetris/unique_18.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_19.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_20.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_21.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_22.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_23.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_24.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_25.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_26.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_27.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_28.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_29.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_30.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_31.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_32.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_33.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_34.png)
+![:scale 4.5%](../assets/images/slides/tetris/unique_35.png)
+]]
+
+--
+
+.left-column-33[.center[
+.smaller[
+$$Z = 4 \times 5 + 8 \times 25 + 12 \times 5 = 280$$
+
+.smaller[
+$R(x) = 4 \implies \pi(x) = \frac{4}{280} = 0.014$
+
+$R(x) = 8 \implies \pi(x) = \frac{8}{280} = 0.029$
+
+$R(x) = 12 \implies \pi(x) = \frac{12}{280} = 0.043$
+]
+]
+]]
+
+---
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+The principle of compositionality is fundamental in semantics, linguistics, mathematical logic and is thought to be a cornerstone of human reasoning.
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+--
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_0.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_1.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_2.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_3.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_4.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_5.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_6.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_7.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_8.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_9.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_10.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_11.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_12.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_13.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_14.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_15.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_16.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_17.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_18.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_19.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_20.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_21.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_22.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_23.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_24.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_24.png)]]
+
+.right-column[
+Formally:
+Objects $x \in \cal X$ are constructed through a sequence of steps $\tau$ from an action space $\cal A$.
+
+At each step of the trajectory $\tau=(s_0\rightarrow s_1 \rightarrow \dots \rightarrow s_f)$, we get a partially constructed object $s$ in state space $\cal S$.
+
+This induces a directed acyclic graph (DAG) $\mathcal{G}=(\mathcal{S},\mathcal{A})$, with all possible constructions in the domain.
+]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+<br>
+
+.left-column[.center[
+<br><br>
+![:scale 85%](../assets/images/slides/gflownet/gflownet_schematic.png)
+]]
+
+.right-column[
+Formally:
+Objects $x \in \cal X$ are constructed through a sequence of steps $\tau$ from an action space $\cal A$.
+
+At each step of the trajectory $\tau=(s_0\rightarrow s_1 \rightarrow \dots \rightarrow s_f)$, we get a partially constructed object $s$ in state space $\cal S$.
+
+This induces a directed acyclic graph (DAG) $\mathcal{G}=(\mathcal{S},\mathcal{A})$, with all possible constructions in the domain.
+]
+
+---
+
 ## Why Tetris for scientific discovery?
 
+.context35[The "Tetris problem" involves .highlight1[sampling from an unknown distribution] in a .highlight1[discrete, high-dimensional, combinatorially large space]]
+
+---
+
+count: false
+
+## Why Tetris for scientific discovery?
+### Biological sequence design
+
+.smaller[Proteins, antimicrobial peptides (AMP) and DNA can be represented as sequences of amino acids or nucleobases.]
+
+.context35[The "Tetris problem" involves sampling from an unknown distribution in a discrete, high-dimensional, combinatorially large space]
+
+.center[![:scale 45%](../assets/images/slides/dna/dna_helix_annotated.png)]
+
+.left-column-66[
+.dnag[`G`].dnaa[`A`].dnag[`G`].dnag[`G`].dnag[`G`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnag[`G`].dnag[`G`].dnat[`T`].dnaa[`A`].dnac[`C`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`]<br>
+.dnat[`T`].dnac[`C`].dnaa[`A`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnac[`C`].dnag[`G`].dnaa[`A`].dnag[`G`].dnac[`C`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnat[`T`].dnag[`G`].dnat[`T`].dnaa[`A`].dnag[`G`].dnag[`G`].dnac[`C`].dnaa[`A`].dnag[`G`].dnac[`C`].dnag[`G`].dnat[`T`].dnac[`C`].dnac[`C`].dnat[`T`].dnaa[`A`].dnac[`C`].dnac[`C`].dnag[`G`].dnat[`T`].dnat[`T`].dnac[`C`].dnag[`G`]<br>
+.dnac[`C`].dnat[`T`].dnaa[`A`].dnac[`C`].dnag[`G`].dnac[`C`].dnag[`G`].dnat[`T`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnat[`T`].dnat[`T`].dnac[`C`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`]<br>
+.dnat[`T`].dnat[`T`].dnag[`G`].dnac[`C`].dnaa[`A`].dnag[`G`].dnaa[`A`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnag[`G`].dnac[`C`].dnag[`G`].dnac[`C`].dnaa[`A`].dnat[`T`].dnag[`G`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnat[`T`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnat[`T`].dnat[`T`].dnag[`G`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnaa[`A`]<br>
+.dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnag[`G`].dnac[`C`].dnat[`T`].dnat[`T`].dnaa[`A`].dnag[`G`].dnag[`G`].dnag[`G`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnat[`T`].dnag[`G`].dnat[`T`].dnat[`T`].dnac[`C`].dnaa[`A`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnat[`T`].dnag[`G`]<br>
+]
+
+.references[
+* Jain et al. [Biological Sequence Design with GFlowNets](https://arxiv.org/abs/2203.04115), ICML, 2022. 
+* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). arXiv 2306.11715, 2023.
+]
+
+--
+
+.right-column-33[
+.conclusion[Biological sequences can be generated by GFlowNet by adding one or multiple bases at a time.]
+]
+
+---
+
+## Why Tetris for scientific discovery?
+### Biological sequence design
+
+.context35[The "Tetris problem" involves sampling from an unknown distribution in a discrete, high-dimensional, combinatorially large space]
+
+<br>
+.center[![:scale 50%](../assets/images/slides/dna/dna_helix_annotated.png)]
+
+.dnag[`G`].dnaa[`A`].dnag[`G`].dnag[`G`].dnag[`G`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnag[`G`].dnag[`G`].dnat[`T`].dnaa[`A`].dnac[`C`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`]<br>
+.dnat[`T`].dnac[`C`].dnaa[`A`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnac[`C`].dnag[`G`].dnaa[`A`].dnag[`G`].dnac[`C`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnat[`T`].dnag[`G`].dnat[`T`].dnaa[`A`].dnag[`G`].dnag[`G`].dnac[`C`].dnaa[`A`].dnag[`G`].dnac[`C`].dnag[`G`].dnat[`T`].dnac[`C`].dnac[`C`].dnat[`T`].dnaa[`A`].dnac[`C`].dnac[`C`].dnag[`G`].dnat[`T`].dnat[`T`].dnac[`C`].dnag[`G`]<br>
+.dnac[`C`].dnag[`G`].dnat[`T`].dnaa[`A`].dnac[`C`].dnac[`C`].dnac[`C`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnac[`C`].dnac[`C`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnag[`G`].dnac[`C`].dnaa[`A`].dnat[`T`].dnac[`C`].dnag[`G`].dnag[`G`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnag[`G`].dnac[`C`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnat[`T`].dnag[`G`].dnat[`T`].dnac[`C`].dnag[`G`].dnag[`G`].dnaa[`A`].dnac[`C`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnac[`C`].dnaa[`A`].dnaa[`A`].dnag[`G`]<br>
+.dnac[`C`].dnat[`T`].dnaa[`A`].dnac[`C`].dnag[`G`].dnac[`C`].dnag[`G`].dnat[`T`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnat[`T`].dnat[`T`].dnac[`C`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`]<br>
+.dnat[`T`].dnat[`T`].dnag[`G`].dnac[`C`].dnaa[`A`].dnag[`G`].dnaa[`A`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnag[`G`].dnac[`C`].dnag[`G`].dnac[`C`].dnaa[`A`].dnat[`T`].dnag[`G`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnat[`T`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnat[`T`].dnat[`T`].dnag[`G`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnaa[`A`]<br>
+.dnag[`G`].dnac[`C`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnag[`G`].dnaa[`A`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnag[`G`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnaa[`A`].dnag[`G`].dnat[`T`]<br>
+.dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnag[`G`].dnac[`C`].dnat[`T`].dnat[`T`].dnaa[`A`].dnag[`G`].dnag[`G`].dnag[`G`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnat[`T`].dnag[`G`].dnat[`T`].dnat[`T`].dnac[`C`].dnaa[`A`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnat[`T`].dnag[`G`]<br>
+
+.references[
+* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). arXiv 2306.11715, 2023.
+* Jain et al. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/abs/2302.00615). Digital Discovery, Royal Society of Chemistry, 2023.
+* Jain et al. [Biological Sequence Design with GFlowNets](https://arxiv.org/abs/2203.04115), ICML, 2022. 
+]
 .conclusion[This task resembles designing DNA sequences or molecules or materials via fragments, with the objective of optimising certain properties.]
+
+---
 
 ---
 
@@ -978,26 +1541,26 @@ GFlowNet generation process: drop one piece at a time.
 <div style="display: flex">
   <div style="flex: 25%;">
   <figure>
-      <img src="../assets/images/slides/tetris/board_empty.png" alt="Score 0/12" style="width: 30%">
-    <figcaption>Score: 0/12</figcaption>
+      <img src="../assets/images/slides/tetris/board_empty.png" alt="Score 0" style="width: 30%">
+    <figcaption>Score: 0</figcaption>
   </figure>
   </div>
   <div style="flex: 25%;">
   <figure>
-      <img src="../assets/images/slides/tetris/board_score_4.png" alt="Score 4/12" style="width: 30%">
-    <figcaption>Score: 4/12</figcaption>
+      <img src="../assets/images/slides/tetris/board_score_4.png" alt="Score 4" style="width: 30%">
+    <figcaption>Score: 4</figcaption>
   </figure>
   </div>
   <div style="flex: 25%;">
   <figure>
-      <img src="../assets/images/slides/tetris/board_score_8.png" alt="Score 8/12" style="width: 30%">
-    <figcaption>Score: 8/12</figcaption>
+      <img src="../assets/images/slides/tetris/board_score_8.png" alt="Score 8" style="width: 30%">
+    <figcaption>Score: 8</figcaption>
   </figure>
   </div>
   <div style="flex: 25%;">
   <figure>
-      <img src="../assets/images/slides/tetris/board_score_12.png" alt="Score 12/12" style="width: 30%">
-    <figcaption>Score: 12/12</figcaption>
+      <img src="../assets/images/slides/tetris/board_score_12.png" alt="Score 12" style="width: 30%">
+    <figcaption>Score: 12</figcaption>
   </figure>
   </div>
 </div>
@@ -1017,32 +1580,32 @@ GFlowNet generation process: drop one piece at a time.
 <div style="display: flex">
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode1.png" alt="Score 12/12" style="width: 30%">
-    <figcaption>Score: 12/12</figcaption>
+      <img src="../assets/images/slides/tetris/mode1.png" alt="Score 12" style="width: 30%">
+    <figcaption>Score: 12</figcaption>
   </figure>
   </div>
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode2.png" alt="Score 12/12" style="width: 30%">
-    <figcaption>Score: 12/12</figcaption>
+      <img src="../assets/images/slides/tetris/mode2.png" alt="Score 12" style="width: 30%">
+    <figcaption>Score: 12</figcaption>
   </figure>
   </div>
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode3.png" alt="Score 12/12" style="width: 30%">
-    <figcaption>Score: 12/12</figcaption>
+      <img src="../assets/images/slides/tetris/mode3.png" alt="Score 12" style="width: 30%">
+    <figcaption>Score: 12</figcaption>
   </figure>
   </div>
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode4.png" alt="Score 12/12" style="width: 30%">
-    <figcaption>Score: 12/12</figcaption>
+      <img src="../assets/images/slides/tetris/mode4.png" alt="Score 12" style="width: 30%">
+    <figcaption>Score: 12</figcaption>
   </figure>
   </div>
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode5.png" alt="Score 12/12" style="width: 30%">
-    <figcaption>Score: 12/12</figcaption>
+      <img src="../assets/images/slides/tetris/mode5.png" alt="Score 12" style="width: 30%">
+    <figcaption>Score: 12</figcaption>
   </figure>
   </div>
 </div>
@@ -1124,31 +1687,31 @@ Malkin et al. [Trajectory balance: Improved credit assignment in GFlowNets](http
 <div style="display: flex">
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode1.png" alt="Score 0/12" style="width: 30%">
+      <img src="../assets/images/slides/tetris/mode1.png" alt="Score 0" style="width: 30%">
     <figcaption>$\pi(x) = 8.12~\%$</figcaption>
   </figure>
   </div>
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode2.png" alt="Score 4/12" style="width: 30%">
+      <img src="../assets/images/slides/tetris/mode2.png" alt="Score 4" style="width: 30%">
     <figcaption>$\pi(x) = 8.96~\%$</figcaption>
   </figure>
   </div>
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode3.png" alt="Score 8/12" style="width: 30%">
+      <img src="../assets/images/slides/tetris/mode3.png" alt="Score 8" style="width: 30%">
     <figcaption>$\pi(x) = 8.61~\%$</figcaption>
   </figure>
   </div>
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode4.png" alt="Score 12/12" style="width: 30%">
+      <img src="../assets/images/slides/tetris/mode4.png" alt="Score 12" style="width: 30%">
     <figcaption>$\pi(x) = 9.16~\%$</figcaption>
   </figure>
   </div>
   <div style="flex: 20%;">
   <figure>
-      <img src="../assets/images/slides/tetris/mode5.png" alt="Score 12/12" style="width: 30%">
+      <img src="../assets/images/slides/tetris/mode5.png" alt="Score 12" style="width: 30%">
     <figcaption>$\pi(x) = 8.39~\%$</figcaption>
   </figure>
   </div>
