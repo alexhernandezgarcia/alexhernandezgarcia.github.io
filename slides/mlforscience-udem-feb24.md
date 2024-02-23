@@ -363,6 +363,104 @@ Potential reduction impact of materials discovery:
 
 ---
 
+## Why scientific discovery?
+### The potential on health
+
+.context[Drug discovery and vaccine development play a crucial role in modern healthcare systems.]
+
+.right-column-33[
+.center[![:scale 100%](../assets/images/slides/drugs/who_amr.png)]
+]
+
+--
+
+.left-column-66[
+Bacterial antimicrobial resistance was directly responsible for 1.27 million global deaths in 2019 and contributed to 4.95 million deaths. .cite[World Health Organisation (WHO), 2023]
+]
+
+???
+
+Antimicrobial resistance
+
+- https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance
+- https://www.who.int/news-room/feature-stories/detail/donors-making-a-difference--climate-change-and-its-impact-on-health
+- https://www.who.int/news/item/31-10-2022-who-and-wmo-launch-a-new-knowledge-platform-for-climate-and-health
+- https://www.who.int/news/item/08-02-2024-who-medically-important-antimicrobial-list-2024
+- https://cdn.who.int/media/docs/default-source/gcp/who-mia-list-2024-lv.pdf?sfvrsn=3320dd3d_2
+- https://www.who.int/publications/i/item/9789240047655
+
+---
+
+count: false
+
+## Why scientific discovery?
+### The potential on health
+
+.context[Drug discovery and vaccine development play a crucial role in modern healthcare systems.]
+
+.right-column-33[
+.center[![:scale 100%](../assets/images/slides/drugs/who_amr.png)]
+]
+
+.left-column-66[
+Bacterial antimicrobial resistance was directly responsible for 1.27 million global deaths in 2019 and contributed to 4.95 million deaths. .cite[World Health Organisation (WHO), 2023]
+
+The World Bank estimates that antimicrobial resistance could result in .highlight1[one _trillion_ USD additional healthcare costs] by 2050.
+]
+
+---
+
+count: false
+
+## Why scientific discovery?
+### The potential on health
+
+.context[Drug discovery and vaccine development play a crucial role in modern healthcare systems.]
+
+.right-column-33[
+.center[![:scale 100%](../assets/images/slides/drugs/who_amr.png)]
+]
+
+.left-column-66[
+Bacterial antimicrobial resistance was directly responsible for 1.27 million global deaths in 2019 and contributed to 4.95 million deaths. .cite[World Health Organisation (WHO), 2023]
+
+The World Bank estimates that antimicrobial resistance could result in .highlight1[one _trillion_ USD additional healthcare costs] by 2050.
+
+WHO's latest annual review identified 27 antibiotics in clinical development that address WHO bacterial priority pathogens, of which .highlight1[only 6 were classified as innovative].
+]
+
+---
+
+count: false
+
+## Why scientific discovery?
+### The potential on health
+
+.context[Drug discovery and vaccine development play a crucial role in modern healthcare systems.]
+
+.right-column-33[
+.center[
+<figure>
+	<img src="../assets/images/slides/drugs/who_notimetowait.png" alt="No time to wait" style="width: 60%">
+  <figcaption><small>"No time to wait". Source: <a href="https://www.who.int/docs/default-source/documents/no-time-to-wait-securing-the-future-from-drug-resistant-infections-en.pdf">WHO</a>.</small></figcaption>
+</figure>
+]
+]
+
+.left-column-66[
+Bacterial antimicrobial resistance was directly responsible for 1.27 million global deaths in 2019 and contributed to 4.95 million deaths. .cite[World Health Organisation (WHO), 2023]
+
+The World Bank estimates that antimicrobial resistance could result in .highlight1[one _trillion_ USD additional healthcare costs] by 2050.
+
+WHO's latest annual review identified 27 antibiotics in clinical development that address WHO bacterial priority pathogens, of which .highlight1[only 6 were classified as innovative].
+]
+
+.full-width[
+.conclusion["No time to wait". Alongside other necessary actions, drug discovery plays a key role in tackling the antimicrobial resistance global threat.]
+]
+
+---
+
 ## Scientific discoveries in history
 ### .alpha0[Placeholder]
 
@@ -1317,12 +1415,8 @@ For the Tetris problem, a meaningful decomposition of the samples is .highlight1
 .left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_24.png)]]
 
 .right-column[
-Formally:
-Objects $x \in \cal X$ are constructed through a sequence of steps $\tau$ from an action space $\cal A$.
-
-At each step of the trajectory $\tau=(s_0\rightarrow s_1 \rightarrow \dots \rightarrow s_f)$, we get a partially constructed object $s$ in state space $\cal S$.
-
-This induces a directed acyclic graph (DAG) $\mathcal{G}=(\mathcal{S},\mathcal{A})$, with all possible constructions in the domain.
+<br><br>
+.conclusion[The decomposition of the sampling process into meaningful steps yields patterns that may be correlated with the reward function and facilitates learning complex distributions.]
 ]
 
 ---
@@ -1330,294 +1424,36 @@ This induces a directed acyclic graph (DAG) $\mathcal{G}=(\mathcal{S},\mathcal{A
 count: false
 
 ## 2. Compositionality
-### Sample generation process
+### Formal definitions
 
-.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
-
-<br>
-
-.left-column[.center[
-<br><br>
-![:scale 85%](../assets/images/slides/gflownet/gflownet_schematic.png)
-]]
-
-.right-column[
-Formally:
-Objects $x \in \cal X$ are constructed through a sequence of steps $\tau$ from an action space $\cal A$.
-
-At each step of the trajectory $\tau=(s_0\rightarrow s_1 \rightarrow \dots \rightarrow s_f)$, we get a partially constructed object $s$ in state space $\cal S$.
-
-This induces a directed acyclic graph (DAG) $\mathcal{G}=(\mathcal{S},\mathcal{A})$, with all possible constructions in the domain.
-]
-
----
-
-## Why Tetris for scientific discovery?
-
-.context35[The "Tetris problem" involves .highlight1[sampling from an unknown distribution] in a .highlight1[discrete, high-dimensional, combinatorially large space]]
-
----
-
-count: false
-
-## Why Tetris for scientific discovery?
-### Biological sequence design
-
-.smaller[Proteins, antimicrobial peptides (AMP) and DNA can be represented as sequences of amino acids or nucleobases.]
-
-.context35[The "Tetris problem" involves sampling from an unknown distribution in a discrete, high-dimensional, combinatorially large space]
-
-.center[![:scale 45%](../assets/images/slides/dna/dna_helix_annotated.png)]
-
-.left-column-66[
-.dnag[`G`].dnaa[`A`].dnag[`G`].dnag[`G`].dnag[`G`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnag[`G`].dnag[`G`].dnat[`T`].dnaa[`A`].dnac[`C`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`]<br>
-.dnat[`T`].dnac[`C`].dnaa[`A`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnac[`C`].dnag[`G`].dnaa[`A`].dnag[`G`].dnac[`C`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnat[`T`].dnag[`G`].dnat[`T`].dnaa[`A`].dnag[`G`].dnag[`G`].dnac[`C`].dnaa[`A`].dnag[`G`].dnac[`C`].dnag[`G`].dnat[`T`].dnac[`C`].dnac[`C`].dnat[`T`].dnaa[`A`].dnac[`C`].dnac[`C`].dnag[`G`].dnat[`T`].dnat[`T`].dnac[`C`].dnag[`G`]<br>
-.dnac[`C`].dnat[`T`].dnaa[`A`].dnac[`C`].dnag[`G`].dnac[`C`].dnag[`G`].dnat[`T`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnat[`T`].dnat[`T`].dnac[`C`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`]<br>
-.dnat[`T`].dnat[`T`].dnag[`G`].dnac[`C`].dnaa[`A`].dnag[`G`].dnaa[`A`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnag[`G`].dnac[`C`].dnag[`G`].dnac[`C`].dnaa[`A`].dnat[`T`].dnag[`G`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnat[`T`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnat[`T`].dnat[`T`].dnag[`G`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnaa[`A`]<br>
-.dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnag[`G`].dnac[`C`].dnat[`T`].dnat[`T`].dnaa[`A`].dnag[`G`].dnag[`G`].dnag[`G`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnat[`T`].dnag[`G`].dnat[`T`].dnat[`T`].dnac[`C`].dnaa[`A`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnat[`T`].dnag[`G`]<br>
-]
-
-.references[
-* Jain et al. [Biological Sequence Design with GFlowNets](https://arxiv.org/abs/2203.04115), ICML, 2022. 
-* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). arXiv 2306.11715, 2023.
-]
+.context35[GFlowNets decompose the generation of samples into multiple steps.]
 
 --
 
-.right-column-33[
-.conclusion[Biological sequences can be generated by GFlowNet by adding one or multiple bases at a time.]
-]
-
----
-
-## Why Tetris for scientific discovery?
-### Biological sequence design
-
-.context35[The "Tetris problem" involves sampling from an unknown distribution in a discrete, high-dimensional, combinatorially large space]
-
-<br>
-.center[![:scale 50%](../assets/images/slides/dna/dna_helix_annotated.png)]
-
-.dnag[`G`].dnaa[`A`].dnag[`G`].dnag[`G`].dnag[`G`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnag[`G`].dnag[`G`].dnat[`T`].dnaa[`A`].dnac[`C`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`]<br>
-.dnat[`T`].dnac[`C`].dnaa[`A`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnac[`C`].dnag[`G`].dnaa[`A`].dnag[`G`].dnac[`C`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnat[`T`].dnag[`G`].dnat[`T`].dnaa[`A`].dnag[`G`].dnag[`G`].dnac[`C`].dnaa[`A`].dnag[`G`].dnac[`C`].dnag[`G`].dnat[`T`].dnac[`C`].dnac[`C`].dnat[`T`].dnaa[`A`].dnac[`C`].dnac[`C`].dnag[`G`].dnat[`T`].dnat[`T`].dnac[`C`].dnag[`G`]<br>
-.dnac[`C`].dnag[`G`].dnat[`T`].dnaa[`A`].dnac[`C`].dnac[`C`].dnac[`C`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnac[`C`].dnac[`C`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnag[`G`].dnac[`C`].dnaa[`A`].dnat[`T`].dnac[`C`].dnag[`G`].dnag[`G`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnag[`G`].dnac[`C`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnat[`T`].dnag[`G`].dnat[`T`].dnac[`C`].dnag[`G`].dnag[`G`].dnaa[`A`].dnac[`C`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnac[`C`].dnaa[`A`].dnaa[`A`].dnag[`G`]<br>
-.dnac[`C`].dnat[`T`].dnaa[`A`].dnac[`C`].dnag[`G`].dnac[`C`].dnag[`G`].dnat[`T`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnat[`T`].dnat[`T`].dnac[`C`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`]<br>
-.dnat[`T`].dnat[`T`].dnag[`G`].dnac[`C`].dnaa[`A`].dnag[`G`].dnaa[`A`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnag[`G`].dnac[`C`].dnag[`G`].dnac[`C`].dnaa[`A`].dnat[`T`].dnag[`G`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnat[`T`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnat[`T`].dnat[`T`].dnag[`G`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnaa[`A`]<br>
-.dnag[`G`].dnac[`C`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnag[`G`].dnaa[`A`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnag[`G`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnaa[`A`].dnag[`G`].dnat[`T`]<br>
-.dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnag[`G`].dnac[`C`].dnat[`T`].dnat[`T`].dnaa[`A`].dnag[`G`].dnag[`G`].dnag[`G`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnat[`T`].dnag[`G`].dnat[`T`].dnat[`T`].dnac[`C`].dnaa[`A`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnat[`T`].dnag[`G`]<br>
-
-.references[
-* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). arXiv 2306.11715, 2023.
-* Jain et al. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/abs/2302.00615). Digital Discovery, Royal Society of Chemistry, 2023.
-* Jain et al. [Biological Sequence Design with GFlowNets](https://arxiv.org/abs/2203.04115), ICML, 2022. 
-]
-.conclusion[This task resembles designing DNA sequences or molecules or materials via fragments, with the objective of optimising certain properties.]
-
----
-
----
-
-## GFlowNets in a nutshell
-
-<br>
-Given a reward or objective function $R(x)$, GFlowNet can be seen a generative model trained to sample objects $x \in \cal X$ according to .highlight1[a sampling policy $\pi(x)$ proportional to the reward $R(x)$]: $\pi(x) \propto R(x)$
+Objects $x \in \cal X$ are constructed through a sequence of steps $\tau$ from an .highlight1[action space $\cal A$].
 
 --
 
-&rarr; Sampling proportionally to the reward function induces .highlight1[multi-modal search and diversity].
+At each step of the .highlight1[trajectory $\tau=(s_0\rightarrow s_1 \rightarrow \dots \rightarrow s_f)$], we get a partially constructed object $s$ in .highlight1[state space $\cal S$].
 
 --
 
-.left-column[
-The policy $\pi_{\theta}(x)$ is modelled by a deep neural network, parameterised by $\theta$, thus providing .highlight1[amortised inference].
-
-&rarr; Amortised inference can be thought of as _exploration with memory_, which induces .highlight1[systematic generalisation].
-]
-
-.right-column[
-.center[![:scale 65%](../assets/images/slides/gflownet/mode_generalization.png)]
-]
-
----
-
-## GFlowNets in a nutshell
-
-* Objects $x \in \cal X$ are constructed through a sequence of steps $\tau$ from an action space $\cal A$.
-* At each step of the trajectory $\tau=(s_0\rightarrow s_1 \rightarrow \dots \rightarrow s_f)$, we get a partially constructed object $s$ in state space $\cal S$.
-* This induces a directed acyclic graph (DAG) $\mathcal{G}=(\mathcal{S},\mathcal{A})$, with all possible constructions in the domain.
-
-.center[![:scale 50%](../assets/images/slides/gflownet/flownet.png)]
+This induces a .highlight1[directed acyclic graph (DAG) $\mathcal{G}=(\mathcal{S},\mathcal{A})$], with all possible constructions in the domain.
 
 --
 
-.conclusion[This terminology is reminiscent of reinforcement learning, which was a major source of inspiration.]
+<br>
+.center[![:scale 45%](../assets/images/slides/gflownet/gflownet_schematic.png)]
 
 ---
 
-## An intuitive toy example
+## 3. Deep learning policy
 
-Task: sample all or multiple arrangements of Tetris pieces on the board that minimise the empty space.
+.context35[GFlowNet learns a sampling policy $\pi(x)$ proportional to the reward $R(x)$.]
 
-.left-column[
-.center[![:scale 20%](../assets/images/slides/tetris/board_empty.png)]
-]
-
-.right-column[
-![:scale 15%](../assets/images/slides/tetris/piece_J.png) ![:scale 15%](../assets/images/slides/tetris/piece_L.png) ![:scale 15%](../assets/images/slides/tetris/piece_O.png)
-]
+.orange[Tetris figure here showing flows.]
 
 --
-
-.conclusion[This task resembles designing DNA sequences or molecules or materials via fragments, with the objective of optimising certain properties.]
-
----
-
-## An intuitive toy example
-
-.context[Sample all or multiple arrangements of Tetris pieces on the board that minimise the empty space.]
-
-<br>
-GFlowNet generation process: drop one piece at a time.
-
-.columns-3-left[.center[
-  <figure>
-    <img src="../assets/images/slides/tetris/state_space.png" alt="State space" style="width: 100%">
-    <figcaption>State space $\cal S$</figcaption>
-  </figure>
-]]
-
-.columns-3-center[.center[
-  <figure>
-    <img src="../assets/images/slides/tetris/action_space.png" alt="Action space" style="width: 90%">
-    <figcaption>Action space $\cal A$</figcaption>
-  </figure>
-]]
-
-.columns-3-right[
-.center[
-<div style="display: flex">
-  <div style="flex: 30%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/s0.png" alt="s0" style="width: 100%">
-    <figcaption>$s_0$</figcaption>
-  </figure>
-  </div>
-  <div style="flex: 0.5%; padding: 40pt 0">
-  $\rightarrow$
-  </div>
-  <div style="flex: 30%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/s1.png" alt="s1" style="width: 100%">
-    <figcaption>$s_1$</figcaption>
-  </figure>
-  </div>
-  <div style="flex: 0.5%; padding: 40pt 0">
-  $\rightarrow$
-  </div>
-  <div style="flex: 30%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/s2.png" alt="s2" style="width: 100%">
-    <figcaption>$s_2$</figcaption>
-  </figure>
-  </div>
-</div>
-]
-.center[Sample trajectory $\tau$]
-]
-
-- .highlight1[State space]: all possible arrangements of pieces on the board.
-- .highlight1[Action space]: Cartesian product of piece identity, non-invariant rotation (and board column for larger boards), plus stop action.
-
----
-
-## An intuitive toy example
-
-.context[Sample all or multiple arrangements of Tetris pieces on the board that minimise the empty space.]
-
-<br>
-.highlight1[Reward]: we can define a score function as the fraction of cells occupied by pieces.
-
-.center[
-<div style="display: flex">
-  <div style="flex: 25%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/board_empty.png" alt="Score 0" style="width: 30%">
-    <figcaption>Score: 0</figcaption>
-  </figure>
-  </div>
-  <div style="flex: 25%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/board_score_4.png" alt="Score 4" style="width: 30%">
-    <figcaption>Score: 4</figcaption>
-  </figure>
-  </div>
-  <div style="flex: 25%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/board_score_8.png" alt="Score 8" style="width: 30%">
-    <figcaption>Score: 8</figcaption>
-  </figure>
-  </div>
-  <div style="flex: 25%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/board_score_12.png" alt="Score 12" style="width: 30%">
-    <figcaption>Score: 12</figcaption>
-  </figure>
-  </div>
-</div>
-]
-
----
-
-## An intuitive toy example
-
-.context[Sample all or multiple arrangements of Tetris pieces on the board that minimise the empty space.]
-
-<br>
-.highlight1[Reward]: we can define a score function as the fraction of cells occupied by pieces.
-
-
-.center[
-<div style="display: flex">
-  <div style="flex: 20%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/mode1.png" alt="Score 12" style="width: 30%">
-    <figcaption>Score: 12</figcaption>
-  </figure>
-  </div>
-  <div style="flex: 20%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/mode2.png" alt="Score 12" style="width: 30%">
-    <figcaption>Score: 12</figcaption>
-  </figure>
-  </div>
-  <div style="flex: 20%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/mode3.png" alt="Score 12" style="width: 30%">
-    <figcaption>Score: 12</figcaption>
-  </figure>
-  </div>
-  <div style="flex: 20%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/mode4.png" alt="Score 12" style="width: 30%">
-    <figcaption>Score: 12</figcaption>
-  </figure>
-  </div>
-  <div style="flex: 20%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/mode5.png" alt="Score 12" style="width: 30%">
-    <figcaption>Score: 12</figcaption>
-  </figure>
-  </div>
-</div>
-]
-
-.conclusion[The _reward function_ of this task has multiple modes. With a larger board and more pieces, the number of combinations and modes grow exponentially and the task of efficiently finding them is non-trivial for machine learning models.]
-
----
-
-## GFlowNet flows
-
-.context[The edges or transitions in the DAG can be quantified by their _flow_.]
 
 * Analogous to water-flow in pipes.
 * Trajectory Flow $F(\tau)$ denotes probability mass assigned to trajectory $\tau$.
@@ -1631,10 +1467,6 @@ GFlowNet generation process: drop one piece at a time.
 .references[
 Bengio et al. [Flow network based generative models for non-iterative diverse candidate generation](https://arxiv.org/abs/2106.04399), NeurIPS, 2021. 
 ]
-
-???
-
-Not to be confused with normalizing flows!
 
 ---
 
@@ -1663,7 +1495,7 @@ $$\pi(x) = \frac{R(x)}{Z}\propto R(x)$$
 ## Principle of conservation as a training objective
 
 <p>
-$$\sum\_{s' \in \text{Parent}(s)} F\_\theta(s' \rightarrow s) = \sum\_{s'' \in \text{Child}(s)} F\_\theta(s \rightarrow s')$$
+$$\sum\_{s' \in \text{Parent}(s)} F\_\theta(s' \rightarrow s) = \sum\_{s'' \in \text{Child}(s)} F\_\theta(s \rightarrow s'')$$
 </p>
 * **Flow Matching Objective**: $$\mathcal{L}\_{FM}(s; \theta) = \left(\log \frac{\sum\_{s'\in \text{Parent}(s)} F\_\theta(s'{\rightarrow} s)}{\sum\_{s'' \in \text{Child}(s)}F\_\theta(s{\rightarrow} s'')}\right)^2$$
 
@@ -1679,9 +1511,50 @@ Malkin et al. [Trajectory balance: Improved credit assignment in GFlowNets](http
 ## Results
 ### Tetris GFlowNets
 
-.context[If the model is sufficiently well trained, the sampling policy $\pi(x)$ should be proportional to the reward $R(x)$: $\pi(x) \propto R(x)$]
+.context[At convergence, the sampling policy $\pi_{\theta}(x)$ should be proportional to the reward $R(x)$.]
 
-<br>
+In order to increase the probability of sampling the five modes of the reward, I use the reward function $R(X) = \varepsilon(x)^4$, where $\varepsilon(x)$ is the Tetris score function that counts the number of occupied cells.
+
+.center[
+<div style="display: flex">
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/mode1.png" alt="Score 0" style="width: 30%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/mode2.png" alt="Score 4" style="width: 30%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/mode3.png" alt="Score 8" style="width: 30%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/mode4.png" alt="Score 12" style="width: 30%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/mode5.png" alt="Score 12" style="width: 30%">
+  </figure>
+  </div>
+</div>
+]
+
+---
+
+count: false
+
+## Results
+### Tetris GFlowNets
+
+.context[At convergence, the sampling policy $\pi_{\theta}(x)$ should be proportional to the reward $R(x)$.]
+
+In order to increase the probability of sampling the five modes of the reward, I use the reward function $R(X) = \varepsilon(x)^4$, where $\varepsilon(x)$ is the Tetris score function that counts the number of occupied cells.
 
 .center[
 <div style="display: flex">
@@ -1718,48 +1591,67 @@ Malkin et al. [Trajectory balance: Improved credit assignment in GFlowNets](http
 </div>
 ]
 
-After training, GFlowNet samples multiple (diverse) modes with high probability.
-
-.footnote[In order to increase the probability of sampling the modes, I use the reward function $R(X) = \varepsilon(x)^4$, where $\varepsilon(x)$ is the score function.]
+.conclusion[After training, the learnt policy approximates the reward function and the GFlowNet samples multiple (diverse) modes with high probability.]
 
 ---
 
-## Results
-### Hyper-grid and molecule fragments
+## Why Tetris for scientific discovery?
 
-.context[GFlowNet has been successfully trained in other toy and practically relevant tasks. .cite[(Bengio et al., 2019)]]
+.context35[The "Tetris problem" involves .highlight1[sampling from an unknown distribution] in a .highlight1[discrete, high-dimensional, combinatorially large space].]
 
-.columns-3-left[
-.highlight1[Hyper-grid]: The action space is in which dimension to move and the reward function has high reward in the corners.
+---
 
-.center[
-![:scale 90%](../assets/images/slides/gflownet/hypergrid_states_visited.png)
+count: false
+
+## Why Tetris for scientific discovery?
+### Biological sequence design
+
+.smaller[Proteins, antimicrobial peptides (AMP) and DNA can be represented as sequences of amino acids or nucleobases.]
+
+.context35[The "Tetris problem" involves sampling from an unknown distribution in a discrete, high-dimensional, combinatorially large space]
+
+.center[![:scale 45%](../assets/images/slides/dna/dna_helix_annotated.png)]
+
+.left-column-66[
+.dnag[`G`].dnaa[`A`].dnag[`G`].dnag[`G`].dnag[`G`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnag[`G`].dnag[`G`].dnat[`T`].dnaa[`A`].dnac[`C`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`]<br>
+.dnat[`T`].dnac[`C`].dnaa[`A`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnac[`C`].dnag[`G`].dnaa[`A`].dnag[`G`].dnac[`C`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnat[`T`].dnag[`G`].dnat[`T`].dnaa[`A`].dnag[`G`].dnag[`G`].dnac[`C`].dnaa[`A`].dnag[`G`].dnac[`C`].dnag[`G`].dnat[`T`].dnac[`C`].dnac[`C`].dnat[`T`].dnaa[`A`].dnac[`C`].dnac[`C`].dnag[`G`].dnat[`T`].dnat[`T`].dnac[`C`].dnag[`G`]<br>
+.dnac[`C`].dnat[`T`].dnaa[`A`].dnac[`C`].dnag[`G`].dnac[`C`].dnag[`G`].dnat[`T`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnat[`T`].dnat[`T`].dnac[`C`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`]<br>
+.dnat[`T`].dnat[`T`].dnag[`G`].dnac[`C`].dnaa[`A`].dnag[`G`].dnaa[`A`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnag[`G`].dnac[`C`].dnag[`G`].dnac[`C`].dnaa[`A`].dnat[`T`].dnag[`G`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnat[`T`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnat[`T`].dnat[`T`].dnag[`G`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnaa[`A`]<br>
+.dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnag[`G`].dnac[`C`].dnat[`T`].dnat[`T`].dnaa[`A`].dnag[`G`].dnag[`G`].dnag[`G`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnat[`T`].dnag[`G`].dnat[`T`].dnat[`T`].dnac[`C`].dnaa[`A`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnat[`T`].dnag[`G`]<br>
 ]
-]
 
---
-
-.columns-3-center[
-.highlight1[Small molecules]: The action space is molecular fragments and the reward function is the binding energy to a particular protein.
-
-.center[
-![:scale 80%](../assets/images/slides/gflownet/molecules_states_visited.png)
-]
-]
-
---
-
-.columns-3-right[
-.highlight1[Active learning with molecules]: Multi-round active learning with a limited oracle budget.
-
-.center[
-![:scale 90%](../assets/images/slides/gflownet/molecules_al_topkreward.png)
-]
+.references[
+* Jain et al. [Biological Sequence Design with GFlowNets](https://arxiv.org/abs/2203.04115), ICML, 2022. 
+* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). arXiv 2306.11715, 2023.
 ]
 
 --
 
-.conclusion[GFlowNet is able to efficiently explore the search space and generalise to unseen modes of the reward.]
+.right-column-33[
+.conclusion[Biological sequences can be generated by GFlowNet by adding one or multiple bases at a time.]
+]
+
+---
+
+## Why Tetris for scientific discovery?
+### Molecular generation
+
+.smaller[Small molecules can be represented by the combination of fragments.]
+
+.context35[The "Tetris problem" involves sampling from an unknown distribution in a discrete, high-dimensional, combinatorially large space]
+
+.center[![:scale 60%](../assets/images/slides/drugs/gfn_molecules.png)]
+
+.references[
+* Jain et al. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/abs/2302.00615). Digital Discovery, Royal Society of Chemistry, 2023.
+* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). arXiv 2306.11715, 2023.
+]
+
+---
+
+## Systematic generalisation
+
+.orange[Consider slide about systematic generalisation]
 
 ---
 
@@ -1783,13 +1675,53 @@ Jain et al. [Multi-Objective GFlowNets](https://arxiv.org/abs/2210.12765), ICML,
 
 We have generalised the theory and implementation of GFlowNets to encompass both discrete and continuous or hybrid state spaces. 
 
-.center[
-![:scale 30%](../assets/images/slides/gflownet/kde_reward_molecule.png)
-![:scale 30%](../assets/images/slides/gflownet/kde_gfn_molecule.png)]
+.center[![:scale 40%](../assets/images/slides/gflownet/cube2d/allvalid.gif)]
 
 .references[
 Lahlou et al. [A Theory of Continuous Generative Flow Networks](https://arxiv.org/abs/2301.12594), ICML, 2023. 
 ]
+
+---
+
+##  GFlowNet applications
+### Molecular conformation generation
+
+We have proposed a continuous GFlowNets algorithm for sampling conformations of small molecules from the Boltzmann distribution, as determined by the molecule’s energy.
+
+.references[
+Volokhova, Koziarski et al. [Towards equilibrium molecular conformation generation with GFlowNets](https://arxiv.org/abs/2310.14782), Digital Discovery, 2024. 
+]
+
+.center[![:scale 100%](../assets/images/slides/conformers/schematic.png)]
+
+---
+
+##  GFlowNet applications
+### Molecular conformation generation
+
+We have proposed a continuous GFlowNets algorithm for sampling conformations of small molecules from the Boltzmann distribution, as determined by the molecule’s energy.
+
+.references[
+Volokhova, Koziarski et al. [Towards equilibrium molecular conformation generation with GFlowNets](https://arxiv.org/abs/2310.14782), Digital Discovery, 2024. 
+]
+
+--
+
+.left-column[.center[
+  <figure>
+    <img src="../assets/images/slides/gflownet/kde_reward_molecule.png" alt="Alanine dipeptide's energy landscape (KDE)" style="width: 60%">
+    <figcaption>Alanine dipeptide's energy landscape (KDE)</figcaption>
+  </figure>
+]]
+
+--
+
+.right-column[.center[
+  <figure>
+    <img src="../assets/images/slides/gflownet/kde_gfn_molecule.png" alt="GFlowNet's learnt distribution (KDE)" style="width: 60%">
+    <figcaption>GFlowNet's learnt distribution (KDE)</figcaption>
+  </figure>
+]]
 
 ---
 
@@ -1804,7 +1736,7 @@ class: title, middle
 
 ## What are crystals?
 
-[Wikipedia](https://en.wikipedia.org/wiki/Crystal): A crystal or crystalline solid is a solid material whose constituents (such as atoms, molecules, or ions) are arranged in a .highlight1[highly ordered microscopic structure], forming .highlight1[a crystal lattice that extends in all directions].
+Definition: A crystal or crystalline solid is a solid material whose constituents (such as atoms, molecules, or ions) are arranged in a .highlight1[highly ordered microscopic structure], forming .highlight1[a crystal lattice that extends in all directions].
 
 .left-column[
 .center[![:scale 70%](../assets/images/slides/crystals/crystals_polycrystalline_amorphous.png)]
@@ -1823,62 +1755,96 @@ A crystal structure is characterized by its .highlight1[unit cell], a small imag
 
 ---
 
-## Crystal structure generation in the literature
+## Why do we care about crystals?
 
-Example: .highlight2[Crystal Diffusion Variational Autoencoder (CDVAE)]: a diffusion process that moves .highlight1[atomic coordinates] towards a lower energy state and updates atom types to satisfy bonding preferences between neighbors. The key idea is to learn the diffusion process from the data distribution of stable materials. .cite[(Xie et al., 2022)]
+.context35[Materials discovery can help reduce greenhouse gas emissions in multiple sectors.]
 
-.center[![:scale 100%](../assets/images/slides/crystals/cdvae.png)]
+--
 
-.references[Xie et al. [Crystal diffusion variational autoencoder for periodic material generation](https://arxiv.org/abs/2110.06197). ICLR 2022] 
+<br>
+Many solid state materials are crystal structures and they are a core component of:
 
-???
+* Electrocatalysts for fuel cells, hydrogen storage, industrial chemical reactions, carbon capture, etc.
+* Solid electrolytes for batteries.
+* Thin film materials for photovoltaics.
+* ...
 
-A: atom types
-X: atom coordinates
-L: perdiodic lattice: l1, l2, l3 (3x3)
+--
 
----
+However, .highlight1[material modelling is very challenging]:
+* Limited data: only about 200 K known inorganic materials, but potentially $10^{180}$ possible stable materials (for reference: more than a billion molecules are known)
+* Sparsity: .highlight2[stable materials] only exist in a low-dimensional subspace of all possible 3D arrangements.
 
-count: false
+--
 
-## Crystal structure generation in the literature
-
-Example: .highlight2[Physics Guided Crystal Generative Model (PGCGM)]: A GAN with the affine matrices of the symmetry operations and element properties as inputs, augmented with a distance loss between real and fake materials, and data augmentation on the atomic positions. .cite[(Zhao et al., 2023)]
-
-.center[![:scale 70%](../assets/images/slides/crystals/pgcgm.png)]
-
-.references[Zhao et al. [Physics guided deep learning for generative design of crystal materials with symmetry constraints](https://www.nature.com/articles/s41524-023-00987-9). npj computational materials 2023] 
+.conclusion[There is a need for efficient generative models of crystal structures.]
 
 ---
 
-count: false
-
-## Crystal structure generation in the literature
-
-Example: .highlight2[MatterGen]: An evolution of CDVAE that performs diffusion not only on atomic positions but also on the atom types and the lattice. .cite[(Zeni, Pinsler, Zügner, Fowler et al., 2023)]
-
-.center[![:scale 90%](../assets/images/slides/crystals/mattergen.png)]
-
-.references[Zeni, Pinsler, Zügner, Fowler et al. [MatterGen: a generative model for inorganic materials design](https://arxiv.org/abs/2312.03687). arXiv 2023] 
-
----
-
-count: false
-
-## Crystal structure generation in the literature
-
-Example: .highlight2[UniMat]: A denoising diffusion model learns to move atoms from random locations back to their original locations. Atoms not present in the crystal are moved to the null location during the denoising process, allowing crystals with an arbitrary number of atoms to be generated.
-
-.center[![:scale 90%](../assets/images/slides/crystals/unimat.png)]
-
-.references[Yang et al. [Scalable Diffusion for Materials Generation](https://arxiv.org/abs/2311.09235). arXiv 2023] 
-
----
-
-## Our approach
+## A domain-inspired approach
 ### Crystal structure parameters
 
 .context[Most previous works tackle crystal structure generation in the space of atomic coordinates.]
+
+--
+
+Instead of optimising the atom positions by learning from a small data set, we draw .highlight1[inspiration from theoretical crystallography to sample crystals in a lower-dimensional space of crystal structure parameters].
+
+.center[
+<div style="display: flex">
+  <div style="flex: 14%;">
+  <figure>
+      <img src="../assets/images/slides/crystals/lattices/triclinic.png" alt="Triclinic" style="width: 30%">
+    <figcaption>Triclinic</figcaption>
+  </figure>
+  </div>
+  <div style="flex: 14%;">
+  <figure>
+      <img src="../assets/images/slides/crystals/lattices/triclinic.png" alt="Triclinic" style="width: 30%">
+    <figcaption>Triclinic</figcaption>
+  </figure>
+  </div>
+  <div style="flex: 14%;">
+  <figure>
+      <img src="../assets/images/slides/crystals/lattices/triclinic.png" alt="Triclinic" style="width: 30%">
+    <figcaption>Triclinic</figcaption>
+  </figure>
+  </div>
+  <div style="flex: 14%;">
+  <figure>
+      <img src="../assets/images/slides/crystals/lattices/triclinic.png" alt="Triclinic" style="width: 30%">
+    <figcaption>Triclinic</figcaption>
+  </figure>
+  </div>
+  <div style="flex: 14%;">
+  <figure>
+      <img src="../assets/images/slides/crystals/lattices/triclinic.png" alt="Triclinic" style="width: 30%">
+    <figcaption>Triclinic</figcaption>
+  </figure>
+  </div>
+  <div style="flex: 14%;">
+  <figure>
+      <img src="../assets/images/slides/crystals/lattices/triclinic.png" alt="Triclinic" style="width: 30%">
+    <figcaption>Triclinic</figcaption>
+  </figure>
+  </div>
+  <div style="flex: 14%;">
+  <figure>
+      <img src="../assets/images/slides/crystals/lattices/cubic.png" alt="Cubic" style="width: 100%">
+    <figcaption>Cubic</figcaption>
+  </figure>
+  </div>
+</div>
+]
+
+---
+
+## A domain-inspired approach
+### Crystal structure parameters
+
+.context[Most previous works tackle crystal structure generation in the space of atomic coordinates.]
+
+--
 
 Instead of optimising the atom positions by learning from a small data set, we draw .highlight1[inspiration from theoretical crystallography to sample crystals in a lower-dimensional space of crystal structure parameters].
 
