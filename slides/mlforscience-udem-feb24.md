@@ -1612,17 +1612,19 @@ count: false
 
 .center[![:scale 45%](../assets/images/slides/dna/dna_helix_annotated.png)]
 
+.references[
+* Jain et al. [Biological Sequence Design with GFlowNets](https://arxiv.org/abs/2203.04115), ICML, 2022. 
+* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). arXiv 2306.11715, 2023.
+]
+
+--
+
 .left-column-66[
 .dnag[`G`].dnaa[`A`].dnag[`G`].dnag[`G`].dnag[`G`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnag[`G`].dnag[`G`].dnat[`T`].dnaa[`A`].dnac[`C`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`]<br>
 .dnat[`T`].dnac[`C`].dnaa[`A`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnac[`C`].dnag[`G`].dnaa[`A`].dnag[`G`].dnac[`C`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnat[`T`].dnag[`G`].dnat[`T`].dnaa[`A`].dnag[`G`].dnag[`G`].dnac[`C`].dnaa[`A`].dnag[`G`].dnac[`C`].dnag[`G`].dnat[`T`].dnac[`C`].dnac[`C`].dnat[`T`].dnaa[`A`].dnac[`C`].dnac[`C`].dnag[`G`].dnat[`T`].dnat[`T`].dnac[`C`].dnag[`G`]<br>
 .dnac[`C`].dnat[`T`].dnaa[`A`].dnac[`C`].dnag[`G`].dnac[`C`].dnag[`G`].dnat[`T`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnat[`T`].dnat[`T`].dnac[`C`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`]<br>
 .dnat[`T`].dnat[`T`].dnag[`G`].dnac[`C`].dnaa[`A`].dnag[`G`].dnaa[`A`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnag[`G`].dnac[`C`].dnag[`G`].dnac[`C`].dnaa[`A`].dnat[`T`].dnag[`G`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnat[`T`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnat[`T`].dnat[`T`].dnag[`G`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnaa[`A`]<br>
 .dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnag[`G`].dnac[`C`].dnat[`T`].dnat[`T`].dnaa[`A`].dnag[`G`].dnag[`G`].dnag[`G`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnat[`T`].dnag[`G`].dnat[`T`].dnat[`T`].dnac[`C`].dnaa[`A`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnat[`T`].dnag[`G`]<br>
-]
-
-.references[
-* Jain et al. [Biological Sequence Design with GFlowNets](https://arxiv.org/abs/2203.04115), ICML, 2022. 
-* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). arXiv 2306.11715, 2023.
 ]
 
 --
@@ -1692,6 +1694,8 @@ We have proposed a continuous GFlowNets algorithm for sampling conformations of 
 Volokhova, Koziarski et al. [Towards equilibrium molecular conformation generation with GFlowNets](https://arxiv.org/abs/2310.14782), Digital Discovery, 2024. 
 ]
 
+--
+
 .center[![:scale 100%](../assets/images/slides/conformers/schematic.png)]
 
 ---
@@ -1704,8 +1708,6 @@ We have proposed a continuous GFlowNets algorithm for sampling conformations of 
 .references[
 Volokhova, Koziarski et al. [Towards equilibrium molecular conformation generation with GFlowNets](https://arxiv.org/abs/2310.14782), Digital Discovery, 2024. 
 ]
-
---
 
 .left-column[.center[
   <figure>
@@ -1722,6 +1724,31 @@ Volokhova, Koziarski et al. [Towards equilibrium molecular conformation generati
     <figcaption>GFlowNet's learnt distribution (KDE)</figcaption>
   </figure>
 ]]
+
+---
+
+##  GFlowNet Python package
+
+.highlight2[Open source GFlowNet implementation]: [github.com/alexhernandezgarcia/gflownet](https://github.com/alexhernandezgarcia/gflownet)
+
+--
+
+* A key design principle is the simplicity to create new environments.
+* Current environments: Tetris, hyper-grid, hyper-cube, hyper-torus, scrabble, crystals, molecules, DNA...
+* Discrete and continuous environments
+* Easy to extend flexibly
+* Results visualisation on WandDB
+
+--
+
+<br>
+Research articles supported by this GFlowNet package:
+.references[
+* Lahlou et al. [A Theory of Continuous Generative Flow Networks](https://arxiv.org/abs/2301.12594), ICML, 2023. 
+* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). RealML, NeurIPS 2023.
+* Mila AI4Science et al. [Crystal-GFN: sampling crystals with desirable properties and constraints](https://arxiv.org/abs/2310.04925). AI4Mat, NeurIPS 2023 (spotlight).
+* Volokhova, Koziarski et al. [Towards equilibrium molecular conformation generation with GFlowNets](https://arxiv.org/abs/2310.14782). Digital Discovery, NeurIPS 2023.
+]
 
 ---
 
@@ -1790,47 +1817,119 @@ However, .highlight1[material modelling is very challenging]:
 
 Instead of optimising the atom positions by learning from a small data set, we draw .highlight1[inspiration from theoretical crystallography to sample crystals in a lower-dimensional space of crystal structure parameters].
 
+--
+
+.highlight2[Space group]: symmetry operations of a repeating pattern in space that leave the pattern unchanged.
+
+--
+
+.center[![:scale 20%](../assets/images/slides/crystals/spacegroups/p1.jpg)]
+
+---
+
+## A domain-inspired approach
+### Crystal structure parameters
+
+.context[Most previous works tackle crystal structure generation in the space of atomic coordinates.]
+
+Instead of optimising the atom positions by learning from a small data set, we draw .highlight1[inspiration from theoretical crystallography to sample crystals in a lower-dimensional space of crystal structure parameters].
+
+.highlight2[Space group]: symmetry operations of a repeating pattern in space that leave the pattern unchanged.
+
+.center[![:scale 30%](../assets/images/slides/crystals/spacegroups/p2.jpg)]
+
+---
+
+## A domain-inspired approach
+### Crystal structure parameters
+
+.context[Most previous works tackle crystal structure generation in the space of atomic coordinates.]
+
+Instead of optimising the atom positions by learning from a small data set, we draw .highlight1[inspiration from theoretical crystallography to sample crystals in a lower-dimensional space of crystal structure parameters].
+
+.highlight2[Space group]: symmetry operations of a repeating pattern in space that leave the pattern unchanged.
+
+.center[![:scale 30%](../assets/images/slides/crystals/spacegroups/cm.jpg)]
+
+---
+
+## A domain-inspired approach
+### Crystal structure parameters
+
+.context[Most previous works tackle crystal structure generation in the space of atomic coordinates.]
+
+Instead of optimising the atom positions by learning from a small data set, we draw .highlight1[inspiration from theoretical crystallography to sample crystals in a lower-dimensional space of crystal structure parameters].
+
+.highlight2[Space group]: symmetry operations of a repeating pattern in space that leave the pattern unchanged.
+
+.center[![:scale 30%](../assets/images/slides/crystals/spacegroups/p6m.png)]
+
+---
+
+## A domain-inspired approach
+### Crystal structure parameters
+
+.context[Most previous works tackle crystal structure generation in the space of atomic coordinates.]
+
+Instead of optimising the atom positions by learning from a small data set, we draw .highlight1[inspiration from theoretical crystallography to sample crystals in a lower-dimensional space of crystal structure parameters].
+
+.highlight2[Space group]: symmetry operations of a repeating pattern in space that leave the pattern unchanged.
+
+- There are 17 symmetry groups in 2 dimensions (wallpaper groups).
+- There are 230 space groups in 3 dimensions.
+
+---
+
+## A domain-inspired approach
+### Crystal structure parameters
+
+.context[Most previous works tackle crystal structure generation in the space of atomic coordinates.]
+
+Instead of optimising the atom positions by learning from a small data set, we draw .highlight1[inspiration from theoretical crystallography to sample crystals in a lower-dimensional space of crystal structure parameters].
+
+.highlight2[Lattice system]: all 230 space groups can be classified into one of the 7 lattices.
+
 .center[
 <div style="display: flex">
   <div style="flex: 14%;">
   <figure>
-      <img src="../assets/images/slides/crystals/lattices/triclinic.png" alt="Triclinic" style="width: 30%">
+      <img src="../assets/images/slides/crystals/lattices/triclinic.png" alt="Triclinic" style="width: 70%">
     <figcaption>Triclinic</figcaption>
   </figure>
   </div>
   <div style="flex: 14%;">
   <figure>
-      <img src="../assets/images/slides/crystals/lattices/triclinic.png" alt="Triclinic" style="width: 30%">
-    <figcaption>Triclinic</figcaption>
+      <img src="../assets/images/slides/crystals/lattices/monoclinic.png" alt="Monoclinic" style="width: 70%">
+    <figcaption>Monoclinic</figcaption>
   </figure>
   </div>
   <div style="flex: 14%;">
   <figure>
-      <img src="../assets/images/slides/crystals/lattices/triclinic.png" alt="Triclinic" style="width: 30%">
-    <figcaption>Triclinic</figcaption>
+      <img src="../assets/images/slides/crystals/lattices/orthorhombic.png" alt="Orthorhombic" style="width: 70%">
+    <figcaption>Orthorhombic</figcaption>
   </figure>
   </div>
   <div style="flex: 14%;">
   <figure>
-      <img src="../assets/images/slides/crystals/lattices/triclinic.png" alt="Triclinic" style="width: 30%">
-    <figcaption>Triclinic</figcaption>
+      <img src="../assets/images/slides/crystals/lattices/tetragonal.png" alt="Tetragonal" style="width: 70%">
+    <figcaption>Tetragonal</figcaption>
   </figure>
   </div>
   <div style="flex: 14%;">
   <figure>
-      <img src="../assets/images/slides/crystals/lattices/triclinic.png" alt="Triclinic" style="width: 30%">
-    <figcaption>Triclinic</figcaption>
+      <img src="../assets/images/slides/crystals/lattices/rhombohedral.png" alt="Rhombohedral" style="width: 70%">
+    <figcaption>Rhombohedral</figcaption>
   </figure>
   </div>
   <div style="flex: 14%;">
   <figure>
-      <img src="../assets/images/slides/crystals/lattices/triclinic.png" alt="Triclinic" style="width: 30%">
-    <figcaption>Triclinic</figcaption>
+      <img src="../assets/images/slides/crystals/lattices/hexagonal.png" alt="Hexagonal" style="width: 70%">
+    <figcaption>Hexagonal</figcaption>
   </figure>
   </div>
   <div style="flex: 14%;">
   <figure>
-      <img src="../assets/images/slides/crystals/lattices/cubic.png" alt="Cubic" style="width: 100%">
+      <img src="../assets/images/slides/crystals/lattices/cubic.png" alt="Cubic" style="width: 70%">
     <figcaption>Cubic</figcaption>
   </figure>
   </div>
@@ -1844,18 +1943,11 @@ Instead of optimising the atom positions by learning from a small data set, we d
 
 .context[Most previous works tackle crystal structure generation in the space of atomic coordinates.]
 
---
-
 Instead of optimising the atom positions by learning from a small data set, we draw .highlight1[inspiration from theoretical crystallography to sample crystals in a lower-dimensional space of crystal structure parameters].
 
-.left-column[
-.center[![:scale 65%](../assets/images/slides/crystals/crystal_systems_table.png)]
-]
-.right-column[
-.center[![:scale 30%](../assets/images/slides/crystals/unit_cell.png)]
-]
+.highlight2[Lattice parameters]: The dimensions and shape of the lattice is characterised by 6 parameters: .highlight1[$a, b, c, \alpha, \beta, \gamma$].
 
-.conclusion[We sample materials in the space of space groups (230 groups), compositions (elements and number of atoms) and lattice parameters (6 parameters: $a, b, c, \alpha, \beta, \gamma$).]
+.center[![:scale 20%](../assets/images/slides/crystals/unit_cell.png)]
 
 ---
 
@@ -1999,53 +2091,6 @@ We have tested the following properties:
 
 ---
 
-## Crystal-GFlowNet
-### Experiments
-
-- Space groups: all 113 space groups present in the MatBench data set.
-- Compositions:
-    - Up to 5 unique elements from the these 22 elements: ts: H, Li, B, C, N, O, F, Na, Mg, Al, Si, P, S, Cl, K, V, Mn, Fe, Co, Ni, Cu, Se. Th (22 most common elements in the training set). 
-    - Up to 16 atoms per element (80 atoms in total)
-- Lattice parameters:
-    - Lengths: 0.9-100 angstroms.
-    - Angles: 50-150°.
-    - These ranges contain the bulk of the data set (excluding outliers).
-
----
-
-## Results
-### Density
-
-What do we expect Crystal-GFN to sample?
-
-- Small length lattice parameters (small volume): 
---
-4.9 Å compared to 8.3 Å in the validation dataset. &#10004;
---
-
-- Denser packing space group: 
---
-We see a shift towards spacegroups from the cubic, tetragonal, and hexagonal lattices (81, 99, 115, 195, 200, 207, 215, 221). &#10004;
---
-
-- Higher number of atoms (larger mass): 
---
-58.8 atoms on average compared to 48.1 over the validation set. &#10004;
---
-
-- Heavier elements (larger mass): 
---
-Heavier such as Se, Cu, Ni are sampled the most often. &#10004;
-
----
-
-## Results
-### Density
-
-.center[![:scale 80%](../assets/images/slides/crystals/density_elements.png)]
-
----
-
 ## Results
 ### Formation energy
 
@@ -2113,12 +2158,41 @@ Analysis of 10,000 sampled crystals and the top-100 with lowest formation energy
 
 ---
 
+## FAENet
+
+.orange[Slide about FAENet]
+
+- Efficient proxy for electrocatalyst
+- Show scientific discovery loop figure to illustrate present and future work and as a bridge to multi-fidelity.
+
+---
+
 name: title
 class: title, middle
 
-### Multi-fidelity active learning with GFlowNets
+### Multi-fidelity active learning
 
 .center[![:scale 30%](../assets/images/slides/mfal/multiple_oracles.png)]
+
+---
+
+## Why multi-fidelity?
+
+.context35[We had described the scientific discovery loop as a cycle with one single oracle.]
+
+<br><br>
+.center[![:scale 50%](../assets/images/slides/scientific-discovery/loop_4.png)]
+
+---
+
+count: false
+
+## Why multi-fidelity?
+
+.context35[We had described the scientific discovery loop as a cycle with one single oracle.]
+
+<br><br>
+.center[![:scale 60%](../assets/images/slides/scientific-discovery/loop_4_mf.png)]
 
 ---
 
