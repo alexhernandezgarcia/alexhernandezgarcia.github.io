@@ -44,13 +44,7 @@ class: title, middle
 
 --
 
-* .highlight1[Bachelor's]: Image and Sound Engineering, University Carlos III of Madrid (2013)
-
---
-* .highlight1[Bachelor's] (partial): Audiovisual Communication, University Carlos III of Madrid (2013)
-
---
-* .highlight1[Master's]: Machine Learning and Computer Vision, University Carlos III of Madrid (2015)
+* .highlight1[Bachelor's and Master's]: University Carlos III of Madrid (2009-2105)
 
 --
 * .highlight1[PhD]: Institute of Cognitive Science, Universität Osnabrück (2016–2020)
@@ -60,21 +54,11 @@ class: title, middle
   * Internship at Spinoza Centre for Neuroimaging, Amsterdam, 2018
   * Internship at University of Cambridge, 2019
 
----
-
-count: false
-
-## About me
-### My academic journey
-
-* .highlight1[Bachelor's]: Image and Sound Engineering, University Carlos III of Madrid (2013)
-* .highlight1[Bachelor's] (partial): Audiovisual Communication, University Carlos III of Madrid (2013)
-* .highlight1[Master's]: Machine Learning and Computer Vision, University Carlos III of Madrid (2015)
-* .highlight1[PhD]: Institute of Cognitive Science, Universität Osnabrück (2016–2020)
+--
 * .highlight1[Postdoc]: Mila and the Université de Montréal (2020–present)
     * Prof. Yoshua Bengio's group and Prof. David Rolnick's group as IVADO fellow.
-    * Teaching assistant in _Fundamentals of machine learning_ (Prof. Ioannis Mitliagkas and Guillaume Rabusseau), 2021.
-    * Main instructor of _Projets avancés en apprentissage automatique_ (English x1 and French x2), 2022-2024.
+    * Teaching assistant in _Fundamentals of machine learning_, 2021.
+    * Main instructor of _Projets avancés en apprentissage automatique_ (EN x1 and FR x2), 2022-2024.
     * Mila Lab Representative (2021-2022), EDI Committee (2021-present), Sustainability Committee (2023-present)
 
 ---
@@ -227,16 +211,16 @@ Direct consequences:
 
 .context[Climate change is a major challenge for humanity.]
 
-.left-column-66[.center[
+.center[
 <figure>
-	<img src="../assets/images/slides/climatechange/who_climate_health.jpg" alt="Climate change presents a fundamental threat to human health." style="width: 100%">
-  <figcaption>.smaller[Climate-sensitive health risks (source graphic: <a href="https://www.who.int/news-room/fact-sheets/detail/climate-change-and-health">World Health Organization</a>.)]</figcaption>
+	<img src="../assets/images/slides/climatechange/who_climate_health.png" alt="Climate change presents a fundamental threat to human health." style="width: 100%">
+  <figcaption>.smaller[Climate-sensitive health risks (Adapted from: <a href="https://www.who.int/news-room/fact-sheets/detail/climate-change-and-health">World Health Organization</a>.)]</figcaption>
 </figure>
-]]
+]
 
-.right-column-33[
+.smaller[
 * Environmental factors take the lives of around 13 million people _per year_.
-* Climate change seriously affect people’s mental and physical health, access to clean air, safe water, food and health care.
+* Climate change affects people’s mental and physical health, access to clean air, safe water, food and health care.
 ]
 
 --
@@ -835,7 +819,7 @@ The "Tetris problem" involves .highlight1[sampling from an unknown distribution]
 --
     - Given a score or reward function $R(x)$, learn to _sample proportionally to the reward_.
 --
-2. .highlight1[Compositionality] in the samples generation.
+2. .highlight1[Compositionality] in the sample generation.
 
 --
     - A meaningful decomposition of samples $x$ into multiple sub-states $s_0\rightarrow s_1 \rightarrow \dots \rightarrow x$ can yield generalisable patterns.
@@ -1590,7 +1574,7 @@ count: false
 ##  GFlowNet extensions
 ### Multi-objective GFlowNets
 
-We have extended GFlowNets to handle multi-objective optimisation and not only cover the Pareto front but also sample diverse objects at each pointin the Pareto front.
+We have extended GFlowNets to handle multi-objective optimisation and not only cover the Pareto front but also sample diverse objects at each point in the Pareto front.
 
 .center[
 ![:scale 30%](../assets/images/slides/gflownet/mogfn_pareto_front.png)
