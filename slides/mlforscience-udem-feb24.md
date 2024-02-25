@@ -1547,6 +1547,19 @@ Jain et al. [Biological Sequence Design with GFlowNets](https://arxiv.org/abs/22
 
 ---
 
+##  Contributions to GFlowNets extensions and applications
+### Review paper
+
+A review of the potential of GFlowNets for AI-driven scientific discoveries.
+
+.center[![:scale 60%](../assets/images/slides/drugs/gfn_molecules.png)]
+
+.references[
+Jain et al. [GFlowNets for AI-Driven Scientific Discovery](https://pubs.rsc.org/en/content/articlelanding/2023/dd/d3dd00002h). Digital Discovery, Royal Society of Chemistry, 2023. .highlight2[(co-authored)]
+]
+
+---
+
 ## GFlowNet Python package
 
 I have led the development of an open sourced GFlowNet package, together with Mila collaborators: Nikita Saxena, Alexandra Volokhova, Michał Koziarski, Divya Sharma, Pierre Luc Carrier Victor Schmidt, Joseph Viviano.
