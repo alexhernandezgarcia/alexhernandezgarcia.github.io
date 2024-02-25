@@ -228,8 +228,8 @@ count: false
 - .milapalegreen[Hard-constrained deep learning for climate downscaling]. JMLR (2023)
 - .milapaleblue[GFlowNets for AI-driven] .milapalered[scientific discovery]. Digital Discovery (2023)
 - .milapalegreen[Multi-variable hard physical constraints for climate model downscaling]. AAAI FSS (2023)
-- .milapalegreen[Counting carbon: a survey of factors influencing the emissions of machine learning]. arXiv preprint (2023)
 - .milapalegreen[Fourier neural operators for arbitrary resolution climate data downscaling]. Under review
+- .milapalegreen[Counting carbon: a survey of factors influencing the emissions of machine learning]. arXiv preprint (2023)
 - .milapalered[Multi-objective GFlowNets]. ICML (2023)
 - .milapaleblue[A theory of continuous] .milapalered[generative flow networks]. ICML (2023)
 - .milapaleblue[FAENet: Frame averaging equivariant GNN for materials modeling]. ICML (2023)
@@ -266,8 +266,8 @@ count: false
 - .milapalegreen[Hard-constrained deep learning for climate downscaling]. JMLR (2023)
 - .milapaleblue[GFlowNets for AI-driven] .milapalered[scientific discovery]. Digital Discovery (2023)
 - .milapalegreen[Multi-variable hard physical constraints for climate model downscaling]. AAAI FSS (2023)
-- .milapalegreen[Counting carbon: a survey of factors influencing the emissions of machine learning]. arXiv preprint (2023)
 - .milapalegreen[Fourier neural operators for arbitrary resolution climate data downscaling]. Under review
+- .milapalegreen[Counting carbon: a survey of factors influencing the emissions of machine learning]. arXiv preprint (2023)
 - .milapalered[Multi-objective GFlowNets]. ICML (2023)
 - .milapaleblue[A theory of continuous] .milapalered[generative flow networks]. ICML (2023)
 - .milapaleblue[FAENet: Frame averaging equivariant GNN for materials modeling]. ICML (2023)
@@ -296,8 +296,8 @@ count: false
 - .alpha50[.milapalegreen[Hard-constrained deep learning for climate downscaling]. JMLR (2023)]
 - .alpha50[.milapaleblue[GFlowNets for AI-driven] .milapalered[scientific discovery]. Digital Discovery (2023)]
 - .alpha50[.milapalegreen[Multi-variable hard physical constraints for climate model downscaling]. AAAI FSS (2023)]
-- .alpha50[.milapalegreen[Counting carbon: a survey of factors influencing the emissions of machine learning]. arXiv preprint (2023)]
 - .alpha50[.milapalegreen[Fourier neural operators for arbitrary resolution climate data downscaling]. Under review]
+- .alpha50[.milapalegreen[Counting carbon: a survey of factors influencing the emissions of machine learning]. arXiv preprint (2023)]
 - .alpha50[.milapalered[Multi-objective GFlowNets]. ICML (2023)]
 - .alpha50[.milapaleblue[A theory of continuous] .milapalered[generative flow networks]. ICML (2023)]
 - .alpha50[.milapaleblue[FAENet: Frame averaging equivariant GNN for materials modeling]. ICML (2023)]
