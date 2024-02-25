@@ -181,8 +181,6 @@ class: title, middle
 * Climate change affects people’s mental and physical health, access to clean air, safe water, food and health care.
 ]
 
---
-
 .full-width[
 .conclusion["Climate change is the single biggest health threat facing humanity." .smaller[[WHO and WMO](https://climahealth.info/), 2024]]
 ]
@@ -568,7 +566,7 @@ count: false
 * .highlight1[generalise] to unexplored regions of the search space and
 * .highlight1[build better queries]
 
-.conclusion[An active learning pipeline with generative machine learning could provide _exponential_ gains.]
+.conclusion[Active learning with generative machine learning can in theory more efficiently explore the candidate space.]
 ]
 
 ---
@@ -577,7 +575,7 @@ count: false
 name: title
 class: title, middle
 
-### The challenge of scientific discoveries
+### The challenges of scientific discoveries
 
 .center[![:scale 15%](../assets/images/slides/materials/lithium_oxide_crystal.png)]
 .center[![:scale 30%](../assets/images/slides/dna/dna_helix.png)]
