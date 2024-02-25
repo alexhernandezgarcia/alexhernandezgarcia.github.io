@@ -117,12 +117,12 @@ name: mlforscience-udem-feb24
 class: title, middle
 
 ## Machine learning for science
-### Tackling climate _or_ health challenges
+### Tackling climate and health challenges
 
 <hr>
 
 ## Apprentissage automatique pour les sciences
-### S'attaquer à la crise climatique _ou_ aux défis en santé
+### S'attaquer à la crise climatique et aux défis en santé
 
 ---
 
@@ -140,35 +140,11 @@ class: title, middle
 
 ---
 
-## Outline
-
-- Motivation: why climate _and_ health?
-
---
-- Machine learning for scientific discoveries to tackle climate and health challenges
-
---
-- Gentle introduction to GFlowNets
-
---
-- Crystal-GFN: materials discovery
-
---
-- Multi-fidelity active learning
-
---
-- Overview of other research projects
-
---
-- Challenges and perspectives
-
----
-
 count: false
 name: title
 class: title, middle
 
-### Motivation and overview
+### Why climate and health?
 
 .center[![:scale 30%](../assets/images/slides/climatechange/demo.jpg)]
 
@@ -178,32 +154,14 @@ class: title, middle
 
 .context[Climate change is a major challenge for humanity.]
 
-.left-column-66[.center[
+.center[
 <figure>
-	<img src="../assets/images/slides/climatechange/anthropogenic_temperature_rise.png" alt="Historical global average temperature and the influence of modern humans" style="width: 90%">
+	<img src="../assets/images/slides/climatechange/anthropogenic_temperature_rise.png" alt="Historical global average temperature and the influence of modern humans" style="width: 60%">
   <figcaption>.smaller[Modelled and observed global average temperatures in the last 2 millenia (source graphic: <a href="https://www.theguardian.com/science/2021/aug/09/humans-have-caused-unprecedented-and-irreversible-change-to-climate-scientists-warn">The Guardian</a>.)]</figcaption>
 </figure>
-]]
-
-.right-column-33[
-Direct consequences:
-* Melting glaciers and polar ice
-* Sea level rise
-* Heatwaves
-* Floods
-* Droughts
-* Wildfires
-* ...
 ]
 
-???
-
-* Flash floods kill **5,000** people per year.
-* Sea levels are expected to rise by **2 metres** by the end of the century
-* Rising sea levels could disrupt the lives of **1 billion people** by the end of 2050.
-* As much as **40% of the Amazon** forest is at risk of becoming a savanna.
-* In 2015, forest fires claimed roughly **980 000 $km^2$** of the world’s forest.
-* Forest fires emmitted **~1.8 Gt of CO2** in 2019.
+.conclusion["The evidence is clear: the time for action is now." .smaller[IPCC Report, 2022]]
 
 ---
 
@@ -237,50 +195,6 @@ Direct consequences:
 
 ---
 
-## Why climate and health?
-
-.context[Climate change is a fundamental threat to human health.]
-
-.center[
-<figure>
-	<img src="../assets/images/slides/climatechange/ipcc_scenarios.png" alt="IPCC 2022 - Scenarios" style="width: 60%">
-  <figcaption>Median <em>future</em> global warming across modelled scenarios. Adapted from IPCC Report, 2022</figcaption>
-</figure>
-]
-
-???
-
-* Category C1: scenarios that limit warming to 1.5°C in 2100 with a likelihood of greater than 50%, and reach or exceed warming of 1.5°C during the 21st century with a likelihood of 67% or less. 
-* Category C2: same as C1 but exceed warming of 1.5°C during the 21st century with a likelihood of _greater_ than 67%.
-* Category C3: scenarios that limit peak warming to 2°C throughout the 21st century with a likelihood of greater than 67%
-* Category C8: scenarios that exceed warming of 4°C during the 21st century with a likelihood of 50% or greater.
-
----
-
-count: false
-
-## Why climate and health?
-
-.context[Climate change is a fundamental threat to human health.]
-
-.center[
-<figure>
-	<img src="../assets/images/slides/climatechange/ipcc_scenarios_c1_c2.png" alt="IPCC 2022 - Scenarios" style="width: 60%">
-  <figcaption>Median <em>future</em> global warming across modelled scenarios. Adapted from IPCC Report, 2022</figcaption>
-</figure>
-]
-
-.conclusion["The evidence is clear: the time for action is now." .smaller[IPCC Report, 2022]]
-
-???
-
-* Category C1: scenarios that limit warming to 1.5°C in 2100 with a likelihood of greater than 50%, and reach or exceed warming of 1.5°C during the 21st century with a likelihood of 67% or less. 
-* Category C2: same as C1 but exceed warming of 1.5°C during the 21st century with a likelihood of _greater_ than 67%.
-* Category C3: scenarios that limit peak warming to 2°C throughout the 21st century with a likelihood of greater than 67%
-* Category C8: scenarios that exceed warming of 4°C during the 21st century with a likelihood of 50% or greater.
-
----
-
 ## Why climate _and_ health?
 
 .orange[Figure with a schematic of the relationship between climate change, health and ML research]
@@ -295,13 +209,127 @@ Rolnick et al. [Tackling Climate Change with Machine Learning](https://dl.acm.or
 
 ---
 
+### Overview of my recent work
+
+.columns-3-left[.center[.milapaleblue[.smaller[Materials discovery for sustainability]]]]
+.columns-3-center[.center[.milapalered[.smaller[Drugs discovery / Health]]]]
+.columns-3-right[.center[.milapalegreen[.smaller[Climate]]]]
+
+.smaller70[
+- .milapalegreen[ClimateGAN: Raising climate change awareness by generating images of floods]. ICLR (2022)
+- .milapalered[Benchmark of ... for gut microbiome-based diagnosis of inflammatory bowel disease]. Frontiers in Genetics (2022)
+- .milapalered[Biological sequence design with GFlowNets]. ICML (2022)
+- .milapalered[Diversifying Design of Nucleic Acid Aptamers Using Unsupervised Machine Learning]. Journal of Physical Chemistry B (2022)
+- .milapaleblue[PhAST: Physics-Aware, Scalable, and Task-specific GNNs for accelerated catalyst design]. Under review
+- .milapalegreen[Hard-constrained deep learning for climate downscaling]. JMLR (2023)
+- .milapaleblue[GFlowNets for AI-driven] .milapalered[scientific discovery]. Digital Discovery (2023)
+- .milapalegreen[Multi-variable hard physical constraints for climate model downscaling]. AAAI FSS (2023)
+- .milapalegreen[Counting carbon: a survey of factors influencing the emissions of machine learning]. arXiv preprint (2023)
+- .milapalegreen[Fourier neural operators for arbitrary resolution climate data downscaling]. Under review
+- .milapalered[Multi-objective GFlowNets]. ICML (2023)
+- .milapaleblue[A theory of continuous] .milapalered[generative flow networks]. ICML (2023)
+- .milapaleblue[FAENet: Frame averaging equivariant GNN for materials modeling]. ICML (2023)
+- .milapaleblue[On the importance of catalyst-adsorbate 3D interactions for relaxed energy predictions]. AI4Mat Workshop NeurIPS (2023)
+- .milapalered[Towards equilibrium molecular conformation generation with GFlowNets]. Digital Discovery (2023)
+- .milapaleblue[Crystal-GFN: sampling crystals with desirable properties and constraints]. AI4Mat Workshop NeurIPS (2023)
+- .milapalered[Multi-fidelity active learning] .milapaleblue[with GFlowNets]. RealML Workshop NeurIPS (2023)
+]
+
+---
+
+count: false
+
+### Overview of my recent work
+
+.center[![:scale 70%](../assets/images/slides/misc/wordcloud_papers.png)]
+
+---
+
+count: false
+
+### Overview of my recent work
+
+.columns-3-left[.center[.milapaleblue[.smaller[Materials discovery for sustainability]]]]
+.columns-3-center[.center[.milapalered[.smaller[Drugs discovery / Health]]]]
+.columns-3-right[.center[.milapalegreen[.smaller[Climate]]]]
+
+.smaller70[
+- .milapalegreen[ClimateGAN: Raising climate change awareness by generating images of floods]. ICLR (2022)
+- .milapalered[Benchmark of ... for gut microbiome-based diagnosis of inflammatory bowel disease]. Frontiers in Genetics (2022)
+- .milapalered[Biological sequence design with GFlowNets]. ICML (2022)
+- .milapalered[Diversifying Design of Nucleic Acid Aptamers Using Unsupervised Machine Learning]. Journal of Physical Chemistry B (2022)
+- .milapaleblue[PhAST: Physics-Aware, Scalable, and Task-specific GNNs for accelerated catalyst design]. Under review
+- .milapalegreen[Hard-constrained deep learning for climate downscaling]. JMLR (2023)
+- .milapaleblue[GFlowNets for AI-driven] .milapalered[scientific discovery]. Digital Discovery (2023)
+- .milapalegreen[Multi-variable hard physical constraints for climate model downscaling]. AAAI FSS (2023)
+- .milapalegreen[Counting carbon: a survey of factors influencing the emissions of machine learning]. arXiv preprint (2023)
+- .milapalegreen[Fourier neural operators for arbitrary resolution climate data downscaling]. Under review
+- .milapalered[Multi-objective GFlowNets]. ICML (2023)
+- .milapaleblue[A theory of continuous] .milapalered[generative flow networks]. ICML (2023)
+- .milapaleblue[FAENet: Frame averaging equivariant GNN for materials modeling]. ICML (2023)
+- .milapaleblue[On the importance of catalyst-adsorbate 3D interactions for relaxed energy predictions]. AI4Mat Workshop NeurIPS (2023)
+- .milapalered[Towards equilibrium molecular conformation generation with GFlowNets]. Digital Discovery (2023)
+- .milapaleblue[Crystal-GFN: sampling crystals with desirable properties and constraints]. AI4Mat Workshop NeurIPS (2023)
+- .milapalered[Multi-fidelity active learning] .milapaleblue[with GFlowNets]. RealML Workshop NeurIPS (2023)
+]
+
+---
+
+count: false
+
+### Overview of my recent work
+
+.columns-3-left[.center[.milapaleblue[.smaller[Materials discovery for sustainability]]]]
+.columns-3-center[.center[.milapalered[.smaller[Drugs discovery / Health]]]]
+.columns-3-right[.center[.milapalegreen[.smaller[Climate]]]]
+
+.smaller70[
+- .alpha50[.milapalegreen[ClimateGAN: Raising climate change awareness by generating images of floods]. ICLR (2022)]
+- .alpha50[.milapalered[Benchmark of ... for gut microbiome-based diagnosis of inflammatory bowel disease]. Frontiers in Genetics (2022)]
+- .alpha50[.milapalered[Biological sequence design with GFlowNets]. ICML (2022)]
+- .alpha50[.milapalered[Diversifying Design of Nucleic Acid Aptamers Using Unsupervised Machine Learning]. Journal of Physical Chemistry B (2022)]
+- .alpha50[.milapaleblue[PhAST: Physics-Aware, Scalable, and Task-specific GNNs for accelerated catalyst design]. Under review]
+- .alpha50[.milapalegreen[Hard-constrained deep learning for climate downscaling]. JMLR (2023)]
+- .alpha50[.milapaleblue[GFlowNets for AI-driven] .milapalered[scientific discovery]. Digital Discovery (2023)]
+- .alpha50[.milapalegreen[Multi-variable hard physical constraints for climate model downscaling]. AAAI FSS (2023)]
+- .alpha50[.milapalegreen[Counting carbon: a survey of factors influencing the emissions of machine learning]. arXiv preprint (2023)]
+- .alpha50[.milapalegreen[Fourier neural operators for arbitrary resolution climate data downscaling]. Under review]
+- .alpha50[.milapalered[Multi-objective GFlowNets]. ICML (2023)]
+- .alpha50[.milapaleblue[A theory of continuous] .milapalered[generative flow networks]. ICML (2023)]
+- .alpha50[.milapaleblue[FAENet: Frame averaging equivariant GNN for materials modeling]. ICML (2023)]
+- .alpha50[.milapaleblue[On the importance of catalyst-adsorbate 3D interactions for relaxed energy predictions]. AI4Mat Workshop NeurIPS (2023)]
+- .alpha50[.milapalered[Towards equilibrium molecular conformation generation with GFlowNets]. Digital Discovery (2023)]
+- .milapaleblue[Crystal-GFN: sampling crystals with desirable properties and constraints]. AI4Mat Workshop NeurIPS (2023)
+- .milapalered[Multi-fidelity active learning] .milapaleblue[with GFlowNets]. RealML Workshop NeurIPS (2023)
+]
+
+---
+
+## Outline
+
+- Machine learning for scientific discoveries to tackle climate and health challenges
+
+--
+- Gentle introduction to GFlowNets and overview of contributions
+
+--
+- Crystal-GFN: materials discovery
+
+--
+- Multi-fidelity active learning
+
+--
+- Challenges and perspectives
+
+---
+
 count: false
 name: title
 class: title, middle
 
 ### Machine learning for scientific discoveries
 
-.center[![:scale 20%](../assets/images/slides/scientific-discovery/laboratory.png)]
+.center[![:scale 30%](../assets/images/slides/scientific-discovery/laboratory.png)]
 
 ---
 
@@ -338,30 +366,6 @@ Antimicrobial resistance
 ---
 
 ## Why scientific discovery?
-### The potential of better materials
-
-.context[The climate crisis demands more efficient materials.]
-
-Anthropogenic emissions in 2019:
-- Canada: 0.73 GtCO₂-eq
-- Global: 59 ($\pm$ 6.6) GtCO₂-eq
-
---
-
-Potential reduction impact of materials discovery:
-- Improving material efficiency can reduce 0.93 ($\pm$ 0.23) GtCO₂-eq per year.
-- Fuel switching can reduce 2.1 ($\pm$ 0.52) GtCO₂-eq per year, only in the industry sector. 
-- Carbon capture and storage can reduce 0.54 ($\pm$ 0.27) GtCO₂-eq per year in the energy sector.
-
-.right[.cite[IPCC Sixth Assessment Report (2022)]]
-
---
-
-.conclusion[Materials discovery has the potential to reduce carbon emissions in multiple areas.] 
-
----
-
-## Why scientific discovery?
 ### The potential on health
 
 .context[Drug discovery and vaccine development play a crucial role in modern healthcare systems.]
@@ -373,7 +377,7 @@ Potential reduction impact of materials discovery:
 --
 
 .left-column-66[
-Bacterial antimicrobial resistance was directly responsible for 1.27 million global deaths in 2019 and contributed to 4.95 million deaths. .cite[World Health Organisation (WHO), 2023]
+.highlight1[Bacterial antimicrobial resistance] contributed to 4.95 million deaths in 2019. .cite[World Health Organisation (WHO), 2023]
 ]
 
 ???
@@ -401,7 +405,7 @@ count: false
 ]
 
 .left-column-66[
-Bacterial antimicrobial resistance was directly responsible for 1.27 million global deaths in 2019 and contributed to 4.95 million deaths. .cite[World Health Organisation (WHO), 2023]
+.highlight1[Bacterial antimicrobial resistance] contributed to 4.95 million deaths in 2019. .cite[World Health Organisation (WHO), 2023]
 
 The World Bank estimates that antimicrobial resistance could result in .highlight1[one _trillion_ USD additional healthcare costs] by 2050.
 ]
@@ -420,7 +424,7 @@ count: false
 ]
 
 .left-column-66[
-Bacterial antimicrobial resistance was directly responsible for 1.27 million global deaths in 2019 and contributed to 4.95 million deaths. .cite[World Health Organisation (WHO), 2023]
+.highlight1[Bacterial antimicrobial resistance] contributed to 4.95 million deaths in 2019. .cite[World Health Organisation (WHO), 2023]
 
 The World Bank estimates that antimicrobial resistance could result in .highlight1[one _trillion_ USD additional healthcare costs] by 2050.
 
@@ -439,14 +443,14 @@ count: false
 .right-column-33[
 .center[
 <figure>
-	<img src="../assets/images/slides/drugs/who_notimetowait.png" alt="No time to wait" style="width: 60%">
+	<img src="../assets/images/slides/drugs/who_notimetowait.png" alt="No time to wait" style="width: 55%">
   <figcaption><small>"No time to wait". Source: <a href="https://www.who.int/docs/default-source/documents/no-time-to-wait-securing-the-future-from-drug-resistant-infections-en.pdf">WHO</a>.</small></figcaption>
 </figure>
 ]
 ]
 
 .left-column-66[
-Bacterial antimicrobial resistance was directly responsible for 1.27 million global deaths in 2019 and contributed to 4.95 million deaths. .cite[World Health Organisation (WHO), 2023]
+.highlight1[Bacterial antimicrobial resistance] contributed to 4.95 million deaths in 2019. .cite[World Health Organisation (WHO), 2023]
 
 The World Bank estimates that antimicrobial resistance could result in .highlight1[one _trillion_ USD additional healthcare costs] by 2050.
 
@@ -524,7 +528,7 @@ A .highlight1[machine learning model] can be:
 * trained with data from _real-world_ experiments and
 * used to quickly and cheaply evaluate queries
 
-.conclusion[Is a linear speed-up enough to explore combinatorially large search spaces? ($10^{180}$ stable materials)]
+.conclusion[There are infinitely many conceivable materials, $10^{180}$ potentially stable and $10^{60}$ drug molecules. Are predictive models enough?]
 ]
 
 ---
@@ -533,13 +537,11 @@ count: false
 
 ## _Generative_ machine learning in the loop
 
-.context[Can we do better than _linear_?<br>An agent in the loop.]
-
 .right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_4.png)]]
 
 .left-column-33[
 <br>
-A .highlight1[machine learning **agent**] could:
+.highlight1[Generative machine learning] can:
 * .highlight1[learn structure] from the available data,
 * .highlight1[generalise] to unexplored regions of the search space and
 * .highlight1[build better queries]
@@ -551,75 +553,17 @@ count: false
 
 ## _Generative_ machine learning in the loop
 
-.context[Can we do better than _linear_?<br>An agent in the loop.]
-
 .right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_4.png)]]
 
 .left-column-33[
 <br>
-A .highlight1[machine learning **agent**] could:
+.highlight1[Generative machine learning] can:
 * .highlight1[learn structure] from the available data,
 * .highlight1[generalise] to unexplored regions of the search space and
 * .highlight1[build better queries]
 
 .conclusion[An active learning pipeline with generative machine learning could provide _exponential_ gains.]
 ]
-
----
-
-count: false
-
-## _Generative_ machine learning in the loop
-
-.context[GFlowNet as generative model.]
-
-.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_5.png)]]
-
-.left-column-33[
-<br>
-A .highlight1[machine learning **agent**] could:
-* .highlight1[learn structure] from the available data,
-* .highlight1[generalise] to unexplored regions of the search space and
-* .highlight1[build better queries]
-
-.conclusion[An active learning pipeline with generative machine learning could provide _exponential_ gains.]
-]
-
-.references[
-Jain et al. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/abs/2302.00615). Digital Discovery, Royal Society of Chemistry, 2023.
-]
-
----
-
-## Machine learning for scientific discovery
-### Challenges and limitations of existing methods
-
---
-
-.highlight1[Challenge]: very large and high-dimensional search spaces.
-
---
-
-&rarr; Need for .highlight2[efficient search and generalisation] of underlying structure.
-
---
-
-.highlight1[Challenge]: underspecification of objective functions or metrics.
-
---
-
-&rarr; Need for .highlight2[diverse] candidates.
-
---
-
-.highlight1[Limitation]: Reinforcement learning excels at optimisation in complex spaces but tends to lack diversity.
-
---
-.highlight1[Limitation]: Markov chain Monte Carlo (MCMC) can _sample_ from a distribution (diversity) but struggles at mode mixing in high dimensions.
-
---
-
-&rarr; Need to .highlight2[combine all of the above]: sampling from complex, high-dimensional distributions.
 
 ---
 
@@ -627,9 +571,10 @@ count: false
 name: title
 class: title, middle
 
-### A gentle introduction to GFlowNets
+### The challenge of scientific discoveries
 
-.center[![:scale 30%](../assets/images/slides/gfn-seq-design/flownet.gif)]
+.center[![:scale 15%](../assets/images/slides/materials/lithium_oxide_crystal.png)]
+.center[![:scale 30%](../assets/images/slides/dna/dna_helix.png)]
 
 ---
 
@@ -658,7 +603,7 @@ class: title, middle
 
 count: false
 
-## An intuitive toy problem
+## An intuitive ~~trivial~~ easy problem
 
 .highlight1[Problem]: find .highlight2[all] the arrangements of Tetris pieces on the board that minimise the empty space.
 
@@ -711,7 +656,7 @@ count: false
 
 count: false
 
-## An intuitive ~~toy~~ hard problem
+## An intuitive ~~easy~~ hard problem
 
 .highlight1[Problem]: find .highlight2[all] the arrangements of Tetris pieces on the board that minimise the empty space.
 
@@ -759,7 +704,7 @@ count: false
 
 count: false
 
-## An incredibly ~~intuitive toy~~ hard problem
+## An incredibly ~~intuitive easy~~ hard problem
 
 .highlight1[Problem]: find .highlight2[all] the arrangements of Tetris pieces on the board that .highlight2[optimise an unknown function].
 
@@ -805,14 +750,142 @@ count: false
 
 ---
 
-## How can GFlowNets tackle such problems?
-### The three key GFlowNet ingredients
+count: false
+
+## An incredibly ~~intuitive easy~~ hard problem
+
+.highlight1[Problem]: find .highlight2[all] the arrangements of Tetris pieces on the board that .highlight2[optimise an unknown function].
+
+.left-column-33[
+.center[![:scale 40%](../assets/images/slides/tetris/10x20/board_empty.png)]
+]
+
+.right-column-66[
+.center[![:scale 80%](../assets/images/slides/tetris/10x20/action_space_all_pieces.png)]
+]
+
+.full-width[.conclusion[Materials and drug discovery involve finding candidates with rare properties from combinatorially or infinitely many options.]]
+
+---
+
+## Why Tetris for scientific discovery?
+
+.context35[The "Tetris problem" involves .highlight1[sampling from an unknown distribution] in a .highlight1[discrete, high-dimensional, combinatorially large space].]
+
+---
+
+count: false
+
+## Why Tetris for scientific discovery?
+### Biological sequence design
+
+<br>
+Proteins, antimicrobial peptides (AMP) and DNA can be represented as sequences of amino acids or nucleobases.
+
+.context35[The "Tetris problem" involves sampling from an unknown distribution in a discrete, high-dimensional, combinatorially large space]
+
+.center[![:scale 45%](../assets/images/slides/dna/dna_helix_annotated.png)]
 
 --
 
-The "Tetris problem" involves .highlight1[sampling from an unknown distribution] in a .highlight1[discrete, high-dimensional, combinatorially large space.]
+.left-column-66[
+.dnag[`G`].dnaa[`A`].dnag[`G`].dnag[`G`].dnag[`G`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnag[`G`].dnag[`G`].dnat[`T`].dnaa[`A`].dnac[`C`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`]<br>
+.dnat[`T`].dnac[`C`].dnaa[`A`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnac[`C`].dnag[`G`].dnaa[`A`].dnag[`G`].dnac[`C`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnat[`T`].dnag[`G`].dnat[`T`].dnaa[`A`].dnag[`G`].dnag[`G`].dnac[`C`].dnaa[`A`].dnag[`G`].dnac[`C`].dnag[`G`].dnat[`T`].dnac[`C`].dnac[`C`].dnat[`T`].dnaa[`A`].dnac[`C`].dnac[`C`].dnag[`G`].dnat[`T`].dnat[`T`].dnac[`C`].dnag[`G`]<br>
+.dnac[`C`].dnat[`T`].dnaa[`A`].dnac[`C`].dnag[`G`].dnac[`C`].dnag[`G`].dnat[`T`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnat[`T`].dnat[`T`].dnac[`C`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`]<br>
+.dnat[`T`].dnat[`T`].dnag[`G`].dnac[`C`].dnaa[`A`].dnag[`G`].dnaa[`A`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnag[`G`].dnac[`C`].dnag[`G`].dnac[`C`].dnaa[`A`].dnat[`T`].dnag[`G`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnat[`T`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnat[`T`].dnat[`T`].dnag[`G`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnaa[`A`]<br>
+.dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnag[`G`].dnac[`C`].dnat[`T`].dnat[`T`].dnaa[`A`].dnag[`G`].dnag[`G`].dnag[`G`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnat[`T`].dnag[`G`].dnat[`T`].dnat[`T`].dnac[`C`].dnaa[`A`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnat[`T`].dnag[`G`]<br>
+]
+
+---
+
+## Why Tetris for scientific discovery?
+### Molecular generation
+
+.context35[The "Tetris problem" involves sampling from an unknown distribution in a discrete, high-dimensional, combinatorially large space]
+
+<br>
+Small molecules can also be represented as sequences or by a combination of of higher-level fragments.
 
 --
+
+.columns-3-left[
+.center[
+![:scale 90%](../assets/images/slides/drugs/melatonin.png)
+
+`CC(=O)NCCC1=CNc2c1cc(OC)cc2
+CC(=O)NCCc1c[nH]c2ccc(OC)cc12`
+]]
+
+.columns-3-center[
+.center[
+![:scale 90%](../assets/images/slides/drugs/thiamine.png)
+
+`OCCc1c(C)[n+](cs1)Cc2cnc(C)nc2N`
+]]
+
+.columns-3-right[
+.center[
+![:scale 60%](../assets/images/slides/drugs/nicotine.png)
+
+`CN1CCC[C@H]1c2cccnc2`
+]]
+
+---
+
+## Machine learning for scientific discovery
+### Challenges and limitations of existing methods
+
+--
+
+.highlight1[Challenge]: very large and high-dimensional search spaces.
+
+--
+
+&rarr; Need for .highlight2[efficient search and generalisation] of underlying structure.
+
+--
+
+.highlight1[Challenge]: underspecification of objective functions or metrics.
+
+--
+
+&rarr; Need for .highlight2[diverse] candidates.
+
+--
+
+.highlight1[Limitation]: Reinforcement learning excels at optimisation in complex spaces but tends to lack diversity.
+
+--
+.highlight1[Limitation]: Markov chain Monte Carlo (MCMC) can _sample_ from a distribution (diversity) but struggles at mode mixing in high dimensions.
+
+--
+
+&rarr; Need to .highlight2[combine all of the above]: sampling from complex, high-dimensional distributions.
+
+--
+
+.conclusion[Generative flow networks (GFlowNets) address these challenges.]
+
+---
+
+count: false
+name: title
+class: title, middle
+
+### A gentle introduction to GFlowNets
+
+.center[![:scale 30%](../assets/images/slides/gfn-seq-design/flownet.gif)]
+
+---
+
+## GFlowNets for science
+### 3 key ingredients
+
+.context[Materials and drug discovery involve .highlight1[sampling from unknown distributions] in .highlight1[discrete or mixed, high-dimensional, combinatorially large spaces.]]
+
+--
+
+<br><br>
 
 1. .highlight1[Diversity] as an objective.
 
@@ -824,7 +897,7 @@ The "Tetris problem" involves .highlight1[sampling from an unknown distribution]
 --
     - A meaningful decomposition of samples $x$ into multiple sub-states $s_0\rightarrow s_1 \rightarrow \dots \rightarrow x$ can yield generalisable patterns.
 --
-3. .highlight1[Deep learning] to _amortise_ the generated samples.
+3. .highlight1[Deep learning] to learn from the generated samples.
 
 --
     - A machine learning model can learn the transition function $F(s\rightarrow s')$ and generalise the patterns.
@@ -852,9 +925,46 @@ $$Z = \sum_{x' \in \cal X} R(x')$$
 
 --
 
-&rarr; Sampling proportionally to the reward function enables finding .highlight1[multiple modes], hence .highlight1[diversity].
+.full-width[
+.center[
+![:scale 2.5%](../assets/images/slides/tetris/unique_0.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_1.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_2.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_3.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_4.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_5.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_6.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_7.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_8.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_9.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_10.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_11.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_12.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_13.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_14.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_15.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_16.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_17.png)
 
-.center[![:scale 22%](../assets/images/slides/gflownet/reward_landscape.png)]
+![:scale 2.5%](../assets/images/slides/tetris/unique_18.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_19.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_20.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_21.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_22.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_23.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_24.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_25.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_26.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_27.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_28.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_29.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_30.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_31.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_32.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_33.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_34.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_35.png)
+]]
 
 ---
 
@@ -870,65 +980,16 @@ Given a reward or objective function $R(x)$, GFlowNet can be seen a generative m
 .left-column[
 $$\pi(x) = \frac{R(x)}{Z} \propto R(x)$$
 ]
+
 .right-column[
 $$Z = \sum_{x' \in \cal X} R(x')$$
 ]
 
-.left-column-66[.center[
-![:scale 4.5%](../assets/images/slides/tetris/unique_0.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_1.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_2.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_3.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_4.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_5.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_6.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_7.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_8.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_9.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_10.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_11.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_12.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_13.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_14.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_15.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_16.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_17.png)
+.full-width[
+&rarr; Sampling proportionally to the reward function enables finding .highlight1[multiple modes], hence .highlight1[diversity].
 
-![:scale 4.5%](../assets/images/slides/tetris/unique_18.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_19.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_20.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_21.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_22.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_23.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_24.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_25.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_26.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_27.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_28.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_29.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_30.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_31.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_32.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_33.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_34.png)
-![:scale 4.5%](../assets/images/slides/tetris/unique_35.png)
-]]
-
---
-
-.left-column-33[.center[
-.smaller[
-$$Z = 4 \times 5 + 8 \times 25 + 12 \times 5 = 280$$
-
-.smaller[
-$R(x) = 4 \implies \pi(x) = \frac{4}{280} = 0.014$
-
-$R(x) = 8 \implies \pi(x) = \frac{8}{280} = 0.029$
-
-$R(x) = 12 \implies \pi(x) = \frac{12}{280} = 0.043$
+.center[![:scale 22%](../assets/images/slides/gflownet/reward_landscape.png)]
 ]
-]
-]]
 
 ---
 
@@ -1289,193 +1350,79 @@ For the Tetris problem, a meaningful decomposition of the samples is .highlight1
 count: false
 
 ## 2. Compositionality
-### Formal definitions
+### Sample generation process
 
-.context35[GFlowNets decompose the generation of samples into multiple steps.]
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
 
---
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
 
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_24.png)]]
+
+.right-column[
 Objects $x \in \cal X$ are constructed through a sequence of steps $\tau$ from an .highlight1[action space $\cal A$].
+]
 
 --
 
+.right-column[
 At each step of the .highlight1[trajectory $\tau=(s_0\rightarrow s_1 \rightarrow \dots \rightarrow s_f)$], we get a partially constructed object $s$ in .highlight1[state space $\cal S$].
+]
 
 --
 
-This induces a .highlight1[directed acyclic graph (DAG) $\mathcal{G}=(\mathcal{S},\mathcal{A})$], with all possible constructions in the domain.
-
---
-
-<br>
-.center[![:scale 45%](../assets/images/slides/gflownet/gflownet_schematic.png)]
+.right-column[
+.conclusion[These ideas and terminology is reminiscent of reinforcement learning (RL).]
+]
 
 ---
 
 ## 3. Deep learning policy
-### .orange[Make Tetris flows figure]
 
-.context35[GFlowNet learns a sampling policy $\pi(x)$ proportional to the reward $R(x)$.]
+.context35[GFlowNets learn a sampling policy $\pi\_{\theta}(x)$ proportional to the reward $R(x)$.]
 
 --
-
-Deep neural networks are trained to learn the transitions (flows) policy.
-
-.right-column[
-.center[![:scale 60%](../assets/images/slides/gfn-seq-design/flownet.gif)]
-]
 
 .left-column[
-- .highlight1[State Flow $F(s)$]: flow of all trajectories passing through the state $s$.
-- .highlight1[Edge Flow $F(s\rightarrow s')$]: flow through a particular edge $s\rightarrow s'$.
-- .highlight1[Trajectory Flow $F(\tau)$]: probability mass assigned to trajectory $\tau$.
-- .highlight1[Forward Policy $P_F$]: $P\_F(s'|s) = \frac{F(s\rightarrow s')}{F(s)}$
-- .highlight1[Backward Policy $P_B$]: $P\_B(s|s') = \frac{F(s\rightarrow s')}{F(s')}$
-]
-
-
-.references[
-Bengio et al. [Flow network based generative models for non-iterative diverse candidate generation](https://arxiv.org/abs/2106.04399), NeurIPS, 2021. 
-]
-
----
-
-## Principle of conservation as a training objective
-
-.right-column-33[.center[![:scale 100%](../assets/images/slides/gfn-seq-design/flownet.gif)]]
-
-.left-column-66[
-**Consistent Flow**:  Flow $F$ satisfies the _flow consistency equation_
-$$\sum\_{s' \in \text{Parents}(s)} F\_\theta(s' \rightarrow s) = \sum\_{s'' \in \text{Children}(s)} F\_\theta(s \rightarrow s'')$$
-]
-
-.references[
-Bengio et al. [Flow network based generative models for non-iterative diverse candidate generation](https://arxiv.org/abs/2106.04399), NeurIPS, 2021. 
-]
-
---
-.left-column-66[
-**Theorem**: For a consistent flow $F$ with terminal flow set as the reward $F(x\rightarrow s_f)=R(x)$, the forward policy samples $x$ proportionally to $R(x)$:
-
-$$\pi(x) = \frac{R(x)}{Z}\propto R(x)$$
+.center[![:scale 90%](../assets/images/slides/tetris/flows.png)]
 ]
 
 ---
 
 count: false
 
-## Principle of conservation as a training objective
+## 3. Deep learning policy
 
-<p>
-$$\sum\_{s' \in \text{Parent}(s)} F\_\theta(s' \rightarrow s) = \sum\_{s'' \in \text{Child}(s)} F\_\theta(s \rightarrow s'')$$
-</p>
-* **Flow Matching Objective**: $$\mathcal{L}\_{FM}(s; \theta) = \left(\log \frac{\sum\_{s'\in \text{Parent}(s)} F\_\theta(s'{\rightarrow} s)}{\sum\_{s'' \in \text{Child}(s)}F\_\theta(s{\rightarrow} s'')}\right)^2$$
+.context35[GFlowNets learn a sampling policy $\pi\_{\theta}(x)$ proportional to the reward $R(x)$.]
 
---
-* **Trajectory Balance** (better credit assignment): $$\mathcal{L}\_{TB} (\tau;\theta) = \left(\log \frac{Z\_\theta \prod\_{s{\rightarrow} s' \in \tau}P\_{F\_\theta}(s'|s)}{R(x)\prod\_{s\rightarrow s' \in \tau} P\_{B\_\theta}(s|s') }\right)^2$$
-
-.references[
-Malkin et al. [Trajectory balance: Improved credit assignment in GFlowNets](https://arxiv.org/abs/2201.13259), NeurIPS, 2022. 
+.left-column[
+.center[![:scale 90%](../assets/images/slides/tetris/flows_math.png)]
 ]
 
----
-
-## Results
-### Tetris GFlowNets
-
-.context[At convergence, the sampling policy $\pi_{\theta}(x)$ should be proportional to the reward $R(x)$.]
+.right-column[
+<br>
+Deep neural networks are trained to learn the transitions (flows) policy: $F\_{\theta}(s\_t\rightarrow s\_{t+1})$.
+]
 
 --
 
-In order to increase the probability of sampling the five modes of the reward, I use the reward function $R(X) = \varepsilon(x)^4$, where $\varepsilon(x)$ is the Tetris score function that counts the number of occupied cells.
+.right-column[
+Consistent flow theorem (informal): if the sum of the flows into state $s$ is equal to the sum of the flows out, then $\pi(x) \propto R(x)$.
+]
 
-.center[
-<div style="display: flex">
-  <div style="flex: 20%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/mode1.png" alt="Score 0" style="width: 30%">
-  </figure>
-  </div>
-  <div style="flex: 20%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/mode2.png" alt="Score 4" style="width: 30%">
-  </figure>
-  </div>
-  <div style="flex: 20%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/mode3.png" alt="Score 8" style="width: 30%">
-  </figure>
-  </div>
-  <div style="flex: 20%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/mode4.png" alt="Score 12" style="width: 30%">
-  </figure>
-  </div>
-  <div style="flex: 20%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/mode5.png" alt="Score 12" style="width: 30%">
-  </figure>
-  </div>
-</div>
+--
+
+.right-column[
+.conclusion[GFlowNets can be trained with deep learning methods to learn a sampling policy $\pi\_{\theta}$ proportional to a reward $R(x)$.]
 ]
 
 ---
 
-count: false
-
-## Results
-### Tetris GFlowNets
-
-.context[At convergence, the sampling policy $\pi_{\theta}(x)$ should be proportional to the reward $R(x)$.]
-
-In order to increase the probability of sampling the five modes of the reward, I use the reward function $R(X) = \varepsilon(x)^4$, where $\varepsilon(x)$ is the Tetris score function that counts the number of occupied cells.
-
-.center[
-<div style="display: flex">
-  <div style="flex: 20%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/mode1.png" alt="Score 0" style="width: 30%">
-    <figcaption>$\pi(x) = 8.12~\%$</figcaption>
-  </figure>
-  </div>
-  <div style="flex: 20%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/mode2.png" alt="Score 4" style="width: 30%">
-    <figcaption>$\pi(x) = 8.96~\%$</figcaption>
-  </figure>
-  </div>
-  <div style="flex: 20%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/mode3.png" alt="Score 8" style="width: 30%">
-    <figcaption>$\pi(x) = 8.61~\%$</figcaption>
-  </figure>
-  </div>
-  <div style="flex: 20%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/mode4.png" alt="Score 12" style="width: 30%">
-    <figcaption>$\pi(x) = 9.16~\%$</figcaption>
-  </figure>
-  </div>
-  <div style="flex: 20%;">
-  <figure>
-      <img src="../assets/images/slides/tetris/mode5.png" alt="Score 12" style="width: 30%">
-    <figcaption>$\pi(x) = 8.39~\%$</figcaption>
-  </figure>
-  </div>
-</div>
-]
-
-.conclusion[After training, the learnt policy approximates the reward function and the GFlowNet samples multiple (diverse) modes with high probability.]
-
----
-
-## Results
+## GFlowNets
 ### Systematic generalisation
 
 .context[We have hypothesised that thanks to compositionality and deep learning, GFlowNets may generalise seen patterns to unseen regions of the sample space.]
 
-The potential of GFlowNets for systematic generalisation has not been systematically explored yet.
-
+<br>
 .center[![:scale 35%](../assets/images/slides/gflownet/mode_generalization.png)]
 
 ---
@@ -1505,110 +1452,46 @@ GFN samples post-training
 ]
 ]
 
----
-
-## Why Tetris for scientific discovery?
-
-.context35[The "Tetris problem" involves .highlight1[sampling from an unknown distribution] in a .highlight1[discrete, high-dimensional, combinatorially large space].]
-
----
-
-count: false
-
-## Why GFNs for scientific discovery?
-
-.context35[The "Tetris problem" involves .highlight1[sampling from an unknown distribution] in a .highlight1[discrete, high-dimensional, combinatorially large space].]
-
----
-
-count: false
-
-## Why GFNs for scientific discovery?
-### Biological sequence design
-
-.smaller[Proteins, antimicrobial peptides (AMP) and DNA can be represented as sequences of amino acids or nucleobases.]
-
-.context35[The "Tetris problem" involves sampling from an unknown distribution in a discrete, high-dimensional, combinatorially large space]
-
-.center[![:scale 45%](../assets/images/slides/dna/dna_helix_annotated.png)]
-
 .references[
-* Jain et al. [Biological Sequence Design with GFlowNets](https://arxiv.org/abs/2203.04115), ICML, 2022. 
-* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). RealML, NeurIPS 2023.
-]
-
---
-
-.left-column-66[
-.dnag[`G`].dnaa[`A`].dnag[`G`].dnag[`G`].dnag[`G`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnag[`G`].dnag[`G`].dnat[`T`].dnaa[`A`].dnac[`C`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`]<br>
-.dnat[`T`].dnac[`C`].dnaa[`A`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnac[`C`].dnag[`G`].dnaa[`A`].dnag[`G`].dnac[`C`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnat[`T`].dnag[`G`].dnat[`T`].dnaa[`A`].dnag[`G`].dnag[`G`].dnac[`C`].dnaa[`A`].dnag[`G`].dnac[`C`].dnag[`G`].dnat[`T`].dnac[`C`].dnac[`C`].dnat[`T`].dnaa[`A`].dnac[`C`].dnac[`C`].dnag[`G`].dnat[`T`].dnat[`T`].dnac[`C`].dnag[`G`]<br>
-.dnac[`C`].dnat[`T`].dnaa[`A`].dnac[`C`].dnag[`G`].dnac[`C`].dnag[`G`].dnat[`T`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnat[`T`].dnat[`T`].dnac[`C`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`]<br>
-.dnat[`T`].dnat[`T`].dnag[`G`].dnac[`C`].dnaa[`A`].dnag[`G`].dnaa[`A`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnag[`G`].dnac[`C`].dnag[`G`].dnac[`C`].dnaa[`A`].dnat[`T`].dnag[`G`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnat[`T`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnat[`T`].dnat[`T`].dnag[`G`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnaa[`A`]<br>
-.dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnag[`G`].dnac[`C`].dnat[`T`].dnat[`T`].dnaa[`A`].dnag[`G`].dnag[`G`].dnag[`G`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnat[`T`].dnag[`G`].dnat[`T`].dnat[`T`].dnac[`C`].dnaa[`A`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnat[`T`].dnag[`G`]<br>
-]
-
---
-
-.right-column-33[
-.conclusion[Biological sequences can be generated by GFlowNet by adding one or multiple bases at a time.]
+Manuscript in preparation.
 ]
 
 ---
 
-## Why GFNs for scientific discovery?
-### Molecular generation
-
-.smaller[Small molecules can be represented by the combination of fragments.]
-
-.context35[The "Tetris problem" involves sampling from an unknown distribution in a discrete, high-dimensional, combinatorially large space]
-
-.center[![:scale 60%](../assets/images/slides/drugs/gfn_molecules.png)]
-
-.references[
-* Jain et al. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/abs/2302.00615). Digital Discovery, Royal Society of Chemistry, 2023.
-* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). RealML, NeurIPS 2023.
-]
-
----
-
-##  GFlowNet extensions
+##  Contributions to GFlowNets extensions and applications
 ### Multi-objective GFlowNets
 
-We have extended GFlowNets to handle multi-objective optimisation and not only cover the Pareto front but also sample diverse objects at each point in the Pareto front.
+Extension of GFlowNets to handle multi-objective optimisation and not only cover the Pareto front but also sample diverse objects at each point in the Pareto front.
 
-.center[
-![:scale 30%](../assets/images/slides/gflownet/mogfn_pareto_front.png)
-![:scale 30%](../assets/images/slides/gflownet/mogfn_al.png)]
+.center[![:scale 30%](../assets/images/slides/gflownet/mogfn_pareto_front.png)]
 
 .references[
-Jain et al. [Multi-Objective GFlowNets](https://arxiv.org/abs/2210.12765), ICML, 2023. 
+Jain et al. [Multi-Objective GFlowNets](https://arxiv.org/abs/2210.12765), ICML, 2023. .highlight2[(co-authored)]
 ]
 
 ---
 
-##  GFlowNet extensions
+##  Contributions to GFlowNets extensions and applications
 ### Continuous GFlowNets
 
-We have generalised the theory and implementation of GFlowNets to encompass both discrete and continuous or hybrid state spaces. 
+Generalisation of the theory and implementation of GFlowNets to encompass both discrete and continuous or hybrid state spaces. 
 
 .center[![:scale 40%](../assets/images/slides/gflownet/cube2d/allvalid.gif)]
 
 .references[
-Lahlou et al. [A Theory of Continuous Generative Flow Networks](https://arxiv.org/abs/2301.12594), ICML, 2023. 
+Lahlou et al. [A Theory of Continuous Generative Flow Networks](https://arxiv.org/abs/2301.12594), ICML, 2023. .highlight2[(co-authored)]
 ]
 
 ---
 
-##  GFlowNet applications
+##  Contributions to GFlowNets extensions and applications
 ### Molecular conformation generation
 
-We have proposed a continuous GFlowNets algorithm for sampling conformations of small molecules from the Boltzmann distribution, as determined by the molecule’s energy.
+A continuous GFlowNets algorithm for sampling conformations of small molecules from the Boltzmann distribution, as determined by the molecule’s energy.
 
 .references[
-Volokhova, Koziarski et al. [Towards equilibrium molecular conformation generation with GFlowNets](https://arxiv.org/abs/2310.14782), Digital Discovery, 2024. 
+Volokhova, Koziarski et al. [Towards equilibrium molecular conformation generation with GFlowNets](https://arxiv.org/abs/2310.14782), Digital Discovery, 2024. .highlight2[(co-authored)]
 ]
-
---
 
 .center[![:scale 100%](../assets/images/slides/conformers/schematic.png)]
 
@@ -1616,13 +1499,13 @@ Volokhova, Koziarski et al. [Towards equilibrium molecular conformation generati
 
 count: false
 
-##  GFlowNet applications
+##  Contributions to GFlowNets extensions and applications
 ### Molecular conformation generation
 
 We have proposed a continuous GFlowNets algorithm for sampling conformations of small molecules from the Boltzmann distribution, as determined by the molecule’s energy.
 
 .references[
-Volokhova, Koziarski et al. [Towards equilibrium molecular conformation generation with GFlowNets](https://arxiv.org/abs/2310.14782), Digital Discovery, 2024. 
+Volokhova, Koziarski et al. [Towards equilibrium molecular conformation generation with GFlowNets](https://arxiv.org/abs/2310.14782), Digital Discovery, 2024. .highlight2[(co-authored)]
 ]
 
 .left-column[.center[
@@ -1643,7 +1526,30 @@ Volokhova, Koziarski et al. [Towards equilibrium molecular conformation generati
 
 ---
 
-##  GFlowNet Python package
+##  Contributions to GFlowNets extensions and applications
+### Biological sequence design
+
+An active learning algorithm with GFlowNets as a sampler of biological sequence design (DNA, antimicrobial peptides, proteins) with desirable properties.
+
+.center[![:scale 45%](../assets/images/slides/dna/dna_helix_annotated.png)]
+
+.left-column-66[
+.dnag[`G`].dnaa[`A`].dnag[`G`].dnag[`G`].dnag[`G`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnag[`G`].dnag[`G`].dnat[`T`].dnaa[`A`].dnac[`C`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`]<br>
+.dnat[`T`].dnac[`C`].dnaa[`A`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnac[`C`].dnag[`G`].dnaa[`A`].dnag[`G`].dnac[`C`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnat[`T`].dnag[`G`].dnat[`T`].dnaa[`A`].dnag[`G`].dnag[`G`].dnac[`C`].dnaa[`A`].dnag[`G`].dnac[`C`].dnag[`G`].dnat[`T`].dnac[`C`].dnac[`C`].dnat[`T`].dnaa[`A`].dnac[`C`].dnac[`C`].dnag[`G`].dnat[`T`].dnat[`T`].dnac[`C`].dnag[`G`]<br>
+.dnac[`C`].dnat[`T`].dnaa[`A`].dnac[`C`].dnag[`G`].dnac[`C`].dnag[`G`].dnat[`T`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnat[`T`].dnat[`T`].dnac[`C`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`]<br>
+.dnat[`T`].dnat[`T`].dnag[`G`].dnac[`C`].dnaa[`A`].dnag[`G`].dnaa[`A`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnag[`G`].dnac[`C`].dnag[`G`].dnac[`C`].dnaa[`A`].dnat[`T`].dnag[`G`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnat[`T`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnat[`T`].dnat[`T`].dnag[`G`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnaa[`A`]<br>
+.dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnag[`G`].dnac[`C`].dnat[`T`].dnat[`T`].dnaa[`A`].dnag[`G`].dnag[`G`].dnag[`G`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnat[`T`].dnag[`G`].dnat[`T`].dnat[`T`].dnac[`C`].dnaa[`A`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnat[`T`].dnag[`G`]<br>
+]
+
+.references[
+Jain et al. [Biological Sequence Design with GFlowNets](https://arxiv.org/abs/2203.04115), ICML, 2022. .highlight2[(co-authored)]
+]
+
+---
+
+## GFlowNet Python package
+
+I have led the development of an open sourced GFlowNet package, together with Mila collaborators: Nikita Saxena, Alexandra Volokhova, Michał Koziarski, Divya Sharma, Pierre Luc Carrier Victor Schmidt, Joseph Viviano.
 
 .highlight2[Open source GFlowNet implementation]: [github.com/alexhernandezgarcia/gflownet](https://github.com/alexhernandezgarcia/gflownet)
 
@@ -1651,15 +1557,22 @@ Volokhova, Koziarski et al. [Towards equilibrium molecular conformation generati
 
 * A key design principle is the simplicity to create new environments.
 * Current environments: Tetris, hyper-grid, hyper-cube, hyper-torus, scrabble, crystals, molecules, DNA...
-* Discrete and continuous environments
-* Easy to extend flexibly
-* Results visualisation on WandDB
+* Discrete and continuous environments, multiple loss functions, etc.
+* Visualisation of results on WandDB
 
---
+---
 
-<br>
+count: false
+
+## GFlowNet Python package
+
+I have led the development of an open sourced GFlowNet package, together with Mila collaborators: Nikita Saxena, Alexandra Volokhova, Michał Koziarski, Divya Sharma, Pierre Luc Carrier Victor Schmidt, Joseph Viviano.
+
+.highlight2[Open source GFlowNet implementation]: [github.com/alexhernandezgarcia/gflownet](https://github.com/alexhernandezgarcia/gflownet)
+
 Research articles supported by this GFlowNet package:
-.references[
+
+.smaller[
 * Lahlou et al. [A Theory of Continuous Generative Flow Networks](https://arxiv.org/abs/2301.12594), ICML, 2023. 
 * Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). RealML, NeurIPS 2023.
 * Mila AI4Science et al. [Crystal-GFN: sampling crystals with desirable properties and constraints](https://arxiv.org/abs/2310.04925). AI4Mat, NeurIPS 2023 (spotlight).
@@ -2016,26 +1929,6 @@ We have tested the following properties:
 
 ---
 
-## Crystal-GFlowNet
-### Proxy ML models of the formation energy and the band gap
-
-- MLP architecture
-
---
-- Inputs:
-    - Space group embedding
-    - Composition embedding as in PhAST (Duval et al., 2022)
-    - Standardised lattice parameters
---
-- Trained on MatBench (Materials Project)
-    - Mean absolute error: 
-        - Formation energy: 0.10 eV/atom $\pm$ 0.005
-        - Band gap: 0.321 eV $\pm$ 0.003
---
-- Reward: $R(x) = \exp(-\frac{MLP(x)}{T})$
-
----
-
 ## Results
 ### Formation energy
 
@@ -2139,25 +2032,6 @@ count: false
 .context[.highlight1[After training, Crystal-GFN samples structures with band gap [eV] around the target value.]]
 
 .center[![:scale 70%](../assets/images/slides/crystals/bg_distr_4.png)]
-
----
-
-## Results
-### Restricted sampling
-
-We restrict the sampling space at sampling time:
-
-- A: The composition is restricted to only elements Fe and O, with a maximum of 10 atoms per element.
-- B: We sample in the ternary space for Li-Mn-O, keeping the element count to maximum 16 atoms.
-- C: We restrict the space groups to only cubic lattices.
-- D: We restrict the range of the lattice parameters to lengths between 10 and 20 angstroms and angles between 75 and 135 degrees.
-
----
-
-## Results
-### Restricted sampling
-
-.center[![:scale 70%](../assets/images/slides/crystals/distributions_restricted_sampling.png)]
 
 ---
 
