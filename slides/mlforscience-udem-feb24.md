@@ -209,7 +209,7 @@ count: false
 
 --
 
-.conclusion[Tackling climate change has a direct positive impact on global health. There is a strong synergy between machine learning research for science and health.]
+.conclusion[Tackling climate change has a direct positive impact on global health. There is a strong synergy between machine learning research for climate and health.]
 
 ---
 
