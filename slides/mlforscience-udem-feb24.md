@@ -216,7 +216,7 @@ count: false
 ### Overview of my recent work
 
 .columns-3-left[.center[.milapaleblue[.smaller[Materials discovery for sustainability]]]]
-.columns-3-center[.center[.milapalered[.smaller[Drugs discovery / Health]]]]
+.columns-3-center[.center[.milapalered[.smaller[Drug discovery / Health]]]]
 .columns-3-right[.center[.milapalegreen[.smaller[Climate]]]]
 
 .smaller70[
