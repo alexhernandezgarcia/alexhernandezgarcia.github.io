@@ -197,15 +197,19 @@ class: title, middle
 
 ## Why climate _and_ health?
 
-.orange[Figure with a schematic of the relationship between climate change, health and ML research]
+.center[![:scale 60%](../assets/images/slides/climatechange/climate_health.png)]
 
-- Tackling climate change _is_ tackling a wide range of health challenges.
-- Machine learning can have a wide range of positive impacts in tackling climate and health challenges. .cite[(Rolnick et al, 2022)]
-- Advancing scientific discoveries with machine learning has great potential for both health and climate.
+---
 
-.references[
-Rolnick et al. [Tackling Climate Change with Machine Learning](https://dl.acm.org/doi/10.1145/3485128), ACM Comput. Surv., 2022.
-]
+count: false
+
+## Why climate _and_ health?
+
+.center[![:scale 60%](../assets/images/slides/climatechange/climate_health_ai.png)]
+
+--
+
+.conclusion[Tackling climate change has a direct positive impact on global health. There is a strong synergy between machine learning research for science and health.]
 
 ---
 
@@ -307,6 +311,8 @@ count: false
 
 ## Outline
 
+--
+
 - Machine learning for scientific discoveries to tackle climate and health challenges
 
 --
@@ -316,7 +322,7 @@ count: false
 - Crystal-GFN: materials discovery
 
 --
-- Multi-fidelity active learning
+- Multi-fidelity active learning: drug and materials discovery
 
 --
 - Challenges and perspectives
@@ -780,7 +786,7 @@ count: false
 ### Biological sequence design
 
 <br>
-Proteins, antimicrobial peptides (AMP) and DNA can be represented as sequences of amino acids or nucleobases.
+Proteins, antimicrobial peptides (AMP) and DNA can be represented as sequences of amino acids or nucleobases. There are $22^{100} \approx 10^{134}$ protein sequences with 100 amino acids.
 
 .context35[The "Tetris problem" involves sampling from an unknown distribution in a discrete, high-dimensional, combinatorially large space]
 
@@ -804,7 +810,7 @@ Proteins, antimicrobial peptides (AMP) and DNA can be represented as sequences o
 .context35[The "Tetris problem" involves sampling from an unknown distribution in a discrete, high-dimensional, combinatorially large space]
 
 <br>
-Small molecules can also be represented as sequences or by a combination of of higher-level fragments.
+Small molecules can also be represented as sequences or by a combination of of higher-level fragments. There may be about $10^{60}$ drug-like molecules.
 
 --
 
@@ -1409,6 +1415,11 @@ Deep neural networks are trained to learn the transitions (flows) policy: $F\_{\
 Consistent flow theorem (informal): if the sum of the flows into state $s$ is equal to the sum of the flows out, then $\pi(x) \propto R(x)$.
 ]
 
+.references[
+Bengio et al. [Flow network based generative models for non-iterative diverse candidate generation](https://arxiv.org/abs/2106.04399), NeurIPS, 2021. (_not_ co-authored)
+]
+
+
 --
 
 .right-column[
@@ -1434,7 +1445,7 @@ count: false
 
 .context[We have hypothesised that thanks to compositionality and deep learning, GFlowNets may generalise seen patterns to unseen regions of the sample space.]
 
-I trained a Tetris GFlowNet by excluding samples with pieces in the upper half from the training batches.
+A Tetris GFlowNet is trained by excluding samples with pieces in the upper half from the training batches.
 
 .left-column[
 .center[![:scale 75%](../assets/images/slides/tetris/4x8_notophalf_bottomhalf.png)
@@ -1562,7 +1573,7 @@ Jain et al. [GFlowNets for AI-Driven Scientific Discovery](https://pubs.rsc.org/
 
 ## GFlowNet Python package
 
-I have led the development of an open sourced GFlowNet package, together with Mila collaborators: Nikita Saxena, Alexandra Volokhova, Michał Koziarski, Divya Sharma, Pierre Luc Carrier Victor Schmidt, Joseph Viviano.
+I have led the development of an open sourced GFlowNet package, together with Mila collaborators: Nikita Saxena, Alexandra Volokhova, Michał Koziarski, Divya Sharma, Pierre Luc Carrier, Victor Schmidt, Joseph Viviano.
 
 .highlight2[Open source GFlowNet implementation]: [github.com/alexhernandezgarcia/gflownet](https://github.com/alexhernandezgarcia/gflownet)
 
@@ -1599,9 +1610,14 @@ count: false
 name: title
 class: title, middle
 
-### Crystal-GFN: GFlowNets for materials discovery
+## Crystal-GFN: GFlowNets for materials discovery
+
+Mila AI4Science: Alex Hernandez-Garcia, Alexandre Duval, Alexandra Volokhova, Yoshua Bengio, Divya Sharma, Pierre Luc Carrier, Yasmine Benabed, Michał Koziarski, Victor Schmidt, Pierre-Paul De Breuck
+
+.smaller70[Mila AI4Science et al. [Crystal-GFN: sampling crystals with desirable properties and constraints](https://arxiv.org/abs/2310.04925). AI4Mat, NeurIPS 2023 (spotlight) / under review.]
 
 .center[![:scale 20%](../assets/images/slides/materials/lithium_oxide_crystal.png)]
+
 
 ---
 
@@ -2107,7 +2123,11 @@ Analysis of 10,000 sampled crystals and the top-100 with lowest formation energy
 name: title
 class: title, middle
 
-### Multi-fidelity active learning
+## Multi-fidelity active learning
+
+Nikita Saxena, Moksh Jain, Cheng-Hao Liu, Yoshua Bengio
+
+.smaller[[Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). RealML, NeurIPS 2023 / under review.]
 
 .center[![:scale 30%](../assets/images/slides/mfal/multiple_oracles.png)]
 
@@ -2133,27 +2153,23 @@ count: false
 
 ---
 
+count: false
+
 ## Why multi-fidelity?
 
 .context[In many scientific applications we have access to multiple approximations of the objective function.]
 
 .left-column[
-For example, in material discovery:
-
-* Synthesis of a material and characterisation of a property in the lab
-* Density Functional Theory (DFT)
-* An ensemble of large graph neural networks trained on DFT data
-* An efficient, smaller neural network
+.center[![:scale 90%](../assets/images/slides/scientific-discovery/loop_4_mf.png)]
 ]
 
---
+.right-column[
+For example, in .highlight1[material discovery]:
 
-.right-column[.center[
-  <figure>
-    <img src="../assets/images/slides/mfal/jacobsladder.png" alt="Jacob's ladder" style="width: 90%">
-    <figcaption>Jacob's ladder of density functional approximations</figcaption>
-  </figure>
-]]
+* .highlight1[Synthesis] of a material and characterisation of a property in the lab
+* Quantum mechanic .highlight1[simulations] to estimate the property
+* .highlight1[Machine learning] models trained to predict the property
+]
 
 --
 
@@ -2356,19 +2372,111 @@ GFlowNet is trained with the acquisition function as reward: $R(x) = g(\alpha(x,
 --
 
 <br>
+* .highlight1[SF-GFN]: GFlowNet with highest fidelity oracle to establish a benchmark for performance without considering the cost-accuracy trade-offs.
+
+--
 * .highlight1[Random]: Quasi-random approach where the candidates and fidelities are picked randomly and the top $(x, m)$ pairs scored by the acquisition function are queried.
 
 --
 * .highlight1[Random fid. GFN]: GFlowNet with random fidelities, to investigate the benefit of deciding the fidelity with GFlowNets.
 
 --
-* .highlight1[SF-GFN]: GFlowNet with highest fidelity oracle to establish a benchmark for performance without considering the cost-accuracy trade-offs.
-
---
 * .highlight1[MF-PPO]: Replacement of MF-GFN with a reinforcement learning algorithm to _optimise_ the acquisition function.
 
 ---
 
+## Small molecules
+
+- Realistic experiments with experimental oracles and costs that reflect the computational demands (1, 3, 7).
+- GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
+- Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
+
+--
+
+.center[![:scale 50%](../assets/images/slides/mfal/molecules_ea_1.png)]
+
+---
+
+## Small molecules
+
+- Realistic experiments with experimental oracles and costs that reflect the computational demands (1, 3, 7).
+- GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
+- Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
+
+.center[![:scale 50%](../assets/images/slides/mfal/molecules_ea_2.png)]
+
+---
+
+count: false
+
+## Small molecules
+
+- Realistic experiments with experimental oracles and costs that reflect the computational demands (1, 3, 7).
+- GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
+- Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
+
+.center[![:scale 50%](../assets/images/slides/mfal/molecules_ea_3.png)]
+
+---
+
+count: false
+
+## Small molecules
+
+- Realistic experiments with experimental oracles and costs that reflect the computational demands (1, 3, 7).
+- GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
+- Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
+
+.center[![:scale 50%](../assets/images/slides/mfal/molecules_ea_4.png)]
+
+---
+
+count: false
+
+## Small molecules
+
+- Realistic experiments with experimental oracles and costs that reflect the computational demands (1, 3, 7).
+- GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
+- Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
+
+.center[![:scale 50%](../assets/images/slides/mfal/molecules_ea_5.png)]
+
+---
+
+count: false
+
+## Small molecules
+
+- Realistic experiments with experimental oracles and costs that reflect the computational demands (1, 3, 7).
+- GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
+- Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
+
+.center[![:scale 50%](../assets/images/slides/mfal/molecules_ea_6.png)]
+
+---
+
+count: false
+
+## Small molecules
+
+- Realistic experiments with experimental oracles and costs that reflect the computational demands (1, 3, 7).
+- GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
+- Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
+
+.center[![:scale 50%](../assets/images/slides/mfal/molecules_ea_7.png)]
+
+---
+
+## Small molecules
+
+- Realistic experiments with experimental oracles and costs that reflect the computational demands (1, 3, 7).
+- GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
+- Property: Adiabatic .highlight1[ionisation potential (IP)]. Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
+
+.center[![:scale 50%](../assets/images/slides/mfal/molecules_ip.png)]
+
+---
+
 ## DNA aptamers
 
 - GFlowNet adds one nucleobase (`A`, `T`, `C`, `G`) at a time up to length 30. This yields a design space of size $|\mathcal{X}| = 4^{30}$. 
@@ -2377,93 +2485,7 @@ GFlowNet is trained with the acquisition function as reward: $R(x) = g(\alpha(x,
 
 --
 
-.center[![:scale 50%](../assets/images/slides/mfal/dna_0.png)]
-
----
-
-count: false
-
-## DNA aptamers
-
-- GFlowNet adds one nucleobase (`A`, `T`, `C`, `G`) at a time up to length 30. This yields a design space of size $|\mathcal{X}| = 4^{30}$. 
-- The objective function is the free energy estimated by a bioinformatics tool. 
-- The (simulated) lower fidelity oracle is a transformer trained with 1 million sequences.
-
-.center[![:scale 50%](../assets/images/slides/mfal/dna_1.png)]
-
----
-
-count: false
-
-## DNA aptamers
-
-- GFlowNet adds one nucleobase (`A`, `T`, `C`, `G`) at a time up to length 30. This yields a design space of size $|\mathcal{X}| = 4^{30}$. 
-- The objective function is the free energy estimated by a bioinformatics tool. 
-- The (simulated) lower fidelity oracle is a transformer trained with 1 million sequences.
-
-.center[![:scale 50%](../assets/images/slides/mfal/dna_2.png)]
-
----
-
-count: false
-
-## DNA aptamers
-
-- GFlowNet adds one nucleobase (`A`, `T`, `C`, `G`) at a time up to length 30. This yields a design space of size $|\mathcal{X}| = 4^{30}$. 
-- The objective function is the free energy estimated by a bioinformatics tool. 
-- The (simulated) lower fidelity oracle is a transformer trained with 1 million sequences.
-
-.center[![:scale 50%](../assets/images/slides/mfal/dna_3.png)]
-
----
-
-count: false
-
-## DNA aptamers
-
-- GFlowNet adds one nucleobase (`A`, `T`, `C`, `G`) at a time up to length 30. This yields a design space of size $|\mathcal{X}| = 4^{30}$. 
-- The objective function is the free energy estimated by a bioinformatics tool. 
-- The (simulated) lower fidelity oracle is a transformer trained with 1 million sequences.
-
-.center[![:scale 50%](../assets/images/slides/mfal/dna_4.png)]
-
----
-
-count: false
-
-## DNA aptamers
-
-- GFlowNet adds one nucleobase (`A`, `T`, `C`, `G`) at a time up to length 30. This yields a design space of size $|\mathcal{X}| = 4^{30}$. 
-- The objective function is the free energy estimated by a bioinformatics tool. 
-- The (simulated) lower fidelity oracle is a transformer trained with 1 million sequences.
-
-.center[![:scale 50%](../assets/images/slides/mfal/dna_5.png)]
-
----
-
-count: false
-
-## DNA aptamers
-
-- GFlowNet adds one nucleobase (`A`, `T`, `C`, `G`) at a time up to length 30. This yields a design space of size $|\mathcal{X}| = 4^{30}$. 
-- The objective function is the free energy estimated by a bioinformatics tool. 
-- The (simulated) lower fidelity oracle is a transformer trained with 1 million sequences.
-
 .center[![:scale 50%](../assets/images/slides/mfal/dna_6.png)]
-
----
-
-count: false
-
-## DNA aptamers
-
-
-- GFlowNet adds one nucleobase (`A`, `T`, `C`, `G`) at a time up to length 30. This yields a design space of size $|\mathcal{X}| = 4^{30}$. 
-- The objective function is the free energy estimated by a bioinformatics tool. 
-- The (simulated) lower fidelity oracle is a transformer trained with 1 million sequences.
-
-<br><br><br>
-.conclusion[Our multi-fidelity algorithm discovers sequences with high scores with a fraction of the budget than the single-fidelity counterpart. High-scoring sequences are highly diverse, unlike those from the RL baseline.]
 
 ---
 
@@ -2477,32 +2499,6 @@ count: false
 --
 
 .center[![:scale 60%](../assets/images/slides/mfal/amp.png)]
-
----
-
-## Small molecules
-
-- Realistic experiments with experimental oracles and costs that reflect the computational demands (1, 3, 7).
-- GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
-- Two properties: (negative) adiabatic ionisation potential (IP) and adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
-
---
-
-.left-column[.center[
-  <figure>
-    <img src="../assets/images/slides/mfal/molecules_ip.png" alt="Ionisation potential" style="width: 100%">
-    <figcaption>Ionisation potential task</figcaption>
-  </figure>
-]]
-
---
-
-.right-column[.center[
-  <figure>
-    <img src="../assets/images/slides/mfal/molecules_ea.png" alt="Electron affinity" style="width: 100%">
-    <figcaption>Electron affinity task</figcaption>
-  </figure>
-]]
 
 ---
 
@@ -2561,291 +2557,6 @@ count: false
 
 --
 * This is to our knowledge the first algorithm capable of effectively leveraging multi-fidelity oracles to discover diverse biological sequences and molecules.
-
----
-
-name: title
-class: title, middle
-
-## Overview of other relevant research projects
-
----
-
-name: title
-class: title, middle
-
-## Raising climate awareness with AI-generated visualisations
-### ThisClimateDoesNotExist.com 
-
-.center[![:scale 30%](../assets/images/slides/vicc/placedesarts_flood.gif)]
-
----
-
-## Raising climate awareness
-### .alpha0[Placeholder]
-
-.context[People perceive the threat of climate change as temporally, geographically and socially distant.]
-
---
-
-.center[.bigger[.highlight1[Could we help people visualise the effects of climate change in _their own backyard_?]]]
-
---
-
-.left-column[
-<figure>
-	<img src="../assets/images/slides/vicc/rachel_orig.jpg" alt="Montreal, original image" style="width: 80%">
-  <figcaption>Montréal, Québec, Canada</figcaption>
-</figure>
-]
-.right-column[
-<figure>
-	<img src="../assets/images/slides/vicc/oppelner_orig.jpg" alt="Berlin, original image" style="width: 80%">
-  <figcaption>Berlin, Germany</figcaption>
-</figure>
-]
-.left[
-]
-.right[
-]
-
----
-
-count: false
-
-## Raising climate awareness
-### .alpha0[Placeholder]
-
-.context[People perceive the threat of climate change as temporally, geographically and socially distant.]
-
-.center[.bigger[.highlight1[Could we help people visualise the effects of climate change in _their own backyard_?]]]
-
-.left-column[
-<figure>
-	<img src="../assets/images/slides/vicc/rachel_flood.gif" alt="Montreal, original image" style="width: 80%">
-  <figcaption>Montréal, Québec, Canada</figcaption>
-</figure>
-]
-.right-column[
-<figure>
-	<img src="../assets/images/slides/vicc/oppelner_flood.gif" alt="Berlin, original image" style="width: 80%">
-  <figcaption>Berlin, Germany</figcaption>
-</figure>
-]
-.left[
-]
-.right[
-]
-
----
-
-## Raising climate awareness
-### A website to encourage climate change awareness and action
-
-.context[Users can look for an address of their choice.]
-
-![:scale 100%](../assets/images/slides/vicc/website_snapshot_address_mila.png)
-
----
-
-count: false
-
-## Raising climate awareness
-### A website to encourage climate change awareness and action
-
-.context[Obtain an AI-generated visualisation on a street photo.]
-
-.center[![:scale 70%](../assets/images/slides/vicc/website_snapshot_viz_mila.png)]
-
----
-
-## This Climate Does Not Exist
-
-.references[
-Schmidt et al. [ClimateGAN: Raising Climate Change Awareness by Generating Images of Floods](https://arxiv.org/abs/2110.02871v1), ICLR 2022.
-]
-
---
-
-- We developed a generative model of flood images, deployed "in the wild".
-
---
-- ThisClimateDoesNotExist.com has been received .highlight1[hundreds of thousands of visitors] all around the globe.
-
---
-- The project has been .highlight1[ covered by international media ] (Le Devoir, CBC, CNN, El País, La Repubblica...)
-
---
-- We have collaborated with Prof. Erick Lachapelle (Département de science politique, UdeM) to study the .highlight1[cognitive, behavioural and emotional impact of visualising AI-generated images of climate impacts] (in preparation).
-
----
-
-name: title
-class: title, middle
-
-### Increasing climate models resolution with hard-constrained deep learning
-
-.center[![:scale 20%](../assets/images/slides/downscaling/gcm_sample2.png)]
-
----
-
-## The importance of climate models
-
-.highlight1[Definition]: Climate models simulate the interactions of factors the drive the climate via systems differential equations based on the basic laws of physics, fluid motion, and chemistry.
-
-.left-column[
-.center[![:scale 90%](../assets/images/slides/downscaling/gcm_sample.png)]
-]
-
---
-
-.right-column[
-- Accurate modeling of weather and climate is critical for taking effective action to combat climate change.
-- The resolution of climate models is too coarse to guide local and regional policy making.
-- Deep learning can be used to increase climate models resolution (.highlight1[_downscaling_]), akin to image super-resolution.
-]
-
---
-
-.conclusion[Climate model downscaling with deep learning can facilitate the use of global climate models at local and regional level.]
-
----
-
-## Hard-constrained _downscaling_
-### .alpha0[Placeholder]
-
-.context35[Deep learning can be used to increase the resolution of climate models.]
-
-The direct application of .highlight1[image-super resolution] deep learning to climate model downscaling can result in the .highlight1[violation of fundamental physical relationships].
-
-.center[![:scale 90%](../assets/images/slides/downscaling/image-super-resolution.png)]
-
----
-
-count: false
-
-## Hard-constrained _downscaling_
-### .alpha0[Placeholder]
-
-.context35[Deep learning can be used to increase the resolution of climate models.]
-
-We proposed a procedure to enforce .highlight1[mass conservation] between the low-resolution input and the super-resolution prediction.
-
-.center[![:scale 50%](../assets/images/slides/downscaling/model_hc.png)]
-
-.references[
-Harder et al. [Hard-constrained deep learning for climate downscaling](https://jmlr.org/papers/v24/23-0158.html), JMLR 2023.
-]
-
----
-
-count: false
-
-## Hard-constrained _downscaling_
-### .alpha0[Placeholder]
-
-.context35[Deep learning can be used to increase the resolution of climate models.]
-
-We proposed a procedure to enforce .highlight1[mass conservation] between the low-resolution input and the super-resolution prediction.
-
-.center[![:scale 70%](../assets/images/slides/downscaling/wrf.png)]
-
-.references[
-Harder et al. [Hard-constrained deep learning for climate downscaling](https://jmlr.org/papers/v24/23-0158.html), JMLR 2023.
-]
-
-.conclusion[Hard constraints provide theoretical guarantees and even improved the performance.]
-
----
-
-## Arbitrary resolution _downscaling_
-
-.context35[Deep learning can be used to increase the resolution of climate models.]
-
-<br>
-Standard deep learning for climate downscaling is typically limited to the input and output resolutions specified at training time.
-
---
-
-We proposed the use of [Fourier Neural Operators](https://arxiv.org/abs/2010.08895), which learn mappings in function spaces instead of Euclidean spaces, for arbitrary resolution climate downscaling: we train with mappings for a small upsampling factor, but the model can .highlight1[zero-shot downscale to arbitrary, unseen, higher resolutions].
-
-.center[![:scale 50%](../assets/images/slides/downscaling/model_fno.png)]
-
-.references[
-Yang et al. [Fourier Neural Operators for arbitrary resolution climate data downscaling](https://arxiv.org/abs/2305.14452), arxiv:2305.14452, 2023.
-]
-
----
-
-## PhD research
-### Data augmentation and image understanding
-
-.context35[.highlight1[PhD] work on deep learning, visual perception and computational neuroscience.]
-
-I studied the .highlight1[role of data augmentation in the generalisation] of deep neural networks, its connection to regularisation and the differences between .highlight1[implicit and explicit regularisation].
-
-.center[
-<img src="../assets/images/slides/rethinksl/255011_light_imagenet.gif" style="width:20%"/>
-<img src="../assets/images/slides/rethinksl/255011_heavier_imagenet.gif" style="width:20%"/>
-<img src="../assets/images/slides/rethinksl/66016_light_imagenet.gif" style="width:20%"/>
-<img src="../assets/images/slides/rethinksl/66016_heavier_imagenet.gif" style="width:20%"/>
-]
-
-.references[
-- Hernandez-Garcia and König. [Data augmentation instead of explicit regularization](https://arxiv.org/abs/1806.03852). arxiv:1806.03852, 2018.
-- Hernandez-Garcia and König. [Do deep nets really need weight decay and dropout?](https://arxiv.org/abs/1802.07042). arxiv:1802.07042, 2018.
-- Hernandez-Garcia. [Data augmentation and image understanding](https://arxiv.org/abs/2012.14185). arxiv:2012.14185, 2020.
-]
-
----
-
-count: false
-
-## PhD research
-### Data augmentation and image understanding
-
-.context35[.highlight1[PhD] work on deep learning, visual perception and computational neuroscience.]
-
-I compared the representations learnt by deep networks trained with various levels of .highlight1[data augmentation and the representations in fMRI] measurements in the human visual cortex.
-
-.left-column-33[
-.center[
-<img src="../assets/images/slides/daug/visual_cortex.png" style="width:100%"/>
-]]
-.right-column-66[
-.center[
-<img src="../assets/images/slides/daug/rdms.png" style="width:90%"/>
-]]
-
-.references[
-- Hernandez-Garcia et al. [Deep neural networks trained with heavier data augmentation learn features closer to representations in hIT](https://ccneuro.org/2018/proceedings/1046.pdf). CCN, 2018.
-- Hernandez-Garcia. [Data augmentation and image understanding](https://arxiv.org/abs/2012.14185). arxiv:2012.14185, 2020.
-]
-
----
-
-count: false
-
-## PhD research
-### Data augmentation and image understanding
-
-.context35[.highlight1[PhD] work on deep learning, visual perception and computational neuroscience.]
-
-I proposed a .highlight1[brain-inspired unsupervised, contrastive training objective to encourage representational invariance] to perceptually plausible image transformations - .highlight2[_data augmentation invariance_]. Note: work prior to Google's SimCLR paper.
-
-.left-column[
-.center[
-<img src="../assets/images/slides/daug/daug_inv_samples.png" style="width:100%"/>
-]]
-.right-column[
-.center[
-<img src="../assets/images/slides/daug/invariance_densenet.png" style="width:100%"/>
-]]
-
-.references[
-- Hernandez-Garcia, König and Kietzmann. [Learning robust visual representations using data augmentation invariance](https://arxiv.org/abs/1806.03852). arxiv:1806.03852, 2018.
-- Hernandez-Garcia. [Data augmentation and image understanding](https://arxiv.org/abs/2012.14185). arxiv:2012.14185, 2020.
-]
 
 ---
 
