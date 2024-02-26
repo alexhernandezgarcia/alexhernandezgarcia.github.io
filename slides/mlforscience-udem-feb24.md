@@ -1363,7 +1363,7 @@ For the Tetris problem, a meaningful decomposition of the samples is .highlight1
 .left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_24.png)]]
 
 .right-column[
-Objects $x \in \cal X$ are constructed through a sequence of steps $\tau$ from an .highlight1[action space $\cal A$].
+Objects $x \in \cal X$ are constructed through a sequence of actions from an .highlight1[action space $\cal A$].
 ]
 
 --
