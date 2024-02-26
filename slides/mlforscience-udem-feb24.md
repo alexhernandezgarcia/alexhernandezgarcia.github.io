@@ -1386,6 +1386,12 @@ Bengio et al. [Flow network based generative models for non-iterative diverse ca
 ---
 
 ##  Contributions to GFlowNets extensions and applications
+
+---
+
+count: false
+
+##  Contributions to GFlowNets extensions and applications
 ### Multi-objective GFlowNets
 
 Extension of GFlowNets to handle multi-objective optimisation and not only cover the Pareto front but also sample diverse objects at each point in the Pareto front.
