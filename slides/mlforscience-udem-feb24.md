@@ -346,15 +346,13 @@ class: title, middle
 
 > "Limiting global warming will require major transitions in the energy sector. This will involve a substantial reduction in fossil fuel use, widespread electrification, .highlight1[improved energy efficiency, and use of alternative fuels (such as hydrogen)]." .cite[IPCC Sixth Assessment Report, 2022]
 
---
-
 > "Reducing industry emissions will entail coordinated action throughout value chains to promote all mitigation options, including demand management, .highlight1[energy and materials efficiency, circular material flows]." .cite[IPCC Sixth Assessment Report, 2022]
 
 --
 
 <br>
 
-.conclusion[Mitigation of the climate crisis requires transformational changes in the energy and materials efficiency.]
+.conclusion[Mitigation of the climate crisis requires innovation in the materials sector.]
 
 ???
 
@@ -376,42 +374,6 @@ Antimicrobial resistance
 
 .right-column-33[
 .center[![:scale 100%](../assets/images/slides/drugs/who_amr.png)]
-]
-
---
-
-.left-column-66[
-.highlight1[Bacterial antimicrobial resistance] contributed to 4.95 million deaths in 2019. .cite[World Health Organisation (WHO), 2023]
-]
-
-???
-
-Antimicrobial resistance
-
-- https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance
-- https://www.who.int/news-room/feature-stories/detail/donors-making-a-difference--climate-change-and-its-impact-on-health
-- https://www.who.int/news/item/31-10-2022-who-and-wmo-launch-a-new-knowledge-platform-for-climate-and-health
-- https://www.who.int/news/item/08-02-2024-who-medically-important-antimicrobial-list-2024
-- https://cdn.who.int/media/docs/default-source/gcp/who-mia-list-2024-lv.pdf?sfvrsn=3320dd3d_2
-- https://www.who.int/publications/i/item/9789240047655
-
----
-
-count: false
-
-## Why scientific discovery?
-### The potential on health
-
-.context[Drug discovery and vaccine development play a crucial role in modern healthcare systems.]
-
-.right-column-33[
-.center[![:scale 100%](../assets/images/slides/drugs/who_amr.png)]
-]
-
-.left-column-66[
-.highlight1[Bacterial antimicrobial resistance] contributed to 4.95 million deaths in 2019. .cite[World Health Organisation (WHO), 2023]
-
-The World Bank estimates that antimicrobial resistance could result in .highlight1[one _trillion_ USD additional healthcare costs] by 2050.
 ]
 
 ---
@@ -1366,8 +1328,6 @@ For the Tetris problem, a meaningful decomposition of the samples is .highlight1
 Objects $x \in \cal X$ are constructed through a sequence of steps $\tau$ from an .highlight1[action space $\cal A$].
 ]
 
---
-
 .right-column[
 At each step of the .highlight1[trajectory $\tau=(s_0\rightarrow s_1 \rightarrow \dots \rightarrow s_f)$], we get a partially constructed object $s$ in .highlight1[state space $\cal S$].
 ]
@@ -1417,52 +1377,10 @@ Consistent flow theorem (informal): if the sum of the flows into state $s$ is eq
 Bengio et al. [Flow network based generative models for non-iterative diverse candidate generation](https://arxiv.org/abs/2106.04399), NeurIPS, 2021. (_not_ co-authored)
 ]
 
-
 --
 
 .right-column[
 .conclusion[GFlowNets can be trained with deep learning methods to learn a sampling policy $\pi\_{\theta}$ proportional to a reward $R(x)$.]
-]
-
----
-
-## GFlowNets
-### Systematic generalisation
-
-.context[We have hypothesised that thanks to compositionality and deep learning, GFlowNets may generalise seen patterns to unseen regions of the sample space.]
-
-<br>
-.center[![:scale 35%](../assets/images/slides/gflownet/mode_generalization.png)]
-
----
-
-count: false
-
-## Results
-### Systematic generalisation
-
-.context[We have hypothesised that thanks to compositionality and deep learning, GFlowNets may generalise seen patterns to unseen regions of the sample space.]
-
-A Tetris GFlowNet is trained by excluding samples with pieces in the upper half from the training batches.
-
-.left-column[
-.center[![:scale 75%](../assets/images/slides/tetris/4x8_notophalf_bottomhalf.png)
-
-Training samples
-]
-]
-
---
-
-.right-column[
-.center[![:scale 75%](../assets/images/slides/tetris/4x8_notophalf_best.png)
-
-GFN samples post-training
-]
-]
-
-.references[
-Manuscript in preparation.
 ]
 
 ---
@@ -1503,35 +1421,6 @@ Volokhova, Koziarski et al. [Towards equilibrium molecular conformation generati
 ]
 
 .center[![:scale 100%](../assets/images/slides/conformers/schematic.png)]
-
----
-
-count: false
-
-##  Contributions to GFlowNets extensions and applications
-### Molecular conformation generation
-
-We have proposed a continuous GFlowNets algorithm for sampling conformations of small molecules from the Boltzmann distribution, as determined by the molecule’s energy.
-
-.references[
-Volokhova, Koziarski et al. [Towards equilibrium molecular conformation generation with GFlowNets](https://arxiv.org/abs/2310.14782), Digital Discovery, 2024. .highlight2[(co-authored)]
-]
-
-.left-column[.center[
-  <figure>
-    <img src="../assets/images/slides/gflownet/kde_reward_molecule.png" alt="Alanine dipeptide's energy landscape (KDE)" style="width: 60%">
-    <figcaption>Alanine dipeptide's energy landscape (KDE)</figcaption>
-  </figure>
-]]
-
---
-
-.right-column[.center[
-  <figure>
-    <img src="../assets/images/slides/gflownet/kde_gfn_molecule.png" alt="GFlowNet's learnt distribution (KDE)" style="width: 60%">
-    <figcaption>GFlowNet's learnt distribution (KDE)</figcaption>
-  </figure>
-]]
 
 ---
 
@@ -1680,66 +1569,6 @@ Instead of optimising the atom positions by learning from a small data set, we d
 .highlight2[Space group]: symmetry operations of a repeating pattern in space that leave the pattern unchanged.
 
 --
-
-.center[![:scale 20%](../assets/images/slides/crystals/spacegroups/p1.jpg)]
-
----
-
-count: false
-
-## A domain-inspired approach
-### Crystal structure parameters
-
-.context[Most previous works tackle crystal structure generation in the space of atomic coordinates and struggle to preserve the symmetry properties.]
-
-Instead of optimising the atom positions by learning from a small data set, we draw .highlight1[inspiration from theoretical crystallography to sample crystals in a lower-dimensional space of crystal structure parameters].
-
-.highlight2[Space group]: symmetry operations of a repeating pattern in space that leave the pattern unchanged.
-
-.center[![:scale 30%](../assets/images/slides/crystals/spacegroups/p2.jpg)]
-
----
-
-count: false
-
-## A domain-inspired approach
-### Crystal structure parameters
-
-.context[Most previous works tackle crystal structure generation in the space of atomic coordinates and struggle to preserve the symmetry properties.]
-
-Instead of optimising the atom positions by learning from a small data set, we draw .highlight1[inspiration from theoretical crystallography to sample crystals in a lower-dimensional space of crystal structure parameters].
-
-.highlight2[Space group]: symmetry operations of a repeating pattern in space that leave the pattern unchanged.
-
-.center[![:scale 30%](../assets/images/slides/crystals/spacegroups/cm.jpg)]
-
----
-
-count: false
-
-## A domain-inspired approach
-### Crystal structure parameters
-
-.context[Most previous works tackle crystal structure generation in the space of atomic coordinates and struggle to preserve the symmetry properties.]
-
-Instead of optimising the atom positions by learning from a small data set, we draw .highlight1[inspiration from theoretical crystallography to sample crystals in a lower-dimensional space of crystal structure parameters].
-
-.highlight2[Space group]: symmetry operations of a repeating pattern in space that leave the pattern unchanged.
-
-.center[![:scale 30%](../assets/images/slides/crystals/spacegroups/p6m.png)]
-
----
-
-count: false
-
-## A domain-inspired approach
-### Crystal structure parameters
-
-.context[Most previous works tackle crystal structure generation in the space of atomic coordinates and struggle to preserve the symmetry properties.]
-
-Instead of optimising the atom positions by learning from a small data set, we draw .highlight1[inspiration from theoretical crystallography to sample crystals in a lower-dimensional space of crystal structure parameters].
-
-.highlight2[Space group]: symmetry operations of a repeating pattern in space that leave the pattern unchanged.
 
 - There are 17 symmetry groups in 2 dimensions (wallpaper groups).
 - There are 230 space groups in 3 dimensions.
@@ -2094,7 +1923,7 @@ Analysis of 10,000 sampled crystals and the top-100 with lowest formation energy
 
 --
 
-.conclusion[Crystal-GFN are highly diverse.]
+.conclusion[Crystal-GFN samples are highly diverse.]
 
 ---
 
@@ -2582,44 +2411,6 @@ count: false
 
 ---
 
-## How does multi-fidelity help?
-
-.context[Visualisation on the synthetic 2D Branin function task.]
-
-.center[![:scale 50%](../assets/images/slides/mfal/branin_samples_per_fid_3.png)]
-
----
-
-count: false
-
-## How does multi-fidelity help?
-
-.context[Visualisation on the synthetic 2D Branin function task.]
-
-.center[![:scale 50%](../assets/images/slides/mfal/branin_samples_per_fid_4.png)]
-
----
-
-count: false
-
-## How does multi-fidelity help?
-
-.context[Visualisation on the synthetic 2D Branin function task.]
-
-.center[![:scale 50%](../assets/images/slides/mfal/branin_samples_per_fid_5.png)]
-
----
-
-count: false
-
-## How does multi-fidelity help?
-
-.context[Visualisation on the synthetic 2D Branin function task.]
-
-.center[![:scale 50%](../assets/images/slides/mfal/branin_samples_per_fid_6.png)]
-
----
-
 ## Multi-fidelity active learning with GFlowNets
 ### Summary and conclusions
 
@@ -2690,7 +2481,7 @@ Combine Crystal-GFN and multi-fidelity active learning to tackle .highlight1[spe
 ]
 
 .references[
-Duval, Schmidt et al. [FAENet: Frame averaging equivariant GNN for materials modeling](https://arxiv.org/abs/2305.05577). ICML (2023)
+Duval, Schmidt et al. [FAENet: Frame averaging equivariant GNN for materials modeling](https://arxiv.org/abs/2305.05577). ICML (2023) .highlight2[(co-authored)]
 ]
 
 ---
