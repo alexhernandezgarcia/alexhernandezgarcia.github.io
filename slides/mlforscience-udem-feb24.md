@@ -305,24 +305,24 @@ count: false
 
 --
 
-- Machine learning for scientific discoveries to tackle climate and health challenges
+- [Machine learning for scientific discoveries to tackle climate and health challenges](#mlforscience)
 
 --
-- Gentle introduction to GFlowNets and overview of contributions
+- [Gentle introduction to GFlowNets and overview of contributions](#gflownets)
 
 --
-- Crystal-GFN: materials discovery
+- [Crystal-GFN: materials discovery](#crystal-gfn)
 
 --
-- Multi-fidelity active learning: drug and materials discovery
+- [Multi-fidelity active learning: drug and materials discovery](#mfal)
 
 --
-- Challenges and perspectives
+- [Challenges and perspectives](#future-work)
 
 ---
 
 count: false
-name: title
+name: mlforscience
 class: title, middle
 
 ### Machine learning for scientific discoveries
@@ -829,7 +829,7 @@ CC(=O)NCCc1c[nH]c2ccc(OC)cc12`
 ---
 
 count: false
-name: title
+name: gflownets
 class: title, middle
 
 ### A gentle introduction to GFlowNets
@@ -1494,7 +1494,7 @@ Research articles supported by this GFlowNet package:
 ---
 
 count: false
-name: title
+name: crystal-gfn
 class: title, middle
 
 ## Crystal-GFN: GFlowNets for materials discovery
@@ -1955,7 +1955,7 @@ Analysis of 10,000 sampled crystals and the top-100 with lowest formation energy
 
 count: false
 
-name: title
+name: mfal
 class: title, middle
 
 ## Multi-fidelity active learning
@@ -2433,7 +2433,7 @@ count: false
 
 count: false
 
-name: title
+name: future-work
 class: title, middle
 
 ## Challenges and perspectives
