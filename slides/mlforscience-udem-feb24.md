@@ -185,12 +185,6 @@ class: title, middle
 .conclusion["Climate change is the single biggest health threat facing humanity." .smaller[[WHO and WMO](https://climahealth.info/), 2024]]
 ]
 
-???
-
-- https://www.who.int/news-room/fact-sheets/detail/climate-change-and-health
-- 
-
-
 ---
 
 ## Why climate _and_ health?
