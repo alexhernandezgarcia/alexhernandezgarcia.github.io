@@ -7,7 +7,7 @@ Les présentations orales, les rapports finaux et le code des projets sont les p
 
 ## Dates
 
-Les présentations auront lieu **en classe** le 4 avril, à l'heure habituelle de la session et de la salle : **jeudi 4 avril**, 10h30--12h30 (EST), salle à préciser.
+Les présentations auront lieu **en classe** à l'heure habituelle de la session et de la salle : **jeudi 4 avril**, 10h30--12h30 (EST), salle Y-117 du pavillon Roger-Gaudry.
 
 Les rapports finaux et le code source doivent être remis le **26 avril 2024** à 23:59 (EST).
 
