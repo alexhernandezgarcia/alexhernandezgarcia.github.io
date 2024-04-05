@@ -10,6 +10,8 @@ class: title, middle
 
 Presenting: Alex Hernández-García (he/il/él)
 
+.smaller[Working with: David Rolnick, Nikita Saxena, Alex Duval, Victor Schmidt, Chritina Humer, Pierre Luc Carrier, Moksh Jain, Yoshua Bengio...]
+
 .turquoise[Rolnick's Lab, Mila · April 5th 2024]
 
 .center[
