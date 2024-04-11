@@ -159,13 +159,13 @@
     - Yoshua Bengio
     - Alex Hernandez-Garcia
     - David Rolnick
-  year: 2023
-  journal: arXiv:2211.12020
+  year: 2024
+  journal: JMLR
   tags:
+    - tag: JMLR
+      link: https://jmlr.org/papers/v25/23-0680.html
     - tag: arXiv
       link: https://arxiv.org/abs/2211.12020
-    - tag: OpenReview
-      link: https://openreview.net/forum?id=hHercGKiXvP
 - title: "Multi-Objective GFlowNets"
   authors:
     - Moksh Jain
