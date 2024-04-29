@@ -44,8 +44,10 @@
     - Alán Aspuru-Guzik
     - Yoshua Bengio
   year: 2023
-  journal: Neural Information Processing Systems (NeurIPS), Workshop on Accelerated Materials Design (AI4Mat)
+  journal: Digital Discovery, Royal Society of Chemistry
   tags:
+    - tag: Digital Discovery
+      link: https://pubs.rsc.org/en/content/articlepdf/2024/DD/D4DD00023D
     - tag: arXiv
       link: https://arxiv.org/abs/2310.14782
     - tag: code
@@ -75,7 +77,7 @@
   year: 2023
   journal: Digital Discovery, Royal Society of Chemistry
   tags:
-    - tag: RSC
+    - tag: Digital Discovery
       link: https://pubs.rsc.org/en/content/articlehtml/2023/dd/d3dd00002h
     - tag: arXiv
       link: https://arxiv.org/abs/2302.00615
@@ -160,7 +162,7 @@
     - Alex Hernandez-Garcia
     - David Rolnick
   year: 2024
-  journal: JMLR
+  journal: Journal of Machine Learning Research (JMLR)
   tags:
     - tag: JMLR
       link: https://jmlr.org/papers/v25/23-0680.html
@@ -209,7 +211,7 @@
     - Campbell Watson
     - David Rolnick
   year: 2023
-  journal: Journal of Machine Learning Research
+  journal: Journal of Machine Learning Research (JMLR)
   tags:
     - tag: JMLR
       link: https://jmlr.org/papers/v24/23-0158.html
