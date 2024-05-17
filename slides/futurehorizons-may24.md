@@ -116,98 +116,6 @@ class: title, middle
 
 ---
 
-## Why scientific discovery?
-### The potential on sustainability
-
-.context["The time for action is now"]
-
---
-
-> "Limiting global warming will require major transitions in the energy sector. This will involve a substantial reduction in fossil fuel use, widespread electrification, .highlight1[improved energy efficiency, and use of alternative fuels (such as hydrogen)]." .cite[IPCC Sixth Assessment Report, 2022]
-
-> "Reducing industry emissions will entail coordinated action throughout value chains to promote all mitigation options, including demand management, .highlight1[energy and materials efficiency, circular material flows]." .cite[IPCC Sixth Assessment Report, 2022]
-
---
-
-<br>
-
-.conclusion[Mitigation of the climate crisis requires innovation in the materials sector.]
-
-???
-
-Antimicrobial resistance
-
-- https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance
-- https://www.who.int/news-room/feature-stories/detail/donors-making-a-difference--climate-change-and-its-impact-on-health
-- https://www.who.int/news/item/31-10-2022-who-and-wmo-launch-a-new-knowledge-platform-for-climate-and-health
-- https://www.who.int/news/item/08-02-2024-who-medically-important-antimicrobial-list-2024
-- https://cdn.who.int/media/docs/default-source/gcp/who-mia-list-2024-lv.pdf?sfvrsn=3320dd3d_2
-- https://www.who.int/publications/i/item/9789240047655
-
----
-
-## Why scientific discovery?
-### The potential on health
-
-.context[Drug discovery and vaccine development play a crucial role in modern healthcare systems.]
-
-.right-column-33[
-.center[![:scale 100%](../assets/images/slides/drugs/who_amr.png)]
-]
-
----
-
-count: false
-
-## Why scientific discovery?
-### The potential on health
-
-.context[Drug discovery and vaccine development play a crucial role in modern healthcare systems.]
-
-.right-column-33[
-.center[![:scale 100%](../assets/images/slides/drugs/who_amr.png)]
-]
-
-.left-column-66[
-.highlight1[Bacterial antimicrobial resistance] contributed to 4.95 million deaths in 2019. .cite[World Health Organisation (WHO), 2023]
-
-The World Bank estimates that antimicrobial resistance could result in .highlight1[one _trillion_ USD additional healthcare costs] by 2050.
-
-WHO's latest annual review identified 27 antibiotics in clinical development that address WHO bacterial priority pathogens, of which .highlight1[only 6 were classified as innovative].
-]
-
----
-
-count: false
-
-## Why scientific discovery?
-### The potential on health
-
-.context[Drug discovery and vaccine development play a crucial role in modern healthcare systems.]
-
-.right-column-33[
-.center[
-<figure>
-	<img src="../assets/images/slides/drugs/who_notimetowait.png" alt="No time to wait" style="width: 55%">
-  <figcaption><small>"No time to wait". Source: <a href="https://www.who.int/docs/default-source/documents/no-time-to-wait-securing-the-future-from-drug-resistant-infections-en.pdf">WHO</a>.</small></figcaption>
-</figure>
-]
-]
-
-.left-column-66[
-.highlight1[Bacterial antimicrobial resistance] contributed to 4.95 million deaths in 2019. .cite[World Health Organisation (WHO), 2023]
-
-The World Bank estimates that antimicrobial resistance could result in .highlight1[one _trillion_ USD additional healthcare costs] by 2050.
-
-WHO's latest annual review identified 27 antibiotics in clinical development that address WHO bacterial priority pathogens, of which .highlight1[only 6 were classified as innovative].
-]
-
-.full-width[
-.conclusion["No time to wait". Alongside other necessary actions, drug discovery plays a key role in tackling the antimicrobial resistance global threat.]
-]
-
----
-
 ## Traditional discovery cycle
 
 .context35[The climate crisis demands accelerating scientific discoveries.]
@@ -228,7 +136,7 @@ The .highlight1[traditional pipeline] for scientific discovery:
 
 count: false
 
-## Machine learning in the loop
+## _Active_ (machine) learning
 
 .context35[The traditional scientific discovery loop is too slow for certain applications.]
 
@@ -244,7 +152,7 @@ A .highlight1[machine learning model] can be:
 
 count: false
 
-## Machine learning in the loop
+## _Active_ (machine) learning
 
 .context35[The traditional scientific discovery loop is too slow for certain applications.]
 
@@ -261,7 +169,7 @@ A .highlight1[machine learning model] can be:
 
 count: false
 
-## Machine learning in the loop
+## _Active_ (machine) learning
 
 .context35[The traditional scientific discovery loop is too slow for certain applications.]
 
@@ -280,7 +188,7 @@ A .highlight1[machine learning model] can be:
 
 count: false
 
-## _Generative_ machine learning in the loop
+## Active and _generative_ machine learning
 
 .right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_4.png)]]
 
@@ -296,7 +204,7 @@ count: false
 
 count: false
 
-## _Generative_ machine learning in the loop
+## Active and _generative_ machine learning
 
 .right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_4.png)]]
 
@@ -1262,7 +1170,7 @@ count: false
 
 ## GFlowNet Python package
 
-I have led the development of an open sourced GFlowNet package, together with Mila collaborators: Nikita Saxena, Alexandra Volokhova, Michał Koziarski, Divya Sharma, Pierre Luc Carrier Victor Schmidt, Joseph Viviano.
+Open sourced GFlowNet package, together with Mila collaborators: Nikita Saxena, Alexandra Volokhova, Michał Koziarski, Divya Sharma, Pierre Luc Carrier, Victor Schmidt, Joseph Viviano.
 
 .highlight2[Open source GFlowNet implementation]: [github.com/alexhernandezgarcia/gflownet](https://github.com/alexhernandezgarcia/gflownet)
 
