@@ -118,7 +118,7 @@ class: title, middle
 
 ## Traditional discovery cycle
 
-.context35[The climate crisis demands accelerating scientific discoveries.]
+.context35[Climate and health challenges demand accelerating scientific discoveries.]
 
 --
 
