@@ -254,6 +254,10 @@ The .highlight1[traditional pipeline] for scientific discovery (paradigms 1-3):
 * .highlight1[financially and computationally expensive].
 ]
 
+???
+
+Edison quote: "I have not failed. I've just found 10,000 ways that won't work."
+
 ---
 
 count: false
