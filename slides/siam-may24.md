@@ -9,6 +9,8 @@ class: title, middle
 ## Crystal-GFN
 ### Sampling crystals with desirable properties and constraints
 
+Presenting: Alex Hernández-García (he/il/él)
+
 Mila AI4Science: Alex Hernandez-Garcia, Alexandre Duval, Alexandra Volokhova, Yoshua Bengio, Divya Sharma, Pierre Luc Carrier, Yasmine Benabed, Michał Koziarski, Victor Schmidt, Pierre-Paul De Breuck
 
 .turquoise[SIAM Conference on Mathematical Aspects of Materials Science ([MS24](https://www.siam.org/conferences/cm/conference/ms24)), May 22th 2024]
@@ -173,7 +175,11 @@ Instead of optimising the atom positions by learning from a small data set, we d
 ---
 
 ## GFlowNets as the generative framework
-### 3 key ingredients
+### A brief introduction
+
+--
+
+#### 3 key ingredients
 
 --
 
@@ -681,6 +687,7 @@ Bengio et al. [Flow network based generative models for non-iterative diverse ca
 
 .context[Compositional generation of crystals in the space of crystallographic properties.]
 
+<br>
 .center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_init.png)]
 
 ---
@@ -691,6 +698,7 @@ count: false
 
 .context[Compositional generation of crystals in the space of crystallographic properties.]
 
+<br>
 .center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_sg.png)]
 
 ---
@@ -701,6 +709,7 @@ count: false
 
 .context[Compositional generation of crystals in the space of crystallographic properties.]
 
+<br>
 .center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_sg_output.png)]
 
 ---
@@ -711,6 +720,7 @@ count: false
 
 .context[Compositional generation of crystals in the space of crystallographic properties.]
 
+<br>
 .center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_comp.png)]
 
 ---
@@ -721,6 +731,7 @@ count: false
 
 .context[Compositional generation of crystals in the space of crystallographic properties.]
 
+<br>
 .center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_comp_output.png)]
 
 ---
@@ -731,6 +742,7 @@ count: false
 
 .context[Compositional generation of crystals in the space of crystallographic properties.]
 
+<br>
 .center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_lp.png)]
 
 ---
@@ -741,6 +753,7 @@ count: false
 
 .context[Compositional generation of crystals in the space of crystallographic properties.]
 
+<br>
 .center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_lp_output.png)]
 
 ---
@@ -751,6 +764,7 @@ count: false
 
 .context[Compositional generation of crystals in the space of crystallographic properties.]
 
+<br>
 .center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_all.png)]
 
 ---
@@ -761,6 +775,7 @@ count: false
 
 .context[Compositional generation of crystals in the space of crystallographic properties.]
 
+<br>
 .center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_all.png)]
 
 .conclusion[Crystal-GFN binds multiple spaces representing crystallographic and material properties, setting intra- and inter-space hard constraints in the generation process.]
@@ -800,10 +815,6 @@ We have tested the following properties:
 - .highlight1[Formation energy per atom] [eV/atom], via a pre-trained machine learning model.
 - .highlight1[Electronic band gap] [eV] (squared distance to a target value, 1.34 eV), via a pre-trained machine learning model.
 - .highlight1[Unit cell density] [g/cm<sup>3</sup>], calculated _exactly_ from the GFN outputs.
-
---
-
-.highlight1[Coming soon]: pre-trained machine learning model to predict the ionic conductivity [S/cm].
 
 ---
 
