@@ -27,6 +27,29 @@ Slides: [alexhernandezgarcia.github.io/slides/{{ name }}](https://alexhernandezg
 
 ---
 
+## Problem and goals
+
+.center[.bigger[We aim to develop machine learning algorithms for the .highlight1[inverse design of crystalline solids].]]
+
+--
+
+#### Desiderata:
+
+- Candidates should have the desired properties.
+- Candidates should be reasonable (constraints).
+- Candidates should be diverse.
+- Efficient exploration of the vast materials space.
+
+--
+
+#### Applications:
+
+- Catalyst design for sustainability
+- Solid electrolytes with high ionic conductivity
+- _Your application here_
+
+---
+
 ## Crystal structure generation in the literature
 
 Example: .highlight2[Crystal Diffusion Variational Autoencoder (CDVAE)]: a diffusion process that moves .highlight1[atomic coordinates] towards a lower energy state and updates atom types to satisfy bonding preferences between neighbors. The key idea is to learn the diffusion process from the data distribution of stable materials. .cite[(Xie et al., 2022)]
