@@ -814,7 +814,7 @@ We have tested the following properties:
 
 - .highlight1[Formation energy per atom] [eV/atom], via a pre-trained machine learning model.
 - .highlight1[Electronic band gap] [eV] (squared distance to a target value, 1.34 eV), via a pre-trained machine learning model.
-- .highlight1[Unit cell density] [g/cm<sup>3</sup>], calculated _exactly_ from the GFN outputs.
+- .alpha50[Unit cell .highlight2[density] [g/cm<sup>3</sup>]: convenient as a proof of concept because we can calculate it _exactly_ from the GFN outputs.]
 
 ---
 
@@ -845,39 +845,6 @@ We have tested the following properties:
     - Lengths: 0.9-100 angstroms.
     - Angles: 50-150°.
     - These ranges contain the bulk of the data set (excluding outliers).
-
----
-
-## Results
-### Density
-
-What do we expect Crystal-GFN to sample?
-
-- Small length lattice parameters (small volume): 
---
-4.9 Å compared to 8.3 Å in the validation dataset. &#10004;
---
-
-- Denser packing space group: 
---
-We see a shift towards spacegroups from the cubic, tetragonal, and hexagonal lattices (81, 99, 115, 195, 200, 207, 215, 221). &#10004;
---
-
-- Higher number of atoms (larger mass): 
---
-58.8 atoms on average compared to 48.1 over the validation set. &#10004;
---
-
-- Heavier elements (larger mass): 
---
-Heavier such as Se, Cu, Ni are sampled the most often. &#10004;
-
----
-
-## Results
-### Density
-
-.center[![:scale 80%](../assets/images/slides/crystals/density_elements.png)]
 
 ---
 
