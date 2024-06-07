@@ -307,7 +307,7 @@ count: false
 ## Results
 ### Formation energy
 
-.context35[The formation energy is predicted by a pre-trained ML model.]
+.context35[The formation energy is predicted by a pre-trained ML model (MAE 0.10 eV/atom).]
 
 .center[![:scale 70%](../assets/images/slides/crystals/eform_distr_1.png)]
 
@@ -318,7 +318,7 @@ count: false
 ## Results
 ### Formation energy
 
-.context35[The formation energy is predicted by a pre-trained ML model.]
+.context35[The formation energy is predicted by a pre-trained ML model (MAE 0.10 eV/atom).]
 
 .center[![:scale 70%](../assets/images/slides/crystals/eform_distr_2.png)]
 
@@ -329,7 +329,7 @@ count: false
 ## Results
 ### Formation energy
 
-.context35[The formation energy is predicted by a pre-trained ML model.]
+.context35[The formation energy is predicted by a pre-trained ML model (MAE 0.10 eV/atom).]
 
 .center[![:scale 70%](../assets/images/slides/crystals/eform_distr_3.png)]
 
@@ -340,7 +340,7 @@ count: false
 ## Results
 ### Formation energy
 
-.context35[The formation energy is predicted by a pre-trained ML model.]
+.context35[The formation energy is predicted by a pre-trained ML model (MAE 0.10 eV/atom).]
 
 .center[![:scale 70%](../assets/images/slides/crystals/eform_distr_4.png)]
 
