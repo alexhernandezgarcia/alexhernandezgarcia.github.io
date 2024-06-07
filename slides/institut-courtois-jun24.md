@@ -480,20 +480,25 @@ class: title, middle
 
 ## Future plans and perspective
 
-.context[In many relevant applications, we are interested in crystal structures _with defects_]
+.context[In many relevant applications, we are interested in crystal structures _with defects_.]
 
 <br>
 
+--
 - We want to hear what you need!
+
+--
 - We are confident that the method can be flexibly extended to generate crystal structures with vacancy defects.
+
+--
 - To our knowledge, there is little or no work on generative machine learning for such structures.
 
 ---
 
-## Summary and conclusions
-
 name: title
 class: title, middle
+
+## Summary and conclusions
 
 .center[![:scale 30%](../assets/images/slides/misc/conclusion.png)]
 
