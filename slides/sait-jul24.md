@@ -1179,7 +1179,7 @@ Research articles supported by this GFlowNet package:
 
 .smaller[
 * Lahlou et al. [A Theory of Continuous Generative Flow Networks](https://arxiv.org/abs/2301.12594), ICML, 2023. 
-* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://openreview.net/forum?id=dLaazW9zuF). TMLR 2024.
+* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://openreview.net/forum?id=dLaazW9zuF). TMLR (in _print_) 2024.
 * Mila AI4Science et al. [Crystal-GFN: sampling crystals with desirable properties and constraints](https://arxiv.org/abs/2310.04925). AI4Mat, NeurIPS 2023 (spotlight).
 * Volokhova, Koziarski et al. [Towards equilibrium molecular conformation generation with GFlowNets](https://arxiv.org/abs/2310.14782). Digital Discovery, NeurIPS 2023.
 * Several other ongoing projects...
@@ -1656,7 +1656,7 @@ class: title, middle
 
 Nikita Saxena, Moksh Jain, Cheng-Hao Liu, Yoshua Bengio
 
-.smaller[[Multi-fidelity active learning with GFlowNets](https://openreview.net/forum?id=dLaazW9zuF). TMLR, 2024.]
+.smaller[[Multi-fidelity active learning with GFlowNets](https://openreview.net/forum?id=dLaazW9zuF). TMLR (in _print_), 2024.]
 
 .center[![:scale 30%](../assets/images/slides/mfal/multiple_oracles.png)]
 
@@ -2147,7 +2147,7 @@ count: false
 ### Summary and conclusions
 
 .references[
-* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://openreview.net/forum?id=dLaazW9zuF). TMLR, 2024.
+* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://openreview.net/forum?id=dLaazW9zuF). TMLR (in _print_), 2024.
 ]
 
 * Current ML for science methods do not utilise all the information and resources at our disposal.
