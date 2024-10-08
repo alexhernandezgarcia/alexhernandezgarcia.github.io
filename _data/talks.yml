@@ -291,6 +291,7 @@
   online: false
   slides: slides/cemdi-may24
   link: https://cemdi.inrs.ca/fr/2024symposium/
+  video: https://www.youtube.com/watch?v=JX9cZcdXuaQ
 - title: "Generative modelling and active learning with GFlowNets for scientific discoveries"
   year: 2024
   month: Jul
