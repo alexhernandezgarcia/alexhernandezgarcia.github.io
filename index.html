@@ -13,8 +13,8 @@ title: Home
         {% capture description %}{% include description.md %}{% endcapture %}
         {{ description | markdownify }}
         <h4>Contact</h4>
-        <p>If you are looking for graduate or postdoc positions to work on machine learning for science to have an impact on tackling climate change and health challenges, I'd love to hear from you!</p>
-        <p>alex.hernandez-garcia at mila.quebec · alexhg at <a href="https://e.foundation/">e.email</a> · <a href="https://twitter.com/alexhdezgcia">Twitter</a></p>
+        {% capture contact %}{% include contact.md %}{% endcapture %}
+        {{ contact | markdownify }}
       </div>
 </div>
 
