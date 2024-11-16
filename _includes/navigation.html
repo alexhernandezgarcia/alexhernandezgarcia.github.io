@@ -21,10 +21,14 @@
       <div class="navbar-end">
     		<div class="navbar-item">
     		  {% for item in site.data.social %}
-    			<a class="button is-white" href="{{ item.link }}">
-    			  <i class="{{ item.icon.type }} {{ item.icon.name }} {{ item.icon.source }}-{{ include.icon-size }}" aria-hidden="true">
-                  </i>
-    			</a>
+            <a class="button is-text" href="{{ item.link }}" style="text-decoration: none">
+              <span class="icon">
+                <i
+                  class="{{ item.icon.type }} {{ item.icon.name }} {{ item.icon.source }}-{{ include.icon-size }}"
+                  aria-hidden="true">
+                </i>
+              </span>
+            </a>
     		  {% endfor %}
     		</div>
       </div>
