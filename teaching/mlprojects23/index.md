@@ -2,7 +2,6 @@
 layout : mlprojects23
 title : IFT 3710/6759 H23 - Projets (avancés) en apprentissage automatique
 redirect_from :
-  - /mlprojects
   - /mlprojects23
   - /ift3710h23.html
   - /ift3710h23
