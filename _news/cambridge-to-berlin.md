@@ -9,7 +9,7 @@ It's been almost three months living in Cambridge and working at the [CBU](http:
 
 The project was not too different from what I have been doing in Berlin, as it's a follow up of my main research on [data augmentation](https://arxiv.org/abs/1806.03852), but living in Cambridge was indeed quite different than living in Berlin! One is a small British city, the other is a big European capital; one has a scatter of Gothic colleges, the other has an eclectic mix of buildings; one has a fantastic offer of cask ales in its many pubs, the other has a wonderful offer of Spätis in its streets. This could follow endlessly. Just as a metaphor of the difference, see the contrast of the photos I took on my last day in Cambridge and what I first encountered when I walked home from Ostbahnhof in Berlin. 
 
-{% include image.html url="/assets/images/cambridge.png" description="King's college and one of the canals in Cambridge" %}
-{% include image.html url="/assets/images/berlin.png" description="A kebab resturant outside Ostbahnhof and the Strasse der Pariser Kommune in Berlin" %}
+{% include image.html url="/assets/images/cambridge.png" description="King's college and one of the canals in Cambridge" size="100" %}
+{% include image.html url="/assets/images/berlin.png" description="A kebab resturant outside Ostbahnhof and the Strasse der Pariser Kommune in Berlin" size="100" %}
 
 But don't take me wrong: I love Berlin!

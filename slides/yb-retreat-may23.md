@@ -477,7 +477,7 @@ class: title, middle
 .context[In many areas of scientific applications we have access to multiple approximations of the objective function]
 
 <br>
-.center[![:scale 70%](../assets/images/slides/mfal/mfal_draft.png)]
+.center[![:scale 70%](../assets/images/slides/mfal/mfal_bgwhite.png)]
 
 ---
 
