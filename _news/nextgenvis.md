@@ -11,4 +11,4 @@ Needless to say, when I joined the group I was nothing close to a visual neurosc
 
 Not only has NextGenVis given me the opportunity to learn about visual neuroscience, but also it has been a very enriching personal experience and I have made good friends on the way. Just as an example, I have spent the weekend after the workshop with my friend Alessandro Grillini travelling around Tuscany and enjoying his and his parents' hospitality. I would be very sad if the end of NextGenVis means the end of the personal network we have built. I hope that this is just the beginning of more mature future scientific collaborations and the continuation of valuable friendship.
 
-{% include image.html url="/assets/images/nextgenvis.png" description="The NextGenVis family" %}
+{% include image.html url="/assets/images/nextgenvis.png" description="The NextGenVis family" size="100" %}

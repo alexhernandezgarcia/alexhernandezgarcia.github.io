@@ -20,7 +20,7 @@ twitter_username: alexhdezgcia
 github_username:  alexhernandezgarcia
 twitter:
   - username: alexhdezgcia
-description: Alex Hernandez-Garcia is a postdoc at Mila (Montreal), working with Prof. Yoshua Bengio. He is interested in the fundamental aspects of learning, in both brains and machines, as well as in applications of machine learning for social good, like fighting climate change. 
+description: Alex Hernandez-Garcia is an incoming assistant professor at the Université de Montréal at [DIRO](https://diro.umontreal.ca) and [Mila](https://mila.quebec). He is interested in the fundamental aspects of learning, in both brains and machines, as well as in applications of machine learning for social good, like tackling climate change and health challenges.
 author: Alex Hernandez-Garcia
 url: https://alexhernandezgarcia.github.io
 logo: /assets/images/logo1.png
@@ -57,5 +57,5 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo-tag 
+  - jekyll-seo-tag
   - jekyll-redirect-from

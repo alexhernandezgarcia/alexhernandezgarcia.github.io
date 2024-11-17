@@ -11,4 +11,4 @@ Given the remarkable discriminative power of deep neural networks to perform obj
 
 This contrasts with what has been often observed in the primate visual cortex: neurons across the hierarchy of the ventral visual stream are increasingly invariant to identity-preserving transformations. Taking inspiration from this, we implement a very simple, yet effective and efficient mechanism to promote the similarity between the representations that correspond to the same image. With our mechanism, data augmentation invariance, the models seem to easily learn more robust features, as shown in the figure below. Check the details in our [paper](https://arxiv.org/abs/1907.04547)!
 
-{% include image.html url="/assets/images/invariance.png" description="Distribution of the invariance score at each layer of the baseline model and the model trained with data augmentation invariance" %}
+{% include image.html url="/assets/images/invariance.png" description="Distribution of the invariance score at each layer of the baseline model and the model trained with data augmentation invariance" size="100" %}

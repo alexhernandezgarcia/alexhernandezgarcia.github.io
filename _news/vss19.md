@@ -9,4 +9,4 @@ It is the first time I attend the annual meeting of the Vision Sciences Society 
 
 As always, it is also a great pleasure to see friends and colleagues from past conferences and meetings in the field.
 
-{% include image.html url="/assets/images/vss-dinner.png" description="VSS 2019 Opening Dinner" %}
+{% include image.html url="/assets/images/vss-dinner.png" description="VSS 2019 Opening Dinner" size="100" %}

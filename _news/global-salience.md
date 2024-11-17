@@ -9,4 +9,4 @@ Interestingly, the global visual salience is independent of the local salience m
 
 We also confirmed a relatively strong general preference for the left image, although with high variability across participants. Besides, we found no influence of other aspects such as the familiarity with one of the images or the task to determine which of the two images had been seen before.
 
-{% include image.html url="/assets/images/global-salience-stimuli.png" description="Images used in the eye-tracking experiment, sorted by their global visual salience, from left to right, and top to bottom." %}
+{% include image.html url="/assets/images/global-salience-stimuli.png" description="Images used in the eye-tracking experiment, sorted by their global visual salience, from left to right, and top to bottom." size="100" %}
