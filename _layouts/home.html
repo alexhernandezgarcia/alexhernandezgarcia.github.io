@@ -11,18 +11,20 @@ layout: main
     <h1>{{ site.title }}</h1>
     {{ content }}
   </div>
-  <div class="column is-one-fifth content">
-    <div class="has-text-centered content">
-      <h2>News</h2>
-    </div>
-    {% assign news = site.news | sort: 'date' | reverse %}
-    {% for entry in news limit:3 %}
+  {% if page.show_news %}
+    <div class="column is-one-fifth content">
       <div class="has-text-centered content">
-        <h4><a href="{{ entry.url }}">{{ entry.date | date_to_string }} - {{ entry.title }}</a></h4>
+        <h2>News</h2>
       </div>
-      <div class="has-text-left content">
-        <p>{{ entry.excerpt | markdownify }}</p>
-      </div>
-    {% endfor %}
-  </div>
+      {% assign news = site.news | sort: 'date' | reverse %}
+      {% for entry in news limit:3 %}
+        <div class="has-text-centered content">
+          <h4><a href="{{ entry.url }}">{{ entry.date | date_to_string }} - {{ entry.title }}</a></h4>
+        </div>
+        <div class="has-text-left content">
+          <p>{{ entry.excerpt | markdownify }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
 </div>
