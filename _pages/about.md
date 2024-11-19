@@ -1,3 +1,8 @@
+---
+layout: page
+title: About me
+permalink: /about
+---
 ### Bio
 I was born in [Soria](https://en.wikipedia.org/wiki/Soria), a small city in central Spain, and grew up near Madrid. In 2009 I started my bachelor degree on Audiovisual Systems Engineering at the [University Carlos III of Madrid](https://www.uc3m.es/Home), during which I had the chance to study one year as an Erasmus fellow at the [University of Stuttgart](https://www.uni-stuttgart.de/en/), Germany. In 2013 I obtained a research fellowship to complete my bachelor thesis at the [Group of Multimedia Processing (GPM)](http://gpm.webs.tsc.uc3m.es/) with [Fernando Fernández Martínez](https://www.researchgate.net/profile/Fernando_Fernandez-Martinez) and [Fernando Díaz de María](https://www.uc3m.es/ss/Satellite/UC3MInstitucional/en/Detalle/Organismo_C/1371211308508/1371211309638/Fernando_Diaz_de_Maria). At the GPM I worked as a research and teaching assistant during my master studies, working on projects related to image processing and computer vision. The main topic of my research was the automatic recognition of aesthetics and elicited affect of natural videos.
 
