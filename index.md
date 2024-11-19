@@ -1,3 +1,9 @@
+---
+layout: home
+title: Home
+image: /assets/images/alex-photo-filters-bnw.png
+show_news: false
+---
 I use the [pronouns](https://pronoun.is/#Pronoun-Usage-and-Social-Impact) [_he/él/il_](http://pronoun.is/he).
 
 #### Brief academic bio
@@ -13,3 +19,8 @@ Besides developing potentially impactful machine learning applications, I am als
 
 #### My vision of science
 Besides my research, I am a strong proponent of open science in the broadest sense, and I try to contribute to it with my actions and by getting involved in discussions about how to make science more inclusive, equitable, open, reproducible, transparent and environmentally conscious. At Mila, I am a member of the Equity, Diversity and Inclusion Committee and a member of the Sustainability Committee. In 2021/2022, I was the elected postdoctoral Lab Representative. At NeurIPS 2021, I co-organised a [workshop on pre-registration in machine learning](https://preregister.science/).
+
+#### Contact
+If you are looking for graduate or postdoc positions to work on machine learning for science to have an impact on tackling climate change and health challenges, I'd love to hear from you!
+
+alex.hernandez-garcia _at_ mila.quebec · alexhg _at_ [e.email](https://e.foundation/)
