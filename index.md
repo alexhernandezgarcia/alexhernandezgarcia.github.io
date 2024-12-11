@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-image: /assets/images/alex-photo-filters-bnw.png
+image: /assets/images/alex-photo-2024-rects.png
 show_news: false
 ---
 I use the [pronouns](https://pronoun.is/#Pronoun-Usage-and-Social-Impact) [_he/él/il_](http://pronoun.is/he).
