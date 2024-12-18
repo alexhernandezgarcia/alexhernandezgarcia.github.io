@@ -238,13 +238,15 @@ class: title, middle
 
 .center[
 <figure>
-	<img src="../assets/images/slides/science-as-critical-thinking/sftp.png" alt="Science for the People" style="width: 40%">
-  <figcaption>.smaller[Science for the People]</figcaption>
+	<img src="../assets/images/slides/science-as-critical-thinking/sftp.png" alt="Science for the People" style="width: 30%">
+  <figcaption>.smaller[[Science for the People](http://www.scienceforthepeople.ca/)]</figcaption>
 </figure>
 ]
-
-.references[
-[www.scienceforthepeople.ca](http://www.scienceforthepeople.ca/)
+.center[
+<figure>
+	<img src="../assets/images/slides/science-as-critical-thinking/scientist_rebellion.png" alt="Scientist Rebellion" style="width: 40%">
+  <figcaption>.smaller[[Scientist Rebellion](https://scientistrebellion.org/)]</figcaption>
+</figure>
 ]
 
 ---
