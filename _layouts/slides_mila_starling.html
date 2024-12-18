@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- 
+<!--
   See:
   * https://github.com/neurodata/talks
   * https://neurodata.io/talks/talkname.html
@@ -12,8 +12,8 @@
 
 <head>
   <title>{{ page.title | strip_html }}</title>
+  <link rel="icon" href="{{ site.favicon | relative_url }}" type="image/x-icon">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <script type="text/javascript" src="../assets/plotly/plotly-latest.min.js"></script>
   <style>
 
 		@import url(https://fonts.googleapis.com/css?family=Ubuntu);
@@ -167,8 +167,8 @@
 
     /* Size */
     .bigger { font-size: 120%; }
-    .smaller { font-size: 80%; } 
-    .smaller70 { font-size: 70%; } 
+    .smaller { font-size: 80%; }
+    .smaller70 { font-size: 70%; }
 
     /* Transparency */
     .alpha0 { opacity: 0%; }
@@ -191,7 +191,7 @@
 		/* Context box */
 		.context {
 			position: absolute;
-			top: 1em; 
+			top: 1em;
 			right: 2em;
       max-width: 45%;
 			padding: 0.5em;
@@ -200,7 +200,7 @@
 			}
 		.context35 {
 			position: absolute;
-			top: 1em; 
+			top: 1em;
 			right: 2em;
       max-width: 35%;
 			padding: 0.5em;
@@ -250,73 +250,67 @@
     }
 
 		/* Two-column layouts */
-		.left-column { 
-			width: 49%; 
+		.left-column {
+			width: 49%;
 			float: left;
 		}
-		.right-column { 
-			width: 49%; 
-			float: right; 
+		.right-column {
+			width: 49%;
+			float: right;
 		}
-		.left-column-33 { 
-			width: 33%; 
-			float: left; 
+		.left-column-33 {
+			width: 33%;
+			float: left;
 		}
-		.right-column-66 { 
-			width: 66%; 
-			float: right; 
+		.right-column-66 {
+			width: 66%;
+			float: right;
 		}
-		.left-column-66 { 
-			width: 66%; 
-			float: left; 
+		.left-column-66 {
+			width: 66%;
+			float: left;
 		}
-		.right-column-33 { 
-			width: 33%; 
-			float: right; 
+		.right-column-33 {
+			width: 33%;
+			float: right;
 		}
-		.right-column ~ p { 
-			clear: both; 
+		.right-column ~ p {
+			clear: both;
 		}
-		.right-column ~ ul { 
-			clear: both; 
+		.right-column ~ ul {
+			clear: both;
 		}
-		.full-width { 
-			width: 100%; 
-			display: flow-root; 
+		.full-width {
+			width: 100%;
+			display: flow-root;
 		}
 
 		/* Three-column layouts */
-		.columns-3-left { 
-			width: 32%; 
+		.columns-3-left {
+			width: 32%;
 			float: left;
 		}
-		.columns-3-center { 
-			width: 32%; 
+		.columns-3-center {
+			width: 32%;
 			display: inline-block;
 		}
-		.columns-3-right { 
-			width: 32%; 
-			float: right; 
+		.columns-3-right {
+			width: 32%;
+			float: right;
 		}
 
 		/* Four-column layouts */
-		.columns-4-left { 
-			width: 24%; 
-			float: left;
-		}
-		.columns-4-center-left { 
-			width: 24%; 
-			float: left;
+		.columns-4 {
+			width: 24%;
 			display: inline-block;
+      vertical-align: top;
 		}
-		.columns-4-center-right { 
-			width: 24%; 
-			float: right; 
+
+		/* Five-column layouts */
+		.columns-5 {
+			width: 19%;
 			display: inline-block;
-		}
-		.columns-4-right { 
-			width: 24%; 
-			float: right; 
+      vertical-align: top;
 		}
 
   </style>
