@@ -6,7 +6,7 @@ permalink: /bio
 
 ## Short version
 
-Alex Hernandez-Garcia is an incoming assistant professor at the Université de Montréal and at Mila. His current focus is on machine learning research for scientific applications to tackle the climate crisis. Previously, his research has explored the intersection between learning in both brains and machines, which continues to be a source of inspiration.
+Alex Hernandez-Garcia is an assistant professor at the Université de Montréal and at Mila. His current focus is on machine learning research for scientific applications to tackle the climate crisis. Previously, his research has explored the intersection between learning in both brains and machines, which continues to be a source of inspiration.
 
 [(_Lire en français_)](bio-fr)
 
