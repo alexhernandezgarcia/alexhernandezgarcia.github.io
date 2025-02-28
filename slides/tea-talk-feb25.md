@@ -26,6 +26,8 @@ Alex Hernández-García (he/il/él)
 Slides: [alexhernandezgarcia.github.io/slides/{{ name }}](https://alexhernandezgarcia.github.io/slides/{{ name }})
 ]]
 
+.qrcode[![{{ name }}](../assets/images/slides/qrcodes/{{ name }}.png)]
+
 ---
 
 count: false
@@ -181,7 +183,7 @@ count: false
 
 ## Machine Learning for Science and Science for Machine Learning
 
-.center[![:scale 60%](../assets/images/slides/climatechange/climate_health_ai.png)]
+.center[![:scale 60%](../assets/images/slides/climatechange/climate_health_ai_cycle.png)]
 
 .conclusion[Machine learning research has the potential to facilitate scientific discoveries to tackle climate and health challenges. Scientific challenges stimulate in turn machine learning research.]
 
@@ -566,6 +568,24 @@ CC(=O)NCCc1c[nH]c2ccc(OC)cc12`
 
 ---
 
+## Why Tetris for scientific discovery?
+### Crystal structure generation
+
+.context35[The "Tetris problem" involves sampling from an unknown distribution in a discrete, high-dimensional, combinatorially large space]
+
+<br>
+Crystal structures can be described by their chemical composition, the symmetry group and the lattice parameters (and more generally by atomic positions).
+
+--
+
+.center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_all.png)]
+
+.references[
+* Mila AI4Science et al. [Crystal-GFN: sampling crystals with desirable properties and constraints](https://arxiv.org/abs/2310.04925). AI4Mat, NeurIPS 2023 (spotlight).
+]
+
+---
+
 ## Machine learning for scientific discovery
 ### Challenges and limitations of existing methods
 
@@ -598,7 +618,7 @@ CC(=O)NCCc1c[nH]c2ccc(OC)cc12`
 
 --
 
-.conclusion[Generative flow networks (GFlowNets) address these challenges.]
+.conclusion[Generative flow networks (GFlowNets) and active learning address these challenges.]
 
 ---
 
@@ -618,6 +638,8 @@ class: title, middle
 ## Related work
 ### Bayesian optimisation
 
+.context[What are the most relevant _searching algorithms_?]
+
 Definition: Bayesian optimization is a sequential design strategy for _global optimization_ of black-box functions, that does not assume any functional forms. .cite[[Wikipedia, Feb. 2025](https://en.wikipedia.org/wiki/Bayesian_optimization)]
 
 .center[
@@ -626,12 +648,106 @@ $$x^{\star} = \text{arg max} f(x)$$
 
 .center[
 <figure>
-	<img src="../assets/images/slides/bayesianopt/objective_function.png" alt="Bayesian optimisation" style="width: 40%">
+	<img src="../assets/images/slides/activelearning/objective_function.png" alt="Bayesian optimisation" style="width: 40%">
   <figcaption><small>Source: <a href="https://bayesoptbook.com/">Roman Garnett. Bayesian Optimization. Cambridge University Press, 2023</a>.</small></figcaption>
 </figure>
 ]
 
 .conclusion[Bayesian optimisation is not concerned with discovering multiple high-scoring data points, but it offers a suitable framework as starting point.] 
+
+---
+
+## Related work
+### Active search
+
+.context[What are the most relevant _searching algorithms_?]
+
+Definition: Given a search space with data points belonging to two classes, active search is the problem of locating the members of one particular class as quickly as possible. .cite[(Garnett et al., 2012)]
+
+.left-column[
+Given a set of observations $\mathcal{D} \triangleq {(x_i, y_i)}$, active search aims to optimise the utility function defined as the number of targets found: $u(\mathcal{D}) \triangleq \sum y_i$.
+]
+
+.right-column[
+.center[
+<figure>
+	<img src="../assets/images/slides/activelearning/active_search.png" alt="Active search" style="width: 60%">
+</figure>
+]
+]
+
+.references[
+* Garnett et al. [Bayesian optimal active search and surveying](Bayesian optimal active search and surveying). ICML 2012.
+]
+
+---
+
+count: false
+
+## Related work
+### Active search
+
+.context[What are the most relevant _searching algorithms_?]
+
+Definition: Given a search space with data points belonging to two classes, active search is the problem of locating the members of one particular class as quickly as possible. .cite[(Garnett et al., 2012)]
+
+.left-column[
+Given a set of observations $\mathcal{D} \triangleq {(x_i, y_i)}$, active search aims to optimise the utility function defined as the number of targets found: $u(\mathcal{D}) \triangleq \sum y_i$.
+]
+
+.right-column[
+.center[
+<figure>
+	<img src="../assets/images/slides/activelearning/active_search.png" alt="Active search" style="width: 60%">
+</figure>
+]
+]
+
+.conclusion[Bayesian active search is interesting for materials and drug discovery but it reduces the value of candidates to binary classes.] 
+
+---
+
+## Related work
+### Quality Diversity
+
+.context[What are the most relevant _searching algorithms_?]
+
+Definition: A class of evolutionary algorithms which puts emphasis on diversity while searching for optimal or near optimal solutions on a latent space.
+
+.center[
+<figure>
+	<img src="../assets/images/slides/activelearning/mapelites.png" alt="MAP Elites" style="width: 60%">
+  <figcaption><small>Source: <a href="https://arxiv.org/abs/1504.04909">Mouret and Clune. Illuminating search spaces by mapping elites. 2015</a>.</small></figcaption>
+</figure>
+]
+
+.conclusion[Quality Diversity (QD) algorithms share the objective of finding diverse, high-scoring candidates, despite emerging from a different research community. Definitely something to try soon too.] 
+
+---
+
+## Related work
+### Active learning
+
+.context[What are the most relevant _searching algorithms_?]
+
+Definition: A class of machine learning methods whose goal is to learn an efficient data sampling scheme to accelerate training.
+
+.center[
+<figure>
+	<img src="../assets/images/slides/activelearning/activelearning_settles.png" alt="Active learning" style="width: 60%">
+  <figcaption><small>Source: <a href="https://burrsettles.com/pub/settles.activelearning.pdf">Burr Settles. Active learning literature survey. Independent Technical Report, 2009</a>.</small></figcaption>
+</figure>
+]
+
+.conclusion[Active learning is a large family of algorithms or problems that includes our own. However, most of the literature has focused on _pool-based active learning_.] 
+
+???
+
+Mention:
+
+- Multi-armed bandits
+- Experimental design
+- The review in Jain et al.
 
 ---
 
@@ -644,7 +760,7 @@ class: title, middle
 
 Nikita Saxena, Moksh Jain, Cheng-Hao Liu, Yoshua Bengio
 
-.smaller[[Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). RealML, NeurIPS 2023 / under review.]
+.smaller[[Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). Transactions on Machine Learning Research (TMLR). 2024.]
 
 .center[![:scale 30%](../assets/images/slides/mfal/multiple_oracles.png)]
 
@@ -806,7 +922,7 @@ count: false
 For example, in .highlight1[material discovery]:
 
 * .highlight1[Synthesis] of a material and characterisation of a property in the lab
-* Quantum mechanic .highlight1[simulations] to estimate the property
+* Molecular dynamic .highlight1[simulations] to estimate the property
 * .highlight1[Machine learning] models trained to predict the property
 ]
 
@@ -841,7 +957,7 @@ For example, in .highlight1[material discovery]:
 
 ---
 
-## Our multi-fidelity active learning algorithm
+## Our active learning algorithm
 
 .center[![:scale 100%](../assets/images/slides/mfal/mfal_0.png)]
 
@@ -849,7 +965,7 @@ For example, in .highlight1[material discovery]:
 
 count: false
 
-## Our multi-fidelity active learning algorithm
+## Our active learning algorithm
 
 .center[![:scale 100%](../assets/images/slides/mfal/mfal_1.png)]
 
@@ -857,7 +973,7 @@ count: false
 
 count: false
 
-## Our multi-fidelity active learning algorithm
+## Our active learning algorithm
 
 .center[![:scale 100%](../assets/images/slides/mfal/mfal_2.png)]
 
@@ -865,7 +981,7 @@ count: false
 
 count: false
 
-## Our multi-fidelity active learning algorithm
+## Our active learning algorithm
 
 .center[![:scale 100%](../assets/images/slides/mfal/mfal_3.png)]
 
@@ -873,7 +989,7 @@ count: false
 
 count: false
 
-## Our multi-fidelity active learning algorithm
+## Our active learning algorithm
 
 .center[![:scale 100%](../assets/images/slides/mfal/mfal_4.png)]
 
@@ -881,7 +997,7 @@ count: false
 
 count: false
 
-## Our multi-fidelity active learning algorithm
+## Our active learning algorithm
 
 .center[![:scale 100%](../assets/images/slides/mfal/mfal_5.png)]
 
@@ -889,7 +1005,7 @@ count: false
 
 count: false
 
-## Our multi-fidelity active learning algorithm
+## Our active learning algorithm
 
 .center[![:scale 100%](../assets/images/slides/mfal/mfal_6.png)]
 
@@ -897,7 +1013,7 @@ count: false
 
 count: false
 
-## Our multi-fidelity active learning algorithm
+## Our active learning algorithm
 
 .center[![:scale 100%](../assets/images/slides/mfal/mfal_7.png)]
 
@@ -905,7 +1021,7 @@ count: false
 
 count: false
 
-## Our multi-fidelity active learning algorithm
+## Our active learning algorithm
 
 .center[![:scale 100%](../assets/images/slides/mfal/mfal_8.png)]
 
@@ -954,7 +1070,7 @@ count: false
 ## Experiments
 ### Baselines
 
-.context[This is the .highlight1[first multi-fidelity active learning algorithm tested on biological sequence design and molecular design problems]. There did not exist baselines from the literature.]
+.context[This may be the .highlight1[first multi-fidelity active learning algorithm tested on biological sequence design and molecular design problems]. There did not exist baselines from the literature.]
 
 --
 
@@ -974,7 +1090,7 @@ count: false
 
 ## Small molecules
 
-- Realistic experiments with experimental oracles and costs that reflect the computational demands (1, 3, 7).
+- Realistic experiments with experimental oracles and costs that reflect computational demands (1, 3, 7).
 - GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
 - Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
 
@@ -988,7 +1104,7 @@ count: false
 
 ## Small molecules
 
-- Realistic experiments with experimental oracles and costs that reflect the computational demands (1, 3, 7).
+- Realistic experiments with experimental oracles and costs that reflect computational demands (1, 3, 7).
 - GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
 - Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
 
@@ -1000,7 +1116,7 @@ count: false
 
 ## Small molecules
 
-- Realistic experiments with experimental oracles and costs that reflect the computational demands (1, 3, 7).
+- Realistic experiments with experimental oracles and costs that reflect computational demands (1, 3, 7).
 - GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
 - Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
 
@@ -1012,7 +1128,7 @@ count: false
 
 ## Small molecules
 
-- Realistic experiments with experimental oracles and costs that reflect the computational demands (1, 3, 7).
+- Realistic experiments with experimental oracles and costs that reflect computational demands (1, 3, 7).
 - GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
 - Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
 
@@ -1024,7 +1140,7 @@ count: false
 
 ## Small molecules
 
-- Realistic experiments with experimental oracles and costs that reflect the computational demands (1, 3, 7).
+- Realistic experiments with experimental oracles and costs that reflect computational demands (1, 3, 7).
 - GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
 - Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
 
@@ -1036,7 +1152,7 @@ count: false
 
 ## Small molecules
 
-- Realistic experiments with experimental oracles and costs that reflect the computational demands (1, 3, 7).
+- Realistic experiments with experimental oracles and costs that reflect computational demands (1, 3, 7).
 - GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
 - Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
 
@@ -1048,7 +1164,7 @@ count: false
 
 ## Small molecules
 
-- Realistic experiments with experimental oracles and costs that reflect the computational demands (1, 3, 7).
+- Realistic experiments with experimental oracles and costs that reflect computational demands (1, 3, 7).
 - GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
 - Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
 
@@ -1060,7 +1176,7 @@ count: false
 
 ## Small molecules
 
-- Realistic experiments with experimental oracles and costs that reflect the computational demands (1, 3, 7).
+- Realistic experiments with experimental oracles and costs that reflect computational demands (1, 3, 7).
 - GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
 - Property: Adiabatic .highlight1[ionisation potential (IP)]. Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
 
@@ -1131,11 +1247,60 @@ count: false
 
 ---
 
+## Details of the algorithm
+### Multi-fidelity surrogate models
+
+* Small (synthetic) tasks: exact Gaussian Processes
+* Larger-scale, benchmark tasks: Deep Kernel Learning with stochastic variational Gaussian processes
+
+Multi-fidelity kernel learning:
+
+$$K_{MF}((x, m), (\tilde{x}, \tilde{m})) = K_X(g(x), g(\tilde{x})) + K_M(m, \tilde{m}) \times K_X^M(g(x), g(\tilde{x}))$$
+
+* $K_X$ and $K_X^M$: Matérn kernels with different lengthscales each
+* Kernel of the fidelity confidences: $K_M(i, j) = (1 - \ell_i)(1 - \ell_j)(1 + \ell_i\ell_j)$
+    * $\ell_m = \frac{\lambda_m}{\lambda_M}$
+
+.references[
+* Wilson, Hu et al. [Deep Kernel Learning](https://arxiv.org/abs/1511.02222), AISTATS, 2016.
+* Mikkola et al. [Multi-fidelity Bayesian optimization with unreliable information sources](https://arxiv.org/abs/2210.13937) , AISTATS, 2023.
+]
+
+---
+
+## Details of the algorithm
+### Multi-fidelity acquisition function: Maximum Entropy Search (MES)
+
+MES it aims to maximise the mutual information between .hihglight1[the value] of the objective function $f$ when choosing point *x* and the maximum of the objective function, $f^{\star}$ (instead of considering the `arg max`).
+
+The multi-fidelity variant is designed to select the candidate $x$ and the fidelity $m$ that maximise the mutual information between $f_M^\star$ and the oracle at fidelity $m$, $f_m$ , weighted by the cost of the oracle $\lambda_m$.
+
+$$\alpha(x, m) = \frac{1}{\lambda_{m}} I(f_M^\star; f_m(x) | \mathcal{D})$$
+
+.references[
+* Moss et al. [GIBBON: General-purpose Information-Based Bayesian OptimisatioN](https://arxiv.org/abs/2102.03324), JMLR, 2021.
+]
+
+---
+
+## Details of the algorithm
+### Multi-fidelity GFlowNets (MF-GFN)
+
+Given a baseline GFlowNet with state space $\mathcal{S}$ and action space $\mathcal{A}$, we augment the state space with a new dimension for the fidelity $\mathcal{M'} = \{0, 1, 2, \ldots, M\}$ (including $m = 0$, which corresponds to unset fidelity): $\mathcal{S}_M = \mathcal{S} \times \mathcal{M'}$
+
+The set of allowed transitions $\mathcal{A}_M$ is augmented such that a fidelity $m > 0$ of a trajectory must be selected once, and only once, from any intermediate state. This is meant to provide flexibility and improve generalisation.
+
+Finished trajectories are the concatenation of an object $x$ and the fidelity $m$: $(x, m) \in \mathcal{X}_M = \mathcal{X} \times \mathcal{M}$.
+
+GFlowNet is trained with the acquisition function $\alpha(x, m)$ as reward function.
+
+---
+
 ## Multi-fidelity active learning with GFlowNets
 ### Summary and conclusions
 
 .references[
-* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). RealML, NeurIPS 2023.
+* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). Transactions on Machine Learning Research (TMLR). 2024.
 ]
 
 * Current ML for science methods do not utilise all the information and resources at our disposal.
@@ -1149,97 +1314,54 @@ count: false
 --
 * This is to our knowledge the first algorithm capable of effectively leveraging multi-fidelity oracles to discover diverse biological sequences and molecules.
 
+--
+* .highlight2[Open source code]: 
+    * [github.com/nikita-0209/mf-al-gfn](https://github.com/nikita-0209/mf-al-gfn)
+    * [github.com/alexhernandezgarcia/gflownet](https://github.com/alexhernandezgarcia/gflownet)
+
 ---
 
 ## Acknowledgements
 
-.columns-3-left[
-Victor Schmidt<br>
-Mélisande Teng<br>
-Alexandre Duval<br>
-Yasmine Benabed<br>
-Pierre Luc Carrier<br>
-Divya Sharma<br>
-Yoshua Bengio<br>
-Lena Simine<br>
-Michael Kilgour<br>
-...
+.columns-4[
+.center[![:scale 90%](../assets/images/slides/people/nikita_saxena.jpg)]
+.center[Nikita Saxena]
 ]
-
-.columns-3-center[
-Alexandra Volokhova<br>
-Michał Koziarski<br>
-Paula Harder<br>
-David Rolnick<br>
-Qidong Yang<br>
-Santiago Miret<br>
-Sasha Luccioni<br>
-Alexia Reynaud<br>
-Tianyu Zhang<br>
-...
+.columns-4[
+.center[![:scale 90%](../assets/images/slides/people/moksh_jain.jpg)]
+.center[Moksh Jain]
 ]
-
-.columns-3-right[
-Nikita Saxena<br>
-Moksh Jain<br>
-Cheng-Hao Liu<br>
-Kolya Malkin<br>
-Tristan Deleu<br>
-Salem Lahlou<br>
-Alvaro Carbonero<br>
-José González-Abad<br>
-Emmanuel Bengio<br>
-...
+.columns-4[
+.center[![:scale 90%](../assets/images/slides/people/chenghao_liu.jpg)]
+.center[Chenghao Liu]
 ]
-
-.conclusion[Science is a lot more fun when shared with bright and interesting people!]
+.columns-4[
+.center[![:scale 90%](../assets/images/slides/people/yoshua_bengio.jpg)]
+.center[Yoshua Bengio]
+]
 
 ---
 
-count: false
-
-name: title
+name: tea-talk-feb25
 class: title, middle
 
-## Overall summary and conclusions
-
-.center[![:scale 30%](../assets/images/slides/misc/conclusion.png)]
-
----
-
-## Summary and conclusions
-
-- Tackling the climate crisis _is_ tackling health challenges.
-
---
-- Machine learning has great potential to accelerate scientific discoveries. There are strong synergies between materials discovery and drug discovery methods.
-
---
-- With GFlowNets, we are able to address some important challenges: discover diverse candidates in very large, complex search spaces.
-
---
-- Crystal-GFN rethinks crystal structure generation by introducing domain knowledge and hard constraints to discover materials with desirable properties.
-
---
-- Multi-fidelity active learning with GFlowNets effectively leverages the availability of multiple oracles for the first time for certain scientific discovery problems.
-
----
-
-name: mlforscience-mar24
-class: title, middle
-
-![:scale 40%](../assets/images/slides/climatechange/climate_health_ai.png)
+![:scale 40%](../assets/images/slides/climatechange/climate_health_ai_cycle.png)
 
 Alex Hernández-García (he/il/él)
 
 .center[
-<a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 4em"></a>
+<a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 3em"></a>
 &nbsp&nbsp&nbsp&nbsp
-<a href="https://www.umontreal.ca/"><img src="../assets/images/slides/logos/udem-white.png" alt="UdeM" style="height: 4em"></a>
+<a href="https://www.umontreal.ca/"><img src="../assets/images/slides/logos/udem-white.png" alt="UdeM" style="height: 3em"></a>
+&nbsp&nbsp&nbsp&nbsp
+<a href="https://institut-courtois.umontreal.ca/"><img src="../assets/images/slides/logos/institut-courtois.png" alt="Institut Courtois" style="height: 3em"></a>
+&nbsp&nbsp&nbsp&nbsp
+<a href="https://ivado.ca/"><img src="../assets/images/slides/logos/ivado.png" alt="IVADO" style="height: 3em"></a>
 ]
 
-.footer[[alexhernandezgarcia.github.io](https://alexhernandezgarcia.github.io/) | [alex.hernandez-garcia@mila.quebec](mailto:alex.hernandez-garcia@mila.quebec)]<br>
-.footer[[@alexhg@scholar.social](https://scholar.social/@alexhg) [![:scale 1em](../assets/images/slides/misc/mastodon.png)](https://scholar.social/@alexhg) | [@alexhdezgcia](https://twitter.com/alexhdezgcia) [![:scale 1em](../assets/images/slides/misc/twitter.png)](https://twitter.com/alexhdezgcia)]
+.highlight2[We are looking for students and collaborators to work on multi-fidelity active learning!]
+
+.footer[[alexhernandezgarcia.github.io](https://alexhernandezgarcia.github.io/) | [alex.hernandez-garcia@mila.quebec](mailto:alex.hernandez-garcia@mila.quebec)] | [alexhergar.bsky.social](https://bsky.app/profile/alexhergar.bsky.social) [![:scale 1em](../assets/images/slides/misc/bluesky.png)](https://bsky.app/profile/alexhergar.bsky.social)<br>
 
 .smaller[.footer[
 Slides: [alexhernandezgarcia.github.io/slides/{{ name }}](https://alexhernandezgarcia.github.io/slides/{{ name }})
