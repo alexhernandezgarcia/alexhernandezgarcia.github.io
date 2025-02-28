@@ -1296,6 +1296,21 @@ GFlowNet is trained with the acquisition function $\alpha(x, m)$ as reward funct
 
 ---
 
+## Applications
+### Ongoing, planned and potential
+
+* Discovering materials with high ionic conductivity for solid-state electrolyte batteries. 
+
+* Discovering novel antibiotics through a lab-in-the-loop approach.
+
+* Designing electrocatalysts for sustainability purposes.
+
+* Designing DNA aptamers and proteins that can bind to specific targets.
+
+* `<your application here>`
+
+---
+
 ## Multi-fidelity active learning with GFlowNets
 ### Summary and conclusions
 
