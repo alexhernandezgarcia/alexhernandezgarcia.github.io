@@ -142,8 +142,10 @@
     - Campbell D. Watson
     - David Rolnick
   year: 2023
-  journal: arXiv:2305.14452
+  journal: Journal of Machine Learning Research (JMLR)
   tags:
+    - tag: JMLR
+      link: http://jmlr.org/papers/v25/23-0597.html
     - tag: arXiv
       link: https://arxiv.org/abs/2305.14452
 - title: "Counting carbon: A survey of factors influencing the emissions of machine learning"
