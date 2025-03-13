@@ -47,10 +47,12 @@ class: title, middle
 
 .context[Climate change is a major challenge for humanity.]
 
+<br><br>
+
 .center[
 <figure>
-	<img src="../assets/images/slides/climatechange/anthropogenic_temperature_rise.png" alt="Historical global average temperature and the influence of modern humans" style="width: 60%">
-  <figcaption>.smaller[Modelled and observed global average temperatures in the last 2 millenia (source graphic: <a href="https://www.theguardian.com/science/2021/aug/09/humans-have-caused-unprecedented-and-irreversible-change-to-climate-scientists-warn">The Guardian</a>.)]</figcaption>
+	<img src="../assets/images/slides/climatechange/ipcc_warming.png" alt="Observed (1900–2020) and projected (2021–2100) changes in global surface temperature (relative to 1850–1900)" style="width: 100%">
+  <figcaption>.smaller[Observed (1900–2020) and projected (2021–2100) changes in global surface temperature relative to 1850–1900 (adapted from: <a href="https://www.ipcc.ch/report/sixth-assessment-report-cycle/">IPCC Sixth Assessment Report</a>)]</figcaption>
 </figure>
 ]
 
@@ -65,7 +67,7 @@ class: title, middle
 .center[
 <figure>
 	<img src="../assets/images/slides/climatechange/who_climate_health.png" alt="Climate change presents a fundamental threat to human health." style="width: 100%">
-  <figcaption>.smaller[Climate-sensitive health risks (Adapted from: <a href="https://www.who.int/news-room/fact-sheets/detail/climate-change-and-health">World Health Organization</a>.)]</figcaption>
+  <figcaption>.smaller[Climate-sensitive health risks (adapted from: <a href="https://www.who.int/news-room/fact-sheets/detail/climate-change-and-health">World Health Organization</a>)]</figcaption>
 </figure>
 ]
 
@@ -81,37 +83,112 @@ class: title, middle
 ---
 
 ## Why scientific discoveries?
+### The potential of materials discovery
 
-.center[![:scale 60%](../assets/images/slides/climatechange/climate_health.png)]
+.context["The time for action is now"]
+
+--
+
+> "Limiting global warming will require major transitions in the energy sector. This will involve a substantial reduction in fossil fuel use, widespread electrification, .highlight1[improved energy efficiency, and use of alternative fuels (such as hydrogen)]." .cite[IPCC Sixth Assessment Report, 2022]
+
+> "Reducing industry emissions will entail coordinated action throughout value chains to promote all mitigation options, including demand management, .highlight1[energy and materials efficiency, circular material flows]." .cite[IPCC Sixth Assessment Report, 2022]
+
+--
+
+<br>
+
+.conclusion[Mitigation of the climate crisis requires innovation in the materials sector.]
+
+???
+
+Antimicrobial resistance
+
+- https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance
+- https://www.who.int/news-room/feature-stories/detail/donors-making-a-difference--climate-change-and-its-impact-on-health
+- https://www.who.int/news/item/31-10-2022-who-and-wmo-launch-a-new-knowledge-platform-for-climate-and-health
+- https://www.who.int/news/item/08-02-2024-who-medically-important-antimicrobial-list-2024
+- https://cdn.who.int/media/docs/default-source/gcp/who-mia-list-2024-lv.pdf?sfvrsn=3320dd3d_2
+- https://www.who.int/publications/i/item/9789240047655
+
+---
+
+## Why scientific discoveries?
+### The potential of drug discovery
+
+.context[Drug discovery and vaccine development play a crucial role in modern healthcare systems.]
+
+.right-column-33[
+.center[![:scale 100%](../assets/images/slides/drugs/who_amr.png)]
+]
 
 ---
 
 count: false
 
 ## Why scientific discoveries?
+### The potential of drug discovery
 
-.center[![:scale 60%](../assets/images/slides/climatechange/climate_health_ai.png)]
+.context[Drug discovery and vaccine development play a crucial role in modern healthcare systems.]
 
---
+.right-column-33[
+.center[![:scale 100%](../assets/images/slides/drugs/who_amr.png)]
+]
 
-.conclusion[Tackling climate change has a direct positive impact on global health. There is a strong synergy between machine learning research for climate and health.]
+.left-column-66[
+.highlight1[Bacterial antimicrobial resistance] contributed to 4.95 million deaths in 2019. .cite[World Health Organisation (WHO), 2023]
+
+WHO's latest annual review identified 27 antibiotics in clinical development that address WHO bacterial priority pathogens, of which .highlight1[only 6 were classified as innovative].
+
+"The recently approved antibacterial agents are .highlight1[insufficient to tackle the challenge] of increasing emergence and spread of antimicrobial resistance". .cite[World Health Organisation (WHO), 2021]
+]
 
 ---
 
-## Outline
+count: false
 
---
+## Why scientific discoveries?
+### The potential of drug discovery
 
-- [Machine learning for scientific discoveries to tackle climate and health challenges](#mlforscience)
+.context[Drug discovery and vaccine development play a crucial role in modern healthcare systems.]
 
---
-- [Gentle introduction to GFlowNets](#gflownets)
+.right-column-33[
+.center[
+<figure>
+	<img src="../assets/images/slides/drugs/who_notimetowait.png" alt="No time to wait" style="width: 55%">
+  <figcaption><small>"No time to wait". Source: <a href="https://www.who.int/docs/default-source/documents/no-time-to-wait-securing-the-future-from-drug-resistant-infections-en.pdf">WHO</a>.</small></figcaption>
+</figure>
+]
+]
 
---
-- [Crystal-GFN: materials discovery](#crystal-gfn)
+.left-column-66[
+.highlight1[Bacterial antimicrobial resistance] contributed to 4.95 million deaths in 2019. .cite[World Health Organisation (WHO), 2023]
 
---
-- [Multi-fidelity active learning: drug and materials discovery](#mfal)
+WHO's latest annual review identified 27 antibiotics in clinical development that address WHO bacterial priority pathogens, of which .highlight1[only 6 were classified as innovative].
+
+"The recently approved antibacterial agents are .highlight1[insufficient to tackle the challenge] of increasing emergence and spread of antimicrobial resistance". .cite[World Health Organisation (WHO), 2021]   
+]
+
+.full-width[
+.conclusion["No time to wait". Alongside other necessary actions, drug discovery plays a key role in tackling the antimicrobial resistance global threat.]
+]
+
+---
+
+## Machine Learning for Science
+
+.center[![:scale 60%](../assets/images/slides/climatechange/climate_health_ai.png)]
+
+.conclusion[Machine learning research has the potential to facilitate scientific discoveries to tackle climate and health challenges.]
+
+---
+
+count: false
+
+## Machine Learning for Science and Science for Machine Learning
+
+.center[![:scale 60%](../assets/images/slides/climatechange/climate_health_ai_cycle.png)]
+
+.conclusion[Machine learning research has the potential to facilitate scientific discoveries to tackle climate and health challenges. Scientific challenges stimulate in turn machine learning research.]
 
 ---
 
@@ -448,8 +525,6 @@ Proteins, antimicrobial peptides (AMP) and DNA can be represented as sequences o
 
 .center[![:scale 45%](../assets/images/slides/dna/dna_helix_annotated.png)]
 
---
-
 .left-column-66[
 .dnag[`G`].dnaa[`A`].dnag[`G`].dnag[`G`].dnag[`G`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnag[`G`].dnag[`G`].dnat[`T`].dnaa[`A`].dnac[`C`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`]<br>
 .dnat[`T`].dnac[`C`].dnaa[`A`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnac[`C`].dnag[`G`].dnaa[`A`].dnag[`G`].dnac[`C`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnat[`T`].dnag[`G`].dnat[`T`].dnaa[`A`].dnag[`G`].dnag[`G`].dnac[`C`].dnaa[`A`].dnag[`G`].dnac[`C`].dnag[`G`].dnat[`T`].dnac[`C`].dnac[`C`].dnat[`T`].dnaa[`A`].dnac[`C`].dnac[`C`].dnag[`G`].dnat[`T`].dnat[`T`].dnac[`C`].dnag[`G`]<br>
@@ -467,8 +542,6 @@ Proteins, antimicrobial peptides (AMP) and DNA can be represented as sequences o
 
 <br>
 Small molecules can also be represented as sequences or by a combination of of higher-level fragments. There may be about $10^{60}$ drug-like molecules.
-
---
 
 .columns-3-left[
 .center[
@@ -494,39 +567,25 @@ CC(=O)NCCc1c[nH]c2ccc(OC)cc12`
 
 ---
 
-## Machine learning for scientific discovery
-### Challenges and limitations of existing methods
+## Why Tetris for scientific discovery?
+### Crystal structure generation
 
---
+.context35[The "Tetris problem" involves sampling from an unknown distribution in a discrete, high-dimensional, combinatorially large space]
 
-.highlight1[Challenge]: very large and high-dimensional search spaces.
+<br>
+Crystal structures can be described by their chemical composition, the symmetry group and the lattice parameters (and more generally by atomic positions).
 
---
+.left-column[
+.center[![:scale 60%](../assets/images/slides/materials/lithium_oxide_crystal.png)]
+]
 
-&rarr; Need for .highlight2[efficient search and generalisation] of underlying structure.
+.right-column[
+.center[![:scale 50%](../assets/images/slides/crystals/unit_cell.png)]
+]
 
---
-
-.highlight1[Challenge]: underspecification of objective functions or metrics.
-
---
-
-&rarr; Need for .highlight2[diverse] candidates.
-
---
-
-.highlight1[Limitation]: Reinforcement learning excels at optimisation in complex spaces but tends to lack diversity.
-
---
-.highlight1[Limitation]: Markov chain Monte Carlo (MCMC) can _sample_ from a distribution (diversity) but struggles at mode mixing in high dimensions.
-
---
-
-&rarr; Need to .highlight2[combine all of the above]: sampling from complex, high-dimensional distributions.
-
---
-
-.conclusion[Generative flow networks (GFlowNets) address these challenges.]
+.references[
+* Mila AI4Science et al. [Crystal-GFN: sampling crystals with desirable properties and constraints](https://arxiv.org/abs/2310.04925). AI4Mat, NeurIPS 2023 (spotlight).
+]
 
 ---
 
@@ -650,7 +709,7 @@ $$Z = \sum_{x' \in \cal X} R(x')$$
 .full-width[
 &rarr; Sampling proportionally to the reward function enables finding .highlight1[multiple modes], hence .highlight1[diversity].
 
-.center[![:scale 22%](../assets/images/slides/gflownet/reward_landscape.png)]
+.center[![:scale 20%](../assets/images/slides/gflownet/reward_landscape.png)]
 ]
 
 ---
@@ -1081,74 +1140,7 @@ Bengio et al. [Flow network based generative models for non-iterative diverse ca
 
 ---
 
-##  GFlowNets extensions and applications
-
----
-
-count: false
-
-##  GFlowNets extensions and applications
-### Multi-objective GFlowNets
-
-Extension of GFlowNets to handle multi-objective optimisation and not only cover the Pareto front but also sample diverse objects at each point in the Pareto front.
-
-.center[![:scale 30%](../assets/images/slides/gflownet/mogfn_pareto_front.png)]
-
-.references[
-Jain et al. [Multi-Objective GFlowNets](https://arxiv.org/abs/2210.12765), ICML, 2023.
-]
-
----
-
-##  GFlowNets extensions and applications
-### Continuous GFlowNets
-
-Generalisation of the theory and implementation of GFlowNets to encompass both discrete and continuous or hybrid state spaces. 
-
-.center[![:scale 40%](../assets/images/slides/gflownet/cube2d/allvalid.gif)]
-
-.references[
-Lahlou et al. [A Theory of Continuous Generative Flow Networks](https://arxiv.org/abs/2301.12594), ICML, 2023.
-]
-
----
-
-##  GFlowNets extensions and applications
-### Molecular conformation generation
-
-A continuous GFlowNets algorithm for sampling conformations of small molecules from the Boltzmann distribution, as determined by the molecule’s energy.
-
-.references[
-Volokhova, Koziarski et al. [Towards equilibrium molecular conformation generation with GFlowNets](https://arxiv.org/abs/2310.14782), Digital Discovery, 2024.
-]
-
-.center[![:scale 100%](../assets/images/slides/conformers/schematic.png)]
-
----
-
-##  GFlowNets extensions and applications
-### Biological sequence design
-
-An active learning algorithm with GFlowNets as a sampler of biological sequence design (DNA, antimicrobial peptides, proteins) with desirable properties.
-
-.center[![:scale 45%](../assets/images/slides/dna/dna_helix_annotated.png)]
-
-.left-column-66[
-.dnag[`G`].dnaa[`A`].dnag[`G`].dnag[`G`].dnag[`G`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnag[`G`].dnag[`G`].dnat[`T`].dnaa[`A`].dnac[`C`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`]<br>
-.dnat[`T`].dnac[`C`].dnaa[`A`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnac[`C`].dnag[`G`].dnaa[`A`].dnag[`G`].dnac[`C`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnat[`T`].dnag[`G`].dnat[`T`].dnaa[`A`].dnag[`G`].dnag[`G`].dnac[`C`].dnaa[`A`].dnag[`G`].dnac[`C`].dnag[`G`].dnat[`T`].dnac[`C`].dnac[`C`].dnat[`T`].dnaa[`A`].dnac[`C`].dnac[`C`].dnag[`G`].dnat[`T`].dnat[`T`].dnac[`C`].dnag[`G`]<br>
-.dnac[`C`].dnat[`T`].dnaa[`A`].dnac[`C`].dnag[`G`].dnac[`C`].dnag[`G`].dnat[`T`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnat[`T`].dnat[`T`].dnac[`C`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`]<br>
-.dnat[`T`].dnat[`T`].dnag[`G`].dnac[`C`].dnaa[`A`].dnag[`G`].dnaa[`A`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnag[`G`].dnac[`C`].dnag[`G`].dnac[`C`].dnaa[`A`].dnat[`T`].dnag[`G`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnat[`T`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnat[`T`].dnat[`T`].dnag[`G`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnaa[`A`]<br>
-.dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnag[`G`].dnac[`C`].dnat[`T`].dnat[`T`].dnaa[`A`].dnag[`G`].dnag[`G`].dnag[`G`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnat[`T`].dnag[`G`].dnat[`T`].dnat[`T`].dnac[`C`].dnaa[`A`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnat[`T`].dnag[`G`]<br>
-]
-
-.references[
-Jain et al. [Biological Sequence Design with GFlowNets](https://arxiv.org/abs/2203.04115), ICML, 2022.
-]
-
----
-
-##  GFlowNets extensions and applications
-### Review paper
+##  GFlowNets review paper
 
 A review of the potential of GFlowNets for AI-driven scientific discoveries.
 
@@ -1166,493 +1158,6 @@ Open sourced GFlowNet package, together with Mila collaborators: Nikita Saxena, 
 
 .highlight2[Open source GFlowNet implementation]: [github.com/alexhernandezgarcia/gflownet](https://github.com/alexhernandezgarcia/gflownet)
 
---
-
-* A key design principle is the simplicity to create new environments.
-* Current environments: Tetris, hyper-grid, hyper-cube, hyper-torus, scrabble, crystals, molecules, DNA...
-* Discrete and continuous environments, multiple loss functions, etc.
-* Visualisation of results on WandDB
-
----
-
-count: false
-
-## GFlowNet Python package
-
-Open sourced GFlowNet package, together with Mila collaborators: Nikita Saxena, Alexandra Volokhova, Michał Koziarski, Divya Sharma, Pierre Luc Carrier, Victor Schmidt, Joseph Viviano.
-
-.highlight2[Open source GFlowNet implementation]: [github.com/alexhernandezgarcia/gflownet](https://github.com/alexhernandezgarcia/gflownet)
-
-Research articles supported by this GFlowNet package:
-
-.smaller[
-* Lahlou et al. [A Theory of Continuous Generative Flow Networks](https://arxiv.org/abs/2301.12594), ICML, 2023. 
-* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://openreview.net/forum?id=dLaazW9zuF). TMLR (in _print_) 2024.
-* Mila AI4Science et al. [Crystal-GFN: sampling crystals with desirable properties and constraints](https://arxiv.org/abs/2310.04925). AI4Mat, NeurIPS 2023 (spotlight).
-* Volokhova, Koziarski et al. [Towards equilibrium molecular conformation generation with GFlowNets](https://arxiv.org/abs/2310.14782). Digital Discovery, NeurIPS 2023.
-* Several other ongoing projects...
-]
-
----
-
-count: false
-name: crystal-gfn
-class: title, middle
-
-## Crystal-GFN: GFlowNets for materials discovery
-
-Mila AI4Science: Alex Hernandez-Garcia, Alexandre Duval, Alexandra Volokhova, Yoshua Bengio, Divya Sharma, Pierre Luc Carrier, Yasmine Benabed, Michał Koziarski, Victor Schmidt, Pierre-Paul De Breuck
-
-.smaller70[Mila AI4Science et al. [Crystal-GFN: sampling crystals with desirable properties and constraints](https://arxiv.org/abs/2310.04925). AI4Mat, NeurIPS 2023 (spotlight).]
-
-.center[![:scale 20%](../assets/images/slides/materials/lithium_oxide_crystal.png)]
-
-
----
-
-## What are crystals?
-
-Definition: A crystal or crystalline solid is a solid material whose constituents (such as atoms, molecules, or ions) are arranged in a .highlight1[highly ordered microscopic structure], forming .highlight1[a crystal lattice that extends in all directions].
-
-.left-column[
-.center[![:scale 70%](../assets/images/slides/crystals/crystals_polycrystalline_amorphous.png)]
-]
-.right-column[
-.center[![:scale 30%](../assets/images/slides/materials/lithium_oxide_crystal.png)]
-]
-
---
-
-Here, we are concerned mainly with _inorganic crystals_, where the constituents are atoms or ions.
-
---
-
-A crystal structure is characterized by its .highlight1[unit cell], a small imaginary box containing atoms in a specific spatial arrangement with certain symmetry. The unit cell repeats iself periodically in all directions.
-
----
-
-## Why do we care about crystals?
-
-.context35[Materials discovery can help reduce greenhouse gas emissions in multiple sectors.]
-
---
-
-<br>
-Many solid state materials are crystal structures and they are a core component of:
-
-* Electrocatalysts for fuel cells, hydrogen storage, industrial chemical reactions, carbon capture, etc.
-* Solid electrolytes for batteries.
-* Thin film materials for photovoltaics.
-* ...
-
---
-
-However, .highlight1[material modelling is very challenging]:
-* Limited data: only about 200 K known inorganic materials, but potentially $10^{180}$ possible stable materials (for reference: more than a billion molecules are known)
-* Sparsity: .highlight2[stable materials] only exist in a low-dimensional subspace of all possible 3D arrangements.
-
---
-
-.conclusion[There is a need for efficient generative models of crystal structures.]
-
----
-
-## A domain-inspired approach
-### Crystal structure parameters
-
-.context[Most previous works tackle crystal structure generation in the space of atomic coordinates and struggle to preserve the symmetry properties.]
-
---
-
-Instead of optimising the atom positions by learning from a small data set, we draw .highlight1[inspiration from theoretical crystallography to sample crystals in a lower-dimensional space of crystal structure parameters].
-
---
-
-.highlight2[Space group]: symmetry operations of a repeating pattern in space that leave the pattern unchanged.
-
---
-
-- There are 17 symmetry groups in 2 dimensions (wallpaper groups).
-- There are 230 space groups in 3 dimensions.
-
----
-
-count: false
-
-## A domain-inspired approach
-### Crystal structure parameters
-
-.context[Most previous works tackle crystal structure generation in the space of atomic coordinates and struggle to preserve the symmetry properties.]
-
-Instead of optimising the atom positions by learning from a small data set, we draw .highlight1[inspiration from theoretical crystallography to sample crystals in a lower-dimensional space of crystal structure parameters].
-
-.highlight2[Lattice system]: all 230 space groups can be classified into one of the 7 lattices.
-
-.center[
-<div style="display: flex">
-  <div style="flex: 14%;">
-  <figure>
-      <img src="../assets/images/slides/crystals/lattices/triclinic.png" alt="Triclinic" style="width: 100%">
-    <figcaption><small>Triclinic</small></figcaption>
-  </figure>
-  </div>
-  <div style="flex: 14%;">
-  <figure>
-      <img src="../assets/images/slides/crystals/lattices/monoclinic.png" alt="Monoclinic" style="width: 100%">
-    <figcaption><small>Monoclinic</small></figcaption>
-  </figure>
-  </div>
-  <div style="flex: 14%;">
-  <figure>
-      <img src="../assets/images/slides/crystals/lattices/orthorhombic.png" alt="Orthorhombic" style="width: 100%">
-    <figcaption><small>Orthorhombic</small></figcaption>
-  </figure>
-  </div>
-  <div style="flex: 14%;">
-  <figure>
-      <img src="../assets/images/slides/crystals/lattices/tetragonal.png" alt="Tetragonal" style="width: 100%">
-    <figcaption><small>Tetragonal</small></figcaption>
-  </figure>
-  </div>
-  <div style="flex: 14%;">
-  <figure>
-      <img src="../assets/images/slides/crystals/lattices/rhombohedral.png" alt="Rhombohedral" style="width: 100%">
-    <figcaption><small>Rhombohedral</small></figcaption>
-  </figure>
-  </div>
-  <div style="flex: 14%;">
-  <figure>
-      <img src="../assets/images/slides/crystals/lattices/hexagonal.png" alt="Hexagonal" style="width: 100%">
-    <figcaption><small>Hexagonal</small></figcaption>
-  </figure>
-  </div>
-  <div style="flex: 14%;">
-  <figure>
-      <img src="../assets/images/slides/crystals/lattices/cubic.png" alt="Cubic" style="width: 100%">
-    <figcaption><small>Cubic</small></figcaption>
-  </figure>
-  </div>
-</div>
-]
-
----
-
-count: false
-
-## A domain-inspired approach
-### Crystal structure parameters
-
-.context[Most previous works tackle crystal structure generation in the space of atomic coordinates and struggle to preserve the symmetry properties.]
-
-Instead of optimising the atom positions by learning from a small data set, we draw .highlight1[inspiration from theoretical crystallography to sample crystals in a lower-dimensional space of crystal structure parameters].
-
-.highlight2[Lattice parameters]: The lattice's size and shape is characterised by 6 parameters: .highlight1[$a, b, c, \alpha, \beta, \gamma$].
-
-.center[![:scale 25%](../assets/images/slides/crystals/unit_cell.png)]
-
----
-
-## Crystal-GFlowNet
-### Sequential generation
-
-.center[![:scale 40%](../assets/images/slides/tetris/tree/tree_24.png)]
-
----
-
-count: false
-
-## Crystal-GFlowNet
-### Sequential generation
-
-.center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_init.png)]
-
----
-
-count: false
-
-## Crystal-GFlowNet
-### Sequential generation
-
-.center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_sg.png)]
-
----
-
-count: false
-
-## Crystal-GFlowNet
-### Sequential generation
-
-.center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_sg_output.png)]
-
----
-
-count: false
-
-## Crystal-GFlowNet
-### Sequential generation
-
-.center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_comp.png)]
-
----
-
-count: false
-
-## Crystal-GFlowNet
-### Sequential generation
-
-.center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_comp_output.png)]
-
----
-
-count: false
-
-## Crystal-GFlowNet
-### Sequential generation
-
-.center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_lp.png)]
-
----
-
-count: false
-
-## Crystal-GFlowNet
-### Sequential generation
-
-.center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_lp_output.png)]
-
----
-
-count: false
-
-## Crystal-GFlowNet
-### Sequential generation
-
-.center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_all.png)]
-
----
-
-count: false
-
-## Crystal-GFlowNet
-### Sequential generation
-
-.center[![:scale 100%](../assets/images/slides/crystals/crystalgfn_all.png)]
-
-.conclusion[Crystal-GFN binds multiple spaces representing crystallographic and material properties, setting intra- and inter-space hard constraints in the generation process.]
-
----
-
-## GFlowNet approach
-### Advantages
-
-.context[We generate materials in the lower-dimensional space of crystal structure parameters.]
-
-* Constructing materials by their crystal structure parameters allows us to introduce .highlight1[physicochemical and geometric _hard_ constraints]:
---
-
-    * Charge neutrality of the composition.
-    * Compatibility of composition and space group.
-    * Hierarchical structure of the space group.
-    * Compatibility of lattice parameters and lattice system.
---
-* .highlight1[Searching in the lower-dimensional space] of crystal structure parameters may be more efficient than in the space of atom coordinates.
-
---
-* Provided we have access to a predictive model of a material property, we can .highlight1[flexibly generate materials with desirable properties].
-
---
-* We can .highlight1[flexibly sample materials with specific characteristics, such as composition or space group]. 
-
----
-
-## Crystal-GFlowNet
-### Material properties
-
-We can train a Crystal-GFN with any reward function, provided it is computationally tractable. Therefore, we can use it to .highlight1[generate materials with different properties]. 
---
-We have tested the following properties:
-
-- .highlight2[Formation energy] per atom [eV/atom], via a pre-trained machine learning model: indicative of the material's stability.
-
---
-- .highlight2[Electronic band gap] [eV] (squared distance to a target value, 1.34 eV), via a pre-trained machine learning model: relevant in photovoltaics, for instance.
-
---
-- Unit cell .highlight2[density] [g/cm<sup>3</sup>]: convenient as a proof of concept because we can calculate it _exactly_ from the GFN outputs.
-
----
-
-count: false
-
-## Crystal-GFlowNet
-### Material properties
-
-We can train a Crystal-GFN with any reward function, provided it is computationally tractable. Therefore, we can use it to .highlight1[generate materials with different properties]. We have tested the following properties:
-
-- .highlight2[Formation energy] per atom [eV/atom], via a pre-trained machine learning model: indicative of the material's stability.
-- .highlight2[Electronic band gap] [eV] (squared distance to a target value, 1.34 eV), via a pre-trained machine learning model: relevant in photovoltaics, for instance.
-- .alpha50[Unit cell .highlight2[density] [g/cm<sup>3</sup>]: convenient as a proof of concept because we can calculate it _exactly_ from the GFN outputs.]
-
----
-
-## Results
-### Formation energy
-
-.context35[The formation energy correlates with stability. The lower, the better.]
-
-.center[![:scale 70%](../assets/images/slides/crystals/eform_distr_1.png)]
-
----
-
-count: false
-
-## Results
-### Formation energy
-
-.context35[The formation energy correlates with stability. The lower, the better.]
-
-.center[![:scale 70%](../assets/images/slides/crystals/eform_distr_2.png)]
-
----
-
-count: false
-
-## Results
-### Formation energy
-
-.context35[The formation energy correlates with stability. The lower, the better.]
-
-.center[![:scale 70%](../assets/images/slides/crystals/eform_distr_3.png)]
-
----
-
-count: false
-
-## Results
-### Formation energy
-
-.context35[The formation energy correlates with stability. The lower, the better.]
-
-.center[![:scale 70%](../assets/images/slides/crystals/eform_distr_4.png)]
-
----
-
-count: false
-
-## Results
-### Formation energy
-
-.context[.highlight1[After training, Crystal-GFN samples structures with even lower formation energy [eV/atom] than the validation set.]]
-
-.center[![:scale 70%](../assets/images/slides/crystals/eform_distr_4.png)]
-
----
-
-## Results
-### Band gap
-
-.context35[We aimed at sampling structures with band gap close to 1.34 eV.]
-
-.center[![:scale 70%](../assets/images/slides/crystals/bg_distr_1.png)]
-
----
-
-count: false
-
-## Results
-### Band gap
-
-.context35[We aimed at sampling structures with band gap close to 1.34 eV.]
-
-.center[![:scale 70%](../assets/images/slides/crystals/bg_distr_2.png)]
-
----
-
-count: false
-
-## Results
-### Band gap
-
-.context35[We aimed at sampling structures with band gap close to 1.34 eV.]
-
-.center[![:scale 70%](../assets/images/slides/crystals/bg_distr_3.png)]
-
----
-
-count: false
-
-## Results
-### Band gap
-
-.context35[We aimed at sampling structures with band gap close to 1.34 eV.]
-
-.center[![:scale 70%](../assets/images/slides/crystals/bg_distr_4.png)]
-
----
-
-count: false
-
-## Results
-### Band gap
-
-.context[.highlight1[After training, Crystal-GFN samples structures with band gap [eV] around the target value.]]
-
-.center[![:scale 70%](../assets/images/slides/crystals/bg_distr_4.png)]
-
----
-
-## Results
-### Diversity
-
-.context[.highlight2[Diversity] is key in materials discovery.]
-
-Analysis of 10,000 sampled crystals and the top-100 with lowest formation energy.
-
---
-
-- All 10,000 samples are unique.
-
---
-- All crystal systems, lattice systems and point symmetries found in the 10,000 samples.
-    - 4 out of 8 crystal-lattice systems in the top-100.
-    - 4 out of the 5 point symmetries in the top-100.
---
-- All 22 elements found in the 10,000 samples.
-    - 15 out of 22 elements in the top-100.
---
-- 73 out of 113 space groups (65 %) found in the 10,000 samples
-    - 19 out of 113 space groups in the top-100.
-
---
-
-.conclusion[Crystal-GFN samples are highly diverse.]
-
----
-
-## Crystal-GFN
-### Summary and conclusions
-
-.references[
-* Mila AI4Science et al. [Crystal-GFN: sampling crystals with desirable properties and constraints](https://arxiv.org/abs/2310.04925). AI4Mat, NeurIPS 2023 (spotlight).
-]
-
-* Discovering new crystal structures with desirable properties can help mitigate the climate crisis.
-
---
-* There are infinitely many conceivable crystals. Only a few are stable. Only a few stable crystals have interesting properties. This is a really hard problem.
-
---
-* Most methods in the literature struggle to preserve the symmetry properties of the crystals.
-
---
-* Crystal-GFN introduces .highlight1[physicochemical and structural constraints], reducing the search space.
-    * Crystal-GFN was trained in 30 hours in a CPU-only machine.
---
-* Our results show that we can generate .highlight1[diverse, high scoring samples with the desired constraints].
-
---
-* The .highlight1[framework can be flexibly extended] with more constraints, crystal structure descriptors (atomic positions) and other properties. 
-
 ---
 
 count: false
@@ -1664,7 +1169,7 @@ class: title, middle
 
 Nikita Saxena, Moksh Jain, Cheng-Hao Liu, Yoshua Bengio
 
-.smaller[[Multi-fidelity active learning with GFlowNets](https://openreview.net/forum?id=dLaazW9zuF). TMLR (in _print_), 2024.]
+.smaller[[Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). Transactions on Machine Learning Research (TMLR). 2024.]
 
 .center[![:scale 30%](../assets/images/slides/mfal/multiple_oracles.png)]
 
@@ -1683,7 +1188,7 @@ Nikita Saxena, Moksh Jain, Cheng-Hao Liu, Yoshua Bengio
 
 .left-column[
 Example: "incredibly hard" Tetris problem: find arrangements of Tetris pieces that optimise an .highlight2[unknown function $f$].
-- $f$: Oracle, cost per evaluation 1,000,000 ₩.
+- $f$: Oracle, cost per evaluation 1000 CAD.
 
 .center[
 <div style="display: flex">
@@ -1731,7 +1236,7 @@ count: false
 
 .left-column[
 Example: "incredibly hard" Tetris problem: find arrangements of Tetris pieces that optimise an .highlight2[unknown function $f$].
-- $f$: Oracle, cost per evaluation 1,000,000 ₩.
+- $f$: Oracle, cost per evaluation 1000 CAD.
 
 .center[
 <div style="display: flex">
@@ -1779,9 +1284,9 @@ count: false
 
 .left-column[
 Example: "incredibly hard" Tetris problem: find arrangements of Tetris pieces that optimise an .highlight2[unknown function $f$].
-- $f$: Oracle, cost per evaluation 1,000,000 ₩.
-- $f\_1$: Slightly inaccurate oracle, cost 10,000 ₩.
-- $f\_2$: Noisy but informative oracle, cost 100 ₩.
+- $f$: Oracle, cost per evaluation 1000 CAD.
+- $f\_1$: Slightly inaccurate oracle, cost 100 CAD.
+- $f\_2$: Noisy but informative oracle, cost 1 CAD.
 
 .center[
 <div style="display: flex">
@@ -1826,7 +1331,7 @@ count: false
 For example, in .highlight1[material discovery]:
 
 * .highlight1[Synthesis] of a material and characterisation of a property in the lab
-* Quantum mechanic .highlight1[simulations] to estimate the property
+* Molecular dynamic .highlight1[simulations] to estimate the property
 * .highlight1[Machine learning] models trained to predict the property
 ]
 
@@ -1863,291 +1368,22 @@ For example, in .highlight1[material discovery]:
 
 ## Our multi-fidelity active learning algorithm
 
-.center[![:scale 100%](../assets/images/slides/mfal/mfal_0.png)]
-
----
-
-count: false
-
-## Our multi-fidelity active learning algorithm
-
-.center[![:scale 100%](../assets/images/slides/mfal/mfal_1.png)]
-
----
-
-count: false
-
-## Our multi-fidelity active learning algorithm
-
-.center[![:scale 100%](../assets/images/slides/mfal/mfal_2.png)]
-
----
-
-count: false
-
-## Our multi-fidelity active learning algorithm
-
-.center[![:scale 100%](../assets/images/slides/mfal/mfal_3.png)]
-
----
-
-count: false
-
-## Our multi-fidelity active learning algorithm
-
-.center[![:scale 100%](../assets/images/slides/mfal/mfal_4.png)]
-
----
-
-count: false
-
-## Our multi-fidelity active learning algorithm
-
-.center[![:scale 100%](../assets/images/slides/mfal/mfal_5.png)]
-
----
-
-count: false
-
-## Our multi-fidelity active learning algorithm
-
-.center[![:scale 100%](../assets/images/slides/mfal/mfal_6.png)]
-
----
-
-count: false
-
-## Our multi-fidelity active learning algorithm
-
-.center[![:scale 100%](../assets/images/slides/mfal/mfal_7.png)]
-
----
-
-count: false
-
-## Our multi-fidelity active learning algorithm
-
-.center[![:scale 100%](../assets/images/slides/mfal/mfal_8.png)]
-
----
-
-count: false
-
-## Our multi-fidelity active learning algorithm
-
-.center[![:scale 100%](../assets/images/slides/mfal/mfal_9.png)]
-
----
-
-count: false
-
-## Our multi-fidelity active learning algorithm
-
-.center[![:scale 100%](../assets/images/slides/mfal/mfal_10.png)]
-
----
-
-count: false
-
-## Our multi-fidelity active learning algorithm
-
-.center[![:scale 100%](../assets/images/slides/mfal/mfal_11.png)]
-
----
-
-count: false
-
-## Our multi-fidelity active learning algorithm
-
-.center[![:scale 100%](../assets/images/slides/mfal/mfal_12.png)]
-
----
-
-count: false
-
-## Our multi-fidelity active learning algorithm
-
 .center[![:scale 100%](../assets/images/slides/mfal/mfal_13.png)]
 
 ---
 
-## Experiments
-### Baselines
+## Applications
+### Ongoing, planned and potential
 
-.context[This is the .highlight1[first multi-fidelity active learning algorithm tested on biological sequence design and molecular design problems]. There did not exist baselines from the literature.]
+* Discovering materials with high ionic conductivity for solid-state electrolyte batteries. 
 
---
+* Discovering novel antibiotics through a lab-in-the-loop approach.
 
-<br>
-* .highlight1[SF-GFN]: GFlowNet with highest fidelity oracle to establish a benchmark for performance without considering the cost-accuracy trade-offs.
+* Designing electrocatalysts for sustainability purposes.
 
---
-* .highlight1[Random]: Quasi-random approach where the candidates and fidelities are picked randomly and the top $(x, m)$ pairs scored by the acquisition function are queried.
+* Designing DNA aptamers and proteins that can bind to specific targets.
 
---
-* .highlight1[Random fid. GFN]: GFlowNet with random fidelities, to investigate the benefit of deciding the fidelity with GFlowNets.
-
---
-* .highlight1[MF-PPO]: Replacement of MF-GFN with a reinforcement learning algorithm to _optimise_ the acquisition function.
-
----
-
-## Small molecules
-
-- Realistic experiments with experimental oracles and costs that reflect the computational demands (1, 3, 7).
-- GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
-- Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
-
---
-
-.center[![:scale 50%](../assets/images/slides/mfal/molecules_ea_1.png)]
-
----
-
-count: false
-
-## Small molecules
-
-- Realistic experiments with experimental oracles and costs that reflect the computational demands (1, 3, 7).
-- GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
-- Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
-
-.center[![:scale 50%](../assets/images/slides/mfal/molecules_ea_2.png)]
-
----
-
-count: false
-
-## Small molecules
-
-- Realistic experiments with experimental oracles and costs that reflect the computational demands (1, 3, 7).
-- GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
-- Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
-
-.center[![:scale 50%](../assets/images/slides/mfal/molecules_ea_3.png)]
-
----
-
-count: false
-
-## Small molecules
-
-- Realistic experiments with experimental oracles and costs that reflect the computational demands (1, 3, 7).
-- GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
-- Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
-
-.center[![:scale 50%](../assets/images/slides/mfal/molecules_ea_4.png)]
-
----
-
-count: false
-
-## Small molecules
-
-- Realistic experiments with experimental oracles and costs that reflect the computational demands (1, 3, 7).
-- GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
-- Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
-
-.center[![:scale 50%](../assets/images/slides/mfal/molecules_ea_5.png)]
-
----
-
-count: false
-
-## Small molecules
-
-- Realistic experiments with experimental oracles and costs that reflect the computational demands (1, 3, 7).
-- GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
-- Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
-
-.center[![:scale 50%](../assets/images/slides/mfal/molecules_ea_6.png)]
-
----
-
-count: false
-
-## Small molecules
-
-- Realistic experiments with experimental oracles and costs that reflect the computational demands (1, 3, 7).
-- GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
-- Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
-
-.center[![:scale 50%](../assets/images/slides/mfal/molecules_ea_7.png)]
-
----
-
-count: false
-
-## Small molecules
-
-- Realistic experiments with experimental oracles and costs that reflect the computational demands (1, 3, 7).
-- GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
-- Property: Adiabatic .highlight1[ionisation potential (IP)]. Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
-
-.center[![:scale 50%](../assets/images/slides/mfal/molecules_ip.png)]
-
----
-
-## DNA aptamers
-
-- GFlowNet adds one nucleobase (`A`, `T`, `C`, `G`) at a time up to length 30. This yields a design space of size $|\mathcal{X}| = 4^{30}$. 
-- The objective function is the free energy estimated by a bioinformatics tool. 
-- The (simulated) lower fidelity oracle is a transformer trained with 1 million sequences.
-
---
-
-.center[![:scale 50%](../assets/images/slides/mfal/dna_6.png)]
-
----
-
-count: false
-
-## Antimicrobial peptides (AMP)
-
-- Protein sequences (20 amino acids) with variable length (max. 50).
-- The oracles are 3 ML models trained with different subsets of data.
-
---
-
-.center[![:scale 60%](../assets/images/slides/mfal/amp.png)]
-
----
-
-## How does multi-fidelity help?
-
-.context[Visualisation on the synthetic 2D Branin function task.]
-
-.center[![:scale 50%](../assets/images/slides/mfal/branin_samples_per_fid_3.png)]
-
----
-
-count: false
-
-## How does multi-fidelity help?
-
-.context[Visualisation on the synthetic 2D Branin function task.]
-
-.center[![:scale 50%](../assets/images/slides/mfal/branin_samples_per_fid_4.png)]
-
----
-
-count: false
-
-## How does multi-fidelity help?
-
-.context[Visualisation on the synthetic 2D Branin function task.]
-
-.center[![:scale 50%](../assets/images/slides/mfal/branin_samples_per_fid_5.png)]
-
----
-
-count: false
-
-## How does multi-fidelity help?
-
-.context[Visualisation on the synthetic 2D Branin function task.]
-
-.center[![:scale 50%](../assets/images/slides/mfal/branin_samples_per_fid_6.png)]
+* `<your application here>`
 
 ---
 
@@ -2155,7 +1391,7 @@ count: false
 ### Summary and conclusions
 
 .references[
-* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://openreview.net/forum?id=dLaazW9zuF). TMLR (in _print_), 2024.
+* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). Transactions on Machine Learning Research (TMLR). 2024.
 ]
 
 * Current ML for science methods do not utilise all the information and resources at our disposal.
@@ -2169,106 +1405,55 @@ count: false
 --
 * This is to our knowledge the first algorithm capable of effectively leveraging multi-fidelity oracles to discover diverse biological sequences and molecules.
 
+--
+* .highlight2[Open source code]: 
+    * [github.com/nikita-0209/mf-al-gfn](https://github.com/nikita-0209/mf-al-gfn)
+    * [github.com/alexhernandezgarcia/gflownet](https://github.com/alexhernandezgarcia/gflownet)
+
 ---
 
 ## Acknowledgements
 
-.columns-3-left[
-Victor Schmidt<br>
-Mélisande Teng<br>
-Alexandre Duval<br>
-Yasmine Benabed<br>
-Pierre Luc Carrier<br>
-Divya Sharma<br>
-Yoshua Bengio<br>
-Lena Simine<br>
-Michael Kilgour<br>
-...
+.columns-4[
+.center[![:scale 90%](../assets/images/slides/people/nikita_saxena.jpg)]
+.center[Nikita Saxena]
 ]
-
-.columns-3-center[
-Alexandra Volokhova<br>
-Michał Koziarski<br>
-Paula Harder<br>
-David Rolnick<br>
-Qidong Yang<br>
-Santiago Miret<br>
-Sasha Luccioni<br>
-Alexia Reynaud<br>
-Tianyu Zhang<br>
-...
+.columns-4[
+.center[![:scale 90%](../assets/images/slides/people/moksh_jain.jpg)]
+.center[Moksh Jain]
 ]
-
-.columns-3-right[
-Nikita Saxena<br>
-Moksh Jain<br>
-Cheng-Hao Liu<br>
-Kolya Malkin<br>
-Tristan Deleu<br>
-Salem Lahlou<br>
-Alvaro Carbonero<br>
-José González-Abad<br>
-Emmanuel Bengio<br>
-...
+.columns-4[
+.center[![:scale 90%](../assets/images/slides/people/chenghao_liu.jpg)]
+.center[Chenghao Liu]
 ]
-
-.conclusion[Science is a lot more fun when shared with bright and interesting people!]
+.columns-4[
+.center[![:scale 90%](../assets/images/slides/people/yoshua_bengio.jpg)]
+.center[Yoshua Bengio]
+]
 
 ---
 
-count: false
-
-name: title
+name: mila-visit-day-mar25
 class: title, middle
 
-## Overall summary and conclusions
-
-.center[![:scale 30%](../assets/images/slides/misc/conclusion.png)]
-
----
-
-## Summary and conclusions
-
-- Scientific discoveries can help us tackle the climate crisis and health challenges.
-
---
-- Machine learning has great potential to accelerate scientific discoveries. There are strong synergies between materials discovery and drug discovery methods.
-
---
-- With GFlowNets, we are able to address some important challenges: discover diverse candidates in very large, complex search spaces.
-
---
-- Crystal-GFN rethinks crystal structure generation by introducing domain knowledge and hard constraints to discover materials with desirable properties.
-
---
-- Multi-fidelity active learning with GFlowNets effectively leverages the availability of multiple oracles for the first time for certain scientific discovery problems.
-
----
-
-name: sait-jul24
-class: title, middle
-
-![:scale 40%](../assets/images/slides/climatechange/climate_health_ai.png)
+![:scale 40%](../assets/images/slides/climatechange/climate_health_ai_cycle.png)
 
 Alex Hernández-García (he/il/él)
 
 .center[
-<a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 4em"></a>
+<a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 3em"></a>
 &nbsp&nbsp&nbsp&nbsp
-<a href="https://www.umontreal.ca/"><img src="../assets/images/slides/logos/udem-white.png" alt="UdeM" style="height: 4em"></a>
+<a href="https://www.umontreal.ca/"><img src="../assets/images/slides/logos/udem-white.png" alt="UdeM" style="height: 3em"></a>
+&nbsp&nbsp&nbsp&nbsp
+<a href="https://institut-courtois.umontreal.ca/"><img src="../assets/images/slides/logos/institut-courtois.png" alt="Institut Courtois" style="height: 3em"></a>
+&nbsp&nbsp&nbsp&nbsp
+<a href="https://ivado.ca/"><img src="../assets/images/slides/logos/ivado.png" alt="IVADO" style="height: 3em"></a>
 ]
 
-.footer[[alexhernandezgarcia.github.io](https://alexhernandezgarcia.github.io/) | [alex.hernandez-garcia@mila.quebec](mailto:alex.hernandez-garcia@mila.quebec)]<br>
-.footer[[@alexhg@scholar.social](https://scholar.social/@alexhg) [![:scale 1em](../assets/images/slides/misc/mastodon.png)](https://scholar.social/@alexhg) | [@alexhdezgcia](https://twitter.com/alexhdezgcia) [![:scale 1em](../assets/images/slides/misc/twitter.png)](https://twitter.com/alexhdezgcia)]
+.highlight2[We are looking for students and collaborators to work on multi-fidelity active learning!]
+
+.footer[[alexhernandezgarcia.github.io](https://alexhernandezgarcia.github.io/) | [alex.hernandez-garcia@mila.quebec](mailto:alex.hernandez-garcia@mila.quebec)] | [alexhergar.bsky.social](https://bsky.app/profile/alexhergar.bsky.social) [![:scale 1em](../assets/images/slides/misc/bluesky.png)](https://bsky.app/profile/alexhergar.bsky.social)<br>
 
 .smaller[.footer[
 Slides: [alexhernandezgarcia.github.io/slides/{{ name }}](https://alexhernandezgarcia.github.io/slides/{{ name }})
 ]]
-
-<!--
-
-Abstract
-
-Science plays a fundamental role in tackling the most pressing challenges for humanity, such as the climate crisis and the threat of pandemics or antibiotic resistance. Meanwhile, the increasing capacity to generate large amounts of data, the progress in computer engineering and the maturity of machine learning methods offer an excellent opportunity to be put at the service of scientific progress. In this seminar, I would like to offer an overview of our recent work at Mila on machine learning research with an impact on climate and health: materials discovery, molecular modelling, biological sequence design, climate modelling and climate impacts visualisation. In particular, the focus will be on the potential of GFlowNets as a generative model for scientific discovery. I will offer an introduction to GFlowNets and explain how we have adapted this method to incorporate domain knowledge from crystallography, physics and chemistry in the form of hard constraints, to efficiently discover new materials with desirable properties. I will also present our recent algorithm for multi-fidelity active learning with GFlowNets, designed to efficiently explore combinatorially large, high-dimensional and mixed spaces (discrete and continuous), inspired by challenges in materials and drug discovery.
-
--->
