@@ -82,98 +82,6 @@ class: title, middle
 
 ---
 
-## Why scientific discoveries?
-### The potential of materials discovery
-
-.context["The time for action is now"]
-
---
-
-> "Limiting global warming will require major transitions in the energy sector. This will involve a substantial reduction in fossil fuel use, widespread electrification, .highlight1[improved energy efficiency, and use of alternative fuels (such as hydrogen)]." .cite[IPCC Sixth Assessment Report, 2022]
-
-> "Reducing industry emissions will entail coordinated action throughout value chains to promote all mitigation options, including demand management, .highlight1[energy and materials efficiency, circular material flows]." .cite[IPCC Sixth Assessment Report, 2022]
-
---
-
-<br>
-
-.conclusion[Mitigation of the climate crisis requires innovation in the materials sector.]
-
-???
-
-Antimicrobial resistance
-
-- https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance
-- https://www.who.int/news-room/feature-stories/detail/donors-making-a-difference--climate-change-and-its-impact-on-health
-- https://www.who.int/news/item/31-10-2022-who-and-wmo-launch-a-new-knowledge-platform-for-climate-and-health
-- https://www.who.int/news/item/08-02-2024-who-medically-important-antimicrobial-list-2024
-- https://cdn.who.int/media/docs/default-source/gcp/who-mia-list-2024-lv.pdf?sfvrsn=3320dd3d_2
-- https://www.who.int/publications/i/item/9789240047655
-
----
-
-## Why scientific discoveries?
-### The potential of drug discovery
-
-.context[Drug discovery and vaccine development play a crucial role in modern healthcare systems.]
-
-.right-column-33[
-.center[![:scale 100%](../assets/images/slides/drugs/who_amr.png)]
-]
-
----
-
-count: false
-
-## Why scientific discoveries?
-### The potential of drug discovery
-
-.context[Drug discovery and vaccine development play a crucial role in modern healthcare systems.]
-
-.right-column-33[
-.center[![:scale 100%](../assets/images/slides/drugs/who_amr.png)]
-]
-
-.left-column-66[
-.highlight1[Bacterial antimicrobial resistance] contributed to 4.95 million deaths in 2019. .cite[World Health Organisation (WHO), 2023]
-
-WHO's latest annual review identified 27 antibiotics in clinical development that address WHO bacterial priority pathogens, of which .highlight1[only 6 were classified as innovative].
-
-"The recently approved antibacterial agents are .highlight1[insufficient to tackle the challenge] of increasing emergence and spread of antimicrobial resistance". .cite[World Health Organisation (WHO), 2021]
-]
-
----
-
-count: false
-
-## Why scientific discoveries?
-### The potential of drug discovery
-
-.context[Drug discovery and vaccine development play a crucial role in modern healthcare systems.]
-
-.right-column-33[
-.center[
-<figure>
-	<img src="../assets/images/slides/drugs/who_notimetowait.png" alt="No time to wait" style="width: 55%">
-  <figcaption><small>"No time to wait". Source: <a href="https://www.who.int/docs/default-source/documents/no-time-to-wait-securing-the-future-from-drug-resistant-infections-en.pdf">WHO</a>.</small></figcaption>
-</figure>
-]
-]
-
-.left-column-66[
-.highlight1[Bacterial antimicrobial resistance] contributed to 4.95 million deaths in 2019. .cite[World Health Organisation (WHO), 2023]
-
-WHO's latest annual review identified 27 antibiotics in clinical development that address WHO bacterial priority pathogens, of which .highlight1[only 6 were classified as innovative].
-
-"The recently approved antibacterial agents are .highlight1[insufficient to tackle the challenge] of increasing emergence and spread of antimicrobial resistance". .cite[World Health Organisation (WHO), 2021]   
-]
-
-.full-width[
-.conclusion["No time to wait". Alongside other necessary actions, drug discovery plays a key role in tackling the antimicrobial resistance global threat.]
-]
-
----
-
 ## Machine Learning for Science
 
 .center[![:scale 60%](../assets/images/slides/climatechange/climate_health_ai.png)]
@@ -212,7 +120,7 @@ class: title, middle
 
 .left-column-33[
 <br>
-The .highlight1[traditional pipeline] for scientific discovery:
+The .highlight1[traditional cycle] for scientific discovery:
 * relies on .highlight1[highly specialised human expertise],
 * it is .highlight1[time-consuming] and
 * .highlight1[financially and computationally expensive].
@@ -503,7 +411,7 @@ count: false
 .center[![:scale 80%](../assets/images/slides/tetris/10x20/action_space_all_pieces.png)]
 ]
 
-.full-width[.conclusion[Materials and drug discovery involve finding candidates with rare properties from combinatorially or infinitely many options.]]
+.full-width[.conclusion[Materials and drug discovery involve finding **diverse** candidates in **combinatorially or infinitely large search spaces**, with **rare properties** that are **expensive to evaluate**.]]
 
 ---
 
@@ -593,7 +501,7 @@ count: false
 name: gflownets
 class: title, middle
 
-### A gentle introduction to GFlowNets
+### A brief introduction to Generative Flow Networks (GFlowNets)
 
 .center[![:scale 30%](../assets/images/slides/gfn-seq-design/flownet.gif)]
 
@@ -622,6 +530,12 @@ class: title, middle
 
 --
     - A machine learning model can learn the transition function $F(s\rightarrow s')$ and generalise the patterns.
+
+--
+
+.references[
+- [Skip to multi-fidelity active learning](#mfal)
+]
 
 ---
 
@@ -1068,33 +982,6 @@ For the Tetris problem, a meaningful decomposition of the samples is .highlight1
 
 ---
 
-count: false
-
-## 2. Compositionality
-### Sample generation process
-
-.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
-
-For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
-
-.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_24.png)]]
-
-.right-column[
-Objects $x \in \cal X$ are constructed through a sequence of actions from an .highlight1[action space $\cal A$].
-]
-
-.right-column[
-At each step of the .highlight1[trajectory $\tau=(s_0\rightarrow s_1 \rightarrow \dots \rightarrow s_f)$], we get a partially constructed object $s$ in .highlight1[state space $\cal S$].
-]
-
---
-
-.right-column[
-.conclusion[These ideas and terminology is reminiscent of reinforcement learning (RL).]
-]
-
----
-
 ## 3. Deep learning policy
 
 .context35[GFlowNets learn a sampling policy $\pi\_{\theta}(x)$ proportional to the reward $R(x)$.]
@@ -1384,52 +1271,6 @@ For example, in .highlight1[material discovery]:
 * Designing DNA aptamers and proteins that can bind to specific targets.
 
 * `<your application here>`
-
----
-
-## Multi-fidelity active learning with GFlowNets
-### Summary and conclusions
-
-.references[
-* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). Transactions on Machine Learning Research (TMLR). 2024.
-]
-
-* Current ML for science methods do not utilise all the information and resources at our disposal.
-
---
-* AI-driven scientific discovery demands learning methods that can .highlight1[efficiently discover diverse candidates in combinatorially large, high-dimensional search spaces].
-
---
-* .highlight1[Multi-fidelity active learning with GFlowNets] enables .highlight1[cost-effective exploration] of large, high-dimensional and structured spaces, and discovers multiple, diverse modes of black-box score functions.
-
---
-* This is to our knowledge the first algorithm capable of effectively leveraging multi-fidelity oracles to discover diverse biological sequences and molecules.
-
---
-* .highlight2[Open source code]: 
-    * [github.com/nikita-0209/mf-al-gfn](https://github.com/nikita-0209/mf-al-gfn)
-    * [github.com/alexhernandezgarcia/gflownet](https://github.com/alexhernandezgarcia/gflownet)
-
----
-
-## Acknowledgements
-
-.columns-4[
-.center[![:scale 90%](../assets/images/slides/people/nikita_saxena.jpg)]
-.center[Nikita Saxena]
-]
-.columns-4[
-.center[![:scale 90%](../assets/images/slides/people/moksh_jain.jpg)]
-.center[Moksh Jain]
-]
-.columns-4[
-.center[![:scale 90%](../assets/images/slides/people/chenghao_liu.jpg)]
-.center[Chenghao Liu]
-]
-.columns-4[
-.center[![:scale 90%](../assets/images/slides/people/yoshua_bengio.jpg)]
-.center[Yoshua Bengio]
-]
 
 ---
 
