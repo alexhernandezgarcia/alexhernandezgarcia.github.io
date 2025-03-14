@@ -501,7 +501,27 @@ count: false
 name: gflownets
 class: title, middle
 
-### A brief introduction to Generative Flow Networks (GFlowNets)
+### A gentle introduction to Generative Flow Networks (GFlowNets)
+
+.center[![:scale 30%](../assets/images/slides/gfn-seq-design/flownet.gif)]
+
+---
+
+count: false
+name: gflownets
+class: title, middle
+
+### A brief ~~gentle~~ introduction to Generative Flow Networks (GFlowNets)
+
+.center[![:scale 30%](../assets/images/slides/gfn-seq-design/flownet.gif)]
+
+---
+
+count: false
+name: gflownets
+class: title, middle
+
+### A lightning ~~brief gentle~~ introduction to Generative Flow Networks (GFlowNets)
 
 .center[![:scale 30%](../assets/images/slides/gfn-seq-design/flownet.gif)]
 
