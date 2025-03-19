@@ -72,6 +72,58 @@ class: title, middle
 
 ## Pourquoi l’IA est-elle énergivore ?
 
+--
+
+.highlight1[Réponse courte et simple]: Les modèles d'intelligence artificielle sont exécutés par des ordinateurs et les ordinateurs sont énergivores.
+
+--
+
+> _Mais un ordinateur n'est pas si énergivore par rapport à d'autres choses, non ?_
+
+--
+
+> _Pas de tout !_
+
+--
+
+> _Et alors ?_
+
+--
+
+<br><br><br>
+.conclusion[L'intelligence artificielle n'est pas _nécessairement_ énergivore. Il existe une IA efficace et à petite échelle. Le principal **problème est l'échelle** que nous avons atteinte.]
+
+---
+
+## Pourquoi l’IA est-elle énergivore ?
+### Une réponse plus nuancée
+
+--
+
+.left-column[
+Qu'est-ce qu'un modèle d'intelligence artificielle ?
+
+On peut considérer le pilier des modèles actuels d'intelligence artificielle comme des programmes informatiques qui transforment des données d'entrée par des opérations mathématiques pour produire des données de sortie.
+]
+
+.right-column[
+.center[
+<figure>
+	<img src="../assets/images/slides/ai-env-impact/schematic_neural_network.png" alt="Schematic of a neural network" style="width: 100%">
+  .smaller[<figcaption>Schéma d'un réseau neuronal très simple.</figcaption>]
+</figure>
+]
+]
+
+---
+
+## Pourquoi l’IA est-elle énergivore ?
+### Une réponse plus nuancée
+
+--
+
+Tout d'abord, il faut distinguer deux phases principales dans la vie d'un modèle d'IA: .highlight[entraînement] et .highlight1[déploiement]
+
 ---
 
 ## Estimation de la consommation d'énergie de l'IA
