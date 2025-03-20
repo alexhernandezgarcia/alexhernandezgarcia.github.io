@@ -91,10 +91,16 @@ class: title, middle
 
 --
 
-La question et la réponse sont plus complexes. Pour reflechir :
+La question et la réponse sont plus complexes. Pour y réfléchir :
 
 - Pourquoi le transport est-il énergivore ?
 - Pourquoi la production alimentaire est-elle énergivore ?
+
+???
+
+Walking and biking is not energy-demanding, but transportation within car culture and mindless flying is.
+
+Traditional agriculture is not energy-demanding, but food production based on animal products and fertilizers is.
 
 --
 
@@ -153,6 +159,10 @@ Certains modèles ne sont utilisés qu'avec modération. Les modèles comme Chat
 
 .conclusion[C'est le déploiement à grande échelle de très grands modèles qui pose problème dans un contexte de crise climatique.]
 
+???
+
+Talk about scaling is all you need and this philosophy promoted from the industry as part of a capitalist mindset.
+
 ---
 
 ## Estimation des émissions de carbone de l'IA
@@ -174,6 +184,23 @@ La quantité de CO2 équivalent [CO2eq] émise lors de l'entraînement d'un mod�
 $$C = T \times P \times I = E \times I$$
 
 ---
+
+## Estimation des émissions
+## de carbone de l'IA
+
+.context[Les facteurs principaux sont les temps d'entraînement, la puissance électrique et le facteur d'émission.]
+
+En 2022, avec Sasha Luccioni, nous avons réalisé une analyse des émissions de 95 modèles d'apprentissage automatique, en interrogeant les auteurs sur les détails de leur entraînement.
+
+.center[![:scale 75%](../assets/images/slides/counting-carbon/paper_title.png)]
+
+.references[
+Luccioni and Hernandez-Garcia. [Counting Carbon: A Survey of Factors Influencing the Emissions of Machine Learning](https://arxiv.org/abs/2302.08476). arXiv 2302.08476, 2023.
+]
+
+---
+
+count: false
 
 ## Estimation des émissions
 ## de carbone de l'IA
