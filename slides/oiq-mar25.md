@@ -412,6 +412,107 @@ class: title, middle
 
 ---
 
+## Le rôle des ingénieur·e·s dans la conception responsable des IA
+
+En tant qu'ingénieurs, nous sommes en mesure de concevoir : 
+- des algorithmes d'intelligence artificielle
+- des systèmes ou des infrastructures qui utilisent l'intelligence artificielle
+- des systèmes ou des infrastructures pour soutenir le développement de l'intelligence artificielle
+
+--
+
+.center[.bigger[.highlight1[Sommes-nous responsables des dommages humains et environnementaux causés par l'intelligence artificielle ?]]]
+
+--
+
+Cela pose d'autres questions :
+
+- Qu'entendons-nous par responsable ?
+- Comment mesurer et attribuer la responsabilité ?
+- Quels sont les positionnements qui s'offrent aux ingénieurs lorsque nous prenons conscience de nos rôles ?
+
+---
+
+## _The implicated subject_
+
+.left-column-66[Le livre _The Implicated Subject_  (Le sujet impliqué), de Michael Rothberg développe un cadre et un vocabulaire pour analyser la complexité de la responsabilité.]
+
+.right-column-33[![:scale 100%](../assets/images/slides/responsibility-ai/the_implicated_subject_cover.jpg)]
+
+--
+
+.left-column-66[
+> _An implicated subject is neither a victim nor a perpetrator, but rather a participant in histories and social formations that generate the positions of victim and perpetrator, and yet in which most people do not occupy such clear-cut roles. Less “actively” involved than perpetrators, implicated subjects do not fit the mold of the “passive” bystander, either._
+]
+
+--
+
+.left-column-66[
+> _Although indirect or belated, their actions and inactions help produce and reproduce the positions of victims and perpetrators._
+]
+
+---
+
+## Les ingénieurs en tant que sujets impliqués
+### Que peut-on faire ?
+
+À mon avis, se considérer comme un _sujet impliqué_ est utile pour .highlight1[développer des plans d'action] et se permettre de .highlight1[moduler son implication].
+
+--
+
+Mon attitude personnelle :
+
+1. Mieux comprendre les impacts non seulement directs mais aussi indirects de notre travail.
+
+--
+2. Développer des stratégies pour atténuer mon propre impact.
+
+--
+3. Considérer toujours le déclin comme une attitude valable.
+
+--
+4. Développer des stratégies pour atténuer l'impact systémique.
+
+--
+
+.conclusion[L'implication implique la responsabilité mais aussi la possibilité de changer la situation.]
+
+---
+
+## Pour en savoir plus
+
+.columns-4[.center[
+<figure>
+	<img src="../assets/images/slides/responsibility-ai/the_implicated_subject_cover.jpg" alt="The Implicated Subject, Michael Rothberg (2019)" style="width: 95%">
+  <figcaption>.smaller[[The Implicated Subject, Michael Rothberg (2019)](https://www.sup.org/books/literary-studies-and-literature/implicated-subject)]</figcaption>
+</figure>
+]]
+.columns-4[.center[
+<figure>
+	<img src="../assets/images/slides/science-as-critical-thinking/science_as_social_knowledge.gif" alt="Science as Social Knowledge, Helen Longino (1990)" style="width: 95%">
+  <figcaption>.smaller[[Science as Social Knowledge, Helen Longino (1990)](https://www.jstor.org/stable/j.ctvx5wbfz)]</figcaption>
+</figure>
+]]
+.columns-4[.center[
+<figure>
+	<img src="../assets/images/slides/science-as-critical-thinking/atlas_of_ai.jpg" alt="Atlas of AI, Kate Crawford (2021)" style="width: 95%">
+  <figcaption>.smaller[[Atlas of AI, Kate Crawford (2021)](https://en.wikipedia.org/wiki/Atlas_of_AI)]</figcaption>
+</figure>
+]]
+.columns-4[.center[
+<figure>
+	<img src="../assets/images/slides/science-as-critical-thinking/race_after_technology.jpg" alt="Race After Technology, Ruha Benjamin (2019)" style="width: 95%">
+  <figcaption>.smaller[[Race After Technology, Ruha Benjamin (2019)](https://en.wikipedia.org/wiki/Race_After_Technology)]</figcaption>
+</figure>
+]]
+
+.references[
+- Fernandes, Sano-Franchini and McIntyre. [What Is GenAI Refusal?](https://refusinggenai.wordpress.com/what-is-refusal/). 2024.
+- Abramovich and Ma. [Evaluating Refusal](https://evaleval.github.io/accepted_papers/EvalEval_24_Abramovich.pdf). 2024.
+]
+
+---
+
 count: false
 name: title
 class: title, middle
