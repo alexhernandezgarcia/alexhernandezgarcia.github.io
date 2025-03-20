@@ -47,7 +47,8 @@ Slides: [alexhernandezgarcia.github.io/slides/{{ name }}](https://alexhernandezg
   <figcaption>.center[.smaller[<a href="https://www.lapresse.ca/affaires/economie/2023-06-03/intelligence-artificielle/un-impact-environnemental-monstre.php">La Presse</a>, 3 juin 2023]]</figcaption>
 </figure>
 ]
-.left-column[
+.right-column[
+<br><br><br>
 <figure>
 	<img src="../assets/images/slides/ai-env-impact/news_science-presse.png" alt="L’empreinte environnementale sous-estimée de l’IA" style="width: 110%">
   <figcaption>.center[.smaller[<a href="https://www.sciencepresse.qc.ca/actualite/2024/02/26/empreinte-environnementale-estimee-ia">Science Presse</a>, 26 février 2024]]</figcaption>
@@ -86,11 +87,17 @@ class: title, middle
 
 --
 
-> _Et alors ?_
+> _Et donc ?_
 
 --
 
-<br><br><br>
+La question et la réponse sont plus complexes. Pour reflechir :
+
+- Pourquoi le transport est-il énergivore ?
+- Pourquoi la production alimentaire est-elle énergivore ?
+
+--
+
 .conclusion[L'intelligence artificielle n'est pas _nécessairement_ énergivore. Il existe une IA efficace et à petite échelle. Le principal **problème est l'échelle** que nous avons atteinte.]
 
 ---
@@ -115,6 +122,12 @@ On peut considérer le pilier des modèles actuels d'intelligence artificielle c
 ]
 ]
 
+--
+
+.right-column[
+.conclusion[Chaque opération mathématique consomme en peu d'énergie. Les grands modèles d'IA effectuent une myriade de ces opérations.]
+]
+
 ---
 
 ## Pourquoi l’IA est-elle énergivore ?
@@ -122,33 +135,270 @@ On peut considérer le pilier des modèles actuels d'intelligence artificielle c
 
 --
 
-Tout d'abord, il faut distinguer deux phases principales dans la vie d'un modèle d'IA: .highlight[entraînement] et .highlight1[déploiement]
+Il est important de distinguer deux phases principales dans la vie d'un modèle d'IA: .highlight1[entraînement] et .highlight1[déploiement]
+
+--
+
+- .highlight1[Entraînement]: Il s'agit du processus d'ajustement des poids qui modulent les opérations mathématiques dans le réseau neuronal afin que le modèle exécute avec succès la tâche souhaitée.
+
+Certains modèles s'entraînent sur un ordinateur portable en quelques minutes ou quelques heures. Les modèles comme ChatGPT nécessitent plusieurs semaines et de nombreux ordinateurs puissants.
+
+--
+
+- .highlight1[Déploiement]: Il s'agit de l'utilisation du modèle une fois qu'il a été entraîné.
+
+Certains modèles ne sont utilisés qu'avec modération. Les modèles comme ChatGPT sont utilisés par des millions d'utilisateurs chaque minute.
+
+--
+
+.conclusion[C'est le déploiement à grande échelle de très grands modèles qui pose problème dans un contexte de crise climatique.]
 
 ---
 
-## Estimation de la consommation d'énergie de l'IA
-
----
-
-## Estimation de la consommation d'énergie de l'IA
-### Facteurs importants pour les émissions de carbone
+## Estimation des émissions de carbone de l'IA
 
 De quoi dépendent la consommation d'énergie et les émissions de GES d'un modèle IA ?
 
-1. Temps des entraînements: somme totale du temps d'utilisation des machines de calcul (heures).
-2. Facteur d'émission: ratio entre la quantité de gaz à effet de serre émis par quantité d'électricité produite par la source d'énergie (grammes de dioxyde de carbone par kilowatt-heure).
-3. Consommation d'énergie des machines de calcul (watts).
+1. .highlight1[Temps des entraînements], $T$: somme totale du temps d'utilisation des machines de calcul (heures).
+2. .highlight1[Puissance électrique], $P$, des machines de calcul (watts).
+3. .highlight1[Facteur d'émission], $I$: ratio entre la quantité de gaz à effet de serre émis par quantité d'électricité produite par la source d'énergie (grammes de dioxyde de carbone par kilowatt-heure).
+
+.references[
+Luccioni and Hernandez-Garcia. [Counting Carbon: A Survey of Factors Influencing the Emissions of Machine Learning](https://arxiv.org/abs/2302.08476). arXiv 2302.08476, 2023.
+]
+
+--
+
+La quantité de CO2 équivalent [CO2eq] émise lors de l'entraînement d'un modèle, C:
+
+$$C = T \times P \times I = E \times I$$
+
+---
+
+## Estimation des émissions
+## de carbone de l'IA
+
+.context[Les facteurs principaux sont les temps d'entraînement, la puissance électrique et le facteur d'émission.]
+
+En 2022, avec Sasha Luccioni, nous avons réalisé une analyse des émissions de 95 modèles d'apprentissage automatique, en interrogeant les auteurs sur les détails de leur entraînement.
+
+.center[![:scale 75%](../assets/images/slides/counting-carbon/map_carbonintensity.png)]
+
+.references[
+Luccioni and Hernandez-Garcia. [Counting Carbon: A Survey of Factors Influencing the Emissions of Machine Learning](https://arxiv.org/abs/2302.08476). arXiv 2302.08476, 2023.
+]
+
+---
+
+count: false
+
+## Estimation des émissions
+## de carbone de l'IA
+
+.context[Les facteurs principaux sont les temps d'entraînement, la puissance électrique et le facteur d'émission.]
+
+En 2022, avec Sasha Luccioni, nous avons réalisé une analyse des émissions de 95 modèles d'apprentissage automatique, en interrogeant les auteurs sur les détails de leur entraînement.
+
+.center[![:scale 65%](../assets/images/slides/counting-carbon/map_carbonintensity.png)]
+
+.conclusion[Il existe de grandes différences dans le [facteur d'émission du réseau énergétique](https://ourworldindata.org/grapher/carbon-intensity-electricity). De ~10 gCO2eq/kWh dans le cas de l'énergie hydroélectrique à près de 700 gCO2eq/kWh pour le charbon.]
+
+---
+
+## Estimation des émissions
+## de carbone de l'IA
+
+.context[Les facteurs principaux sont les temps d'entraînement, la puissance électrique et le facteur d'émission.]
+
+.center[![:scale 65%](../assets/images/slides/counting-carbon/hardware.png)]
+
+.conclusion[Par contre, il n'existe de grandes différences de puissance électrique dans le hardware utilisé.]
+
+---
+
+## Estimation des émissions
+## de carbone de l'IA
+
+.context[Les facteurs principaux sont les temps d'entraînement, la puissance électrique et le facteur d'émission.]
+
+Le facteur d'émission depends du réseau énergétique et la puissance électrique est similaire pour les différentes options de hardware. .highlight1[Le facteur définitif restant est le temps d'entraînement].
+
+.center[![:scale 70%](../assets/images/slides/counting-carbon/energy_co2_sources.png)]
+
+--
+
+.conclusion[Il existe de grandes différences de temps d'entraînement et donc des émissions de CO2eq.]
+
+???
+
+In terms of training time, the models in our sample range from just about 15 minutes (total GPU/TPU time) up to more than 400,000 hours, with a median of 72 hours, pointing again to large variance in our sample. While the maximum of of 400,000 GPU hours (equivalent to about 170 days with 100 GPUs) in our sample seems very large, note that the total training time of GPT-3 was estimated to be over 3.5 million hours (14.8 days with 10,000 GPUs).
+
+The total carbon emissions of the models analyzed in our study is about 253 tons of CO2eq, which is equivalent to about 100 flights from London to San Francisco or from Nairobi to Beijing.
 
 ---
 
 ## Estimation de la consommation d'énergie de l'IA
 ### Comparison des modèles IA
 
-Est-ce que plus d'énergie et de CO2 conduisent à une meilleure performance du modèle ?
+Le modèle .highlight1[le plus léger] a été entraîné en .highlight1[15 minutes], tandis que l'un des modèles a nécessité 400 000 heures.
+
+--
+
+Le .highlight1[total des émissions] de carbone des modèles analysés dans notre étude (95) est d'environ .highlight1[253 tonnes de CO2eq], ce qui correspond à .highlight1[environ 100 vols] de Londres à San Francisco.
+
+--
+
+.highlight1[GPT-3], le prédécesseur de ChatGPT, a nécessité .highlight1[3,5 millions d'heures] d'entraînement (14,8 jours avec 10 000 GPU) et .highlight1[500 toones de CO2eq], ce qui équivaut à .highlight1[450 vols] transatlantiques.
+
+---
+
+## Comparison des modèles IA
+
+.context[Est-ce que plus d'énergie et de CO2 conduisent à une meilleure performance du modèle ?]
+
+<br>
+.center[![:scale 70%](../assets/images/slides/counting-carbon/energy_performance_pareto.png)]
+
+---
+
+count: false
+
+## Comparison des modèles IA
+
+.context[Est-ce que plus d'énergie et de CO2 conduisent à une meilleure performance du modèle ?]
+
+<br>
+.center[![:scale 55%](../assets/images/slides/counting-carbon/energy_performance_pareto.png)]
+
+.conclusion[L'une des conclusions de notre étude est qu'il n'existe qu'une faible corrélation entre la consommation d'énergie et la performance. _Plus gros n'est pas mieux_.]
+
+---
+
+## Comparison des modèles IA
+### Que dire des grands modèles de langage modernes ?
+
+Tout d'abord, les grandes entreprises ne fournissent pratiquement aucune information sur les besoins énergétiques de leurs modèles.
+
+Grâce au travail des chercheuses et chercheurs, nous en savons de plus en plus.
+
+--
+
+- Les émissions de carbone de l'entraînement de BLOOM ont été estimées à 25 tonnes de CO2eq. .cite[(Luccioni et al., 2022)]
+- Au plus fort de la popularité de ChatGPT en 2023, l'application consommait environ 564 mégawattheures d'électricité par jour, équivalent à la consommation quotidienne d'énergie d'environ 19 000 familles des États Unis. .cite[(de Vries, 2023)]
+
+.references[
+- Luccioni, Viguier, Ligozat. [Estimating the Carbon Footprint of BLOOM, a 176B Parameter Language Model](https://arxiv.org/abs/2211.02001). arXiv 2211.02001, 2022.
+- de Vries. [The growing energy footprint of artificial intelligence](https://www.cell.com/action/showPdf?pii=S2542435123003653). CellPress, 2023.
+- Luccioni, Jernite, Strubell. [Power Hungry Processing: Watts Driving the Cost of AI Deployment?](https://arxiv.org/abs/2311.16863). arXiv 2311.16863, 2023.
+- [AI Energy Score](https://huggingface.co/spaces/AIEnergyScore/Leaderboard)
+]
+
+---
+
+## Comparison des modèles IA
+### Que dire des grands modèles de langage modernes ?
+
+.center[![:scale 70%](../assets/images/slides/ai-env-impact/google_search_vs_chatgpt.png)]
+
+.references[
+de Vries. [The growing energy footprint of artificial intelligence](https://www.cell.com/action/showPdf?pii=S2542435123003653). CellPress, 2023.
+]
+
+---
+
+count: false
+
+## Comparison des modèles IA
+### Que dire des grands modèles de langage modernes ?
+
+.center[![:scale 65%](../assets/images/slides/ai-env-impact/google_search_vs_chatgpt.png)]
+
+.conclusion[Une interaction avec ChatGPT pourrait consommer 10 fois plus d'énergie qu'une recherche Google.]
+
+???
+
+Charging an average smartphone uses about 15 W.
+
+---
+
+## Comparison des modèles IA
+### Que dire des grands modèles de langage modernes ?
+
+.center[![:scale 50%](../assets/images/slides/ai-env-impact/comparison_nature.png)]
+
+.references[
+- [AI Energy Score](https://huggingface.co/spaces/AIEnergyScore/Leaderboard)
+- Chen. [How much energy will AI really consume? The good, the bad and the unknown](https://www.nature.com/articles/d41586-025-00616-z). Nature, News Feature, 2025.
+]
+
+---
+
+## Demande d'énergie des centres de données
+### Estimations actuelles et projections future
+
+.center[![:scale 60%](../assets/images/slides/ai-env-impact/data_centers.png)]
+
+.references[
+- Chen. [How much energy will AI really consume? The good, the bad and the unknown](https://www.nature.com/articles/d41586-025-00616-z). Nature, News Feature, 2025.
+]
+
+---
+
+## Autres impacts de l'IA
+
+.context[Les grands modèles d'IA déployés à grande échelle demandent beaucoup d'énergie et émettent donc des GES.]
+
+<br>
+Outre l'énergie, les centres de données et donc l'IA consomment de .highlight1[grandes quantités d'eau potable] et exigent des .highlight1[matériaux rares].
+
+De plus, il ne faut pas oublier l'impact social, comme les .highlight1[mauvaises conditions de travail] et l'.highlight1[accroissement des inégalités].
+
+.center[![:scale 50%](../assets/images/slides/ai-env-impact/water_usage_schematic.png)]
+
+.references[
+- Li et al. [Making AI Less "Thirsty": Uncovering and Addressing the Secret Water Footprint of AI Models](https://arxiv.org/abs/2304.03271). arXiv 2304.03271, 2023.
+- Crawford. [Atlas of AI](https://en.wikipedia.org/wiki/Atlas_of_AI), 2021
+]
 
 ---
 
 ## Initiatives pour réduire l'impact
+
+- Sensibilisation aux impacts environnementaux
+- Transparence améliorée des impacts sur l'environnement
+- Développement de modèles plus efficaces
+- Privilégier les modèles plus efficaces
+- Utilisation modérée, proportionnée et consciente des outils d'intelligence artificielle
+
+---
+
+## Sur l'utilisation consciente de l'IA
+
+.context35[Récemment, l'IA a été déployée dans un grand nombre de nos outils quotidiens.]
+
+<br>
+Copilot est un exemple d'intégration de l'IA dans les outils professionnels. Des chercheurs en France ont étudié son impact énergétique.
+
+.center[![:scale 60%](../assets/images/slides/responsibility-ai/copilot_usage.jpg)]
+
+.references[
+Coignion, Quinton, Rouvoy. [Green My LLM: Studying the key factors affecting the energy consumption of code assistants](https://arxiv.org/abs/2411.11892), arXiv 2411.11892, 2024.
+]
+
+---
+
+count: false
+
+## Sur l'utilisation consciente de l'IA
+
+.context35[Récemment, l'IA a été déployée dans un grand nombre de nos outils quotidiens.]
+
+<br>
+Copilot est un exemple d'intégration de l'IA dans les outils professionnels. Des chercheurs en France ont étudié son impact énergétique.
+
+.center[![:scale 60%](../assets/images/slides/responsibility-ai/copilot_usage.jpg)]
+
+.conclusion[La plupart des résultats de Copilot sont simplement gaspillés.]
 
 ---
 
@@ -174,17 +424,51 @@ class: title, middle
 
 ## Panorama des applications de l'IA pour l'ingénierie durable
 
+.highlight1[L'intelligence artificielle] ne doit pas être considérée comme la principale solution à la crise climatique, mais elle .highlight1[peut être utilisée dans de nombreux domaines] liés à l'.highlight1[atténuation] du changement climatique et à l'.highglight1[adaptation] à celui-ci.
+
 - Optimisation énergétique des bâtiments et infrastructures.
+- Optimisation de la production et de la distribution d'énergie
 - Prédiction et gestion des ressources naturelles.
-- Réduction des déchets industriels et amélioration des chaînes d'approvisionnement.
-- Applications dans la conception de matériaux innovants et l’ingénierie verte.
+- Optimisation des réseaux et de la gestion des transports
 - Amélioration des modèles climatiques
-- Sensibilisation au changement climatique par la visualisation
+- Sensibilisation au changement climatique
+- Applications dans la conception de matériaux innovants
+
+.references[
+Rolnick et al. [Tackling Climate Change with Machine Learning](https://dl.acm.org/doi/10.1145/3485128), ACM Computing Surveys, 2022.
+]
 
 ---
 
+## Panorama des applications de l'IA pour l'ingénierie durable
+
+.highlight1[L'intelligence artificielle] ne doit pas être considérée comme la principale solution à la crise climatique, mais elle .highlight1[peut être utilisée dans de nombreux domaines] liés à l'.highlight1[atténuation] du changement climatique et à l'.highglight1[adaptation] à celui-ci.
+
+- Optimisation énergétique des bâtiments et infrastructures.
+- Optimisation de la production et de la distribution d'énergie
+- Prédiction et gestion des ressources naturelles.
+- Optimisation des réseaux et de la gestion des transports
+- Amélioration des modèles climatiques
+- .highlight2[Sensibilisation au changement climatique]
+- .highlight2[Applications dans la conception de matériaux innovants]
+
+.references[
+Rolnick et al. [Tackling Climate Change with Machine Learning](https://dl.acm.org/doi/10.1145/3485128), ACM Computing Surveys, 2022.
+]
+
+---
+
+name: title
+class: title, middle
+
 ## Cas concret
 ### Sensibilisation au changement climatique
+
+.center[![:scale 30%](../assets/images/slides/vicc/placedesarts_flood.gif)]
+
+---
+
+## Sensibilisation au changement climatique
 
 Il y a un décalage entre la gravité de la crise climatique et les préoccupations du public à ce sujet.
 
@@ -422,21 +706,21 @@ https://thisclimatedoesnotexist.com/en/share/56d8058c-23d5-4083-b1b4-4afe6a5b2fe
 
 ---
 
-## Methods
-### Key challenges
+## Méthodes
+### Défis principaux
 
-.context[The algorithm had to be able to generate realistic floods on any photo from Google Street View.]
+.context[L'algorithme devait être capable de générer des inondations réalistes sur n'importe quelle photo de Google Street View.]
 
 --
 
 .left-column-66[
 
-* Visual perception is sensitive to unrealistic scenes:
-    * Water texture (reflections, luminosity, etc.)
-    * Geometry of the scene (edges, obstacles, etc.)
-    * Physics (slope, view point, etc.)
-* The algorithm was meant to be deployed _in the wild_ and should work with highly variant range of photos.
-* We had to overcome the lack of training data: there is no data set of photos of _before and after_ the flood.
+* La perception visuelle est sensible aux scènes irréalistes :
+    * Texture de l'eau (reflets, luminosité, etc.)
+    * Géométrie de la scène (bords, obstacles, etc.)
+    * Physique (pente, point de vue, etc.)
+* L'algorithme a été conçu pour être déployé _in the wild_ et devrait fonctionner avec une grande variété de photos.
+* Nous avons dû surmonter le manque de données d'entraînement : il n'existe pas de bases de donnés de photos avant et après une inondation.
 ]
 .right-column-33[
 .center[
@@ -447,19 +731,19 @@ https://thisclimatedoesnotexist.com/en/share/56d8058c-23d5-4083-b1b4-4afe6a5b2fe
 ---
 
 ## Methods
-### Key features
+### Caractéristiques principales
 
-.context[Simulating photo-realistic floods is challenging because visual perception is very sensitive to unrealistic scenes and the lack of data.]
+.context[La simulation d'inondations photo-réalistes est un défi car la perception visuelle est très sensible aux scènes irréalistes et au manque de données.]
 
 --
 
 .left-column[
 
-* Data from a .highlight1[simulated virtual word] to overcome the lack of training data
-* .highlight1[Domain adaptation] to bridge the gap between simulated and real photos
-* Two-stage flood generation: .highlight1[Masker] + .highlight1[Painter]
-* Combination of .highlight1[depth and semantic segmentation] to improve water mask predictions
-* .highlight1[Conditional image generation] to _paint_ realistic water on the predicted mask
+* Des données provenant d'un .highlight1[monde virtuel simulé] pour pallier le manque de données de formation
+* .highlight1[Domain adaptation] pour réduire l'écart entre les photos simulées et les photos réelles
+* Génération d'inondations en deux temps : .highlight1[Masker] + .highlight1[Painter]
+* Combinaison de la .highlight1[segmentation de profondeur] et de la .highlight1[segmentation sémantique] pour améliorer les prédictions de masque d'eau
+* .highlight1[Génération d'images conditionnelles] pour peindre de l'eau réaliste sur le masque prédit
 ]
 .right-column[
 ![:scale 100%](../assets/images/slides/vicc/climategan-overview.png)
@@ -467,189 +751,33 @@ https://thisclimatedoesnotexist.com/en/share/56d8058c-23d5-4083-b1b4-4afe6a5b2fe
 
 ---
 
-## ClimateGAN
-### Simulated data
+## Pour en savoir plus
 
-.context[We collected 1,200 photos of real floods and 5,500+ _non-flooded_ scenes to train our model. However, _real_ photos lack geometry and segmentation labels.]
-
-We simulated a $1.5~km^2$ virtual world and generated 20,000 images that mimic Google Street View.
-
-.center[![:scale 70%](../assets/images/slides/vicc/simworld_bird_eye.png)]
-
----
-
-count: false
-
-## ClimateGAN
-### Simulated data
-
-.context[We collected 1,200 photos of real floods and 5,500+ _non-flooded_ scenes to train our model. However, _real_ photos lack geometry and segmentation labels.]
-
-We simulated a $1.5~km^2$ virtual world and generated 20,000 images that mimic Google Street View.
-
-.center[![:scale 70%](../assets/images/slides/vicc/simdata.png)]
-
----
-
-## ClimateGAN
-### Masker
-
-.left-column[
-* Trained with _real_ and _simulated_ images
-* Domain adaptation with ADVENT
-* Depth decoder
-* Segmentation decoder
-* Mask decoder conditioned on depth and segmentation using SPADE
-* All decoders trained simultaneously (multi-task learning)
-]
-.right-column[
-![:scale 100%](../assets/images/slides/vicc/climategan-overview.png)
-]
-
-???
-
-* ADVENT: domain adaptation via adversarial entropy minimization, enriched with DADA (depth)
-* SPADE: conditional image generation
-
----
-
-counter: false
-
-## ClimateGAN
-### Masker
-
-.left-column[
-* Trained with _real_ and _simulated_ images
-* Domain adaptation with ADVENT
-* Depth decoder
-* Segmentation decoder
-* Mask decoder conditioned on depth and segmentation using SPADE
-* All decoders trained simultaneously (multi-task learning)
-]
-.right-column[
-![:scale 90%](../assets/images/slides/vicc/masker_examples.png)
-]
-
-.conclusion[The masker receives an input image and outputs a binary mask of the water location, making intermediate predictions of depth and semantic segmentation.]
-
----
-
-## ClimateGAN
-### Painter
-
-.left-column[
-* Trained with 1,200 real images of floods
-* The painter has to generate flooding water conditioned on the context of the image: sky, buildings, etc.
-* Conditional image generation with GauGAN
-* Conditioned on the Masked image
-* SPADE blocks
-]
-.right-column[
-![:scale 100%](../assets/images/slides/vicc/climategan-overview.png)
-]
-
----
-
-counter: false
-
-## ClimateGAN
-### Painter
-
-.left-column[
-* Trained with 1,200 real images of floods
-* The painter has to generate flooding water conditioned on the context of the image: sky, buildings, etc.
-* Conditional image generation with GauGAN
-* Conditioned on the Masked image
-* SPADE blocks
-]
-.right-column[
-![:scale 45%](../assets/images/slides/vicc/painter_examples.png)
-]
-
-.conclusion[The painter receives an input image and a mask prediction and outputs an image of a flood that we combine with the masked input.]
-
----
-
-## ClimateGAN
-### Masker + Painter
-
-.center[![:scale 80%](../assets/images/slides/vicc/masker_painter_examples.png)]
-
----
-
-## ClimateGAN
-### Comparison with other methods
-
-.center[![:scale 95%](../assets/images/slides/vicc/climategan_comparisons.png)]
-
----
-
-## ClimateGAN
-### Human evaluation
-
-.context[We asked human participants to assess the visual quality of the output images, compared to alternative algorithms.]
-
-_Which image looks more like an actual flood?_
-
-.center[![:scale 90%](../assets/images/slides/vicc/human_evaluation.png)]
-
-.conclusion[The images from our algorithm were consistently judged as more realistic than those from other methods.]
-
----
-
-## ClimateGAN
-### Ablation study
-
-.context[We systematically evaluated the contribution of several components of the algorithm.]
-
-* We annotated the pixels a set of _test_ images as _must be flooded_, _cannot be flooded_ or _may be flooded_.
-* We proposed 3 metrics to best evaluate the quality of the water masks: error, F05 score and _edge coherence_.
-
-.center[![:scale 30%](../assets/images/slides/vicc/labels_ex.png)]
-
----
-
-count: false
-
-## ClimateGAN
-### Ablation study
-
-.context[We systematically evaluated the contribution of several components of the algorithm.]
-
-* We analysed each component according to the three proposed metrics.
-
-.center[![:scale 80%](../assets/images/slides/vicc/bootstrap_summary.png)]
-
-.conclusion[5 of the 6 proposed components for the architecture proved to positively contribute to the performance.]
-
----
-
-## To know more
-
-Visit the website: [ThisClimateDoesNotExist.com](https://thisclimatedoesnotexist.com)
+Visitez le site web : [CeClimatNEXistePas.com](https://ceclimatnexistepas.com)
 
 .center[![:scale 50%](../assets/images/slides/vicc/website_snapshot_home.png)]
     
-Check the paper (ICLR 2022): [ClimateGAN: Raising Climate Change Awareness by Generating Images of Floods](https://arxiv.org/abs/2110.02871v1)
+Lisez l'article (ICLR 2022): [ClimateGAN: Raising Climate Change Awareness by Generating Images of Floods](https://arxiv.org/abs/2110.02871v1)
 
 .center[![:scale 70%](../assets/images/slides/vicc/climategan_arxiv.png)]
     
 ---
 
+name: title
+class: title, middle
+
 ## Cas concret
 ### Découverte de matériaux
 
+.center[![:scale 30%](../assets/images/slides/materials/lithium_oxide_crystal.png)]
+
 ---
 
-## Why AI against climate change?
-### The potential of scientific discoveries
+## Le potentiel des découvertes scientifiques
 
-.context[The climate crisis demands more efficient materials.]
-
-* Improving material efficiency can reduce 0.93 ($\pm$ 0.23) GtCO₂-eq per year.
-* Fuel switching can reduce 2.1 ($\pm$ 0.52) GtCO₂-eq per year, only in the industry sector. 
-* Carbon capture and storage can reduce 0.54 ($\pm$ 0.27) GtCO₂-eq per year in the energy sector.
-
+* L'amélioration de l'efficacité des matériaux peut réduire 0.93 ($\pm$ 0.23) GtCO₂-eq par an.
+* Le changement de combustible peut réduire 2.1 ($\pm$ 0.52) GtCO₂-eq par an, uniquement dans le secteur industriel. 
+* Le captage et le stockage du carbone peuvent réduire 0.54 ($\pm$ 0.27) GtCO₂-eq par an, dans le secteur énergetique.
 .right[.cite[IPCC Sixth Assessment Report (2022)]]
 
 .smaller[.footnote[† Global anthropogenic emissions in 2019 were estimated in 59 ($\pm$ 6.6) GtCO₂-eq. The budget from 2020 to limit warming to 1.5°C is estimated in 510 ($\pm$ 180) GtCO₂-eq.]]
@@ -658,36 +786,27 @@ Check the paper (ICLR 2022): [ClimateGAN: Raising Climate Change Awareness by Ge
 
 count: false
 
-## Why AI against climate change?
-### The potential of scientific discoveries
+## Le potentiel des découvertes scientifiques
 
-.context[The climate crisis demands more efficient materials.]
-
-* Improving material efficiency can reduce 0.93 ($\pm$ 0.23) GtCO₂-eq per year.
-* Fuel switching can reduce 2.1 ($\pm$ 0.52) GtCO₂-eq per year, only in the industry sector. 
-* Carbon capture and storage can reduce 0.54 ($\pm$ 0.27) GtCO₂-eq per year in the energy sector.
-
+* L'amélioration de l'efficacité des matériaux peut réduire 0.93 ($\pm$ 0.23) GtCO₂-eq par an.
+* Le changement de combustible peut réduire 2.1 ($\pm$ 0.52) GtCO₂-eq par an, uniquement dans le secteur industriel. 
+* Le captage et le stockage du carbone peuvent réduire 0.54 ($\pm$ 0.27) GtCO₂-eq par an, dans le secteur énergetique.
 .right[.cite[IPCC Sixth Assessment Report (2022)]]
 
-What are better, new materials needed for?
+Quels sont les besoins en matériaux innovants ?
 
-* Electrocatalysts for fuel cells, hydrogen storage, industrial chemical reactions, carbon capture, etc.
-* Solid electrolytes for batteries.
-* Thin film materials for photovoltaics.
+* Électrocatalyseurs pour les piles à combustible, le stockage de l'hydrogène, les réactions chimiques industrielles, la capture du carbone, etc.
+* Électrolytes solides pour batteries.
+* _Thin film materials_ pour l'énergie photovoltaïque.
 * ...
 
 .smaller[.footnote[† Global anthropogenic emissions in 2019 were estimated in 59 ($\pm$ 6.6) GtCO₂-eq. The budget from 2020 to limit warming to 1.5°C is estimated in 510 ($\pm$ 180) GtCO₂-eq.]]
 
 ---
 
-## Why AI against climate change?
-### Scientific discoveries in history
+## Découvertes scientifiques dans l'histoire
 
-.context35[Material discovery is a key ingredient for climate change mitigation.]
-
---
-
-Many notable scientific discoveries have occurred due to .highlight1[serendipity] or .highlight1[by accident]:
+De nombreuses découvertes scientifiques notables ont été faites par .highlight1[sérendipité] ou par .highlight1[accident] :
 
 --
 
@@ -701,25 +820,18 @@ Many notable scientific discoveries have occurred due to .highlight1[serendipity
 --
 
 <br>
-.conclusion[Clearly, we should not rely on serendipity to fight climate change.]
-
-???
-
-Joke experience with some of them, like penicillin and superglue.
+.conclusion[Il est clair que nous ne devons pas compter sur la sérendipité pour lutter contre le changement climatique.]
 
 ---
 
 count: false
 
-## Why AI against climate change?
-### Scientific discoveries in history
-
-.context35[Material discovery is a key ingredient for climate change mitigation.]
+## Découvertes scientifiques dans l'histoire
 
 .center[
 <figure>
 	<img src="../assets/images/slides/materials/paradigms_scientific_discovery_0.png" alt="Four paradigms of concrete science: empirical, theoretical, computational, and data-driven." style="width: 65%">
-  <figcaption>Four paradigms in scientific discovery. Source: <a href="https://www.nature.com/articles/s41524-022-00810-x">Li et al., 2022</a>. (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
+  <figcaption>Quatre paradigmes dans la découverte scientifique. Source: <a href="https://www.nature.com/articles/s41524-022-00810-x">Li et al., 2022</a>. (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
 </figure>
 ]
 
@@ -735,15 +847,12 @@ Example of concrete: most prevalent human-made material on Earth, and the most c
 
 count: false
 
-## Why AI against climate change?
-### Scientific discoveries in history
-
-.context35[Material discovery is a key ingredient for climate change mitigation.]
+## Découvertes scientifiques dans l'histoire
 
 .center[
 <figure>
 	<img src="../assets/images/slides/materials/paradigms_scientific_discovery_1.png" alt="Four paradigms of concrete science: empirical, theoretical, computational, and data-driven." style="width: 65%">
-  <figcaption>Four paradigms in scientific discovery. Source: <a href="https://www.nature.com/articles/s41524-022-00810-x">Li et al., 2022</a>. (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
+  <figcaption>Quatre paradigmes dans la découverte scientifique. Source: <a href="https://www.nature.com/articles/s41524-022-00810-x">Li et al., 2022</a>. (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
 </figure>
 ]
 
@@ -759,15 +868,12 @@ Concrete: The properties and performance of concrete can be tailored to meet des
 
 count: false
 
-## Why AI against climate change?
-### Scientific discoveries in history
-
-.context35[Material discovery is a key ingredient for climate change mitigation.]
+## Découvertes scientifiques dans l'histoire
 
 .center[
 <figure>
 	<img src="../assets/images/slides/materials/paradigms_scientific_discovery_2.png" alt="Four paradigms of concrete science: empirical, theoretical, computational, and data-driven." style="width: 65%">
-  <figcaption>Four paradigms in scientific discovery. Source: <a href="https://www.nature.com/articles/s41524-022-00810-x">Li et al., 2022</a>. (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
+  <figcaption>Quatre paradigmes dans la découverte scientifique. Source: <a href="https://www.nature.com/articles/s41524-022-00810-x">Li et al., 2022</a>. (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
 </figure>
 ]
 
@@ -785,15 +891,12 @@ Beginning in the 1980s, the development of microstructural models of cement hydr
 
 count: false
 
-## Why AI against climate change?
-### Scientific discoveries in history
-
-.context35[Material discovery is a key ingredient for climate change mitigation.]
+## Découvertes scientifiques dans l'histoire
 
 .center[
 <figure>
 	<img src="../assets/images/slides/materials/paradigms_scientific_discovery_3.png" alt="Four paradigms of concrete science: empirical, theoretical, computational, and data-driven." style="width: 65%">
-  <figcaption>Four paradigms in scientific discovery. Source: <a href="https://www.nature.com/articles/s41524-022-00810-x">Li et al., 2022</a>. (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
+  <figcaption>Quatre paradigmes dans la découverte scientifique. Source: <a href="https://www.nature.com/articles/s41524-022-00810-x">Li et al., 2022</a>. (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
 </figure>
 ]
 
@@ -811,15 +914,12 @@ In this context, the use of density-functional theory (DFT) and classical molecu
 
 count: false
 
-## Why AI against climate change?
-### Scientific discoveries in history
-
-.context35[Material discovery is a key ingredient for climate change mitigation.]
+## Découvertes scientifiques dans l'histoire
 
 .center[
 <figure>
 	<img src="../assets/images/slides/materials/paradigms_scientific_discovery_4.png" alt="Four paradigms of concrete science: empirical, theoretical, computational, and data-driven." style="width: 65%">
-  <figcaption>Four paradigms in scientific discovery. Source: <a href="https://www.nature.com/articles/s41524-022-00810-x">Li et al., 2022</a>. (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
+  <figcaption>Quatre paradigmes dans la découverte scientifique. Source: <a href="https://www.nature.com/articles/s41524-022-00810-x">Li et al., 2022</a>. (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
 </figure>
 ]
 
@@ -835,118 +935,122 @@ By leveraging existing datasets with data-driven models, ML can automatically le
 
 ---
 
-## Traditional scientific discovery loop
+## Cycle de découverte traditionnel
 
-.right-column-66[<br>.center[![:scale 90%](../assets/images/slides/materials/activelearning_noml.png)]]
+.context35[La crise climatique nécessite une accélération des découvertes scientifiques.]
 
-.left-column-33[
-The .highlight1[traditional pipeline] for scientific discovery (paradigms 1-3):
-* relies on .highlight1[highly specialised human expertise],
-* it is .highlight1[time-consuming] and
-* .highlight1[financially and computationally expensive].
-]
+--
 
----
-
-count: false
-
-## Machine learning in the loop
-
-.right-column-66[<br>.center[![:scale 90%](../assets/images/slides/materials/activelearning_ml.png)]]
+.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_1.png)]]
 
 .left-column-33[
-A .highlight1[machine learning model] can be:
-* trained with data from _real-world_ experiments and
-* used to quickly and cheaply evaluate queries
-]
-
----
-
-count: false
-
-## Machine learning in the loop
-
-.right-column-66[<br>.center[![:scale 90%](../assets/images/slides/materials/activelearning_ml.png)]]
-
-.left-column-33[
-A .highlight1[machine learning model] can be:
-* trained with data from _real-world_ experiments and
-* used to quickly and cheaply evaluate queries
-
-.conclusion[A machine learning model replacing real-world experiments can _only_ provide _linear_ gains.]
-
-.conclusion[Not enough if the search space is very large ($10^{180}$ stable materials)]
-]
-
----
-
-count: false
-
-## _Generative_ machine learning in the loop
-
-.context[Can we do better than _linear_?<br>An agent in the loop]
-
-.right-column-66[<br>.center[![:scale 90%](../assets/images/slides/materials/activelearning_agent.png)]]
-
-.left-column-33[
-A .highlight1[machine learning **agent**] in the loop can:
-* .highlight1[learn structure] from the available data,
-* .highlight1[generalise] to unexplored regions of the search space and
-* .highlight1[build better queries]
-]
-
----
-
-count: false
-
-## _Generative_ machine learning in the loop
-
-.context[Can we do better than _linear_?<br>An agent in the loop]
-
-.right-column-66[<br>.center[![:scale 90%](../assets/images/slides/materials/activelearning_agent.png)]]
-
-.left-column-33[
-A .highlight1[machine learning **agent**] in the loop can:
-* .highlight1[learn structure] from the available data,
-* .highlight1[generalise] to unexplored regions of the search space and
-* .highlight1[build better queries]
-
-.conclusion[A successful AL pipeline with an ML agent in the loop can provide _exponential_ gains.]
-]
-
-.references[
-Jain et al.. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/abs/2302.00615). Digital Discovery, Royal Society of Chemistry, 2023.
-]
-
----
-
-## AI in the scientific discovery loop
-### A new generative method: **GFlowNets**
-
-.context35[AI can boost multiple components of the scientific dicovery pipeline.]
-
 <br>
-.center[![:scale 50%](../assets/images/slides/materials/activelearning_agent.png)]
-
-.references[
-Jain et al.. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/abs/2302.00615). Digital Discovery, Royal Society of Chemistry, 2023.
+Le .highlight1[cycle traditionnnel] pour la découverte scientifique :
+* il repose .highlight1[sur l'expertise humaine],
+* il .highlight1[prend du temps] et
+* il est .highlight1[coûteux financièrement et en termes de calcul].
 ]
 
 ---
 
 count: false
 
-## AI in the scientific discovery loop
-### A new generative method: **GFlowNets**
+## Apprentissage (machine) _actif_
 
-.context35[AI can boost multiple components of the scientific dicovery pipeline.]
+.context35[Le cycle traditionnel est trop lent pour certaines applications.]
 
+.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_2.png)]]
+
+.left-column-33[
 <br>
-.center[![:scale 50%](../assets/images/slides/materials/activelearning_hl-gfn.png)]
-
-.references[
-Jain et al.. [GFlowNets for AI-Driven Scientific Discovery](https://arxiv.org/abs/2302.00615). Digital Discovery, Royal Society of Chemistry, 2023.
+Un .highlight1[modèle d'apprentissage automatique] peut être:
+* à partir de données provenant d'expériences réeles et
 ]
+
+---
+
+count: false
+
+## Apprentissage (machine) _actif_
+
+.context35[Le cycle traditionnel est trop lent pour certaines applications.]
+
+.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_2.png)]]
+
+.left-column-33[
+<br>
+Un .highlight1[modèle d'apprentissage automatique] peut être:
+* à partir de données provenant d'expériences réeles et
+* utilisé pour évaluer des candidats plus rapidement
+]
+
+---
+
+count: false
+
+## Apprentissage (machine) _actif_
+
+.context35[Le cycle traditionnel est trop lent pour certaines applications.]
+
+.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_2.png)]]
+
+.left-column-33[
+<br>
+Un .highlight1[modèle d'apprentissage automatique] peut être:
+* à partir de données provenant d'expériences réeles et
+* utilisé pour évaluer des candidats plus rapidement
+]
+
+.conclusion[Il existe une infinité de matériaux concevables, $10^{180}$ potentiellement stable et $10^{60}$ molecules médicamenteuses. Les modèles prédictifs sont-ils suffisants ?]
+]
+
+---
+
+count: false
+
+## Apprentissage (machine) _actif_ et _génératif_
+
+.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_4.png)]]
+
+.left-column-33[
+.highlight1[L'IA générative] peut:
+* .highlight1[apprendre la structure] à partir des donnés disponibles,
+* .highlight1[généraliser] aux régions inexplorées de l'espace de recherche et
+* .highlight1[proposer des meilleures candidats]
+]
+
+---
+
+count: false
+
+## Apprentissage (machine) _actif_ et _génératif_
+
+.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/loop_4.png)]]
+
+.left-column-33[
+.highlight1[L'IA générative] peut:
+* .highlight1[apprendre la structure] à partir des donnés disponibles,
+* .highlight1[généraliser] aux régions inexplorées de l'espace de recherche et
+* .highlight1[proposer des meilleures candidats]
+]
+
+.conclusion[L'apprentissage actif avec l'apprentissage machine génératif peut en théorie explorer plus efficacement l'espace des candidats.]
+]
+
+---
+
+## Résumé
+
+- Certains modèles actuels d'intelligence artificielle ont un impact environnemental important en raison de leur taille et de leur déploiement à grande échelle.
+	- Mais tous les modèles ne sont pas énergivores.
+
+--
+- En tant qu'ingénieurs, nous jouons un rôle important dans la durabilité du développement, de l'utilisation et de l'adoption de l'IA.
+
+--
+- L'intelligence artificielle peut être appliquée dans de nombreux domaines pour contribuer à la lutte contre la crise climatique. Par exemple :
+	- Sensibilisation au changement climatique
+	- Découverte scientifique
 
 ---
 
@@ -970,3 +1074,1112 @@ Alex Hernández-García (he/il/él)
 .smaller[.footer[
 Slides: [alexhernandezgarcia.github.io/slides/{{ name }}](https://alexhernandezgarcia.github.io/slides/{{ name }})
 ]]
+
+---
+
+count: false
+name: title
+class: title, middle
+
+### The challenges of scientific discoveries
+
+.center[![:scale 15%](../assets/images/slides/materials/lithium_oxide_crystal.png)]
+.center[![:scale 30%](../assets/images/slides/dna/dna_helix.png)]
+
+---
+
+count: false
+
+## An intuitive trivial problem
+
+.highlight1[Problem]: find one arrangement of Tetris pieces on the board that minimise the empty space.
+
+.left-column-33[
+.center[![:scale 30%](../assets/images/slides/tetris/board_empty.png)]
+]
+
+.right-column-66[
+.center[![:scale 40%](../assets/images/slides/tetris/action_space_minimal.png)]
+]
+
+--
+
+.full-width[.center[
+<figure>
+  <img src="../assets/images/slides/tetris/mode1.png" alt="Score 12" style="width: 3%">
+<figcaption>Score: 12</figcaption>
+</figure>
+]]
+
+---
+
+count: false
+
+## An intuitive ~~trivial~~ easy problem
+
+.highlight1[Problem]: find .highlight2[all] the arrangements of Tetris pieces on the board that minimise the empty space.
+
+.left-column-33[
+.center[![:scale 30%](../assets/images/slides/tetris/board_empty.png)]
+]
+
+.right-column-66[
+.center[![:scale 40%](../assets/images/slides/tetris/action_space_minimal.png)]
+]
+
+--
+
+.full-width[.center[
+<div style="display: flex">
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/mode1.png" alt="Score 12" style="width: 20%">
+    <figcaption>12</figcaption>
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/mode2.png" alt="Score 12" style="width: 20%">
+    <figcaption>12</figcaption>
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/mode3.png" alt="Score 12" style="width: 20%">
+    <figcaption>12</figcaption>
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/mode4.png" alt="Score 12" style="width: 20%">
+    <figcaption>12</figcaption>
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/mode5.png" alt="Score 12" style="width: 20%">
+    <figcaption>12</figcaption>
+  </figure>
+  </div>
+</div>
+]]
+
+---
+
+count: false
+
+## An intuitive ~~easy~~ hard problem
+
+.highlight1[Problem]: find .highlight2[all] the arrangements of Tetris pieces on the board that minimise the empty space.
+
+.left-column-33[
+.center[![:scale 40%](../assets/images/slides/tetris/10x20/board_empty.png)]
+]
+
+.right-column-66[
+.center[![:scale 80%](../assets/images/slides/tetris/10x20/action_space_all_pieces.png)]
+]
+
+--
+
+.full-width[.center[
+<div style="display: flex">
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/mode1.png" alt="Random board" style="width: 40%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/mode2.png" alt="Random board" style="width: 40%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/mode3.png" alt="Random board" style="width: 40%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/mode4.png" alt="Random board" style="width: 40%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/mode5.png" alt="Random board" style="width: 40%">
+  </figure>
+  </div>
+</div>
+]]
+
+---
+
+count: false
+
+## An incredibly ~~intuitive easy~~ hard problem
+
+.highlight1[Problem]: find .highlight2[all] the arrangements of Tetris pieces on the board that .highlight2[optimise an unknown function].
+
+.left-column-33[
+.center[![:scale 40%](../assets/images/slides/tetris/10x20/board_empty.png)]
+]
+
+.right-column-66[
+.center[![:scale 80%](../assets/images/slides/tetris/10x20/action_space_all_pieces.png)]
+]
+
+--
+
+.full-width[.center[
+<div style="display: flex">
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_434.png" alt="Random board" style="width: 40%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_800.png" alt="Random board" style="width: 40%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_815.png" alt="Random board" style="width: 40%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_849.png" alt="Random board" style="width: 40%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_905.png" alt="Random board" style="width: 40%">
+  </figure>
+  </div>
+</div>
+]]
+
+---
+
+count: false
+
+## An incredibly ~~intuitive easy~~ hard problem
+
+.highlight1[Problem]: find .highlight2[all] the arrangements of Tetris pieces on the board that .highlight2[optimise an unknown function].
+
+.left-column-33[
+.center[![:scale 40%](../assets/images/slides/tetris/10x20/board_empty.png)]
+]
+
+.right-column-66[
+.center[![:scale 80%](../assets/images/slides/tetris/10x20/action_space_all_pieces.png)]
+]
+
+.full-width[.conclusion[Materials and drug discovery involve finding **diverse** candidates in **combinatorially or infinitely large search spaces**, with **rare properties** that are **expensive to evaluate**.]]
+
+---
+
+count: false
+
+## Why Tetris for scientific discovery?
+
+.context35[The "Tetris problem" involves .highlight1[sampling from an unknown distribution] in a .highlight1[discrete, high-dimensional, combinatorially large space].]
+
+---
+
+count: false
+
+## Why Tetris for scientific discovery?
+### Biological sequence design
+
+<br>
+Proteins, antimicrobial peptides (AMP) and DNA can be represented as sequences of amino acids or nucleobases. There are $22^{100} \approx 10^{134}$ protein sequences with 100 amino acids.
+
+.context35[The "Tetris problem" involves sampling from an unknown distribution in a discrete, high-dimensional, combinatorially large space]
+
+.center[![:scale 45%](../assets/images/slides/dna/dna_helix_annotated.png)]
+
+.left-column-66[
+.dnag[`G`].dnaa[`A`].dnag[`G`].dnag[`G`].dnag[`G`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnag[`G`].dnag[`G`].dnat[`T`].dnaa[`A`].dnac[`C`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`]<br>
+.dnat[`T`].dnac[`C`].dnaa[`A`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnac[`C`].dnag[`G`].dnaa[`A`].dnag[`G`].dnac[`C`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnat[`T`].dnag[`G`].dnat[`T`].dnaa[`A`].dnag[`G`].dnag[`G`].dnac[`C`].dnaa[`A`].dnag[`G`].dnac[`C`].dnag[`G`].dnat[`T`].dnac[`C`].dnac[`C`].dnat[`T`].dnaa[`A`].dnac[`C`].dnac[`C`].dnag[`G`].dnat[`T`].dnat[`T`].dnac[`C`].dnag[`G`]<br>
+.dnac[`C`].dnat[`T`].dnaa[`A`].dnac[`C`].dnag[`G`].dnac[`C`].dnag[`G`].dnat[`T`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnat[`T`].dnat[`T`].dnac[`C`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`]<br>
+.dnat[`T`].dnat[`T`].dnag[`G`].dnac[`C`].dnaa[`A`].dnag[`G`].dnaa[`A`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnag[`G`].dnac[`C`].dnag[`G`].dnac[`C`].dnaa[`A`].dnat[`T`].dnag[`G`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnat[`T`].dnag[`G`].dnag[`G`].dnag[`G`].dnag[`G`].dnat[`T`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnaa[`A`].dnag[`G`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnat[`T`].dnat[`T`].dnag[`G`].dnaa[`A`].dnat[`T`].dnaa[`A`].dnaa[`A`].dnaa[`A`].dnac[`C`].dnaa[`A`]<br>
+.dnag[`G`].dnac[`C`].dnat[`T`].dnac[`C`].dnag[`G`].dnac[`C`].dnat[`T`].dnat[`T`].dnaa[`A`].dnag[`G`].dnag[`G`].dnag[`G`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnac[`C`].dnat[`T`].dnac[`C`].dnac[`C`].dnat[`T`].dnac[`C`].dnat[`T`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnat[`T`].dnag[`G`].dnat[`T`].dnat[`T`].dnac[`C`].dnaa[`A`].dnat[`T`].dnac[`C`].dnag[`G`].dnaa[`A`].dnaa[`A`].dnat[`T`].dnag[`G`].dnag[`G`].dnaa[`A`].dnag[`G`].dnat[`T`].dnag[`G`]<br>
+]
+
+---
+
+count: false
+
+## Why Tetris for scientific discovery?
+### Molecular generation
+
+.context35[The "Tetris problem" involves sampling from an unknown distribution in a discrete, high-dimensional, combinatorially large space]
+
+<br>
+Small molecules can also be represented as sequences or by a combination of of higher-level fragments. There may be about $10^{60}$ drug-like molecules.
+
+.columns-3-left[
+.center[
+![:scale 90%](../assets/images/slides/drugs/melatonin.png)
+
+`CC(=O)NCCC1=CNc2c1cc(OC)cc2
+CC(=O)NCCc1c[nH]c2ccc(OC)cc12`
+]]
+
+.columns-3-center[
+.center[
+![:scale 90%](../assets/images/slides/drugs/thiamine.png)
+
+`OCCc1c(C)[n+](cs1)Cc2cnc(C)nc2N`
+]]
+
+.columns-3-right[
+.center[
+![:scale 60%](../assets/images/slides/drugs/nicotine.png)
+
+`CN1CCC[C@H]1c2cccnc2`
+]]
+
+---
+
+count: false
+
+## Why Tetris for scientific discovery?
+### Crystal structure generation
+
+.context35[The "Tetris problem" involves sampling from an unknown distribution in a discrete, high-dimensional, combinatorially large space]
+
+<br>
+Crystal structures can be described by their chemical composition, the symmetry group and the lattice parameters (and more generally by atomic positions).
+
+.left-column[
+.center[![:scale 60%](../assets/images/slides/materials/lithium_oxide_crystal.png)]
+]
+
+.right-column[
+.center[![:scale 50%](../assets/images/slides/crystals/unit_cell.png)]
+]
+
+.references[
+* Mila AI4Science et al. [Crystal-GFN: sampling crystals with desirable properties and constraints](https://arxiv.org/abs/2310.04925). AI4Mat, NeurIPS 2023 (spotlight).
+]
+
+---
+
+count: false
+name: gflownets
+class: title, middle
+
+### A gentle introduction to Generative Flow Networks (GFlowNets)
+
+.center[![:scale 30%](../assets/images/slides/gfn-seq-design/flownet.gif)]
+
+---
+
+count: false
+name: gflownets
+class: title, middle
+
+### A brief ~~gentle~~ introduction to Generative Flow Networks (GFlowNets)
+
+.center[![:scale 30%](../assets/images/slides/gfn-seq-design/flownet.gif)]
+
+---
+
+count: false
+name: gflownets
+class: title, middle
+
+### A lightning ~~brief gentle~~ introduction to Generative Flow Networks (GFlowNets)
+
+.center[![:scale 30%](../assets/images/slides/gfn-seq-design/flownet.gif)]
+
+---
+
+count: false
+
+## GFlowNets for science
+### 3 key ingredients
+
+.context[Materials and drug discovery involve .highlight1[sampling from unknown distributions] in .highlight1[discrete or mixed, high-dimensional, combinatorially large spaces.]]
+
+--
+
+<br><br>
+
+1. .highlight1[Diversity] as an objective.
+
+--
+    - Given a score or reward function $R(x)$, learn to _sample proportionally to the reward_.
+--
+2. .highlight1[Compositionality] in the sample generation.
+
+--
+    - A meaningful decomposition of samples $x$ into multiple sub-states $s_0\rightarrow s_1 \rightarrow \dots \rightarrow x$ can yield generalisable patterns.
+--
+3. .highlight1[Deep learning] to learn from the generated samples.
+
+--
+    - A machine learning model can learn the transition function $F(s\rightarrow s')$ and generalise the patterns.
+
+--
+
+.references[
+- [Skip to multi-fidelity active learning](#mfal)
+]
+
+---
+
+count: false
+
+## 1. Diversity as an objective
+
+.context[Many existing approaches treat scientific discovery as an _optimisation_ problem.]
+
+<br>
+Given a reward or objective function $R(x)$, GFlowNet can be seen a generative model trained to sample objects $x \in \cal X$ according to .highlight1[a sampling policy $\pi(x)$ proportional to the reward $R(x)$]: 
+
+--
+
+.left-column[
+$$\pi(x) = \frac{R(x)}{Z} \propto R(x)$$
+]
+
+--
+
+.right-column[
+$$Z = \sum_{x' \in \cal X} R(x')$$
+]
+
+--
+
+.full-width[
+.center[
+![:scale 2.5%](../assets/images/slides/tetris/unique_0.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_1.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_2.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_3.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_4.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_5.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_6.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_7.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_8.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_9.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_10.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_11.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_12.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_13.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_14.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_15.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_16.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_17.png)
+
+![:scale 2.5%](../assets/images/slides/tetris/unique_18.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_19.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_20.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_21.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_22.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_23.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_24.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_25.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_26.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_27.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_28.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_29.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_30.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_31.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_32.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_33.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_34.png)
+![:scale 2.5%](../assets/images/slides/tetris/unique_35.png)
+]]
+
+---
+
+count: false
+
+## 1. Diversity as an objective
+
+.context[Many existing approaches treat scientific discovery as an _optimisation_ problem.]
+
+<br>
+Given a reward or objective function $R(x)$, GFlowNet can be seen a generative model trained to sample objects $x \in \cal X$ according to .highlight1[a sampling policy $\pi(x)$ proportional to the reward $R(x)$]: 
+
+.left-column[
+$$\pi(x) = \frac{R(x)}{Z} \propto R(x)$$
+]
+
+.right-column[
+$$Z = \sum_{x' \in \cal X} R(x')$$
+]
+
+.full-width[
+&rarr; Sampling proportionally to the reward function enables finding .highlight1[multiple modes], hence .highlight1[diversity].
+
+.center[![:scale 20%](../assets/images/slides/gflownet/reward_landscape.png)]
+]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+The principle of compositionality is fundamental in semantics, linguistics, mathematical logic and is thought to be a cornerstone of human reasoning.
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+--
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_0.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_1.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_2.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_3.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_4.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_5.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_6.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_7.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_8.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_9.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_10.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_11.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_12.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_13.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_14.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_15.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_16.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_17.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_18.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_19.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_20.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_21.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_22.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_23.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_24.png)]]
+
+---
+
+count: false
+
+## 2. Compositionality
+### Sample generation process
+
+.context35[Sampling _directly_ from a complex, high-dimensional distribution is difficult.]
+
+For the Tetris problem, a meaningful decomposition of the samples is .highlight1[adding one piece to the board at a time].
+
+.left-column[.center[![:scale 85%](../assets/images/slides/tetris/tree/tree_24.png)]]
+
+.right-column[
+<br><br>
+.conclusion[The decomposition of the sampling process into meaningful steps yields patterns that may be correlated with the reward function and facilitates learning complex distributions.]
+]
+
+---
+
+count: false
+
+## 3. Deep learning policy
+
+.context35[GFlowNets learn a sampling policy $\pi\_{\theta}(x)$ proportional to the reward $R(x)$.]
+
+--
+
+.left-column[
+.center[![:scale 90%](../assets/images/slides/tetris/flows.png)]
+]
+
+---
+
+count: false
+
+## 3. Deep learning policy
+
+.context35[GFlowNets learn a sampling policy $\pi\_{\theta}(x)$ proportional to the reward $R(x)$.]
+
+.left-column[
+.center[![:scale 90%](../assets/images/slides/tetris/flows_math.png)]
+]
+
+.right-column[
+<br>
+Deep neural networks are trained to learn the transitions (flows) policy: $F\_{\theta}(s\_t\rightarrow s\_{t+1})$.
+]
+
+--
+
+.right-column[
+Consistent flow theorem (informal): if the sum of the flows into state $s$ is equal to the sum of the flows out, then $\pi(x) \propto R(x)$.
+]
+
+.references[
+Bengio et al. [Flow network based generative models for non-iterative diverse candidate generation](https://arxiv.org/abs/2106.04399), NeurIPS, 2021. (_not_ co-authored)
+]
+
+--
+
+.right-column[
+.conclusion[GFlowNets can be trained with deep learning methods to learn a sampling policy $\pi\_{\theta}$ proportional to a reward $R(x)$.]
+]
+
+---
+
+count: false
+
+##  GFlowNets review paper
+
+A review of the potential of GFlowNets for AI-driven scientific discoveries.
+
+.center[![:scale 60%](../assets/images/slides/drugs/gfn_molecules.png)]
+
+.references[
+Jain et al. [GFlowNets for AI-Driven Scientific Discovery](https://pubs.rsc.org/en/content/articlelanding/2023/dd/d3dd00002h). Digital Discovery, Royal Society of Chemistry, 2023.
+]
+
+---
+
+count: false
+
+## GFlowNet Python package
+
+Open sourced GFlowNet package, together with Mila collaborators: Nikita Saxena, Alexandra Volokhova, Michał Koziarski, Divya Sharma, Pierre Luc Carrier, Victor Schmidt, Joseph Viviano.
+
+.highlight2[Open source GFlowNet implementation]: [github.com/alexhernandezgarcia/gflownet](https://github.com/alexhernandezgarcia/gflownet)
+
+---
+
+count: false
+
+name: mfal
+class: title, middle
+
+## Multi-fidelity active learning
+
+Nikita Saxena, Moksh Jain, Cheng-Hao Liu, Yoshua Bengio
+
+.smaller[[Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). Transactions on Machine Learning Research (TMLR). 2024.]
+
+.center[![:scale 30%](../assets/images/slides/mfal/multiple_oracles.png)]
+
+---
+
+count: false
+
+## Why multi-fidelity?
+
+.context35[We had described the scientific discovery loop as a cycle with one single oracle.]
+
+<br><br>
+.right-column[
+.center[![:scale 90%](../assets/images/slides/scientific-discovery/loop_4.png)]
+]
+
+--
+
+.left-column[
+Example: "incredibly hard" Tetris problem: find arrangements of Tetris pieces that optimise an .highlight2[unknown function $f$].
+- $f$: Oracle, cost per evaluation 1000 CAD.
+
+.center[
+<div style="display: flex">
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_434.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_800.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_815.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_849.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_905.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+</div>
+]
+]
+
+---
+
+count: false
+
+## Why multi-fidelity?
+
+.context35[However, in practice, multiple oracles (models) of different fidelity and cost are available in scientific applications.]
+
+<br><br>
+.right-column[
+.center[![:scale 95%](../assets/images/slides/scientific-discovery/loop_4_mf.png)]
+]
+
+.left-column[
+Example: "incredibly hard" Tetris problem: find arrangements of Tetris pieces that optimise an .highlight2[unknown function $f$].
+- $f$: Oracle, cost per evaluation 1000 CAD.
+
+.center[
+<div style="display: flex">
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_434.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_800.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_815.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_849.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_905.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+</div>
+]
+]
+
+---
+
+count: false
+
+## Why multi-fidelity?
+
+.context35[However, in practice, multiple oracles (models) of different fidelity and cost are available in scientific applications.]
+
+<br><br>
+.right-column[
+.center[![:scale 95%](../assets/images/slides/scientific-discovery/loop_4_mf.png)]
+]
+
+.left-column[
+Example: "incredibly hard" Tetris problem: find arrangements of Tetris pieces that optimise an .highlight2[unknown function $f$].
+- $f$: Oracle, cost per evaluation 1000 CAD.
+- $f\_1$: Slightly inaccurate oracle, cost 100 CAD.
+- $f\_2$: Noisy but informative oracle, cost 1 CAD.
+
+.center[
+<div style="display: flex">
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_434.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_800.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_815.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_849.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_905.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+</div>
+]
+]
+
+---
+
+count: false
+
+## Why multi-fidelity?
+
+.context[In many scientific applications we have access to multiple approximations of the objective function.]
+
+.left-column[
+For example, in .highlight1[material discovery]:
+
+* .highlight1[Synthesis] of a material and characterisation of a property in the lab
+* Molecular dynamic .highlight1[simulations] to estimate the property
+* .highlight1[Machine learning] models trained to predict the property
+]
+
+.right-column[
+.center[![:scale 90%](../assets/images/slides/scientific-discovery/loop_4_mf.png)]
+]
+
+--
+
+.conclusion[However, current machine learning methods cannot efficiently leverage the availability of multiple oracles and multi-fidelity data. Especially with .highlight1[structured, large, high-dimensional search spaces].]
+
+---
+
+count: false
+
+## Contribution
+
+- An .highlight1[active learning] algorithm to leverage the availability of .highlight1[multiple oracles at different fidelities and costs].
+
+--
+- The goal is two-fold:
+    1. Find high-scoring candidates
+    2. Candidates must be diverse
+--
+- Experimental evaluation with .highlight1[biological sequences and molecules]:
+    - DNA
+    - Antimicrobial peptides
+    - Small molecules
+    - Classical multi-fidelity toy functions (Branin and Hartmann)
+
+--
+
+.conclusion[Likely the first multi-fidelity active learning method for biological sequences and molecules.]
+
+---
+
+count: false
+
+## Our multi-fidelity active learning algorithm
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_13.png)]
+
+---
+
+count: false
+
+## Applications
+### Ongoing, planned and potential
+
+* Discovering materials with high ionic conductivity for solid-state electrolyte batteries. 
+
+* Discovering novel antibiotics through a lab-in-the-loop approach.
+
+* Designing electrocatalysts for sustainability purposes.
+
+* Designing DNA aptamers and proteins that can bind to specific targets.
+
+* `<your application here>`
+
