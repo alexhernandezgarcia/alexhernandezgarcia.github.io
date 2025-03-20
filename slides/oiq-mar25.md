@@ -11,7 +11,7 @@ class: title, middle
 
 Alex Hernández-García (he/il/él)
 
-.turquoise[Ordre des ingénieurs du Québec · Virtuel · 14 mars 2025]
+.turquoise[Ordre des ingénieurs du Québec · Virtuel · 20 mars 2025]
 
 .center[
 <a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-white-v2.png" alt="Mila" style="width: 12em"></a>
