@@ -183,6 +183,10 @@ La quantité de CO2 équivalent [CO2eq] émise lors de l'entraînement d'un mod�
 
 $$C = T \times P \times I = E \times I$$
 
+--
+
+.conclusion[Il est assez simple d'obtenir une estimation approximative, mais **il est vraiment difficile de calculer exactement** l'énergie due à des processus spécifiques.]
+
 ---
 
 ## Estimation des émissions
@@ -197,6 +201,10 @@ En 2022, avec Sasha Luccioni, nous avons réalisé une analyse des émissions de
 .references[
 Luccioni and Hernandez-Garcia. [Counting Carbon: A Survey of Factors Influencing the Emissions of Machine Learning](https://arxiv.org/abs/2302.08476). arXiv 2302.08476, 2023.
 ]
+
+??
+
+Talk about lack of transparency and difficulty to obtain data.
 
 ---
 
@@ -234,6 +242,7 @@ En 2022, avec Sasha Luccioni, nous avons réalisé une analyse des émissions de
 
 ## Estimation des émissions
 ## de carbone de l'IA
+### Puissance électrique
 
 .context[Les facteurs principaux sont les temps d'entraînement, la puissance électrique et le facteur d'émission.]
 
@@ -257,6 +266,8 @@ Le facteur d'émission depends du réseau énergétique et la puissance électri
 .conclusion[Il existe de grandes différences de temps d'entraînement et donc des émissions de CO2eq.]
 
 ???
+
+Charging an average smartphone uses about 22 Wh.
 
 In terms of training time, the models in our sample range from just about 15 minutes (total GPU/TPU time) up to more than 400,000 hours, with a median of 72 hours, pointing again to large variance in our sample. While the maximum of of 400,000 GPU hours (equivalent to about 170 days with 100 GPUs) in our sample seems very large, note that the total training time of GPT-3 was estimated to be over 3.5 million hours (14.8 days with 10,000 GPUs).
 
@@ -320,6 +331,14 @@ Grâce au travail des chercheuses et chercheurs, nous en savons de plus en plus.
 - [AI Energy Score](https://huggingface.co/spaces/AIEnergyScore/Leaderboard)
 ]
 
+???
+
+25 tons of CO2eq are equivalent to 180,000 km en voiture.
+
+25 tons of CO2eq are equivalent to 40 short-haul flights.
+
+https://www.openco2.net/en/co2-converter
+
 ---
 
 ## Comparison des modèles IA
@@ -344,7 +363,7 @@ count: false
 
 ???
 
-Charging an average smartphone uses about 15 W.
+Charging an average smartphone uses about 22 W.
 
 ---
 
@@ -469,13 +488,13 @@ Cela pose d'autres questions :
 --
 
 .left-column-66[
-> _An implicated subject is neither a victim nor a perpetrator, but rather a participant in histories and social formations that generate the positions of victim and perpetrator, and yet in which most people do not occupy such clear-cut roles. Less “actively” involved than perpetrators, implicated subjects do not fit the mold of the “passive” bystander, either._
+> .highlight1[_An implicated subject is neither a victim nor a perpetrator], but rather a participant in histories and social formations that generate the positions of victim and perpetrator, and yet in which most people do not occupy such clear-cut roles. Less “actively” involved than perpetrators, implicated subjects do not fit the mold of the “passive” bystander, either._
 ]
 
 --
 
 .left-column-66[
-> _Although indirect or belated, their actions and inactions help produce and reproduce the positions of victims and perpetrators._
+> _Although indirect or belated, [implicated subjects'] .highlight1[actions and inactions help produce and reproduce the positions of victims and perpetrators]._
 ]
 
 ---
@@ -547,6 +566,10 @@ class: title, middle
 ## Le rôle de l'IA dans le développement durable
 
 .center[![:scale 30%](../assets/images/slides/climatechange/demo.jpg)]
+
+???
+
+More positive note
 
 ---
 
