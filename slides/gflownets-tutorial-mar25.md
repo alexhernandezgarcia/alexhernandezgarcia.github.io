@@ -54,7 +54,7 @@ count: false
 
 --
 
-- [Machine learning for scientific discoveries](#mlforscience)
+- [Intro: Machine learning for scientific discoveries](#mlforscience)
 
 --
 - [Gentle introduction to GFlowNets](#gflownets)
@@ -63,7 +63,11 @@ count: false
 - [Crystal-GFN: materials discovery](#crystal-gfn)
 
 --
-- Hands-on tutorial about the gflownet library and Crystal-GFN
+- [Hands-on tutorial about the gflownet library and Crystal-GFN](https://colab.research.google.com/drive/1psi4aH4c7isfQrdy3QcZC4VOJoNIMsTU?usp=sharing)
+
+???
+
+There is a lot of content on the slides, so I will go a bit fast and skip some things, but I wanted to leave the material there for you to check at your convenience.
 
 ---
 
@@ -1261,50 +1265,13 @@ Instead of optimising the atom positions by learning from a small data set, we d
 .highlight2[Lattice system]: all 230 space groups can be classified into one of the 7 lattices.
 
 .center[
-<div style="display: flex">
-  <div style="flex: 100%;">
-  <figure>
-      <img src="../assets/images/slides/crystals/lattices/triclinic.png" alt="Triclinic" style="width: 100%">
-    <figcaption><small>Triclinic</small></figcaption>
-  </figure>
-  </div>
-  <div style="flex: 10%;">
-  <figure>
-      <img src="../assets/images/slides/crystals/lattices/monoclinic.png" alt="Monoclinic" style="width: 100%">
-    <figcaption><small>Monoclinic</small></figcaption>
-  </figure>
-  </div>
-  <div style="flex: 10%;">
-  <figure>
-      <img src="../assets/images/slides/crystals/lattices/orthorhombic.png" alt="Orthorhombic" style="width: 80%">
-    <figcaption><small>Orthorhombic</small></figcaption>
-  </figure>
-  </div>
-  <div style="flex: 10%;">
-  <figure>
-      <img src="../assets/images/slides/crystals/lattices/tetragonal.png" alt="Tetragonal" style="width: 90%">
-    <figcaption><small>Tetragonal</small></figcaption>
-  </figure>
-  </div>
-  <div style="flex: 10%;">
-  <figure>
-      <img src="../assets/images/slides/crystals/lattices/rhombohedral.png" alt="Rhombohedral" style="width: 90%">
-    <figcaption><small>Rhombohedral</small></figcaption>
-  </figure>
-  </div>
-  <div style="flex: 10%;">
-  <figure>
-      <img src="../assets/images/slides/crystals/lattices/hexagonal.png" alt="Hexagonal" style="width: 100%">
-    <figcaption><small>Hexagonal</small></figcaption>
-  </figure>
-  </div>
-  <div style="flex: 10%;">
-  <figure>
-      <img src="../assets/images/slides/crystals/lattices/cubic.png" alt="Cubic" style="width: 100%">
-    <figcaption><small>Cubic</small></figcaption>
-  </figure>
-  </div>
-</div>
+![:scale 12%](../assets/images/slides/crystals/lattices/triclinic.png)<nobr>
+![:scale 12%](../assets/images/slides/crystals/lattices/monoclinic.png)<nobr>
+![:scale 12%](../assets/images/slides/crystals/lattices/orthorhombic.png)<nobr>
+![:scale 12%](../assets/images/slides/crystals/lattices/tetragonal.png)<nobr>
+![:scale 12%](../assets/images/slides/crystals/lattices/rhombohedral.png)<nobr>
+![:scale 12%](../assets/images/slides/crystals/lattices/hexagonal.png)<nobr>
+![:scale 12%](../assets/images/slides/crystals/lattices/cubic.png)<nobr>
 ]
 
 ---
@@ -1646,6 +1613,14 @@ We restrict the sampling space at sampling time:
 
 --
 * The .highlight1[framework can be flexibly extended] with more constraints, crystal structure descriptors (atomic positions) and other properties. 
+
+---
+
+class: title, middle
+
+## Hands-on time!
+
+[Hands-on tutorial about the gflownet library and Crystal-GFN](https://colab.research.google.com/drive/1psi4aH4c7isfQrdy3QcZC4VOJoNIMsTU?usp=sharing)
 
 ---
 
