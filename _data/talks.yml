@@ -300,3 +300,34 @@
   country: South Korea
   online: true
   slides: slides/sait-jul24
+- title: "Multi-fidelity active learning for scientific discoveries"
+  year: 2025
+  month: Feb
+  where: Mila Tea Talk
+  city: Montréal
+  country: Canada
+  online: false
+  slides: slides/tea-talk-feb25
+- title: "Intelligence artificielle et la crise climatique – Défis et opportunités pour l’ingénierie"
+  year: 2025
+  month: Mar
+  where: Ordre des ingénieurs du Québec
+  city: Online
+  country: Québec
+  online: true
+  slides: slides/oiq-mar25
+- title: "GFlowNets Tutorial"
+  year: 2025
+  month: Mar
+  where: AI Workshop for Materials, Université Concordia
+  city: Montréal
+  country: Québec
+  online: true
+  slides: slides/gflownets-tutorial-mar25
+- title: "Multi-Disiplinary Approaches to AI Panel Discussion"
+  year: 2025
+  month: Apr
+  where: Université Concordia
+  city: Montréal
+  country: Canada
+  online: False
