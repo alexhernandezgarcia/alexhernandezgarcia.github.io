@@ -4,12 +4,14 @@
   where: Deep Learning Meetup
   city: Berlin
   country: Germany
+
 - title: Data augmentation instead of explicit regularization
   year: 2018
   month: May
   where: Group of Multimedia Processing, University Carlos III of Madrid
   city: Madrid
   country: Spain
+
 - title: Data augmentation as a biologically plausible alternative to explicit regularization in CNNs
   year: 2018
   month: October
@@ -17,18 +19,21 @@
   city: Athens
   country: Greece
   link: https://www.iit.demokritos.gr/group/biohit
+
 - title: On the advantages of data augmentation for deep learning and computational neuroscience
   year: 2019
   month: February
   where: Neural Dynamics of Visual Cognition Lab, Freie Universität Berlin
   city: Berlin
   country: Germany
+
 - title: "Data augmentation: undervalued advantages for deep learning and computational neuroscience"
   year: 2019
   month: June
   where: Cognitive Neuroscience Center, University Medical Center Groningen
   city: Groningen
   country: Netherlands
+
 - title: "Data augmentation: an alternative to explicit regularization and other undervalued advantages"
   year: 2019
   month: July
@@ -36,6 +41,7 @@
   city: Berlin
   country: Germany
   link: https://www.meetup.com/berlin-machine-learning/events/256401029
+
 - title: "More than more data: undervalued advantages of data augmentation for deep learning and computational neuroscience"
   year: 2019
   month: July
@@ -43,6 +49,7 @@
   city: Tübingen
   country: Germany
   link: https://uni-tuebingen.de/en/faculties/faculty-of-science/departments/computer-science/lehrstuehle/neural-information-processing/news/newsfullview-aktuell/article/alex-hernandez-will-give-a-talk-at-nip-on-30072019
+
 - title: "Learning robust visual representations using data augmentation invariance"
   year: 2019
   month: October
@@ -51,12 +58,14 @@
   country: Germany
   link: http://www.comco2019.com/#agenda
   video: https://www.youtube.com/watch?v=FEWmpLO2mmg
+
 - title: "Data augmentation for improved regularization and invariance learning"
   year: 2019
   month: November
   where: Department of Brain and Cognitive Engineering, Korea University
   city: Seoul
   country: Republic of Korea
+
 - title: "Learning representational invariance instead of categorization"
   year: 2019
   month: November
@@ -65,6 +74,7 @@
   country: Republic of Korea
   link: https://preregister.vision
   video: https://www.youtube.com/watch?v=FxECzWLaDgo&list=PLB2hvs7du3_es4SDqS0dqLTkkjxqXSqQn&index=7&t=218s
+
 - title: "Data augmentation invariance for learning robust visual representations"
   year: 2020
   month: March
@@ -72,6 +82,7 @@
   city: Online
   country: The Internet
   link: https://neuromatch.io/
+
 - title: "Learning robust visual representations using data augmentation invariance"
   year: 2020
   month: April
@@ -80,6 +91,7 @@
   country: <del>Ethiopia</del>The Internet
   link: https://baicsworkshop.github.io/
   video: https://baicsworkshop.github.io/program/baics_3.html
+
 - title: "Learning robust visual representations using data augmentation invariance"
   year: 2020
   month: May
@@ -88,6 +100,7 @@
   country: <del>Quebec, Canada</del>The Internet
   link: https://www.bonjourstartupmtl.ca/en/evenement/unique-student-symposium-2020/
   video: https://www.crowdcast.io/e/uss2020/4
+
 - title: "Learning robust visual representations using data augmentation invariance"
   year: 2020
   month: June
@@ -95,6 +108,7 @@
   city: <del>Berlin</del>Online
   country: <del>Germany</del>The Internet
   link: http://berlin-machine-learning-seminar.org/
+
 - title: "Global visual salience of competing stimuli"
   year: 2020
   month: October
@@ -103,12 +117,14 @@
   country: The Internet
   link: https://neuromatch.io/abstract?submission_id=recKU5GuQPzPATy8w
   video: https://www.youtube.com/watch?v=-FgfaKbesGc
+
 - title: "Data augmentation and image understanding"
   year: 2020
   month: November
   where: Machine Learning Research Group, University of Guelph
   city: <del>Guelph</del>Online
   country: <del>Ontario, Canada</del>The Internet
+
 - title: "More than more data: Insights from data augmentation for deep learning and computational neuroscience"
   year: 2020
   month: November
@@ -117,6 +133,7 @@
   country: <del>India</del>The Internet
   link: https://bcs-iitk.github.io/journal-club/2020/11/15/More-Than-More-Data.html
   video: https://www.youtube.com/watch?v=i-uOkSR5ku8
+
 - title: "Global visual salience of competing stimuli"
   year: 2020
   month: December
@@ -125,6 +142,7 @@
   country: The Internet
   link: http://www.meikeramon.com/afc-lab-talk-series/
   video: https://youtu.be/-4_uVMTQyFY
+
 - title: "Rethinking (un-, semi-, self-, ...)supervised learning: Insights from biological learning and from calling it by its name"
   year: 2021
   month: June
@@ -132,6 +150,7 @@
   city: <del>Nijmegen</del>Online
   country: <del>Netherlands</del>The Internet
   slides: slides/kietzmannlab-jun21
+
 - title: ML and DS to fight the climate emergency
   year: 2021
   month: July
@@ -139,6 +158,7 @@
   city: <del>Yaoundé</del>Online
   country: <del>Cameroon</del>The Internet
   slides: slides/wimlds-yaounde-jul21
+
 - title: Global visual salience of competing stimuli
   year: 2021
   month: August
@@ -146,12 +166,14 @@
   city: Online
   country: The Internet
   slides: slides/ecvp-21
+
 - title: Deep active learning for DNA aptamer design
   year: 2021
   month: November
   where: Samsung-Mila-NYU Workshop
   city: Online
   country: The Internet
+
 - title: "ThisClimateDoesNotExist.com: Visualising climate change impacts on street photos"
   year: 2021
   month: November
@@ -159,6 +181,7 @@
   city: <del>Montréal</del>Online
   country: <del>Québec, Canada</del>The Internet
   slides: slides/gisday-21
+
 - title: "ThisClimateDoesNotExist.com: AI to visualise climate change impacts on street photos"
   year: 2022
   month: January
@@ -166,6 +189,7 @@
   city: <del>Stockholm</del>Online
   country: <del>Sweden</del>The Internet
   slides: slides/emotion_ai_planet-22
+
 - title: "GFlowNets: a friendly introduction and designing biological sequences (with Moksh Jain)"
   year: 2022
   month: March
@@ -175,6 +199,7 @@
   slides: slides/miai_deeptails-mar22
   link: https://miai.univ-grenoble-alpes.fr/events-highlights/miai-seminars/3rd-miai-deeptails-seminar-on-march-17th-from-5pm-cet-875233.kjsp
   video: https://www.youtube.com/watch?v=7W69-ffTs48
+
 - title: "Machine learning contra el cambio climático: Simulación de eventos climáticos y descubrimiento de materiales con GFlowNets"
   year: 2022
   month: July
@@ -182,6 +207,7 @@
   city: Madrid
   country: Spain
   slides: slides/tsc-jul22
+
 - title: "ThisClimateDoesNotExist.com: Erhöhung des Klimabewussteins durch KI-Flutprojektionen"
   year: 2022
   month: October
@@ -191,6 +217,7 @@
   slides: slides/unserdialog-22
   link: https://unserdialog.org/
   video: https://www.youtube.com/watch?v=Ca18loOPjgU
+
 - title: "AI to fight climate change: Visualising extreme climate events and accelerating scientific discovery"
   year: 2023
   month: February
@@ -199,6 +226,7 @@
   country: India
   online: true
   slides: slides/mahemit-feb23
+
 - title: "GFlowNets: Introduction and Applications to AI-Driven Scientific Discovery"
   year: 2023
   month: March
@@ -207,6 +235,7 @@
   country: The Internet
   online: true
   slides: slides/mmiccs-mar23
+
 - title: "AI against climate change: Accelerating scientific discovery and raising awareness with visualisations"
   year: 2023
   month: April
@@ -215,6 +244,7 @@
   country: USA
   online: true
   slides: slides/cwru-apr23
+
 - title: "Multi-fidelity active learning with GFlowNets to accelerate scientific discoveries"
   year: 2023
   month: June
@@ -223,6 +253,7 @@
   country: The Internet
   online: true
   slides: slides/nrc-jun23
+
 - title: "GFlowNets to accelerate scientific discovery with machine learning"
   year: 2023
   month: June
@@ -232,6 +263,7 @@
   online: false
   slides: slides/msml23
   link: https://icerm.brown.edu/topical_workshops/tw-23-msml/
+
 - title: "AI against climate change: Accelerating scientific discovery and raising awareness with visualisations"
   year: 2023
   month: July
@@ -240,6 +272,7 @@
   country: The Internet
   online: true
   slides: slides/nucircle-jul23
+
 - title: "Multi-fidelity active learning with GFlowNets for drug and materials discovery"
   year: 2023
   month: September
@@ -249,6 +282,7 @@
   online: true
   slides: slides/mifpp-sep23
   link: http://kurlin.org/MIFplusplus.php#seminars
+
 - title: "AI against climate change: Accelerating scientific discovery and raising awareness with visualisations"
   year: 2023
   month: November
@@ -257,6 +291,7 @@
   country: USA
   online: false
   slides: slides/klaviyo-nov23
+
 - title: "Crystal-GFN: Sampling crystals with desirable properties and constraints"
   year: 2023
   month: December
@@ -266,6 +301,7 @@
   online: false
   slides: slides/crystal-gfn-ai4mat23
   link: https://sites.google.com/view/ai4mat
+
 - title: "Crystal-GFN: A generative model to discover crystal structures with desirable properties and constraints"
   year: 2024
   month: April
@@ -274,6 +310,7 @@
   country: Canada
   online: false
   slides: slides/ivado-materials-apr24
+
 - title: "Active learning and generative modelling for scientific discoveries"
   year: 2024
   month: May
@@ -282,6 +319,7 @@
   country: Canada
   online: false
   slides: slides/futurehorizons-may24
+
 - title: "Crystal-GFN: Sampling crystals with desirable properties and constraints"
   year: 2024
   month: May
@@ -292,6 +330,7 @@
   slides: slides/cemdi-may24
   link: https://cemdi.inrs.ca/fr/2024symposium/
   video: https://www.youtube.com/watch?v=JX9cZcdXuaQ
+
 - title: "Generative modelling and active learning with GFlowNets for scientific discoveries"
   year: 2024
   month: Jul
@@ -300,6 +339,7 @@
   country: South Korea
   online: true
   slides: slides/sait-jul24
+
 - title: "Multi-fidelity active learning for scientific discoveries"
   year: 2025
   month: Feb
@@ -308,6 +348,7 @@
   country: Canada
   online: false
   slides: slides/tea-talk-feb25
+
 - title: "Intelligence artificielle et la crise climatique – Défis et opportunités pour l’ingénierie"
   year: 2025
   month: Mar
@@ -316,6 +357,7 @@
   country: Québec
   online: true
   slides: slides/oiq-mar25
+
 - title: "GFlowNets Tutorial"
   year: 2025
   month: Mar
@@ -324,6 +366,7 @@
   country: Québec
   online: true
   slides: slides/gflownets-tutorial-mar25
+
 - title: "Multi-Disiplinary Approaches to AI Panel Discussion"
   year: 2025
   month: Apr
