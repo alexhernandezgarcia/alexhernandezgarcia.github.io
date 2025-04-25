@@ -1,3 +1,53 @@
+- title: "OBELiX: A curated dataset of crystal structures and experimentally measured ionic conductivities for lithium solid-state electrolytes"
+  authors:
+    - Félix Therrien
+    - Jamal Abou Haibeh
+    - Divya Sharma
+    - Rhiannon Hendley
+    - Alex Hernandez-Garcia
+    - Sun Sun
+    - Alain Tchagang
+    - Jiang Su
+    - Samuel Huberman
+    - Yoshua Bengio
+    - Hongyu Guo
+    - Homin Shin
+  year: 2025
+  journal: arXiv:2502.14234
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2502.14234
+
+- title: "Learning decision trees as amortized structure inference"
+  authors:
+    - Mohammed Mahfoud
+    - Ghait Boukachab
+    - Michał Koziarski
+    - Alex Hernandez-Garcia
+    - Stefan Bauer
+    - Yoshua Bengio
+    - Nikolay Malkin
+  year: 2025
+  journal: arXiv:2503.06985
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2503.06985
+
+- title: "Improved off-policy reinforcement learning in biological sequence design"
+  authors:
+    - Hyeonah Kim
+    - Minsu Kim
+    - Taeyoung Yun
+    - Sanghyeok Choi
+    - Emmanuel Bengio
+    - Alex Hernandez-Garcia
+    - Jinkyoo Park
+  year: 2024
+  journal: arXiv:2410.04461
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2410.04461
+
 - title: "Multi-Fidelity Active Learning with GFlowNets"
   authors:
     - Alex Hernandez-Garcia
@@ -5,7 +55,7 @@
     - Moksh Jain
     - Cheng-Hao Liu
     - Yoshua Bengio
-  year: 2023
+  year: 2024
   journal: Transactions on Machine Learning Research (TMLR)
   tags:
     - tag: OpenReview
@@ -14,6 +64,7 @@
       link: https://arxiv.org/abs/2306.11715
     - tag: code
       link: https://github.com/nikita-0209/mf-al-gfn
+
 - title: "Crystal-GFN: sampling crystals with desirable properties and constraints"
   authors:
     - Mila AI4Science
@@ -33,6 +84,7 @@
       link: https://arxiv.org/abs/2310.04925
     - tag: code
       link: https://github.com/alexhernandezgarcia/gflownet
+
 - title: "Towards equilibrium molecular conformation generation with GFlowNets"
   authors:
     - Alexandra Volokhova
@@ -54,6 +106,7 @@
       link: https://arxiv.org/abs/2310.14782
     - tag: code
       link: https://github.com/alexhernandezgarcia/gflownet
+
 - title: "On the importance of catalyst-adsorbate 3D interactions for relaxed energy predictions"
   authors:
     - Alvaro Carbonero
@@ -68,6 +121,7 @@
   tags:
     - tag: arXiv
       link: https://arxiv.org/abs/2310.06682
+
 - title: "GFlowNets for AI-driven scientific discovery"
   authors:
     - Moksh Jain
@@ -83,6 +137,7 @@
       link: https://pubs.rsc.org/en/content/articlehtml/2023/dd/d3dd00002h
     - tag: arXiv
       link: https://arxiv.org/abs/2302.00615
+
 - title: "Multi-variable hard physical constraints for climate model downscaling"
   authors:
     - Jose González-Abad
@@ -95,6 +150,7 @@
   tags:
     - tag: arXiv
       link: https://arxiv.org/abs/2308.01868
+
 - title: "FAENet: Frame Averaging Equivariant GNN for materials modeling"
   authors:
     - Alexandre Duval
@@ -111,6 +167,7 @@
       link: https://proceedings.mlr.press/v202/duval23a.html
     - tag: arXiv
       link: https://arxiv.org/abs/2305.05577
+
 - title: "A theory of continuous generative flow networks"
   authors:
     - Salem Lahlou
@@ -131,6 +188,7 @@
       link: https://arxiv.org/abs/2301.12594
     - tag: code
       link: https://github.com/alexhernandezgarcia/gflownet
+
 - title: "Fourier Neural Operators for arbitrary resolution climate data downscaling"
   authors:
     - Qidong Yang
@@ -148,6 +206,7 @@
       link: http://jmlr.org/papers/v25/23-0597.html
     - tag: arXiv
       link: https://arxiv.org/abs/2305.14452
+
 - title: "Counting carbon: A survey of factors influencing the emissions of machine learning"
   authors:
     - Sasha Luccioni
@@ -157,6 +216,7 @@
   tags:
     - tag: arXiv
       link: https://arxiv.org/abs/2302.08476
+
 - title: "PhAST: physics-aware, scalable, and task-specific GNNs for accelerated catalyst design"
   authors:
     - Alexandre Duval
@@ -172,6 +232,7 @@
       link: https://jmlr.org/papers/v25/23-0680.html
     - tag: arXiv
       link: https://arxiv.org/abs/2211.12020
+
 - title: "Multi-Objective GFlowNets"
   authors:
     - Moksh Jain
@@ -188,6 +249,7 @@
       link: https://proceedings.mlr.press/v202/jain23a.html
     - tag: arXiv
       link: https://arxiv.org/abs/2210.12765
+
 - title: "Diversifying design of nucleic acid aptamers using unsupervised machine learning"
   authors:
     - Siba Moussa
@@ -204,6 +266,7 @@
       link: https://pubs.acs.org/doi/10.1021/acs.jpcb.2c05660
     - tag: arXiv
       link: https://arxiv.org/abs/2208.05341
+
 - title: "Hard-constrained deep learning for climate downscaling "
   authors:
     - Paula Harder
@@ -221,6 +284,7 @@
       link: https://jmlr.org/papers/v24/23-0158.html
     - tag: arXiv
       link: https://arxiv.org/abs/2208.05424
+
 - title: "Biological sequence design with GFlowNets"
   authors:
     - Moksh Jain
@@ -243,6 +307,7 @@
       link: https://proceedings.mlr.press/v162/jain22a.html
     - tag: arXiv
       link: https://arxiv.org/abs/2203.04115
+
 - title: "ClimateGAN: Raising climate change awareness by generating images of floods"
   authors:
     - Victor Schmidt
@@ -265,6 +330,7 @@
       link: https://openreview.net/forum?id=EZNOb_uNpJk
     - tag: ICLR
       link: https://iclr.cc/virtual/2022/poster/6224
+
 - title: Computational methods for continuous eye-tracking perimetry based on spatio-temporal integration and a deep recurrent neural network
   authors:
     - Alessandro Grillini
@@ -277,6 +343,7 @@
   tags:
     - tag: Frontiers in Neuroscience
       link: https://www.frontiersin.org/articles/10.3389/fnins.2021.650540/full
+
 - title: Benchmark of data processing methods and machine learning models for gut microbiome-based diagnosis of inflammatory bowel disease
   authors:
     - Ryszard Kubinski
@@ -297,6 +364,7 @@
       link: https://www.biorxiv.org/content/10.1101/2021.05.03.442488v1
     - tag: Frontiers in Genetics
       link: https://www.frontiersin.org/articles/10.3389/fgene.2022.784397/full
+
 - title: "Rethinking supervised learning: insights from biological learning and from calling it by its name"
   authors:
     - Alex Hernandez-Garcia
@@ -307,6 +375,7 @@
       link: https://openreview.net/forum?id=TtlTPau3Cgo
     - tag: arXiv
       link: https://arxiv.org/abs/2012.02526
+
 - title: A machine learning pipeline to predict vegetation health
   authors:
     - Thomas Lees
@@ -323,6 +392,7 @@
     - tag: code
       link: https://github.com/ml-clim/drought-prediction
   misc: Spotlight
+
 - title: Learning representational invariance instead of categorization
   authors:
     - Alex Hernandez-Garcia
@@ -334,6 +404,7 @@
       link: http://openaccess.thecvf.com/content_ICCVW_2019/papers/PreReg/Hernandez-Garcia_Learning_Representational_Invariance_Instead_of_Categorization_ICCVW_2019_paper.pdf
     - tag: code
       link: https://github.com/alexhernandezgarcia/data-aug-invariance/
+
 - title: Global visual salience of competing stimuli
   authors:
     - Alex Hernandez-Garcia
@@ -351,6 +422,7 @@
       link: https://github.com/alexhernandezgarcia/global-salience
     - tag: Twitter
       link: https://twitter.com/alexhdezgcia/status/1307971963206410240
+
 - title: Learning robust visual representations using data augmentation invariance
   authors:
     - Alex Hernandez-Garcia
@@ -369,6 +441,7 @@
       link: https://baicsworkshop.github.io/program/baics_3.html
     - tag: Video
       link: https://twitter.com/alexhdezgcia/status/1254126582517714950
+
 - title: Data augmentation instead of explicit regularization
   authors:
     - Alex Hernandez-Garcia
@@ -380,6 +453,7 @@
       link: https://arxiv.org/abs/1806.03852
     - tag: code
       link: https://github.com/alexhernandezgarcia/data-aug-invariance/
+
 - title: Deep neural networks trained with heavier data augmentation learn features closer to representations in hIT
   authors: 
     - Alex Hernandez-Garcia
@@ -392,6 +466,7 @@
   tags:
     - tag: PDF
       link: https://ccneuro.org/2018/proceedings/1046.pdf
+
 - title: Do deep nets really need weight decay and dropout?
   authors: 
     - Alex Hernandez-Garcia
@@ -403,6 +478,7 @@
       link: https://arxiv.org/abs/1802.07042
     - tag: code
       link: https://github.com/alexhernandezgarcia/data-aug-invariance/
+
 - title: Further advantages of data augmentation on convolutional neural networks
   authors: 
     - Alex Hernandez-Garcia
@@ -415,6 +491,7 @@
     - tag: code
       link: https://github.com/alexhernandezgarcia/data-aug-invariance/
   misc: Best Paper Award
+
 - title: "Emotion and attention: predicting electrodermal activity through video visual descriptors"
   authors: 
     - Alex Hernandez-Garcia
@@ -425,6 +502,7 @@
   tags:
     - tag: PDF
       link: https://www.researchgate.net/profile/Alex_Hernandez-Garcia/publication/318653700_Emotion_and_attention_predicting_electrodermal_activity_through_video_visual_descriptors/links/5a02dc7eaca2720df3cfad89/Emotion-and-attention-predicting-electrodermal-activity-through-video-visual-descriptors.pdf
+
 - title: Exploiting visual saliency for assessing the impact of car commercials upon viewers
   authors: 
     - Fernando Fernández-Martínez
@@ -438,6 +516,7 @@
   tags:
     - tag: paper
       link: https://link.springer.com/article/10.1007/s11042-017-5339-9
+
 - title: Comparing visual descriptors and automatic rating strategies for video aesthetics prediction
   authors: 
     - Alex Hernandez-Garcia
@@ -448,6 +527,7 @@
   tags:
     - tag: paper
       link: http://www.sciencedirect.com/science/article/pii/S0923596516301035
+
 - title: Succeeding metadata based annotation scheme and visual tips for the automatic assessment of video aesthetic quality in car commercials
   authors: 
     - Fernando Fernández-Martínez
@@ -458,6 +538,7 @@
   tags:
     - tag: paper
       link: http://www.sciencedirect.com/science/article/pii/S0957417414004400
+
 - title: Combining audio-visual features for viewers’ perception classification of Youtube car commercials
   authors: 
     - Fernando Fernández-Martínez
