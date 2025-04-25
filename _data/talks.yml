@@ -374,3 +374,13 @@
   city: Montréal
   country: Canada
   online: False
+
+- title: "OBELiX: A curated dataset of crystal structures and experimentally measured ionic conductivities for lithium solid-state electrolytes."
+  year: 2025
+  month: Apr
+  where: CEMDI-PAIMS Symposium
+  city: Fukuoka
+  country: Japan
+  online: false
+  slides: slides/cemdi-paims-apr25
+  link: https://cemdi.inrs.ca/2025symposium/
