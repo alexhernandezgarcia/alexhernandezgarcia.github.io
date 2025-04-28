@@ -33,6 +33,91 @@ Slides: [alexhernandezgarcia.github.io/slides/{{ name }}](https://alexhernandezg
 ---
 
 count: false
+
+name: title
+class: title, middle
+
+## About me
+
+.center[![:scale 30%](../assets/images/slides/misc/gaspesie.jpg)]
+
+---
+
+## About me
+### My academic journey
+
+--
+
+* .highlight1[Bachelor's and Master's]: University Carlos III of Madrid (2009-2105)
+
+--
+* .highlight1[PhD]: Institute of Cognitive Science, Universität Osnabrück (2016–2020)
+  * Based in Berlin
+  * Marie Skłodowska Curie ITN fellow
+  * Thesis topics: deep learning, visual perception and computational neuroscience
+  * Internship at Spinoza Centre for Neuroimaging, Amsterdam, 2018
+  * Internship at University of Cambridge, 2019
+
+--
+* .highlight1[Postdoc]: Mila and the Université de Montréal (2020–present)
+    * Prof. Yoshua Bengio's group and Prof. David Rolnick's group as IVADO fellow.
+    * Teaching assistant in _Fundamentals of machine learning_, 2021.
+    * Main instructor of Advanced machine learning projects, 2022-2024.
+    * Mila Lab Representative (2021-2022), EDI Committee (2021-present), Sustainability Committee (2023-present)
+
+---
+
+## About me
+### Alongside my academic journey...
+
+---
+
+count: false
+
+## About me
+### Alongside my academic journey...
+
+.center[![:scale 60%](../assets/images/slides/misc/ouc3m.jpg)]
+
+---
+
+count: false
+
+## About me
+### Alongside my academic journey...
+
+.center[![:scale 80%](../assets/images/slides/misc/osi_all.png)]
+
+.center[![:scale 30%](../assets/images/slides/misc/osi_alex.png)]
+
+.footnote[[Orchestre Symphonique de l'Isle](https://osimontreal.com/)]
+
+---
+
+count: false
+
+## About me
+### Alongside my academic journey...
+
+
+.center[![:scale 60%](../assets/images/slides/misc/bjr1.jpg)]
+
+.footnote[[BrokenJugRamblers.bandcamp.com](https://brokenjugramblers.bandcamp.com/)]
+
+---
+
+count: false
+
+## About me
+### Alongside my academic journey...
+
+.center[![:scale 60%](../assets/images/slides/misc/lume.jpg)]
+
+.footnote[[LumeDeBiqueira.es](https://www.lumedebiqueira.es/en/)]
+
+---
+
+count: false
 name: title
 class: title, middle
 
