@@ -385,3 +385,12 @@
   online: false
   slides: slides/cemdi-paims-apr25
   link: https://cemdi.inrs.ca/2025symposium/
+
+- title: "Generative and active learning with GFlowNets for scientific discovery"
+  year: 2025
+  month: Apr
+  where: University of Nagoya
+  city: Nagoya
+  country: Japan
+  online: false
+  slides: slides/nagoya-mlds-apr25
