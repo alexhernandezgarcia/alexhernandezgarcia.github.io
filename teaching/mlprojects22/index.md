@@ -1,5 +1,6 @@
 ---
-layout: mlprojects22
+layout : teaching
+navigation: navigation_mlprojects22
 title: IFT 3710/6759 H22 - Projets (avancés) en apprentissage automatique
 redirect_from:
   - /mlprojects22

@@ -1,5 +1,6 @@
 ---
-layout : mlprojects24
+layout : teaching
+navigation : navigation_mlprojects24
 title : IFT 3710/6759 - Instructions pour les présentations et le rapport final
 ---
 

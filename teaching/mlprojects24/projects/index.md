@@ -1,5 +1,6 @@
 ---
-layout : mlprojects24
+layout : teaching
+navigation : navigation_mlprojects24
 title : IFT 3710/6759 H24 - Projets
 ---
 

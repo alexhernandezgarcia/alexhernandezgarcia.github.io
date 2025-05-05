@@ -1,5 +1,6 @@
 ---
 layout : mlprojects23
+navigation : navigation_mlprojects23
 title : IFT 3710/6759 - Instructions pour les présentations et le rapport final
 ---
 
