@@ -1,31 +1,12 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
-    >
-    <link
-      rel="stylesheet"
-      href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
-    >
-    <link rel="icon" href="{{ site.favicon | relative_url }}" type="image/x-icon">
-    <!--{% feed_meta %}-->
-    <script defer src="https://use.fontawesome.com/releases/v6.5.2/js/all.js"></script>
-    <script src="/assets/js/navbar-burger.js"></script>
-    {% seo %}
-  </head>
-  <body>
-    {% include navigation.html icon-size="lg" %}
-    <section class="section">
-      <div class="container">
-        {{ content }}
-      </div>
-    </section>
-    {% include footer.html icon-size="lg" %}
-  </body>
-</html>
+---
+layout: head
+---
+<body>
+  {% include navigation.html icon-size="lg" %}
+  <section class="section">
+    <div class="container">
+      {{ content }}
+    </div>
+  </section>
+  {% include footer.html icon-size="lg" %}
+</body>
