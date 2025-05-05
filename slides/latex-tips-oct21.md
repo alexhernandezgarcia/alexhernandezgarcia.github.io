@@ -57,7 +57,7 @@ Further reading:
 * It is a good practice to use a consistent style for the IDs. I use `firstauthorYEARtopic`. Google Scholar uses `firstauthorYEARfirstwordtitle`.
 * It is a good practice to keep a consistent style for the entries:
     * Authors enumeration
-    * Force case with double curly braces: `{{Climate change and AI}}` to  force uppercase AI.
+    * Force case with double curly braces: `{Climate change and {AI}}` to  force uppercase AI.
     * Names of conferences
 
 --
