@@ -6,7 +6,7 @@ permalink: /bio
 
 ## Short version
 
-Alex Hernandez-Garcia is an assistant professor at the Université de Montréal, a core academic member at Mila, IVADO professor and member of the Institut Courtois. His machine learning research is motivated by scientific applications to tackle the climate crisis and other societal challenges. In particular, a current focus of his work is active and generative machine learning to facilitate scientific discoveries, such as new materials and antibiotics. He also advocates for a critical examination of the impacts of artificial intelligence, is a strong proponent of open science and is active in initiatives about how making science more inclusive, equitable, open, reproducible, transparent and environmentally conscious.
+Alex Hernandez-Garcia is an assistant professor at the Université de Montréal, a core academic member at Mila, IVADO professor and member of the Institut Courtois. His machine learning research is motivated by scientific applications to tackle the climate crisis and other societal challenges. In particular, a current focus of his work is active and generative machine learning to facilitate scientific discoveries, such as new materials and antibiotics. He also advocates for a critical examination of the impacts of artificial intelligence, is a strong proponent of open science and is active in initiatives about making science more inclusive, equitable, open, reproducible, transparent and environmentally conscious.
 
 [(_Lire en français_)](bio-fr)
 
