@@ -153,6 +153,7 @@ The shell runs programs or commands. Here are some of the most frequently used c
 .references[
 * [Linux introduction](https://docs.computecanada.ca/wiki/Linux_introduction) for Windows and Mac users - Compute Canada wiki
 * [The missing semester - The Shell](https://missing.csail.mit.edu/2020/course-shell/)
+* [ExplainShell](https://explainshell.com/)
 ]
 
 ???
