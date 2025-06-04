@@ -266,3 +266,37 @@
   online: false
   slides: slides/crystal-gfn-ai4mat23
   link: https://sites.google.com/view/ai4mat
+- title: "Crystal-GFN: A generative model to discover crystal structures with desirable properties and constraints"
+  year: 2024
+  month: April
+  where: Exploiter l’IA pour accélérer la découverte de nouveaux matériaux et molécules
+  city: Montreal, QC
+  country: Canada
+  online: false
+  slides: slides/ivado-materials-apr24
+- title: "Active learning and generative modelling for scientific discoveries"
+  year: 2024
+  month: May
+  where: Future Horizons
+  city: Montreal, QC
+  country: Canada
+  online: false
+  slides: slides/futurehorizons-may24
+- title: "Crystal-GFN: Sampling crystals with desirable properties and constraints"
+  year: 2024
+  month: May
+  where: Computational Energy Materials Design Infrastructure (CEMDI)
+  city: Montreal, QC
+  country: Canada
+  online: false
+  slides: slides/cemdi-may24
+  link: https://cemdi.inrs.ca/fr/2024symposium/
+  video: https://www.youtube.com/watch?v=JX9cZcdXuaQ
+- title: "Generative modelling and active learning with GFlowNets for scientific discoveries"
+  year: 2024
+  month: Jul
+  where: AI4Science Seminar (SAIT)
+  city: Seoul
+  country: South Korea
+  online: true
+  slides: slides/sait-jul24

@@ -12,6 +12,12 @@
     source: ai
     name: ai-semantic-scholar
     type: ai
+- name: Bluesky
+  link: https://bsky.app/profile/alexhergar.bsky.social
+  icon:
+    source: fa
+    name: fa-bluesky
+    type: fab
 - name: Twitter
   link: https://twitter.com/alexhdezgcia
   icon:
@@ -24,12 +30,12 @@
     source: fa
     name: fa-mastodon
     type: fab
-- name: Research Gate
-  link: https://www.researchgate.net/profile/Alex_Hernandez-Garcia
-  icon:
-    source: ai
-    name: ai-researchgate-square
-    type: ai
+# - name: Research Gate
+#   link: https://www.researchgate.net/profile/Alex_Hernandez-Garcia
+#   icon:
+#     source: ai
+#     name: ai-researchgate-square
+#     type: ai
 - name: GitHub
   link: https://github.com/alexhernandezgarcia
   icon:
@@ -42,9 +48,15 @@
     source: fa
     name: fa-stack-overflow
     type: fab
+# - name: Email
+#   link: mailto:alex.hernandez-garcia@mila.quebec
+#   icon:
+#     source: fa
+#     name: fa-envelope
+#     type: far
 - name: Email
   link: mailto:alex.hernandez-garcia@mila.quebec
   icon:
     source: fa
-    name: fa-envelope
-    type: far
+    name: fa-at
+    type: fas

@@ -6,8 +6,10 @@
     - Cheng-Hao Liu
     - Yoshua Bengio
   year: 2023
-  journal: arXiv:2306.11715
+  journal: Transactions on Machine Learning Research (TMLR)
   tags:
+    - tag: OpenReview
+      link: https://openreview.net/forum?id=dLaazW9zuF
     - tag: arXiv
       link: https://arxiv.org/abs/2306.11715
     - tag: code
