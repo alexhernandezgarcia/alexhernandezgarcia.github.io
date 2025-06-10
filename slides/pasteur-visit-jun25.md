@@ -3,14 +3,14 @@ layout: slides_mila_starling
 title: "Generative modelling and active learning for scientific discoveries"
 ---
 
-name: qmm-jun25
+name: pasteur-visit-jun25
 class: title, middle
 
-### Generative modelling and active learning for scientific discoveries
+### Generative and active machine learning with GFlowNets for scientific discovery
 
-Alex Hernández-García (he/il/él)
+Alex Hernández-García, Céline Roget & Hyeonah Kim
 
-.turquoise[[Quantitative Metabolic Modeling](https://qmm.lbl.gov/) · Berkeley · June 9th 2025]
+.turquoise[PandemicStop-AI & Institut Pasteur · Montréal · June 11th 2025]
 
 .center[
 <a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 4em"></a>
@@ -29,165 +29,6 @@ Slides: [alexhernandezgarcia.github.io/slides/{{ name }}](https://alexhernandezg
 ]]
 
 .qrcode[![{{ name }}](../assets/images/slides/qrcodes/{{ name }}.png)]
-
----
-
-count: false
-name: title
-class: title, middle
-
-### Why scientific discoveries?
-
-.center[![:scale 30%](../assets/images/slides/climatechange/demo.jpg)]
-
----
-
-## Why scientific discoveries?
-
-.context[Climate change is a major challenge for humanity.]
-
-<br><br>
-
-.center[
-<figure>
-	<img src="../assets/images/slides/climatechange/ipcc_warming.png" alt="Observed (1900–2020) and projected (2021–2100) changes in global surface temperature (relative to 1850–1900)" style="width: 100%">
-  <figcaption>.smaller[Observed (1900–2020) and projected (2021–2100) changes in global surface temperature relative to 1850–1900 (adapted from: <a href="https://www.ipcc.ch/report/sixth-assessment-report-cycle/">IPCC Sixth Assessment Report</a>)]</figcaption>
-</figure>
-]
-
-.conclusion["The evidence is clear: the time for action is now." .smaller[IPCC Report, 2022]]
-
----
-
-## Why scientific discoveries?
-
-.context[Climate change is a major challenge for humanity.]
-
-.center[
-<figure>
-	<img src="../assets/images/slides/climatechange/who_climate_health.png" alt="Climate change presents a fundamental threat to human health." style="width: 100%">
-  <figcaption>.smaller[Climate-sensitive health risks (adapted from: <a href="https://www.who.int/news-room/fact-sheets/detail/climate-change-and-health">World Health Organization</a>)]</figcaption>
-</figure>
-]
-
-.smaller[
-* Environmental factors take the lives of around 13 million people _per year_.
-* Climate change affects people’s mental and physical health, access to clean air, safe water, food and health care.
-]
-
-.full-width[
-.conclusion["Climate change is the single biggest health threat facing humanity." .smaller[[WHO and WMO](https://climahealth.info/), 2024]]
-]
-
----
-
-## Why scientific discoveries?
-### The potential of materials discovery
-
-.context["The time for action is now"]
-
---
-
-> "Limiting global warming will require major transitions in the energy sector. This will involve a substantial reduction in fossil fuel use, widespread electrification, .highlight1[improved energy efficiency, and use of alternative fuels (such as hydrogen)]." .cite[IPCC Sixth Assessment Report, 2022]
-
-> "Reducing industry emissions will entail coordinated action throughout value chains to promote all mitigation options, including demand management, .highlight1[energy and materials efficiency, circular material flows]." .cite[IPCC Sixth Assessment Report, 2022]
-
---
-
-<br>
-
-.conclusion[Mitigation of the climate crisis requires innovation in the materials sector.]
-
-???
-
-Antimicrobial resistance
-
-- https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance
-- https://www.who.int/news-room/feature-stories/detail/donors-making-a-difference--climate-change-and-its-impact-on-health
-- https://www.who.int/news/item/31-10-2022-who-and-wmo-launch-a-new-knowledge-platform-for-climate-and-health
-- https://www.who.int/news/item/08-02-2024-who-medically-important-antimicrobial-list-2024
-- https://cdn.who.int/media/docs/default-source/gcp/who-mia-list-2024-lv.pdf?sfvrsn=3320dd3d_2
-- https://www.who.int/publications/i/item/9789240047655
-
----
-
-## Why scientific discoveries?
-### The potential of drug discovery
-
-.context[Drug discovery and vaccine development play a crucial role in modern healthcare systems.]
-
-.right-column-33[
-.center[![:scale 100%](../assets/images/slides/drugs/who_amr.png)]
-]
-
----
-
-count: false
-
-## Why scientific discoveries?
-### The potential of drug discovery
-
-.context[Drug discovery and vaccine development play a crucial role in modern healthcare systems.]
-
-.right-column-33[
-.center[![:scale 100%](../assets/images/slides/drugs/who_amr.png)]
-]
-
-.left-column-66[
-.highlight1[Bacterial antimicrobial resistance] contributed to 4.95 million deaths in 2019. .cite[World Health Organisation (WHO), 2023]
-
-WHO's latest annual review identified 27 antibiotics in clinical development that address WHO bacterial priority pathogens, of which .highlight1[only 6 were classified as innovative].
-
-"The recently approved antibacterial agents are .highlight1[insufficient to tackle the challenge] of increasing emergence and spread of antimicrobial resistance". .cite[World Health Organisation (WHO), 2021]
-]
-
----
-
-count: false
-
-## Why scientific discoveries?
-### The potential of drug discovery
-
-.context[Drug discovery and vaccine development play a crucial role in modern healthcare systems.]
-
-.right-column-33[
-.center[
-<figure>
-	<img src="../assets/images/slides/drugs/who_notimetowait.png" alt="No time to wait" style="width: 55%">
-  <figcaption><small>"No time to wait". Source: <a href="https://www.who.int/docs/default-source/documents/no-time-to-wait-securing-the-future-from-drug-resistant-infections-en.pdf">WHO</a>.</small></figcaption>
-</figure>
-]
-]
-
-.left-column-66[
-.highlight1[Bacterial antimicrobial resistance] contributed to 4.95 million deaths in 2019. .cite[World Health Organisation (WHO), 2023]
-
-WHO's latest annual review identified 27 antibiotics in clinical development that address WHO bacterial priority pathogens, of which .highlight1[only 6 were classified as innovative].
-
-"The recently approved antibacterial agents are .highlight1[insufficient to tackle the challenge] of increasing emergence and spread of antimicrobial resistance". .cite[World Health Organisation (WHO), 2021]   
-]
-
-.full-width[
-.conclusion["No time to wait". Alongside other necessary actions, drug discovery plays a key role in tackling the antimicrobial resistance global threat.]
-]
-
----
-
-## Machine Learning for Science
-
-.center[![:scale 60%](../assets/images/slides/climatechange/climate_health_ai.png)]
-
-.conclusion[Machine learning research has the potential to facilitate scientific discoveries to tackle climate and health challenges.]
-
----
-
-count: false
-
-## Machine Learning for Science and Science for Machine Learning
-
-.center[![:scale 60%](../assets/images/slides/climatechange/climate_health_ai_cycle.png)]
-
-.conclusion[Machine learning research has the potential to facilitate scientific discoveries to tackle climate and health challenges. Scientific challenges stimulate in turn machine learning research.]
 
 ---
 
@@ -217,8 +58,6 @@ class: title, middle
 
 ## Traditional discovery cycle
 
-.context35[The climate crisis demands accelerating scientific discoveries.]
-
 --
 
 .right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/gray/loop_1.png)]]
@@ -226,25 +65,10 @@ class: title, middle
 .left-column-33[
 <br>
 The .highlight1[traditional pipeline] for scientific discovery:
-* relies on .highlight1[highly specialised human expertise],
-* it is .highlight1[time-consuming] and
-* .highlight1[financially and computationally expensive].
-]
-
----
-
-count: false
-
-## _Active_ machine learning
-
-.context35[The traditional scientific discovery loop is too slow for certain applications.]
-
-.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/gray/loop_2.png)]]
-
-.left-column-33[
-<br>
-A .highlight1[machine learning model] can be:
-* trained with data from _real-world_ experiments and
+* works like a charm in many applications, but
+* it can be .highlight1[time-consuming], 
+* .highlight1[financially and computationally expensive] and
+* relies on exceptional ideas by .highlight1[highly specialised (human) experts].
 ]
 
 ---
@@ -259,28 +83,15 @@ count: false
 
 .left-column-33[
 <br>
-A .highlight1[machine learning model] can be:
-* trained with data from _real-world_ experiments and
+A .highlight2[predictive] .highlight1[machine learning model] can be:
+* trained with past data from the oracle and
 * used to quickly and cheaply evaluate queries
 ]
 
----
-
-count: false
-
-## _Active_ machine learning
-
-.context35[The traditional scientific discovery loop is too slow for certain applications.]
-
-.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/gray/loop_3.png)]]
+--
 
 .left-column-33[
-<br>
-A .highlight1[machine learning model] can be:
-* trained with data from _real-world_ experiments and
-* used to quickly and cheaply evaluate queries
-
-.conclusion[There are infinitely many conceivable materials and combinatorially many molecules. Are predictive models enough?]
+.conclusion[There are combinatorially many molecules ($10^60$?). Are predictive models enough?]
 ]
 
 ---
@@ -313,7 +124,6 @@ class: title, middle
 
 ### The challenges of scientific discoveries
 
-.center[![:scale 15%](../assets/images/slides/materials/lithium_oxide_crystal.png)]
 .center[![:scale 30%](../assets/images/slides/dna/dna_helix.png)]
 
 ---
@@ -391,6 +201,26 @@ count: false
   </div>
 </div>
 ]]
+
+---
+
+count: false
+
+## An intuitive ~~trivial~~ easy problem
+
+.highlight1[Problem]: find .highlight2[all] the arrangements of Tetris pieces on the board that minimise the empty space.
+
+.left-column-33[
+.center[![:scale 30%](../assets/images/slides/tetris/board_empty.png)]
+]
+
+.right-column-66[
+.center[![:scale 40%](../assets/images/slides/tetris/action_space_minimal.png)]
+]
+
+.full-width[
+.conclusion[We are interested in **multiple, diverse solutions** because otherwise we are putting _all our eggs in one basket_.]
+]
 
 ---
 
@@ -504,7 +334,7 @@ count: false
 .center[![:scale 80%](../assets/images/slides/tetris/10x20/action_space_all_pieces.png)]
 ]
 
-.full-width[.conclusion[Materials and drug discovery involve finding candidates with rare properties from combinatorially or infinitely many options.]]
+.full-width[.conclusion[Antibiotics discovery involves finding multiple candidates with rare, hard-to-predict properties from combinatorially many options.]]
 
 ---
 
@@ -581,11 +411,11 @@ CC(=O)NCCc1c[nH]c2ccc(OC)cc12`
 
 --
 
-&rarr; Need for .highlight2[efficient search and generalisation] of underlying structure.
+&rarr; Need for .highlight2[efficient search and generalisation].
 
 --
 
-.highlight1[Challenge]: underspecification of objective functions or metrics.
+.highlight1[Challenge]: underspecification of objective functions or properties.
 
 --
 
@@ -593,10 +423,10 @@ CC(=O)NCCc1c[nH]c2ccc(OC)cc12`
 
 --
 
-.highlight1[Limitation]: Reinforcement learning excels at optimisation in complex spaces but tends to lack diversity.
+.highlight1[Limitation]: Some methods (RL) excel at optimisation in complex spaces but tends to lack diversity.
 
 --
-.highlight1[Limitation]: Markov chain Monte Carlo (MCMC) can _sample_ from a distribution (diversity) but struggles at mode mixing in high dimensions.
+.highlight1[Limitation]: Some methods (MCMC) can _sample_ from a distribution (diversity) but struggle in high dimensions.
 
 --
 
@@ -604,7 +434,7 @@ CC(=O)NCCc1c[nH]c2ccc(OC)cc12`
 
 --
 
-.conclusion[Generative flow networks (GFlowNets) address these challenges.]
+.conclusion[Generative flow networks (GFlowNets) were designed to address these challenges.]
 
 ---
 
@@ -621,7 +451,7 @@ class: title, middle
 ## GFlowNets for science
 ### 3 key ingredients
 
-.context[Materials and drug discovery involve .highlight1[sampling from unknown distributions] in .highlight1[discrete or mixed, high-dimensional, combinatorially large spaces.]]
+.context[Antibiotics discovery involves .highlight1[sampling from unknown distributions] in .highlight1[discrete or mixed, high-dimensional, combinatorially large spaces.]]
 
 --
 
@@ -646,18 +476,15 @@ class: title, middle
 
 ## 1. Diversity as an objective
 
-.context[Many existing approaches treat scientific discovery as an _optimisation_ problem.]
+.context[An alternative to _optimisation_.]
 
-<br>
-Given a reward or objective function $R(x)$, GFlowNet can be seen a generative model trained to sample objects $x \in \cal X$ according to .highlight1[a sampling policy $\pi(x)$ proportional to the reward $R(x)$]: 
+Given a reward or objective function $R(x)$, GFlowNet can be seen a generative model trained to sample objects $x \in \cal X$ according to .highlight1[a sampling policy $p(x)$ proportional to the reward $R(x)$]: 
 
 --
 
 .left-column[
-$$\pi(x) = \frac{R(x)}{Z} \propto R(x)$$
+$$p(x) = \frac{R(x)}{Z} \propto R(x)$$
 ]
-
---
 
 .right-column[
 $$Z = \sum_{x' \in \cal X} R(x')$$
@@ -706,19 +533,20 @@ $$Z = \sum_{x' \in \cal X} R(x')$$
 ![:scale 2.5%](../assets/images/slides/tetris/unique_35.png)
 ]]
 
----
+--
 
-count: false
+.conclusion[Sampling proportionally to the reward function enables finding .highlight1[multiple modes], hence .highlight1[diversity].]
+
+---
 
 ## 1. Diversity as an objective
 
-.context[Many existing approaches treat scientific discovery as an _optimisation_ problem.]
+.context[An alternative to _optimisation_.]
 
-<br>
-Given a reward or objective function $R(x)$, GFlowNet can be seen a generative model trained to sample objects $x \in \cal X$ according to .highlight1[a sampling policy $\pi(x)$ proportional to the reward $R(x)$]: 
+Given a reward or objective function $R(x)$, GFlowNet can be seen a generative model trained to sample objects $x \in \cal X$ according to .highlight1[a sampling policy $p(x)$ proportional to the reward $R(x)$]: 
 
 .left-column[
-$$\pi(x) = \frac{R(x)}{Z} \propto R(x)$$
+$$p(x) = \frac{R(x)}{Z} \propto R(x)$$
 ]
 
 .right-column[
@@ -726,10 +554,10 @@ $$Z = \sum_{x' \in \cal X} R(x')$$
 ]
 
 .full-width[
-&rarr; Sampling proportionally to the reward function enables finding .highlight1[multiple modes], hence .highlight1[diversity].
-
-.center[![:scale 22%](../assets/images/slides/gflownet/reward_landscape.png)]
+.center[![:scale 20%](../assets/images/slides/gflownet/reward_landscape.png)]
 ]
+
+.conclusion[Sampling proportionally to the reward function enables finding .highlight1[multiple modes], hence .highlight1[diversity].]
 
 ---
 
@@ -1116,7 +944,7 @@ At each step of the .highlight1[trajectory $\tau=(s_0\rightarrow s_1 \rightarrow
 
 ## 3. Deep learning policy
 
-.context35[GFlowNets learn a sampling policy $\pi\_{\theta}(x)$ proportional to the reward $R(x)$.]
+.context35[GFlowNets learn a sampling policy $p\_{\theta}(x)$ proportional to the reward $R(x)$.]
 
 --
 
@@ -1130,7 +958,7 @@ count: false
 
 ## 3. Deep learning policy
 
-.context35[GFlowNets learn a sampling policy $\pi\_{\theta}(x)$ proportional to the reward $R(x)$.]
+.context35[GFlowNets learn a sampling policy $p\_{\theta}(x)$ proportional to the reward $R(x)$.]
 
 .left-column[
 .center[![:scale 90%](../assets/images/slides/tetris/flows_math.png)]
@@ -1144,7 +972,7 @@ Deep neural networks are trained to learn the transitions (flows) policy: $F\_{\
 --
 
 .right-column[
-Consistent flow theorem (informal): if the sum of the flows into state $s$ is equal to the sum of the flows out, then $\pi(x) \propto R(x)$.
+Consistent flow theorem (informal): if the sum of the flows into state $s$ is equal to the sum of the flows out, then $p(x) \propto R(x)$.
 ]
 
 .references[
@@ -1154,7 +982,7 @@ Bengio et al. [Flow network based generative models for non-iterative diverse ca
 --
 
 .right-column[
-.conclusion[GFlowNets can be trained with deep learning methods to learn a sampling policy $\pi\_{\theta}$ proportional to a reward $R(x)$.]
+.conclusion[GFlowNets can be trained with deep learning methods to learn a sampling policy $p\_{\theta}$ proportional to a reward $R(x)$.]
 ]
 
 ---
@@ -1318,7 +1146,7 @@ Nikita Saxena, Moksh Jain, Cheng-Hao Liu, Yoshua Bengio
 
 .left-column[
 Example: "incredibly hard" Tetris problem: find arrangements of Tetris pieces that optimise an .highlight2[unknown function $f$].
-- $f$: Oracle, cost per evaluation 1,000 USD.
+- $f$: Oracle, cost per evaluation 1,000 CAD.
 
 .center[
 <div style="display: flex">
@@ -1366,7 +1194,7 @@ count: false
 
 .left-column[
 Example: "incredibly hard" Tetris problem: find arrangements of Tetris pieces that optimise an .highlight2[unknown function $f$].
-- $f$: Oracle, cost per evaluation 1,000 USD.
+- $f$: Oracle, cost per evaluation 1,000 CAD.
 
 .center[
 <div style="display: flex">
@@ -1414,9 +1242,9 @@ count: false
 
 .left-column[
 Example: "incredibly hard" Tetris problem: find arrangements of Tetris pieces that optimise an .highlight2[unknown function $f$].
-- $f$: Oracle, cost per evaluation 1,000 USD.
-- $f\_1$: Slightly inaccurate oracle, cost 100 USD.
-- $f\_2$: Noisy but informative oracle, cost 1 USD.
+- $f$: Oracle, cost per evaluation 1,000 CAD.
+- $f\_1$: Slightly inaccurate oracle, cost 100 CAD.
+- $f\_2$: Noisy but informative oracle, cost 1 CAD.
 
 .center[
 <div style="display: flex">
@@ -1458,11 +1286,13 @@ count: false
 .context[In many scientific applications we have access to multiple approximations of the objective function.]
 
 .left-column[
-For example, in .highlight1[material discovery]:
+For example, in .highlight1[antibiotics discovery]:
 
-* .highlight1[Synthesis] of a material and characterisation of a property in the lab
-* Molecular dynamic .highlight1[simulations] to estimate the property
-* .highlight1[Machine learning] models trained to predict the property
+* .highlight1[Synthesis] of a compound and characterising the antimicrobial activity the lab.
+* .highlight1[Molecular dynamic simulations] to estimate the binding affinity to known targets.
+* .highlight1[Machine learning models] of the binding affinity to known targets.
+* .highlight1[Machine learning models] models of the antimicrobial activity.
+* ...
 ]
 
 .right-column[
@@ -1492,7 +1322,7 @@ For example, in .highlight1[material discovery]:
 
 --
 
-.conclusion[Likely the first multi-fidelity active learning method for biological sequences and molecules.]
+.conclusion[To our knowledge, the first multi-fidelity active learning method for biological sequences and molecules.]
 
 ---
 
@@ -1816,7 +1646,7 @@ count: false
 .columns-3-left[
 Nikita Saxena<br>
 Alexandre Duval<br>
-Yasmine Benabed<br>
+Léna Néhale Ezzine<br>
 Pierre Luc Carrier<br>
 ...
 ]
@@ -1868,7 +1698,7 @@ exclude: true
 
 ---
 
-name: qmm-jun25
+name: pasteur-visit-jun25
 class: title, middle
 
 ![:scale 40%](../assets/images/slides/climatechange/climate_health_ai_cycle.png)
