@@ -1648,6 +1648,8 @@ Nikita Saxena<br>
 Alexandre Duval<br>
 Léna Néhale Ezzine<br>
 Pierre Luc Carrier<br>
+Céline Roget<br>
+Erick Arroyo Pérez<br>
 ...
 ]
 
@@ -1655,6 +1657,7 @@ Pierre Luc Carrier<br>
 Alexandra Volokhova<br>
 Michał Koziarski<br>
 Yoshua Bengio<br>
+Yves Brun<br>
 ...
 ]
 
@@ -1663,6 +1666,8 @@ Divya Sharma<br>
 Victor Schmidt<br>
 Moksh Jain<br>
 Cheng-Hao Liu<br>
+Hyeonah Kim<br>
+David Kysela<br>
 ...
 ]
 
