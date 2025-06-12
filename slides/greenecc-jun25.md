@@ -11,7 +11,7 @@ class: title, middle
 
 Alex Hernández-García (he/il/él)
 
-.turquoise[GreenECC · Virtuel · 12 juin 2025]
+.turquoise[Green ECC · Virtuel · 12 juin 2025]
 
 .center[
 <a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-white-v2.png" alt="Mila" style="width: 12em"></a>
