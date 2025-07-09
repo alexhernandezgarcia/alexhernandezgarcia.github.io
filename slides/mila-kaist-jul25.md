@@ -10,7 +10,7 @@ class: title, middle
 
 Alex Hernández-García (he/il/él)
 
-.turquoise[KAIST–Mila Prefrontal Research Center · Mila · July 9th 2025]
+.turquoise[KAIST–Mila Prefrontal AI Worshop · Mila · July 9th 2025]
 
 .center[
 <a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 4em"></a>
