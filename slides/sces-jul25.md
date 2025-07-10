@@ -1469,6 +1469,18 @@ We restrict the sampling space at sampling time:
 
 ---
 
+## Ongoing applications
+
+* Discovering novel for solid-state electrolytes with high ionic conductivity for battery materials. 
+
+* Designing electrocatalysts for sustainability purposes.
+
+--
+
+* `<your application here>`
+
+---
+
 ## Crystal-GFN
 ### Summary and conclusions
 
