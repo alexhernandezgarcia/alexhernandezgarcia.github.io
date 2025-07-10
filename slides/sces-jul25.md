@@ -1507,11 +1507,11 @@ We restrict the sampling space at sampling time:
 name: sces-jul25
 class: title, middle
 
-![:scale 30%](../assets/images/slides/climatechange/climate_health_ai_cycle.png)
+[Crystal-GFN](https://arxiv.org/abs/2310.04925): arxiv.org/abs/2310.04925
 
-Alex Hernández-García (he/il/él)
+.bigger[Alexandre Duval, Alexandra Volokhova, Yoshua Bengio, Divya Sharma, Pierre Luc Carrier, Yasmine Benabed, Michał Koziarski, Victor Schmidt, Félix Therrien, Mickaël Dollé, Michel Côté, Lena Podina]
 
-.smaller[Alexandre Duval, Alexandra Volokhova, Yoshua Bengio, Divya Sharma, Pierre Luc Carrier, Yasmine Benabed, Michał Koziarski, Victor Schmidt, Félix Therrien, Mickaël Dollé, Michel Côté, Lena Podina]
+.smaller[Alex Hernández-García (he/il/él)]
 
 .center[
 <a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 3em"></a>
