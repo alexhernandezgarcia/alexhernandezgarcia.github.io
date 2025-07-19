@@ -13,11 +13,11 @@ redirect_from :
 
 # Course description
 
-Generative flow networks, also known as GFlowNets or simply GFN, are a class of generative machine learning models that perform amortised probabilistic inference. This course will cover the fundamental aspects of GFlowNets, starting from a motivation and introduction to the method, and progressing towards more advanced concepts and applications, as well as the connection to other generative models and probabilistic inference methods. The course will combine theory with project work, with a special emphasis on the application of GFlowNets for scientific discovery.
+Generative flow networks, also known as GFlowNets or simply GFN, are a class of generative machine learning models that perform amortised probabilistic inference. This course will cover the fundamental aspects of GFlowNets, starting from a motivation and introduction to the method, and progressing towards more advanced concepts and applications, as well as the connection to other generative models, reinforcement learning and probabilistic inference methods. The course will combine theory with project work, with a special emphasis on the application of GFlowNets for scientific discovery.
 
 ---
 
-Les réseaux de flux génératifs, également connus sous le nom de GFlowNets ou simplement GFN, sont une classe de modèles d'apprentissage automatique génératifs qui effectuent une inférence probabiliste amortie. Ce cours couvrira les aspects fondamentaux de GFlowNets, à partir d'une motivation et d'une introduction à la méthode, en progressant vers des concepts et applications plus avancés, ainsi que le lien avec d'autres modèles génératifs et méthodes d'inférence probabiliste. Le cours combinera la théorie avec le travail de projet, avec un accent particulier sur l'application des GFlowNets pour la découverte scientifique.
+Les réseaux de flux génératifs, également connus sous le nom de GFlowNets ou simplement GFN, sont une classe de modèles d'apprentissage automatique génératifs qui effectuent une inférence probabiliste amortie. Ce cours couvrira les aspects fondamentaux de GFlowNets, à partir d'une motivation et d'une introduction à la méthode, en progressant vers des concepts et applications plus avancés, ainsi que le lien avec d'autres modèles génératifs, apprentissage par renforcement et méthodes d'inférence probabiliste. Le cours combinera la théorie avec le travail de projet, avec un accent particulier sur l'application des GFlowNets pour la découverte scientifique.
 
 
 # Course outline
