@@ -111,13 +111,13 @@ Les cours ont lieu :
 * [Mila GFlowNet Workshop 2023](https://www.gflownet.org/).
 * [gflownet Python library](https://github.com/alexhernandezgarcia/gflownet).
 
-## Prerequisites
+## Machine learning and deep learning review
 * Abu-Mostafa, Y. S., Magdon-Ismail, M., & Lin, H. T. (2012). [Learning from data](https://work.caltech.edu/textbook.html). AMLBook.
 * Goodfellow, I., Bengio, Y., & Courville, A. (2016). [Deep learning](https://www.deeplearningbook.org/). MIT press.
-* Anish, Jose, Jon (last visit on May 5th, 2025). [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/). CSAIL MIT.
 * [Deep Learning Tutorials](https://deeplearning.neuromatch.io/tutorials/intro.html). Neuromatch Deep Learning course.
 
 ## Machine learning in practice
+* Anish, Jose, Jon (last visit on May 5th, 2025). [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/). CSAIL MIT.
 * [Linux introduction for Windows and Mac users](https://docs.computecanada.ca/wiki/Linux_introduction). Compute Canada wiki.
 * [Python tutorial: An informal introduction to Python](https://docs.python.org/3/tutorial/introduction.html). [www.python.org](https://www.python.org/).
 * [PyTorch tutorials](https://pytorch.org/tutorials/). [pytorch.org](https://pytorch.org).
