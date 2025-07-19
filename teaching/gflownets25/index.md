@@ -22,7 +22,28 @@ Les réseaux de flux génératifs, également connus sous le nom de GFlowNets ou
 
 # Course outline
 
-_Coming soon_
+This seminar course consists of three blocks:
+
+1. **Lectures** by the instructor and invited speakers
+2. **Presentations** by students about relevant papers
+3. **Project work** and presentations
+
+The lectures will cover the following topics:
+
+- Introduction and motivation
+- Brief review of requisite background
+- Main concepts and theoretical results
+- Relevant loss functions
+- Continuous GFlowNets
+- Training guidelines
+- Evaluation guidelines
+- Connections with diffusion models
+- Connections with reinforcement learning
+- Multi-objective GFlowNets
+- Conditional GFlowNets
+- Active learning with GFlowNets
+- Applications in drug discovery
+- Applications in materials discovery
 
 # Evaluation criteria
 
