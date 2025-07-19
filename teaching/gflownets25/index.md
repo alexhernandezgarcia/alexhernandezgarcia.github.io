@@ -1,7 +1,7 @@
 ---
 layout : teaching
 navigation: navigation_gflownets25
-title : IFT 6760B A25 - Probabilistic inference with GFlowNets
+title : Probabilistic inference with GFlowNets - IFT 6760B A25
 redirect_from :
   - /gflownets
   - /gflownets25
@@ -96,7 +96,7 @@ In order to cover the specifics of generative flow networks (GFlowNets), we have
 * [Link to public admission page of IFT 6760B](https://admission.umontreal.ca/cours-et-horaires/cours/ift-6760b/)
 * [University calendar](https://registraire.umontreal.ca/dates-importantes/calendriers-universitaires/#calendrier-universitaire-2025-2026)
 
-## Session d'automne 2025
+# Session d'automne 2025
 
 Les cours ont lieu :
 
@@ -105,10 +105,20 @@ Les cours ont lieu :
 
 # Resources
 
+## Introduction to GFlowNets
+* Bengio et al. (2021). [Flow network based generative models for non-iterative diverse candidate generation](https://papers.nips.cc/paper/2021/hash/e614f646836aaed9f89ce58e837e2310-Abstract.html). NeurIPS 2021.
+* Jain, et al. (2023). [GFlowNets for AI-driven scientific discovery](https://pubs.rsc.org/en/content/articlelanding/2023/dd/d3dd00002h). Digital Discovery.
+* [Mila GFlowNet Workshop 2023](https://www.gflownet.org/).
+* [gflownet Python library](https://github.com/alexhernandezgarcia/gflownet).
+
+## Prerequisites
 * Abu-Mostafa, Y. S., Magdon-Ismail, M., & Lin, H. T. (2012). [Learning from data](https://work.caltech.edu/textbook.html). AMLBook.
 * Goodfellow, I., Bengio, Y., & Courville, A. (2016). [Deep learning](https://www.deeplearningbook.org/). MIT press.
 * Anish, Jose, Jon (last visit on May 5th, 2025). [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/). CSAIL MIT.
+* [Deep Learning Tutorials](https://deeplearning.neuromatch.io/tutorials/intro.html). Neuromatch Deep Learning course.
+
+## Machine learning in practice
 * [Linux introduction for Windows and Mac users](https://docs.computecanada.ca/wiki/Linux_introduction). Compute Canada wiki.
 * [Python tutorial: An informal introduction to Python](https://docs.python.org/3/tutorial/introduction.html). [www.python.org](https://www.python.org/).
 * [PyTorch tutorials](https://pytorch.org/tutorials/). [pytorch.org](https://pytorch.org).
-* [Deep Learning Tutorials](https://deeplearning.neuromatch.io/tutorials/intro.html). Neuromatch Deep Learning course.
+* [Projets (avancés) en apprentissage automatique - IFT 3710/6759 H24](https://alexhernandezgarcia.github.io/teaching/mlprojects24/).
