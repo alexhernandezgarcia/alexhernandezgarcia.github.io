@@ -6,7 +6,7 @@ permalink: /teaching
 
 Teaching is one of my favourite parts of my job, alongside research itself. Furthermore, I believe there is a strong symbiotic relationship between research and teaching.
 
-Currently, I am teaching [_Projets avancés en apprentissage automatique_]({{ site.url }}/mlprojects) / _Advanced machine learning projects_ at the [Université de Montréal](https://www.umontreal.ca/). A non-exhaustive record of my teaching activity is given below.
+From September to December 2025, I am teaching [_Probabilistic inference with GFlowNets_]({{ site.url }}/gflownets25) at the [Université de Montréal](https://www.umontreal.ca/). A (nearly complete) record of my main teaching activity is given below.
 
 ### Teaching activity
 
