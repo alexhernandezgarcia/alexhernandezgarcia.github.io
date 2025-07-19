@@ -47,7 +47,19 @@ The lectures will cover the following topics:
 
 # Evaluation criteria
 
-_Coming soon_
+The evaluation will be based on three aspects:
+
+- **Project work**: 40 %
+    - Students will form teams and work on research-like projects.
+    - Projects may focus on extending, analysing or reproducing theoretical or practical aspects of GFlowNets.
+    - Projects will be evaluated based on a conference-like paper and a presentation.
+- **Paper presentations**: 30 %
+    - Students will select a relevant paper and present it for the rest of the group either individually or in small teams.
+    - Presentations will be followed by a discussion in which everyone can participate.
+    - The evaluation will consider both the presentation as well as the participation in the discussions.
+- **Quizzes**: 20 %
+    - A few quizzes will have to be completed by students throughout the lectures block of the course.
+    - The quizzes will be based on the content of the lectures and suggested additional material.
 
 # Prerequisites
 
