@@ -26,18 +26,18 @@ This seminar course consists of three blocks:
 
 1. **Lectures** by the instructor and invited speakers
 2. **Presentations** by students about relevant papers
-3. **Project work** and presentations
+3. **Project work** and **paper presentations** by students
 
 The lectures will cover the following topics:
 
 - Introduction and motivation
 - Brief review of requisite background
 - Main concepts and theoretical results
-- Relevant loss functions
 - Continuous GFlowNets
+- Relevant loss functions
 - Training guidelines
 - Evaluation guidelines
-- Connections with diffusion models
+- Connections with diffusion models and variational inference
 - Connections with reinforcement learning
 - Multi-objective GFlowNets
 - Conditional GFlowNets
