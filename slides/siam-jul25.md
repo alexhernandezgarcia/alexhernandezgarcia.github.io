@@ -6,11 +6,13 @@ title: "Towards equilibrium molecular conformation generation with GFlowNets"
 name: siam-jul25
 class: title, middle
 
-## Towards equilibrium molecular conformation generation with GFlowNets
+### Towards equilibrium molecular conformation generation with GFlowNets
+
+.highlight2[Alexandra Volokhova] & .highlight2[Léna Néhale-Ezzine]
+
+.smaller[Michał Koziarski, Piotr Gaiński, Cheng-Hao Liu, Luca Scimeca, Santiago Miret, Pablo Lemos, Luca Thiede, Zichao Yan, Emmanuel Bengio, Prudencio Tossou, Alán Aspuru-Guzik, Yoshua Bengio]
 
 Presenting: Alex Hernández-García (he/il/él)
-
-.smaller[.highlight2[Alexandra Volokhova], .highlight2[Léna Néhale-Ezzine], Michał Koziarski, Piotr Gaiński, Cheng-Hao Liu, Luca Scimeca, Santiago Miret, Pablo Lemos, Luca Thiede, Zichao Yan, Emmanuel Bengio, Prudencio Tossou, Alán Aspuru-Guzik, Yoshua Bengio]
 
 .turquoise[[SIAM 2025 · Computational Data Science of Nanostructures](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=84791) · Montreal · July 28th 2025]
 
@@ -195,18 +197,20 @@ count: false
 
 ## Sampling molecular conformations
 
-.context[Sampling diverse, thermodynamically feasible molecular conformations plays a crucial role in predicting properties of a molecule.]
+Sampling diverse, thermodynamically feasible molecular conformations plays a crucial role in predicting properties of a molecule.
 
 Goal: given a molecular graph $G$, to sample conformations from the Boltzmann distribution, as determined by the molecule's energy.
 
 --
 
-.center[![:scale 60%](../assets/images/slides/conformers/alanine_dipeptide_torsion_angles.png)]
+.right-column[.center[![:scale 80%](../assets/images/slides/conformers/alanine_dipeptide_torsion_angles.png)]]
 
+.left-column[
 We represent molecules by their intrinsic properties:
 - Torsion angles
 - Bond lengths
 - Bond angles
+]
 
 ---
 
@@ -214,16 +218,18 @@ count: false
 
 ## Sampling molecular conformations
 
-.context[Sampling diverse, thermodynamically feasible molecular conformations plays a crucial role in predicting properties of a molecule.]
+Sampling diverse, thermodynamically feasible molecular conformations plays a crucial role in predicting properties of a molecule.
 
 Goal: given a molecular graph $G$, to sample conformations from the Boltzmann distribution, as determined by the molecule's energy.
 
-.center[![:scale 60%](../assets/images/slides/conformers/alanine_dipeptide_torsion_angles.png)]
+.right-column[.center[![:scale 80%](../assets/images/slides/conformers/alanine_dipeptide_torsion_angles.png)]]
 
+.left-column[
 We represent molecules by their intrinsic properties:
 - .highlight1[Torsion angles]: responsible for most of the variance in the conformational space
 - Bond lengths: considered constant (local structure)
 - Bond angles: considered constant (local structure)
+]
 
 ---
 
@@ -253,7 +259,7 @@ GFlowNets are amortised samplers designed to sample proportionally to a reward f
 
 ## Results: multiple torsion angles
 
-.center[![:scale 60%](../assets/images/slides/conformers/torsional-gfn-v1_manyangles_results_jsd.png)]
+.center[![:scale 100%](../assets/images/slides/conformers/torsional-gfn-v1_manyangles_results_jsd.png)]
 
 ---
 
@@ -261,7 +267,7 @@ count: false
 
 ## Results: multiple torsion angles
 
-.center[![:scale 60%](../assets/images/slides/conformers/torsional-gfn-v1_manyangles_results_cov_mat.png)]
+.center[![:scale 100%](../assets/images/slides/conformers/torsional-gfn-v1_manyangles_results_cov_mat.png)]
 
 .conclusion[GFlowNet can also learn the energy distributions over multiple torsion angles, better than relying solely on RDKit.]
 
@@ -272,11 +278,9 @@ count: false
 - GFlowNet can sample diverse low-energy conformations of drug-like molecules with multiple torsion angles.
 - GFlowNet can learn various energy landscapes with different energy estimators.
 
-Paper: Volokhova, Koziarski, et al. [Towards equilibrium molecular conformation generation with GFlowNets](). Digital Discovery (2024).
+Paper: Volokhova, Koziarski, et al. [Towards equilibrium molecular conformation generation with GFlowNets](https://pubs.rsc.org/en/content/articlepdf/2024/dd/d4dd00023d). Digital Discovery (2024).
 
 --
-
-However:
 
 - Since a GFlowNet needs to be trained for each molecule, is this practically useful at all?
 - Is MCMC not as good as GFlowNets for this task?
@@ -302,30 +306,32 @@ However:
 ## Results
 
 - We trained Torsional‐GFN on a subset of 6 molecules, each with 2 rotatable torsion angles, from the FreeSolv dataset.
-- Local structures were fixed to the values of one arbitrary conformation from the MD simulation dataset.
+- Local structures fixed to the values of one arbitrary conformation from the MD simulation dataset.
 - Energy function: MMFF94.
 
 --
 
 .left-column[
+.center[
 <figure>
-	<img src="../assets/images/slides/conformers/2d_cid_3_train.png" alt="Local structure in train set" style="width: 100%">
+	<img src="../assets/images/slides/conformers/2d_cid_3_train.png" alt="Local structure in train set" style="width: 80%">
   <figcaption><small>Local structure in train set</a>.</small></figcaption>
 </figure>
-]
+]]
 .right-column[
+.center[
 <figure>
-	<img src="../assets/images/slides/conformers/2d_cid_3_unseen.png" alt="Unseen local structure" style="width: 100%">
+	<img src="../assets/images/slides/conformers/2d_cid_3_unseen.png" alt="Unseen local structure" style="width: 80%">
   <figcaption><small>Unseen local structure during training</a>.</small></figcaption>
 </figure>
-]
+]]
 
 ---
 
 ## Results
 ### Energy histograms
 
-.center[![:scale 100%](../assets/images/slides/conformers/energies_hist.png)]
+.center[![:scale 90%](../assets/images/slides/conformers/energies_hist.png)]
 
 ---
 
@@ -335,6 +341,8 @@ However:
 - This development entail significant challenges, such as training a GNN as the policy architecture.
 - For practical use, Torsional-GFN shoudl be scaled to multiple torsional angles and many more molecules.
 - It may be beneficial to also sample the local structures.
+
+Pre-print: Volokhova, Nehale-Ezzine, et al. [Torsional-GFN: a conditional conformation generator for small molecules](https://arxiv.org/abs/2507.11759). arXiv:2507.11759 (2025).
 
 ---
 
