@@ -64,7 +64,7 @@ count: false
 - [Crystal-GFN: materials discovery](#crystal-gfn)
 
 --
-- [Hands-on tutorial about the gflownet Python library and Crystal-GFN](https://colab.research.google.com/drive/1psi4aH4c7isfQrdy3QcZC4VOJoNIMsTU?usp=sharing) (unlikely to have time during the session)
+- [Hands-on tutorial about the gflownet Python library and Crystal-GFN](https://colab.research.google.com/drive/1c0PLKcD-1tG36rlx7XdTdczsGYmksiXg?usp=sharing) (unlikely to have time during the session)
 
 ???
 
@@ -1621,7 +1621,7 @@ class: title, middle
 
 ## Hands-on time!
 
-[Hands-on tutorial about the gflownet library and Crystal-GFN](https://colab.research.google.com/drive/1psi4aH4c7isfQrdy3QcZC4VOJoNIMsTU?usp=sharing)
+[Hands-on tutorial about the gflownet library and Crystal-GFN](https://colab.research.google.com/drive/1c0PLKcD-1tG36rlx7XdTdczsGYmksiXg?usp=sharing)
 
 ---
 
