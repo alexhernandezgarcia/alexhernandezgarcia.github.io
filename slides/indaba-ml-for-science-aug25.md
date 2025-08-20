@@ -204,6 +204,22 @@ count: false
 - [Application: Materials discovery with GFlowNets (Crystal-GFN)](#crystal-gfn)
 
 --
+- [Multi-fidelity active learning for scientific discoveries](#mfal)
+
+--
+- [Hands-on tutorial about the gflownet Python library and Crystal-GFN](https://colab.research.google.com/drive/128wF6-56mCdvo38pl0m9dPiSm6We7CTe?usp=sharing)
+
+---
+
+count: false
+
+## Outline
+
+
+- [.highlight2[Intro: Machine learning for scientific discoveries]](#mlforscience)
+- [Gentle introduction to GFlowNets](#gflownets)
+- [Application: Materials discovery with GFlowNets (Crystal-GFN)](#crystal-gfn)
+- [Multi-fidelity active learning for scientific discoveries](#mfal)
 - [Hands-on tutorial about the gflownet Python library and Crystal-GFN](https://colab.research.google.com/drive/128wF6-56mCdvo38pl0m9dPiSm6We7CTe?usp=sharing)
 
 ---
@@ -638,6 +654,18 @@ Crystal structures can be described by their chemical composition, the symmetry 
 --
 
 .conclusion[Generative flow networks (GFlowNets) address these challenges.]
+
+---
+
+count: false
+
+## Outline
+
+- [Intro: Machine learning for scientific discoveries](#mlforscience)
+- [.highlight2[Gentle introduction to GFlowNets]](#gflownets)
+- [Application: Materials discovery with GFlowNets (Crystal-GFN)](#crystal-gfn)
+- [Multi-fidelity active learning for scientific discoveries](#mfal)
+- [Hands-on tutorial about the gflownet Python library and Crystal-GFN](https://colab.research.google.com/drive/128wF6-56mCdvo38pl0m9dPiSm6We7CTe?usp=sharing)
 
 ---
 
@@ -1307,6 +1335,18 @@ Research articles supported by this GFlowNet package:
 ---
 
 count: false
+
+## Outline
+
+- [Intro: Machine learning for scientific discoveries](#mlforscience)
+- [Gentle introduction to GFlowNets](#gflownets)
+- [.highlight2[Application: Materials discovery with GFlowNets (Crystal-GFN)]](#crystal-gfn)
+- [Multi-fidelity active learning for scientific discoveries](#mfal)
+- [Hands-on tutorial about the gflownet Python library and Crystal-GFN](https://colab.research.google.com/drive/128wF6-56mCdvo38pl0m9dPiSm6We7CTe?usp=sharing)
+
+---
+
+count: false
 name: crystal-gfn
 class: title, middle
 
@@ -1727,29 +1767,550 @@ We restrict the sampling space at sampling time:
 
 ---
 
-## Crystal-GFN
-### Summary and conclusions
+count: false
+
+## Outline
+
+- [Intro: Machine learning for scientific discoveries](#mlforscience)
+- [Gentle introduction to GFlowNets](#gflownets)
+- [Application: Materials discovery with GFlowNets (Crystal-GFN)](#crystal-gfn)
+- [.highlight2[Multi-fidelity active learning for scientific discoveries]](#mfal)
+- [Hands-on tutorial about the gflownet Python library and Crystal-GFN](https://colab.research.google.com/drive/128wF6-56mCdvo38pl0m9dPiSm6We7CTe?usp=sharing)
+
+---
+
+count: false
+
+name: mfal
+class: title, middle
+
+## Multi-fidelity active learning
+
+Nikita Saxena, Moksh Jain, Cheng-Hao Liu, Yoshua Bengio
+
+.smaller[[Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). Transactions on Machine Learning Research (TMLR). 2024.]
+
+.center[![:scale 30%](../assets/images/slides/mfal/multiple_oracles.png)]
+
+---
+
+## Why multi-fidelity?
+
+.context35[We had described the scientific discovery loop as a cycle with one single oracle.]
+
+<br><br>
+.right-column[
+.center[![:scale 90%](../assets/images/slides/scientific-discovery/loop_4.png)]
+]
+
+--
+
+.left-column[
+Example: "incredibly hard" Tetris problem: find arrangements of Tetris pieces that optimise an .highlight2[unknown function $f$].
+- $f$: Oracle, cost per evaluation 1,000 CAD.
+
+.center[
+<div style="display: flex">
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_434.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_800.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_815.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_849.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_905.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+</div>
+]
+]
+
+---
+
+count: false
+
+## Why multi-fidelity?
+
+.context35[However, in practice, multiple oracles (models) of different fidelity and cost are available in scientific applications.]
+
+<br><br>
+.right-column[
+.center[![:scale 95%](../assets/images/slides/scientific-discovery/loop_4_mf.png)]
+]
+
+.left-column[
+Example: "incredibly hard" Tetris problem: find arrangements of Tetris pieces that optimise an .highlight2[unknown function $f$].
+- $f$: Oracle, cost per evaluation 1,000 CAD.
+
+.center[
+<div style="display: flex">
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_434.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_800.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_815.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_849.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_905.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+</div>
+]
+]
+
+---
+
+count: false
+
+## Why multi-fidelity?
+
+.context35[However, in practice, multiple oracles (models) of different fidelity and cost are available in scientific applications.]
+
+<br><br>
+.right-column[
+.center[![:scale 95%](../assets/images/slides/scientific-discovery/loop_4_mf.png)]
+]
+
+.left-column[
+Example: "incredibly hard" Tetris problem: find arrangements of Tetris pieces that optimise an .highlight2[unknown function $f$].
+- $f$: Oracle, cost per evaluation 1,000 CAD.
+- $f\_1$: Slightly inaccurate oracle, cost 100 CAD.
+- $f\_2$: Noisy but informative oracle, cost 1 CAD.
+
+.center[
+<div style="display: flex">
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_434.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_800.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_815.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_849.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+  <div style="flex: 20%;">
+  <figure>
+      <img src="../assets/images/slides/tetris/10x20/random_905.png" alt="Random board" style="width: 200%">
+  </figure>
+  </div>
+</div>
+]
+]
+
+---
+
+count: false
+
+## Why multi-fidelity?
+
+.context[In many scientific applications we have access to multiple approximations of the objective function.]
+
+.left-column[
+For example, in .highlight1[material discovery]:
+
+* .highlight1[Synthesis] of a material and characterisation of a property in the lab
+* Molecular dynamic .highlight1[simulations] to estimate the property
+* .highlight1[Machine learning] models trained to predict the property
+]
+
+.right-column[
+.center[![:scale 90%](../assets/images/slides/scientific-discovery/loop_4_mf.png)]
+]
+
+--
+
+.conclusion[However, current machine learning methods cannot efficiently leverage the availability of multiple oracles and multi-fidelity data. Especially with .highlight1[structured, large, high-dimensional search spaces].]
+
+---
+
+## Contribution
+
+- An .highlight1[active learning] algorithm to leverage the availability of .highlight1[multiple oracles at different fidelities and costs].
+
+--
+- The goal is two-fold:
+    1. Find high-scoring candidates
+    2. Candidates must be diverse
+--
+- Experimental evaluation with .highlight1[biological sequences and molecules]:
+    - DNA
+    - Antimicrobial peptides
+    - Small molecules
+    - Classical multi-fidelity toy functions (Branin and Hartmann)
+
+--
+
+.conclusion[Likely the first multi-fidelity active learning method for biological sequences and molecules.]
+
+---
+
+## Our multi-fidelity active learning algorithm
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_0.png)]
+
+---
+
+count: false
+
+## Our multi-fidelity active learning algorithm
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_1.png)]
+
+---
+
+count: false
+
+## Our multi-fidelity active learning algorithm
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_2.png)]
+
+---
+
+count: false
+
+## Our multi-fidelity active learning algorithm
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_3.png)]
+
+---
+
+count: false
+
+## Our multi-fidelity active learning algorithm
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_4.png)]
+
+---
+
+count: false
+
+## Our multi-fidelity active learning algorithm
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_5.png)]
+
+---
+
+count: false
+
+## Our multi-fidelity active learning algorithm
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_6.png)]
+
+---
+
+count: false
+
+## Our multi-fidelity active learning algorithm
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_7.png)]
+
+---
+
+count: false
+
+## Our multi-fidelity active learning algorithm
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_8.png)]
+
+---
+
+count: false
+
+## Our multi-fidelity active learning algorithm
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_9.png)]
+
+---
+
+count: false
+
+## Our multi-fidelity active learning algorithm
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_10.png)]
+
+---
+
+count: false
+
+## Our multi-fidelity active learning algorithm
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_11.png)]
+
+---
+
+count: false
+
+## Our multi-fidelity active learning algorithm
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_12.png)]
+
+---
+
+count: false
+
+## Our multi-fidelity active learning algorithm
+
+.center[![:scale 100%](../assets/images/slides/mfal/mfal_13.png)]
+
+---
+
+## Experiments
+### Baselines
+
+.context[This may be the .highlight1[first multi-fidelity active learning algorithm tested on biological sequence design and molecular design problems]. There did not exist baselines from the literature.]
+
+--
+
+<br>
+* .highlight1[SF-GFN]: GFlowNet with highest fidelity oracle to establish a benchmark for performance without considering the cost-accuracy trade-offs.
+
+--
+* .highlight1[Random]: Quasi-random approach where the candidates and fidelities are picked randomly and the top $(x, m)$ pairs scored by the acquisition function are queried.
+
+--
+* .highlight1[Random fid. GFN]: GFlowNet with random fidelities, to investigate the benefit of deciding the fidelity with GFlowNets.
+
+--
+* .highlight1[MF-PPO]: Replacement of MF-GFN with a reinforcement learning algorithm to _optimise_ the acquisition function.
+
+---
+
+## Small molecules
+
+- Realistic experiments with experimental oracles and costs that reflect computational demands (1, 3, 7).
+- GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
+- Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
+
+--
+
+.center[![:scale 50%](../assets/images/slides/mfal/molecules_ea_1.png)]
+
+---
+
+count: false
+
+## Small molecules
+
+- Realistic experiments with experimental oracles and costs that reflect computational demands (1, 3, 7).
+- GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
+- Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
+
+.center[![:scale 50%](../assets/images/slides/mfal/molecules_ea_2.png)]
+
+---
+
+count: false
+
+## Small molecules
+
+- Realistic experiments with experimental oracles and costs that reflect computational demands (1, 3, 7).
+- GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
+- Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
+
+.center[![:scale 50%](../assets/images/slides/mfal/molecules_ea_3.png)]
+
+---
+
+count: false
+
+## Small molecules
+
+- Realistic experiments with experimental oracles and costs that reflect computational demands (1, 3, 7).
+- GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
+- Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
+
+.center[![:scale 50%](../assets/images/slides/mfal/molecules_ea_4.png)]
+
+---
+
+count: false
+
+## Small molecules
+
+- Realistic experiments with experimental oracles and costs that reflect computational demands (1, 3, 7).
+- GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
+- Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
+
+.center[![:scale 50%](../assets/images/slides/mfal/molecules_ea_5.png)]
+
+---
+
+count: false
+
+## Small molecules
+
+- Realistic experiments with experimental oracles and costs that reflect computational demands (1, 3, 7).
+- GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
+- Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
+
+.center[![:scale 50%](../assets/images/slides/mfal/molecules_ea_6.png)]
+
+---
+
+count: false
+
+## Small molecules
+
+- Realistic experiments with experimental oracles and costs that reflect computational demands (1, 3, 7).
+- GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
+- Property: Adiabatic electron affinity (EA). Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
+
+.center[![:scale 50%](../assets/images/slides/mfal/molecules_ea_7.png)]
+
+---
+
+count: false
+
+## Small molecules
+
+- Realistic experiments with experimental oracles and costs that reflect computational demands (1, 3, 7).
+- GFlowNet adds one SELFIES token (out of 26) at a time with variable length up to 64 ($|\mathcal{X}| > 26^{64}$). 
+- Property: Adiabatic .highlight1[ionisation potential (IP)]. Relevant in organic semiconductors, photoredox catalysis and organometallic synthesis.
+
+.center[![:scale 50%](../assets/images/slides/mfal/molecules_ip.png)]
+
+---
+
+## DNA aptamers
+
+- GFlowNet adds one nucleobase (`A`, `T`, `C`, `G`) at a time up to length 30. This yields a design space of size $|\mathcal{X}| = 4^{30}$. 
+- The objective function is the free energy estimated by a bioinformatics tool. 
+- The (simulated) lower fidelity oracle is a transformer trained with 1 million sequences.
+
+--
+
+.center[![:scale 50%](../assets/images/slides/mfal/dna_6.png)]
+
+---
+
+count: false
+
+## Antimicrobial peptides (AMP)
+
+- Protein sequences (20 amino acids) with variable length (max. 50).
+- The oracles are 3 ML models trained with different subsets of data.
+
+--
+
+.center[![:scale 60%](../assets/images/slides/mfal/amp.png)]
+
+---
+
+exclude: true
+
+## How does multi-fidelity help?
+
+.context[Visualisation on the synthetic 2D Branin function task.]
+
+.center[![:scale 50%](../assets/images/slides/mfal/branin_samples_per_fid_3.png)]
+
+---
+
+exclude: true
+count: false
+
+## How does multi-fidelity help?
+
+.context[Visualisation on the synthetic 2D Branin function task.]
+
+.center[![:scale 50%](../assets/images/slides/mfal/branin_samples_per_fid_4.png)]
+
+---
+
+exclude: true
+count: false
+
+## How does multi-fidelity help?
+
+.context[Visualisation on the synthetic 2D Branin function task.]
+
+.center[![:scale 50%](../assets/images/slides/mfal/branin_samples_per_fid_5.png)]
+
+---
+
+exclude: true
+count: false
+
+## How does multi-fidelity help?
+
+.context[Visualisation on the synthetic 2D Branin function task.]
+
+.center[![:scale 50%](../assets/images/slides/mfal/branin_samples_per_fid_6.png)]
+
+---
+
+count: false
+name: title
+class: title, middle
+
+## Summary and conclusions
+
+.center[![:scale 30%](../assets/images/slides/misc/conclusion.png)]
+
+---
+
+## Summary and conclusions
 
 .references[
 * Mila AI4Science et al. [Crystal-GFN: sampling crystals with desirable properties and constraints](https://arxiv.org/abs/2310.04925). AI4Mat, NeurIPS 2023 (spotlight).
+* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://openreview.net/forum?id=dLaazW9zuF). TMLR 2024.
+* Jain et al. [GFlowNets for AI-Driven Scientific Discovery](https://pubs.rsc.org/en/content/articlelanding/2023/dd/d3dd00002h). Digital Discovery, Royal Society of Chemistry, 2023.
 ]
 
-* Discovering new crystal structures with desirable properties can help mitigate the climate crisis.
+* Scientific discoveries (new materials, drugs) can play an important role in tackling the climate crisis.
 
 --
-* There are infinitely many conceivable crystals. Only a few are stable. Only a few stable crystals have interesting properties. This is a really hard problem.
+* Active learning with generative models in the loop can help overcome the challenges faced by machine learning for scientific discoveries.
 
 --
-* Most methods in the literature struggle to preserve the symmetry properties of the crystals.
+* Generative Flow Networks (GFlowNets) is a flexible method to generate diverse, high-scoring candidates.
 
 --
-* Crystal-GFN introduces .highlight1[physicochemical and structural constraints], reducing the search space.
-    * Crystal-GFN was trained in a few hours in a CPU-only machine.
---
-* Our results show that we can generate .highlight1[diverse, high scoring samples with the desired constraints].
+* Crystal-GFN leverages the potential of GFlowNets for the exploration of crystal structures with desirable properties and constraints.
 
 --
-* The .highlight1[framework can be flexibly extended] with more constraints, crystal structure descriptors (atomic positions) and other properties. 
+* Multi-fidelity active learning enables the use of multiple oracles for machine learning-assisted scientific discovery.
 
 ---
 
