@@ -60,6 +60,9 @@ The evaluation will be based on three aspects:
 - **Quizzes**: 20 %
     - A few quizzes will have to be completed by students throughout the lectures block of the course.
     - The quizzes will be based on the content of the lectures and suggested additional material.
+- **Short literature review**: 10 %
+    - Students will perform a literature review on a particular GFlowNet aspect or related topic.
+    - The literature review will be summarised into a 1--2 pages report, which may be reused for the project paper too.
 
 # Prerequisites
 
