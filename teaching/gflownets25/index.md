@@ -26,7 +26,7 @@ This seminar course consists of three blocks:
 
 1. **Lectures** by the instructor and invited speakers
 2. **Presentations** by students about relevant papers
-3. **Project work** and **paper presentations** by students
+3. **Project work** and **presentations** by students
 
 The lectures will cover the following topics:
 
@@ -47,7 +47,7 @@ The lectures will cover the following topics:
 
 # Evaluation criteria
 
-The evaluation will be based on three aspects:
+The evaluation will be based on four aspects:
 
 - **Project work**: 40 %
     - Students will form teams and work on research-like projects.
