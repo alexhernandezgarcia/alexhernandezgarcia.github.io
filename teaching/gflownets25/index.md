@@ -103,8 +103,8 @@ In order to cover the specifics of generative flow networks (GFlowNets), we have
 
 Les cours ont lieu :
 
-* Les lundis, 10h30--12h30 (ET)
-* Les jeudis, 10h30--12h30 (ET)
+* Les lundis, 10h30--12h20 (ET)
+* Les jeudis, 10h30--12h20 (ET)
 
 # Resources
 
