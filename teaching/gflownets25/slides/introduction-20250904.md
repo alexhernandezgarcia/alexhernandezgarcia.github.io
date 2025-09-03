@@ -95,7 +95,7 @@ This is a seminar course consisting of three main blocks:
 --
 
 .columns-3-left[
-.center[.h1[Lectures by the instructor]]
+.center[.h1[Lectures]]
 - Designed to introduce main topics.
 - Including coding sessions.
 - Probably invited lectures too.
@@ -175,7 +175,7 @@ In particular, by taking this course you are expected to be familiar with:
 - **Project work**: 40 %
     - Work in teams on research-like projects.
     - Focus on extending, analysing or reproducing theoretical or practical aspects of GFlowNets.
-    - Evaluation based on a conference-like paper _and_ a presentation.
+    - Evaluation based on a conference-like paper, presentation _and_ (possibly) personal interviews.
 --
 - **Paper presentations**: 30 %
     - Presentation of a relevant paper either individually or in small teams, followed by a discussion.

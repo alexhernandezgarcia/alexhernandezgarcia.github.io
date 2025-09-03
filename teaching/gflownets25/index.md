@@ -52,7 +52,7 @@ The evaluation will be based on four aspects:
 - **Project work**: 40 %
     - Students will form teams and work on research-like projects.
     - Projects may focus on extending, analysing or reproducing theoretical or practical aspects of GFlowNets.
-    - Projects will be evaluated based on a conference-like paper and a presentation.
+    - Projects will be evaluated based on a conference-like paper, a presentation and possibly personal interviews.
 - **Paper presentations**: 30 %
     - Students will select a relevant paper and present it for the rest of the group either individually or in small teams.
     - Presentations will be followed by a discussion in which everyone can participate.
