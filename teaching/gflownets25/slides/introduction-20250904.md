@@ -335,6 +335,12 @@ Alex Hernández-García (he/il/él)
 
 .footer[[alexhernandezgarcia.github.io](https://alexhernandezgarcia.github.io/) | [alex.hernandez-garcia@mila.quebec](mailto:alex.hernandez-garcia@mila.quebec)] | [alexhergar.bsky.social](https://bsky.app/profile/alexhergar.bsky.social) [![:scale 1em](../../../assets/images/slides/misc/bluesky.png)](https://bsky.app/profile/alexhergar.bsky.social)<br>
 
+???
+
+- First time this course is taught
+- First time a GFlowNet course is taught
+- The plan is not set in stone yet
+
 ---
 
 name: title
