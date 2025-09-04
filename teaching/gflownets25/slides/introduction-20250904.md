@@ -7,7 +7,7 @@ name: introduction-20250904
 class: title, middle
 
 ## IFT 6760B A25
-## Probabilistic inference with GFlowNets
+### Probabilistic inference with GFlowNets
 
 #### .gray224[September 4th - Session 1]
 ### .gray224[Introduction]
@@ -81,6 +81,25 @@ The objective is that at the end of the course, you will be able to:
 - Read critically and productively scientific articles related to GFlowNets.
 - Implement GFlowNet components in code and train models for practical applications.
 - Connect the main aspects of GFlowNets to other related areas and potentially come up with novel ideas.
+
+---
+
+## Objectives... for you!
+
+I am curious to know:
+- Why have you chosen this course?
+- What do you expect from this?
+- How familiar you are with GFlowNets yet?
+
+Vote on [www.menti.com](https://www.menti.com) using the code **7873 2949** or click on:
+
+.center[[menti.com/alwfsud4uvwa](https://www.menti.com/alwfsud4uvwa)]
+
+.qrcode[![menti-comms](../../../assets/images/teaching/gflownets/qrcodes/menti_familiarity.png)]
+
+???
+
+- Menti: https://www.mentimeter.com/app/presentation/alfxobs4qz9ck83v2dq1z3ki38ozhi6u/present?question=1sd2n8vcvn1o
 
 ---
 
@@ -301,7 +320,7 @@ name: title
 class: title, middle
 
 ## IFT 6760B A25
-## Probabilistic inference with GFlowNets
+### Probabilistic inference with GFlowNets
 
 #### .gray224[September 4th - Session 1]
 ### .gray224[Introduction]
@@ -323,7 +342,7 @@ class: title, middle
 count: false
 
 ## IFT 6760B A25
-## Probabilistic inference with GFlowNets
+### Probabilistic inference with GFlowNets
 
 #### .gray224[September 4th - Session 1]
 ### .gray224[Introduction]
