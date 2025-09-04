@@ -26,7 +26,7 @@ This seminar course consists of three blocks:
 
 1. **Lectures** by the instructor and invited speakers
 2. **Presentations** by students about relevant papers
-3. **Project work** and **paper presentations** by students
+3. **Project work** and **presentations** by students
 
 The lectures will cover the following topics:
 
@@ -47,12 +47,12 @@ The lectures will cover the following topics:
 
 # Evaluation criteria
 
-The evaluation will be based on three aspects:
+The evaluation will be based on four aspects:
 
 - **Project work**: 40 %
     - Students will form teams and work on research-like projects.
     - Projects may focus on extending, analysing or reproducing theoretical or practical aspects of GFlowNets.
-    - Projects will be evaluated based on a conference-like paper and a presentation.
+    - Projects will be evaluated based on a conference-like paper, a presentation and possibly personal interviews.
 - **Paper presentations**: 30 %
     - Students will select a relevant paper and present it for the rest of the group either individually or in small teams.
     - Presentations will be followed by a discussion in which everyone can participate.
@@ -103,8 +103,8 @@ In order to cover the specifics of generative flow networks (GFlowNets), we have
 
 Les cours ont lieu :
 
-* Les lundis, 10h30--12h30 (ET)
-* Les jeudis, 10h30--12h30 (ET)
+* Les lundis, 10h30--12h20 (ET)
+* Les jeudis, 10h30--12h20 (ET)
 
 # Resources
 
