@@ -6,8 +6,8 @@ title: IFT 6760B A25 - Introduction
 name: introduction-20250904
 class: title, middle
 
-## IFT 6760B A25
-### Probabilistic inference with GFlowNets
+## Probabilistic inference with GFlowNets
+### IFT 6760B A25
 
 #### .gray224[September 4th - Session 1]
 ### .gray224[Introduction]
@@ -319,8 +319,8 @@ Roles:
 name: title
 class: title, middle
 
-## IFT 6760B A25
-### Probabilistic inference with GFlowNets
+## Probabilistic inference with GFlowNets
+### IFT 6760B A25
 
 #### .gray224[September 4th - Session 1]
 ### .gray224[Introduction]
@@ -347,8 +347,8 @@ name: title
 class: title, middle
 count: false
 
-## IFT 6760B A25
-### Probabilistic inference with GFlowNets
+## Probabilistic inference with GFlowNets
+### IFT 6760B A25
 
 #### .gray224[September 4th - Session 1]
 ### .gray224[Introduction]
@@ -1397,8 +1397,8 @@ name: title
 class: title, middle
 count: false
 
-## IFT 6760B A25
 ## Probabilistic inference with GFlowNets
+### IFT 6760B A25
 
 #### .gray224[September 4th - Session 1]
 ### .gray224[Introduction]
