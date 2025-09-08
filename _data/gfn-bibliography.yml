@@ -287,3 +287,17 @@
     - tag: methods
     - tag: applications
     - tag: activelearning
+
+- title: "Robust Scheduling with GFlowNets"
+  authors:
+    - David W. Zhang
+    - Corrado Rainone
+    - Markus Peschl
+    - Roberto Bondesan
+  year: 2023
+  journal: International Conference on Learning Representations (ICLR)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2302.05446
+    - tag: loss
+    - tag: applications
