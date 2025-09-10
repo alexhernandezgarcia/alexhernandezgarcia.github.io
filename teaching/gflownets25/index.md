@@ -96,6 +96,7 @@ In order to cover the specifics of generative flow networks (GFlowNets), we have
 # Useful links
 
 * [StudiUM page](https://studium.umontreal.ca/course/view.php?id=332667)
+* [Piazza class](https://piazza.com/umontreal.ca/fall2025/ift6760ba25)
 * [Link to public admission page of IFT 6760B](https://admission.umontreal.ca/cours-et-horaires/cours/ift-6760b/)
 * [University calendar](https://registraire.umontreal.ca/dates-importantes/calendriers-universitaires/#calendrier-universitaire-2025-2026)
 
