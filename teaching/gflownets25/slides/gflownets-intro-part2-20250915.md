@@ -123,6 +123,13 @@ Experiments with a fragment-based molecular generation task, with a sample space
 
 ---
 
+## Results
+### 2D Grid
+
+.center[![:scale 60%](../../../assets/images/teaching/gflownets/gfn-intro/grid_2d_density.gif)]
+
+---
+
 name: title
 class: title, middle
 count: false
