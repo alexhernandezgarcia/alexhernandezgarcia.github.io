@@ -67,6 +67,10 @@ Emmanuel Bengio, Moksh Jain, Maksym Korablyov, Doina Precup, Yoshua Bengio. [Flo
 - Introduce the flow matching objective function to train GFlowNets.
 - Show a set of basic empirical results to demonstrate that GFlowNets work as expectred.
 
+.center[
+![:scale 40%](../../../assets/images/slides/gfn-seq-design/flownet.gif)
+]
+
 ---
 
 ## Results
