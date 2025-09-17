@@ -1363,7 +1363,7 @@ A crystal structure is characterized by its .highlight1[unit cell], a small imag
 
 ## Why do we care about crystals?
 
-.context35[Materials discovery can help reduce greenhouse gas emissions in multiple sectors.]
+.context35[Materials discovery can help reduce emissions in multiple sectors.]
 
 --
 
