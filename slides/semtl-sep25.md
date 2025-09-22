@@ -1205,78 +1205,11 @@ Bengio et al. [Flow network based generative models for non-iterative diverse ca
 
 ---
 
-## Principle of conservation as a training objective
-
-.right-column-33[.center[![:scale 100%](../assets/images/slides/gfn-seq-design/flownet.gif)]]
-
-.left-column-66[
-**Consistent Flow**:  Flow $F$ satisfies the _flow consistency equation_
-$$\sum\_{s' \in \text{Parents}(s)} F\_\theta(s' \rightarrow s) = \sum\_{s' \in \text{Children}(s)} F\_\theta(s \rightarrow s')$$
-
-**Theorem**: For a consistent flow $F$ with terminal flow set as the reward $F(x\rightarrow s_f)=R(x)$, the forward policy samples $x$ proportionally to $R(x)$:
-$$p(x) = \frac{R(x)}{Z}\propto R(x)$$
-
-**Corollary**: The flow at $s_0$, $F(s_0)$ is the partition function $Z$! 
-]
-
-.references[
-Bengio et al. [Flow network based generative models for non-iterative diverse candidate generation](https://arxiv.org/abs/2106.04399), NeurIPS, 2021. 
-]
-
----
-
-## Principle of conservation as a training objective
-
-<p>
-$$\sum\_{s' \in \text{Parent}(s)} F\_\theta(s' \rightarrow s) = \sum\_{s'' \in \text{Child}(s)} F\_\theta(s \rightarrow s')$$
-</p>
-* **Flow Matching Objective**: $$\mathcal{L}\_{FM}(s; \theta) = \left(\log \frac{\sum\_{s'\in \text{Parent}(s)} F\_\theta(s'{\rightarrow} s)}{\sum\_{s'' \in \text{Child}(s)}F\_\theta(s{\rightarrow} s'')}\right)^2$$
-* **Trajectory Balance** (better credit assignment): $$\mathcal{L}\_{TB} (\tau;\theta) = \left(\log \frac{Z\_\theta \prod\_{s{\rightarrow} s' \in \tau}P\_{F\_\theta}(s'|s)}{R(x)\prod\_{s\rightarrow s' \in \tau} P\_{B\_\theta}(s|s') }\right)^2$$
-
-.references[
-Malkin et al. [Trajectory balance: Improved credit assignment in GFlowNets](https://arxiv.org/abs/2201.13259), NeurIPS, 2022. 
-]
-
----
-
-##  GFlowNets extensions and resources
-
----
-
-count: false
-
-##  GFlowNets extensions and resources
-### Multi-objective GFlowNets
-
-Extension of GFlowNets to handle multi-objective optimisation and not only cover the Pareto front but also sample diverse objects at each point in the Pareto front.
-
-.center[![:scale 30%](../assets/images/slides/gflownet/mogfn_pareto_front.png)]
-
-.references[
-Jain et al. [Multi-Objective GFlowNets](https://arxiv.org/abs/2210.12765), ICML, 2023.
-]
-
----
-
-##  GFlowNets extensions and resources
-### Continuous GFlowNets
-
-Generalisation of the theory and implementation of GFlowNets to encompass both discrete and continuous or hybrid state spaces. 
-
-.center[![:scale 40%](../assets/images/slides/gflownet/cube2d/allvalid.gif)]
-
-.references[
-Lahlou et al. [A Theory of Continuous Generative Flow Networks](https://arxiv.org/abs/2301.12594), ICML, 2023.
-]
-
----
-
-##  GFlowNets extensions and resources
-### Review paper
+## Review paper
 
 A review of the potential of GFlowNets for AI-driven scientific discoveries.
 
-.center[![:scale 60%](../assets/images/slides/drugs/gfn_molecules.png)]
+.center[![:scale 70%](../assets/images/slides/drugs/gfn_molecules.png)]
 
 .references[
 Jain et al. [GFlowNets for AI-Driven Scientific Discovery](https://pubs.rsc.org/en/content/articlelanding/2023/dd/d3dd00002h). Digital Discovery, Royal Society of Chemistry, 2023.
@@ -1707,27 +1640,6 @@ Analysis of 10,000 sampled crystals and the top-100 with lowest formation energy
 
 ---
 
-## Results
-### Restricted sampling
-
-.context[Crystal-GFN is flexible by design, inspired by the needs of domain experts.]
-
-We restrict the sampling space at sampling time:
-
-- A: The composition is restricted to only elements Fe and O, with a maximum of 10 atoms per element.
-- B: We sample in the ternary space for Li-Mn-O, keeping the element count to maximum 16 atoms.
-- C: We restrict the space groups to only cubic lattices.
-- D: We restrict the range of the lattice parameters to lengths between 10 and 20 angstroms and angles between 75 and 135 degrees.
-
----
-
-## Results
-### Restricted sampling
-
-.center[![:scale 70%](../assets/images/slides/crystals/distributions_restricted_sampling.png)]
-
----
-
 count: false
 name: conformers
 class: title, middle
@@ -1886,12 +1798,17 @@ Paper: Volokhova, Koziarski, et al. [Towards equilibrium molecular conformation 
 
 ## Conclusions
 
-- Torsional-GFN successfully extends the idea of sampling molecular conformations with GFlowNets to a _unique, conditional_ model with potential to generalise to unseen molecules.
-- This development entail significant challenges, such as training a GNN as the policy architecture.
-- For practical use, Torsional-GFN shoudl be scaled to multiple torsional angles and many more molecules.
-- It may be beneficial to also sample the local structures and incorporate symmetry-based constraints.
+- Generative and active machine learning can contribute to scientific discoveries.
+- Generative flow networks (GFlowNets) address some of the challenges faced by generative machine learning for scientific exploration.
+- Two examples are Crystal-GFN, to design crystal structures for materials discovery and Torsional-GFN, to sample from the Boltzmann distribution of molecules. 
+- All this requires large doses of software engineering!
 
-Pre-print: Volokhova, Nehale-Ezzine, et al. [Torsional-GFN: a conditional conformation generator for small molecules](https://arxiv.org/abs/2507.11759). arXiv:2507.11759 (2025).
+.references[
+- Jain et al. [GFlowNets for AI-Driven Scientific Discovery](https://pubs.rsc.org/en/content/articlelanding/2023/dd/d3dd00002h). Digital Discovery, Royal Society of Chemistry, 2023.
+- Mila AI4Science et al. [Crystal-GFN: sampling crystals with desirable properties and constraints](https://arxiv.org/abs/2310.04925). AI4Mat, NeurIPS 2023 (spotlight).
+- Volokhova, Koziarski, et al. [Towards equilibrium molecular conformation generation with GFlowNets](https://pubs.rsc.org/en/content/articlepdf/2024/dd/d4dd00023d). Digital Discovery (2024)
+- Volokhova, Nehale-Ezzine, et al. [Torsional-GFN: a conditional conformation generator for small molecules](https://arxiv.org/abs/2507.11759). arXiv:2507.11759 (2025)
+]
 
 ---
 
