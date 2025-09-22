@@ -1286,39 +1286,18 @@ Jain et al. [GFlowNets for AI-Driven Scientific Discovery](https://pubs.rsc.org/
 
 ## GFlowNet Python package
 
-Open sourced GFlowNet package, together with Mila collaborators: Nikita Saxena, Alexandra Volokhova, Michał Koziarski, Divya Sharma, Pierre Luc Carrier, Victor Schmidt, Joseph Viviano.
+.right-column-66[Open sourced GFlowNet package, together with Mila collaborators: Nikita Saxena, Alexandra Volokhova, Michał Koziarski, Divya Sharma, Pierre Luc Carrier, Victor Schmidt, Joseph Viviano.
 
-.highlight2[Open source GFlowNet implementation]: [github.com/alexhernandezgarcia/gflownet](https://github.com/alexhernandezgarcia/gflownet)
-
-.qrcode[![{{ name }}](../assets/images/slides/qrcodes/gflownet-repo.png)]
-
---
+.highlight2[Open source package]: [github.com/alexhernandezgarcia/gflownet](https://github.com/alexhernandezgarcia/gflownet)
 
 * A key design principle is the simplicity to create new environments, new applications.
 * Current environments: Tetris, hyper-grid, hyper-cube, hyper-torus, scrabble, crystals, molecules, DNA, decision trees...
 * Discrete and continuous environments, multiple loss functions, etc.
 * Visualisation of results on WandDB
+]
 
----
-
-count: false
-
-## GFlowNet Python package
-
-Open sourced GFlowNet package, together with Mila collaborators: Nikita Saxena, Alexandra Volokhova, Michał Koziarski, Divya Sharma, Pierre Luc Carrier, Victor Schmidt, Joseph Viviano.
-
-.highlight2[Open source GFlowNet implementation]: [github.com/alexhernandezgarcia/gflownet](https://github.com/alexhernandezgarcia/gflownet)
-
-Research articles supported by this GFlowNet package:
-
-.smaller[
-* Lahlou et al. [A Theory of Continuous Generative Flow Networks](https://arxiv.org/abs/2301.12594), ICML, 2023. 
-* Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). RealML, NeurIPS 2023.
-* Mila AI4Science et al. [Crystal-GFN: sampling crystals with desirable properties and constraints](https://arxiv.org/abs/2310.04925). AI4Mat, NeurIPS 2023 (spotlight).
-* Volokhova, Koziarski et al. [Towards equilibrium molecular conformation generation with GFlowNets](https://arxiv.org/abs/2310.14782). Digital Discovery, NeurIPS 2023.
-* Mahfoud et al. [Learning Decision Trees as Amortized Structure Inference](https://arxiv.org/abs/2503.06985). arXiv, 2025.
-* Podina and Humer et al. Catalyst GFlowNet for electrocatalyst design: A hydrogen evolution reaction case study. under review, 2025.
-* Several other ongoing projects...
+.left-column-33[
+.center[![:scale 75%](../assets/images/slides/gflownet/repo.png)]
 ]
 
 .qrcode[![{{ name }}](../assets/images/slides/qrcodes/gflownet-repo.png)]
