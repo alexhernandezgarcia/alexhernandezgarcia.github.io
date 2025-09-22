@@ -9,3 +9,4 @@ title: IFT 6760B - Slides
 - [Introduction to GFlowNets I - September 11th, 2025](gflownets-intro-part1-20250911)
 - [Introduction to GFlowNets II - September 15th, 2025](gflownets-intro-part2-20250915)
 - [Implementation - September 18th, 2025](gflownets-implementation-20250918)
+- [Consolidation of GFlowNet theory - September 22nd, 2025](gflownets-consolidation-20250922)
