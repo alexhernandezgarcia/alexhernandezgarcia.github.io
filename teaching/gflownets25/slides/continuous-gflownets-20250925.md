@@ -57,7 +57,7 @@ Salem Lahlou, Tristan Deleu, Pablo Lemos, Dinghuai Zhang, Alexandra Volokhova, A
 
 - The theory of GFlowNets _can_ be generalised to continuous (and hybrid) state spaces:
     - We can achieve sampling proportional to a reward function.
-    - The common losses used for discrete GFlowNets (flow matching, detailed balance and trajectory balance) can be adapted to continuous GFlowNets.o
+    - The common losses used for discrete GFlowNets (flow matching, detailed balance and trajectory balance) can be adapted to continuous GFlowNets
 
 --
 
