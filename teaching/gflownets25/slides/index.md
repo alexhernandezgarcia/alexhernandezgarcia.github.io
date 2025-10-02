@@ -11,3 +11,4 @@ title: IFT 6760B - Slides
 - [Implementation - September 18th, 2025](gflownets-implementation-20250918)
 - [Consolidation of GFlowNet theory - September 22nd, 2025](gflownets-consolidation-20250922)
 - [Continuous GFlowNets - September 25th, 2025](continuous-gflownets-20250925)
+- [Crystal-GFN: GFlowNets for materials discovery](crystal-gfn-20251002)
