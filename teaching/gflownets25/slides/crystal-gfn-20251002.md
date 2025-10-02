@@ -195,9 +195,7 @@ count: false
 <br>
 Instead of optimising the atom positions by learning from a small data set, we draw .highlight1[inspiration from theoretical crystallography to sample crystals in a lower-dimensional space of crystal structure parameters].
 
-.highlight2[Lattice parameters]: The lattice's size and shape is characterised by 6 parameters: .highlight1[$a, b, c, \alpha, \beta, \gamma$].
-
-.center[![:scale 25%](../../../assets/images/slides/crystals/crystal_systems_table.png)]
+.center[![:scale 45%](../../../assets/images/slides/crystals/crystal_systems_table.png)]
 
 ---
 
