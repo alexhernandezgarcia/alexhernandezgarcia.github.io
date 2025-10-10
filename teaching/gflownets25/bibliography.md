@@ -10,7 +10,7 @@ This page is designed to contain a bibliography collection of scientific literat
 
 ---
 
-{% assign publications = site.data.publications | sort: 'year' %}
-{% for item in site.data.gfn-bibliography %}
+{% assign gfn-papers = site.data.gfn-bibliography | sort: 'year' %}
+{% for item in gfn-papers %}
   {% include publication-item-bib.html %}
 {% endfor %}
