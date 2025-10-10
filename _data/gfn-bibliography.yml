@@ -301,3 +301,107 @@
       link: https://arxiv.org/abs/2302.05446
     - tag: loss
     - tag: applications
+
+- title: "GDPO: learning to directly align language models with diversity using GFlowNets"
+  authors:
+    - Oh Joon Kwon
+    - Daiki E. Matsunaga
+    - Kee-Eung Kim
+  year: 2024
+  journal: arXiv:2410.15096
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2410.15096
+    - tag: applications
+    - tag: LLMs
+
+- title: "GFlowNet fine-tuning for diverse correct solutions in mathematical reasoning tasks"
+  authors:
+    - Ryoichi Takase
+    - Masaya Tsunokake
+    - Yuta Tsuchiya
+    - Shota Inuzuka
+  year: 2024
+  journal: arXiv:2410.20147
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2410.20147
+    - tag: applications
+    - tag: LLMs
+
+- title: "Amortizing intractable inference in large language models"
+  authors:
+    - Edward J. Hu
+    - Moksh Jain
+    - Eric Elmoznino
+    - Younesse Kaddar
+    - Guillaume Lajoie
+    - Yoshua Bengio
+    - Nikolay Malkin
+  year: 2024
+  journal: International Conference on Learning Representations (ICLR)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2310.04363
+    - tag: applications
+    - tag: LLMs
+
+- title: "Latent logic tree extraction for event sequence explanation from LLMs"
+  authors:
+    - Zitao Song
+    - Chao Yang
+    - Chaojie Wang
+    - Bo An
+    - Shuang Li
+  year: 2024
+  journal: International Conference on Machine Learning (ICML)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2406.01124
+    - tag: applications
+    - tag: LLMs
+
+- title: "GFlowNets with human feedback"
+  authors:
+    - Yinchuan Li
+    - Shuang Luo
+    - Yunfeng Shao
+    - Jianye Hao
+  year: 2023
+  journal: International Conference on Learning Representations (ICLR)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2305.07036
+    - tag: applications
+    - tag: LLMs
+
+- title: "Preference alignment with flow matching"
+  authors:
+    - Minu Kim
+    - Yongsik Lee
+    - Sehyeok Kang
+    - Jihwan Oh
+    - Song Chong
+    - Se-Young Yun
+  year: 2024
+  journal: Neural Information Processing Systems (NeurIPS)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2405.19806
+    - tag: applications
+    - tag: LLMs
+
+- title: "Flow of reasoning: Training LLMs for divergent reasoning with minimal examples"
+  authors:
+    - Fangxu Yu
+    - Lai Jiang
+    - Haoqiang Kang
+    - Shibo Hao
+    - Lianhui Qin
+  year: 2025
+  journal: International Conference on Machine Learning (ICML)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2406.05673
+    - tag: applications
+    - tag: LLMs
