@@ -13,3 +13,4 @@ title: IFT 6760B - Slides
 - [Continuous GFlowNets - September 25th, 2025](continuous-gflownets-20250925)
 - [Crystal-GFN: GFlowNets for materials discovery - October 2nd, 2025](crystal-gfn-20251002)
 - [Active learning with GFlowNets - October 6th, 2025](active-learning-20251006)
+- [Alexandra Volokhova: GFlowNets for sampling molecular conformations - October 9th, 2025](https://docs.google.com/presentation/d/1oOHsRGtaWRclNoKpPCAdrUH_JIWrcrOJsyjAUlmWN7E/edit?usp=sharing)
