@@ -10,3 +10,7 @@ title: IFT 6760B - Slides
 - [Introduction to GFlowNets II - September 15th, 2025](gflownets-intro-part2-20250915)
 - [Implementation - September 18th, 2025](gflownets-implementation-20250918)
 - [Consolidation of GFlowNet theory - September 22nd, 2025](gflownets-consolidation-20250922)
+- [Continuous GFlowNets - September 25th, 2025](continuous-gflownets-20250925)
+- [Crystal-GFN: GFlowNets for materials discovery - October 2nd, 2025](crystal-gfn-20251002)
+- [~~Active learning with GFlowNets~~ _cancelled due to students strike_ - October 6th, 2025](active-learning-20251006)
+- [Alexandra Volokhova: GFlowNets for sampling molecular conformations - October 9th, 2025](https://docs.google.com/presentation/d/1oOHsRGtaWRclNoKpPCAdrUH_JIWrcrOJsyjAUlmWN7E/edit?usp=sharing)

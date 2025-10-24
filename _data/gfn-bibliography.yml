@@ -60,7 +60,7 @@
     - Yoshua Bengio
     - Nikolay Malkin
   year: 2023
-  journal: International Conference on Machine Learning
+  journal: International Conference on Machine Learning (ICML)
   tags:
     - tag: paper
       link: https://arxiv.org/abs/2209.12782
@@ -86,7 +86,7 @@
     - Dinghuai Zhang
     - Yoshua Bengio
   year: 2023
-  journal: International Conference on Machine Learning
+  journal: International Conference on Machine Learning (ICML)
   tags:
     - tag: paper
       link: https://arxiv.org/abs/2302.01687
@@ -301,3 +301,503 @@
       link: https://arxiv.org/abs/2302.05446
     - tag: loss
     - tag: applications
+
+- title: "GDPO: learning to directly align language models with diversity using GFlowNets"
+  authors:
+    - Oh Joon Kwon
+    - Daiki E. Matsunaga
+    - Kee-Eung Kim
+  year: 2024
+  journal: arXiv:2410.15096
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2410.15096
+    - tag: applications
+    - tag: LLMs
+
+- title: "GFlowNet fine-tuning for diverse correct solutions in mathematical reasoning tasks"
+  authors:
+    - Ryoichi Takase
+    - Masaya Tsunokake
+    - Yuta Tsuchiya
+    - Shota Inuzuka
+  year: 2024
+  journal: arXiv:2410.20147
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2410.20147
+    - tag: applications
+    - tag: LLMs
+
+- title: "Amortizing intractable inference in large language models"
+  authors:
+    - Edward J. Hu
+    - Moksh Jain
+    - Eric Elmoznino
+    - Younesse Kaddar
+    - Guillaume Lajoie
+    - Yoshua Bengio
+    - Nikolay Malkin
+  year: 2024
+  journal: International Conference on Learning Representations (ICLR)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2310.04363
+    - tag: applications
+    - tag: LLMs
+
+- title: "Latent logic tree extraction for event sequence explanation from LLMs"
+  authors:
+    - Zitao Song
+    - Chao Yang
+    - Chaojie Wang
+    - Bo An
+    - Shuang Li
+  year: 2024
+  journal: International Conference on Machine Learning (ICML)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2406.01124
+    - tag: applications
+    - tag: LLMs
+
+- title: "GFlowNets with human feedback"
+  authors:
+    - Yinchuan Li
+    - Shuang Luo
+    - Yunfeng Shao
+    - Jianye Hao
+  year: 2023
+  journal: International Conference on Learning Representations (ICLR)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2305.07036
+    - tag: applications
+    - tag: LLMs
+
+- title: "Preference alignment with flow matching"
+  authors:
+    - Minu Kim
+    - Yongsik Lee
+    - Sehyeok Kang
+    - Jihwan Oh
+    - Song Chong
+    - Se-Young Yun
+  year: 2024
+  journal: Neural Information Processing Systems (NeurIPS)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2405.19806
+    - tag: applications
+    - tag: LLMs
+
+- title: "Flow of reasoning: Training LLMs for divergent reasoning with minimal examples"
+  authors:
+    - Fangxu Yu
+    - Lai Jiang
+    - Haoqiang Kang
+    - Shibo Hao
+    - Lianhui Qin
+  year: 2025
+  journal: International Conference on Machine Learning (ICML)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2406.05673
+    - tag: applications
+    - tag: LLMs
+
+- title: "Reinforced sequential Monte Carlo for amortised sampling"
+  authors:
+    - Sanghyeok Choi
+    - Sarthak Mittal
+    - Víctor Elvira
+    - Jinkyoo Park
+    - Nikolay Malkin
+  year: 2025
+  journal: arXiv:2510.11711
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2510.11711
+    - tag: methods
+    - tag: theory
+
+- title: "GFlowNet training by policy gradients"
+  authors:
+    - Puhua Niu
+    - Shili Wu
+    - Mingzhou Fan
+    - Xiaoning Qian
+  year: 2024
+  journal: nternational Conference on Machine Learning
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2209.12782
+    - tag: core
+    - tag: theory
+    - tag: loss
+
+- title: "Generative flow networks: theory and applications to structure learning"
+  authors:
+    - Tristan Deleu
+  year: 2025
+  journal: PhD thesis
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2501.05498
+    - tag: theory
+    - tag: applications
+
+- title: "Better training of GFlowNets with local credit and incomplete trajectories"
+  authors:
+    - Ling Pan
+    - Nikolay Malkin
+    - Dinghuai Zhang
+    - Yoshua Bengio
+  year: 2023
+  journal: International Conference on Machine Learning (ICML)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2302.01687
+    - tag: theory
+    - tag: methods
+    - tag: loss
+
+- title: "Learning energy decompositions for partial inference of GFlowNets"
+  authors:
+    - Hyosoon Jang
+    - Minsu Kim
+    - Sungsoo Ahn
+  year: 2023
+  journal: arXiv:2310.03301
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2310.03301
+    - tag: theory
+    - tag: methods
+    - tag: loss
+
+- title: "Action abstractions for amortized sampling"
+  authors:
+    - Oussama Boussif
+    - Léna Néhale Ezzine
+    - Joseph D Viviano
+    - Michał Koziarski
+    - Moksh Jain
+    - Nikolay Malkin
+    - Emmanuel Bengio
+    - Rim Assouel
+    - Yoshua Bengio
+  year: 2025
+  journal: International Conference on Learning Representations (ICLR)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2410.15184
+    - tag: methods
+
+- title: "Learning decision trees as amortized structure inference"
+  authors:
+    - Mohammed Mahfoud
+    - Ghait Boukachab
+    - Michał Koziarski
+    - Alex Hernandez-Garcia
+    - Stefan Bauer
+    - Yoshua Bengio
+    - Nikolay Malkin
+  year: 2025
+  journal: arXiv:2503.06985
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2503.06985
+    - tag: applications
+    - tag: theory
+
+- title: "Improved off-policy reinforcement learning in biological sequence design"
+  authors:
+    - Hyeonah Kim
+    - Minsu Kim
+    - Taeyoung Yun
+    - Sanghyeok Choi
+    - Emmanuel Bengio
+    - Alex Hernandez-Garcia
+    - Jinkyoo Park
+  year: 2024
+  journal: arXiv:2410.04461
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2410.04461
+    - tag: methods
+
+- title: "Multi-Fidelity Active Learning with GFlowNets"
+  authors:
+    - Alex Hernandez-Garcia
+    - Nikita Saxena
+    - Moksh Jain
+    - Cheng-Hao Liu
+    - Yoshua Bengio
+  year: 2024
+  journal: Transactions on Machine Learning Research (TMLR)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2306.11715
+    - tag: activelearning
+    - tag: applications
+
+- title: "Crystal-GFN: sampling crystals with desirable properties and constraints"
+  authors:
+    - Mila AI4Science
+    - Alex Hernandez-Garcia
+    - Alexandre Duval
+    - Alexandra Volokhova
+    - Yoshua Bengio
+    - Divya Sharma
+    - Pierre Luc Carrier
+    - Yasmine Benabed
+    - Michał Koziarski
+    - Victor Schmidt
+  year: 2023
+  journal: Neural Information Processing Systems (NeurIPS), Workshop on Accelerated Materials Design (AI4Mat)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2310.04925
+    - tag: applications
+
+- title: "Towards equilibrium molecular conformation generation with GFlowNets"
+  authors:
+    - Alexandra Volokhova
+    - Michał Koziarski
+    - Alex Hernandez-Garcia
+    - Cheng-Hao Liu
+    - Santiago Miret
+    - Pablo Lemos
+    - Luca Thiede
+    - Zichao Yan
+    - Alán Aspuru-Guzik
+    - Yoshua Bengio
+  year: 2023
+  journal: Digital Discovery, Royal Society of Chemistry
+  tags:
+    - tag: paper
+      link: https://pubs.rsc.org/en/content/articlepdf/2024/DD/D4DD00023D
+    - tag: applications
+
+- title: "GFlowNets for AI-driven scientific discovery"
+  authors:
+    - Moksh Jain
+    - Tristan Deleu
+    - Jason Hartford
+    - Cheng-Hao Liu
+    - Alex Hernandez-Garcia
+    - Yoshua Bengio
+  year: 2023
+  journal: Digital Discovery, Royal Society of Chemistry
+  tags:
+    - tag: paper
+      link: https://pubs.rsc.org/en/content/articlehtml/2023/dd/d3dd00002h
+    - tag: review
+
+- title: "A theory of continuous generative flow networks"
+  authors:
+    - Salem Lahlou
+    - Tristan Deleu
+    - Pablo Lemos
+    - Dinghuai Zhang
+    - Alexandra Volokhova
+    - Alex Hernandez-Garcia
+    - Léna Néhale Ezzine
+    - Yoshua Bengio
+    - Nikolay Malkin
+  year: 2023
+  journal: International Conference on Machine Learning (ICML)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2301.12594
+    - tag: theory
+    - tag: methods
+
+- title: "Multi-Objective GFlowNets"
+  authors:
+    - Moksh Jain
+    - Sharath Chandra Raparthy
+    - Alex Hernandez-Garcia
+    - Jarrid Rector-Brooks
+    - Yoshua Bengio
+    - Santiago Miret
+    - Emmanuel Bengio
+  year: 2023
+  journal: International Conference on Machine Learning (ICML)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2210.12765
+    - tag: theory
+    - tag: methods
+    - tag: applications
+
+- title: "Biological sequence design with GFlowNets"
+  authors:
+    - Moksh Jain
+    - Emmanuel Bengio
+    - Alex Hernandez-Garcia
+    - Jarrid Rector-Brooks
+    - Bonaventure F. P. Dossou
+    - Chanakya Ekbote
+    - Jie Fu
+    - Tianyu Zhang
+    - Micheal Kilgour
+    - Dinghuai Zhang
+    - Lena Simine
+    - Payel Das
+    - Yoshua Bengio
+  year: 2023
+  journal: International Conference on Machine Learning (ICML)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2203.04115
+    - tag: methods
+    - tag: applications
+    - tag: activelearning
+
+- title: "Robust Scheduling with GFlowNets"
+  authors:
+    - David W. Zhang
+    - Corrado Rainone
+    - Markus Peschl
+    - Roberto Bondesan
+  year: 2023
+  journal: International Conference on Learning Representations (ICLR)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2302.05446
+    - tag: loss
+    - tag: applications
+
+- title: "GDPO: learning to directly align language models with diversity using GFlowNets"
+  authors:
+    - Oh Joon Kwon
+    - Daiki E. Matsunaga
+    - Kee-Eung Kim
+  year: 2024
+  journal: arXiv:2410.15096
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2410.15096
+    - tag: applications
+    - tag: LLMs
+
+- title: "GFlowNet fine-tuning for diverse correct solutions in mathematical reasoning tasks"
+  authors:
+    - Ryoichi Takase
+    - Masaya Tsunokake
+    - Yuta Tsuchiya
+    - Shota Inuzuka
+  year: 2024
+  journal: arXiv:2410.20147
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2410.20147
+    - tag: applications
+    - tag: LLMs
+
+- title: "Amortizing intractable inference in large language models"
+  authors:
+    - Edward J. Hu
+    - Moksh Jain
+    - Eric Elmoznino
+    - Younesse Kaddar
+    - Guillaume Lajoie
+    - Yoshua Bengio
+    - Nikolay Malkin
+  year: 2024
+  journal: International Conference on Learning Representations (ICLR)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2310.04363
+    - tag: applications
+    - tag: LLMs
+
+- title: "Latent logic tree extraction for event sequence explanation from LLMs"
+  authors:
+    - Zitao Song
+    - Chao Yang
+    - Chaojie Wang
+    - Bo An
+    - Shuang Li
+  year: 2024
+  journal: International Conference on Machine Learning (ICML)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2406.01124
+    - tag: applications
+    - tag: LLMs
+
+- title: "GFlowNets with human feedback"
+  authors:
+    - Yinchuan Li
+    - Shuang Luo
+    - Yunfeng Shao
+    - Jianye Hao
+  year: 2023
+  journal: International Conference on Learning Representations (ICLR)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2305.07036
+    - tag: applications
+    - tag: LLMs
+
+- title: "Preference alignment with flow matching"
+  authors:
+    - Minu Kim
+    - Yongsik Lee
+    - Sehyeok Kang
+    - Jihwan Oh
+    - Song Chong
+    - Se-Young Yun
+  year: 2024
+  journal: Neural Information Processing Systems (NeurIPS)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2405.19806
+    - tag: applications
+    - tag: LLMs
+
+- title: "Flow of reasoning: Training LLMs for divergent reasoning with minimal examples"
+  authors:
+    - Fangxu Yu
+    - Lai Jiang
+    - Haoqiang Kang
+    - Shibo Hao
+    - Lianhui Qin
+  year: 2025
+  journal: International Conference on Machine Learning (ICML)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2406.05673
+    - tag: applications
+    - tag: LLMs
+
+- title: "Reinforced sequential Monte Carlo for amortised sampling"
+  authors:
+    - Sanghyeok Choi
+    - Sarthak Mittal
+    - Víctor Elvira
+    - Jinkyoo Park
+    - Nikolay Malkin
+  year: 2025
+  journal: arXiv:2510.11711
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2510.11711
+    - tag: methods
+    - tag: theory
+
+- title: "GFlowNet training by policy gradients"
+  authors:
+    - Puhua Niu
+    - Shili Wu
+    - Mingzhou Fan
+    - Xiaoning Qian
+  year: 2024
+  journal: International Conference on Machine Learning (ICML)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2408.05885
+    - tag: methods

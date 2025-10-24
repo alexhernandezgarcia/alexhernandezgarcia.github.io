@@ -1,36 +1,49 @@
 # Interviews TCDNE: https://docs.google.com/spreadsheets/d/1xjr3lCWtgJi_Po90ut6wmO2m66NqkuSV/edit#gid=1586425726
+- name: "¿Puede la IA ayudar a superar los retos de los cambios climáticos?"
+  medium: Radio Canada International
+  link: https://ici.radio-canada.ca/rci/es/noticia/2197633/reportaje-ia-superar-retos-cambios-climaticos-alex-hernandez-garcia-montreal-canada-inteligencia-artificial
+  date: 2025-10-07
+
 - name: "Alex Hernandez-Garcia, le professeur adepte de la science ouverte, de musique et des langues!"
   medium: UdeMNouvelles
   link: https://nouvelles.umontreal.ca/article/2025/03/26/alex-hernandez-garcia-adepte-de-la-science-ouverte-de-musique-et-des-langues/
   date: 2025-03-26
+
 - name: "To ‘green’ AI, scientists are making it less resource-hungry"
   medium: ScienceNewsExplores
   link: https://www.snexplores.org/article/green-artificial-intelligence-less-energy-ai-climate
   date: 2024-02-08
+
 - name: "Wie können KI-Modelle energiesparender werden? Ein Überblick über aktuelle Trends"
   medium: te.ma
   link: https://te.ma/art/i3kt57/nenno-ki-modelle-energieverbrauch-reduzieren/
   date: 2023-08-29
+
 - name: "The Week in Green Software: How Green is Your Cloud?"
   medium: Environment Variables (podcast)
   link: https://podcast.greensoftware.foundation/e/6nrzlv0n-the-week-in-green-software-how-green-is-your-cloud
   date: 2023-03-01
+
 - name: "Artificial intelligence training is powered mostly by fossil fuels"
   medium: New Scientist
   link: https://www.newscientist.com/article/2361343-artificial-intelligence-training-is-powered-mostly-by-fossil-fuels/
   date: 2023-02-28
+
 - name: "L’intelligence artificielle connaît une forte croissance à Montréal"
   medium: Radio Canada
   link: https://ici.radio-canada.ca/nouvelle/1840727/mila-yoshua-bengion-ia-universites-entreprises
   date: 2021-11-01
+
 - name: "Times Square bajo el agua o el Zócalo en llamas: así afectará el cambio climático a su calle"
   medium: El País
   link: https://elpais.com/tecnologia/2021-10-14/cibeles-bajo-el-agua-o-el-zocalo-de-mexico-en-llamas-asi-quedara-su-calle-por-culpa-del-cambio-climatico.html
   date: 2021-10-01
+
 - name: "L'intelligence artificielle pour visualiser des phénomènes climatiques extrêmes"
   medium: Radio Canada
   link: https://ici.radio-canada.ca/ohdio/premiere/emissions/l-actuel/episodes/577093/rattrapage-du-jeudi-14-octobre-2021/2
   date: 2021-10-01
+
 - name: "Using artificial intelligence to start a conversation about climate change"
   medium: CBC
   link: https://www.cbc.ca/listen/live-radio/1-79-breakaway/clip/15872434-using-artificial-intelligence-start-conversation-climate-change
