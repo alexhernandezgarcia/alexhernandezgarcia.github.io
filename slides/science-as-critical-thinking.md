@@ -288,29 +288,3 @@ class: title, middle
 .references[
 [magazine.scienceforthepeople.org](https://magazine.scienceforthepeople.org/)
 ]
-
----
-
-name: title
-class: title, middle
-
-![:scale 30%](../assets/images/slides/science-as-critical-thinking/cycle.png)
-
-> "El buen investigador o investigadora es, sobre todo, una buena persona" .cite[Fernando Maestre]
-
-Alex Hernández-García (he/il/él)
-
-.center[
-<a href="https://mila.quebec/"><img src="../assets/images/slides/logos/mila-beige.png" alt="Mila" style="height: 3em"></a>
-&nbsp&nbsp&nbsp&nbsp
-<a href="https://www.umontreal.ca/"><img src="../assets/images/slides/logos/udem-white.png" alt="UdeM" style="height: 3em"></a>
-]
-
-.footer[[alexhernandezgarcia.github.io](https://alexhernandezgarcia.github.io/) | [alex.hernandez-garcia@mila.quebec](mailto:alex.hernandez-garcia@mila.quebec)]<br>
-.footer[[@alexhg@scholar.social](https://scholar.social/@alexhg) [![:scale 1em](../assets/images/slides/misc/mastodon.png)](https://scholar.social/@alexhg) | [@alexhdezgcia](https://twitter.com/alexhdezgcia) [![:scale 1em](../assets/images/slides/misc/twitter.png)](https://twitter.com/alexhdezgcia)]
-
-.smaller[.footer[
-Slides: [alexhernandezgarcia.github.io/slides/yb-retreat-oct23](https://alexhernandezgarcia.github.io/slides/yb-retreat-oct23)
-]]
-
-
