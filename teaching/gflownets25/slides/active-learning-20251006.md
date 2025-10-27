@@ -9,7 +9,7 @@ class: title, middle
 ## Probabilistic inference with GFlowNets
 ### IFT 6760B A25
 
-#### .gray224[October 6th - Session 10]
+#### .gray224[October ~~6th~~ 27th - Session ~~10~~ ??]
 ### .gray224[Active learning with GFlowNets]
 
 .smaller[.footer[
@@ -446,6 +446,77 @@ Mention:
 - Multi-armed bandits
 - Experimental design
 - The review in Jain et al.
+
+---
+
+count: false
+
+name: activelearninggfn
+class: title, middle
+
+## Active learning with GFlowNets
+
+.center[![:scale 30%](../../../assets/images/slides/scientific-discovery/loop_4.png)]
+
+---
+
+## Active learning in the original GFlowNets paper
+
+Algorithm:
+- We have limited access to an (expensive) oracle function.
+- We use a surrogate (proxy) model of the oracle, trained on existing annotated examples.
+- We use the proxy model as reward function $R(x)$.
+1. Train a GFlowNet with $R(x)$
+2. Sample $K$ samples from the GFlowNet
+3. Annotate the samples with the oracle
+4. Retrain the proxy model
+5. Repeat 1-4.
+
+.references[
+* Bengio et al., [Flow network based generative models for non-iterative diverse candidate generation](https://arxiv.org/abs/2106.04399). NeurIPS, 2021
+]
+
+---
+
+## Active learning in the original GFlowNets paper
+### Results
+
+.left-column[
+.center[![:scale 100%](../../../assets/images/slides/gflownet/active_learning_gfn_orig_rounds.png)]
+]
+
+.right-column[
+.center[![:scale 100%](../../../assets/images/slides/gflownet/active_learning_gfn_orig_mols_docked.png)]
+]
+
+.conclusion[Active learning with GFlowNets improved the efficiency in the acquisition and the quality and diversity of the candidates.]
+
+---
+
+## Improved active learning with GFlowNets
+### Results
+
+Instead of training the GFlowNet with the proxy model as reward function, we can use an .h1[acquisition function] to better account for the epistemic uncertainty of the model.
+
+--
+
+.columns-3-left[
+.center[![:scale 95%](../../../assets/images/slides/gfn-seq-design/results_amp.png)]
+]
+
+.columns-3-center[
+.center[![:scale 95%](../../../assets/images/slides/gfn-seq-design/results_gfp.png)]
+]
+
+.columns-3-right[
+.center[![:scale 100%](../../../assets/images/slides/gfn-seq-design/results_tfbind8.png)]
+]
+
+.full-width[This paper incorporated additional improvements, such as training with backward trajectories from the training data.]
+
+.references[
+* Jain et al., [Biological sequence design with GFlowNets](https://arxiv.org/abs/2203.04115). ICML, 2022
+]
 
 ---
 
