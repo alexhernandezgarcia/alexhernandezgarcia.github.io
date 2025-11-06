@@ -9,6 +9,11 @@
   link: https://nouvelles.umontreal.ca/article/2025/03/26/alex-hernandez-garcia-adepte-de-la-science-ouverte-de-musique-et-des-langues/
   date: 2025-03-26
 
+- name: "La inteligencia artificial multiplicará por 1.000 la basura electrónica esta década"
+  medium: El País
+  link: https://elpais.com/tecnologia/2024-10-28/la-inteligencia-artificial-multiplicara-por-1000-la-basura-electronica-esta-decada.html
+  date: 2024-10-28
+
 - name: "To ‘green’ AI, scientists are making it less resource-hungry"
   medium: ScienceNewsExplores
   link: https://www.snexplores.org/article/green-artificial-intelligence-less-energy-ai-climate
@@ -18,6 +23,11 @@
   medium: te.ma
   link: https://te.ma/art/i3kt57/nenno-ki-modelle-energieverbrauch-reduzieren/
   date: 2023-08-29
+
+- name: "The dirty secret of artificial intelligence"
+  medium: El País
+  link: https://english.elpais.com/science-tech/2023-03-23/the-dirty-secret-of-artificial-intelligence.html
+  date: 2023-03-23
 
 - name: "The Week in Green Software: How Green is Your Cloud?"
   medium: Environment Variables (podcast)
