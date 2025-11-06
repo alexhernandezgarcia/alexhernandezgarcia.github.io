@@ -333,7 +333,7 @@
 
 - title: "Generative modelling and active learning with GFlowNets for scientific discoveries"
   year: 2024
-  month: Jul
+  month: July
   where: AI4Science Seminar (SAIT)
   city: Seoul
   country: South Korea
@@ -342,7 +342,7 @@
 
 - title: "Multi-fidelity active learning for scientific discoveries"
   year: 2025
-  month: Feb
+  month: February
   where: Mila Tea Talk
   city: Montréal
   country: Canada
@@ -351,7 +351,7 @@
 
 - title: "Intelligence artificielle et la crise climatique – Défis et opportunités pour l’ingénierie"
   year: 2025
-  month: Mar
+  month: March
   where: Ordre des ingénieurs du Québec
   city: Online
   country: Québec
@@ -360,7 +360,7 @@
 
 - title: "GFlowNets Tutorial"
   year: 2025
-  month: Mar
+  month: March
   where: AI Workshop for Materials, Université Concordia
   city: Montréal
   country: Québec
@@ -370,7 +370,7 @@
 
 - title: "Multi-Disiplinary Approaches to AI Panel Discussion"
   year: 2025
-  month: Apr
+  month: April
   where: Université Concordia
   city: Montréal
   country: Canada
@@ -378,7 +378,7 @@
 
 - title: "OBELiX: A curated dataset of crystal structures and experimentally measured ionic conductivities for lithium solid-state electrolytes."
   year: 2025
-  month: Apr
+  month: April
   where: CEMDI-PAIMS Symposium
   city: Fukuoka
   country: Japan
@@ -388,9 +388,106 @@
 
 - title: "Generative and active learning with GFlowNets for scientific discovery"
   year: 2025
-  month: Apr
+  month: April
   where: University of Nagoya
   city: Nagoya
   country: Japan
   online: false
   slides: slides/nagoya-mlds-apr25
+
+- title: "Connecting the dots between AI ethics and sustainability"
+  year: 2025
+  month: May
+  where: Mila's Responsible AI & Human Rights Summer School
+  city: Montréal
+  country: Canada
+  online: false
+  slides: slides/mila-ethics-sustainability-may25
+
+- title: "Green Computing: Intelligence artificielle et la crise climatique"
+  year: 2025
+  month: June
+  where: Green ECC
+  city: Casablanca
+  country: Morocco
+  online: true
+  slides: slides/greenecc-jun25
+
+- title: "Generative and active machine learning for scientific discovery"
+  year: 2025
+  month: July
+  where: Canada-Korea Conference on Science and Technology
+  city: Montreal
+  country: Canada
+  online: false
+  slides: slides/canada-korea-biotech-jul25
+
+- title: "Towards equilibrium molecular conformation generation with GFlowNets"
+  year: 2025
+  month: July
+  where: SIAM 2025 · Computational Data Science of Nanostructures
+  city: Montreal
+  country: Canada
+  online: false
+  slides: slides/siam-jul25
+
+- title: "Crystal-GFN: A generative machine learning model to discover crystals with desirable properties and constraints"
+  year: 2025
+  month: July
+  where: Conference on Strongly Correlated Electron Systems
+  city: Montreal
+  country: Canada
+  online: false
+  slides: slides/sces-jul25
+
+- title: "Machine learning for materials discovery: An introduction to GFlowNets and Crystal-GFN"
+  year: 2025
+  month: August
+  where: École d’été du RQÉMP & AMA 2025
+  city: Sherbrooke
+  country: Canada
+  online: false
+  slides: slides/rqemp-gflownets-aug25
+
+- title: "Generative and active machine learning for scientific discoveries"
+  year: 2025
+  month: August
+  where: Deep Learning Indaba (Virtual)
+  city: Africa
+  country: Africa
+  online: true
+  slides: slides/indaba-ml-for-science-aug25
+
+- title: "Generative and active machine learning for scientific discoveries"
+  year: 2025
+  month: September
+  where: Software Engineering at Montreal
+  city: Montreal
+  country: Canada
+  online: false
+  slides: slides/semtl-sep25
+
+- title: "Sampling materials and molecules as sequential decision making with GFlowNets"
+  year: 2025
+  month: September
+  where: Mila Sampling Reading Group
+  city: Montreal
+  country: Canada
+  online: false
+  slides: slides/mila-sampling-sep25
+
+- title: "Panel: AI and Climate Change: Can AI Help Solve the Planet’s Biggest Challenges?"
+  year: 2025
+  month: September
+  where: ALL IN
+  city: Montreal
+  country: Canada
+  online: false
+
+- title: "Panel: Digital Platforms, AI, and the Climate Information Environment"
+  year: 2025
+  month: September
+  where: Infolab Summit on Climate Mis/Disinformation
+  city: Ottawa
+  country: Canada
+  online: false
