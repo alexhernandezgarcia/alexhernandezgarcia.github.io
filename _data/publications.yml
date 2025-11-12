@@ -1,3 +1,88 @@
+- title: "RainShift: A benchmark for precipitation downscaling across geographies"
+  authors:
+    - Paula Harder
+    - Luca Schmidt
+    - Francis Pelletier
+    - Nicole Ludwig
+    - Matthew Chantry
+    - Christian Lessig
+    - Alex Hernandez-Garcia
+    - David Rolnick
+  year: 2025
+  journal: arXiv:2507.04930
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2507.04930
+
+- title: "Torsional-GFN: a conditional conformation generator for small molecules"
+  authors:
+    - Alexandra Volokhova
+    - Léna Néhale Ezzine
+    - Piotr Gaiński
+    - Luca Scimeca
+    - Emmanuel Bengio
+    - Prudencio Tossou
+    - Yoshua Bengio
+    - Alex Hernandez-Garcia
+  year: 2025
+  journal: arXiv:2507.11759
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2507.11759
+
+- title: "Irresponsible AI: big tech's influence on AI research and associated impacts"
+  authors:
+    - Alex Hernández-García
+    - Alexandra Volokhova
+    - Ezekiel Williams
+    - Dounia Shaaban Kabakibo
+  year: 2025
+  journal: Algorithmic Collective Action Workshop at NeurIPS
+  tags:
+    - tag: OpenReview
+      link: https://openreview.net/forum?id=QwC3Q1erNe
+
+- title: "LeMat-GenBench: Bridging the gap between crystal generation and materials discovery"
+  authors:
+    - Alexandre Duval
+    - Siddharth Betala
+    - Samuel P. Gleason
+    - Andy Xu
+    - Georgia Channing
+    - Daniel Levy
+    - Ali Ramlaoui
+    - Clémentine Fourrier
+    - Chaitanya K. Joshi
+    - Nikita Kazeev
+    - Sékou-Oumar Kaba
+    - Félix Therrien
+    - Alex Hernandez-Garcia
+    - Rocío Mercado
+    - N M Anoop Krishnan
+  year: 2025
+  journal: AI for Materials Workshop at NeurIPS
+  tags:
+    - tag: OpenReview
+      link: https://openreview.net/forum?id=ZfPGcTfDWn
+
+- title: "Catalyst GFlowNet for electrocatalyst design: A hydrogen evolution reaction case study"
+  authors:
+    - Lena Podina
+    - Christina Humer
+    - Alexandre Duval
+    - Victor Schmidt
+    - Ali Ramlaoui
+    - Shahana Chatterjee
+    - Yoshua Bengio
+    - David Rolnick
+    - Alex Hernandez-Garcia
+    - Félix Therrien 
+  year: 2025
+  journal: arXiv:2510.02142
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2510.02142
+
 - title: "OBELiX: A curated dataset of crystal structures and experimentally measured ionic conductivities for lithium solid-state electrolytes"
   authors:
     - Félix Therrien
@@ -42,9 +127,11 @@
     - Emmanuel Bengio
     - Alex Hernandez-Garcia
     - Jinkyoo Park
-  year: 2024
+  year: 2025
   journal: International Conference on Machine Learning (ICML)
   tags:
+    - tag: ICML
+      link: https://proceedings.mlr.press/v267/kim25q.html
     - tag: arXiv
       link: https://arxiv.org/abs/2410.04461
 
@@ -97,7 +184,7 @@
     - Zichao Yan
     - Alán Aspuru-Guzik
     - Yoshua Bengio
-  year: 2023
+  year: 2024
   journal: Digital Discovery, Royal Society of Chemistry
   tags:
     - tag: Digital Discovery
