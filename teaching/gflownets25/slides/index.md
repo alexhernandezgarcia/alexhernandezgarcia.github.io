@@ -1,7 +1,7 @@
 ---
 layout: teaching
 navigation: navigation_gflownets25
-title: IFT 6760B - Slides
+title : Probabilistic inference with GFlowNets - Slides
 ---
 
 - [Introduction - September 4th, 2025](introduction-20250904)
