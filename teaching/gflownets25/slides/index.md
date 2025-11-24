@@ -14,4 +14,5 @@ title : Probabilistic inference with GFlowNets - Slides
 - [Crystal-GFN: GFlowNets for materials discovery - October 2nd, 2025](crystal-gfn-20251002)
 - [Active learning with GFlowNets - October ~~6th~~ 27th, 2025 _(rescheduled due to students strike)_](active-learning-20251006)
 - [Alexandra Volokhova: GFlowNets for sampling molecular conformations - October 9th, 2025](https://docs.google.com/presentation/d/1oOHsRGtaWRclNoKpPCAdrUH_JIWrcrOJsyjAUlmWN7E/edit?usp=sharing)
+- [Tristan Deleu: Generative Flow Networks: Connections with Reinforcement Learning - October 16th, 2025](../../../assets/pdf/gflownets/gfn_rl_tristan_deleu.pdf)
 - [Guidelines for the paper presentations - October 27th, 2025](paper-presentations-20251027)
