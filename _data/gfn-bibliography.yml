@@ -801,3 +801,61 @@
     - tag: paper
       link: https://arxiv.org/abs/2408.05885
     - tag: methods
+
+- title: "Stochastic Generative Flow Networks"
+  authors:
+    - Ling Pan
+    - Dinghuai Zhang
+    - Moksh Jain
+    - Longbo Huang
+    - Yoshua Bengio
+  year: 2023
+  journal: Conference on Uncertainty in Artificial Intelligence (UAI)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2302.09465
+    - tag: methods
+
+- title: "When do GFlowNets learn the right distribution?"
+  authors:
+    - Tiago Silva
+    - Rodrigo Barreto Alves
+    - Eliezer de Souza da Silva
+    - Amauri H Souza
+    - Vikas Garg
+    - Samuel Kaski
+    - Diego Mesquita
+  year: 2025
+  journal: International Conference on Learning Representations (ICLR)
+  tags:
+    - tag: paper
+      link: https://openreview.net/forum?id=9GsgCUJtic
+    - tag: analysis
+    - tag: theory
+
+- title: "Generalization and Distributed Learning of GFlowNets"
+  authors:
+    - Tiago Silva
+    - Amauri H Souza
+    - Omar Rivasplata
+    - Vikas Garg
+    - Samuel Kaski
+    - Diego Mesquita
+  year: 2025
+  journal: International Conference on Learning Representations (ICLR)
+  tags:
+    - tag: paper
+      link: https://openreview.net/forum?id=PJNhZoCjLh
+    - tag: analysis
+    - tag: theory
+
+- title: "Secrets of GFlowNets' Learning Behavior: A Theoretical Study"
+  authors:
+    - Tianshu Yu
+  year: 2025
+  journal: arXiv:2505.02035
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2505.02035
+    - tag: analysis
+    - tag: theory
