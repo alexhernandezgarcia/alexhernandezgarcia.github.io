@@ -801,3 +801,17 @@
     - tag: paper
       link: https://arxiv.org/abs/2408.05885
     - tag: methods
+
+- title: "Discovery of novel reticular materials for carbon dioxide capture using GFlowNets"
+  authors:
+    - Flaviu Cipcigan,
+    - Jonathan Booth,
+    - Rodrigo Neumann Barros Ferreira,
+    - Carine Ribeiro dos Santos
+    - Mathias Steiner
+  year: 2024
+  journal: Digital Discovery
+  tags:
+    - tag: paper
+      link: https://pubs.rsc.org/en/content/articlehtml/2024/dd/d4dd00020j
+    - tag: applications
