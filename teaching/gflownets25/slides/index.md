@@ -16,3 +16,4 @@ title : Probabilistic inference with GFlowNets - Slides
 - [Alexandra Volokhova: GFlowNets for sampling molecular conformations - October 9th, 2025](https://docs.google.com/presentation/d/1oOHsRGtaWRclNoKpPCAdrUH_JIWrcrOJsyjAUlmWN7E/edit?usp=sharing)
 - [Tristan Deleu: Generative Flow Networks: Connections with Reinforcement Learning - October 16th, 2025](../../../assets/pdf/gflownets/gfn_rl_tristan_deleu.pdf)
 - [Guidelines for the paper presentations - October 27th, 2025](paper-presentations-20251027)
+- [Kolya Malkin: Sampling and friends with dynamic measure support - November 27th, 2025 (reduced resolution)](../../../assets/pdf/gflownets/diffusion_kolya_malkin.pdf)
