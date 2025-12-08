@@ -80,4 +80,5 @@ The main goal of the presentations is to explain the work you have done in your 
 * [Ten simple rules for making good oral presentation](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.0030077&type=printable), by Philip E. Bourne, PLOS Computational Biology (2007)
 * [Ten simple rules for short and swift presentations](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1005373&type=printable), by Christopher J. Lortie, PLOS Computational Biology (2017)
 * [How the science of visual attention can help you make better presentations](https://www.youtube.com/watch?v=gOnSTEFJmoU), by  Aha, That Makes Sense, YouTube
+* [Slide deck about data visualisation](https://alexhernandezgarcia.github.io/teaching/mlprojects24/slides/20240206-dataviz)
 
