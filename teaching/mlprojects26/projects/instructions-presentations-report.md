@@ -14,7 +14,7 @@ Les présentations auront lieu en classe à l'heure habituelle de la session et 
 - Lundi, 13 avril
 - Jeudi, 16 avril
 
-Les rapports finaux et le code source doivent être remis le **30 avril 2024** à 23:59 (EST).
+Les rapports finaux et le code source doivent être remis le **30 avril 2026** à 23:59 (EST).
 
 ## Présentations
 
