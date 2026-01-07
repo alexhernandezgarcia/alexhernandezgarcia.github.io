@@ -69,7 +69,7 @@ Comme exigences d'inscription à ce cours, les étudiant.e.s doivent avoir réus
 
 * [À propos des projects]({{ site.url }}/teaching/mlprojects26/projects)
 * [Instructions pour la présentation, le rapport final et le code]({{ site.url }}/teaching/mlprojects26/projects/instructions-presentations-report)
-* Lien vers la page de StudiUM (coming soon)
+* [Lien vers la page de StudiUM](https://studium.umontreal.ca/course/view.php?id=346314)
 * [Lien vers la page d'admission publique de l'IFT 3710](https://admission.umontreal.ca/cours-et-horaires/cours/ift-3710/)
 * [Lien vers la page d'admission publique de l'IFT 6759](https://admission.umontreal.ca/cours-et-horaires/cours/ift-6759/)
 
