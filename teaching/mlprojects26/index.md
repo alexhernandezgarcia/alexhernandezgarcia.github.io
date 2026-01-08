@@ -13,7 +13,7 @@ redirect_from :
 
 # Description du cours
 
-L'objectif de ce cours est de vous préparer à vous attaquer à des projets pratiques d'apprentissage automatique. Pendant le cours, vous travaillerez sur les principales étapes des projets d'apprentissage automatique, y compris l'acquisition des données, le prétraitement des données, l'entraînement des modèles, l'analyse des résultats et la présentation des résultats et des conclusions. Les compétences développées pendant ce cours comprennent l'analyse documentaire d'un problème particulier, l'apprentissage automatique pratique et théorique, Python pour la science des données, PyTorch, le contrôle de version avec `git`, les commandes Linux de base, ainsi que de compétences pour la présentation de donnés et les résultats.
+L'objectif de ce cours est de vous préparer à vous attaquer à des projets pratiques d'apprentissage automatique. Pendant le cours, vous travaillerez sur les principales étapes des projets d'apprentissage automatique, y compris l'acquisition des données, le prétraitement des données, l'entraînement des modèles, l'analyse des résultats et la présentation des résultats et des conclusions. Les compétences développées pendant ce cours comprennent l'analyse documentaire d'un problème particulier, l'apprentissage automatique pratique et théorique, Python pour la science des données, PyTorch, le contrôle de version avec Git, les commandes Linux de base, ainsi que de compétences pour la présentation de donnés et les résultats.
 
 # Plan du cours
 
@@ -23,7 +23,7 @@ Le contenu des séances de la première partie est le suivant :
 
 1. Introduction au cours
 2. Linux et Python pour l'apprentissage automatique
-3. Contrôle de version avec `git` et GitHub
+3. Contrôle de version avec Git et GitHub
 4. Clusters HPC
 5. Revue de l'apprentissage automatique
 6. Revue de l'apprentissage profond
