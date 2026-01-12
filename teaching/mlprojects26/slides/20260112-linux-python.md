@@ -394,7 +394,6 @@ To get them all:
 $ python -m pip install flake8 isort black
 ```
 
-
 ---
 
 ## Miscellanea
@@ -410,6 +409,19 @@ $ python -m pip install flake8 isort black
 * [Pytest](https://docs.pytest.org/en/6.2.x/contents.html): code testing
 * [`mypy`](http://mypy-lang.org/): an optional static Python type checker
 * [Python recommendations by Victor Schmidt](https://vsch.notion.site/Python-recommendations-957ee124321a41fdbaf258cc7dbbfdcb)
+
+---
+
+## Session suivante
+### Git et Github
+
+.context[Jeudi 15 janvier, 10h30-12h30]
+
+Ressources et homework suggérées :
+
+* [Getting Started - What is Git?](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F), Pro Git book.
+* Create your account: [github.com/signup](https://github.com/signup)
+* Install Git: [github.com/git-guides/install-git](https://github.com/git-guides/install-git)
 
 ---
 
