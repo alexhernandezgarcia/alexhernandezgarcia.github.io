@@ -315,7 +315,7 @@ class: title, middle
 ## IFT 3710/6759
 ## Projets (avancés) en apprentissage automatique
 
-#### .gray224[11 janvier 2026 - Session 2]
+#### .gray224[12 janvier 2026 - Session 2]
 ### .gray224[Linux et Python pour l'apprentissage automatique]
 
 .bigger[.bigger[.highlight1[Pause: 10 minutes]]]
@@ -326,8 +326,7 @@ class: title, middle
 
 Alex Hernández-García (he/il/él)
 
-.footer[[alexhernandezgarcia.github.io](https://alexhernandezgarcia.github.io/) | [alex.hernandez-garcia@mila.quebec](mailto:alex.hernandez-garcia@mila.quebec)]<br>
-.footer[[@alexhg@scholar.social](https://scholar.social/@alexhg) [![:scale 1em](../../../assets/images/slides/misc/mastodon.png)](https://scholar.social/@alexhg) | [@alexhdezgcia](https://twitter.com/alexhdezgcia) [![:scale 1em](../../../assets/images/slides/misc/twitter.png)](https://twitter.com/alexhdezgcia)]
+.footer[[alexhernandezgarcia.github.io](https://alexhernandezgarcia.github.io/) | [alejandro.hernandez.garcia@umontreal.ca](mailto:alejandro.hernandez.garcia@umontreal.ca)] | [alexhergar.bsky.social](https://bsky.app/profile/alexhergar.bsky.social) [![:scale 1em](../../../assets/images/slides/misc/bluesky.png)](https://bsky.app/profile/alexhergar.bsky.social)<br>
 
 ---
 
