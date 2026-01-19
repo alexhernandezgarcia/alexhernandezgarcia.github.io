@@ -30,7 +30,8 @@ Alex Hernández-García (he/il/él)
 
 ---
 
-## Format de la séance et objectifs                                                                                                                                                                                                                                                                                                                                                             
+## Format de la séance et objectifs
+
 Ce cours combinera une introduction aux commandes et outils Linux de base et à Python pour l’apprentissage automatique, avec une démonstration en direct.
 
 L'.highlight1[objectif] est qu’à la fin du cours : 
