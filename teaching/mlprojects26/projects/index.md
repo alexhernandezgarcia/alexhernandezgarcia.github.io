@@ -102,11 +102,14 @@ L'objectif de ce cours est l'_apprentissage_. C'est-à-dire que vous devrez trav
 
 Comme expliqué [ci-dessus](#attribution-des-projets), vous pouvez proposer votre propre projet ou travailler sur l'un des projets proposés par les instructeurs. Voici une liste tentative des projets proposés par les instructeurs et des détails supplémentaires (an anglais pour l'instant) peuvent être trouvés dans la page de chaque projet (en cliquant sur les titres) :
 
+* [Prédiction des propriétés des matériaux pour la découverte de nouveaux matériaux](./materials-prediction)
+* [Génération de structures cristallines pour la découverte de nouveaux matériaux](./materials-generation)
+* [Réduction d'échelle des modèles climatiques](./downscaling)
+* [Généralisation des modèles de réduction d'échelle des modèles climatiques](./downscaling-transfer)
 * [Détection d'événements climatiques extrêmes](./extreme-climate-events)
 * [Détection et classification des cultures](./cropharvest)
-* [Réduction d'échelle des modèles climatiques](./downscaling)
-* [Découverte des matériaux et prédiction des propriétés](./materials)
 * [Modélisation des aptamères d'ADN](./dna)
+* [Classification des oiseaux migrateurs et non migrateurs à l'aide de données protéiques.](./migratory-birds)
 * [GeoLifeCLEF : Prévision de la présence d'espèces basée sur la localisation](./geolifeclef)
 * [WILDS : Changements de distribution dans la nature](./wilds)
 * [eBird : Surveillance de la biodiversité](./ebird)
