@@ -464,6 +464,10 @@ Besides energy, data centres and thus AI consume .highlight1[large quantities of
 
 --
 
+If one really wants to use AI chatbots, consider greener and more ethical alternatives. For example: [Thaura](https://thaura.ai/home)
+
+--
+
 Regarding efficiency, it is important to always remember [Jevons' paradox](https://www.sciencedirect.com/science/article/abs/pii/S0921800905001084?via%3Dihub): technological efficiency gains often increase overall resource use.
 
 .references[
