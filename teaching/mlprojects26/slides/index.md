@@ -11,3 +11,4 @@ title: IFT 3710/6759 - Slides
 - [22 janvier - Revue de l'apprentissage automatique](20260122-ml)
 - [26 janvier - Revue de l'apprentissage profond](20260126-dl)
 - [28 janvier - Tutoriel PyTorch (notebook colab)](https://colab.research.google.com/github/alexhernandezgarcia/pytorch-tutorial/blob/main/learn_pytorch.ipynb)
+- [2 février - Modèles génératifs pour la découverte scientifique](20260202-gflownets)
