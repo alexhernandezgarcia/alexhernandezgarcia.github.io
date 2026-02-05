@@ -1,3 +1,37 @@
+- title: "Synthesizable molecular generation via soft-constrained GFlowNets with rich chemical priors"
+  authors:
+  - Hyeonah Kim
+  - Minsu Kim
+  - Celine Roget
+  - Dionessa Biton
+  - Louis Vaillancourt
+  - Yves V. Brun
+  - Yoshua Bengio
+  - Alex Hernandez-Garcia
+  year: 2026
+  journal: arXiv:2602.04119
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2602.04119
+
+- title: "Adsorption energies are necessary but not sufficient to identify good catalysts"
+  authors:
+    - Shahana Chatterjee
+    - Alexander Davis
+    - Lena Podina
+    - Divya Sharma
+    - Yoshua Bengio
+    - Alexandre Duval
+    - Oleksandr Voznyy
+    - Alex Hernandez-Garcia
+    - David Rolnick
+    - Félix Therrien
+  year: 2025
+  journal: arXiv:2512.05938
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2512.05938
+
 - title: "RainShift: A benchmark for precipitation downscaling across geographies"
   authors:
     - Paula Harder
