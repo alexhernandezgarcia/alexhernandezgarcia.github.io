@@ -491,3 +491,22 @@
   city: Ottawa
   country: Canada
   online: false
+
+- title: "Generative modelling and active learning for scientific discoveries"
+  year: 2025
+  month: December
+  where: Computer Science & Informatics
+  city: Liverpool
+  country: United Kingdom
+  link: http://www.csc.liv.ac.uk/research/seminars/edit.php?sid=1306:70c6560d6f12cb3c057f4764cdcdd1d8
+  slides: slides/liverpool-dec25
+  video: https://www.youtube.com/watch?v=2WGlZ7gQbXg
+
+- title: "An introduction to the environmental impacts of AI"
+  year: 2026
+  month: January
+  where: Department of Canadian Heritage
+  city: Online
+  country: The Internet
+  online: true
+  slides: slides/canadian-heritage-jan26
