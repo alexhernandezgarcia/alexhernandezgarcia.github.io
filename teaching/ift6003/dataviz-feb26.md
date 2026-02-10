@@ -3,7 +3,7 @@ layout: slides_warbler
 title: IFT 6003 - Data visualisation
 ---
 
-name: 20240206-dataviz
+name: dataviz-feb26
 class: title, middle
 
 ## IFT 6003
