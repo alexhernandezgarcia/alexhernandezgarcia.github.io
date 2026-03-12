@@ -12,3 +12,4 @@ title: IFT 3710/6759 - Slides
 - [26 janvier - Revue de l'apprentissage profond](20260126-dl)
 - [28 janvier - Tutoriel PyTorch (notebook colab)](https://colab.research.google.com/github/alexhernandezgarcia/pytorch-tutorial/blob/main/learn_pytorch.ipynb)
 - [2 février - Modèles génératifs pour la découverte scientifique](20260202-gflownets)
+- [3 mars - Visualisation des données](20260312-dataviz)
