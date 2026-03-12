@@ -17,7 +17,8 @@ Les projets du cours ont pour but de ressembler autant que possible aux projets 
 5. Rapport écrit
 6. Présentation orale
 
-[Lien vers la page avec des instructions pour les présentations et le rapport final](./instructions-presentations-report).
+- [Lien vers la page avec des instructions pour les présentations et le rapport final](./instructions-presentations-report).
+- [Lien vers la page avec la politique sur l'utilisation des agents d'IA et des chatbots](./ia-politique).
 
 ### Chronologie
 
