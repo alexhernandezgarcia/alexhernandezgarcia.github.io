@@ -1,7 +1,7 @@
 ---
-layout : teaching
-navigation : navigation_mlprojects26
-title : IFT 3710/6759 - Instructions pour les présentations et le rapport final
+layout: teaching
+navigation: navigation_mlprojects26
+title: IFT 3710/6759 - Instructions pour les présentations et le rapport final
 ---
 
 Les présentations orales, les rapports finaux et le code des projets sont les principaux livrables de ce cours. La note finale est entièrement basée sur le travail sur le projet et la présentation, le rapport et le code source constituent votre principal moyen d'expliquer et de montrer votre travail.

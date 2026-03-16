@@ -1,7 +1,7 @@
 ---
-layout : teaching
-navigation : navigation_mlprojects26
-title : IFT 3710/6759 H26 - Projets
+layout: teaching
+navigation: navigation_mlprojects26
+title: IFT 3710/6759 H26 - Projets
 ---
 
 Le principal objectif d'apprentissage de ce cours est de préparer les étudiant·e·s à s'attaquer à des projets pratiques d'apprentissage automatique. Par conséquent, toutes et tous les étudiant·e·s participeront en équipe au développement d'un projet d'apprentissage automatique. Cette page décrit les directives générales concernant cette partie du cours.

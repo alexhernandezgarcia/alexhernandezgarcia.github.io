@@ -1,6 +1,6 @@
 ---
 layout: teaching
-navigation : navigation_mlprojects26
+navigation: navigation_mlprojects26
 title: "IFT 3710/6759 - GeoLifeCLEF: Location-based species presence prediction"
 ---
 

@@ -1,7 +1,7 @@
 ---
-layout : teaching
-navigation : navigation_mlprojects26
-title : IFT 3710/6759 - Policy about the use of AI agents and chatbots
+layout: teaching
+navigation: navigation_mlprojects26
+title: IFT 3710/6759 - Policy about the use of AI agents and chatbots
 ---
 
 This document describes the policy about the use of AI agents and chatbots in the development of the course work, in particular the project code, the final report and the presentation.
