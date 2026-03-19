@@ -144,8 +144,6 @@ On peut considérer le pilier des modèles actuels d'intelligence artificielle c
 .left-column[
 .h1[Qu'est-ce qu'un modèle de langage] ?
 
---
-
 Une machine statistique qui calcule la probabilité de chaque symbole (lettre, mot, etc.). dans une langue. Un exemple bien connu : les outiles d'.h2[autocomplétion]
 ]
 
