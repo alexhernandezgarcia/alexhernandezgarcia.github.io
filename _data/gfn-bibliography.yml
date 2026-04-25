@@ -873,3 +873,70 @@
       link: https://arxiv.org/abs/2505.02035
     - tag: analysis
     - tag: theory
+
+- title: "Generative Flow Networks as Entropy-Regularized RL"
+  authors:
+    - Daniil Tiapkin
+    - Nikita Morozov
+    - Alexey Naumov
+    - Dmitry Vetrov
+  year: 2024
+  journal: AISTATS
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2310.12934
+    - tag: theory
+
+- title: "Discrete probabilistic inference as control in multi-path environments"
+  authors:
+    - Tristan Deleu
+    - Padideh Nouri
+    - Nikolay Malkin
+    - Doina Precup
+    - Yoshua Bengio
+  year: 2024
+  journal: Uncertainty in Artificial Intelligence (UAI)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2402.10309
+    - tag: theory
+
+- title: "Bayesian Structure Learning with Generative Flow Networks"
+  authors:
+    - Tristan Deleu
+    - António Góis
+    - Chris Emezue
+    - Mansi Rankawat
+    - Simon Lacoste-Julien
+    - Stefan Bauer
+    - Yoshua Bengio
+  year: 2022
+  journal: Uncertainty in Artificial Intelligence (UAI)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2202.13903
+    - tag: applications
+
+- title: "Generative Flow Networks: a Markov Chain Perspective"
+  authors:
+    - Tristan Deleu
+    - Yoshua Bengio
+  year: 2023
+  journal: arXiv:2307.01422
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2307.01422
+    - tag: theory
+
+- title: "Generative Flow Networks: a Markov Chain Perspective"
+  authors:
+    - Tristan Deleu
+    - Padideh Nouri
+    - Yoshua Bengio
+    - Doina Precup
+  year: 2025
+  journal: arXiv:2509.01632
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2509.01632
+    - tag: theory
