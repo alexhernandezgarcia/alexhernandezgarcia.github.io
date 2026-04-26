@@ -43,11 +43,15 @@ class: title, middle
 
 ---
 
+count: false
+
 .center[![:scale 80%](../assets/images/slides/implicated-subject/gaza.png)]
 
 .references[[April 17th, 2026](https://news.un.org/en/story/2026/04/1167319)]
 
 ---
+
+count: false
 
 .center[![:scale 80%](../assets/images/slides/implicated-subject/ukraine.png)]
 
@@ -55,11 +59,15 @@ class: title, middle
 
 ---
 
+count: false
+
 .center[![:scale 80%](../assets/images/slides/implicated-subject/iran.png)]
 
 .references[[March 3rd, 2026](https://news.un.org/en/story/2026/03/1167071)]
 
 ---
+
+count: false
 
 .center[![:scale 100%](../assets/images/slides/implicated-subject/lebanon.png)]
 
@@ -104,6 +112,8 @@ class: title, middle
 
 ---
 
+count: false
+
 ## Surveillance technology
 
 .center[![:scale 80%](../assets/images/slides/implicated-subject/surveillance_apartheid_amnestyint.png)]
@@ -119,6 +129,8 @@ class: title, middle
 .references[Yasmin Astrid Bonea. [Algorithms of war: AI, drones and the challenge to international humanitarian law in the Russia-Ukraine war](lup.lub.lu.se/luur/download?func=downloadFile&recordOId=9196688). Faculty of Law, Lund University, 2025.]
 
 ---
+
+count: false
 
 ## Killer drones
 
@@ -424,11 +436,15 @@ count: false
 
 ---
 
+count: false
+
 ## Build coalitions for direct action
 
 .center[<img src="../assets/images/slides/implicated-subject/reaching_critical_will.png" width="90%">]
 
 ---
+
+count: false
 
 ## Build coalitions for direct action
 
@@ -467,3 +483,9 @@ class: title, middle
 - As implicated scientists we can turn our implication into solidarity
 
 .center[<img src="../assets/images/slides/implicated-subject/drawing.png" width="35%">]
+
+---
+
+.center[![:scale 100%](../assets/images/slides/implicated-subject/amanha.png)]
+
+.references[Museu do Amanhã (Museum of Tomorrow), Rio de Janeiro]
