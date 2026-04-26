@@ -24,7 +24,7 @@ Alexandra Volokhova, Alex Hernández-García
 ]
 
 .smaller[.footer[
-Slides: [alexhernandezgarcia.github.io/slides/{{ name }}](https://alexhernandezgarcia.github.io/slides/{{ name }})
+Slides: [alexhernandezgarcia.com/slides/{{ name }}](https://alexhernandezgarcia.com/slides/{{ name }})
 ]]
 
 ---
