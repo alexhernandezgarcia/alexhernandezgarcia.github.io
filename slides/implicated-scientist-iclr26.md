@@ -3,7 +3,7 @@ layout: slides_mila_starling
 title: "The implicated scientist: on the role of AI researchers in the development of weapons systems"
 ---
 
-name: implicated-scientist-iclr26.md
+name: implicated-scientist-iclr26
 class: title, middle
 
 ## The implicated scientist
