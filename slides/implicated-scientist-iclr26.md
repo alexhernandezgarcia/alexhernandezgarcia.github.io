@@ -297,7 +297,7 @@ class: title, middle
 
 - Many would argue that the link between AI research and weapons manufacturers is rather weak.
 - However, this link is not negligible. Examples:
-    - Directors of Helsing (killer drones) are former AI academics and still publish at AI companies.
+    - Directors of Helsing (killer drones) are former AI academics and still publish at AI conferences.
     - Weapons manufacturers have partnerships with computer science departments.
 
 ---
