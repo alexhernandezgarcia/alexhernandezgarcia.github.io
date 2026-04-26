@@ -360,6 +360,8 @@ count: false
 - Big tech companies have strong ties with the military industrial complex.
 - Big tech serves as the interface between AI research and weapons companies.
 
+.references[[Irresponsible AI: big tech’s influence on AI research and associated impacts](https://arxiv.org/abs/2512.03077), Algorithmic Collective Action workshop, NeurIPS, 2025]
+
 ---
 
 .center[<img src="../assets/images/slides/implicated-subject/drawing_implication.png" width="60%">]
