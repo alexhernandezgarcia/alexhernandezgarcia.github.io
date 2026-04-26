@@ -333,6 +333,15 @@ count: false
 
 ---
 
+count: false
+
+## Industry involvement
+### The role of big tech
+
+.center[<img src="../assets/images/slides/implicated-subject/sponsors_iclr.png" width="85%">]
+
+---
+
 ## Industry involvement
 ### The role of big tech
 
