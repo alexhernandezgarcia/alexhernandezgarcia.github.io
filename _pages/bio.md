@@ -17,3 +17,7 @@ Alex Hernandez-Garcia is an assistant professor at the Université de Montréal 
 His current main research interest is in the applications of machine learning to accelerate scientific discoveries to tackle the climate crisis. He helped create ThisClimateDoesNotExist.com, a website to help us visualise the impacts of climate change in our own backyard. Currently, his focus is materials discovery and molecular modelling with machine learning. In particular, he studies and applies Generative Flow Networks (GFlowNets) for probabilistic modelling and active learning for exploration. Examples of applications are catalyst design to improve the energy efficiency of hydrogen storage and other energy-intensive industrial processes, or discovery of solid electrolytes to make better and safer batteries.
 
 More broadly, besides developing potentially impactful machine learning applications, since his graduate years Alex has been interested in brain-inspired deep learning and computational neuroscience. Alex is also a strong proponent of open science and is active in initiatives about how making science more inclusive, equitable, open, reproducible, transparent and environmentally conscious. At Mila, he has been a Lab Representative and a member of the Equity, Diversity and Inclusion Committee and the Sustainability Committee.
+
+## Photos
+
+If you need a photo for promotion of a speaking event, you may find some [here]({{ site.url }}/photos).
