@@ -847,7 +847,7 @@
     - tag: analysis
     - tag: theory
 
-- title: "Generalization and Distributed Learning of GFlowNets"
+- title: "Generalization and distributed learning of GFlowNets"
   authors:
     - Tiago Silva
     - Amauri H Souza
@@ -863,7 +863,7 @@
     - tag: analysis
     - tag: theory
 
-- title: "Secrets of GFlowNets' Learning Behavior: A Theoretical Study"
+- title: "Secrets of GFlowNets' learning behavior: A theoretical study"
   authors:
     - Tianshu Yu
   year: 2025
@@ -874,14 +874,14 @@
     - tag: analysis
     - tag: theory
 
-- title: "Generative Flow Networks as Entropy-Regularized RL"
+- title: "Generative flow networks as entropy-regularized RL"
   authors:
     - Daniil Tiapkin
     - Nikita Morozov
     - Alexey Naumov
     - Dmitry Vetrov
   year: 2024
-  journal: AISTATS
+  journal: International Conference on Artificial Intelligence and Statistics (AISTATS)
   tags:
     - tag: paper
       link: https://arxiv.org/abs/2310.12934
@@ -901,7 +901,7 @@
       link: https://arxiv.org/abs/2402.10309
     - tag: theory
 
-- title: "Bayesian Structure Learning with Generative Flow Networks"
+- title: "Bayesian structure learning with generative flow networks"
   authors:
     - Tristan Deleu
     - António Góis
@@ -917,7 +917,7 @@
       link: https://arxiv.org/abs/2202.13903
     - tag: applications
 
-- title: "Generative Flow Networks: a Markov Chain Perspective"
+- title: "Generative flow networks: a Markov chain perspective"
   authors:
     - Tristan Deleu
     - Yoshua Bengio
@@ -928,7 +928,7 @@
       link: https://arxiv.org/abs/2307.01422
     - tag: theory
 
-- title: "Generative Flow Networks: a Markov Chain Perspective"
+- title: "Relative Trajectory Balance is equivalent to Trust-PCL"
   authors:
     - Tristan Deleu
     - Padideh Nouri
@@ -940,3 +940,81 @@
     - tag: paper
       link: https://arxiv.org/abs/2509.01632
     - tag: theory
+
+- title: "Avoid what you know: Divergent trajectory balance for GFlowNets"
+  authors:
+    - Pedro Dall'Antonia
+    - Tiago da Silva
+    - Daniel Csillag
+    - Salem Lahlou
+    - Diego Mesquita
+  year: 2026
+  journal: International Conference on Machine Learning (ICML)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2602.17827
+    - tag: theory
+    - tag: methods
+    - tag: loss
+
+- title: "Boosted GFlowNets: Improving exploration via sequential learning"
+  authors:
+    - Pedro Dall'Antonia
+    - Tiago da Silva
+    - Daniel Augusto de Souza
+    - César Lincoln C. Mattos
+    - Diego Mesquita
+  year: 2026
+  journal: International Conference on Artificial Intelligence and Statistics (AISTATS)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2511.09677
+    - tag: methods
+    - tag: loss
+
+- title: "A theory of non-acyclic generative flow networks"
+  authors:
+    - Leo Maxime Brunswic
+    - Yinchuan Li
+    - Yushun Xu
+    - Shangling Jui
+    - Lizhuang Ma
+  year: 2024
+  journal: Proceedings of the AAAI Conference on Artificial Intelligence
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2312.15246
+    - tag: theory
+
+- title: "Ergodic generative flows"
+  authors:
+    - Leo Maxime Brunswic
+    - Mateo Clemente
+    - Rui Heng Yang
+    - Adam Sigal
+    - Amir Rasouli
+    - Yinchuan Li
+  year: 2025
+  journal: International Conference on Machine Learning (ICML)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2505.03561
+    - tag: theory
+
+- title: "Synthesizable molecular generation via soft-constrained GFlowNets with rich chemical priors"
+  authors:
+    - Hyeonah Kim
+    - Minsu Kim
+    - Celine Roget
+    - Dionessa Biton
+    - Louis Vaillancourt
+    - Yves V. Brun
+    - Yoshua Bengio
+    - Alex Hernandez-Garcia
+  year: 2026
+  journal: International Conference on Machine Learning (ICML)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2505.03561
+    - tag: applications
+    - tag: loss
