@@ -537,3 +537,52 @@
   country: Québec
   online: false
   link: https://www.umontreal.ca/les-cercles/
+
+- title: "The implicated scientist: on the role of AI researchers in the development of weapons systems"
+  year: 2026
+  month: April
+  where: AI for Peace Workshop, ICLR
+  city: Rio de Janeiro
+  country: Brasil
+  online: false
+  link: https://aiforpeaceworkshop.github.io/schedule/
+  slides: slides/implicated-scientist-iclr26
+
+- title: "Multi-fidelity active learning and generative models for science"
+  year: 2026
+  month: May
+  where: GESDA – Anticipating the Future of AI for Science Workshop
+  city: Online
+  country: The Internet
+  online: true
+  link: https://www.gesda.global/
+
+- title: "Connecting the dots between AI ethics and sustainability"
+  year: 2026
+  month: May
+  where: Mila's Responsible AI & Human Rights Summer School
+  city: Mexico City
+  country: Mexico
+  online: true
+  link: https://mila.quebec/en/continuing-education/summer-school-in-responsible-ai-and-human-rights
+  slides: slides/mila-ethics-sustainability-may26
+
+- title: "Generative and active learning with GFlowNets for materials discovery"
+  year: 2026
+  month: May
+  where: "Canadian Societies for Chemistry and Chemical Engineering 2026 Conferences and Exhibition (x2026)"
+  city: Toronto
+  country: Canada
+  online: false
+  link: https://www.cheminst.ca/conference/x2026/
+  slides: slides/x2026-may26
+
+- title: "Generative and active machine learning for scientific discoveries"
+  year: 2026
+  month: July
+  where: "LatinX in AI Workshop, ICML"
+  city: Seoul
+  country: South Korea
+  online: false
+  link: https://icml.cc/virtual/2026/affinity-event/54097
+  slides: slides/latinx-icml26
