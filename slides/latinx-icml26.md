@@ -1,10 +1,10 @@
 ---
-layout: slides_mila_starling
+layout: slides_mila_parrot
 title: "Generative and active machine learning for scientific discoveries"
 ---
 
 name: latinx-icml26
-class: title, middle
+class: title, middle, hide-slide-number
 
 ### Generative and active machine learning for scientific discoveries
 
@@ -286,7 +286,7 @@ A .highlight1[machine learning model] can be:
 * trained with data from _real-world_ experiments and
 * used to quickly and cheaply evaluate queries
 
-.conclusion[There are infinitely many conceivable materials and combinatorially many molecules. Are predictive models enough?]
+.conclusion-float[There are infinitely many conceivable materials and combinatorially many molecules. Are predictive models enough?]
 ]
 
 .footnote[This ML model is _predictive_ or _discriminative_: classification or regression.]
@@ -311,7 +311,7 @@ count: false
 --
 
 .left-column-33[
-.conclusion[Active learning with generative machine learning can in theory more efficiently explore the candidate space.]
+.conclusion-float[Active learning with generative machine learning can in theory more efficiently explore the candidate space.]
 ]
 
 ---
@@ -332,7 +332,7 @@ count: false
 .footnote[Generative models learn to propose or generate new candidates.]
 
 .left-column-33[
-.conclusion[However, should we rely solely on our best but very expensive _oracle_?]
+.conclusion-float[However, should we rely solely on our best but very expensive _oracle_?]
 ]
 
 ---
@@ -347,7 +347,7 @@ count: false
 * leverage the availability of .highlight1[multiple oracles] with different .highlight1[costs and fidelity]
 * efficiently use the right level of accuracy needed for each query
 
-.conclusion[Multi-fidelity active learning can leverage the diversity of methods available in science.]
+.conclusion-float[Multi-fidelity active learning can leverage the diversity of methods available in science.]
 ]
 
 .references[Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). TMLR, 2024]
@@ -1172,7 +1172,7 @@ For the Tetris problem, a meaningful decomposition of the samples is .highlight1
 
 .right-column[
 <br><br>
-.conclusion[The decomposition of the sampling process into meaningful steps yields patterns that may be correlated with the reward function and facilitates learning complex distributions.]
+.conclusion-float[The decomposition of the sampling process into meaningful steps yields patterns that may be correlated with the reward function and facilitates learning complex distributions.]
 ]
 
 ---
@@ -1199,7 +1199,7 @@ At each step of the .highlight1[trajectory $\tau=(s_0\rightarrow s_1 \rightarrow
 --
 
 .right-column[
-.conclusion[These ideas and terminology is reminiscent of reinforcement learning (RL).]
+.conclusion-float[These ideas and terminology is reminiscent of reinforcement learning (RL).]
 ]
 
 ---
@@ -1244,7 +1244,7 @@ Bengio et al. [Flow network based generative models for non-iterative diverse ca
 --
 
 .right-column[
-.conclusion[GFlowNets can be trained with deep learning methods to learn a sampling policy $p\_{\theta}$ proportional to a reward $R(x)$.]
+.conclusion-float[GFlowNets can be trained with deep learning methods to learn a sampling policy $p\_{\theta}$ proportional to a reward $R(x)$.]
 ]
 
 ---
@@ -2052,7 +2052,7 @@ Jacopo Ghirri<br>
 ---
 
 name: latinx-icml26
-class: title, middle
+class: title, middle, hide-slide-number
 
 ![:scale 30%](../assets/images/slides/climatechange/climate_health_ai.png)
 
