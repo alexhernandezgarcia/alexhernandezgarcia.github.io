@@ -407,6 +407,25 @@ For each material and method:
 
 ---
 
+count: false
+
+## Ionic conductivity estimation
+
+.left-column[
+For each material and method:
+1. 100 ps MD at 5 temperatures: 800, 900, 1000, 1100 and 1200 K.
+2. Obtain the slope $D$ of the mean square displacement of Li over time.
+3. Extrapolate to room temperature via Arrhenius.
+4. Estimate the ionic conductivity $\sigma$ via the Nernst-Einstein relation.
+]
+
+.right-column[
+.center[![:scale 70%](../assets/images/slides/ionic-conductivity/displacement.png)]
+.center[![:scale 70%](../assets/images/slides/ionic-conductivity/arrhenius.png)]
+]
+
+---
+
 ## Results
 #### NequIP vs DFT vs experimental
 
