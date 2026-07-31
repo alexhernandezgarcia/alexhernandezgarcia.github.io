@@ -429,6 +429,24 @@ For each material and method:
 ## Results
 #### NequIP vs DFT vs experimental
 
+.full-width[.center[![:scale 80%](../assets/images/slides/ionic-conductivity/nequip_dft_blank.png)]]
+
+---
+
+count: false
+
+## Results
+#### NequIP vs DFT vs experimental
+
+.full-width[.center[![:scale 80%](../assets/images/slides/ionic-conductivity/nequip_dft_dft_only.png)]]
+
+---
+
+count: false
+
+## Results
+#### NequIP vs DFT vs experimental
+
 .full-width[.center[![:scale 80%](../assets/images/slides/ionic-conductivity/nequip_dft.png)]]
 
 ---
@@ -498,6 +516,27 @@ Funding and support: NRC, Calcul Québec,and the Digital Research Alliance of Ca
 ]
 
 .right-column-66[.center[![:scale 95%](../assets/images/slides/ionic-conductivity/comparative_study_paper.png)]]
+
+---
+
+## Looking for an internship?
+
+.center[We look for students interested in .h1[4-6 months (paid!) research internships] to work on ML for materials!]
+
+- Dates: September 2026 - March 2027
+- Location: Mila in Montreal
+- Relevant background:
+    - Machine learning basics
+    - Generative modelling (GFlowNets)
+    - Active learning and Bayesian optimisation
+    - MLIPs
+    - DFT
+    - ...
+- Applications:
+    - Solid-state electrolytes for batteries
+    - Electrocatalysts for HER and OER
+    - General machine learning for materials
+    - ...
 
 ---
 
