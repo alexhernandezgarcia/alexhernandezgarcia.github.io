@@ -34,7 +34,7 @@ The lectures will cover the following topics:
 - Brief review of requisite background
 - Context and original formulation of GFlowNets
 - Main concepts and theoretical results
-- Modern mathematival re-formulations
+- Modern mathematical re-formulations
 - Relevant loss functions
 - Continuous GFlowNets
 - Training and evaluation guidelines
@@ -106,6 +106,7 @@ The details of the policy can be found in a [dedicated page](./ai-policy) that d
 * [University (faculty) calendar](https://fas.umontreal.ca/public/FAS/fas/Documents/Calendrier/Calendrier_etudes_FAS_A26-H27.pdf)
 * [Instructions about final projects](./instructions-projects)
 * [Policy about the use of AI agents and chatbots](./ai-policy)
+* [Course calendar](./calendar)
 
 # Session d'automne 2026
 

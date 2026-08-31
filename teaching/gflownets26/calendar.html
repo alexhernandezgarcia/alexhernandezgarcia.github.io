@@ -1,0 +1,289 @@
+---
+layout: teaching
+navigation: navigation_gflownets26
+title : "GFlowNets: Sampling as sequential decision making" 
+subtitle : "Course calendar" 
+---
+
+This page currently shows a basic version of the course calendar. The calendar will be updated with the dates of the quizzes and other important dates such as deadlines.
+
+<style>
+  :root {
+    --bg: #fafaf7;
+    --ink: #2c2c2c;
+    --line: #dcdcdc;
+    --cal-table-bg: #ffffff;
+    --cal-header-bg: #f1f3f4;
+    --cal-empty-bg: #fbfbfb;
+    --class-bg: #e6f4ea;
+    --class-border: #34a853;
+    --noclass-bg: #fdecea;
+    --noclass-text: #d93025;
+    --quiz-bg: #d2e3fc;
+    --quiz-border: #4285f4;
+    --deadline-bg: #fce8e6;
+    --deadline-border: #d93025;
+    --today-ring: #ff9800;
+    --tag-text: #fff;
+    --shadow: rgba(0,0,0,0.08);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1a1e;
+      --ink: #e0e0e0;
+      --line: #3a3a40;
+      --cal-table-bg: #242428;
+      --cal-header-bg: #2e2e34;
+      --cal-empty-bg: #1f1f23;
+      --class-bg: #1e3a2a;
+      --class-border: #4caf50;
+      --noclass-bg: #3a1f1f;
+      --noclass-text: #ef5350;
+      --quiz-bg: #1e2d4a;
+      --quiz-border: #64b5f6;
+      --deadline-bg: #3a1f1f;
+      --deadline-border: #ef5350;
+      --today-ring: #ffb74d;
+      --tag-text: #fff;
+      --shadow: rgba(0,0,0,0.3);
+    }
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  .calendar-wrap { width: 100%; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--cal-table-bg);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px var(--shadow);
+  }
+
+  th {
+    background: var(--cal-header-bg);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--ink);
+    opacity: 0.75;
+    padding: 0.6rem 0.3rem;
+    border-bottom: 2px solid var(--line);
+  }
+
+  td {
+    height: 64px;
+    vertical-align: top;
+    padding: 0.4rem;
+    border-bottom: 1px solid var(--line);
+    border-right: 1px solid var(--line);
+    position: relative;
+    color: var(--ink);
+  }
+
+  td:last-child { border-right: none; }
+  tbody tr:last-child td { border-bottom: none; }
+
+  /* Empty cells (outside Aug 31 – Dec 31 range) */
+  td.empty { background: var(--cal-empty-bg); }
+
+  .day-num {
+    font-size: 0.85rem;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 0.2rem;
+  }
+
+  .tag {
+    display: inline-block;
+    font-size: 0.65rem;
+    font-weight: 600;
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    line-height: 1.2;
+  }
+
+  /* Class day */
+  td.class {
+    background: var(--class-bg);
+    border-left: 3px solid var(--class-border);
+  }
+  td.class .tag { background: var(--class-border); color: var(--tag-text); }
+
+  /* No class / no class */
+  td.noclass {
+    background: var(--noclass-bg);
+    border-left: 3px solid var(--noclass-text);
+  }
+  td.noclass .x-mark {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--noclass-text);
+    opacity: 0.55;
+    pointer-events: none;
+  }
+  td.noclass .tag { background: var(--noclass-text); color: var(--tag-text); }
+
+  /* Quiz day */
+  td.quiz {
+    background: var(--quiz-bg);
+    border-left: 3px solid var(--quiz-border);
+  }
+  td.quiz .tag { background: var(--quiz-border); color: var(--tag-text); }
+
+  /* Deadline */
+  td.deadline {
+    background: var(--deadline-bg);
+    border-left: 3px solid var(--deadline-border);
+  }
+  td.deadline .tag { background: var(--deadline-border); color: var(--tag-text); }
+
+  /* Today indicator */
+  td.today::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 2px solid var(--today-ring);
+    border-radius: 6px;
+    pointer-events: none;
+  }
+
+  /* Legend */
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: var(--ink);
+  }
+  .legend-item { display: flex; align-items: center; gap: 0.4rem; }
+  .swatch {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    border: 1px solid rgba(128,128,128,0.3);
+  }
+  .swatch.class { background: var(--class-bg); border-left: 3px solid var(--class-border); }
+  .swatch.noclass { background: var(--noclass-bg); border-left: 3px solid var(--noclass-text); }
+  .swatch.quiz { background: var(--quiz-bg); border-left: 3px solid var(--quiz-border); }
+  .swatch.deadline { background: var(--deadline-bg); border-left: 3px solid var(--deadline-border); }
+</style>
+
+<div class="calendar-wrap">
+
+  <br>
+  <table id="course-calendar"></table>
+
+  <div class="legend">
+    <div class="legend-item"><span class="swatch class"></span> Class day</div>
+    <div class="legend-item"><span class="swatch noclass"></span> No class</div>
+  </div>
+</div>
+
+<script>
+(function () {
+  const START = new Date(2026, 7, 31);   // Aug 31, 2026
+  const END   = new Date(2026, 11, 31);  // Dec 31, 2026
+  const TODAY = new Date();              // Adjust or remove if you don't need "today" ring
+
+  // --- Configuration -------------------------------------------------------
+  // Dates with NO class. Format: YYYY-MM-DD
+  const NO_CLASS_DAYS = ["2026-09-07", "2026-10-05", "2026-10-12", "2026-10-19", "2026-10-22"];
+
+  // Quiz dates (must be on class days). Format: YYYY-MM-DD
+  // CHANGE THESE to your actual quiz dates.
+  const QUIZ_DATES = [];
+
+  // Final deadline date(s). Format: YYYY-MM-DD
+  const DEADLINES = [];
+
+  // Last day classes occur (classes stop after this date)
+  const LAST_CLASS_DAY = "2026-12-09";
+
+  // --------------------------------------------------------------------------
+
+  function pad(n) { return String(n).padStart(2, "0"); }
+  function key(d) { return d.getFullYear() + "-" + pad(d.getMonth()+1) + "-" + pad(d.getDate()); }
+
+  const noclassdays  = new Set(NO_CLASS_DAYS);
+  const quizzes   = new Set(QUIZ_DATES);
+  const deadlines = new Set(DEADLINES);
+
+  const dayNames = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
+  const monthAbbr = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+  const table = document.getElementById("course-calendar");
+
+  // Build header row
+  let html = "<thead><tr>";
+  dayNames.forEach(d => html += "<th>" + d + "</th>");
+  html += "</tr></thead><tbody>";
+
+  // Find the Monday on or before START
+  let cursor = new Date(START);
+  const dow = cursor.getDay(); // 0=Sun..6=Sat
+  const mondayOffset = dow === 0 ? -6 : 1 - dow;
+  cursor.setDate(cursor.getDate() + mondayOffset);
+
+  // Walk week by week until we pass END
+  while (cursor <= END) {
+    html += "<tr>";
+    for (let i = 0; i < 7; i++) {
+      const cellDate = new Date(cursor);
+      cellDate.setDate(cursor.getDate() + i);
+      const k = key(cellDate);
+      const inRange = cellDate >= START && cellDate <= END;
+      const isToday = key(TODAY) === k;
+
+      let cls = [];
+      let tagHtml = "";
+
+      if (!inRange) {
+        cls.push("empty");
+      } else {
+        const weekday = cellDate.getDay(); // 1=Mon, 4=Thu
+        const isClassDay = (weekday === 1 || weekday === 4)
+                           && !noclassdays.has(k)
+                           && k <= LAST_CLASS_DAY;
+
+        if (noclassdays.has(k)) {
+          cls.push("noclass");
+          tagHtml = '<span class="tag">No class</span>';
+        } else if (deadlines.has(k)) {
+          cls.push("deadline");
+          tagHtml = '<span class="tag">Deadline</span>';
+        } else if (quizzes.has(k) && isClassDay) {
+          cls.push("quiz");
+          tagHtml = '<span class="tag">Quiz</span>';
+        } else if (isClassDay) {
+          cls.push("class");
+          tagHtml = '<span class="tag">Class</span>';
+        }
+
+        if (isToday) cls.push("today");
+      }
+
+      if (cls.length) cls = cls.join(" ");
+
+      const num = inRange ? '<span class="day-num">' + cellDate.getDate() + '\u00A0' + monthAbbr[cellDate.getMonth()] + '</span>' : '';
+
+      html += '<td class="' + cls + '">' + num + tagHtml + "</td>";
+    }
+    html += "</tr>";
+    cursor.setDate(cursor.getDate() + 7);
+  }
+
+  html += "</tbody>";
+  table.innerHTML = html;
+})();
+</script>
