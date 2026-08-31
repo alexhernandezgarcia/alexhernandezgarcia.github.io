@@ -1367,7 +1367,7 @@ Jain et al. [GFlowNets for AI-Driven Scientific Discovery](https://pubs.rsc.org/
 
 ## GFlowNet Python package
 
-Open sourced GFlowNet package, together with Mila collaborators: Nikita Saxena, Alexandra Volokhova, Michał Koziarski, Divya Sharma, Pierre Luc Carrier, Victor Schmidt, Joseph Viviano, Jama Hussein, Pedro Ferraz, Tim Arni...
+Open sourced GFlowNet package, together with Mila collaborators: Nikita Saxena, Alexandra Volokhova, Michał Koziarski, Divya Sharma, Pierre Luc Carrier, Victor Schmidt, Joseph Viviano, Jama Hussein, Pedro Ferraz, Dionessa Biton, Tim Arni...
 
 .highlight2[Open source GFlowNet implementation]: [github.com/alexhernandezgarcia/gflownet](https://github.com/alexhernandezgarcia/gflownet)
 
