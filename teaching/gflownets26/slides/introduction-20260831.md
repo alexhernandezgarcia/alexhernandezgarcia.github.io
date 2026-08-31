@@ -103,6 +103,26 @@ Vote on [www.menti.com](https://www.menti.com) using the code **8239 4675** or c
 
 ---
 
+## Practical information
+
+* .highlight1[Important announcements]: [StudiUM](https://studium.umontreal.ca/course/view.php?id=332667)
+* .highlight1[Course website and up to date materials]: [alexhernandezgarcia.com/gflownets](https://alexhernandezgarcia.com/teaching/gflownets26/)
+* .highlight1[Communication with the instructor]:
+    - By email: [alejandro.hernandez.garcia@umontreal.ca](mailto:alejandro.hernandez.garcia@umontreal.ca)
+    - No communication about the course on Mila's Slack please
+    - **Important**: include `[GFlowNet course]` in the email subject. For example: [GFlowNet course] Doubts about last quiz
+* .highlight1[Room for the sessions and Zoom link]: on StudiUM or provided directly by the instructor.
+
+--
+
+Additional communication channels:
+
+- StudiUM?
+- Discord?
+- Piazza?
+
+---
+
 ## Course structure
 
 This is a seminar course consisting of three main blocks:
@@ -211,6 +231,10 @@ In particular, by taking this course you are expected to be familiar with:
     - Evaluation based on a 1-2 pages report, which may be reused for the project paper too.
     - Basic literature provided in the [bibliography](https://alexhernandezgarcia.com/teaching/gflownets26/bibliography)
 
+???
+
+There may be optional coding assignments to gain extra points.
+
 ---
 
 ## Policy about the use of AI agents and chatbots
@@ -261,26 +285,6 @@ count: false
 ???
 
 - Breaks?
-
----
-
-## Practical information
-
-* .highlight1[Important announcements]: [StudiUM](https://studium.umontreal.ca/course/view.php?id=332667)
-* .highlight1[Course website and up to date materials]: [alexhernandezgarcia.com/gflownets](https://alexhernandezgarcia.com/teaching/gflownets26/)
-* .highlight1[Communication with the instructor]: 
-    - By email: [alejandro.hernandez.garcia@umontreal.ca](mailto:alejandro.hernandez.garcia@umontreal.ca)
-    - No communication about the course on Mila's Slack please
-    - **Important**: include `[GFlowNet course]` in the email subject. For example: [GFlowNet course] Doubts about last quiz
-* .highlight1[Room for the sessions and Zoom link]: on StudiUM or provided directly by the instructor.
-
---
-
-Additional communication channels:
-
-- StudiUM?
-- Discord?
-- Piazza?
 
 ---
 
