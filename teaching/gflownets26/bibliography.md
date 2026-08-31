@@ -1,0 +1,15 @@
+---
+layout: teaching
+navigation: navigation_gflownets26
+title : "GFlowNets: Sampling as sequential decision making" 
+subtitle : "Bibliography" 
+---
+
+This page is designed to contain a bibliography collection of scientific literature related to GFlowNets. The page is still work in progress though, so the current content is likely to miss important references and is not well organised yet. If you have suggestions to add to the list, please do get in touch.
+
+---
+
+{% assign gfn-papers = site.data.gfn-bibliography | sort: 'year' %}
+{% for item in gfn-papers %}
+  {% include publication-item-bib.html %}
+{% endfor %}
