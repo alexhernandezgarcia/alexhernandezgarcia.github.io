@@ -3,7 +3,6 @@ layout : teaching
 navigation: navigation_gflownets25
 title : Probabilistic inference with GFlowNets - IFT 6760B A25
 redirect_from :
-  - /gflownets
   - /gflownets25
   - /ift6760a25.html
   - /ift6760a25
