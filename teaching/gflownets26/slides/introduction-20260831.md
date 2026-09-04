@@ -4,7 +4,7 @@ title: IFT 6760B A26 - Introduction
 ---
 
 name: introduction-20260831
-class: title, middle
+class: title, middle, hide-slide-number
 
 ## GFlowNets: Sampling as sequential decision making
 ### IFT 6760B A26
