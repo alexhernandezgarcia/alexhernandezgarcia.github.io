@@ -112,7 +112,10 @@ This page currently shows a basic version of the course calendar. The calendar w
     background: var(--class-bg);
     border-left: 3px solid var(--class-border);
   }
+  /* Class tag */
   td.class .tag { background: var(--class-border); color: var(--tag-text); }
+  /* Quiz tag */
+  td.class .tag.tag-quiz { background: var(--quiz-border); color: var(--tag-text); }
 
   /* No class / no class */
   td.noclass {
@@ -132,13 +135,6 @@ This page currently shows a basic version of the course calendar. The calendar w
     pointer-events: none;
   }
   td.noclass .tag { background: var(--noclass-text); color: var(--tag-text); }
-
-  /* Quiz day */
-  td.quiz {
-    background: var(--quiz-bg);
-    border-left: 3px solid var(--quiz-border);
-  }
-  td.quiz .tag { background: var(--quiz-border); color: var(--tag-text); }
 
   /* Deadline */
   td.deadline {
@@ -187,6 +183,7 @@ This page currently shows a basic version of the course calendar. The calendar w
   <div class="legend">
     <div class="legend-item"><span class="swatch class"></span> Class day</div>
     <div class="legend-item"><span class="swatch noclass"></span> No class</div>
+    <div class="legend-item"><span class="swatch quiz"></span> Quiz</div>
   </div>
 </div>
 
@@ -202,7 +199,7 @@ This page currently shows a basic version of the course calendar. The calendar w
 
   // Quiz dates (must be on class days). Format: YYYY-MM-DD
   // CHANGE THESE to your actual quiz dates.
-  const QUIZ_DATES = [];
+  const QUIZ_DATES = ["2026-09-10", "2026-09-17", "2026-09-24", "2026-10-01"];
 
   // Final deadline date(s). Format: YYYY-MM-DD
   const DEADLINES = [];
@@ -262,12 +259,12 @@ This page currently shows a basic version of the course calendar. The calendar w
         } else if (deadlines.has(k)) {
           cls.push("deadline");
           tagHtml = '<span class="tag">Deadline</span>';
-        } else if (quizzes.has(k) && isClassDay) {
-          cls.push("quiz");
-          tagHtml = '<span class="tag">Quiz</span>';
         } else if (isClassDay) {
           cls.push("class");
           tagHtml = '<span class="tag">Class</span>';
+          if (quizzes.has(k)) {
+            tagHtml += ' <span class="tag tag-quiz">Quiz</span>';
+          }
         }
 
         if (isToday) cls.push("today");
