@@ -91,7 +91,7 @@ Experiments with a hyper-grid in 4D and length 8 ($8^4 = 4096$ states and sample
 ## Results
 ### Molecules
 
-Experiments with a fragment-based molecular generation task, with a sample space of $10^16$ and between 100 and 2000 actions from each state. The reward $R(x)^{\beta}$ is the binding energy of the molecule with with a target protein.
+Experiments with a fragment-based molecular generation task, with a sample space of $10^{16}$ and between 100 and 2000 actions from each state. The reward $R(x)^{\beta}$ is the binding energy of the molecule with with a target protein.
 
 .center[![:scale 80%](../../../assets/images/teaching/gflownets/gfn-intro/molecules_fragments.png)]
 
