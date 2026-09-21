@@ -13,5 +13,6 @@ subtitle : "Slides"
     - Most of this session is done on the whiteboard and is not reflected in the slides.
 5. [Implementation - September 17th, 2026](gflownets-implementation-20260917)
     - Most of this session is live coding and is not reflected in the slides.
-6. Consolidation of GFlowNet theory - September 21nd, 2026
+6. [Consolidation of GFlowNet theory - September 21st, 2026](gflownets-consolidation-20260921)
+    - Most of this session is done on the whiteboard and is not reflected in the slides.
 7. Continuous GFlowNets - September 24th, 2026
