@@ -1167,6 +1167,14 @@ Jain et al. [GFlowNets for AI-Driven Scientific Discovery](https://pubs.rsc.org/
 .columns-3-center[<br><br><br>.center[![:scale 90%](../assets/images/slides/dna/dna_helix.png)]]
 .columns-3-right[.center[![:scale 110%](../assets/images/slides/scientific-discovery/loop_4_mf.png)]]
 
+.references[
+.smaller[
+- Therrien et al. [OBELiX: A curated dataset of crystal structures and experimentally measured ionic conductivities for lithium solid-state electrolytes](https://arxiv.org/abs/2502.14234), Digital Discovery, 2026.
+- Shaaban Kabakibo et al. [A comparative study of molecular dynamics approaches for simulating ionic conductivity in solid lithium electrolytes](https://arxiv.org/abs/2603.28012), AI4Mat, ICML 2026.
+- Kim et al. [Synthesizable Molecular Generation via Soft-constrained GFlowNets with Rich Chemical Priors](https://arxiv.org/abs/2602.04119), ICML, 2026.
+- Podina and Humer et al. [Catalyst GFlowNet for electrocatalyst design: A hydrogen evolution reaction case study](https://arxiv.org/abs/2510.02142). AI4Mat, NeurIPS 2025.
+]]
+
 ---
 
 ## Summary and discussion
