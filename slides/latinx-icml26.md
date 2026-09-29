@@ -2077,3 +2077,10 @@ GFlowNet library: [github.com/alexhernandezgarcia/gflownet](https://github.com/a
 
 Active learning library: [github.com/milaforscience/activelearning](https://github.com/milaforscience/activelearning)
 ]]
+
+<!--
+
+Abstract
+
+Science plays a fundamental role in tackling some of the most pressing challenges for humanity, such as the climate crisis, the threat of pandemics and antibiotic resistance. Meanwhile, the increasing capacity to generate large amounts of data, the progress in computer engineering and the maturity of machine learning methods offer an excellent opportunity to assist scientific progress. In this talk, I will offer an overview of our recent work on generative modelling and active learning for scientific discoveries. First, I will introduce how GFlowNets is suitable generative model for scientific applications. Then, I will explain how we have adapted this method to incorporate domain knowledge from crystallography, physics and chemistry in the form of hard constraints, to efficiently explore the space of materials and molecules with desirable properties. Finally, I will present our algorithm for multi-fidelity active learning with GFlowNets, designed to efficiently explore combinatorially large, high-dimensional and mixed spaces (discrete and continuous), inspired by challenges in materials and drug discovery.
+-->

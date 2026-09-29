@@ -3,7 +3,7 @@ layout: slides_parrot
 title: IFT 6760B A26 - Active learning with GFlowNets
 ---
 
-name: paper-presentations-20251027
+name: info-assignments-20260928
 class: title, middle
 
 ## GFlowNets: Sampling as sequential decision making
