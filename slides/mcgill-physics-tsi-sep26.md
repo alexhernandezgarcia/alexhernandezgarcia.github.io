@@ -55,7 +55,7 @@ Slides: [alexhernandezgarcia.com/slides/{{ name }}](https://alexhernandezgarcia.
 <br><br><br>
 <figure>
 	<img src="../assets/images/slides/anti-ai/anti_ai_protest.gif" alt="All-out protest against AI in Montreal, September 2026" style="width: 110%">
-  <figcaption>_ALL OUT_ protest against AI in Montreal, September 2026</figcaption>
+  <figcaption>ALL OUT protest against AI in Montreal, September 2026</figcaption>
 </figure>
 ]]
 
@@ -96,6 +96,21 @@ class: title, middle
 ## The carbon emissions of AI
 
 .center[![:scale 30%](../assets/images/slides/ai-env-impact/server.jpg)]
+
+---
+
+count: false
+name: title
+class: title, middle
+
+## The carbon emissions of "AI"
+### _But what is "AI", actually?_
+
+.center[![:scale 30%](../assets/images/slides/ai-env-impact/server.jpg)]
+
+--
+
+.conclusion["Artificial intelligence" and "AI" are currently a marketing terms. I usually prefer "machine learning" to talk about my research. In this talk, I will stick to "AI" to talk about a broad range of technologies that many people call "AI".]
 
 ---
 
@@ -178,7 +193,7 @@ We can see the backbone of AI models as computer programs that transform input d
 
 --
 
-It is _literally_ exponential growth: If this was the growth of a financial investment of 100,000 dollars, in 5 years it would become more than 100 millions!
+This is _literally_ exponential growth: If this was the growth of a financial investment of 100,000 dollars, in 5 years it would become more than 100 millions!
 
 ---
 
@@ -256,7 +271,7 @@ $$C = 24~\text{hours} \times 0.2~\text{kW}~ \times 63~\text{g CO2eq / kWh} = 302
 
 --
 
-If the same model was trained with energy from coal, it could consume about 100 times more, that is the equivalent to driving 100 km.
+If the same model was trained with energy from coal, it could emit about 100 times more, that is the equivalent to driving 100 km.
 
 ---
 
@@ -340,7 +355,7 @@ The carbon intensity depends on the energy grid and the electric power is simila
 
 --
 
-.conclusion[We found very large differences in training time across models and thus in the CO2eq emissions.]
+.conclusion-float[We found very large differences in training time across models and thus in the CO2eq emissions.]
 
 ???
 
@@ -572,7 +587,7 @@ Coignion, Quinton, Rouvoy. [Green My LLM: Studying the key factors affecting the
 ---
 
 count: true
-exclude: false
+exclude: true
 
 ## On the conscious use of AI
 
@@ -593,14 +608,14 @@ There is a large body of research studying the negative social impacts of AI:
 .left-column[
 - Centralisation of power and increase of inequality
 - Exploitative working conditions
-- Adoption for autonomous weapons and warfare
-- Spread of mis/disinformation
+- Autonomous weapons and warfare
 ]
 
 .right-column[
 - Discrimination of racialised people
 - Propagation of discriminatory biases
 - Infringement of creators rights
+- Spread of mis/disinformation
 ]
 
 --
@@ -623,35 +638,6 @@ There is a large body of research studying the negative social impacts of AI:
 
 ---
 
-## Beyond environmental impact
-
-.left-column[
-<figure>
-	<img src="../assets/images/slides/ai-military/lavender.png" alt="‘Lavender’: The AI machine directing Israel’s bombing spree in Gaza" style="width: 110%">
-  <figcaption>.center[.smaller[<a href="https://www.972mag.com/lavender-ai-israeli-army-gaza/">+972 Magazine</a>, April 3rd 2024]]</figcaption>
-</figure>
-<figure>
-	<img src="../assets/images/slides/ai-military/habsora.png" alt="‘A mass assassination factory’: Inside Israel’s calculated bombing of Gaza" style="width: 110%">
-  <figcaption>.center[.smaller[<a href="https://www.972mag.com/mass-assassination-factory-israel-calculated-bombing-gaza/">+972 Magazine</a>, November 30th 2023]]</figcaption>
-</figure>
-<figure>
-	<img src="../assets/images/slides/ai-military/google_lockheed_martin.png" alt="Lockheed Martin and Google Cloud Collaborate to Advance Generative AI for National Security" style="width: 110%">
-  <figcaption>.center[.smaller[<a href="https://www.lockheedmartin.com/en-us/news/features/2025/lockheed-martin-google-collaborate-to-advance-generative-ai-national-security.html">Lockheed Martin</a>, March 27th 2025]]</figcaption>
-</figure>
-]
-.right-column[
-<figure>
-	<img src="../assets/images/slides/ai-military/nimbus_wired.png" alt="The Hidden Ties Between Google and Amazon’s Project Nimbus and Israel's Military" style="width: 110%">
-  <figcaption>.center[.smaller[<a href="https://www.wired.com/story/amazon-google-project-nimbus-israel-idf/">WIRED</a>, July 15th 2024]]</figcaption>
-</figure>
-<figure>
-	<img src="../assets/images/slides/ai-military/microsoft_dalle_us_army.png" alt="Microsft pitched OpenAI's DALL-E as battlefield tool for U.S. military" style="width: 110%">
-  <figcaption>.center[.smaller[<a href="https://theintercept.com/2024/04/10/microsoft-openai-dalle-ai-military-use/">The Intercept</a>, April 10th 2024]]</figcaption>
-</figure>
-]
-
----
-
 ## The role of big tech
 
 .center[![:scale 60%](../assets/images/slides/irresponsible-ai/summary.png)]
@@ -666,11 +652,40 @@ Hernandez-Garcia, Volokhova, Williams, Shaaban Kabakibo, Teng. [Irresponsible AI
 
 ---
 
+.left-column[
+.center[
+<figure>
+	<img src="../assets/images/slides/anti-ai/anti_ai_graffiti.gif" alt="Anti-AI graffiti in Montréal" style="width: 90%">
+</figure>
+<figure>
+	<img src="../assets/images/slides/anti-ai/anti_ai_posters.gif" alt="Anti-AI posters in Montréal" style="width: 50%">
+</figure>
+]]
+.right-column[
+.center[
+<br><br><br>
+<figure>
+	<img src="../assets/images/slides/anti-ai/anti_ai_protest.gif" alt="All-out protest against AI in Montreal, September 2026" style="width: 110%">
+</figure>
+]]
+
+---
+
 count: false
 name: title
 class: title, middle
 
-## Opportunities for AI in sustainability
+## So, why do you do "AI" research at all?
+
+.center[![:scale 30%](../assets/images/slides/climatechange/demo.jpg)]
+
+---
+
+count: false
+name: title
+class: title, middle
+
+## Opportunities for "AI" in sustainability
 
 .center[![:scale 30%](../assets/images/slides/climatechange/demo.jpg)]
 
@@ -725,156 +740,6 @@ class: title, middle
 ### "Artificial intelligence" for scientific discoveries
 
 .center[![:scale 30%](../assets/images/slides/scientific-discovery/laboratory.png)]
-
----
-
-## Traditional discovery cycle
-
-.context35[Current ecological and health challenges demand accelerating scientific discoveries.]
-
---
-
-.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/gray/loop_1.png)]]
-
-.left-column-33[
-<br>
-The traditional scientific discovery cycle is:
-* .highlight1[time-consuming], 
-* .highlight1[financially and computationally expensive], and
-* typically .highlight1[limited to a fraction of the candidate space].
-]
-
-.footnote[Oracle: any method used to validate a query, such as experimental measurements, simulations, etc.]
-
----
-
-count: false
-
-## _Active_ machine learning
-
-.context35[The traditional scientific discovery loop is too slow for certain applications.]
-
-.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/gray/loop_2.png)]]
-
-.left-column-33[
-<br>
-A .highlight1[machine learning model] can be:
-* trained with data from _real-world_ experiments and
-]
-
-.footnote[This ML model is _predictive_ or _discriminative_: classification or regression.]
-
----
-
-count: false
-
-## _Active_ machine learning
-
-.context35[The traditional scientific discovery loop is too slow for certain applications.]
-
-.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/gray/loop_3.png)]]
-
-.left-column-33[
-<br>
-A .highlight1[machine learning model] can be:
-* trained with data from _real-world_ experiments and
-* used to quickly and cheaply evaluate queries
-]
-
-.footnote[This ML model is _predictive_ or _discriminative_: classification or regression.]
-
----
-
-count: false
-
-## _Active_ machine learning
-
-.context35[The traditional scientific discovery loop is too slow for certain applications.]
-
-.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/gray/loop_3.png)]]
-
-.left-column-33[
-<br>
-A .highlight1[machine learning model] can be:
-* trained with data from _real-world_ experiments and
-* used to quickly and cheaply evaluate queries
-
-.conclusion-float[There are infinitely many conceivable materials and combinatorially many molecules. Are predictive models enough?]
-]
-
-.footnote[This ML model is _predictive_ or _discriminative_: classification or regression.]
-
----
-
-count: false
-
-## Active and _generative_ machine learning
-
-.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/gray/loop_4.png)]]
-
-.left-column-33[
-.highlight1[Generative machine learning] can:
-* .highlight1[learn patterns] from the available data,
-* .highlight1[generalise] to unexplored regions of the search space and
-* .highlight1[build better queries]
-]
-
-.footnote[Generative models learn to propose or generate new candidates.]
-
---
-
-.left-column-33[
-.conclusion-float[Active learning with generative machine learning can in theory more efficiently explore the candidate space.]
-]
-
----
-
-count: false
-
-## Active and _generative_ machine learning
-
-.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/gray/loop_4.png)]]
-
-.left-column-33[
-.highlight1[Generative machine learning] can:
-* .highlight1[learn patterns] from the available data,
-* .highlight1[generalise] to unexplored regions of the search space and
-* .highlight1[build better queries]
-]
-
-.footnote[Generative models learn to propose or generate new candidates.]
-
-.left-column-33[
-.conclusion-float[However, should we rely solely on our best but very expensive _oracle_?]
-]
-
----
-
-## _Multi-fidelity_ active learning with generative modelling
-
-.right-column-66[<br>.center[![:scale 90%](../assets/images/slides/scientific-discovery/loop_4_mf.png)]]
-
-.left-column-33[
-<br>
-.highlight1[Multi-fidelity active learning] can:
-* leverage the availability of .highlight1[multiple oracles] with different .highlight1[costs and fidelity]
-* efficiently use the right level of accuracy needed for each query
-
-.conclusion-float[Multi-fidelity active learning can leverage the diversity of methods available in science.]
-]
-
-.references[Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). TMLR, 2024]
-
----
-
-count: false
-name: title
-class: title, middle
-
-### The challenges of scientific discoveries
-
-.center[![:scale 15%](../assets/images/slides/materials/lithium_oxide_crystal.png)]
-.center[![:scale 30%](../assets/images/slides/dna/dna_helix.png)]
 
 ---
 
@@ -1132,32 +997,175 @@ CC(=O)NCCc1c[nH]c2ccc(OC)cc12`
 
 ---
 
-## To know more
+## Traditional discovery cycle
 
-.columns-4[.center[
-<figure>
-	<img src="../assets/images/slides/science-as-critical-thinking/ways_of_being.jpg" alt="Ways of being, James Bridle (2022)" style="width: 95%">
-  <figcaption>.smaller[[Ways of being, James Bridle (2022)](https://en.wikipedia.org/wiki/Ways_of_Being)]</figcaption>
-</figure>
-]]
-.columns-4[.center[
-<figure>
-	<img src="../assets/images/slides/science-as-critical-thinking/science_as_social_knowledge.gif" alt="Science as Social Knowledge, Helen Longino (1990)" style="width: 95%">
-  <figcaption>.smaller[[Science as Social Knowledge, Helen Longino (1990)](https://www.jstor.org/stable/j.ctvx5wbfz)]</figcaption>
-</figure>
-]]
-.columns-4[.center[
-<figure>
-	<img src="../assets/images/slides/science-as-critical-thinking/atlas_of_ai.jpg" alt="Atlas of AI, Kate Crawford (2021)" style="width: 95%">
-  <figcaption>.smaller[[Atlas of AI, Kate Crawford (2021)](https://en.wikipedia.org/wiki/Atlas_of_AI)]</figcaption>
-</figure>
-]]
-.columns-4[.center[
-<figure>
-	<img src="../assets/images/slides/ai-env-impact/insolvent.jpg" alt="Insolvent, Christoph Becker (2023)" style="width: 95%">
-  <figcaption>.smaller[[Insolvent, Christoph Becker (2023)](https://direct.mit.edu/books/oa-monograph/5594/InsolventHow-to-Reorient-Computing-for-Just)]</figcaption>
-</figure>
-]]
+.context35[Current ecological and health challenges demand accelerating scientific discoveries.]
+
+--
+
+.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/gray/loop_1.png)]]
+
+.left-column-33[
+<br>
+The traditional scientific discovery cycle is:
+* .highlight1[time-consuming], 
+* .highlight1[financially and computationally expensive], and
+* typically .highlight1[limited to a fraction of the candidate space].
+]
+
+.footnote[Oracle: any method used to validate a query, such as experimental measurements, simulations, etc.]
+
+---
+
+count: false
+
+## _Active_ machine learning
+
+.context35[The traditional scientific discovery loop is too slow for certain applications.]
+
+.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/gray/loop_2.png)]]
+
+.left-column-33[
+<br>
+A .highlight1[machine learning model] can be:
+* trained with data from _real-world_ experiments and
+]
+
+.footnote[This ML model is _predictive_ or _discriminative_: classification or regression.]
+
+---
+
+count: false
+
+## _Active_ machine learning
+
+.context35[The traditional scientific discovery loop is too slow for certain applications.]
+
+.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/gray/loop_3.png)]]
+
+.left-column-33[
+<br>
+A .highlight1[machine learning model] can be:
+* trained with data from _real-world_ experiments and
+* used to quickly and cheaply evaluate queries
+]
+
+.footnote[This ML model is _predictive_ or _discriminative_: classification or regression.]
+
+---
+
+count: false
+
+## _Active_ machine learning
+
+.context35[The traditional scientific discovery loop is too slow for certain applications.]
+
+.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/gray/loop_3.png)]]
+
+.left-column-33[
+<br>
+A .highlight1[machine learning model] can be:
+* trained with data from _real-world_ experiments and
+* used to quickly and cheaply evaluate queries
+
+.conclusion-float[There are infinitely many conceivable materials and combinatorially many molecules. Are predictive models enough?]
+]
+
+.footnote[This ML model is _predictive_ or _discriminative_: classification or regression.]
+
+---
+
+count: false
+
+## Active and _generative_ machine learning
+
+.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/gray/loop_4.png)]]
+
+.left-column-33[
+.highlight1[Generative machine learning] can:
+* .highlight1[learn patterns] from the available data,
+* .highlight1[generalise] to unexplored regions of the search space and
+* .highlight1[build better queries]
+]
+
+.footnote[Generative models learn to propose or generate new candidates.]
+
+--
+
+.left-column-33[
+.conclusion-float[Active learning with generative machine learning can in theory more efficiently explore the candidate space.]
+]
+
+---
+
+count: false
+
+## Active and _generative_ machine learning
+
+.right-column-66[<br>.center[![:scale 80%](../assets/images/slides/scientific-discovery/gray/loop_4.png)]]
+
+.left-column-33[
+.highlight1[Generative machine learning] can:
+* .highlight1[learn patterns] from the available data,
+* .highlight1[generalise] to unexplored regions of the search space and
+* .highlight1[build better queries]
+]
+
+.footnote[Generative models learn to propose or generate new candidates.]
+
+.left-column-33[
+.conclusion-float[However, should we rely solely on our best but very expensive _oracle_?]
+]
+
+---
+
+## _Multi-fidelity_ active learning with generative modelling
+
+.right-column-66[<br>.center[![:scale 90%](../assets/images/slides/scientific-discovery/loop_4_mf.png)]]
+
+.left-column-33[
+<br>
+.highlight1[Multi-fidelity active learning] can:
+* leverage the availability of .highlight1[multiple oracles] with different .highlight1[costs and fidelity]
+* efficiently use the right level of accuracy needed for each query
+
+.conclusion-float[Multi-fidelity active learning can leverage the diversity of methods available in science.]
+]
+
+.references[Hernandez-Garcia, Saxena et al. [Multi-fidelity active learning with GFlowNets](https://arxiv.org/abs/2306.11715). TMLR, 2024]
+
+---
+
+## GFlowNets
+### Generating materials and molecules piece by piece
+
+A generative model based on reinforcement learning, capable of exploring large search spaces to find diverse, new candidates with desirable properties and constraints.
+
+.references[
+Jain et al. [GFlowNets for AI-Driven Scientific Discovery](https://pubs.rsc.org/en/content/articlelanding/2023/dd/d3dd00002h). Digital Discovery, Royal Society of Chemistry, 2023.
+]
+
+--
+
+.left-column[
+.center[![:scale 70%](../assets/images/slides/tetris/flows.png)]
+]
+
+--
+
+.right-column[![:scale 100%](../assets/images/slides/drugs/gfn_molecules.png)]
+
+---
+
+## What do we use these methods for?
+
+* Discovering new materials for **solid-state electrolyte batteries**. 
+* Designing new **electrocatalysts for renewable energy storage**.
+* Discovering novel **antibiotics** through a lab-in-the-loop approach.
+
+.columns-3-left[.center[![:scale 70%](../assets/images/slides/materials/lithium_oxide_crystal.png)]]
+.columns-3-center[<br><br><br>.center[![:scale 90%](../assets/images/slides/dna/dna_helix.png)]]
+.columns-3-right[.center[![:scale 110%](../assets/images/slides/scientific-discovery/loop_4_mf.png)]]
 
 ---
 
@@ -1167,7 +1175,7 @@ CC(=O)NCCc1c[nH]c2ccc(OC)cc12`
     - But small-scale machine learning models do exist.
 - AI is responsible for other severe environmental impacts such as water withdrawal and materials usage.
 - There is a wide range of ethical and social impacts of AI beyond its environmental footprint.
-- Machine learning may play a role in the mitigation of and adaption to the climate crisis, but it is important to critically examine this role.
+- Small-scale machine learning can be used to facilitate scientific discoveries, for example to design new battery materials and discovery new antibiotics.
 
 <br><br>
 
@@ -1176,6 +1184,53 @@ CC(=O)NCCc1c[nH]c2ccc(OC)cc12`
 - Small AI instead of scaling and general purpose _AGI_? Digital degrowth?
 - What is the role of AI in sustainability?
 - What is our implication on the AI impacts as users, developers, scientists, policy-makers...?
+
+---
+
+## To know more
+
+.columns-5[.center[
+<figure>
+	<img src="../assets/images/slides/science-as-critical-thinking/braiding_sweetgrass.jpg" alt="Braiding Sweetgrass, Robin W. Kimmerer (2013)" style="width: 95%">
+  <figcaption>.smaller[[Braiding Sweetgrass, Robin W. Kimmerer (2013)](https://en.wikipedia.org/wiki/Braiding_Sweetgrass)]</figcaption>
+</figure>
+]]
+
+--
+
+.columns-5[.center[
+<figure>
+	<img src="../assets/images/slides/science-as-critical-thinking/resisting_ai.jpg" alt="Resisting AI, Dan McQuillan (2022)" style="width: 95%">
+  <figcaption>.smaller[[Resisting AI, Dan McQuillan (2022)](https://en.wikipedia.org/wiki/Resisting_AI)]</figcaption>
+</figure>
+]]
+
+--
+
+.columns-5[.center[
+<figure>
+	<img src="../assets/images/slides/science-as-critical-thinking/atlas_of_ai.jpg" alt="Atlas of AI, Kate Crawford (2021)" style="width: 95%">
+  <figcaption>.smaller[[Atlas of AI, Kate Crawford (2021)](https://en.wikipedia.org/wiki/Atlas_of_AI)]</figcaption>
+</figure>
+]]
+
+--
+
+.columns-5[.center[
+<figure>
+	<img src="../assets/images/slides/ai-env-impact/insolvent.jpg" alt="Insolvent, Christoph Becker (2023)" style="width: 95%">
+  <figcaption>.smaller[[Insolvent, Christoph Becker (2023)](https://direct.mit.edu/books/oa-monograph/5594/InsolventHow-to-Reorient-Computing-for-Just)]</figcaption>
+</figure>
+]]
+
+--
+
+.columns-5[.center[
+<figure>
+	<img src="../assets/images/slides/science-as-critical-thinking/ways_of_being.jpg" alt="Ways of being, James Bridle (2022)" style="width: 95%">
+  <figcaption>.smaller[[Ways of being, James Bridle (2022)](https://en.wikipedia.org/wiki/Ways_of_Being)]</figcaption>
+</figure>
+]]
 
 ---
 
