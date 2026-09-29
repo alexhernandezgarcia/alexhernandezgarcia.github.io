@@ -1203,3 +1203,21 @@ Alex Hernández-García (he/il/él)
 .smaller[.footer[
 Slides: [alexhernandezgarcia.com/slides/{{ name }}](https://alexhernandezgarcia.com/slides/{{ name }})
 ]]
+
+<!--
+
+Abstract
+
+In just a few years, artificial intelligence (AI) has gone from being largely a subject for researchers and science fiction, to making headlines on a regular basis in mainstream media and becoming part of everyday conversation. At the same time, public perceptions of AI have shifted: after the initial excitement and fascination, concerns about its risks and consequences are growing. Meanwhile, the climate crisis remains likely the greatest global challenge of our time, with increasingly noticeable consequences.
+
+Can AI help tackle the climate crisis? Or is AI contributing to making the planet even warmer?
+
+In this talk, I will take a critical look at the role of artificial intelligence in the climate crisis. Starting from these questions, we will explore why the nuances in the answers cannot be ignored. First, I will discuss the threats of massively scaled and overhyped AI, and explain the environmental costs of this technology. I will then turn to discuss examples of small-scale AI that we are using to support sustainability projects and facilitate scientific discoveries. Ultimately, we need to consider what kind of AI we want to have and what we use it for.
+
+Ideas:
+
+- Start with menti questions:
+    - How worried about AI?
+    - How worried about climate change?
+    - Which are you most worried about?
+-->
