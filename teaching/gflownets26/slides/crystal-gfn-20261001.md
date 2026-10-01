@@ -516,7 +516,7 @@ We restrict the sampling space at sampling time:
 - D: Lattice lengths between 10 and 20 angstroms and angles between 75 and 135 degrees.
 ]
 
-.right-column-66[.center[![:scale 95%](../assets/images/slides/crystals/distributions_restricted_sampling.png)]]
+.right-column-66[.center[![:scale 95%](../../../assets/images/slides/crystals/distributions_restricted_sampling.png)]]
 
 ---
 
@@ -546,6 +546,12 @@ Rather than a fixed model, we see Crystal-GFN as a flexible framework that allow
 * Designing electrocatalysts for sustainability purposes.
 
 * Designing crystal structures with potentially high super conductivity.
+
+---
+
+## Crystal-GFN tutorial
+
+.bigger[[Link to Notebook](https://colab.research.google.com/drive/11GMfAqSmVlBhXC1XwteTtuORRs1GU9do?usp=sharing)]
 
 ---
 
