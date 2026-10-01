@@ -17,10 +17,8 @@ subtitle : "Course calendar"
     --class-border: #34a853;
     --noclass-bg: #fdecea;
     --noclass-text: #d93025;
-    --quiz-bg: #d2e3fc;
     --quiz-border: #4285f4;
-    --deadline-bg: #fce8e6;
-    --deadline-border: #d93025;
+    --deadline-orange: #ff9000;
     --today-ring: #ff9800;
     --tag-text: #fff;
     --shadow: rgba(0,0,0,0.08);
@@ -38,10 +36,8 @@ subtitle : "Course calendar"
       --class-border: #4caf50;
       --noclass-bg: #3a1f1f;
       --noclass-text: #ef5350;
-      --quiz-bg: #1e2d4a;
       --quiz-border: #64b5f6;
-      --deadline-bg: #3a1f1f;
-      --deadline-border: #ef5350;
+      --deadline-orange: #ff9000;
       --today-ring: #ffb74d;
       --tag-text: #fff;
       --shadow: rgba(0,0,0,0.3);
@@ -113,6 +109,7 @@ subtitle : "Course calendar"
   /* Class tag */
   td.class .tag { background: var(--class-border); color: var(--tag-text); }
   /* Quiz tag */
+  td.class .tag.tag-deadline { background: var(--deadline-orange); color: var(--tag-text); }
   td.class .tag.tag-quiz { background: var(--quiz-border); color: var(--tag-text); }
 
   /* No class / no class */
@@ -133,13 +130,6 @@ subtitle : "Course calendar"
     pointer-events: none;
   }
   td.noclass .tag { background: var(--noclass-text); color: var(--tag-text); }
-
-  /* Deadline */
-  td.deadline {
-    background: var(--deadline-bg);
-    border-left: 3px solid var(--deadline-border);
-  }
-  td.deadline .tag { background: var(--deadline-border); color: var(--tag-text); }
 
   /* Today indicator */
   td.today::after {
@@ -170,7 +160,7 @@ subtitle : "Course calendar"
   .swatch.class { background: var(--class-bg); }
   .swatch.noclass { background: var(--noclass-bg); }
   .swatch.quiz { background: var(--quiz-border); }
-  .swatch.deadline { background: var(--deadline-bg); border-left: 3px solid var(--deadline-border); }
+  .swatch.deadline { background: var(--deadline-orange); }
 </style>
 
 <div class="calendar-wrap">
@@ -182,6 +172,7 @@ subtitle : "Course calendar"
     <div class="legend-item"><span class="swatch class"></span> Class day</div>
     <div class="legend-item"><span class="swatch noclass"></span> No class</div>
     <div class="legend-item"><span class="swatch quiz"></span> Quiz</div>
+    <div class="legend-item"><span class="swatch deadline"></span> Deadline</div>
   </div>
 </div>
 
@@ -197,10 +188,10 @@ subtitle : "Course calendar"
 
   // Quiz dates (must be on class days). Format: YYYY-MM-DD
   // CHANGE THESE to your actual quiz dates.
-  const QUIZ_DATES = ["2026-09-10", "2026-09-17", "2026-09-24", "2026-10-01"];
+  const QUIZ_DATES = ["2026-09-10", "2026-09-17", "2026-09-24", "2026-10-01", "2026-10-15"];
 
   // Final deadline date(s). Format: YYYY-MM-DD
-  const DEADLINES = [];
+  const DEADLINES = ["2026-10-08"];
 
   // Last day classes occur (classes stop after this date)
   const LAST_CLASS_DAY = "2026-12-09";
@@ -254,15 +245,15 @@ subtitle : "Course calendar"
         if (noclassdays.has(k)) {
           cls.push("noclass");
           tagHtml = '<span class="tag">No class</span>';
-        } else if (deadlines.has(k)) {
-          cls.push("deadline");
-          tagHtml = '<span class="tag">Deadline</span>';
         } else if (isClassDay) {
           cls.push("class");
           tagHtml = '<span class="tag">Class</span>';
           if (quizzes.has(k)) {
             tagHtml += ' <span class="tag tag-quiz">Quiz</span>';
           }
+        }
+        if (deadlines.has(k)) {
+          tagHtml += ' <span class="tag tag-deadline">Deadline</span>';
         }
 
         if (isToday) cls.push("today");
