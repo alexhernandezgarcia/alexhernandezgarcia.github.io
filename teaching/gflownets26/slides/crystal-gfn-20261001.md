@@ -507,27 +507,45 @@ Analysis of 10,000 sampled crystals and the top-100 with lowest formation energy
 
 .context[Crystal-GFN is flexible by design, inspired by the needs of domain experts.]
 
+.left-column-33[
 We restrict the sampling space at sampling time:
 
-- A: The composition is restricted to only elements Fe and O, with a maximum of 10 atoms per element.
-- B: We sample in the ternary space for Li-Mn-O, keeping the element count to maximum 16 atoms.
-- C: We restrict the space groups to only cubic lattices.
-- D: We restrict the range of the lattice parameters to lengths between 10 and 20 angstroms and angles between 75 and 135 degrees.
+- A: Composition restricted to Fe and O, with a maximum of 10 atoms per element.
+- B: Ternary space Li-Mn-O, with maximum 16 atoms.
+- C: Only cubic lattices.
+- D: Lattice lengths between 10 and 20 angstroms and angles between 75 and 135 degrees.
+]
+
+.right-column-66[.center[![:scale 95%](../assets/images/slides/crystals/distributions_restricted_sampling.png)]]
 
 ---
 
-## Results
-### Restricted sampling
+## Crystal-GFN: Extensions and variations
 
-.center[![:scale 70%](../../../assets/images/slides/crystals/distributions_restricted_sampling.png)]
+Rather than a fixed model, we see Crystal-GFN as a flexible framework that allows for multiple extensions and variations:
+- The reward can be any property of interest: formation energy, band gap, energy above hull, ionic conductivity, adsorption energy...
+- The parameters that define a crystal can be changed, swapped, extended...:
+    - Space group 🡢 Composition 🡢 Lattice parameters
+    - Composition 🡢 Space group 🡢 Lattice parameters
+    - Composition 🡢 Space group
+    - Composition 🡢 Space group 🡢 Wyckoff positions
+    - Composition 🡢 Space group 🡢 Wyckoff positions 🡢 Atomic positions
+- Crystal-GFN can precede the generation of a catalyst surface: Catalyst GFlowNet .cite[(Podina et al., 2025)]
+
+.references[
+* Mila AI4Science et al. [Crystal-GFN: sampling crystals with desirable properties and constraints](https://arxiv.org/abs/2310.04925). AI4Mat, NeurIPS 2023 (spotlight)
+* Podina and Humer et al. [Catalyst GFlowNet for electrocatalyst design: A hydrogen evolution reaction case study](https://arxiv.org/abs/2510.02142). AI4Mat, NeurIPS 2025.
+]
 
 ---
 
 ## Ongoing applications
 
-* Discovering novel for solid-state electrolytes with high ionic conductivity for battery materials. 
+* Discovering novel crystals for solid-state electrolytes with high ionic conductivity for battery materials. 
 
 * Designing electrocatalysts for sustainability purposes.
+
+* Designing crystal structures with potentially high super conductivity.
 
 ---
 
