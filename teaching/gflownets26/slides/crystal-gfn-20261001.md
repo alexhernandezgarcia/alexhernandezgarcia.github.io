@@ -569,7 +569,7 @@ Rather than a fixed model, we see Crystal-GFN as a flexible framework that allow
 * Most methods in the literature struggle to preserve the symmetry properties of the crystals.
 
 * Crystal-GFN introduces .highlight1[physicochemical and structural constraints], reducing the search space.
-    * Crystal-GFN is trained in 12 hours in a CPU-only machine.
+    * Crystal-GFN is trained in about 6 hours in a CPU-only machine.
 
 * Our results show that we can generate .highlight1[diverse, high scoring samples with the desired constraints].
 
