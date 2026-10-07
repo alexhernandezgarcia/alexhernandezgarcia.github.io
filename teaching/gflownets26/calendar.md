@@ -57,6 +57,7 @@ Important deadlines:
 
   table {
     width: 100%;
+    table-layout: fixed;
     border-collapse: collapse;
     background: var(--cal-table-bg);
     border-radius: 10px;
@@ -107,9 +108,15 @@ Important deadlines:
     border-radius: 4px;
     line-height: 1.2;
   }
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
   /* Deadline tag */
   .tag.tag-deadline { background: var(--deadline-orange); color: var(--tag-text); }
-  /* Quiz tags */
+  /* Quiz tag */
   .tag.tag-quiz { background: var(--quiz-border); color: var(--tag-text); }
 
   /* Class day */
@@ -245,11 +252,11 @@ Important deadlines:
           cls.push("class");
           tagHtml = '<span class="tag tag-class">Class</span>';
           if (quizzes.has(k)) {
-            tagHtml += ' <span class="tag tag-quiz">Quiz</span>';
+            tagHtml += '<span class="tag tag-quiz">Quiz</span>';
           }
         }
         if (deadlines.has(k)) {
-          tagHtml += ' <span class="tag tag-deadline">Deadline</span>';
+          tagHtml += '<span class="tag tag-deadline">Deadline</span>';
         }
 
         if (isToday) cls.push("today");
@@ -259,7 +266,8 @@ Important deadlines:
 
       const num = inRange ? '<span class="day-num">' + cellDate.getDate() + '\u00A0' + monthAbbr[cellDate.getMonth()] + '</span>' : '';
 
-      html += '<td class="' + cls + '">' + num + tagHtml + "</td>";
+      html += '<td class="' + cls + '">' + num + (tagHtml ? '<div class="tags">' + tagHtml + '</div>' : '') + "</td>";
+
     }
     html += "</tr>";
     cursor.setDate(cursor.getDate() + 7);
