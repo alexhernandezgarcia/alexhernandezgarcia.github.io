@@ -125,18 +125,6 @@ Important deadlines:
     background: var(--noclass-bg);
     border-left: 3px solid var(--noclass-text);
   }
-  td.noclass .x-mark {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2.2rem;
-    font-weight: 700;
-    color: var(--noclass-text);
-    opacity: 0.55;
-    pointer-events: none;
-  }
   td.noclass .tag { background: var(--noclass-text); color: var(--tag-text); }
 
   /* Today indicator */
