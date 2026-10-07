@@ -5,6 +5,13 @@ title : "GFlowNets: Sampling as sequential decision making"
 subtitle : "Course calendar" 
 ---
 
+Important deadlines:
+
+- Communication of literature review topic: Tuesday, October 13th at 14h
+- Communication of paper presentation topic: Tuesday, October 13th at 14h
+- Communication of project topic: Thursday, October 15th at 14h
+- Submission of literature review summary: Thursday, October 29th at 23h59
+
 <style>
   :root {
     --bg: #fafaf7;
@@ -100,6 +107,10 @@ subtitle : "Course calendar"
     border-radius: 4px;
     line-height: 1.2;
   }
+  /* Deadline tag */
+  .tag.tag-deadline { background: var(--deadline-orange); color: var(--tag-text); }
+  /* Quiz tags */
+  .tag.tag-quiz { background: var(--quiz-border); color: var(--tag-text); }
 
   /* Class day */
   td.class {
@@ -107,10 +118,7 @@ subtitle : "Course calendar"
     border-left: 3px solid var(--class-border);
   }
   /* Class tag */
-  td.class .tag { background: var(--class-border); color: var(--tag-text); }
-  /* Quiz tag */
-  td.class .tag.tag-deadline { background: var(--deadline-orange); color: var(--tag-text); }
-  td.class .tag.tag-quiz { background: var(--quiz-border); color: var(--tag-text); }
+  td.class .tag-class { background: var(--class-border); color: var(--tag-text); }
 
   /* No class / no class */
   td.noclass {
@@ -191,7 +199,7 @@ subtitle : "Course calendar"
   const QUIZ_DATES = ["2026-09-10", "2026-09-17", "2026-09-24", "2026-10-01", "2026-10-15"];
 
   // Final deadline date(s). Format: YYYY-MM-DD
-  const DEADLINES = ["2026-10-08"];
+  const DEADLINES = ["2026-10-13", "2026-10-15", "2026-10-29"];
 
   // Last day classes occur (classes stop after this date)
   const LAST_CLASS_DAY = "2026-12-09";
@@ -247,7 +255,7 @@ subtitle : "Course calendar"
           tagHtml = '<span class="tag">No class</span>';
         } else if (isClassDay) {
           cls.push("class");
-          tagHtml = '<span class="tag">Class</span>';
+          tagHtml = '<span class="tag tag-class">Class</span>';
           if (quizzes.has(k)) {
             tagHtml += ' <span class="tag tag-quiz">Quiz</span>';
           }
