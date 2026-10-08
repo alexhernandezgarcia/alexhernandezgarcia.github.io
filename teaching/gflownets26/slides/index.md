@@ -17,3 +17,4 @@ subtitle : "Slides"
     - Most of this session is done on the whiteboard and is not reflected in the slides.
 7. [Continuous GFlowNets - September 24th, 2026](continuous-gflownets-20260924)
 9. [Crystal-GFN: GFlowNets for materials discovery - October 1st, 2026](crystal-gfn-20261001)
+10. [Active learning with GFlowNets - October 8th, 2026](active-learning-20261008)
