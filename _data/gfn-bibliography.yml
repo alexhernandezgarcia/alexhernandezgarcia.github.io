@@ -301,6 +301,8 @@
       link: https://arxiv.org/abs/2302.05446
     - tag: loss
     - tag: applications
+  notes:
+    - Introduced temperature-conditioned GFlowNets
 
 - title: "GDPO: learning to directly align language models with diversity using GFlowNets"
   authors:
@@ -1033,3 +1035,42 @@
     - tag: paper
       link: https://arxiv.org/abs/2305.07170
     - tag: analysis
+
+- title: "Learning to scale logits for temperature-conditional GFlowNets"
+  authors:
+    - Minsu Kim
+    - Joohwan Ko
+    - Taeyoung Yun
+    - Dinghuai Zhang
+    - Ling Pan
+    - Woochang Kim
+    - Jinkyoo Park
+    - Emmanuel Bengio
+    - Yoshua Bengio
+  year: 2024
+  journal: International Conference on Machine Learning (ICML)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2310.02823
+    - tag: methods
+  notes:
+    - Logit-GFN
+
+- title: "PhyloGFN: Phylogenetic inference with generative flow networks"
+  authors:
+    - Mingyang Zhou
+    - Zichao Yan
+    - Elliot Layne
+    - Esmeralda S. Whitammer
+    - Dinghuai Zhang
+    - Moksh Jain
+    - Mathieu Blanchette
+    - Yoshua Bengio
+  year: 2024
+  journal: International Conference on Learning Representations (ICLR)
+  tags:
+    - tag: paper
+      link: https://arxiv.org/abs/2310.02823
+    - tag: applications
+  notes:
+    - Uses temperature conditioning
