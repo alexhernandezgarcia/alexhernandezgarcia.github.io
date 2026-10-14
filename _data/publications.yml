@@ -1,20 +1,66 @@
-- title: "Synthesizable molecular generation via soft-constrained GFlowNets with rich chemical priors"
+- id: irresponsibleai
+  status: published
+  title: "Position: Irresponsible AI: big tech's influence on AI research and associated impacts"
   authors:
-  - Hyeonah Kim
-  - Minsu Kim
-  - Celine Roget
-  - Dionessa Biton
-  - Louis Vaillancourt
-  - Yves V. Brun
-  - Yoshua Bengio
-  - Alex Hernandez-Garcia
+    - Alex Hernandez-Garcia
+    - Alexandra Volokhova
+    - Ezekiel Williams
+    - Dounia Shaaban Kabakibo
+    - Mélisande Teng
+  venue: International Conference on Machine Learning
+  venue_acronym: ICML
   year: 2026
-  journal: arXiv:2602.04119
+  url: https://arxiv.org/abs/2512.03077
+  arxiv: https://arxiv.org/abs/2512.03077
+  openreview: https://openreview.net/forum?id=QwC3Q1erNe
+  notes: Spotlight and Oral.
   tags:
-    - tag: arXiv
-      link: https://arxiv.org/abs/2602.04119
+    - tag: Spotlight
+    - tag: Oral
 
-- title: "Adsorption energies are necessary but not sufficient to identify good catalysts"
+- id: s3gfn
+  status: published
+  title: "Synthesizable molecular generation via soft-constrained GFlowNets with rich chemical priors"
+  authors:
+    - Hyeonah Kim
+    - Minsu Kim
+    - Celine Roget
+    - Dionessa Biton
+    - Louis Vaillancourt
+    - Yves V. Brun
+    - Yoshua Bengio
+    - Alex Hernandez-Garcia
+  venue: International Conference on Machine Learning
+  venue_acronym: ICML
+  year: 2026
+  url: https://arxiv.org/abs/2602.04119
+  arxiv: https://arxiv.org/abs/2602.04119
+
+- id: obelix
+  status: published
+  title: "OBELiX: A curated dataset of crystal structures and experimentally measured ionic conductivities for lithium solid-state electrolytes"
+  authors:
+    - Félix Therrien
+    - Jamal Abou Haibeh
+    - Divya Sharma
+    - Rhiannon Hendley
+    - Leah Wairimu Mungai
+    - Sun Sun
+    - Alain Tchagang
+    - Jiang Su
+    - Samuel Huberman
+    - Yoshua Bengio
+    - Hongyu Guo
+    - Alex Hernandez-Garcia
+    - Homin Shin
+  venue: Digital Discovery, Royal Society of Chemistry
+  year: 2026
+  url: https://pubs.rsc.org/dd/article/5/2/910/312885/OBELiX-a-curated-dataset-of-crystal-structures-and
+  arxiv: https://arxiv.org/abs/2502.14234
+
+- id: adsorptionenergies
+  status: published
+  title: "Adsorption energies are necessary but not sufficient to identify good catalysts"
   authors:
     - Shahana Chatterjee
     - Alexander Davis
@@ -23,16 +69,17 @@
     - Yoshua Bengio
     - Alexandre Duval
     - Oleksandr Voznyy
-    - Alex Hernandez-Garcia
+    - Alex Hernández-Garcia
     - David Rolnick
     - Félix Therrien
-  year: 2025
-  journal: arXiv:2512.05938
-  tags:
-    - tag: arXiv
-      link: https://arxiv.org/abs/2512.05938
+  venue: ACS Catalysis
+  year: 2026
+  url: https://pubs.acs.org/accacs/article/doi/10.1021/acscatal.6c04297/5327721/Adsorption-Energies-Are-Necessary-but-Not
+  arxiv: https://arxiv.org/abs/2512.05938
 
-- title: "RainShift: A benchmark for precipitation downscaling across geographies"
+- id: rainshift
+  status: published
+  title: "Benchmarking the geographic generalization of deep learning models for precipitation downscaling"
   authors:
     - Paula Harder
     - Luca Schmidt
@@ -42,41 +89,86 @@
     - Christian Lessig
     - Alex Hernandez-Garcia
     - David Rolnick
-  year: 2025
-  journal: arXiv:2507.04930
-  tags:
-    - tag: arXiv
-      link: https://arxiv.org/abs/2507.04930
+  venue: Scientific Reports - Nature
+  year: 2026
+  url: https://www.nature.com/articles/s41598-025-34557-4
+  arxiv: https://arxiv.org/abs/2507.04930
 
-- title: "Torsional-GFN: a conditional conformation generator for small molecules"
+- id: mlipdftbatteries
+  status: workshop
+  title: "A comparative study of molecular dynamics approaches for simulating ionic conductivity in solid lithium electrolytes"
   authors:
-    - Alexandra Volokhova
-    - Léna Néhale Ezzine
-    - Piotr Gaiński
-    - Luca Scimeca
-    - Emmanuel Bengio
-    - Prudencio Tossou
-    - Yoshua Bengio
-    - Alex Hernandez-Garcia
-  year: 2025
-  journal: arXiv:2507.11759
-  tags:
-    - tag: arXiv
-      link: https://arxiv.org/abs/2507.11759
-
-- title: "Irresponsible AI: big tech's influence on AI research and associated impacts"
-  authors:
-    - Alex Hernández-García
-    - Alexandra Volokhova
-    - Ezekiel Williams
     - Dounia Shaaban Kabakibo
-  year: 2025
-  journal: Algorithmic Collective Action Workshop at NeurIPS
-  tags:
-    - tag: OpenReview
-      link: https://openreview.net/forum?id=QwC3Q1erNe
+    - Félix Therrien
+    - Yoshua Bengio
+    - Michel Côté
+    - Hongyu Guo
+    - Homin Shin
+    - Alex Hernandez-Garcia
+  venue: AI for Accelerated Materials Design, Workshop at ICLR
+  year: 2026
+  url: https://arxiv.org/abs/2603.28012
+  arxiv: https://arxiv.org/abs/2603.28012
 
-- title: "LeMat-GenBench: Bridging the gap between crystal generation and materials discovery"
+- id: implicatedscientist
+  status: workshop
+  title: "The implicated scientist: on the role of AI researchers in the development of weapons systems"
+  authors:
+    - Alexandra Volokhova
+    - Alex Hernandez-Garcia
+  venue: AI for Peace, Workshop at ICLR
+  year: 2026
+  url: https://arxiv.org/abs/2604.18380
+  arxiv: https://arxiv.org/abs/2604.18380
+
+- id: gflowstate
+  status: preprint
+  title: "GFlowState: Visualizing the training of generative flow networks beyond the reward"
+  authors:
+    - Florian Holeczek
+    - Andreas Hinterreiter
+    - Alex Hernandez-Garcia
+    - Marc Streit
+    - Christina Humer
+  venue: arXiv preprint
+  year: 2026
+  url: https://arxiv.org/abs/2604.21830
+  arxiv: https://arxiv.org/abs/2604.21830
+
+- id: rainatlas
+  status: preprint
+  title: "RainAtlas: A multi-continental dataset for precipitation downscaling"
+  authors:
+    - Pierre-Louis Lemaire
+    - Luca Schmidt
+    - Wietze Suijker
+    - Alex Hernandez-Garcia
+    - David Rolnick
+  venue: arXiv preprint
+  year: 2026
+  url: https://arxiv.org/abs/2609.39833
+  arxiv: https://arxiv.org/abs/2609.39833
+
+- id: deltacs
+  status: published
+  title: "Improved off-policy reinforcement learning in biological sequence design"
+  authors:
+    - Hyeonah Kim
+    - Minsu Kim
+    - Taeyoung Yun
+    - Sanghyeok Choi
+    - Emmanuel Bengio
+    - Alex Hernandez-Garcia
+    - Jinkyoo Park
+  venue: International Conference on Machine Learning
+  venue_acronym: ICML
+  year: 2025
+  url: https://proceedings.mlr.press/v267/kim25q.html
+  arxiv: https://arxiv.org/abs/2410.04461
+
+- id: lematgenbench
+  status: published
+  title: "LeMat-GenBench: Bridging the gap between crystal generation and materials discovery"
   authors:
     - Alexandre Duval
     - Siddharth Betala
@@ -93,13 +185,33 @@
     - Alex Hernandez-Garcia
     - Rocío Mercado
     - N M Anoop Krishnan
+  venue: npj Computational Materials
   year: 2025
-  journal: AI for Materials Workshop at NeurIPS
-  tags:
-    - tag: OpenReview
-      link: https://openreview.net/forum?id=ZfPGcTfDWn
+  url: https://arxiv.org/abs/2512.04562
+  arxiv: https://arxiv.org/abs/2512.04562
+  code: https://github.com/LeMaterial/lemat-genbench
+  openreview: https://openreview.net/forum?id=ZfPGcTfDWn
 
-- title: "Catalyst GFlowNet for electrocatalyst design: A hydrogen evolution reaction case study"
+- id: torsionalgfn
+  status: workshop
+  title: "Torsional-GFN: a conditional conformation generator for small molecules"
+  authors:
+    - Alexandra Volokhova
+    - Léna Néhale Ezzine
+    - Piotr Gaiński
+    - Luca Scimeca
+    - Emmanuel Bengio
+    - Prudencio Tossou
+    - Yoshua Bengio
+    - Alex Hernandez-Garcia
+  venue: Generative for Biology, Workshop at ICML
+  year: 2025
+  url: https://arxiv.org/abs/2507.11759
+  arxiv: https://arxiv.org/abs/2507.11759
+
+- id: catalystgflownet
+  status: workshop
+  title: "Catalyst GFlowNet for electrocatalyst design: A hydrogen evolution reaction case study"
   authors:
     - Lena Podina
     - Christina Humer
@@ -108,36 +220,17 @@
     - Ali Ramlaoui
     - Shahana Chatterjee
     - Yoshua Bengio
+    - Alex Hernandez-Garcia
     - David Rolnick
-    - Alex Hernandez-Garcia
-    - Félix Therrien 
-  year: 2025
-  journal: arXiv:2510.02142
-  tags:
-    - tag: arXiv
-      link: https://arxiv.org/abs/2510.02142
-
-- title: "OBELiX: A curated dataset of crystal structures and experimentally measured ionic conductivities for lithium solid-state electrolytes"
-  authors:
     - Félix Therrien
-    - Jamal Abou Haibeh
-    - Divya Sharma
-    - Rhiannon Hendley
-    - Alex Hernandez-Garcia
-    - Sun Sun
-    - Alain Tchagang
-    - Jiang Su
-    - Samuel Huberman
-    - Yoshua Bengio
-    - Hongyu Guo
-    - Homin Shin
+  venue: AI for Accelerated Materials Design, Workshop at NeurIPS
   year: 2025
-  journal: arXiv:2502.14234
-  tags:
-    - tag: arXiv
-      link: https://arxiv.org/abs/2502.14234
+  url: https://arxiv.org/abs/2510.02142
+  arxiv: https://arxiv.org/abs/2510.02142
 
-- title: "Learning decision trees as amortized structure inference"
+- id: dtgfn
+  status: preprint
+  title: "Learning decision trees as amortized structure inference"
   authors:
     - Mohammed Mahfoud
     - Ghait Boukachab
@@ -146,67 +239,48 @@
     - Stefan Bauer
     - Yoshua Bengio
     - Nikolay Malkin
+  venue: arXiv:2503.06985
   year: 2025
-  journal: arXiv:2503.06985
-  tags:
-    - tag: arXiv
-      link: https://arxiv.org/abs/2503.06985
+  url: https://arxiv.org/abs/2503.06985
+  arxiv: https://arxiv.org/abs/2503.06985
 
-- title: "Improved off-policy reinforcement learning in biological sequence design"
-  authors:
-    - Hyeonah Kim
-    - Minsu Kim
-    - Taeyoung Yun
-    - Sanghyeok Choi
-    - Emmanuel Bengio
-    - Alex Hernandez-Garcia
-    - Jinkyoo Park
-  year: 2025
-  journal: International Conference on Machine Learning (ICML)
-  tags:
-    - tag: ICML
-      link: https://proceedings.mlr.press/v267/kim25q.html
-    - tag: arXiv
-      link: https://arxiv.org/abs/2410.04461
-
-- title: "Multi-Fidelity Active Learning with GFlowNets"
+- id: mfgfn
+  status: published
+  title: "Multi-fidelity active learning with GFlowNets"
   authors:
     - Alex Hernandez-Garcia
     - Nikita Saxena
     - Moksh Jain
     - Cheng-Hao Liu
     - Yoshua Bengio
+  venue: Transactions on Machine Learning Research
+  venue_acronym: TMLR
   year: 2024
-  journal: Transactions on Machine Learning Research (TMLR)
-  tags:
-    - tag: OpenReview
-      link: https://openreview.net/forum?id=dLaazW9zuF
-    - tag: arXiv
-      link: https://arxiv.org/abs/2306.11715
-    - tag: code
-      link: https://github.com/nikita-0209/mf-al-gfn
+  url: https://arxiv.org/abs/2306.11715
+  arxiv: https://arxiv.org/abs/2306.11715
+  code: https://github.com/nikita-0209/mf-al-gfn
+  openreview: https://openreview.net/forum?id=dLaazW9zuF
 
-- title: "Crystal-GFN: sampling crystals with desirable properties and constraints"
+- id: phast
+  status: published
+  title: "PhAST: physics-aware, scalable, and task-specific gnns for accelerated catalyst design"
   authors:
-    - Mila AI4Science
-    - Alex Hernandez-Garcia
     - Alexandre Duval
-    - Alexandra Volokhova
-    - Yoshua Bengio
-    - Divya Sharma
-    - Pierre Luc Carrier
-    - Yasmine Benabed
-    - Michał Koziarski
     - Victor Schmidt
-  year: 2023
-  journal: Neural Information Processing Systems (NeurIPS), Workshop on Accelerated Materials Design (AI4Mat)
-  tags:
-    - tag: arXiv
-      link: https://arxiv.org/abs/2310.04925
-    - tag: code
-      link: https://github.com/alexhernandezgarcia/gflownet
+    - Santiago Miret
+    - Yoshua Bengio
+    - Alex Hernandez-Garcia
+    - David Rolnick
+  venue: Journal of Machine Learning Research
+  venue_acronym: JMLR
+  year: 2024
+  url: https://jmlr.org/papers/v25/23-0680.html
+  arxiv: https://arxiv.org/abs/2211.12020
+  code: https://github.com/vict0rsch/phast
 
-- title: "Towards equilibrium molecular conformation generation with GFlowNets"
+- id: conformergfn
+  status: published
+  title: "Towards equilibrium molecular conformation generation with GFlowNets"
   authors:
     - Alexandra Volokhova
     - Michał Koziarski
@@ -218,143 +292,89 @@
     - Zichao Yan
     - Alán Aspuru-Guzik
     - Yoshua Bengio
+  venue: Digital Discovery, Royal Society of Chemistry
   year: 2024
-  journal: Digital Discovery, Royal Society of Chemistry
-  tags:
-    - tag: Digital Discovery
-      link: https://pubs.rsc.org/en/content/articlepdf/2024/DD/D4DD00023D
-    - tag: arXiv
-      link: https://arxiv.org/abs/2310.14782
-    - tag: code
-      link: https://github.com/alexhernandezgarcia/gflownet
+  url: https://pubs.rsc.org/en/content/articlepdf/2024/DD/D4DD00023D
+  arxiv: https://arxiv.org/abs/2310.14782
+  code: https://github.com/alexhernandezgarcia/gflownet
 
-- title: "On the importance of catalyst-adsorbate 3D interactions for relaxed energy predictions"
+- id: fnodownscaling
+  status: published
+  title: "Fourier neural operators for arbitrary resolution climate data downscaling"
   authors:
-    - Alvaro Carbonero
-    - Alexandre Duval
-    - Victor Schmidt
-    - Santiago Miret
-    - Alex Hernandez-Garcia
-    - Yoshua Bengio
-    - David Rolnick
-  year: 2023
-  journal: Neural Information Processing Systems (NeurIPS), Workshop on Accelerated Materials Design (AI4Mat)
-  tags:
-    - tag: arXiv
-      link: https://arxiv.org/abs/2310.06682
-
-- title: "GFlowNets for AI-driven scientific discovery"
-  authors:
-    - Moksh Jain
-    - Tristan Deleu
-    - Jason Hartford
-    - Cheng-Hao Liu
-    - Alex Hernandez-Garcia
-    - Yoshua Bengio
-  year: 2023
-  journal: Digital Discovery, Royal Society of Chemistry
-  tags:
-    - tag: Digital Discovery
-      link: https://pubs.rsc.org/en/content/articlehtml/2023/dd/d3dd00002h
-    - tag: arXiv
-      link: https://arxiv.org/abs/2302.00615
-
-- title: "Multi-variable hard physical constraints for climate model downscaling"
-  authors:
-    - Jose González-Abad
+    - Qidong Yang
     - Alex Hernandez-Garcia
     - Paula Harder
+    - Venkatesh Ramesh
+    - Prasanna Sattigeri
+    - Daniela Szwarcman
+    - Campbell D Watson
     - David Rolnick
-    - José Manuel Gutiérrez
+  venue: Journal of Machine Learning Research
+  venue_acronym: JMLR
   year: 2023
-  journal: arXiv:2308.01868
-  tags:
-    - tag: arXiv
-      link: https://arxiv.org/abs/2308.01868
+  url: https://jmlr.org/papers/v25/23-0597.html
+  arxiv: https://arxiv.org/abs/2305.14452
 
-- title: "FAENet: Frame Averaging Equivariant GNN for materials modeling"
+- id: downscalingconstraints
+  status: published
+  title: "Hard-constrained deep learning for climate downscaling"
   authors:
-    - Alexandre Duval
-    - Victor Schmidt
+    - Paula Harder
     - Alex Hernandez-Garcia
-    - Santiago Miret
-    - Fragkiskos D. Malliaros
-    - Yoshua Bengio
+    - Venkatesh Ramesh
+    - Qidong Yang
+    - Prasanna Sattegeri
+    - Daniela Szwarcman
+    - Campbell Watson
     - David Rolnick
+  venue: Journal of Machine Learning Research
+  venue_acronym: JMLR
   year: 2023
-  journal: International Conference on Machine Learning (ICML)
-  tags:
-    - tag: ICML
-      link: https://proceedings.mlr.press/v202/duval23a.html
-    - tag: arXiv
-      link: https://arxiv.org/abs/2305.05577
+  url: http://www.jmlr.org/papers/v24/23-0158.html
+  arxiv: https://arxiv.org/abs/2208.05424
 
-- title: "A theory of continuous generative flow networks"
+- id: continuousgfn
+  status: published
+  title: "A theory of continuous generative flow networks"
   authors:
     - Salem Lahlou
     - Tristan Deleu
     - Pablo Lemos
     - Dinghuai Zhang
     - Alexandra Volokhova
-    - Alex Hernandez-Garcia
+    - Alex Hernandez-Garcıa
     - Léna Néhale Ezzine
     - Yoshua Bengio
     - Nikolay Malkin
+  venue: International Conference on Machine Learning
+  venue_acronym: ICML
   year: 2023
-  journal: International Conference on Machine Learning (ICML)
-  tags:
-    - tag: ICML
-      link: https://proceedings.mlr.press/v202/lahlou23a.html
-    - tag: arXiv
-      link: https://arxiv.org/abs/2301.12594
-    - tag: code
-      link: https://github.com/alexhernandezgarcia/gflownet
+  url: https://proceedings.mlr.press/v202/lahlou23a.html
+  arxiv: https://arxiv.org/abs/2301.12594
+  code: https://github.com/alexhernandezgarcia/gflownet
 
-- title: "Fourier Neural Operators for arbitrary resolution climate data downscaling"
-  authors:
-    - Qidong Yang
-    - Alex Hernandez-Garcia
-    - Paula Harder
-    - Venkatesh Ramesh
-    - Prasanna Sattegeri
-    - Daniela Szwarcman
-    - Campbell D. Watson
-    - David Rolnick
-  year: 2023
-  journal: Journal of Machine Learning Research (JMLR)
-  tags:
-    - tag: JMLR
-      link: http://jmlr.org/papers/v25/23-0597.html
-    - tag: arXiv
-      link: https://arxiv.org/abs/2305.14452
-
-- title: "Counting carbon: A survey of factors influencing the emissions of machine learning"
-  authors:
-    - Sasha Luccioni
-    - Alex Hernandez-Garcia
-  year: 2023
-  journal: arXiv:2302.08476
-  tags:
-    - tag: arXiv
-      link: https://arxiv.org/abs/2302.08476
-
-- title: "PhAST: physics-aware, scalable, and task-specific GNNs for accelerated catalyst design"
+- id: faenet
+  status: published
+  title: "FAENet: Frame averaging equivariant GNN for materials modeling"
   authors:
     - Alexandre Duval
     - Victor Schmidt
-    - Santiago Miret
-    - Yoshua Bengio
     - Alex Hernandez-Garcia
+    - Santiago Miret
+    - Fragkiskos D Malliaros
+    - Yoshua Bengio
     - David Rolnick
-  year: 2024
-  journal: Journal of Machine Learning Research (JMLR)
-  tags:
-    - tag: JMLR
-      link: https://jmlr.org/papers/v25/23-0680.html
-    - tag: arXiv
-      link: https://arxiv.org/abs/2211.12020
+  venue: International Conference on Machine Learning
+  venue_acronym: ICML
+  year: 2023
+  url: https://proceedings.mlr.press/v202/duval23a.html
+  arxiv: https://arxiv.org/abs/2305.05577
+  code: https://github.com/vict0rsch/faenet
 
-- title: "Multi-Objective GFlowNets"
+- id: mogfn
+  status: published
+  title: "Multi-objective GFlowNets"
   authors:
     - Moksh Jain
     - Sharath Chandra Raparthy
@@ -363,73 +383,118 @@
     - Yoshua Bengio
     - Santiago Miret
     - Emmanuel Bengio
+  venue: International Conference on Machine Learning
+  venue_acronym: ICML
   year: 2023
-  journal: International Conference on Machine Learning (ICML)
-  tags:
-    - tag: ICML
-      link: https://proceedings.mlr.press/v202/jain23a.html
-    - tag: arXiv
-      link: https://arxiv.org/abs/2210.12765
+  url: https://proceedings.mlr.press/v202/jain23a.html
+  arxiv: https://arxiv.org/abs/2210.12765
 
-- title: "Diversifying design of nucleic acid aptamers using unsupervised machine learning"
+- id: gfnreview
+  status: published
+  title: "GFlowNets for AI-driven scientific discovery"
   authors:
-    - Siba Moussa
-    - Michael Kilgour
-    - Clara Jans
+    - Moksh Jain
+    - Tristan Deleu
+    - Jason Hartford
+    - Cheng-Hao Liu
     - Alex Hernandez-Garcia
-    - Miroslava Cuperlovic-Culf
     - Yoshua Bengio
-    - Lena Simine
-  year: 2022
-  journal: Journal of Physical Chemistry B
-  tags:
-    - tag: ACS
-      link: https://pubs.acs.org/doi/10.1021/acs.jpcb.2c05660
-    - tag: arXiv
-      link: https://arxiv.org/abs/2208.05341
-
-- title: "Hard-constrained deep learning for climate downscaling "
-  authors:
-    - Paula Harder
-    - Alex Hernandez-Garcia
-    - Venkatesh Ramesh
-    - Qidong Yang
-    - Prasanna Sattigeri
-    - Daniela Szwarcman
-    - Campbell Watson
-    - David Rolnick
+  venue: Digital Discovery, Royal Society of Chemistry
   year: 2023
-  journal: Journal of Machine Learning Research (JMLR)
-  tags:
-    - tag: JMLR
-      link: https://jmlr.org/papers/v24/23-0158.html
-    - tag: arXiv
-      link: https://arxiv.org/abs/2208.05424
+  url: https://pubs.rsc.org/en/content/articlehtml/2023/dd/d3dd00002h
+  arxiv: https://arxiv.org/abs/2302.00615
 
-- title: "Biological sequence design with GFlowNets"
+- id: crystalgfn
+  status: workshop
+  title: "Crystal-GFN: sampling crystals with desirable properties and constraints"
+  authors:
+    - Mila AI4Science
+    - Alex Hernandez-Garcia
+    - Alexandre Duval
+    - Alexandra Volokhova
+    - Yoshua Bengio
+    - Divya Sharma
+    - Pierre Luc Carrier
+    - Yasmine Benabed
+    - Michał Koziarski
+    - Victor Schmidt
+  venue: AI4Mat, Workshop at NeurIPS
+  year: 2023
+  url: https://arxiv.org/abs/2310.04925
+  arxiv: https://arxiv.org/abs/2310.04925
+  code: https://github.com/alexhernandezgarcia/gflownet
+  notes: Spotlight, 45 citations on Google Scholar (July, 2026)
+  tags:
+    - tag: Spotlight
+
+- id: catalystadsorbateinteractions
+  status: workshop
+  title: "On the importance of catalyst-adsorbate 3D interactions for relaxed energy predictions"
+  authors:
+    - Alvaro Carbonero
+    - Alexandre Duval
+    - Victor Schmidt
+    - Santiago Miret
+    - Alex Hernandez-Garcia
+    - Yoshua Bengio
+    - David Rolnick
+  venue: AI4Mat, Workshop at NeurIPS
+  year: 2023
+  url: https://arxiv.org/abs/2310.06682
+  arxiv: https://arxiv.org/abs/2310.06682
+
+- id: countingcarbon
+  status: preprint
+  title: "Counting carbon: A survey of factors influencing the emissions of machine learning"
+  authors:
+    - Alexandra Sasha Luccioni
+    - Alex Hernandez-Garcia
+  venue: arXiv:2302.08476
+  year: 2023
+  url: https://arxiv.org/abs/2302.08476
+  arxiv: https://arxiv.org/abs/2302.08476
+  notes: 155 citations on Google Scholar (July, 2026)
+
+- id: downscalingmulticonstraints
+  status: conference
+  title: "Multi-variable hard physical constraints for climate model downscaling"
+  authors:
+    - Jose González-Abad
+    - Alex Hernandez-Garcia
+    - Paula Harder
+    - David Rolnick
+    - José Manuel Gutiérrez
+  venue: AAAI Symposium Series
+  year: 2023
+  url: https://ojs.aaai.org/index.php/AAAI-SS/article/view/27650
+  arxiv: https://arxiv.org/abs/2308.01868
+
+- id: bioseqgfn
+  status: published
+  title: "Biological sequence design with GFlowNets"
   authors:
     - Moksh Jain
     - Emmanuel Bengio
     - Alex Hernandez-Garcia
     - Jarrid Rector-Brooks
-    - Bonaventure F. P. Dossou
-    - Chanakya Ekbote
+    - Bonaventure FP Dossou
+    - Chanakya Ajit Ekbote
     - Jie Fu
     - Tianyu Zhang
-    - Micheal Kilgour
+    - Michael Kilgour
     - Dinghuai Zhang
     - Lena Simine
     - Payel Das
     - Yoshua Bengio
-  year: 2023
-  journal: International Conference on Machine Learning (ICML)
-  tags:
-    - tag: ICML
-      link: https://proceedings.mlr.press/v162/jain22a.html
-    - tag: arXiv
-      link: https://arxiv.org/abs/2203.04115
+  venue: International Conference on Machine Learning
+  venue_acronym: ICML
+  year: 2022
+  url: https://proceedings.mlr.press/v162/jain22a.html
+  arxiv: https://arxiv.org/abs/2203.04115
 
-- title: "ClimateGAN: Raising climate change awareness by generating images of floods"
+- id: climategan
+  status: published
+  title: "ClimateGAN: Raising climate change awareness by generating images of floods"
   authors:
     - Victor Schmidt
     - Alexandra Sasha Luccioni
@@ -442,30 +507,38 @@
     - Vahe Vardanyan
     - Alex Hernandez-Garcia
     - Yoshua Bengio
+  venue: International Conference on Learning Representations
+  venue_acronym: ICLR
   year: 2022
-  journal: International Conference on Learning Representations (ICLR)
+  url: https://arxiv.org/abs/2110.02871
+  arxiv: https://arxiv.org/abs/2110.02871
+  openreview: https://openreview.net/forum?id=EZNOb_uNpJk
+  code: https://github.com/cc-ai/climategan
   tags:
-    - tag: arXiv
-      link: https://arxiv.org/abs/2110.02871
-    - tag: OpenReview
-      link: https://openreview.net/forum?id=EZNOb_uNpJk
-    - tag: ICLR
+    - tag: Video
       link: https://iclr.cc/virtual/2022/poster/6224
+    - tag: Website
+      link: https://thisclimatedoesnotexist.com/
 
-- title: Computational methods for continuous eye-tracking perimetry based on spatio-temporal integration and a deep recurrent neural network
+- id: dnaml
+  status: published
+  title: "Diversifying design of nucleic acid aptamers using unsupervised machine learning"
   authors:
-    - Alessandro Grillini
+    - Siba Moussa
+    - Michael Kilgour
+    - Clara Jans
     - Alex Hernandez-Garcia
-    - Remco J. Renken
-    - Giorgia Demaria
-    - Frans W. Cornelissen
-  year: 2021
-  journal: Frontiers in Neuroscience
-  tags:
-    - tag: Frontiers in Neuroscience
-      link: https://www.frontiersin.org/articles/10.3389/fnins.2021.650540/full
+    - Miroslava Cuperlovic-Culf
+    - Yoshua Bengio
+    - Lena Simine
+  venue: The Journal of Physical Chemistry B
+  year: 2022
+  url: https://pubs.acs.org/doi/10.1021/acs.jpcb.2c05660
+  arxiv: https://arxiv.org/abs/2208.05341
 
-- title: Benchmark of data processing methods and machine learning models for gut microbiome-based diagnosis of inflammatory bowel disease
+- id: microbiomeml
+  status: published
+  title: "Benchmark of data processing methods and machine learning models for gut microbiome-based diagnosis of inflammatory bowel disease"
   authors:
     - Ryszard Kubinski
     - Jean-Yves Djamen-Kepaou
@@ -475,29 +548,47 @@
     - Falk Hildebrand
     - Tamas Korcsmaros
     - Sani Karam
-    - Prevost Jantchou
+    - Prévost Jantchou
     - Kamran Kafi
-    - Ryan D. Martin
+    - Ryan D Martin
+  venue: Frontiers in Genetics
   year: 2022
-  journal: Frontiers in Genetics
-  tags:
-    - tag: bioRxiv
-      link: https://www.biorxiv.org/content/10.1101/2021.05.03.442488v1
-    - tag: Frontiers in Genetics
-      link: https://www.frontiersin.org/articles/10.3389/fgene.2022.784397/full
+  url: https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2022.784397/full
+  biorxiv: https://www.biorxiv.org/content/10.1101/2021.05.03.442488v1
 
-- title: "Rethinking supervised learning: insights from biological learning and from calling it by its name"
+- id: eyetrackingml
+  status: published
+  title: "Computational methods for continuous eye-tracking perimetry based on spatio-temporal integration and a deep recurrent neural network"
+  authors:
+    - Alessandro Grillini
+    - Alex Hernandez-Garcia
+    - Remco J Renken
+    - Giorgia Demaria
+    - Frans W Cornelissen
+  venue: Frontiers in Neuroscience
+  year: 2021
+  url: https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2021.650540/full
+
+- id: globalsalience
+  status: published
+  title: "Global visual salience of competing stimuli"
   authors:
     - Alex Hernandez-Garcia
+    - Ricardo Ramos Gameiro
+    - Alessandro Grillini
+    - Peter König
+  venue: Journal of Vision
   year: 2020
-  journal: Neural Information Processing Systems (NeurIPS), Workshop on Shared visual representations between humans and machines (SVRHM)
+  url: https://jov.arvojournals.org/article.aspx?articleid=2770513
+  psyarxiv: https://psyarxiv.com/z7qp5/
+  code: https://github.com/alexhernandezgarcia/global-salience
   tags:
-    - tag: OpenReview
-      link: https://openreview.net/forum?id=TtlTPau3Cgo
-    - tag: arXiv
-      link: https://arxiv.org/abs/2012.02526
+    - tag: Twitter
+      link: https://twitter.com/alexhdezgcia/status/1307971963206410240
 
-- title: A machine learning pipeline to predict vegetation health
+- id: vegetationhealth
+  status: workshop
+  title: "A machine learning pipeline to predict vegetation health"
   authors:
     - Thomas Lees
     - Gabriel Tseng
@@ -505,126 +596,126 @@
     - Clement Atzberger
     - Simon Dadson
     - Steven Reece
+  venue: Tackling climate change with machine learning, Workshop at ICLR
   year: 2020
-  journal: International Conference on Learning Representations (ICLR), Workshop on Tackling climate change with machine learning
+  url: https://www.climatechange.ai/papers/iclr2020/4/paper.pdf
+  code: https://github.com/ml-clim/drought-prediction
   tags:
-    - tag: PDF
-      link: https://www.climatechange.ai/papers/iclr2020/4/paper.pdf
-    - tag: code
-      link: https://github.com/ml-clim/drought-prediction
-  misc: Spotlight
+    - tag: Spotlight
 
-- title: Learning representational invariance instead of categorization
+- id: rethinkingsupervisedlearning
+  status: workshop
+  title: "Rethinking supervised learning: insights from biological learning and from calling it by its name"
   authors:
     - Alex Hernandez-Garcia
-    - Peter König
-  year: 2019
-  journal: International Conference on Computer Vision (ICCV), Workshop on pre-registration in Computer Vision
-  tags:
-    - tag: PDF
-      link: http://openaccess.thecvf.com/content_ICCVW_2019/papers/PreReg/Hernandez-Garcia_Learning_Representational_Invariance_Instead_of_Categorization_ICCVW_2019_paper.pdf
-    - tag: code
-      link: https://github.com/alexhernandezgarcia/data-aug-invariance/
-
-- title: Global visual salience of competing stimuli
-  authors:
-    - Alex Hernandez-Garcia
-    - Ricardo Ramos Gameiro
-    - Alessandro Grillini
-    - Peter König
+  venue: Shared visual representations between humans and machines, Workshop at NeurIPS
+  venue_acronym: SVRHM
   year: 2020
-  journal: Journal of Vision
-  tags:
-    - tag: PsyArXiv
-      link: https://psyarxiv.com/z7qp5/
-    - tag: Journal of Vision
-      link: https://jov.arvojournals.org/article.aspx?articleid=2770513
-    - tag: code
-      link: https://github.com/alexhernandezgarcia/global-salience
-    - tag: Twitter
-      link: https://twitter.com/alexhdezgcia/status/1307971963206410240
+  url: https://arxiv.org/abs/2012.02526
+  arxiv: https://arxiv.org/abs/2012.02526
+  openreview: https://openreview.net/forum?id=TtlTPau3Cgo
 
-- title: Learning robust visual representations using data augmentation invariance
+- id: dataaugmentationinvariance
+  status: conference
+  title: "Learning robust visual representations using data augmentation invariance"
   authors:
     - Alex Hernandez-Garcia
     - Peter König
-    - Tim C. Kietzmann
+    - Tim C Kietzmann
+  venue: Conference on Cognitive Computational Neuroscience
+  venue_acronym: CCN
   year: 2019
-  journal: arXiv:1906.04547
+  url: https://openreview.net/forum?id=B1elqkrKPH
+  arxiv: https://arxiv.org/abs/1906.04547
+  openreview: https://openreview.net/forum?id=B1elqkrKPH
+  code: https://github.com/alexhernandezgarcia/data-aug-invariance/
   tags:
-    - tag: OpenReview
-      link: https://openreview.net/forum?id=B1elqkrKPH
-    - tag: arXiv
-      link: https://arxiv.org/abs/1906.04547
-    - tag: code
-      link: https://github.com/alexhernandezgarcia/data-aug-invariance/
     - tag: BAICS @ ICLR 2020
       link: https://baicsworkshop.github.io/program/baics_3.html
     - tag: Video
       link: https://twitter.com/alexhdezgcia/status/1254126582517714950
 
-- title: Data augmentation instead of explicit regularization
+- id: representationalinvariance
+  status: workshop
+  title: "Learning representational invariance instead of categorization"
   authors:
     - Alex Hernandez-Garcia
     - Peter König
-  year: 2018
-  journal: arXiv:1806.03852
-  tags:
-    - tag: arXiv
-      link: https://arxiv.org/abs/1806.03852
-    - tag: code
-      link: https://github.com/alexhernandezgarcia/data-aug-invariance/
+  venue: Pre-registration in computer vision, Workshop at ICCV
+  year: 2019
+  url: http://openaccess.thecvf.com/content_ICCVW_2019/papers/PreReg/Hernandez-Garcia_Learning_Representational_Invariance_Instead_of_Categorization_ICCVW_2019_paper.pdf
+  code: https://github.com/alexhernandezgarcia/data-aug-invariance/
 
-- title: Deep neural networks trained with heavier data augmentation learn features closer to representations in hIT
-  authors: 
+- id: dataaugmentationcnns
+  status: published
+  title: "Further advantages of data augmentation on convolutional neural networks"
+  authors:
+    - Alex Hernandez-Garcia
+    - Peter König
+  venue: International Conference on Artificial Neural Networks
+  venue_acronym: ICANN
+  year: 2018
+  url: https://arxiv.org/abs/1906.11052
+  arxiv: https://arxiv.org/abs/1906.11052
+  code: https://github.com/alexhernandezgarcia/data-aug-invariance/
+  notes: Best Paper Award.
+  tags:
+    - tag: Best paper award
+
+- id: dataaugmentationregularization
+  status: preprint
+  title: "Data augmentation instead of explicit regularization"
+  authors:
+    - Alex Hernandez-Garcia
+    - Peter König
+  venue: arXiv:1806.03852
+  year: 2018
+  url: https://arxiv.org/abs/1806.03852
+  arxiv: https://arxiv.org/abs/1806.03852
+  code: https://github.com/alexhernandezgarcia/data-aug-invariance/
+  notes: 256 citations on Google Scholar (July, 2026)
+
+- id: weightdecaydropout
+  status: preprint
+  title: "Do deep nets really need weight decay and dropout?"
+  authors:
+    - Alex Hernandez-Garcia
+    - Peter König
+  venue: arXiv:1802.07042
+  year: 2018
+  url: https://arxiv.org/abs/1802.07042
+  arxiv: https://arxiv.org/abs/1802.07042
+  code: https://github.com/alexhernandezgarcia/data-aug-invariance/
+  notes: 44 citations on Google Scholar (July, 2026)
+
+- id: dataaugmentationhit
+  status: conference
+  title: "Deep neural networks trained with heavier data augmentation learn features closer to representations in hIT"
+  authors:
     - Alex Hernandez-Garcia
     - Johannes Mehrer
     - Nikolaus Kriegeskorte
     - Peter König
     - Tim C. Kietzmann
+  venue: Conference on Cognitive Computational Neuroscience
+  venue_acronym: CCN
   year: 2018
-  journal: Cognitive Computational Neuroscience (CCN)
-  tags:
-    - tag: PDF
-      link: https://ccneuro.org/2018/proceedings/1046.pdf
+  url: https://ccneuro.org/2018/proceedings/1046.pdf
 
-- title: Do deep nets really need weight decay and dropout?
-  authors: 
-    - Alex Hernandez-Garcia
-    - Peter König
-  year: 2018
-  journal: arXiv:1802.07042
-  tags:
-    - tag: arXiv
-      link: https://arxiv.org/abs/1802.07042
-    - tag: code
-      link: https://github.com/alexhernandezgarcia/data-aug-invariance/
-
-- title: Further advantages of data augmentation on convolutional neural networks
-  authors: 
-    - Alex Hernandez-Garcia
-    - Peter König
-  year: 2018
-  journal: International Conference on Artificial Neural Networks (ICANN)
-  tags:
-    - tag: arXiv
-      link: https://arxiv.org/abs/1906.11052
-    - tag: code
-      link: https://github.com/alexhernandezgarcia/data-aug-invariance/
-  misc: Best Paper Award
-
-- title: "Emotion and attention: predicting electrodermal activity through video visual descriptors"
-  authors: 
+- id: emotionattention
+  status: published
+  title: "Emotion and attention: predicting electrodermal activity through video visual descriptors"
+  authors:
     - Alex Hernandez-Garcia
     - Fernando Fernández-Martínez
     - Fernando Díaz de María
+  venue: International Conference on Web Intelligence
   year: 2017
-  journal: Int. Workshop on Affective Computing and Emotion Recognition (ACER)
-  tags:
-    - tag: PDF
-      link: https://www.researchgate.net/profile/Alex_Hernandez-Garcia/publication/318653700_Emotion_and_attention_predicting_electrodermal_activity_through_video_visual_descriptors/links/5a02dc7eaca2720df3cfad89/Emotion-and-attention-predicting-electrodermal-activity-through-video-visual-descriptors.pdf
+  url: https://dl.acm.org/doi/abs/10.1145/3106426.3109418
 
-- title: Exploiting visual saliency for assessing the impact of car commercials upon viewers
+- id: carcommercials
+  status: published
+  title: "Exploiting visual saliency for assessing the impact of car commercials upon viewers"
   authors: 
     - Fernando Fernández-Martínez
     - Alex Hernandez-Garcia
@@ -632,43 +723,41 @@
     - Iván González-Díaz
     - Álvaro García-Faura
     - Fernando Díaz de María
+  venue: Multimedia Tools and Applications
   year: 2017
-  journal: Multimedia Tools and Applications
-  tags:
-    - tag: paper
-      link: https://link.springer.com/article/10.1007/s11042-017-5339-9
+  url: https://link.springer.com/article/10.1007/s11042-017-5339-9
 
-- title: Comparing visual descriptors and automatic rating strategies for video aesthetics prediction
-  authors: 
+- id: videoaestheticsdescriptors
+  status: published
+  title: "Comparing visual descriptors and automatic rating strategies for video aesthetics prediction"
+  authors:
     - Alex Hernandez-Garcia
     - Fernando Fernández-Martínez
     - Fernando Díaz de María
+  venue: "Journal Signal Processing: Image Communication"
   year: 2016
-  journal: "Journal of Signal Processing: Image Communication"
-  tags:
-    - tag: paper
-      link: http://www.sciencedirect.com/science/article/pii/S0923596516301035
+  url: http://www.sciencedirect.com/science/article/pii/S0923596516301035
 
-- title: Succeeding metadata based annotation scheme and visual tips for the automatic assessment of video aesthetic quality in car commercials
-  authors: 
+- id: videoaesthetics
+  status: published
+  title: "Succeeding metadata based annotation scheme and visual tips for the automatic assessment of video aesthetic quality in car commercials"
+  authors:
     - Fernando Fernández-Martínez
     - Alex Hernandez-Garcia
     - Fernando Díaz de María
+  venue: Expert Systems with Applications
   year: 2015
-  journal: International Journal Expert Systems with Applications
-  tags:
-    - tag: paper
-      link: http://www.sciencedirect.com/science/article/pii/S0957417414004400
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0957417414004400
 
-- title: Combining audio-visual features for viewers’ perception classification of Youtube car commercials
+- id: audiovisualfeatures
+  status: conference
+  title: "Combining audio-visual features for viewers’ perception classification of Youtube car commercials"
   authors: 
     - Fernando Fernández-Martínez
     - Alex Hernandez-Garcia
     - Ascensión Gallardo-Antolín
     - Fernando Díaz de María
+  venue: Speech, Language and Audio in Multimedia
+  venue_acronym: SLAM
   year: 2014
-  journal: Speech, Language and Audio in Multimedia (SLAM)
-  tags:
-    - tag: paper
-      link: http://e-archivo.uc3m.es/handle/10016/21479#preview
-
+  url: http://e-archivo.uc3m.es/handle/10016/21479#preview
