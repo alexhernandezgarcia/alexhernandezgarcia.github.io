@@ -21,8 +21,16 @@
   const NO_CLASS_DAYS = ["2026-09-07", "2026-10-05", "2026-10-12", "2026-10-19", "2026-10-22"];
 
   // Quiz dates (must be on class days). Format: YYYY-MM-DD
-  // CHANGE THESE to your actual quiz dates.
   const QUIZ_DATES = ["2026-09-10", "2026-09-17", "2026-09-24", "2026-10-01", "2026-10-15"];
+
+  // Paper presentation dates (must be on class days). Format: YYYY-MM-DD
+  const PAPER_PRESENTATION_DATES = ["2026-11-02", "2026-11-05", "2026-11-12", "2026-11-16", "2026-11-19", "2026-11-23",  "2026-11-26"];
+
+  // Project presentation dates (must be on class days). Format: YYYY-MM-DD
+  const PROJECT_PRESENTATION_DATES = ["2026-11-30", "2026-12-03", "2026-12-07"];
+
+  // Project presentation dates (must be on class days). Format: YYYY-MM-DD
+  const GUEST_LECTURE_DATES = ["2026-10-26", "2026-11-09"];
 
   // Final deadline date(s). Format: YYYY-MM-DD
   const DEADLINES = ["2026-10-13", "2026-10-15", "2026-10-29"];
@@ -43,7 +51,10 @@
   const endDay = parseDate(END);
   const classDayNums = new Set(CLASS_DAYS.map(d => (dayNames.indexOf(d) + 1) % 7));
   const noclassdays  = new Set(NO_CLASS_DAYS);
-  const quizzes   = new Set(QUIZ_DATES);
+  const quizzes = new Set(QUIZ_DATES);
+  const paperPresentations = new Set(PAPER_PRESENTATION_DATES);
+  const projectPresentations = new Set(PROJECT_PRESENTATION_DATES);
+  const guestLectures = new Set(GUEST_LECTURE_DATES);
   const deadlines = new Set(DEADLINES);
 
   const table = document.getElementById("calendar-course");
@@ -82,12 +93,20 @@
 
         if (noclassdays.has(k)) {
           cls.push("noclass");
-          tagHtml = '<span class="tag">No class</span>';
         } else if (isClassDay) {
           cls.push("class");
           tagHtml = '<span class="tag tag-class">Class</span>';
           if (quizzes.has(k)) {
             tagHtml += '<span class="tag tag-quiz">Quiz</span>';
+          }
+          if (paperPresentations.has(k)) {
+            tagHtml += '<span class="tag tag-paper-presentation">Papers</span>';
+          }
+          if (projectPresentations.has(k)) {
+            tagHtml += '<span class="tag tag-project-presentation">Projects</span>';
+          }
+          if (guestLectures.has(k)) {
+            tagHtml += '<span class="tag tag-guest-lecture">Guest</span>';
           }
         }
         if (deadlines.has(k)) {

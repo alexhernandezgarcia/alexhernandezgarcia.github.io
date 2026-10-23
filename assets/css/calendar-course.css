@@ -9,10 +9,13 @@
 --class-tag-green: #34a853;
 --noclass-bg-red: #fdecea;
 --noclass-text: #d93025;
---quiz-blue: #4285f4;
---deadline-orange: #ff9000;
+--quiz-lightblue: #a8dadc;
+--paper-presentation-cyan: #457b9d;
+--project-presentation-lightgreen: #f1faee;
+--guestlecture-darkblue: #1d3557;
+--deadline-red: #e63946;
 --today-ring: #ff9800;
---tag-text: #fff;
+--tag-text-light: #fff;
 --shadow: rgba(0,0,0,0.08);
 }
 
@@ -28,10 +31,14 @@
   --class-tag-green: #4caf50;
   --noclass-bg-red: #3a1f1f;
   --noclass-text: #ef5350;
-  --quiz-blue: #64b5f6;
-  --deadline-orange: #ff9000;
+  --quiz-lightblue: #a8dadc;
+  --paper-presentation-cyan: #457b9d;
+  --project-presentation-lightgreen: #f1faee;
+  --guestlecture-darkblue: #1d3557;
+  --deadline-red: #e63946;
   --today-ring: #ffb74d;
-  --tag-text: #fff;
+  --tag-text-light: #fff;
+  --tag-text-dark: #4d4d4d;
   --shadow: rgba(0,0,0,0.3);
 }
 }
@@ -97,10 +104,16 @@ flex-wrap: wrap;
 gap: 0.4rem;
 }
 
-/* Deadline tag */
-.calendar-wrap .tag.tag-deadline { background: var(--deadline-orange); color: var(--tag-text); }
 /* Quiz tag */
-.calendar-wrap .tag.tag-quiz { background: var(--quiz-blue); color: var(--tag-text); }
+.calendar-wrap .tag.tag-quiz { background: var(--quiz-lightblue); color: var(--tag-text-dark); }
+/* Paper presentation tag */
+.calendar-wrap .tag.tag-paper-presentation { background: var(--paper-presentation-cyan); color: var(--tag-text-light); }
+/* Project presentation tag */
+.calendar-wrap .tag.tag-project-presentation { background: var(--project-presentation-lightgreen); color: var(--tag-text-dark); }
+/* Guest lecture tag */
+.calendar-wrap .tag.tag-guest-lecture { background: var(--guestlecture-darkblue); color: var(--tag-text-light); }
+/* Deadline tag */
+.calendar-wrap .tag.tag-deadline { background: var(--deadline-red); color: var(--tag-text-light); }
 
 /* Class day */
 .calendar-wrap td.class {
@@ -108,14 +121,14 @@ background: var(--class-bg-green);
 border-left: 3px solid var(--class-tag-green);
 }
 /* Class tag */
-.calendar-wrap td.class .tag-class { background: var(--class-tag-green); color: var(--tag-text); }
+.calendar-wrap td.class .tag-class { background: var(--class-tag-green); color: var(--tag-text-light); }
 
 /* No class / no class */
 .calendar-wrap td.noclass {
 background: var(--noclass-bg-red);
 border-left: 3px solid var(--noclass-text);
 }
-.calendar-wrap td.noclass .tag { background: var(--noclass-text); color: var(--tag-text); }
+.calendar-wrap td.noclass .tag { background: var(--noclass-text); color: var(--tag-text-light); }
 
 /* Today indicator */
 .calendar-wrap td.today::after {
@@ -145,5 +158,8 @@ border: 1px solid rgba(128,128,128,0.3);
 }
 .calendar-wrap .swatch.class { background: var(--class-bg-green); border-left: 3px solid var(--class-tag-green); }
 .calendar-wrap .swatch.noclass { background: var(--noclass-bg-red); border-left: 3px solid var(--noclass-text); }
-.calendar-wrap .swatch.quiz { background: var(--quiz-blue); }
-.calendar-wrap .swatch.deadline { background: var(--deadline-orange); }
+.calendar-wrap .swatch.quiz { background: var(--quiz-lightblue); }
+.calendar-wrap .swatch.paper-presentation { background: var(--paper-presentation-cyan); }
+.calendar-wrap .swatch.project-presentation { background: var(--project-presentation-lightgreen); }
+.calendar-wrap .swatch.guest-lecture { background: var(--guestlecture-darkblue); }
+.calendar-wrap .swatch.deadline { background: var(--deadline-red); }
