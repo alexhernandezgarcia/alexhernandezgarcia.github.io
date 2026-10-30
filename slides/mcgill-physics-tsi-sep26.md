@@ -195,6 +195,10 @@ We can see the backbone of AI models as computer programs that transform input d
 
 This is _literally_ exponential growth: If this was the growth of a financial investment of 100,000 dollars, in 5 years it would become more than 100 millions!
 
+???
+
+Update with data from https://arxiv.org/abs/2504.16026
+
 ---
 
 ## Why does AI consume so much energy ?
