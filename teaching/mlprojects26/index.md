@@ -3,7 +3,6 @@ layout : teaching
 navigation: navigation_mlprojects26
 title : IFT 3710/6759 H26 - Projets (avancés) en apprentissage automatique
 redirect_from :
-  - /mlprojects
   - /mlprojects26
   - /ift3710h26.html
   - /ift3710h26

@@ -1,26 +1,44 @@
-<article class="media">
-	<div class="media-content">
-		<div class="content">
-		<p>
-		<em>{{ item.title }}</em>. 
-		{% for author in item.authors %}
-      {% if author == site.title %}<b>{{ author }}</b>{% else %}{{ author }}{% endif %}{% if forloop.last == false %}, {% else %}.{% endif %}
-		{% endfor %}
-		{{ item.journal }}.
-		{{ item.year }}.
-		{% if item.misc %}
-      <b>{{ item.misc }}</b>
-		{% endif %}
-    {% if item.tags %}
-      {% for tag in item.tags %}
-        {% if tag.link %}
-          <a class="tag" href="{{ tag.link }}">{{ tag.tag }}</a>
-        {% else %}
-          <span class="tag">{{ tag.tag }}</span>
-        {% endif %}
-      {% endfor %}
-		{% endif %}
-		</p>
-		</div>
-	</div>
-</article>
+<div class="box">
+  <article class="media">
+    <div class="media-content">
+      <div class="content">
+        <div id="{{ item.id }}">
+          <div><a href="{{ item.url }}"><em>{{ item.title }}</em></a></div>
+          <div>&nbsp;
+          {% for author in item.authors %}
+          {% if author == site.title %}<b>{{ author }}</b>{% else %}{{ author }}{% endif %}{% if forloop.last == false %}, {% endif %}
+          {% endfor %}
+          </div>
+          <div>&nbsp;&nbsp;{{ item.venue }}{% if item.venue_acronym %} ({{ item.venue_acronym }}){% endif %}</div>
+          <div>&nbsp;&nbsp;{{ item.year }}</div>
+          <div>
+          {% if item.tags %}
+            {% for tag in item.tags %}
+              {% if tag.link %}
+                <a class="tag" href="{{ tag.link }}">{{ tag.tag }}</a>
+              {% else %}
+                <span class="tag">{{ tag.tag }}</span>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+          {% if item.arxiv %}
+              <a class="tag" href="{{ item.arxiv }}">arXiv</a>
+          {% endif %}
+          {% if item.bioarxiv %}
+              <a class="tag" href="{{ item.bioarxiv }}">bioRxiv</a>
+          {% endif %}
+          {% if item.psyarxiv %}
+              <a class="tag" href="{{ item.psyarxiv }}">PsyArXiv</a>
+          {% endif %}
+          {% if item.openreview %}
+              <a class="tag" href="{{ item.openreview }}">OpenReview</a>
+          {% endif %}
+          {% if item.code %}
+              <a class="tag" href="{{ item.code }}">Code</a>
+          {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+</div>
