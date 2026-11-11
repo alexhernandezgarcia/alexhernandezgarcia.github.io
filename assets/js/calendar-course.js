@@ -21,7 +21,7 @@
   const NO_CLASS_DAYS = ["2026-09-07", "2026-10-05", "2026-10-12", "2026-10-19", "2026-10-22"];
 
   // Quiz dates (must be on class days). Format: YYYY-MM-DD
-  const QUIZ_DATES = ["2026-09-10", "2026-09-17", "2026-09-24", "2026-10-01", "2026-10-15"];
+  const QUIZ_DATES = ["2026-09-10", "2026-09-17", "2026-09-24", "2026-10-01", "2026-10-15", "2026-11-12", "2026-11-19", "2026-11-26"];
 
   // Paper presentation dates (must be on class days). Format: YYYY-MM-DD
   const PAPER_PRESENTATION_DATES = ["2026-11-02", "2026-11-05", "2026-11-12", "2026-11-16", "2026-11-19", "2026-11-23",  "2026-11-26"];
