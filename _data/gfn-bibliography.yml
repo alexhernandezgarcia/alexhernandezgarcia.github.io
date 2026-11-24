@@ -477,6 +477,9 @@
     - tag: theory
     - tag: methods
     - tag: loss
+  notes:
+    - LED-GFN
+    - Partial inference
 
 - title: "Action abstractions for amortized sampling"
   authors:
